@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- MANDATORY: Declare support for both light and dark themes -->
+  <meta name="color-scheme" content="light dark" />
+  <title>Defense Technology Brief — Local App</title>
+  <style>
+    :root {
+      /* Light & Dark design tokens (Navy standard + Ops Console Cyan dark) */
+      --bg-light: #f4f7fa;
+      --bg-dark: #050d18;
+      --panel-light: #ffffff;
+      --panel-dark: #0a1b2e;
+      --panel2-light: #edf1f5;
+      --panel2-dark: #0e2540;
+      --border-light: #d7dee6;
+      --border-dark: #1b3a57;
+      --text-light: #1b2733;
+      --text-dark: #d6e4f0;
+      --muted-light: #4c6b8a;
+      --muted-dark: #8ca3b8;
+      --brand-light: #0b2545;
+      --brand-dark: #5cc8f5;
+      --amber-light: #b57219;
+      --amber-dark: #f0a93b;
+      --red-light: #b3261e;
+      --red-dark: #e5484d;
+
+      /* Fallback defaults for browsers without light-dark() */
+      --bg: var(--bg-light);
+      --panel: var(--panel-light);
+      --panel2: var(--panel2-light);
+      --border: var(--border-light);
+      --text: var(--text-light);
+      --muted: var(--muted-light);
+      --brand: var(--brand-light);
+      --amber: var(--amber-light);
+      --red: var(--red-light);
+      --scrollbar-track: #edf1f5;
+      --scrollbar-thumb: #8ca3b8;
+
+      @media (prefers-color-scheme: dark) {
+        --bg: var(--bg-dark);
+        --panel: var(--panel-dark);
+        --panel2: var(--panel2-dark);
+        --border: var(--border-dark);
+        --text: var(--text-dark);
+        --muted: var(--muted-dark);
+        --brand: var(--brand-dark);
+        --amber: var(--amber-dark);
+        --red: var(--red-dark);
+        --scrollbar-track: #0a1b2e;
+        --scrollbar-thumb: #2b4c6b;
+      }
+
+      @supports (color: light-dark(white, black)) {
+        --bg: light-dark(var(--bg-light), var(--bg-dark));
+        --panel: light-dark(var(--panel-light), var(--panel-dark));
+        --panel2: light-dark(var(--panel2-light), var(--panel2-dark));
+        --border: light-dark(var(--border-light), var(--border-dark));
+        --text: light-dark(var(--text-light), var(--text-dark));
+        --muted: light-dark(var(--muted-light), var(--muted-dark));
+        --brand: light-dark(var(--brand-light), var(--brand-dark));
+        --amber: light-dark(var(--amber-light), var(--amber-dark));
+        --red: light-dark(var(--red-light), var(--red-dark));
+        --scrollbar-track: light-dark(#edf1f5, #0a1b2e);
+        --scrollbar-thumb: light-dark(#8ca3b8, #2b4c6b);
+      }
+
+      /* MANDATORY: Apply color-scheme to :root for viewport-wide theming */
+      color-scheme: light dark;
+      accent-color: var(--brand);
+      scrollbar-width: thin;
+      scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+    }
+
+    @supports not (scrollbar-color: auto) {
+      ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--scrollbar-thumb);
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--scrollbar-track);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, system-ui, -apple-system, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header.top-band {
+      background-color: #0b2545;
+      color: #ffffff;
+      border-block-end: 4px solid #c8862b;
+      padding: 1.25rem 1.5rem;
+    }
+
+    .top-band-inner {
+      max-inline-size: 1320px;
+      margin-inline: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .eyebrow {
+      color: #f0a93b;
+      font-family: Consolas, monospace;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0.2rem 0;
+      font-size: 1.65rem;
+      letter-spacing: 0.02em;
+    }
+
+    .meta-bar {
+      font-family: Consolas, monospace;
+      font-size: 0.85rem;
+      color: #9be0fa;
+    }
+
+    .controls-bar {
+      background-color: var(--panel);
+      border-block-end: 1px solid var(--border);
+      padding: 0.85rem 1.5rem;
+      position: sticky;
+      inset-block-start: 0;
+      z-index: 10;
+    }
+
+    .controls-inner {
+      max-inline-size: 1320px;
+      margin-inline: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    select, input[type="search"], button.btn {
+      background-color: var(--panel2);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.45rem 0.75rem;
+      font-size: 0.9rem;
+    }
+
+    input[type="search"] {
+      flex: 1 1 240px;
+    }
+
+    button.btn {
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button.btn.active {
+      background-color: var(--brand);
+      color: var(--bg);
+      border-color: var(--brand);
+    }
+
+    main {
+      max-inline-size: 1320px;
+      margin-inline: auto;
+      padding: 1.5rem;
+    }
+
+    .section-card {
+      background-color: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.25rem;
+      margin-block-end: 1.5rem;
+    }
+
+    .section-title {
+      margin-block: 0 0.85rem;
+      font-size: 1.15rem;
+      color: var(--brand);
+      border-block-end: 2px solid var(--border);
+      padding-block-end: 0.4rem;
+    }
+
+    .bluf-list {
+      margin: 0;
+      padding-inline-start: 1.25rem;
+    }
+
+    .bluf-list li {
+      margin-block-end: 0.5rem;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 0.75rem;
+      margin-block-end: 1.5rem;
+    }
+
+    .stat-box {
+      background-color: var(--panel);
+      border: 1px solid var(--border);
+      border-block-start: 3px solid var(--brand);
+      border-radius: 4px;
+      padding: 0.85rem 1rem;
+    }
+
+    .stat-num {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--brand);
+      font-family: Consolas, monospace;
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-family: Consolas, monospace;
+    }
+
+    /* Responsive table per modern-web-guidance: responsive-table */
+    .table-wrapper {
+      overflow: auto;
+      max-inline-size: 100%;
+      max-block-size: min(460px, 75vh);
+      container-type: inline-size;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
+
+    table.overview-table {
+      inline-size: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      font-size: 0.86rem;
+      --label-2: "Headline";
+      --label-3: "Country";
+      --label-4: "Domain";
+      --label-5: "Type";
+      --label-6: "Priority";
+      --label-7: "Status";
+    }
+
+    table.overview-table thead {
+      position: sticky;
+      inset-block-start: 0;
+      z-index: 2;
+    }
+
+    table.overview-table th,
+    table.overview-table td {
+      padding: 0.55rem 0.7rem;
+      border-block-end: 1px solid var(--border);
+      text-align: start;
+      vertical-align: top;
+    }
+
+    table.overview-table thead th {
+      background-color: var(--panel2);
+      color: var(--brand);
+      font-family: Consolas, monospace;
+      font-weight: 700;
+    }
+
+    table.overview-table tbody th {
+      position: sticky;
+      inset-inline-start: 0;
+      background-color: var(--panel);
+      color: var(--brand);
+      font-family: Consolas, monospace;
+      z-index: 1;
+    }
+
+    @container (width < 600px) {
+      table.overview-table,
+      table.overview-table thead,
+      table.overview-table tbody,
+      table.overview-table tr,
+      table.overview-table th,
+      table.overview-table td {
+        display: block;
+      }
+      table.overview-table thead {
+        display: none;
+      }
+      table.overview-table tr {
+        margin-block-end: 1rem;
+        border: 1px solid var(--border);
+      }
+      table.overview-table tbody th {
+        position: sticky;
+        inset-block-start: 0;
+        z-index: 2;
+        background-color: var(--panel2);
+      }
+      table.overview-table td:nth-child(2)::before { content: var(--label-2) ": "; font-weight: 700; }
+      table.overview-table td:nth-child(3)::before { content: var(--label-3) ": "; font-weight: 700; }
+      table.overview-table td:nth-child(4)::before { content: var(--label-4) ": "; font-weight: 700; }
+      table.overview-table td:nth-child(5)::before { content: var(--label-5) ": "; font-weight: 700; }
+      table.overview-table td:nth-child(6)::before { content: var(--label-6) ": "; font-weight: 700; }
+      table.overview-table td:nth-child(7)::before { content: var(--label-7) ": "; font-weight: 700; }
+    }
+
+    /* Item cards & deferred off-screen rendering per modern-web-guidance: defer-rendering-heavy-content */
+    .item-card {
+      background-color: var(--panel);
+      border: 1px solid var(--border);
+      border-inline-start: 4px solid var(--brand);
+      border-radius: 6px;
+      padding: 1.15rem;
+      margin-block-end: 1rem;
+    }
+
+    .item-card.high-priority {
+      border-inline-start-color: var(--red);
+    }
+
+    .heavy-section-deferred {
+      content-visibility: auto;
+      contain-intrinsic-size: auto none auto 220px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-block-end: 0.5rem;
+    }
+
+    .badge {
+      font-family: Consolas, monospace;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      background-color: var(--panel2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .badge.high {
+      background-color: var(--red);
+      color: #ffffff;
+      border-color: var(--red);
+    }
+
+    .badge.warn {
+      background-color: var(--amber);
+      color: #050d18;
+      border-color: var(--amber);
+    }
+
+    .item-header {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-block: 0 0.65rem;
+    }
+
+    .item-body {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .item-body.has-photo {
+        grid-template-columns: 280px 1fr;
+      }
+    }
+
+    .photo-box img {
+      inline-size: 100%;
+      height: auto;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      display: block;
+    }
+
+    .photo-credit {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-block-start: 0.3rem;
+    }
+
+    .field-row {
+      margin-block-end: 0.45rem;
+      font-size: 0.92rem;
+    }
+
+    .field-label {
+      font-weight: 700;
+      color: var(--brand);
+    }
+
+    .sources-row {
+      margin-block-start: 0.6rem;
+      font-size: 0.85rem;
+    }
+
+    .sources-row a, .doc-links a {
+      color: var(--brand);
+      text-decoration: underline;
+    }
+
+    .source-note {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-style: italic;
+      margin-block-start: 0.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header class="top-band">
+    <div class="top-band-inner">
+      <div>
+        <div class="eyebrow" id="ui-eyebrow">OPEN SOURCE — UNCLASSIFIED</div>
+        <h1 id="ui-title">Defense Technology Digest</h1>
+        <div class="meta-bar" id="ui-meta">Loading feed...</div>
+      </div>
+      <div class="doc-links" id="ui-doc-links" style="font-size:0.88rem;"></div>
+    </div>
+  </header>
+
+  <section class="controls-bar" aria-label="Digest filters">
+    <div class="controls-inner">
+      <label>
+        <span id="lbl-date">Date:</span>
+        <select id="sel-date"></select>
+      </label>
+      <button type="button" class="btn active" id="btn-en">EN</button>
+      <button type="button" class="btn" id="btn-he">עברית</button>
+      <select id="sel-domain" aria-label="Filter by domain">
+        <option value="all">All Domains</option>
+        <option value="air">A. Air &amp; Missile Defense</option>
+        <option value="aerial">B. Aerial Platforms</option>
+        <option value="strike">C. Strike &amp; Missiles</option>
+        <option value="naval">D. Naval Warfare</option>
+      </select>
+      <select id="sel-priority" aria-label="Filter by priority">
+        <option value="all">All Priorities</option>
+        <option value="high">HIGH PRIORITY Only</option>
+      </select>
+      <select id="sel-tier" aria-label="Filter by treatment">
+        <option value="all">All Items (Full + Brief)</option>
+        <option value="full">Full Treatment Only</option>
+        <option value="brief">Briefly Noted Only</option>
+      </select>
+      <input type="search" id="inp-search" placeholder="Search systems, countries, primes, specs..." />
+    </div>
+  </section>
+
+  <main id="app-main"></main>
+
+  <script src="./feed_bundle.js"></script>
+  <script>
+    (function () {
+      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      let state = {
+        date: feed.dates[0] || "",
+        lang: "en",
+        domain: "all",
+        priority: "all",
+        tier: "all",
+        query: ""
+      };
+
+      const selDate = document.getElementById("sel-date");
+      const btnEn = document.getElementById("btn-en");
+      const btnHe = document.getElementById("btn-he");
+      const selDomain = document.getElementById("sel-domain");
+      const selPriority = document.getElementById("sel-priority");
+      const selTier = document.getElementById("sel-tier");
+      const inpSearch = document.getElementById("inp-search");
+      const mainEl = document.getElementById("app-main");
+
+      feed.dates.forEach((d) => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        selDate.appendChild(opt);
+      });
+
+      function isBrief(it) {
+        if (it.tier === "brief") return true;
+        const w = (it.why && it.why.en) || "";
+        return w.startsWith("Briefly noted in the digest");
+      }
+
+      function hid(id, he) {
+        if (!he) return id;
+        const map = { A: "א", B: "ב", C: "ג", D: "ד" };
+        return (map[id[0]] || id[0]) + id.slice(1);
+      }
+
+      function esc(str) {
+        const div = document.createElement("div");
+        div.textContent = str || "";
+        return div.innerHTML;
+      }
+
+      function render() {
+        const d = feed.digests[state.date];
+        const he = state.lang === "he";
+        document.documentElement.lang = he ? "he" : "en";
+        document.documentElement.dir = he ? "rtl" : "ltr";
+        btnEn.classList.toggle("active", !he);
+        btnHe.classList.toggle("active", he);
+
+        if (!d) {
+          mainEl.innerHTML = "<p>No digest data loaded. Run <code>python scripts/update_app_feed.py</code>.</p>";
+          return;
+        }
+
+        const allItems = d.items || [];
+        const highCount = allItems.filter((i) => i.priority === "high").length;
+        const fullCount = allItems.filter((i) => !isBrief(i)).length;
+        const briefCount = allItems.length - fullCount;
+
+        document.getElementById("ui-eyebrow").textContent = he
+          ? "מקור פתוח — בלתי מסווג"
+          : "OPEN SOURCE — UNCLASSIFIED";
+        document.getElementById("ui-title").textContent = he
+          ? "סקירת טכנולוגיות ביטחוניות"
+          : "Defense Technology Digest";
+        document.getElementById("ui-meta").textContent = he
+          ? `תאריך: ${d.date} · חלון: ${d.wstart} – ${d.wend} · ${allItems.length} פריטים (${highCount} בעדיפות גבוהה)`
+          : `Date: ${d.date} · Window: ${d.wstart} – ${d.wend} · ${allItems.length} items (${highCount} HIGH PRIORITY)`;
+
+        const docs = d.docs || {};
+        const docLinksHtml = [];
+        if (docs.en) docLinksHtml.push(`<a href="${esc(docs.en)}" target="_blank" rel="noopener" style="color:#9be0fa;margin-inline-end:12px;">Google Doc (EN)</a>`);
+        if (docs.he) docLinksHtml.push(`<a href="${esc(docs.he)}" target="_blank" rel="noopener" style="color:#9be0fa;">Google Doc (HE)</a>`);
+        document.getElementById("ui-doc-links").innerHTML = docLinksHtml.join("");
+
+        // Filter items
+        const q = state.query.trim().toLowerCase();
+        const filtered = allItems.filter((it) => {
+          if (state.domain !== "all" && it.domain !== state.domain) return false;
+          if (state.priority === "high" && it.priority !== "high") return false;
+          if (state.tier === "full" && isBrief(it)) return false;
+          if (state.tier === "brief" && !isBrief(it)) return false;
+          if (q) {
+            const hay = [
+              it.id,
+              it.country,
+              it.countryHe,
+              it.h && it.h.en,
+              it.h && it.h.he,
+              it.what && it.what.en,
+              it.what && it.what.he,
+              it.figs && it.figs.en,
+              it.figs && it.figs.he,
+              it.why && it.why.en,
+              it.why && it.why.he,
+              it.israel && it.israel.en,
+              it.israel && it.israel.he
+            ].join(" ").toLowerCase();
+            if (!hay.includes(q)) return false;
+          }
+          return true;
+        });
+
+        // Stats row
+        const domLabels = he
+          ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה", naval: "ימי" }
+          : { air: "AIR DEFENSE", aerial: "AERIAL", strike: "STRIKE", naval: "NAVAL" };
+
+        let html = `
+          <div class="stats-grid">
+            <div class="stat-box"><div class="stat-num">${filtered.length} / ${allItems.length}</div><div class="stat-label">${he ? "פריטים מוצגים" : "Items Shown"}</div></div>
+            <div class="stat-box"><div class="stat-num">${highCount}</div><div class="stat-label">${he ? "עדיפות גבוהה" : "High Priority"}</div></div>
+            <div class="stat-box"><div class="stat-num">${fullCount} / ${briefCount}</div><div class="stat-label">${he ? "מלא / בקצרה" : "Full / Brief"}</div></div>
+            <div class="stat-box"><div class="stat-num">${Object.keys(d.photos || {}).length}</div><div class="stat-label">${he ? "תמונות מקור" : "Source Photos"}</div></div>
+          </div>
+        `;
+
+        // BLUF
+        const bluf = (d.digest && d.digest.bluf && d.digest.bluf[state.lang]) || [];
+        if (bluf.length && !q && state.domain === "all") {
+          html += `
+            <section class="section-card">
+              <h2 class="section-title">${he ? "השורה התחתונה (BLUF)" : "Bottom Line Up Front (BLUF)"}</h2>
+              <ul class="bluf-list">
+                ${bluf.map((b) => `<li>${esc(b)}</li>`).join("")}
+              </ul>
+            </section>
+          `;
+        }
+
+        // Overview Table
+        const colNames = he
+          ? ["#", "כותרת", "מדינה", "תחום", "סוג", "עדיפות", "סטטוס"]
+          : ["#", "Headline", "Country", "Domain", "Type", "Priority", "Status"];
+        html += `
+          <section class="section-card">
+            <h2 class="section-title" id="overview-table-caption">${he ? "טבלת סקירה" : "Overview Table"} (${filtered.length})</h2>
+            <div tabindex="0" role="region" aria-labelledby="overview-table-caption" class="table-wrapper">
+              <table class="overview-table" style="--label-2:'${colNames[1]}';--label-3:'${colNames[2]}';--label-4:'${colNames[3]}';--label-5:'${colNames[4]}';--label-6:'${colNames[5]}';--label-7:'${colNames[6]}';">
+                <thead>
+                  <tr>${colNames.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>
+                </thead>
+                <tbody>
+                  ${filtered.map((it) => `
+                    <tr>
+                      <th><a href="#item-${it.id}" style="color:inherit;">${esc(hid(it.id, he))}</a></th>
+                      <td>${esc(it.h[state.lang])}</td>
+                      <td>${esc(he ? it.countryHe : it.country)}</td>
+                      <td>${esc(domLabels[it.domain])}</td>
+                      <td>${esc(he ? it.typeHe : it.type)}</td>
+                      <td>${it.priority === "high" ? `<strong style="color:var(--red);">${he ? "עדיפות גבוהה" : "HIGH PRIORITY"}</strong>` : esc(he ? "שגרתי" : "STANDARD")}</td>
+                      <td>${esc((it.statuses || []).join(" / "))}</td>
+                    </tr>
+                  `).join("")}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        `;
+
+        // Items list (first 3 items rendered immediately in initial viewport; remaining items use heavy-section-deferred)
+        const photos = d.photos || {};
+        filtered.forEach((it, idx) => {
+          const deferClass = idx >= 3 ? "heavy-section-deferred" : "";
+          const highClass = it.priority === "high" ? "high-priority" : "";
+          const pinfo = photos[it.id];
+          const hasPhoto = Boolean(pinfo && pinfo.local_src);
+          const brief = isBrief(it);
+
+          const badges = [
+            `<span class="badge ${it.priority === "high" ? "high" : ""}">${it.priority === "high" ? (he ? "עדיפות גבוהה" : "HIGH PRIORITY") : (he ? "שגרתי" : "STANDARD")}</span>`,
+            `<span class="badge">${esc(domLabels[it.domain])}</span>`,
+            `<span class="badge">${esc(he ? it.countryHe : it.country)}</span>`
+          ];
+          (it.statuses || []).forEach((s) => {
+            const warn = s !== "CONFIRMED" ? "warn" : "";
+            badges.push(`<span class="badge ${warn}">${esc(s)}</span>`);
+          });
+          if (brief) {
+            badges.push(`<span class="badge">${he ? "בקצרה" : "BRIEFLY NOTED"}</span>`);
+          }
+
+          let photoCol = "";
+          if (hasPhoto) {
+            const cred = he ? (pinfo.credit_he || pinfo.credit_en) : pinfo.credit_en;
+            photoCol = `
+              <div class="photo-box">
+                <img src="${esc(pinfo.local_src)}" alt="${esc(it.h[state.lang])}" loading="lazy" />
+                <div class="photo-credit">${esc(cred)} · <a href="${esc(pinfo.url)}" target="_blank" rel="noopener" style="color:inherit;">${he ? "מקור" : "Source"}</a></div>
+              </div>
+            `;
+          }
+
+          const srcLinks = (it.src || [])
+            .map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
+            .join(" · ");
+
+          html += `
+            <article class="item-card ${highClass} ${deferClass}" id="item-${it.id}">
+              <div class="badges">${badges.join("")}</div>
+              <h3 class="item-header">${esc(hid(it.id, he))}. ${esc(it.h[state.lang])}</h3>
+              <div class="item-body ${hasPhoto ? "has-photo" : ""}">
+                ${photoCol}
+                <div>
+                  <div class="field-row"><span class="field-label">${he ? "מה קרה: " : "What happened: "}</span>${esc(it.what[state.lang])}</div>
+                  ${!brief ? `
+                    <div class="field-row"><span class="field-label">${he ? "נתונים מרכזיים: " : "Key specs/figures: "}</span>${esc(it.figs[state.lang])}</div>
+                    <div class="field-row"><span class="field-label">${he ? "למה זה חשוב: " : "Why it matters: "}</span>${esc(it.why[state.lang])}</div>
+                    <div class="field-row"><span class="field-label">${he ? "השלכות לישראל: " : "Israel implications: "}</span>${esc(it.israel[state.lang])}</div>
+                  ` : ""}
+                  <div class="sources-row"><strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}</div>
+                  <div class="source-note">${esc(it.note && it.note[state.lang])}</div>
+                </div>
+              </div>
+            </article>
+          `;
+        });
+
+        mainEl.innerHTML = html;
+      }
+
+      selDate.addEventListener("change", (e) => { state.date = e.target.value; render(); });
+      btnEn.addEventListener("click", () => { state.lang = "en"; render(); });
+      btnHe.addEventListener("click", () => { state.lang = "he"; render(); });
+      selDomain.addEventListener("change", (e) => { state.domain = e.target.value; render(); });
+      selPriority.addEventListener("change", (e) => { state.priority = e.target.value; render(); });
+      selTier.addEventListener("change", (e) => { state.tier = e.target.value; render(); });
+      inpSearch.addEventListener("input", (e) => { state.query = e.target.value; render(); });
+
+      render();
+    })();
+  </script>
+</body>
+</html>
