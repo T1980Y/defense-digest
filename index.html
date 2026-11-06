@@ -431,6 +431,59 @@
       font-style: italic;
       margin-block-start: 0.2rem;
     }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--panel2);
+      border: 1px solid var(--border);
+      color: var(--brand);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.15s ease-in-out;
+      margin-inline-start: auto;
+    }
+    .share-btn:hover {
+      background: var(--border);
+      color: var(--text);
+    }
+    .item-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 6px;
+    }
+    .item-highlighted {
+      outline: 3px solid #f59e0b !important;
+      box-shadow: 0 0 25px rgba(245, 158, 11, 0.45) !important;
+      transition: outline 0.3s ease, box-shadow 0.3s ease;
+    }
+    #toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: #1a1b20;
+      color: #f1f5f9;
+      border: 1px solid #f59e0b;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: bold;
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.25s ease, opacity 0.25s ease;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    }
+    #toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
   </style>
 </head>
 <body>
@@ -474,14 +527,25 @@
   </section>
 
   <main id="app-main"></main>
+  <div id="toast" role="status" aria-live="polite"></div>
 
   <script src="./feed_bundle.js"></script>
   <script>
     (function () {
       const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      const urlParams = new URLSearchParams(window.location.search);
+      let initialDate = feed.dates[0] || "";
+      if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
+        initialDate = urlParams.get("date");
+      }
+      let initialLang = "en";
+      if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
+        initialLang = urlParams.get("lang");
+      }
+
       let state = {
-        date: feed.dates[0] || "",
-        lang: "en",
+        date: initialDate,
+        lang: initialLang,
         domain: "all",
         priority: "all",
         tier: "all",
@@ -503,6 +567,7 @@
         opt.textContent = d;
         selDate.appendChild(opt);
       });
+      selDate.value = state.date;
 
       function isBrief(it) {
         if (it.tier === "brief") return true;
@@ -678,9 +743,14 @@
             .map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
             .join(" · ");
 
+          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
+          const safeShareTitle = esc(shareTitle).replace(/'/g, "&#39;");
           html += `
             <article class="item-card ${highClass} ${deferClass}" id="item-${it.id}">
-              <div class="badges">${badges.join("")}</div>
+              <div class="item-top-bar">
+                <div class="badges">${badges.join("")}</div>
+                <button type="button" class="share-btn" onclick="shareItem('${it.id}', '${safeShareTitle}')" title="${he ? 'שתף ידיעה' : 'Share story'}">🔗 ${he ? 'שיתוף' : 'Share'}</button>
+              </div>
               <h3 class="item-header">${esc(hid(it.id, he))}. ${esc(it.h[state.lang])}</h3>
               <div class="item-body ${hasPhoto ? "has-photo" : ""}">
                 ${photoCol}
@@ -700,7 +770,43 @@
         });
 
         mainEl.innerHTML = html;
+
+        // Auto-scroll to item if hash present
+        if (window.location.hash) {
+          setTimeout(() => {
+            const el = document.querySelector(window.location.hash);
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth", block: "center" });
+              el.classList.add("item-highlighted");
+              setTimeout(() => el.classList.remove("item-highlighted"), 2500);
+            }
+          }, 150);
+        }
       }
+
+      function showToast(msg) {
+        const t = document.getElementById("toast");
+        if (!t) return;
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
+
+      window.shareItem = function(id, title) {
+        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#item-${id}`;
+        if (navigator.share) {
+          navigator.share({
+            title: title || "Defense Technology Digest",
+            text: title,
+            url: shareUrl
+          }).catch(() => {});
+        } else {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast(state.lang === "he" ? "הקישור הועתק ללוח!" : "Link copied to clipboard!");
+          });
+        }
+      };
 
       selDate.addEventListener("change", (e) => { state.date = e.target.value; render(); });
       btnEn.addEventListener("click", () => { state.lang = "en"; render(); });
