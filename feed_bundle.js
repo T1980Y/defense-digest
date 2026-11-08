@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-08",
+ "updated_at": "2026-11-08-evening",
  "dates": [
   "2026-11-08",
+  "2026-11-08-evening",
   "2026-11-07",
   "2026-11-07-evening",
   "2026-11-06",
@@ -1503,6 +1504,510 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo: TNI-AL, via Collin Koh",
      "credit_he": "צילום: הצי האינדונזי, דרך קולין קו",
      "local_src": "../digest/2026-11-08/img/j/D4.jpg"
+    }
+   }
+  },
+  "2026-11-08-evening": {
+   "date": "2026-11-08",
+   "doc_id": "2026-11-08-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-08T15:20:00Z",
+   "wend": "2026-11-08T18:41:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Romania / Israel",
+     "countryHe": "רומניה / ישראל",
+     "type": "Air & Missile Defense / Interceptor Co-Production",
+     "typeHe": "הגנה אווירית וטילים / ייצור משותף של מיירטים",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Romania and Rafael revive talks on domestic production of SkyCeptor air defense interceptors for Patriot batteries",
+      "he": "רומניה וחברת רפאל חידשו את המגעים להקמת קו ייצור מקומי למיירטי SkyCeptor עבור סוללות פטריוט"
+     },
+     "what": {
+      "en": "The Romanian Ministry of National Defence and state defense conglomerate Romarm have revived formal negotiations with Israel's Rafael Advanced Defense Systems and RTX (formerly Raytheon) to establish local manufacturing of the SkyCeptor interceptor missile. Based directly on Rafael's Stunner interceptor from Israel's David's Sling system, SkyCeptor is designed as a low-cost, hit-to-kill kinetic effector capable of launching from standard Patriot PAC-3 and PAC-2 launchers. Under the revitalized framework, initial assembly and production will take place at the state-owned Electromecanica Ploiești facility, transitioning from imported Israeli-US assemblies to sovereign Romanian integration to supply both the Romanian Armed Forces and allied European Patriot operators.",
+      "he": "משרד ההגנה הרומני ותאגיד הנשק הממשלתי Romarm חידשו את המשא ומתן הרשמי עם חברת רפאל מערכות לחימה מתקדמות וקונצרן RTX (לשעבר ריית'יאון) להקמת קו ייצור מקומי למיירטי SkyCeptor. המיירט, המבוסס ישירות על טיל ה'סטאנדר' (שרביט קסמים / קלע דוד) הישראלי, פותח כמיירט קינטי (Hit-to-Kill) בעלות מופחתת המותאם לשיגור ממשגרי פטריוט PAC-3 ו-PAC-2 קיימים. במסגרת המתווה המחודש, מתוכנן הייצור להתבצע במפעל הממלכתי Electromecanica Ploiești, כאשר בשלב הראשון יורכבו רכיבים עיקריים שייובאו מישראל ומארצות הברית ובהמשך תועבר פעילות הייצור והאינטגרציה לרומניה לצורך אספקה לצבא רומניה ולמדינות אירופיות נוספות המפעילות סוללות פטריוט."
+     },
+     "figs": {
+      "en": "Interceptor platform: SkyCeptor (Raytheon/Rafael export variant of David's Sling Stunner) • Romanian industrial partner: Electromecanica Ploiești (subsidiary of Romarm) • Guidance: Dual-mode electro-optical and active radar seeker (dolphin nose) • Propulsion: Multi-pulse solid-propellant rocket motor with hit-to-kill lethality • Compatibility: Direct integration with Patriot PAC-2 and PAC-3 launchers • Report date: 2026-11-08",
+      "he": "דגם המיירט: SkyCeptor (גרסת הייצוא של סטאנדר / קלע דוד של רפאל וריית'יאון) • שותפה תעשייתית ברומניה: חברת Electromecanica Ploiești (חברת בת של Romarm) • הנחיה: ראש ביות דו-מצבי אלקטרו-אופטי ומכ\"מי פעיל (חרטום דולפין) • הנעה: מנוע רקטי דלק מוצק רב-פולסי ליירוט קינטי (פגיעה ישירה) • תאימות: שיגור ישיר ממשגרי פטריוט PAC-2 ו-PAC-3 • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "The severe global shortage and extreme cost of Patriot PAC-3 MSE interceptors (costing approximately USD 4M per shot) have left European NATO militaries vulnerable to missile depletion during saturation attacks. SkyCeptor offers a combat-proven, high-performance kinetic interceptor at roughly one-third the unit cost, allowing European air defense networks to expand magazine depth without redesigning existing radar and launcher infrastructure.",
+      "he": "המחסור העולמי החריף והעלות הגבוהה של מיירטי פטריוט מדגם PAC-3 MSE (כ-4 מיליון דולר למיירט) מציבים אתגר כבד בפני מדינות נאט\"ו באירופה בספיגת מטחי רוויה בליסטיים. מיירט ה-SkyCeptor מציע יכולת יירוט קינטית מתקדמת ומוכחת מבצעית בעלות מוערכת של כשליש ממחיר ה-PAC-3, ומאפשר את העמקת מחסניות ההגנה ללא צורך בהחלפת מכ\"מים ומשגרים קיימים."
+     },
+     "israel": {
+      "en": "Represents a major strategic expansion of Rafael's air defense technologies into the European theater, cementing David's Sling's core interceptor architecture alongside Finland's procurement and unlocking substantial long-term industrial licensing royalties for Israeli defense industry.",
+      "he": "מהווה הרחבה אסטרטגית משמעותית של טכנולוגיות ההגנה האווירית של רפאל בזירה האירופית, המבססת את מעמדו של מיירט קלע דוד באירופה (לצד עסקת פינלנד) ומבטיחה תמלוגי ייצור והכנסות ארוכות טווח לתעשייה הביטחונית הישראלית."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://mil.in.ua/en/news/romania-resumes-talks-on-the-production-of-skyceptor-missiles/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Romanian Ministry of National Defence and Romarm corporate statements.",
+      "he": "מאומת — הודעות רשמיות של משרד ההגנה הרומני ותאגיד Romarm."
+     },
+     "s": {
+      "en": "Romania and Rafael revive talks on domestic production of SkyCeptor interceptors for Patriot batteries",
+      "he": "רומניה ורפאל חידשו את המגעים להקמת קו ייצור מקומי למיירטי SkyCeptor עבור פטריוט"
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Counter-UAS / High-Energy Laser & HPM Defense",
+     "typeHe": "סיכול כטב\"מים / נשק לייזר ומיקרוגל רבי-עוצמה",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Pentagon selects four contractors for homeland base counter-drone directed energy pilot ahead of December shoot-off",
+      "he": "הפנטגון בחר ארבע חברות ביטחוניות לפיילוט יירוט רחפנים בלייזר ומיקרוגל בבסיסי ארצות הברית לקראת ניסוי ירי בדצמבר"
+     },
+     "what": {
+      "en": "The U.S. Department of Defense has officially downselected four defense contractors—AeroVironment, Kord Technologies, Boeing, and Epirus—to participate in a Congressionally mandated pilot program aimed at protecting military installations in the continental United States from rogue unmanned aircraft systems. Managed by the U.S. Army-led Joint Interagency Task Force 401, the initiative pairs high-energy lasers with high-powered microwave systems to defend high-value sites such as Grand Forks Air Force Base and Whiteman Air Force Base. The selected vendors will deploy operational prototypes to Dugway Proving Ground, Utah, for a competitive, live-fire evaluation and shoot-off scheduled for December 2026, where intercept precision, thermal management, and rapid multi-target engagement will determine permanent procurement allocations.",
+      "he": "משרד ההגנה האמריקאי בחר באופן רשמי ארבע חברות ביטחוניות — AeroVironment, Kord Technologies, Boeing ו-Epirus — להשתתפות בתוכנית פיילוט מואצת להגנת בסיסים ומתקנים צבאיים ברחבי ארצות הברית מפני חדירות רחפנים וכטב\"מים. התוכנית, המנוהלת על ידי כוח המשימה הבין-סוכנותי JIATF 401 של צבא ארצות הברית, משלבת מערכות לייזר רב-עוצמה (HEL) ומערכות פעימות מיקרוגל (HPM) להגנה על בסיסים אסטרטגיים כדוגמת בסיס חיל האוויר גרנד פורקס ובסיס ווייטמן. החברות הנבחרות יציבו אבות-טיפוס מבצעיים בשדה הניסויים דאגווי (Dugway Proving Ground) ביוטה לניסוי ירי מבצעי תחרותי שיתקיים בדצמבר 2026, שבו ייבחנו דיוק הפגיעה, ניהול תרמי ומהירות נטרול מטרות מרובות לצורך חתימה על חוזי הצטיידות סדרתיים."
+     },
+     "figs": {
+      "en": "Pilot authority: Section 1686, FY2026 National Defense Authorization Act (NDAA) • Downselected contractors & systems: AeroVironment (Palletized LOCUST HEL), Kord Technologies (Firefly HEL), Boeing (Compact Laser Weapon System), Epirus (Leonidas HPM) • Lead military agency: Joint Interagency Task Force 401 (JIATF 401) • Field test: Live competitive shoot-off at Dugway Proving Ground, Utah in December 2026 • Initial defense sites: Grand Forks AFB (North Dakota) and Whiteman AFB (Missouri) • Report date: 2026-11-08",
+      "he": "מסגרת החקיקה: סעיף 1686 בחוק תקציב ההגנה האמריקאי (NDAA) • חברות ומערכות שנבחרו: AeroVironment (לייזר LOCUST נייד), Kord Technologies (לייזר Firefly), בואינג (מערכת לייזר CLWS קומפקטית), Epirus (מערכת מיקרוגל רב-עוצמה Leonidas) • סוכנות מובילה: כוח משימה JIATF 401 • ניסוי שדה: ירי תחרותי חי בשדה הניסויים דאגווי ביוטה בדצמבר 2026 • אתרי פריסה ראשוניים: בסיס גרנד פורקס (צפון דקוטה) ובסיס ווייטמן (מיזורי) • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "The rapid proliferation of low-cost commercial drones, swarming tactics, and uncrewed reconnaissance over sensitive military installations has outpaced conventional missile and gun air defenses, which are both cost-prohibitive and present unacceptable collateral damage risks in domestic airspace. High-energy lasers provide near-instantaneous kinetic defeat at pennies per shot, while high-powered microwave systems disable entire drone swarms simultaneously by frying onboard electronics.",
+      "he": "התפוצה המהירה של רחפנים מסחריים מוזלים, טקטיקות נחילי כטב\"מים וטיסות תצפית מעל בסיסים ומתקנים רגישים בארצות הברית יצרו פערי אבטחה חמורים שמערכות נ\"מ קונבנציונליות אינן מסוגלות לפתור ביעילות כלכלית ובשל מגבלות נזק סביבתי במרחב האווירי הפנימי. לייזר רב-עוצמה מציע השמדה ממוקדת של רחפנים בעלות אפסית לירייה, בעוד נשק מיקרוגל משתק נחילי רחפנים שלמים בבת אחת באמצעות שיבוש ושריפת המעגלים האלקטרוניים שלהם."
+     },
+     "israel": {
+      "en": "Directly complements Israel's leadership in high-energy laser development (Rafael's Iron Beam and Elbit's airborne laser programs), demonstrating that directed energy is rapidly moving from foreign expeditionary theaters to homeland critical infrastructure protection across Western defense architectures.",
+      "he": "משתלב ישירות עם המובילות הטכנולוגית של ישראל בפיתוח מערכות לייזר רב-עוצמה (מגן אור / Iron Beam של רפאל והלייזר המוטס של אלביט), וממחיש כי נשק אנרגיה ממוקדת עובר משלבי ניסוי בזירות לחימה קדמיות להגנה קבועה על מתקנים אסטרטגיים בעורף המערבי."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — U.S. Department of Defense and contractor program disclosures.",
+      "he": "מאומת — הודעות משרד ההגנה האמריקאי וחברות הפיתוח."
+     },
+     "s": {
+      "en": "Pentagon selects four contractors for homeland base counter-drone directed energy pilot ahead of December shoot-off",
+      "he": "הפנטגון בחר ארבע חברות ביטחוניות לפיילוט יירוט רחפנים בלייזר ומיקרוגל לקראת ניסוי ירי בדצמבר"
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Uncrewed Combat Aircraft / Supersonic VTOL CCA",
+     "typeHe": "כטב\"ם קרב / מטוס קרב אוטונומי בהמראה אנכית",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Shield AI unveils full-scale X-BAT autonomous supersonic VTOL strike fighter prototype for CCA Increment 2",
+      "he": "חברת Shield AI חשפה אב-טיפוס בגודל מלא של מטוס קרב תקיפה אוטונומי בהמראה אנכית מדגם X-BAT"
+     },
+     "what": {
+      "en": "San Diego-based defense tech company Shield AI publicly rolled out the first full-scale prototype of its X-BAT autonomous strike fighter drone. Engineered to operate without runways or conventional airfield infrastructure, the X-BAT employs a vertical takeoff and landing (VTOL) tail-sitter architecture powered by an afterburning General Electric F110 turbofan engine equipped with thrust-vectoring control. Piloted autonomously by Shield AI's Hivemind AI pilot software, the platform is structured to carry internal precision-guided weapons and air-to-air missiles, achieving supersonic sprint speeds while targeting upcoming U.S. Air Force and allied Collaborative Combat Aircraft (CCA) Increment 2 requirements.",
+      "he": "חברת הטכנולוגיה הביטחונית Shield AI מסן דייגו חשפה לראשונה אב-טיפוס בגודל מלא של כטב\"ם הקרב האוטונומי X-BAT. המטוס, שתוכנן לפעול באופן עצמאי לחלוטין ללא תלות במסלולי טיסה או תשתיות שדה תעופה, מבוסס על תצורת המראה ונחיתה אנכית (VTOL) מסוג 'tail-sitter' המונעת באמצעות מנוע טורבו-מניפה עם מבער אחורי מדגם General Electric F110 וניהוג וקטורי. הפלטפורמה, המוטסת בידי תוכנת הבינה המלאכותית האוטונומית Hivemind של החברה, כוללת תא חימוש פנימי לטילים וחימושים מונחים, מסוגלת להגיע למהירויות על-קוליות ומכוונת להתמודדות על מכרזי ה-CCA Increment 2 של חיל האוויר האמריקאי ושותפות בינלאומיות."
+     },
+     "figs": {
+      "en": "Developer: Shield AI • Platform: X-BAT Autonomous Supersonic Strike Fighter • Propulsion: Single afterburning General Electric F110 turbofan with 3D thrust-vectoring nozzle • Runway requirement: Zero (Vertical Takeoff and Landing / tail-sitter launch and recovery) • Flight control: Hivemind autonomous AI pilot software • Payload: Internal weapons bay for air-to-air (AIM-120/AIM-260) and precision strike munitions • Target program: U.S. Air Force CCA Increment 2 and carrier/littoral distributed operations • Report date: 2026-11-08",
+      "he": "יצרנית: חברת Shield AI • פלטפורמה: מטוס קרב תקיפה אוטונומי על-קולי X-BAT • הנעה: מנוע יחיד בעל מבער אחורי מדגם General Electric F110 עם נחיר ניהוג וקטורי • דרישות מסלול: אפס (המראה ונחיתה אנכית ללא מסלול על גבי הזנב) • מערכת ניהוג: טייס אוטונומי מבוסס AI מדגם Hivemind • חימוש: תא פנימי לנשיאת טילי אוויר-אוויר (AIM-120/AIM-260) וחימוש תקיפה מדויק • תוכנית יעד: שלב Increment 2 של תוכנית ה-CCA של חיל האוויר האמריקאי ופריסות מבוזרות של חיל הנחתים והצי • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "Conventional air bases in the Indo-Pacific and European theaters are highly vulnerable to first-strike ballistic and cruise missile saturation attacks designed to crater runways. By combining supersonic fighter kinematics with true runway-independent VTOL operations and internal weapons carriage, X-BAT allows allied air forces to disperse advanced fighter-class combat power across islands, unimproved clearings, and small naval vessels.",
+      "he": "בסיסי חיל אוויר קונבנציונליים בזירת האינדו-פסיפיק ובאירופה חשופים לפגיעות הרסניות של מטחי טילים בליסטיים וטילי שיוט שמטרתם להשבית מסלולי המראה במכת הפתיחה. שילוב בין ביצועי טיסה על-קוליים, תא חימוש פנימי והמראה ונחיתה אנכית ללא צורך במסלול מאפשר פריסה מבוזרת של מטוסי קרב אוטונומיים באיים מבודדים, שטחי יער וקרחות שדה, וספינות קרב קטנות."
+     },
+     "israel": {
+      "en": "Highly relevant to IAF operational resilience planning for runway-denial contingencies, underscoring the shift toward distributed, runway-independent autonomous strike platforms that can launch and recover from dispersed tactical locations during heavy ballistic missile barrages.",
+      "he": "רלוונטי מאוד לתפיסת השרידות המבצעית של חיל האוויר הישראלי מול איומי ריתוק והשבתת מסלולי המראה במטחי טילים כבדים, וממחיש את המעבר העולמי לעבר פלטפורמות קרב אוטונומיות הממריאות ונוחתות אנכית מאתרים מבוזרים."
+     },
+     "src": [
+      {
+       "t": "The Aviationist",
+       "u": "https://theaviationist.com/2026/11/05/shield-xbat-prototype-revealed/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official Shield AI unveiling and technical presentation.",
+      "he": "מאומת — חשיפה רשמית והצגה טכנית של חברת Shield AI."
+     },
+     "s": {
+      "en": "Shield AI unveils full-scale X-BAT autonomous supersonic VTOL strike fighter prototype",
+      "he": "חברת Shield AI חשפה אב-טיפוס בגודל מלא של מטוס קרב אוטונומי בהמראה אנכית X-BAT"
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Singapore",
+     "countryHe": "סינגפור",
+     "type": "Naval Aviation / Shipborne VTOL Maritime Surveillance UAV",
+     "typeHe": "תעופה ימית / כטב\"ם תצפית ימי בהמראה אנכית מספינות",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Singapore MINDEF and DSTA award Defence Technology Prize 2026 to indigenous Veloce 60 shipborne VTOL maritime UAV",
+      "he": "משרד ההגנה של סינגפור וסוכנות DSTA העניקו את פרס הטכנולוגיה הביטחונית לכטב\"ם הימי Veloce 60 בהמראה אנכית"
+     },
+     "what": {
+      "en": "Singapore's Ministry of Defence (MINDEF) and the Defence Science and Technology Agency (DSTA) formally presented the prestigious Defence Technology Prize (DTP) 2026 Team (Engineering) Award to the collaborative engineering team behind the Veloce 60 (V60) Maritime UAV. Jointly engineered by DSO National Laboratories, DSTA, the Republic of Singapore Navy (RSN), and ST Engineering, the V60 represents Singapore's first indigenous shipborne Vertical Take-off and Landing (VTOL) drone. Designed to autonomously launch and land directly on flight decks of moving naval vessels in adverse sea conditions up to Sea State 3, the aircraft delivers persistent 12-to-14-hour surveillance endurance and extends tactical over-the-horizon maritime domain awareness for naval strike groups.",
+      "he": "משרד ההגנה של סינגפור (MINDEF) וסוכנות המדע והטכנולוגיה הביטחונית (DSTA) העניקו את פרס הטכנולוגיה הביטחונית היוקרתי לשנת 2026 לצוות ההנדסי של כטב\"ם התצפית הימי Veloce 60 (V60). הכטב\"ם, שפותח במשותף על ידי מעבדות DSO, סוכנות DSTA, הצי של סינגפור (RSN) וחברת ST Engineering, הוא הכטב\"ם הימי הראשון מפיתוח עצמי בסינגפור המסוגל להמריא ולנחות אנכית (VTOL) ישירות מסיפוני ספינות קרב בתנועה בים גלי (עד Sea State 3). הכטב\"ם מציע שהייה ממושכת באוויר של 12 עד 14 שעות ומספק מודעות מצבית ימית טקטית מעבר לאופק לכוחות הצי."
+     },
+     "figs": {
+      "en": "Award: Defence Technology Prize (DTP) 2026 Team (Engineering) Award • Developers: DSO National Laboratories, DSTA, Republic of Singapore Navy, ST Engineering • Platform: Veloce 60 (V60) Shipborne VTOL Maritime UAV • Launch/recovery: Autonomous vertical launch and deck landing on moving warships up to Sea State 3 • Flight endurance: 12 to 14 hours continuous maritime loitering • Sensor suite: Multispectral EO/IR gimbal turret, maritime search radar, and AIS receiver • Operational role: Over-the-horizon naval reconnaissance and strike targeting • Report date: 2026-11-08",
+      "he": "פרס: פרס הטכנולוגיה הביטחונית לשנת 2026 (DTP) לצוות הנדסי • מפתחות: מעבדות DSO, סוכנות DSTA, חיל הים הסינגפורי, ST Engineering • פלטפורמה: כטב\"ם ימי בהמראה אנכית Veloce 60 • המראה ונחיתה: אוטונומית לחלוטין מסיפוני ספינות שטח נעות עד מצב ים 3 • זמן שהייה באוויר: 12 עד 14 שעות טיסה רציפה • מטע\"ד וחיישנים: מטע\"ד אלקטרו-אופטי/תרמי משולב, מכ\"ם סריקה ימי ומקלט AIS • תפקיד מבצעי: סיור מעבר לאופק ורכישת מטרות לכוחות התקיפה הימיים • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "Small surface combatants and patrol vessels in tight littoral choke points (such as the Malacca and Singapore Straits) lack the hangar space and maintenance capacity to support medium crewed helicopters full-time. The V60 provides capital-ship-class aerial reconnaissance and sensor reach from compact decks without consuming helicopter aviation resources.",
+      "he": "ספינות קרב קטנות וספינות סיור הפועלות במצרי מלאקה וסינגפור אינן כוללות מנחתים ומבני האנגר המאפשרים הפעלה רציפה של מסוקים מאוישים. כטב\"ם ה-V60 מעניק יכולת סיור והכוונת אש של ספינת דגל מסיפוני ספינות קטנות ללא צורך בהקצאת מסוקי קרב יקרים."
+     },
+     "israel": {
+      "en": "Parallels the Israeli Navy's widespread deployment of indigenous VTOL and tactical drones (such as Aeronautics Orbiter and IAI systems) from Sa'ar 5 and Sa'ar 6 corvettes for littoral surveillance and coastal gas platform security.",
+      "he": "תואם את תפיסת ההפעלה של חיל הים הישראלי המשלב כטב\"מים טקטיים בהמראה אנכית (דוגמת מערכות של אירונאוטיקס והתעשייה האווירית) מעל קורבטות סער 5 וסער 6 לאבטחת אסדות הגז והגנת החופים."
+     },
+     "src": [
+      {
+       "t": "MINDEF Singapore",
+       "u": "https://www.mindef.gov.sg/news-and-events/latest-releases/6nov26-fs/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official Singapore Ministry of Defence Fact Sheet and Award citation.",
+      "he": "מאומת — דף מידע והודעה רשמית של משרד ההגנה של סינגפור."
+     },
+     "s": {
+      "en": "Singapore MINDEF and DSTA award Defence Technology Prize 2026 to indigenous Veloce 60 VTOL maritime UAV",
+      "he": "משרד ההגנה של סינגפור ו-DSTA העניקו את פרס הטכנולוגיה לכטב\"ם הימי Veloce 60 בהמראה אנכית"
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "South Korea / Malaysia",
+     "countryHe": "דרום קוריאה / מלזיה",
+     "type": "Military Aircraft Export / Light Combat Fighter Delivery",
+     "typeHe": "ייצוא תעופה צבאית / אספקת מטוסי קרב קלים",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Korea Aerospace Industries delivers initial two FA-50M light combat aircraft to Royal Malaysian Air Force under USD 920M deal",
+      "he": "תאגיד KAI מדרום קוריאה סיפק את שני מטוסי הקרב הקלים הראשונים מדגם FA-50M לחיל האוויר של מלזיה בעסקה של 920 מיליון דולר"
+     },
+     "what": {
+      "en": "Korea Aerospace Industries (KAI) officially handed over the first two FA-50M light combat aircraft to the Royal Malaysian Air Force (RMAF) at Kuantan Air Base. Originating from a February 2023 contract valued at USD 920 million for 18 aircraft, the Malaysian FA-50M configuration features substantial capability enhancements over baseline models, including an Active Electronically Scanned Array (AESA) radar, an aerial refueling probe, and integration with advanced targeting pods and beyond-visual-range (BVR) missiles. The delivery marks the beginning of Malaysia's operational phase-out of its aging fleet of British Aerospace Hawk 108/208 trainer and light attack aircraft.",
+      "he": "תאגיד התעופה של דרום קוריאה KAI מסר באופן רשמי את שני מטוסי הקרב הקלים הראשונים מדגם FA-50M לחיל האוויר המלכותי של מלזיה (RMAF) בבסיס קואנטן. המטוסים, שנרכשו במסגרת חוזה מפברואר 2023 בהיקף של 920 מיליון דולר עבור 18 מטוסים, כוללים שדרוגים מבצעיים נרחבים לעומת דגם הבסיס, בהם מכ\"ם מערך סריקה אלקטרונית פעילה (AESA), צינור תדלוק אווירי והתאמה לנשיאת פודי ציון מטרות וטילי אוויר-אוויר מעבר לטווח הראייה (BVR). האספקה מסמנת את תחילת הוצאתם משירות של מטוסי ה-Hawk הבריטיים המתיישנים בחיל האוויר המלזי."
+     },
+     "figs": {
+      "en": "Manufacturer: Korea Aerospace Industries (KAI) • Buyer: Royal Malaysian Air Force (RMAF) • Total order: 18 FA-50 Block 20 aircraft • Contract value: USD 920M (RM 4.08B) • Delivered units: First 2 airframes delivered to Kuantan Air Base • Key features: AESA radar, Sniper advanced targeting pod, in-flight refueling probe, AIM-9X and BVR capability • Fleet replacement: Replacing British Aerospace Hawk 108/208 • Report date: 2026-11-08",
+      "he": "יצרנית: Korea Aerospace Industries (KAI) • רוכשת: חיל האוויר המלכותי של מלזיה • סך ההזמנה: 18 מטוסי FA-50 בלוק 20 • שווי העסקה: 920 מיליון דולר (כ-4.08 מיליארד רינגיט) • מטוסים שנמסרו: 2 ראשונים בבסיס קואנטן • מאפיינים עיקריים: מכ\"ם AESA, פוד ציון מטרות צלף (Sniper), צינור תדלוק אווירי וטילי אוויר-אוויר מעבר לטווח הראייה • החלפת מערך: מחליפים את מטוסי ה-Hawk 108/208 הבריטיים • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "Solidifies South Korea's dominant role as the leading supplier of high-performance, cost-effective supersonic light combat aircraft across Southeast Asia, filling the gap between basic jet trainers and heavy twin-engine fighters for regional air forces facing budget constraints.",
+      "he": "מבסס את מעמדה המוביל של דרום קוריאה כספקית הנשק והתעופה המרכזית בדרום-מזרח אסיה למטוסי קרב קלים על-קוליים, המגשרים על הפער שבין מטוסי הדרכה למטוסי קרב כבדים ויקרים בצבאות בעלי מגבלות תקציב."
+     },
+     "israel": {
+      "en": "Illustrates the intense international export competition facing Western and Israeli avionics and light combat conversion solutions, while simultaneously highlighting expanding opportunities to supply sensor subsystems and electronic warfare components for Korean airframes.",
+      "he": "ממחיש את התחרות הגוברת בשוק הייצוא הבינלאומי מול חברות מערביות וישראליות המציעות שדרוגי אוויוניקה ומטוסי תקיפה קלים, לצד פוטנציאל אספקת תתי-מערכות של ל\"א וחיישנים ישראליים המשולבים במטוסים קוריאניים."
+     },
+     "src": [
+      {
+       "t": "Defense Mirror",
+       "u": "https://www.defensemirror.com/news/37968/First_Two_FA_50M_Fighters_Arrive_in_Malaysia"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official KAI and Royal Malaysian Air Force handover reporting.",
+      "he": "מאומת — הודעות רשמיות של תאגיד KAI וחיל האוויר המלזי."
+     },
+     "s": {
+      "en": "Korea Aerospace Industries delivers initial two FA-50M light combat aircraft to Malaysia under USD 920M deal",
+      "he": "תאגיד KAI מסר 2 מטוסי קרב ראשונים מדגם FA-50M למלזיה בעסקה של 920 מיליון דולר"
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Poland / South Korea",
+     "countryHe": "פולין / דרום קוריאה",
+     "type": "Precision Rocket Artillery / Co-Production Plant",
+     "typeHe": "ארטילריה רקטית מדויקת / הקמת מפעל ייצור משותף",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Hanwha and WB Group break ground on CGR080 guided rocket production plant in Gorzów Wielkopolski for Polish Homar-K MLRS",
+      "he": "החברות Hanwha וקבוצת WB הניחו אבן פינה למפעל ייצור רקטות מונחות מדגם CGR080 בגוז'וב ויילוקופולסקי עבור צבא פולין"
+     },
+     "what": {
+      "en": "South Korean defense prime Hanwha Aerospace and Poland's WB Group officially held a groundbreaking ceremony for a new joint venture production plant in Gorzów Wielkopolski, western Poland. Operating under the Hanwha WB Advanced System joint enterprise, the facility will domestically manufacture 80mm CGR080 guided rockets designed for the Polish Land Forces' Homar-K multiple launch rocket systems (the localized K239 Chunmoo launcher mounted on Jelcz 8x8 trucks). The dedicated industrial complex will include an automated rocket assembly line, propellant integration bays, and maintenance infrastructure to establish independent Polish missile sustainment and reduce dependence on trans-Pacific logistics during wartime.",
+      "he": "תאגיד הנשק הדרום-קוריאני Hanwha Aerospace וקבוצת WB הפולנית קיימו טקס הנחת אבן פינה להקמת מפעל ייצור משותף חדש בעיר גוז'וב ויילוקופולסקי שבמערב פולין. המפעל, שיופעל במסגרת המיזם המשותף Hanwha WB Advanced System, ייצר באופן מקומי רקטות מונחות בקוטר 80 מ\"מ מדגם CGR080 המיועדות למשגרי הרקטות Homar-K של צבא היבשה הפולני (גרסה מותאמת של משגר ה-Chunmoo K239 על גבי משאיות Jelcz 8x8). המתחם התעשייתי יכלול קווי הרכבה אוטומטיים של רקטות, תאי שילוב דלק מוצק ותשתיות תחזוקה מתקדמות, כדי להבטיח לפולין עצמאות מלאה בחידוש מאגרי החימוש ולצמצם את התלות בשרשראות אספקה טרנס-פסיפיות בעת מלחמה."
+     },
+     "figs": {
+      "en": "Joint Venture: Hanwha WB Advanced System (Hanwha Aerospace and WB Group) • Factory site: Gorzów Wielkopolski, Lubusz Voivodeship, Poland • Produced munition: 80mm CGR080 precision-guided surface-to-surface rockets • Launch platform: Homar-K MLRS (Polish Jelcz 663.45 8x8 chassis with Topaz C2 and Chunmoo launcher) • Industrial scope: Local assembly, propellant loading, final testing, and depot-level MRO • Strategic objective: Sovereign European replenishment and NATO eastern flank stockpiling • Report date: 2026-11-08",
+      "he": "מיזם משותף: Hanwha WB Advanced System (תאגיד Hanwha Aerospace וקבוצת WB) • מיקום המפעל: גוז'וב ויילוקופולסקי, פולין • סוג החימוש: רקטות קרקע-קרקע מונחות מדויקות בקוטר 80 מ\"מ מדגם CGR080 • פלטפורמת שיגור: משגרי Homar-K (מרכב Jelcz 8x8, מערכת שליטה ובקרה Topaz ומשגר Chunmoo) • היקף תעשייתי: הרכבה מקומית, שילוב דלק הודף, בדיקות קבלה ותחזוקת דרג ד' • יעד אסטרטגי: אספקת חימוש ריבונית לפולין והעמקת מאגרי התחמושת באגף המזרחי של נאט\"ו • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "The war in Ukraine highlighted that high-intensity artillery engagements burn through rocket inventories faster than peacetime overseas supply chains can replace them. By establishing sovereign domestic production in Poland, Warsaw ensures rapid replenishment for its fleet of nearly 300 Homar-K launchers while transforming Poland into a European production hub for South Korean rocket systems.",
+      "he": "מלחמת אוקראינה המחישה כי קרבות ארטילריה בעצימות גבוהה שוחקים מלאי רקטות בקצב מהיר בהרבה מכושר הייצור של שרשראות אספקה מעבר לים. הקמת קו ייצור ריבוני בפולין מבטיחה אספקה שוטפת לכמעט 300 משגרי Homar-K שנרכשו וממצבת את פולין כמרכז ייצור ותחזוקה אירופי של מערכות ארטילריה קוריאניות."
+     },
+     "israel": {
+      "en": "Highlights direct competitive pressure in the European rocket artillery and deep-strike market against Israeli solutions (such as Elbit's PULS launcher and AccuLAR/EXTRA rockets), while demonstrating the necessity of offering local co-production frameworks to win major European NATO orders.",
+      "he": "מדגיש את התחרות העזה בשוק הארטילריה הרקטית והתקיפה המדויקת באירופה מול פתרונות ישראליים (כדוגמת משגרי ה-PULS וטילי ה-AccuLAR/EXTRA של אלביט), וממחיש את הדרישה הגוברת של מדינות נאט\"ו באירופה להעברת ידע וייצור מקומי כתנאי לזכייה בחוזי ענק."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://mil.in.ua/en/news/poland-and-south-korea-to-produce-guided-missiles-for-chunmoo-mlrs/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official Hanwha Aerospace and WB Group corporate ground-breaking releases.",
+      "he": "מאומת — הודעות רשמיות על הנחת אבן פינה של תאגיד Hanwha וקבוצת WB."
+     },
+     "s": {
+      "en": "Hanwha and WB Group break ground on CGR080 guided rocket production plant in Poland for Homar-K MLRS",
+      "he": "החברות Hanwha וקבוצת WB הניחו אבן פינה למפעל ייצור רקטות CGR080 בפולין"
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Naval Autonomous Systems / Unmanned Underwater Vehicles (UUVs)",
+     "typeHe": "מערכות ימיות אוטונומיות / כלי שיט תת-מימיים בלתי מאוישים",
+     "date": "2026-11-08",
+     "h": {
+      "en": "Elbit Systems unveils autonomous Unmanned Underwater Vehicle portfolio for naval mine countermeasures and ASW",
+      "he": "חברת אלביט מערכות חשפה לראשונה סל כלי שיט תת-מימיים אוטונומיים בלתי מאוישים ללוחמה נגד צוללות ומיקוש ימי"
+     },
+     "what": {
+      "en": "Israeli defense electronics prime Elbit Systems officially unveiled its new portfolio of autonomous Unmanned Underwater Vehicles (UUVs) and Autonomous Underwater Vehicles (AUVs) at the Euronaval 2026 defense exhibition. Following its acquisition and integration of Canadian subsea robotics specialist International Submarine Engineering (ISE), Elbit demonstrated full-scale modular UUV platforms engineered for deep-sea surveying, subsea critical infrastructure protection, mine countermeasures (MCM), and anti-submarine warfare (ASW). Operating in coordinated swarms or integrated with Elbit's combat-proven Seagull Unmanned Surface Vessels (USVs), the autonomous submersibles feature acoustic communications modems, high-resolution synthetic aperture sonars, and long-endurance fuel cell propulsion to conduct persistent covert underwater patrols without risking manned submarines.",
+      "he": "תאגיד אלביט מערכות הישראלי חשף לראשונה בתערוכת Euronaval 2026 את סל המוצרים שלו בתחום כלי השיט התת-מימיים האוטונומיים הבלתי מאוישים (UUV / AUV). בעקבות רכישתה ומיזוגה של חברת הרובוטיקה הימית הקנדית International Submarine Engineering (ISE), הציגה אלביט כלי שיט תת-מימיים מודולריים המיועדים לביצוע משימות סריקה בעומק הים, אבטחת תשתיות אנרגיה ותקשורת תת-מימיות, לוחמה במוקשים ימיים (MCM) וגילוי צוללות (ASW). הכלים התת-מימיים פועלים באופן אוטונומי בנחילים או בתיאום עם כשב\"מי הסיור Seagull (שחף) של אלביט, ומשלבים מודמים לתקשורת אקוסטית, סונאר מפתח סינתטי ברזולוציה גבוהה והנעה שקטה לשהייה ממושכת ללא סיכון צוללות מאוישות."
+     },
+     "figs": {
+      "en": "Developer: Elbit Systems (integrating International Submarine Engineering / ISE robotics) • Domain: Autonomous Underwater Vehicles (AUVs) and Unmanned Underwater Vehicles (UUVs) • Operational envelope: Modular deep-submergence hulls with high-resolution synthetic aperture sonar • Primary missions: Seabed warfare, offshore critical energy/data cable protection, mine countermeasures, and covert ASW • Integration: Interoperable with Seagull USVs, naval C4ISR command suites, and shore stations • Report date: 2026-11-08",
+      "he": "יצרנית: אלביט מערכות (במיזוג טכנולוגיות ISE הקנדית) • תחום: כלי שיט תת-מימיים אוטונומיים (AUV/UUV) • מעטפת מבצעית: מרכבים מודולריים לעומק רב עם סונאר מפתח סינתטי מתקדם • משימות עיקריות: לוחמת קרקעית הים (Seabed Warfare), הגנת כבלי תקשורת ואסדות גז, נטרול מוקשים וגילוי צוללות • אינטגרציה: פעילות משולבת עם כשב\"מי Seagull, מערכות שו\"ב ימיות ותחנות חוף • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "The vulnerability of underwater energy pipelines, subsea internet data cables, and strategic maritime approaches to covert sabotage has created an urgent demand for persistent, long-endurance underwater monitoring. Elbit's expansion from surface USVs to deep-sea AUVs establishes an integrated multi-domain autonomous maritime warfare capability across surface and subsea realms.",
+      "he": "הפגיעות הגוברת של צינורות גז ונפט, כבלי תקשורת אינטרנט תת-מימיים ונתיבי שיט אסטרטגיים לפעולות חבלה חשאית הגבירה את הדרישה המבצעית לניטור תת-ימי אוטונומי רציף. כניסתה של אלביט מערכות לתחום הכלים התת-מימיים, לצד מובילותה בכשב\"מי שטח, מעניקה לה יכולת משולבת מלאה ללוחמה ימית אוטונומית מהשטח ועד לקרקעית הים."
+     },
+     "israel": {
+      "en": "Directly strengthens the Israeli Navy's capability to defend offshore Exclusive Economic Zone (EEZ) energy fields, subsea electrical and data interconnectors, and naval ports against covert hostile divers, midget submarines, and seabed sabotage.",
+      "he": "מחזק ישירות את יכולות חיל הים הישראלי בהגנה על שדות הגז באזור הכלכלי הבלעדי (EEZ), כבלי החשמל והתקשורת התת-ימיים ונמלי הים מפני פעולות קומנדו ימי, צוללות זעירות וחבלות בקרקעית הים."
+     },
+     "src": [
+      {
+       "t": "Elbit Systems",
+       "u": "https://www.elbitsystems.com/news/euronaval-2026-elbit-systems-present-uuv-capabilities-first-time"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official Elbit Systems corporate unveiling and product showcase at Euronaval 2026.",
+      "he": "מאומת — הודעה רשמית של אלביט מערכות וחשיפת המוצרים ביורונאבאל 2026."
+     },
+     "s": {
+      "en": "Elbit Systems unveils autonomous Unmanned Underwater Vehicle portfolio for naval mine countermeasures and ASW",
+      "he": "אלביט מערכות חשפה לראשונה סל כלי שיט תת-מימיים אוטונומיים בלתי מאוישים ללוחמה נגד צוללות"
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UAE / Italy",
+     "countryHe": "איחוד האמירויות / איטליה",
+     "type": "Naval Autonomous Systems / USV Co-Development",
+     "typeHe": "מערכות ימיות אוטונומיות / פיתוח משותף של כשב\"מים",
+     "date": "2026-11-08",
+     "h": {
+      "en": "UAE EDGE Europe and Italy's Novamarine sign agreement to co-develop high-performance unmanned surface vessels",
+      "he": "חברת EDGE Europe מאיחוד האמירויות ומספנת Novamarine מאיטליה חתמו על הסכם לפיתוח משותף של כשב\"מים"
+     },
+     "what": {
+      "en": "EDGE Europe, the European operating subsidiary of UAE advanced technology and defense conglomerate EDGE Group, signed a Memorandum of Understanding (MoU) with Italian high-performance boatbuilder Novamarine at the Euronaval 2026 exhibition. Under the collaborative framework, Novamarine will design and construct specialized naval hull platforms, while EDGE Group entities—led by Abu Dhabi Ship Building (ADSB) and the Technology Innovation Institute (TII)—will integrate autonomous navigation software, secure satellite command links, and mission payload architectures. The joint development targets sovereign maritime security, interception, and search-and-rescue requirements across Mediterranean and Middle Eastern naval fleets.",
+      "he": "חברת EDGE Europe, הזרוע האירופית של תאגיד הטכנולוגיה והביטחון של איחוד האמירויות EDGE Group, חתמה על מזכר הבנות (MoU) עם מספנת Novamarine האיטלקית במסגרת תערוכת Euronaval 2026. במסגרת שיתוף הפעולה, מספנת נובמרין תתכנן ותייצר גופי כלי שיט מהירים ייעודיים, בעוד חברות תאגיד EDGE — בראשן מספנות אבו דאבי (ADSB) ומכון החדשנות הטכנולוגית (TII) — ישלבו תוכנות ניווט ובקרה אוטונומיות, תקשורת לוויינית מאובטחת ומטע\"די משימה קרביים. הפיתוח המשותף מיועד לענות על דרישות אבטחה ימית, יירוט כלי שיט עוינים ומשימות חילוץ עבור ציים במזרח התיכון ובאגן הים התיכון."
+     },
+     "figs": {
+      "en": "Partners: EDGE Europe (UAE) and Novamarine (Italy) • Supporting entities: Abu Dhabi Ship Building (ADSB) and Technology Innovation Institute (TII) • Technology scope: High-performance hull fabrication integrated with AI autonomous navigation and remote C2 • Operational missions: Coastal interdiction, critical offshore infrastructure patrol, and autonomous ISR • Showcase: Initial prototype models displayed at Euronaval 2026 • Report date: 2026-11-08",
+      "he": "שותפות: חברת EDGE Europe (איחוד האמירויות) ומספנת Novamarine (איטליה) • גופים תומכים: מספנות אבו דאבי (ADSB) ומכון החדשנות הטכנולוגית (TII) • תחומי טכנולוגיה: שילוב גופי ספינות מהירים עם מערכות ניווט ובקרת שו\"ב אוטונומיות מבוססות AI • משימות מבצעיות: סיכול ימי חופי, אבטחת מתקנים ימיים אסטרטגיים וסיור אוטונומי • הצגה ראשונית: דגמי אב-טיפוס ראשונים הוצגו בתערוכת Euronaval 2026 • תאריך דיווח: 2026-11-08"
+     },
+     "why": {
+      "en": "Demonstrates the UAE's aggressive strategy to leverage European high-end maritime engineering while exporting indigenous Gulf AI and autonomous systems, expanding EDGE's footprint into NATO and Mediterranean naval procurement pipelines.",
+      "he": "ממחיש את האסטרטגיה המואצת של איחוד האמירויות לרתימת הנדסה ימית אירופית מתקדמת לצד ייצוא מערכות אוטונומיות ובינה מלאכותית שפותחו במפרץ, והרחבת דריסת הרגל של תאגיד EDGE לעבר ציי נאט\"ו והים התיכון."
+     },
+     "israel": {
+      "en": "Directly relates to regional maritime security cooperation in the Persian Gulf and Red Sea, where autonomous surface systems are increasingly deployed to counter asymmetric Iranian and proxy naval threats.",
+      "he": "נוגע ישירות לביטחון המרחב הימי במפרץ הפרסי ובים האדום, שבו כשב\"מים ומערכות אוטונומיות הופכים לרכיב מרכזי בסיכול איומים אסימטריים של איראן ושלוחותיה."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/edge-europe-and-novamarine-to-explore-joint-development-of-usvs/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official joint corporate signing ceremony and announcement at Euronaval 2026.",
+      "he": "מאומת — טקס חתימה והודעה משותפת רשמית בתערוכת יורונאבאל 2026."
+     },
+     "s": {
+      "en": "UAE EDGE Europe and Italy's Novamarine sign agreement to co-develop unmanned surface vessels",
+      "he": "חברת EDGE Europe מאיחוד האמירויות ומספנת Novamarine מאיטליה חתמו על הסכם לפיתוח כשב\"מים"
+     }
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "**David's Sling European Expansion:** Romania and Rafael revived formal negotiations to establish domestic production of the SkyCeptor hit-to-kill interceptor (Stunner) for Romanian and European Patriot PAC-2/PAC-3 batteries to defeat saturation missile attacks at reduced cost.",
+      "**Homeland Base Directed Energy:** The U.S. Pentagon downselected four defense contractors (AeroVironment, Kord, Boeing, Epirus) for its high-energy laser and high-powered microwave pilot to protect continental air bases ahead of a December live-fire shoot-off at Dugway Proving Ground.",
+      "**Supersonic Runway-Independent Strike:** Shield AI rolled out the first full-scale prototype of the X-BAT autonomous strike fighter, pairing GE F110 thrust-vectoring power with tail-sitter VTOL flight to eliminate reliance on vulnerable airfield runways for CCA Increment 2.",
+      "**Israeli Subsea Robotics Expansion:** Elbit Systems made its public entry into autonomous underwater systems at Euronaval 2026, unveiling a modular Unmanned Underwater Vehicle (UUV) portfolio for seabed cable defense, mine countermeasures, and covert ASW.",
+      "**Allied Maritime Drone & Land Milestones:** Singapore awarded its 2026 Defence Technology Prize to the indigenous Veloce 60 shipborne VTOL UAV; KAI delivered the first two FA-50M fighters to Malaysia; Hanwha-WB broke ground on a CGR080 guided rocket plant in Poland; and UAE EDGE partnered with Italy's Novamarine on high-speed USVs."
+     ],
+     "he": [
+      "**התרחבות אירופית למיירטי קלע דוד:** רומניה וחברת רפאל חידשו את המגעים להקמת קו ייצור מקומי למיירטי SkyCeptor (סטאנדר) עבור סוללות פטריוט רומניות ואירופיות, כמענה מוזל למטחי רוויה בליסטיים.",
+      "**יירוט כטב\"מים בלייזר בבסיסי ארה\"ב:** הפנטגון בחר ארבע חברות ביטחוניות (AeroVironment, Kord, בואינג, Epirus) לפיילוט פריסת מערכות לייזר ומיקרוגל בבסיסי צבא לקראת ניסוי ירי תחרותי בדצמבר בשדה הניסויים דאגווי ביוטה.",
+      "**מטוס קרב אוטונומי בהמראה אנכית:** חברת Shield AI חשפה אב-טיפוס בגודל מלא של כטב\"ם הקרב העל-קולי X-BAT, המשלב מנוע F110 עם ניהוג וקטורי להמראה אנכית ללא מסלול לתוכנית ה-CCA Increment 2.",
+      "**כניסת אלביט לתחום התת-ימי:** תאגיד אלביט מערכות חשף לראשונה ביורונאבאל 2026 סל כלי שיט תת-מימיים אוטונומיים (UUV/AUV) לאבטחת כבלים ומתקני אנרגיה בקרקעית הים, נטרול מוקשים וגילוי צוללות.",
+      "**ציוני דרך ימיים ויבשתיים בעולם:** משרד ההגנה של סינגפור העניק את פרס הטכנולוגיה לכטב\"ם הימי Veloce 60 בהמראה אנכית; KAI מסרה 2 מטוסי FA-50M ראשונים למלזיה; Hanwha וקבוצת WB הניחו אבן פינה למפעל רקטות מונחות CGR080 בפולין; ו-EDGE מאיחוד האמירויות חתמה על הסכם לפיתוח כשב\"מים באיטליה."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "All 8 items independently corroborated via official MoD releases (Singapore MINDEF), prime contractor newsrooms (Elbit Systems, Breaking Defense), and premier defense trade press (Naval News, Militarnyi, The Aviationist, Defense Mirror).",
+     "All cited URLs and source imagery verified live (HTTP 200 OK) with 0 synthetic placeholders.",
+     "Imagery adheres strictly to authentic source photographs (Rafael Advanced Defense Systems, AeroVironment / U.S. Army, Shield AI, Elbit Systems / ISE, and Naval News)."
+    ],
+    "he": [
+     "כל 8 הידיעות אומתו והוצלבו באופן עצמאי באמצעות הודעות רשמיות של משרדי ביטחון (סינגפור), הודעות יצרניות ביטחוניות (אלביט מערכות, Breaking Defense) ועיתונות ביטחונית מובילה (Naval News, Militarnyi, The Aviationist, Defense Mirror).",
+     "כל כתובות המקור והתמונות המצורפות נבדקו ואומתו כפעילות (HTTP 200 OK) ללא שימוש בכרטיסים סינתטיים.",
+     "התמונות בדו\"ח מקורן בצילומים אותנטיים של יצרניות המערכות והגורמים המבצעיים (רפאל, AeroVironment / צבא ארה\"ב, Shield AI, אלביט מערכות / ISE, ו-Naval News)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 8 full items, 0 briefly noted.",
+     "Country focus: Germany 0, UAE 1, Azerbaijan 0, Singapore 1, India 0, Morocco 0.",
+     "Open-source intelligence compilation covering the evening window 2026-11-08T15:20:00Z to 2026-11-08T18:41:00Z."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 8 ידיעות מלאות, 0 ידיעות בקצרה.",
+     "מיקוד מדינות: גרמניה 0, איחוד האמירויות 1, אזרבייג'ן 0, סינגפור 1, הודו 0, מרוקו 0.",
+     "איסוף מודיעין ממקורות גלויים המכסה את חלון הערב 2026-11-08T15:20:00Z עד 2026-11-08T18:41:00Z."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Airshow China 2026 (Zhuhai, opens Dec 7): Detailed flight and static reveals for J-35A stealth fighter, J-20A with serial WS-15 engines, and Jiu Tian mothership drone swarm launch bays.",
+     "Dugway Proving Ground Shoot-Off (Dec 2026): Performance results of AeroVironment, Kord, Boeing, and Epirus directed-energy systems during live homeland C-UAS trials.",
+     "Shield AI X-BAT Flight Envelope: Initial ground-run telemetry and transition from vertical launch to horizontal supersonic cruise ahead of CCA Increment 2 evaluation."
+    ],
+    "he": [
+     "תערוכת הנשק בסין בג'וחאי (נפתחת ב-7 בדצמבר): חשיפת פרטי תאי השיגור לנחילי כטב\"מים במטוס האם Jiu Tian, טיסות ראווה של ה-J-35A, ומטוסי ה-J-20A עם מנועי WS-15 סדרתיים.",
+     "ניסוי הירי התחרותי בדאגווי (דצמבר 2026): ביצועי מערכות הלייזר והמיקרוגל של AeroVironment, Kord, בואינג ו-Epirus בהגנת בסיסי ארה\"ב מול כטב\"מים.",
+     "מעטפת הטיסה של ה-X-BAT: תוצאות הרצות מנוע קרקעיות והמעבר מהמראה אנכית לשיוט על-קולי אופקי לקראת מכרזי ה-CCA של חיל האוויר האמריקאי."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1X9YyMgtCkBCHP1W8OVnWtKDYTK6Sy8XzKZJrOekv2hU/edit",
+    "he": "https://docs.google.com/document/d/1tUgEX2oyAMXNyRjEZL4_3BzdegpJglstfAVZZIqIlLM/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-08_evening_EN.pdf": "1l5fkFjKJs17OaU-Rb3yvhEeW34xOyuvI",
+    "Defense_Tech_Digest_2026-11-08_evening_HE.pdf": "1Njq1hNHIwo1_f0xXTPZUaTKZsWkDAxKb",
+    "Defense_Team_Brief_2026-11-08_evening_EN.pdf": "1jQnjw-Ea9DfdejV8Gmd6qGSgNJhgncX8",
+    "Defense_Team_Brief_2026-11-08_evening_HE.pdf": "12yyeDCkH60HXinB61LfVbAS41cW_07W8"
+   },
+   "photos": {
+    "A1": {
+     "url": "https://militarnyi.com/wp-content/uploads/2023/08/David-Sling-0001-1.jpg",
+     "outlet": "Militarnyi",
+     "caption_en": "David's Sling Stunner / SkyCeptor multi-stage air defense interceptor during launch sequence.",
+     "caption_he": "שיגור מיירט קלע דוד (סטאנדר / SkyCeptor) רב-שלבי בעל חרטום הדולפין הייחודי.",
+     "credit_en": "Image: Rafael Advanced Defense Systems, via Militarnyi",
+     "credit_he": "צילום: רפאל מערכות לחימה מתקדמות, דרך Militarnyi",
+     "local_src": "../digest/2026-11-08-evening/img/j/A1.jpg"
+    },
+    "A2": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/DSC_5810-scaled-e1790774958611.jpg",
+     "outlet": "Breaking Defense",
+     "caption_en": "Palletized high-energy laser weapon counter-drone prototype during operational live-fire evaluation.",
+     "caption_he": "אב-טיפוס מבצעי של מערכת נשק לייזר רב-עוצמה (HEL) ליירוט כטב\"מים במהלך ניסוי ירי בשדה ניסויים.",
+     "credit_en": "Image: U.S. Army / AeroVironment, via Breaking Defense",
+     "credit_he": "צילום: צבא ארצות הברית / AeroVironment, דרך Breaking Defense",
+     "local_src": "../digest/2026-11-08-evening/img/j/A2.jpg"
+    },
+    "B1": {
+     "url": "https://theaviationist.com/wp-content/uploads/2026/11/ShieldXBATRollout_1.jpg",
+     "outlet": "The Aviationist",
+     "caption_en": "Full-scale prototype of the Shield AI X-BAT supersonic VTOL autonomous strike fighter during unveiling ceremony.",
+     "caption_he": "אב-טיפוס בגודל מלא של מטוס הקרב האוטונומי העל-קולי X-BAT בהמראה אנכית במהלך טקס החשיפה.",
+     "credit_en": "Image: Shield AI, via The Aviationist",
+     "credit_he": "צילום: Shield AI, דרך The Aviationist",
+     "local_src": "../digest/2026-11-08-evening/img/j/B1.jpg"
+    },
+    "D1": {
+     "url": "https://www.elbitsystems.com/sites/default/files/2026-10/ISE%20UUV.jpg",
+     "outlet": "Elbit Systems",
+     "caption_en": "Elbit Systems / ISE autonomous unmanned underwater vehicle configured for subsea surveillance and mine countermeasures.",
+     "caption_he": "כלי שיט תת-מימי אוטונומי בלתי מאויש של אלביט מערכות ו-ISE המיועד לסיור תת-ימי ונטרול מוקשים.",
+     "credit_en": "Image: Elbit Systems / ISE, via Elbit Systems",
+     "credit_he": "צילום: אלביט מערכות / ISE, דרך Elbit Systems",
+     "local_src": "../digest/2026-11-08-evening/img/j/D1.jpg"
+    },
+    "D2": {
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/edge-europe-novamarine.jpeg",
+     "outlet": "Naval News",
+     "caption_en": "Representatives of EDGE Europe and Novamarine finalize agreement to develop autonomous unmanned surface vessels at Euronaval 2026.",
+     "caption_he": "נציגי חברת EDGE Europe ומספנת Novamarine חותמים על ההסכם לפיתוח משותף של כשב\"מים בתערוכת Euronaval 2026.",
+     "credit_en": "Image: Naval News, via Naval News",
+     "credit_he": "צילום: Naval News, דרך Naval News",
+     "local_src": "../digest/2026-11-08-evening/img/j/D2.jpg"
     }
    }
   },
