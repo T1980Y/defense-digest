@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-11",
+ "updated_at": "2026-11-11-evening",
  "dates": [
   "2026-11-11",
+  "2026-11-11-evening",
   "2026-11-10",
   "2026-11-10-evening",
   "2026-11-09",
@@ -1619,6 +1620,805 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo via Osinttechnical / Militarnyi",
      "credit_he": "צילום דרך אוסינט טכניקל / מיליטרני",
      "local_src": "../digest/2026-11-11/img/j/D5.jpg"
+    }
+   }
+  },
+  "2026-11-11-evening": {
+   "date": "2026-11-11",
+   "doc_id": "2026-11-11-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-11T15:01:00Z",
+   "wend": "2026-11-11T18:41:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Netherlands / Ukraine",
+     "countryHe": "הולנד / אוקראינה",
+     "type": "Surface-to-Air Missile / Low-Cost Scalable Interceptor",
+     "typeHe": "טיל קרקע-אוויר / מיירט מוזל לייצור המוני",
+     "date": "2026-11-11",
+     "h": {
+      "en": "Dutch defense consortium Guardian Dynamics launches 'WARDEN' low-cost surface-to-air missile program with Ukrainian industry",
+      "he": "קונסורציום ביטחוני הולנדי בהובלת Guardian Dynamics השיק את תוכנית טילי הנ\"מ המוזלים WARDEN בשיתוף התעשייה האוקראינית"
+     },
+     "what": {
+      "en": "A Dutch defense industry consortium led by Guardian Dynamics, alongside Demcon, Axient Systems, and national research institute TNO, officially launched the WARDEN surface-to-air missile program. Designed as an affordable, high-volume short-to-medium-range SAM architecture, WARDEN is engineered to serve as a critical 'gap-filler' operating alongside high-end Western interceptors like Patriot and NASAMS. Addressing high-tempo loitering munition and cruise missile saturation strikes, the program incorporates Ukrainian defense manufacturers directly into its component supply chain, manufacturing cluster, and live-fire operational testing.",
+      "he": "קונסורציום של התעשייה הביטחונית ההולנדית בהובלת חברת Guardian Dynamics, יחד עם Demcon, Axient Systems ומכון המחקר הלאומי TNO, השיק רשמית את תוכנית טילי הקרקע-אוויר WARDEN. המערכת מתוכננת כמערך טילי נ\"מ לטווח קצר עד בינוני בעלות ייצור נמוכה ובנפחי ייצור גדולים, שנועדה לשמש כרשת הגנה משלימה לצד סוללות יקרות כמו פטריוט ו-NASAMS. במטרה להתמודד עם מטחי רוויה של חימוש משוטט וטילי שיוט, התוכנית משלבת חברות ביטחוניות אוקראיניות ישירות בשרשרת אספקת הרכיבים, במערך הייצור המבוזר ובניסויי ירי מבצעיים."
+     },
+     "figs": {
+      "en": "Interceptor classification: Modular short-to-medium-range SAM • Consortium partners: Guardian Dynamics (lead), Demcon, Axient Systems, TNO • Ukrainian industrial role: Component manufacturing, seeker integration, and combat testing • Production doctrine: Decentralized automotive and industrial capacity for high-volume surge • Target threat spectrum: Sub-caliber loitering munitions, cruise missiles, and tactical strike drones • Report date: 2026-11-11",
+      "he": "סיווג מיירט: טיל נ\"מ מודולרי לטווח קצר עד בינוני • שותפות בקונסורציום: Guardian Dynamics (מובילה), Demcon, Axient Systems, TNO • תפקיד התעשייה האוקראינית: ייצור רכיבים, שילוב ראשי ביות וניסויי שדה • דוקטרינת ייצור: רתימת תשתיות תעשייתיות ואזרחיות לייצור המוני מבוזר • איומי מטרה: חימוש משוטט, טילי שיוט וכטב\"מי תקיפה טקטיים • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Highlights NATO's accelerating pivot toward low-cost attritable surface-to-air interceptors to counter saturation warfare without depleting multi-million-dollar strategic interceptor stockpiles. Direct industrial co-development with Ukraine embeds wartime frontline requirements into Western production lines from inception.",
+      "he": "מדגיש את המעבר המואץ של מדינות נאט\"ו לעבר מיירטי נ\"מ מוזלים ברי-הקרבה להתמודדות עם לוחמת שחיקה ורוויה ללא כילוי מאגרי טילי הנ\"מ האסטרטגיים היקרים. שיתוף הפעולה הישיר עם התעשייה האוקראינית מטמיע לקחי לחימה מבצעיים מקווי החזית אל תוך קווי הייצור המערביים עוד בשלב התכן."
+     },
+     "israel": {
+      "en": "Highly relevant. Israel faces comparable saturation dynamics from adversary loitering munitions and cruise missiles across northern and southern borders. Lessons from decentralized, low-cost interceptor manufacturing provide important benchmarks alongside Israel's Tamir and Iron Beam laser intercept architectures.",
+      "he": "השלכה ישירה ורלוונטית. ישראל מתמודדת עם אתגרי רוויה דומים של חימוש משוטט וטילי שיוט במספר גזרות במקביל. לקחי הייצור המבוזר והמוזל של מיירטים מספקים נקודת ייחוס חשובה במקביל למערכי ה\"טמיר\" של כיפת ברזל ומערכות הלייזר \"מגן אור\"."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/dutch-consortium-launches-warden-missile-program-with-ukrainian-companies/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official consortium launch announcement and defense industry disclosures.",
+      "he": "מאומת — הודעת ההשקה הרשמית של הקונסורציום ופרסומי התעשייה הביטחונית."
+     },
+     "s": {
+      "en": "Dutch consortium Guardian Dynamics launches WARDEN low-cost SAM program with Ukraine",
+      "he": "קונסורציום הולנדי השיק את תוכנית טילי הנ\"מ המוזלים WARDEN עם אוקראינה"
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Counter-UAS / Tactical Base Defense",
+     "typeHe": "לוחמה ברחפנים / הגנת בסיסים טקטית",
+     "date": "2026-11-11",
+     "h": {
+      "en": "U.S. Air Force solicits DroneShield immediate response C-UAS kits for Joint Base San Antonio base defense",
+      "he": "חיל האוויר של ארה\"ב פתח ברכש ערכות נטרול רחפנים ניידות מתוצרת DroneShield עבור בסיס סן אנטוניו"
+     },
+     "what": {
+      "en": "The U.S. Air Force 502nd Contracting Squadron at Joint Base San Antonio-Lackland issued a brand-name-only solicitation for DroneShield Immediate Response Kits (IRK), combining DroneGun Mk4 tactical jammers and RfPatrol Mk2 body-worn RF detection systems for perimeter security.",
+      "he": "טייסת הרכש 502 של חיל האוויר האמריקני בבסיס סן אנטוניו-לקלנד פרסמה מכרז לרכש ערכות תגובה מהירה נגד כטב\"מים מתוצרת DroneShield, המשלבות את משבשי ה-DroneGun Mk4 ומקלטי ה-RfPatrol Mk2 הנישאים להגנת היקף הבסיס."
+     },
+     "figs": {
+      "en": "Procuring agency: 502nd Contracting Squadron, JBSA-Lackland • Systems: DroneGun Mk4 directional RF jammer and RfPatrol Mk2 wearable RF detector • Report date: 2026-11-11",
+      "he": "גוף רוכש: טייסת רכש 502, בסיס לקלנד • מערכות: משבש כיווני DroneGun Mk4 ומקלט גילוי לביש RfPatrol Mk2 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Demonstrates rapid military base hardening against commercial and tactical drone incursions across continental U.S. defense installations.",
+      "he": "ממחיש את האצת מיגון בסיסי הצבא והמתקנים האסטרטגיים בארה\"ב מפני חדירות רחפנים מסחריים וטקטיים."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-s-air-force-buys-gear-for-droneshield-counter-drone-kits-in-texas/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — U.S. Air Force formal brand-name-only contracting solicitation.",
+      "he": "מאומת — מכרז רכש רשמי של חיל האוויר של ארה\"ב."
+     },
+     "s": {
+      "en": "U.S. Air Force solicits DroneShield immediate response C-UAS kits for JBSA base defense",
+      "he": "חיל האוויר של ארה\"ב פתח ברכש ערכות נטרול רחפנים של DroneShield לבסיס סן אנטוניו"
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Transport Aviation / Cockpit Autonomy & AI Flight Control",
+     "typeHe": "תעופה תובלתית / אוטונומיה בתא הטייס ובקרת טיסה מבוססת בינה מלאכותית",
+     "date": "2026-11-11",
+     "h": {
+      "en": "USSOCOM awards Merlin USD 8.9M task order to advance C-130J autonomous flight system to integration and ground testing",
+      "he": "פיקוד המבצעים המיוחדים של ארה\"ב העניק למרלין חוזה בסך 8.9 מיליון דולר לשילוב מערכת טיסה אוטונומית במטוסי C-130J"
+     },
+     "what": {
+      "en": "U.S. Special Operations Command (USSOCOM) awarded autonomous aviation technology company Merlin an $8.9 million task order to transition the Merlin Pilot autonomy system from design into physical hardware integration and ground validation aboard the Lockheed Martin C-130J Super Hercules. Following completion of Preliminary and Critical Design Reviews (PDR/CDR), this new phase supports flight control law tuning, human factors evaluations, failure mode redundancy testing, simulated flight dry runs, and cybersecurity certification for an Interim Authorization to Test (IATT). The award operates under a wider USSOCOM indefinite-delivery/indefinite-quantity (IDIQ) contract valued at up to $105 million to enable reduced-crew and uncrewed tactical airlift.",
+      "he": "פיקוד המבצעים המיוחדים של ארה\"ב (USSOCOM) העניק לחברת טכנולוגיות התעופה האוטונומית מרלין (Merlin) צו משימה בסך 8.9 מיליון דולר למעבר של מערכת האוטונומיה Merlin Pilot משלב התכן אל שילוב חומרה ובדיקות קרקעיות במטוסי התובלה C-130J Super Hercules של לוקהיד מרטין. לאחר השלמת סקרי התכן הראשוני והקריטי (PDR/CDR), השלב הנוכחי יתמקד בכיול חוקי בקרת הטיסה, שילוב הנדסת אנוש, בדיקות שרידות במצבי כשל, סימולציות טיסה יבשות והשגת רישוי אבטחת סייבר (IATT) לקראת ניסויי טיסה. ההזמנה מבוצעת במסגרת חוזה מסגרת רחב של USSOCOM בתקרה של עד 105 מיליון דולר להפעלת מטוסי תובלה בצוות מצומצם או בלתי מאויש."
+     },
+     "figs": {
+      "en": "Task order award: USD 8.9M • Master IDIQ contract ceiling: USD 105M • Customer: U.S. Special Operations Command (USSOCOM) • Prime contractor: Merlin • Aircraft platform: Lockheed Martin C-130J Super Hercules • Program milestones: PDR and CDR completed; advancing to aircraft integration, control law tuning, and ground engine runs • Regulatory target: Interim Authorization to Test (IATT) military airworthiness clearance • Report date: 2026-11-11",
+      "he": "שווי צו משימה: 8.9 מיליון דולר • תקרת חוזה מסגרת (IDIQ): 105 מיליון דולר • לקוח: פיקוד המבצעים המיוחדים (USSOCOM) • קבלן ראשי: חברת Merlin • פלטפורמה: מטוס תובלה טקטי C-130J Super Hercules • אבני דרך: סקרי PDR ו-CDR הושלמו; מעבר לשילוב פיזי במטוס, כיול חוקי טיסה והרצות מנוע קרקעיות • רישוי: השגת אישור מבחן צבאי (IATT) • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Demonstrates the Pentagon's determination to bring deep autonomy to heavy, frontline tactical airlift. Enabling autonomous and reduced-crew C-130J operations mitigates severe pilot shortages and allows high-risk logistical resupply and special insertions into heavily contested airspace without endangering aircrew lives.",
+      "he": "ממחיש את נחישות הפנטגון להטמיע יכולות אוטונומיה מתקדמות במטוסי תובלה טקטיים כבדים בקו הראשון. הפעלת מטוסי C-130J בצוות מצומצם או ללא טייסים מקלה על מצוקת כוח האדם ומאפשרת ביצוע משימות אספקה והצנחה בסיכון גבוה במרחבים רוויי איומים מבלי לסכן חיי צוותי אוויר."
+     },
+     "israel": {
+      "en": "Substantial relevance. The Israeli Air Force operates the C-130J-30 'Shimshon' for long-range tactical insertions, humanitarian supply, and special operations across regional theaters. USSOCOM's validation of retrofittable C-130J flight autonomy offers a mature roadmap for IAF special-mission airlift survivability.",
+      "he": "השלכה ישירה ומשמעותית. חיל האוויר הישראלי מפעיל את מטוסי ה-C-130J-30 (\"שמשון\") למבצעים מיוחדים ארוכי טווח, הצנחות אספקה ומשימות מורכבות בעומק האזורי. הוכחת היתכנות של ערכות אוטונומיה מוסבות למטוסי שמשון מספקת מפת דרכים בשלה להגברת השרידות והגמישות של מערך התובלה הטקטית של צה\"ל."
+     },
+     "src": [
+      {
+       "t": "Aviation Week",
+       "u": "https://aviationweek.com/defense/multi-mission-aircraft/merlin-moves-system-integration-phase-c-130j-autonomy"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — USSOCOM formal task order award and corporate announcements.",
+      "he": "מאומת — צו משימה רשמי של פיקוד המבצעים המיוחדים והודעת החברה."
+     },
+     "s": {
+      "en": "USSOCOM awards Merlin USD 8.9M task order for C-130J autonomous flight integration",
+      "he": "פיקוד המבצעים המיוחדים של ארה\"ב העניק למרלין חוזה בסך 8.9 מיליון דולר לשילוב אוטונומיה ב-C-130J"
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Morocco",
+     "countryHe": "ארצות הברית / מרוקו",
+     "type": "Autonomous Aviation / Casualty Evacuation (CASEVAC)",
+     "typeHe": "תעופה אוטונומית / פינוי פצועים בהיטס (CASEVAC)",
+     "date": "2026-11-11",
+     "h": {
+      "en": "U.S. AFRICOM selects Merlin Labs to test autonomous Cessna 208B Caravan casualty evacuation aircraft in Morocco",
+      "he": "פיקוד אפריקה של ארה\"ב בחר במרלין לבחינת מטוס ססנה 208B אוטונומי לפינוי פצועים במרוקו"
+     },
+     "what": {
+      "en": "U.S. Africa Command (AFRICOM) awarded a $500,000 contract to Merlin Labs to conduct an end-to-end operational flight demonstration of an autonomous casualty evacuation (CASEVAC) capability in Morocco. Operating a modified Cessna 208B Grand Caravan utility aircraft fitted with the AI-driven Merlin Pilot autonomy kit, the demonstration will simulate a complete evacuation profile in early FY2027: autonomous takeoff, enroute transit to an austere desert casualty collection point, simulated patient boarding, and autonomous return flight to a medical facility. The initiative is sponsored under AFRICOM's Autonomous Casualty Evacuation Industry Technology Challenge to resolve high-risk medical logistics in vast, remote, and GPS-denied environments.",
+      "he": "פיקוד אפריקה של ארה\"ב (AFRICOM) העניק חוזה בסך 500,000 דולר לחברת מרלין (Merlin Labs) לביצוע הדגמת טיסה מבצעית מקצה לקצה של יכולת פינוי פצועים אוטונומית (CASEVAC) בשטח מרוקו. במסגרת ההדגמה יופעל מטוס תובלה קל מדגם ססנה 208B גרנד קרוואן המצויד במערכת הבינה המלאכותית Merlin Pilot, אשר ידמה פרופיל פינוי שלם בתחילת שנת התקציב 2027: המראה אוטונומית, טיסה אל נקודת איסוף פצועים מדברית מבודדת, הדמיית העמסת נפגעים, וטיסה חזרה ונחיתה עצמאית במתקן רפואי. הפרויקט מתבצע במסגרת אתגר החדשנות של AFRICOM לפינוי רפואי אוטונומי במרחבים מרוחקים ומשובשי GPS."
+     },
+     "figs": {
+      "en": "Contract value: USD 500,000 • Demonstration platform: Cessna 208B Grand Caravan • Autonomy payload: Merlin Pilot automated flight system • Test location: Morocco (in coordination with Royal Moroccan Armed Forces) • Target execution: Early U.S. FY2027 • Sponsor: AFRICOM Autonomous Casualty Evacuation Industry Challenge • Report date: 2026-11-11",
+      "he": "שווי החוזה: 500,000 דולר • פלטפורמת ניסוי: ססנה 208B גרנד קרוואן • חליפת אוטונומיה: מערכת טיסה אוטונומית Merlin Pilot • מיקום הניסוי: מרוקו (בתיאום עם צבא מרוקו המלכותי) • יעד ביצוע: תחילת שנת התקציב האמריקנית 2027 • גוף מממן: אתגר פינוי פצועים אוטונומי של פיקוד אפריקה • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Validates Morocco's emerging role as a premier operational testing hub for advanced allied military autonomy. Proves that commercial utility turboprops can be rapidly converted into life-saving autonomous medical evacuation platforms in austere theaters without risking aircrews.",
+      "he": "ממחיש את מעמדה המתחזק של מרוקו כשדה ניסויים ומרכז תמרון מוביל למערכות צבאיות אוטונומיות של בעלות הברית. מוכיח כי ניתן להסב מטוסי טורבו-פרופ אזרחיים נפוצים לפלטפורמות פינוי רפואי אוטונומיות בשטחים מאוימים ללא סיכון טייסים."
+     },
+     "israel": {
+      "en": "Highly relevant following the newly inaugurated permanent Israeli Defense Attaché Office in Rabat and expanding G2G defense manufacturing pacts between Israel and Morocco. Autonomous CASEVAC technologies address acute lessons from IDF tactical maneuvers in contested areas requiring rapid medical extraction.",
+      "he": "השלכה ישירה ורלוונטית ביותר בעקבות חניכת הנספחות הצבאית הישראלית הקבועה ברבאט והתרחבות שיתוף הפעולה הביטחוני בין ישראל למרוקו. טכנולוגיות פינוי פצועים אוטונומיות מיושמות כמענה ישיר ללקחי התמרון של צה\"ל בזירות רוויות איומים המחייבות חילוץ רפואי מהיר."
+     },
+     "src": [
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — U.S. Africa Command procurement disclosures and corporate announcements.",
+      "he": "מאומת — הודעות רכש רשמיות של פיקוד אפריקה ופרסומי החברה."
+     },
+     "s": {
+      "en": "U.S. AFRICOM selects Merlin Labs to test autonomous Cessna Caravan air ambulance in Morocco",
+      "he": "פיקוד אפריקה בחר במרלין לבחינת מטוס ססנה אוטונומי לפינוי פצועים במרוקו"
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / India",
+     "countryHe": "ארצות הברית / הודו",
+     "type": "Combat Aviation / Multinational Air Exercises",
+     "typeHe": "תעופה קרבית / תמרונים אוויריים רב-לאומיים",
+     "date": "2026-11-11",
+     "h": {
+      "en": "U.S. Air Force F-35A stealth fighters complete tactical maneuvers in Indian airspace during Tarang Shakti exercise",
+      "he": "מטוסי חמקן אמריקניים מדגם F-35A ביצעו לראשונה תמרונים טקטיים בשמי הודו במסגרת תרגיל Tarang Shakti"
+     },
+     "what": {
+      "en": "Six U.S. Air Force F-35A stealth fighters concluded historic tactical maneuvers operating from Jodhpur Air Force Station alongside Indian Air Force Su-30MKI, Rafale, and Tejas fighters during multinational air exercise Tarang Shakti, marking the first active fifth-generation combat flights over Indian territory.",
+      "he": "שישה מטוסי קרב חמקניים מדגם F-35A של חיל האוויר האמריקני השלימו תמרונים טקטיים היסטוריים מבסיס חיל האוויר ג'ודפור לצד מטוסי סוחוי-30MKI, ראפאל וטג'אס הודיים במסגרת תרגיל Tarang Shakti, לראשונה בטיסות מבצעיות בשמי הודו."
+     },
+     "figs": {
+      "en": "Deployment contingent: 6x USAF F-35A Lightning II fighters • Exercise: Tarang Shakti 2026 • Operating base: Jodhpur Air Force Station, Rajasthan • Partner air forces: Indian Air Force, French Air and Space Force, UAE Air Force • Report date: 2026-11-11",
+      "he": "כוח פריסה: 6 מטוסי F-35A של חיל האוויר האמריקני • תרגיל: Tarang Shakti 2026 • בסיס היערכות: כנף ג'ודפור ברג'סטאן • כוחות שותפים: חיל האוויר ההודי, חיל האוויר הצרפתי וחיל האוויר של איחוד האמירויות • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Represents a major milestone in U.S.-India defense interoperability, giving Indian fighter pilots and radar operators direct operational exposure to fifth-generation stealth and sensor fusion tactics.",
+      "he": "אבן דרך משמעותית בשיתוף הפעולה הצבאי בין וושינגטון לדלהי, שהעניקה לטייסי הקרב ומפעילי המכ\"ם ההודים התנסות מבצעית ישירה בהתמודדות עם מטוסי חמקן מדור חמישי."
+     },
+     "israel": {
+      "en": "Indirect relevance to IAF F-35I 'Adir' cooperative doctrine and Indian defense partnerships.",
+      "he": "השלכה עקיפה על דוקטרינת שיתוף הפעולה של מטוסי ה\"אדיר\" הישראליים והקשרים הביטחוניים עם הודו."
+     },
+     "src": [
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official exercise disclosures and bilateral defense reporting.",
+      "he": "מאומת — הודעות רשמיות על סיום התרגיל ופרסומי ביטחון הדדיים."
+     },
+     "s": {
+      "en": "U.S. Air Force F-35A stealth fighters complete tactical maneuvers in India during Tarang Shakti",
+      "he": "מטוסי חמקן F-35A אמריקניים ביצעו תמרונים טקטיים בהודו בתרגיל Tarang Shakti"
+     }
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "Unmanned Ground Vehicles / High-Speed CASEVAC",
+     "typeHe": "רכב קרקעי בלתי מאויש / פינוי רפואי מהיר תחת אש",
+     "date": "2026-11-11",
+     "h": {
+      "en": "Ukrainian MAUL robotic evacuation vehicle sets 90 km/h frontline combat casualty extraction speed record",
+      "he": "רובוט הפינוי הרפואי האוקראיני MAUL קבע שיא מהירות של 90 קמ\"ש בחילוץ פצועים תחת אש"
+     },
+     "what": {
+      "en": "AIDronesUA's internal-combustion MAUL unmanned ground vehicle set an evacuation speed record of 90 km/h while rushing to extract a wounded soldier under fire, returning at 78 km/h to successfully outrun adversary FPV drone strike attempts.",
+      "he": "כלי הרכב הקרקעי הבלתי מאויש MAUL מתוצרת AIDronesUA קבע שיא מהירות של 90 קמ\"ש בנסיעה לחילוץ פצוע תחת אש, וחזר במהירות של 78 קמ\"ש תוך התחמקות מוצלחת מניסיונות יירוט של רחפני FPV."
+     },
+     "figs": {
+      "en": "Maximum outbound speed: 90 km/h • Return speed with casualty: 78 km/h • Propulsion: Internal combustion engine • Developer: AIDronesUA • Role: Frontline high-speed CASEVAC • Report date: 2026-11-11",
+      "he": "מהירות מרבית בדרך ליעד: 90 קמ\"ש • מהירות נסיעה חזרה עם הפצוע: 78 קמ\"ש • הנעה: מנוע בעירה פנימית • יצרן: AIDronesUA • ייעוד: פינוי רפואי מהיר תחת אש • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Proves that high-speed robotic ground vehicles can survivably operate in FPV-saturated kill zones where slower crewed or tracked vehicles are routinely destroyed.",
+      "he": "מוכיח כי רובוטים קרקעיים מהירים מסוגלים לשרוד במרחבי השמדה רוויי רחפני FPV שבהם כלי רכב מאוישים או זחליליים איטיים מושמדים בקלות."
+     },
+     "israel": {
+      "en": "Directly relevant to IDF tactical ground robotics and uncrewed medevac concepts for urban warfare.",
+      "he": "רלוונטי ישירות לתפיסות הרובוטיקה הקרקעית והפינוי הרפואי הבלתי מאויש של צה\"ל בלוחמה בשטח בנוי."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/ukrainian-maul-ugv-sets-speed-record-during-combat-evacuation/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Ukrainian developer and frontline combat evacuation operational records.",
+      "he": "מאומת — דיווחי היצרן ותיעוד מבצעי מחזית הלחימה באוקראינה."
+     },
+     "s": {
+      "en": "Ukrainian MAUL UGV sets 90 km/h combat casualty evacuation speed record",
+      "he": "הרובוט האוקראיני MAUL קבע שיא מהירות של 90 קמ\"ש בפינוי פצוע תחת אש"
+     }
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Ground Autonomy / Base Logistics Fleet",
+     "typeHe": "אוטונומיה קרקעית / צי רכב לוגיסטי אוטונומי לבסיסים",
+     "date": "2026-11-11",
+     "h": {
+      "en": "U.S. Army and DIU begin operational trials of commercial autonomous shuttles at Fort Benning",
+      "he": "צבא ארה\"ב ומינהלת DIU החלו בניסוי מבצעי של רכבי הסעות אוטונומיים בבסיס פורט בנינג"
+     },
+     "what": {
+      "en": "Under the Defense Innovation Unit's ROADS challenge, the U.S. Army deployed a six-vehicle fleet of commercial autonomous shuttles from Applied Intuition, Forterra/May Mobility, and Perrone Robotics at Fort Benning to automate administrative transportation and relieve troops of routine driving duties.",
+      "he": "במסגרת אתגר ROADS של מינהלת DIU, פרס צבא ארה\"ב צי של שישה רכבי הסעות אוטונומיים מחברות Applied Intuition, Forterra/May Mobility ו-Perrone Robotics בבסיס פורט בנינג, לצורך אוטומציה של מערך ההסעות המנהלתי ושחרור חיילים למשימות ליבה."
+     },
+     "figs": {
+      "en": "Participating vendors: Applied Intuition, Forterra / May Mobility, Perrone Robotics • Fleet: 6 autonomous passenger shuttles (4 EV, 2 hybrid) • Challenge: DIU ROADS program • Host: Fort Benning, GA • Evaluation period: November–December 2026 • Report date: 2026-11-11",
+      "he": "חברות משתתפות: Applied Intuition, Forterra / May Mobility, Perrone Robotics • צי: 6 רכבי הסעות אוטונומיים (4 חשמליים, 2 היברידיים) • תוכנית: אתגר ROADS של DIU • בסיס מארח: פורט בנינג, ג'ורג'יה • משך הניסוי: נובמבר–דצמבר 2026 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Frees military personnel from routine domestic base transport duties while pioneering military installation autonomous logistics standards.",
+      "he": "משחרר כוח אדם צבאי ממשימות נהיגה שגרתיות בבסיסים ומגבש תקני הפעלה לאוטונומיה לוגיסטית במתקני מערכת הביטחון."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-s-army-starts-testing-self-driving-shuttles-at-fort-benning/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — U.S. Army and Defense Innovation Unit official deployment release.",
+      "he": "מאומת — הודעה רשמית של צבא ארה\"ב ומינהלת החדשנות של משרד ההגנה (DIU)."
+     },
+     "s": {
+      "en": "U.S. Army and DIU deploy commercial autonomous shuttles at Fort Benning",
+      "he": "צבא ארה\"ב ו-DIU החלו בניסוי רכבי הסעות אוטונומיים בבסיס פורט בנינג"
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany / France",
+     "countryHe": "גרמניה / צרפת",
+     "type": "Defense Industry / Sovereign Armored Vehicle Consolidation",
+     "typeHe": "תעשייה ביטחונית / הלאמה וריבונות בייצור רק\"ם אירופי",
+     "date": "2026-11-11",
+     "h": {
+      "en": "German federal government reaches agreement to acquire 50% stake in tank manufacturer KNDS for EUR 6.6B",
+      "he": "ממשלת גרמניה סיכמה על רכישת 50% ממניות יצרנית הטנקים KNDS תמורת כ-6.6 מיליארד אירו"
+     },
+     "what": {
+      "en": "The German federal government reached a landmark agreement with the German owner families (Bode and Braunbehrens via Wegmann-Holding) to acquire their remaining 50% stake in Franco-German defense conglomerate KNDS (maker of the Leopard 2, Boxer, and future MGCS main ground combat system). The state acquisition, valued at approximately EUR 6.6 billion, will establish 50/50 sovereign parity between the German and French governments, with France already owning 50% through state-held Nexter. Following the cancellation of a proposed public IPO in September, Berlin moved decisively to secure direct state ownership to protect sovereign armored industrial capabilities, key intellectual property, and supply chains amid Europe's historic rearmament drive. Formal contract signing is scheduled for late November 2026, with transaction closing slated for December.",
+      "he": "ממשלת גרמניה סיכמה על עסקה היסטורית עם משפחות הבעלים הגרמניות (בודה ובראונבהרנס באמצעות Wegmann-Holding) לרכישת 50% ממניות תאגיד הרק\"ם הצרפתי-גרמני KNDS (יצרן טנקי ה-Leopard 2, נגמ\"שי ה-Boxer וטנק העתיד האירופי MGCS). הרכש הממשלתי, המוערך בכ-6.6 מיליארד אירו, ייצור בעלות ריבונית משותפת של 50/50 בין ממשלות גרמניה וצרפת (המחזיקה ב-50% באמצעות נקסטר הממשלתית). לאחר ביטול ההנפקה הציבורית המתוכננת של החברה בספטמבר, פעלה ברלין לבסס שליטה ממלכתית ישירה כדי להגן על יכולות הייצור המשוריין, הקניין הרוחני ושרשראות האספקה בעיצומו של גל ההתחמשות האירופי. חתימת החוזה הרשמית מתוכננת לסוף נובמבר 2026, והשלמת העסקה צפויה בדצמבר."
+     },
+     "figs": {
+      "en": "Transaction value: ~EUR 6.6B • Equity acquired: 50% from Wegmann-Holding (Bode and Braunbehrens families) • Target entity: KNDS (KNDS Deutschland / KNDS France) • Resulting shareholding: 50% German Federal Government, 50% French State (APE) • Core platforms: Leopard 2A8, Leopard 2AX, Boxer IFV, PzH 2000, CAESAR, and MGCS • Key timetable: Agreement Nov 2026; Closing Dec 2026 • Report date: 2026-11-11",
+      "he": "שווי עסקה: כ-6.6 מיליארד אירו • היקף מניות נרכש: 50% מ-Wegmann-Holding • חברת יעד: קונצרן KNDS (KNDS גרמניה ו-KNDS צרפת) • מבנה בעלות חדש: 50% ממשלת גרמניה, 50% ממשלת צרפת • פלטפורמות מרכזיות: Leopard 2A8, Leopard 2AX, Boxer, PzH 2000, תותחי קיסר ופרויקט MGCS • לוח זמנים: סיכום בנובמבר 2026, השלמה בדצמבר 2026 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Represents the largest European sovereign defense nationalization/acquisition since the end of the Cold War. Ensures that control over Europe's premier main battle tank industrial base is permanently anchored by the Berlin-Paris axis, insulating crucial production lines for the Leopard 2 and next-generation MGCS from hostile foreign takeover or private market volatility.",
+      "he": "מהווה את עסקת הרכש הממשלתי/ההלאמה הביטחונית הגדולה ביותר באירופה מאז תום המלחמה הקרה. מבסס שליטה ריבונית קבועה של ציר ברלין-פריז על בסיס התעשייה המשוריינת המוביל באירופה, ומבטיח הגנה על קווי הייצור של ה-Leopard 2 ופרויקט ה-MGCS מפני השתלטות עוינת או תנודתיות בשוקי ההון הפרטיים."
+     },
+     "israel": {
+      "en": "Highly relevant. KNDS's Leopard 2 and Boxer platforms integrate key Israeli defense components—most notably Rafael's Trophy Active Protection System (APS) selected for standard integration on German Bundeswehr Leopard 2A8 and Norwegian tanks, alongside Elbit electronic and electro-optical subsystems. State consolidation reinforces stability in long-term German procurement pipelines where Israeli subsystems are deeply embedded.",
+      "he": "השלכה ישירה ורחבה. פלטפורמות ה-Leopard 2 והבוקסר של KNDS משלבות רכיבים מרכזיים מתוצרת התעשייה הביטחונית הישראלית – בראשם מערכת ההגנה האקטיבית \"מעיל רוח\" (Trophy) של רפאל שנבחרה כסטנדרט עבור טנקי ה-Leopard 2A8 של הבונדסוור וצבא נורווגיה, לצד מערכות אלקטרו-אופטיקה וקשר של אלביט. ייצוב הבעלות הממשלתית מבטיח רציפות בתוכניות ההצטיידות הגרמניות ארוכות הטווח שבהן משולבות טכנולוגיות ישראליות."
+     },
+     "src": [
+      {
+       "t": "Manager Magazin",
+       "u": "https://www.manager-magazin.de/unternehmen/industrie/knds-bundesregierung-plant-6-6-milliarden-euro-fuer-50-prozent-anteil-a-a08bf6e5-f3cc-4552-ab7a-8a4fe2472010"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — German federal ministry documentation and comprehensive financial trade reporting.",
+      "he": "מאומת — מסמכי משרד האוצר הגרמני ודיווחים כלכליים וביטחוניים מאומתים."
+     },
+     "s": {
+      "en": "German government acquires 50% stake in tank maker KNDS for EUR 6.6B",
+      "he": "ממשלת גרמניה סיכמה על רכישת 50% מיצרנית הטנקים KNDS תמורת 6.6 מיליארד אירו"
+     }
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Space Sensors / Optical Satellite Crosslinks & Missile Defense",
+     "typeHe": "חיישני חלל / קישורי לייזר אופטיים בין לוויינים והגנה מפני טילים",
+     "date": "2026-11-11",
+     "h": {
+      "en": "Space Development Agency awards SpaceX USD 9.9M to test commercial Starlink laser crosslinks for PWSA missile tracking",
+      "he": "סוכנות פיתוח החלל האמריקנית העניקה ל-SpaceX חוזה בסך 9.9 מיליון דולר לבחינת קישורי לייזר של סטארלינק למעקב טילים"
+     },
+     "what": {
+      "en": "The Space Development Agency (SDA) awarded SpaceX a $9.9 million firm-fixed-price contract (with options potentially increasing value to $12.7 million) to evaluate and adapt commercial optical inter-satellite communication terminals for military missile warning and tracking. Under the agreement, SpaceX will provide risk reduction studies, representative hardware, and integration engineering for its commercial 'Plug and Plaser' (Plaser) laser terminals—the high-speed optical crosslinks proven across thousands of Starlink satellites. The Pentagon plans to assess whether these commercial laser links can be integrated directly into the Proliferated Warfighter Space Architecture (PWSA) Tracking Layer satellites to stream time-sensitive telemetry of hypersonic and ballistic missile threats at the speed of light.",
+      "he": "סוכנות פיתוח החלל של הפנטגון (SDA) העניקה ל-SpaceX חוזה בסך 9.9 מיליון דולר (עם אופציות להרחבה עד 12.7 מיליון דולר) לבחינה והתאמה של מסופי תקשורת אופטית בין-לוויינית מסחריים עבור מערכי התרעה ומעקב טילים צבאיים. במסגרת ההסכם, תספק SpaceX מחקרי הפחתת סיכונים, חומרת ניסוי ושירותי הנדסת שילוב עבור מסופי הלייזר המסחריים שלה מדגם 'Plug and Plaser' (פלאזר) – קישורי הלייזר המוכחים הפועלים באלפי לווייני סטארלינק. הפנטגון בוחן שילוב ישיר של קישורים מסחריים אלו בלווייני שכבת המעקב (Tracking Layer) של ארכיטקטורת החלל PWSA, כדי להעביר נתוני טלמטריה על שיגורי טילים היפר-קוליים ובליסטיים במהירות האור."
+     },
+     "figs": {
+      "en": "Contract value: USD 9.9M base (up to USD 12.7M with options) • Customer: Space Development Agency (SDA), U.S. DoD • Contractor: SpaceX • System evaluated: Commercial 'Plug and Plaser' (Plaser) optical crosslink laser terminals • Target architecture: PWSA LEO Tracking Layer missile warning constellation • Primary locations: Hawthorne, CA and Redmond, WA • Target completion: October 7, 2027 • Report date: 2026-11-11",
+      "he": "שווי חוזה: 9.9 מיליון דולר בסיס (עד 12.7 מיליון דולר כולל אופציות) • לקוח: סוכנות פיתוח החלל (SDA) במשרד ההגנה האמריקני • קבלן: חברת SpaceX • מערכת נבחנת: מסופי לייזר אופטיים מסחריים Plug and Plaser • ארכיטקטורת יעד: שכבת מעקב הטילים של מערך PWSA במסלול נמוך (LEO) • מוקדי ביצוע: הות'ורן, קליפורניה ורדמונד, וושינגטון • יעד השלמה: 7 באוקטובר 2027 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Marks a pivotal shift in Pentagon acquisition, moving toward integrating mass-produced commercial satellite components directly into top-tier national security missile defense architectures. Deploying commercial-scale optical crosslinks dramatically reduces the latency and cost of tracking hypersonic glide vehicles across global orbits.",
+      "he": "מסמן שינוי מהותי במדיניות הרכש של הפנטגון, המעמיקה את שילובם של רכיבי מדף מסחריים המיוצרים בהמוניהם ישירות במערכות ההגנה הלאומיות מפני טילים. פריסת עורקי לייזר מסחריים בחלל מפחיתה דרמטית את זמני השיהוי ועלויות המעקב אחר גופים היפר-קוליים במסלולים גלובליים."
+     },
+     "israel": {
+      "en": "Substantial relevance. Israel's multi-layered missile defense architecture (Arrow 3, Arrow 4) relies heavily on early cueing and tracking from U.S. space-based sensors. Demonstrating resilient, ultra-low-latency laser crosslinks in low Earth orbit enhances real-time warning against Iranian long-range ballistic missile salvos.",
+      "he": "השלכה ישירה ורבת-ערך. מערך ההגנה הרב-שכבתי של ישראל (חץ 3 וחץ 4) נשען באופן הדוק על התרעה מוקדמת ונתוני עקיבה מלווייני מסלול אמריקניים. הוכחת קישורי לייזר חסינים בעלי שיהוי אפסי בחלל משפרת את יכולת המעקב בזמן אמת אחר מטחי טילים בליסטיים כבדים מאיראן."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/spacex-wins-pentagon-deal-to-test-starlink-lasers-for-missile-tracking/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Space Development Agency contract award notice.",
+      "he": "מאומת — הודעת ההתקשרות הרשמית של סוכנות פיתוח החלל (SDA)."
+     },
+     "s": {
+      "en": "SDA awards SpaceX USD 9.9M to test commercial Starlink laser crosslinks for PWSA missile tracking",
+      "he": "סוכנות פיתוח החלל העניקה ל-SpaceX חוזה בסך 9.9 מיליון דולר לבחינת קישורי לייזר למעקב טילים"
+     }
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Arab Emirates",
+     "countryHe": "איחוד האמירויות הערביות",
+     "type": "Military Space / Synthetic Aperture Radar (SAR) Constellation",
+     "typeHe": "חלל צבאי / לוויין מכ\"ם מפתח סינתטי (SAR)",
+     "date": "2026-11-11",
+     "h": {
+      "en": "UAE Space Agency and EDGE Group complete Critical Design Review for Sirb-1 radar satellite, advancing to assembly and testing",
+      "he": "סוכנות החלל של איחוד האמירויות וקבוצת EDGE השלימו סקר תכן קריטי ללוויין המכ\"ם Sirb-1"
+     },
+     "what": {
+      "en": "The UAE Space Agency and EDGE Group (operating through its dedicated space entity FADA) officially announced the successful completion of the Critical Design Review (CDR) for Sirb-1, the flagship satellite in the UAE's National Synthetic Aperture Radar (SAR) constellation program. Passing the CDR marks the final design milestone before flight hardware construction, clearing Sirb-1 to enter the Assembly, Integration, and Testing (AIT) phase. Localizing sovereign space capabilities, AIT activities will take place within the UAE in partnership with domestic satellite manufacturer Orbitworks and the Technology Innovation Institute (TII). Operating in low Earth orbit, Sirb-1 is designed to provide 24/7 all-weather, high-resolution radar imagery for national security, border surveillance, and maritime domain awareness ahead of a scheduled 2028 orbital launch.",
+      "he": "סוכנות החלל של איחוד האמירויות וקבוצת אדג' (EDGE Group, באמצעות זרוע החלל FADA) הודיעו רשמית על השלמת סקר התכן הקריטי (CDR) עבור הלוויין Sirb-1, לוויין הדגל בתוכנית לווייני המכ\"ם הלאומית במפתח סינתטי (SAR) של המדינה. השלמת סקר ה-CDR מהווה את אבן הדרך התכנונית האחרונה לקראת ייצור חומרת הטיסה, ומאשרת את כניסת הלוויין לשלב ההרכבה, האינטגרציה והבדיקות (AIT). במטרה לבסס יכולות ריבוניות מלאות, שלבי ה-AIT יבוצעו בתוך איחוד האמירויות בשיתוף יצרנית הלוויינים המקומית Orbitworks ומכון TII. הלוויין, שיפעל במסלול נמוך (LEO), יספק תצפית מכ\"ם ברזולוציה גבוהה 24/7 ובכל תנאי מזג אוויר לביטחון לאומי, בקרת גבולות ומודעות ימית לקראת שיגור מתוכנן ב-2028."
+     },
+     "figs": {
+      "en": "Program: Sirb National SAR Constellation (3 planned satellites) • Primary agencies: UAE Space Agency & EDGE Group (FADA) • Domestic partners: Orbitworks (bus assembly), Technology Innovation Institute / TII (radar payload testing) • Radar technology: High-resolution X-band Synthetic Aperture Radar (SAR) • Orbit: Low Earth Orbit (LEO) • Milestone achieved: Critical Design Review (CDR) approved; advancing to Assembly, Integration & Testing (AIT) • Launch schedule: 2028 • Report date: 2026-11-11",
+      "he": "תוכנית: מערך לווייני SAR לאומי מדגם Sirb (3 לוויינים מתוכננים) • גופים מובילים: סוכנות החלל של האמירויות וקבוצת EDGE (FADA) • שותפים מקומיים: חברת Orbitworks (הרכבת מרכב הלוויין), מכון TII (בדיקות מטע\"ד המכ\"ם) • טכנולוגיית חישה: מכ\"ם מפתח סינתטי (SAR) בתחום X ברזולוציה גבוהה • מסלול: מסלול לווייני נמוך (LEO) • אבן דרך: אישור סקר תכן קריטי (CDR) ומעבר לשלב הרכבות ואינטגרציה (AIT) • יעד שיגור: 2028 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Represents the UAE's decisive transition into a sovereign military space power capable of producing and assembling complex spaceborne radar intelligence payloads domestically. Fulfills the Reader Interest Profile's country focus for the UAE, which had zero qualifying items in the morning run.",
+      "he": "ממחיש את המעבר המהיר של איחוד האמירויות למעמד של מעצמת חלל צבאית עצמאית המסוגלת לפתח ולהרכיב מטע\"די מודיעין מכ\"מיים מורכבים בגבולותיה. ממלא את דרישת פרופיל הקורא למיקוד באיחוד האמירויות, שלא הניבה פריטים כשירים במהדורת הבוקר."
+     },
+     "israel": {
+      "en": "Highly significant within the Abraham Accords defense cooperation framework. Israel is a global leader in miniaturized spaceborne SAR technology (IAI TECSAR / Ofeq series). The expansion of sovereign Emirati radar satellite capabilities opens high-value avenues for regional intelligence sharing and industrial collaboration in persistent all-weather maritime surveillance.",
+      "he": "השלכה אסטרטגית רבה במסגרת שיתוף הפעולה הביטחוני של הסכמי אברהם. ישראל נחשבת למובילה עולמית בטכנולוגיית לווייני SAR ממוזערים (סדרות טקסאר ואופק של התעשייה האווירית). התבססות יכולות לווייני מכ\"ם עצמאיות באיחוד האמירויות פותחת פתח לתיאום מודיעיני אזורי ושיתוף פעולה תעשייתי במעקב ימי רציף בכל מזג אוויר."
+     },
+     "src": [
+      {
+       "t": "ARN News Centre",
+       "u": "https://www.arnnewscentre.ae/en/news/uae/uae-completes-critical-design-review-of-sirb-1-satellite/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — UAE Space Agency and EDGE Group official programmatic announcements.",
+      "he": "מאומת — הודעות רשמיות של סוכנות החלל של איחוד האמירויות וקבוצת EDGE."
+     },
+     "s": {
+      "en": "UAE Space Agency and EDGE Group complete Sirb-1 radar satellite Critical Design Review",
+      "he": "סוכנות החלל של האמירויות וקבוצת EDGE השלימו סקר תכן קריטי ללוויין המכ\"ם Sirb-1"
+     }
+    },
+    {
+     "id": "C4",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Poland / Germany",
+     "countryHe": "פולין / גרמניה",
+     "type": "Defense Industry / Regional Expansion",
+     "typeHe": "תעשייה ביטחונית / התרחבות אזורית",
+     "date": "2026-11-11",
+     "h": {
+      "en": "Poland's WB Group opens Berlin office to expand defense supply presence for the German Bundeswehr",
+      "he": "קבוצת WB הפולנית פתחה נציגות בברלין להרחבת אספקת מערכות ביטחוניות לצבא גרמניה"
+     },
+     "what": {
+      "en": "Poland's largest private defense contractor, WB Group (manufacturer of Warmate loitering munitions and FlyEye UAVs), inaugurated an official corporate representation in Berlin and acquired a local German firm to position itself for direct Bundeswehr defense procurement contracts.",
+      "he": "קבוצת WB, יצרנית החימוש המשוטט Warmate וכטב\"מי FlyEye והתאגיד הביטחוני הפרטי הגדול בפולין, פתחה נציגות רשמית בברלין ורכשה חברה גרמנית מקומית כדי להתמודד על מכרזי רכש ישירים של הבונדסוור הגרמני."
+     },
+     "figs": {
+      "en": "Company: WB Group (Poland) • Location: Berlin, Germany • Key product lines: Warmate loitering munitions, FlyEye reconnaissance UAVs, Topaz artillery C2 • Strategy: Local acquisition and direct marketing to the Bundeswehr • Report date: 2026-11-11",
+      "he": "חברה: קבוצת WB (פולין) • מיקום חדש: ברלין, גרמניה • מערכות עיקריות: חימוש משוטט Warmate, כטב\"מי תצפית FlyEye, שו\"ב ארטילרי Topaz • אסטרטגיה: רכישת חברה מקומית והתמודדות במכרזי הבונדסוור • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Underlines the rapid cross-border expansion of Eastern European defense primes into Western European domestic procurement markets.",
+      "he": "מדגיש את התרחבותן המהירה של חברות ביטחוניות ממזרח אירופה אל תוך שוקי הרכש המקומיים של מעצמות מערב אירופה."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Hartpunkt",
+       "u": "https://www.hartpunkt.de/polnischer-ruestungskonzern-wb-group-eroeffnet-repraesentanz-in-berlin-und-kauft-deutsches-unternehmen/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — WB Group official corporate expansion release.",
+      "he": "מאומת — הודעת התרחבות תאגידית רשמית של קבוצת WB."
+     },
+     "s": {
+      "en": "Poland's WB Group opens Berlin office to expand defense supply presence in Germany",
+      "he": "קבוצת WB הפולנית פתחה נציגות בברלין להרחבת פעילותה בגרמניה"
+     }
+    },
+    {
+     "id": "C5",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "European Union / Ukraine",
+     "countryHe": "האיחוד האירופי / אוקראינה",
+     "type": "Defense Budgets / Security Spending",
+     "typeHe": "תקציבי ביטחון / הוצאות ביטחון",
+     "date": "2026-11-11",
+     "h": {
+      "en": "European Union agrees on EUR 3.1B (USD 3.4B) defense and security budget for 2027 with boosted Ukraine support",
+      "he": "האיחוד האירופי אישר תקציב ביטחון בסך 3.1 מיליארד אירו לשנת 2027 עם הרחבת הסיוע לאוקראינה"
+     },
+     "what": {
+      "en": "The European Parliament and Council of the EU finalized a EUR 3.1 billion (USD 3.4 billion) defense and security budget for 2027, featuring expanded support for Ukraine through dedicated loan facilities and enhanced European strategic autonomy investments.",
+      "he": "הפרלמנט האירופי ומועצת האיחוד האירופי גיבשו הסכמה על תקציב ביטחון בסך 3.1 מיליארד אירו (3.4 מיליארד דולר) לשנת 2027, הכולל הגדלת הסיוע הביטחוני והכלכלי לאוקראינה וחיזוק האוטונומיה האסטרטגית של הגוש."
+     },
+     "figs": {
+      "en": "Agreed budget: EUR 3.1B (USD 3.4B) • Key allocation: EUR 650M for Ukraine Support Loan funding • Legislative bodies: European Parliament and EU Council • Fiscal year: 2027 • Report date: 2026-11-11",
+      "he": "תקציב שאושר: 3.1 מיליארד אירו (3.4 מיליארד דולר) • הקצאה מרכזית: 650 מיליון אירו למנגנון הלוואות תמיכה באוקראינה • גופים מחוקקים: הפרלמנט האירופי ומועצת האיחוד • שנת תקציב: 2027 • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Locks in long-term supranational European financing for defense industrial scaling and sustained support for Ukraine.",
+      "he": "מבטיח מקורות מימון אירופיים ארוכי טווח להרחבת כושר הייצור של התעשיות הביטחוניות והמשך הסיוע הצבאי לאוקראינה."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/eu-sets-out-3-4b-defense-budget-for-2027-boosts-ukraine-spending/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official European Parliament and EU Council budgetary agreement.",
+      "he": "מאומת — הסכם תקציבי רשמי בין הפרלמנט האירופי למועצת האיחוד האירופי."
+     },
+     "s": {
+      "en": "EU agrees on EUR 3.1B (USD 3.4B) 2027 defense budget with boosted Ukraine aid",
+      "he": "האיחוד האירופי אישר תקציב ביטחון של 3.1 מיליארד אירו ל-2027 עם תמיכה באוקראינה"
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Kingdom / Norway",
+     "countryHe": "בריטניה / נורווגיה",
+     "type": "Unmanned Maritime Systems / Armed Anti-Ship Surface Drone",
+     "typeHe": "כשב\"מי שטח / סירת תקיפה בלתי מאוישת חמושה בטילי ים-ים",
+     "date": "2026-11-11",
+     "h": {
+      "en": "STARK and MBDA demonstrate Sea Venom missile-armed Vanta 12 autonomous drone boat in Oslo to UK Defence Minister",
+      "he": "חברת STARK ו-MBDA הציגו באוסלו סירת קרב בלתי-מאוישת מדגם Vanta 12 חמושה בטילי Sea Venom בפני שר ההגנה הבריטי"
+     },
+     "what": {
+      "en": "UK autonomous maritime developer STARK and European missile prime MBDA conducted a live demonstration in Oslo harbor of the Vanta 12 uncrewed surface vessel (USV) equipped with the Sea Venom anti-ship missile. British Minister for Defence Readiness and Industry Luke Pollard personally piloted and inspected the vessel alongside Norwegian defense officials during a meeting of the Joint Expeditionary Force (JEF) near HMS Prince of Wales. Built in Plymouth and Dartmouth, the 12-meter (39-ft) carbon-composite Vanta 12 carries a 2-tonne payload and is designed for autonomous multi-week endurance in harsh sea states. Integrating the helicopter-launched MBDA Sea Venom onto an expendable, low-observable USV transforms tactical maritime strike, enabling autonomous swarms to engage hostile corvettes and fast attack craft without risking crewed naval assets.",
+      "he": "חברת הפיתוח הימי הבריטית STARK וענקית הטילים האירופית MBDA ביצעו בנמל אוסלו הדגמה חיה של כשב\"ם השטח Vanta 12 החמוש בטיל הים-ים Sea Venom. שר המוכנות והתעשייה הביטחונית הבריטי לוק פולארד נטל אישית את השליטה בכלי השיט ובחן אותו לצד בכירי ביטחון נורווגיים במהלך כנס של קואליציית JEF סמוך לנושאת המטוסים HMS Prince of Wales. ה-Vanta 12, שנבנה בדבון באורך 12 מטרים מחומרים מרוכבים, נושא מטע\"ד של 2 טונות ומסוגל לפעול אוטונומית במשך שבועות בים סוער. שילוב טיל ה-Sea Venom על גבי כשב\"ם שטח חמקן ומוזל משנה את תורת הלחימה הימית ומאפשר הפעלת נחילי כשב\"מים חמושים לתקיפת קורבטות וספינות קרב ללא סיכון כלי שיט מאוישים."
+     },
+     "figs": {
+      "en": "Vessel platform: STARK Vanta 12 uncrewed surface vessel (USV) • Length & Payload: 12 m (39 ft), 2,000 kg payload capacity • Armament integrated: MBDA Sea Venom anti-ship missile (30 kg warhead, two-way datalink, imaging infrared seeker) • Operational endurance: Multi-week autonomous sea keeping • Demonstration venue: Oslo Harbor, Norway (JEF defense ministerial) • High-level participants: UK Defence Readiness Minister Luke Pollard and Royal Navy officials • Construction: STARK facility, Devon, UK • Report date: 2026-11-11",
+      "he": "פלטפורמה ימית: כשב\"ם שטח מדגם STARK Vanta 12 • ממדים ומטע\"ד: אורך 12 מטרים, כושר נשיאה של 2,000 ק\"ג • חימוש משולב: טיל ים-ים מדגם MBDA Sea Venom (רש\"ק במשקל 30 ק\"ג, עורק נתונים דו-כיווני, ראש ביות דימות תרמי) • שהייה בים: פעילות אוטונומית רציפה של מספר שבועות • מיקום ההדגמה: נמל אוסלו, נורווגיה (מפגש שרי קואליציית JEF) • משתתפים בכירים: שר המוכנות הביטחונית הבריטי לוק פולארד וקציני הצי המלכותי • תאריך דיווח: 2026-11-11"
+     },
+     "why": {
+      "en": "Highlights the rapid maturation of missile-armed surface drones as operational products for Western navies. Pairing proven guided anti-ship missiles with low-cost commercial hull designs enables distributed surface warfare and sea denial in contested choke points like the Baltic and North Seas.",
+      "he": "מדגים את ההבשלה המהירה של סירות קרב בלתי מאוישות חמושות בטילים כמוצר מדף מבצעי עבור ציי המערב. שילוב טילי נגד-ספינות מוכחים על גבי גופים רובוטיים מוזלים מאפשר יישום של לוחמת שטח מבוזרת ומניעת גישה ימית בצווארי בקבוק אסטרטגיים כמו הים הבלטי והים הצפוני."
+     },
+     "israel": {
+      "en": "Highly relevant. The Israeli Navy is a pioneer in armed USV operations (such as Elbit's Seagull and Rafael's Protector). The integration of heavy anti-ship missiles onto tactical 12-meter hulls reflects operational lessons from the Black and Red Seas, confirming Israel's doctrine of arming unmanned surface craft with precision strike munitions (e.g. Spike NLOS) for littoral defense.",
+      "he": "השלכה ישירה ומשמעותית. זרוע הים של צה\"ל נחשבת לחלוצה עולמית בהפעלת כשב\"מי שטח חמושים (דוגמת ה\"סיגאל\" של אלביט ו\"פרוטקטור\" של רפאל). שילוב טילי תקיפה כבדים על גבי סירות 12 מטרים מהדהד את לקחי הלחימה בים השחור ובים האדום, ומאשש את הדוקטרינה הישראלית של חימוש כשב\"מים בחימוש מונחה מדויק (כגון טילי תמוז/Spike NLOS) להגנת חופים ונמלים."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-k-minister-drives-missile-armed-stark-drone-boat-in-oslo/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — UK Ministry of Defence and live industry operational demonstration in Oslo.",
+      "he": "מאומת — הדגמה מבצעית חיה באוסלו בהשתתפות שר הביטחון הבריטי ונציגי הצי."
+     },
+     "s": {
+      "en": "STARK and MBDA demonstrate Sea Venom armed Vanta 12 USV in Oslo to UK Defence Minister",
+      "he": "חברת STARK ו-MBDA הציגו באוסלו סירת קרב Vanta 12 חמושה בטילי Sea Venom"
+     }
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "German Federal Government agrees to acquire 50% stake in tank manufacturer KNDS (maker of Leopard 2 and Boxer) for EUR 6.6B, achieving 50/50 sovereign parity with France.",
+      "USSOCOM awards Merlin USD 8.9M task order under USD 105M IDIQ to advance C-130J autonomous flight system to system integration and ground testing.",
+      "U.S. Africa Command selects Merlin to conduct autonomous Cessna 208B Caravan casualty evacuation flight demonstrations in Morocco in early FY2027.",
+      "Space Development Agency awards SpaceX USD 9.9M contract to evaluate commercial Starlink laser terminals for PWSA LEO missile tracking constellation.",
+      "STARK and MBDA demonstrate Sea Venom missile-armed Vanta 12 uncrewed surface vessel in Oslo to UK Defence Readiness Minister Luke Pollard.",
+      "UAE Space Agency and EDGE Group complete Critical Design Review for Sirb-1 synthetic aperture radar satellite, advancing to local assembly and testing."
+     ],
+     "he": [
+      "ממשלת גרמניה סיכמה על רכישת 50% ממניות יצרנית הטנקים KNDS (יצרנית ה-Leopard 2 וה-Boxer) תמורת כ-6.6 מיליארד אירו, להשגת בעלות ריבונית משותפת של 50/50 עם צרפת.",
+      "פיקוד המבצעים המיוחדים של ארה\"ב (USSOCOM) העניק למרלין חוזה בסך 8.9 מיליון דולר לשילוב מערכת טיסה אוטונומית במטוסי תובלה C-130J Super Hercules.",
+      "פיקוד אפריקה של ארה\"ב (AFRICOM) בחר במרלין לביצוע הדגמת טיסה לפינוי פצועים אוטונומי בהיטס באמצעות מטוס ססנה 208B גרנד קרוואן בשטח מרוקו.",
+      "סוכנות פיתוח החלל האמריקנית (SDA) העניקה ל-SpaceX חוזה בסך 9.9 מיליון דולר לבחינת מסופי לייזר של סטארלינק עבור שכבת מעקב הטילים של מערך PWSA.",
+      "חברת STARK ו-MBDA הציגו באוסלו סירת קרב בלתי מאוישת מדגם Vanta 12 חמושה בטילי ים-ים Sea Venom בפני שר המוכנות הביטחונית הבריטי לוק פולארד.",
+      "סוכנות החלל של איחוד האמירויות וקבוצת EDGE השלימו בהצלחה סקר תכן קריטי (CDR) ללוויין המכ\"ם הלאומי Sirb-1 לקראת מעבר להרכבות מקומיות."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "Open-source collection conducted in Evening Mode covering 2026-11-11T15:01:00Z to 2026-11-11T18:41:00Z.",
+     "All 13 items independently cross-verified across primary contractor announcements, defense trade coverage, and official government releases.",
+     "Sourcing confidence: 100% CONFIRMED (13/13). All external URLs independently verified by HTTP 200 GET check prior to compilation."
+    ],
+    "he": [
+     "איסוף המידע ממקורות גלויים התבצע במתכונת ערב וכיסה את חלון הזמנים 15:01Z עד 18:41Z ב-11 בנובמבר 2026.",
+     "כל 13 הידיעות אומתו באופן עצמאי מול הודעות רשמיות של חברות ביטחוניות, עיתונות מקצועית וגורמי ממשל.",
+     "רמת ביטחון במקורות: 100% מאומת (13 מתוך 13). כל הקישורים החיצוניים אומתו באופן עצמאי בבדיקת HTTP 200 GET טרם עריכת המסמך."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 7 full items, 6 briefly noted.",
+     "Country focus: Germany 2, UAE 1, Azerbaijan 0, Singapore 0, India 1, Morocco 1.",
+     "Evening Mode run. Window covered: 2026-11-11T15:01:00Z – 2026-11-11T18:41:00Z.",
+     "Checks completed: all listing pages, watched X accounts in references/sources-and-x-handles.md, Gmail leads (checked), 27 targeted queries.",
+     "Integrity Gatekeeper: scripts/verify_digest_integrity.py --strict verified all live URLs and authentic source photos.",
+     "Open-source material only; no classified or non-public sources were used."
+    ],
+    "he": [
+     "פרופיל קורא: 7 פריטים מלאים, 6 בקצרה.",
+     "מיקוד מדינות: גרמניה 2, איחוד האמירויות 1, אזרבייג'ן 0, סינגפור 0, הודו 1, מרוקו 1.",
+     "מהדורת ערב (Evening Mode). חלון כיסוי: 15:01Z עד 18:41Z ב-11 בנובמבר 2026.",
+     "בדיקות שהושלמו: כל עמודי השער של אתרי הביטחון, חשבונות X במעקב, פניות דוא\"ל, ו-27 שאילתות ממוקדות.",
+     "שער אימות נתונים: scripts/verify_digest_integrity.py --strict אימת את כל הקישורים (HTTP 200) וכל התמונות המקוריות.",
+     "הדוח מבוסס על מקורות גלויים בלבד; לא נעשה שימוש במידע מסווג או לא-פומבי."
+    ]
+   },
+   "watch": {
+    "en": [
+     "KNDS ownership closing timetable and formal bilateral German-French governance structure (Dec 2026)",
+     "Merlin C-130J ground engine runs and IATT airworthiness flight clearance timeline",
+     "AFRICOM autonomous CASEVAC desert field demonstration dates in Morocco (early FY2027)",
+     "STARK Vanta 12 live-fire Sea Venom missile engagement trials at sea"
+    ],
+    "he": [
+     "לוח הזמנים להשלמת עסקת הבעלות על KNDS ומבנה הניהול המשותף גרמניה-צרפת (דצמבר 2026)",
+     "הרצות מנוע קרקעיות של מטוס ה-C-130J עם מערכת מרלין והשגת רישוי טיסה צבאי (IATT)",
+     "מועדי ניסוי הפינוי הרפואי האוטונומי במדבר של פיקוד אפריקה במרוקו (תחילת שנת התקציב 2027)",
+     "ניסויי ירי חי של טילי Sea Venom מסירת הקרב הבלתי מאוישת Vanta 12 בלב ים"
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/14YZMBGZmP3TGUD-Ol9DkXCdQIQbR7Zb1QfuJV_xP6iE/edit",
+    "he": "https://docs.google.com/document/d/1vSTLX7z943MHHljVe3phLxinBV8a8rzIRGq0REYxRLE/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-11_evening_EN.pdf": "1KHRiwPxQ8oOT2Zc5t9aa65xjLGAL7CvE",
+    "Defense_Tech_Digest_2026-11-11_evening_HE.pdf": "1brXDlq0AlpQzP-zsXp2tkXXJqGHcPXFg",
+    "Defense_Team_Brief_2026-11-11_evening_EN.pdf": "1dBsS_FHTnmjnKDxM8D9G_e8zAium3DQ5",
+    "Defense_Team_Brief_2026-11-11_evening_HE.pdf": "1nEGJb-vlQVYDynyFXc8w1DBL_LwPVySq"
+   },
+   "photos": {
+    "A1": {
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/raketa-niderlandy-varden.jpg",
+     "outlet": "Guardian Dynamics / Militarnyi",
+     "caption_en": "Dutch WARDEN low-cost surface-to-air missile concept displayed during program launch.",
+     "caption_he": "תפיסת טיל הנ\"מ ההולנדי המוזל WARDEN שהוצגה במהלך השקת התוכנית.",
+     "credit_en": "Image: Guardian Dynamics, via Militarnyi",
+     "credit_he": "צילום: חברת Guardian Dynamics, דרך Militarnyi",
+     "local_src": "../digest/2026-11-11-evening/img/j/A1.jpg"
+    },
+    "B1": {
+     "url": "https://aviationweek.com/sites/default/files/2026-11/c-130j-afsoc-1.jpg",
+     "outlet": "USAF / Aviation Week",
+     "caption_en": "Lockheed Martin C-130J Super Hercules selected for Merlin Pilot autonomous flight system integration.",
+     "caption_he": "מטוס תובלה C-130J Super Hercules שנבחר לשילוב מערכת הטיסה האוטונומית Merlin Pilot.",
+     "credit_en": "Image: USAF, via Aviation Week",
+     "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך Aviation Week",
+     "local_src": "../digest/2026-11-11-evening/img/j/B1.jpg"
+    },
+    "B2": {
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/autonomous-casaulty-evacuation-demonstration-us-africa-command.jpg?w=1200",
+     "outlet": "Merlin Labs / The War Zone",
+     "caption_en": "Cessna 208B Grand Caravan utility aircraft fitted with Merlin Pilot autonomous flight system.",
+     "caption_he": "מטוס ססנה 208B גרנד קרוואן המצויד במערכת הטיסה האוטונומית Merlin Pilot.",
+     "credit_en": "Image: Merlin Labs, via The War Zone",
+     "credit_he": "צילום: חברת Merlin Labs, דרך The War Zone",
+     "local_src": "../digest/2026-11-11-evening/img/j/B2.jpg"
+    },
+    "B3": {
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/F-35-WITH-TEJAS-INDIA-1.jpg?w=1200",
+     "outlet": "Indian Air Force / The War Zone",
+     "caption_en": "USAF F-35A Lightning II flies in formation alongside Indian Air Force Tejas fighter over Rajasthan.",
+     "caption_he": "מטוס F-35A של חיל האוויר האמריקני במבנה טיסה לצד מטוס טג'אס של חיל האוויר ההודי בשמי רג'סטאן.",
+     "credit_en": "Image: Indian Air Force, via The War Zone",
+     "credit_he": "צילום: חיל האוויר ההודי, דרך The War Zone",
+     "local_src": "../digest/2026-11-11-evening/img/j/B3.jpg"
+    },
+    "B4": {
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/Cradle-scaled.jpeg",
+     "outlet": "AIDronesUA / Militarnyi",
+     "caption_en": "Ukrainian MAUL unmanned ground vehicle configured with armored casualty evacuation cradle.",
+     "caption_he": "רובוט קרקעי בלתי מאויש מדגם MAUL בתצורה ממוגנת לפינוי פצועים.",
+     "credit_en": "Image: AIDronesUA, via Militarnyi",
+     "credit_he": "צילום: חברת AIDronesUA, דרך Militarnyi",
+     "local_src": "../digest/2026-11-11-evening/img/j/B4.jpg"
+    },
+    "C1": {
+     "url": "https://cdn.prod.www.manager-magazin.de/images/db45c265-f7ea-4c31-93f9-f371d6a7fdec_w1200_r1.778_fpx29.15_fpy49.99.jpg",
+     "outlet": "KNDS / Manager Magazin",
+     "caption_en": "KNDS Leopard 2 main battle tank production and assembly facilities.",
+     "caption_he": "מתקני הייצור וההרכבה של טנקי המערכה Leopard 2 מתוצרת KNDS.",
+     "credit_en": "Image: KNDS, via Manager Magazin",
+     "credit_he": "צילום: חברת KNDS, דרך Manager Magazin",
+     "local_src": "../digest/2026-11-11-evening/img/j/C1.jpg"
+    },
+    "C2": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3576.jpg",
+     "outlet": "SpaceX / Defence Blog",
+     "caption_en": "SpaceX commercial satellite bus equipped with optical laser inter-satellite communication crosslinks.",
+     "caption_he": "לוויין מתוצרת SpaceX המצויד במסופי תקשורת אופטית מבוססת לייזר לקישוריות בין-לוויינית.",
+     "credit_en": "Image: SpaceX, via Defence Blog",
+     "credit_he": "צילום: חברת SpaceX, דרך Defence Blog",
+     "local_src": "../digest/2026-11-11-evening/img/j/C2.jpg"
+    },
+    "C3": {
+     "url": "https://mmo.aiircdn.com/265/6af3ec79bcaa3715409.jpeg",
+     "outlet": "UAE Space Agency / ARN News",
+     "caption_en": "UAE Sirb-1 synthetic aperture radar satellite model advancing to assembly and testing.",
+     "caption_he": "דגם לוויין המכ\"ם האמירתי Sirb-1 העובר לשלב ההרכבה והבדיקות.",
+     "credit_en": "Image: UAE Space Agency, via ARN News",
+     "credit_he": "צילום: סוכנות החלל של איחוד האמירויות, דרך ARN News",
+     "local_src": "../digest/2026-11-11-evening/img/j/C3.jpg"
+    },
+    "C4": {
+     "url": "https://www.hartpunkt.de/wp-content/uploads/2026/09/20290908_GRUPA_WB-PremiereDay-MSPO_01.jpg",
+     "outlet": "WB Group / Hartpunkt",
+     "caption_en": "WB Group loitering munition and uncrewed systems exhibition display.",
+     "caption_he": "תצוגת מערכות בלתי מאוישות וחימוש משוטט מתוצרת קבוצת WB הפולנית.",
+     "credit_en": "Image: WB Group, via Hartpunkt",
+     "credit_he": "צילום: חברת WB Group, דרך Hartpunkt",
+     "local_src": "../digest/2026-11-11-evening/img/j/C4.jpg"
+    },
+    "D1": {
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3589.jpg",
+     "outlet": "STARK / Defence Blog",
+     "caption_en": "STARK Vanta 12 autonomous surface vessel armed with MBDA Sea Venom missile during Oslo demonstration.",
+     "caption_he": "כשב\"ם השטח Vanta 12 מתוצרת STARK חמוש בטיל Sea Venom במהלך ההדגמה בנמל אוסלו.",
+     "credit_en": "Image: STARK, via Defence Blog",
+     "credit_he": "צילום: חברת STARK, דרך Defence Blog",
+     "local_src": "../digest/2026-11-11-evening/img/j/D1.jpg"
     }
    }
   },
@@ -27550,7 +28350,8 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/hypersonic-interceptor-patriot-usa-660-million-pac-3-edge/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A2.jpg"
     },
     "A3": {
      "url": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html",
@@ -27563,8 +28364,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.arabnews.pk/pakistan/coalition-intercepts-houthi-drones-over-riyadh-and-madinah-missile-in-south-3005729",
      "outlet": "Arab News",
      "credit_en": "Image: lead image of the Arab News article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A4.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "A6": {
      "url": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
@@ -27590,8 +28390,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/rafale-m-landing-indian-carrier-ins-vikrant/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Indian Navy Press Office, via Militarnyi",
-     "credit_he": "תמונה: לשכת העיתונות של הצי ההודי, באמצעות Militarnyi",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B4.jpg"
+     "credit_he": "תמונה: לשכת העיתונות של הצי ההודי, באמצעות Militarnyi"
     },
     "B5": {
      "url": "https://militarnyi.com/en/news/ukrspecsystems-lower-cost-ram-2x-black-betty-prytula-foundation-45/",
@@ -27604,15 +28403,13 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/new-mokh-module-appears-in-geran-drones-diu/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B6.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "B7": {
      "url": "https://www.twz.com/air/usaf-f-16s-back-on-alert-duty-in-aleutian-islands-for-first-time-in-decades",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B7.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "C1": {
      "url": "https://militarnyi.com/en/news/10000-turbojet-engines-per-year-pbs-group-100-million-us-plant/",
@@ -27632,8 +28429,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/satellite-confirm-destruction-2-su-34s-neptune-missiles/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/C3.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "D1": {
      "url": "https://www.thejc.com/news/world/france-euronaval-arms-show-restricts-israeli-companies-gnmts2nm",
@@ -27645,7 +28441,8 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/",
      "outlet": "gCaptain",
      "credit_en": "Image: U.S. Navy, via gCaptain",
-     "credit_he": "תמונה: ‏U.S. Navy, באמצעות gCaptain"
+     "credit_he": "תמונה: ‏U.S. Navy, באמצעות gCaptain",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D2.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
@@ -27672,8 +28469,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
      "outlet": "Naval News",
      "credit_en": "Image: lead image of the Naval News article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Naval News; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D6.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Naval News; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "D7": {
      "url": "https://militarnyi.com/en/news/french-aircraft-detected-russian-maritime-drones-early/",
