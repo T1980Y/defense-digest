@@ -1,6 +1,7 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-11-evening",
+ "updated_at": "2026-11-12",
  "dates": [
+  "2026-11-12",
   "2026-11-11",
   "2026-11-11-evening",
   "2026-11-10",
@@ -26,6 +27,1519 @@ window.DEFENSE_BRIEF_FEED = {
   "2026-10-31"
  ],
  "digests": {
+  "2026-11-12": {
+   "date": "2026-11-12",
+   "doc_id": "2026-11-12",
+   "wstart": "2026-11-11T18:41:00Z",
+   "wend": "2026-11-12T15:01:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Directed Energy / High-Energy Laser C-UAS",
+     "typeHe": "אנרגיה מכוונת / מערכות לייזר רב-עוצמה ליירוט רחפנים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "AeroVironment awarded landmark USD 405M international contract for LOCUST X3 counter-drone laser systems in Middle East",
+      "he": "אירו-וירונמנט זכתה בחוזה בינלאומי בהיקף של 405 מיליון דולר לאספקת מערכות לייזר נגד כטב\"מים מדגם LOCUST X3 במזרח התיכון"
+     },
+     "what": {
+      "en": "AeroVironment secured a landmark direct commercial sales contract valued at USD 405M to deliver LOCUST X3 high-energy laser weapon systems to an undisclosed allied customer in the Middle East. The LOCUST X3 integrates a 30-kilowatt class fiber laser, an advanced precision electro-optical/infrared (EO/IR) acquisition and tracking sensor gimbal, and an internal power and thermal management architecture into a rapidly deployable containerized footprint. Designed specifically to counter Group 1 through Group 3 uncrewed aerial systems—ranging from commercial FPV quadcopters to Shahed-series one-way attack loitering munitions—the system provides persistent, deep-magazine kinetic defense at a cost of cents per shot. The multi-year contract includes system production, layered C2 integration with existing air defense radar networks, and the construction of an in-country maintenance and sustainment depot.",
+      "he": "חברת AeroVironment האמריקאית זכתה בחוזה מכירה מסחרית ישירה (DCS) בהיקף שיא של 405 מיליון דולר לאספקת מערכות נשק לייזר רב-עוצמה מדגם LOCUST X3 ללקוח במזרח התיכון. מערכת ה-LOCUST X3 משלבת לייזר סיב אופטי בהספק של כ-30 קילוואט, מטע\"ד אלקטרו-אופטי/תרמי מיוצב לעקיבה ורכישת מטרות בדיוק מילי-רדיאני, ומערך ניהול אנרגיה וקירור במכולה ניידת המיועדת להצבה מהירה סביב מתקנים אסטרטגיים. המערכת מיועדת ליירוט כטב\"מים מקטגוריות 1 עד 3 — החל מרחפני FPV מתאבדים ועד כטב\"מים ארוכי טווח ממשפחת שאהד — בעלות של סנטים בודדים לכל פעימת יירוט. החוזה כולל שילוב עם מכ\"מי גילוי אווירי קיימים והקמת מרכז אחזקה והדרכה מקומי."
+     },
+     "figs": {
+      "en": "Seller: AeroVironment (USA) • Value: USD 405M • System: LOCUST X3 High-Energy Laser Weapon System • Laser power: ~30 kW class solid-state fiber laser • Target envelope: Group 1, 2, and 3 UAS, loitering munitions, ISR drones • Scope: System production, radar/C2 integration, in-country depot maintenance • Report date: 2026-11-12.",
+      "he": "מוכרת: AeroVironment (ארה\"ב) • שווי: 405 מיליון דולר (USD 405M) • מערכת: נשק לייזר עתיר אנרגיה LOCUST X3 • הספק לייזר: כ-30 קילוואט • מטרות יירוט: כטב\"מים ורחפנים מקטגוריות 1–3 וחימושים משוטטים • היקף: אספקת מערכות, אינטגרציית שליטה ובקרה והקמת מתקן אחזקה • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Marks one of the largest single export orders for operational high-energy laser weapons to date. Demonstrates that Middle Eastern militaries are actively transitioning from missile-dependent intercept architectures to low-cost directed-energy layers to counter sustained drone swarm saturation campaigns.",
+      "he": "מציין את אחת מעסקאות היצוא הגדולות בהיסטוריה של מערכות נשק לייזר מבצעיות. מעיד על מעבר מואץ של צבאות במזרח התיכון משימוש בטילי יירוט יקרים לשכבות הגנה מבוססות אנרגיה מכוונת וזולות להפעלה כמענה למתקפות כטב\"מים מסיביות."
+     },
+     "israel": {
+      "en": "Directly impacts regional air defense posture and procurement dynamics. While Israel accelerates the domestic and allied fielding of Rafael's 100 kW Iron Beam (מגן אור), the widespread deployment of 30 kW U.S. laser systems in neighboring Gulf airspace creates tactical interoperability and supply-chain benchmarks for directed energy in contested airspace.",
+      "he": "בעל השפעה ישירה על תמונת ההגנה האווירית האזורית. בעוד ישראל מאיצה את הפריסה המבצעית של 'מגן אור' (Iron Beam) בהספק 100 קילוואט מתוצרת רפאל, כניסת מערכות לייזר אמריקאיות בהספק 30 קילוואט למרחב המפרץ מייצרת סטנדרט טכנולוגי אזורי ליירוט זול של נחילי כטב\"מים."
+     },
+     "src": [
+      {
+       "t": "AeroVironment Official Contract Release",
+       "u": "https://www.avinc.com/2026/11/11/av-awarded-landmark-405-million-international-order-for-locust-x3-laser-defense-systems/"
+      },
+      {
+       "t": "Defence Industry Europe Dispatch",
+       "u": "https://defence-industry.eu/aerovironment-says-it-received-a-405-million-middle-east-order-for-locust-x3-laser-systems/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official contract announcement by AeroVironment and defense industry reporting.",
+      "he": "מאומת — הודעת חוזה רשמית של יצרנית המערכת ודיווחים בעיתונות הביטחונית."
+     },
+     "s": {
+      "en": "AeroVironment lands USD 405M Middle East deal for LOCUST X3 counter-drone high-energy lasers",
+      "he": "אירו-וירונמנט זכתה בחוזה של 405 מיליון דולר לאספקת מערכות לייזר LOCUST X3 במזרח התיכון"
+     }
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Belgium",
+     "countryHe": "בלגיה",
+     "type": "Ground-Based Air Defense / 4D AESA Radars",
+     "typeHe": "הגנה אווירית קרקעית / מכ\"מי AESA ארבע-ממדיים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Belgium procures 14 Thales Ground Master 200 Multi-Mission Compact radars for 'Blue Dome' air defense",
+      "he": "בלגיה רוכשת 14 מכ\"מי AESA ניידים מדגם Ground Master 200 MM/C של תאלס עבור רשת ההגנה 'כיפה כחולה'"
+     },
+     "what": {
+      "en": "Thales announced an order from the Belgian Ministry of Defence for 14 Ground Master 200 Multi-Mission Compact (GM200 MM/C) radars to serve as the sensor backbone of Belgium's rebuilding air defense infrastructure under the 'Blue Dome' program. Manufactured by Thales Netherlands, the GM200 MM/C is a multi-mission 4D AESA S-band radar capable of rapid setup in under 60 seconds. Operating with software-defined digital beamforming, the radar simultaneously detects, classifies, and tracks high-speed ballistic and aerodynamic targets alongside micro-UAVs, loitering munitions, and rocket/artillery/mortar (C-RAM) fire. Within the Blue Dome architecture, the 14 radars will network directly with Kongsberg Fire Distribution Centres, feeding cueing data to NASAMS surface-to-air missile batteries and Rheinmetall Skyranger 30 mobile gun systems.",
+      "he": "תאגיד תאלס (Thales) הודיע על קבלת חוזה ממשרד ההגנה הבלגי לאספקת 14 מכ\"מי AESA ניידים מדגם Ground Master 200 Multi-Mission Compact (GM200 MM/C). המכ\"מים, המיוצרים בהולנד, ישמשו כשדרת החיישנים המרכזית בתוכנית 'כיפה כחולה' (Blue Dome) לבנייה מחדש של מערך ההגנה האווירית הבלגי. המכ\"ם פועל בפס S ומסוגל להיפרס בתוך פחות מ-60 שניות, תוך ביצוע סריקה אלקטרונית 4D רב-משימתית לגילוי ומעקב בו-זמני אחר מטוסי קרב, טילי שיוט, חימושים משוטטים ורחפנים זעירים, לצד איתור מקורות ירי תלול-מסלול (C-RAM). המכ\"מים יתממשקו עם מרכזי השו\"ב של קונגסברג וסוללות טילי NASAMS ותותחי סקיירנג'ר 30."
+     },
+     "figs": {
+      "en": "Buyer: Belgian Armed Forces • Supplier: Thales Netherlands • Quantity: 14 radar units • Model: Ground Master 200 Multi-Mission Compact (GM200 MM/C) • Radar tech: 4D AESA, Gallium Nitride (GaN), S-band • Surveillance range: Up to 250 km (air surveillance) / 100 km (weapon locating) • Setup time: <1 minute • Host program: Belgian 'Blue Dome' • Report date: 2026-11-12.",
+      "he": "רוכש: צבא בלגיה • ספקית: תאלס הולנד • כמות: 14 מערכות מכ\"ם • דגם: Ground Master 200 MM/C • טכנולוגיה: מכ\"ם AESA ארבע-ממדי, מוליכי GaN, פס S • טווח גילוי: עד 250 ק\"מ לגילוי אווירי, עד 100 ק\"מ לאיתור ירי • זמן פריסה: מתחת לדקה • פרויקט-על: 'כיפה כחולה' • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Resolves a two-decade-long capability gap for Belgium, which operated without dedicated ground-based tactical air defense radars. Establishes deep sensor interoperability across Benelux airspace, aligning Belgian radar fleets directly with Dutch, Norwegian, and NATO air defense networks.",
+      "he": "סוגר פער מבצעי של כעשרים שנה שבהן בלגיה פעלה ללא מערך מכ\"מי נ\"מ טקטיים קרקעיים. הרכש מבסס אחידות חיישנים מלאה במרחב בנלוקס, ומשלב את מערך ההתרעה הבלגי ישירות מול רשתות הנ\"מ של הולנד, נורווגיה ונאט\"ו."
+     },
+     "israel": {
+      "en": "Underscores intense European competition in the tactical AESA multi-mission radar segment, where IAI ELTA (ELM-2084 MMR) actively bids for NATO medium-range air defense requirements. Highlights NATO's growing standardization on networked GaN AESA sensors for integrated C-UAS and missile defense.",
+      "he": "משקף את התחרות העזה באירופה בשוק מכ\"מי ה-AESA הטקטיים הרב-משימתיים, שבו מתחרה אלתא מבית התעשייה האווירית עם מכ\"מי ה-MMR (ELM-2084). מדגיש את העדפת נאט\"ו לחיישני GaN מרושתים כסטנדרט להגנה משולבת נגד כטב\"מים וטילים."
+     },
+     "src": [
+      {
+       "t": "Thales Group Official Press Release",
+       "u": "https://www.thalesgroup.com/en/news-centre/press-releases/thales-will-deliver-gm200-mm/c-radars-strengthen-belgiums-blue-dome"
+      },
+      {
+       "t": "The Defense Post Report",
+       "u": "https://thedefensepost.com/2026/11/12/belgium-thales-blue-dome-radars/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official procurement contract confirmed by Thales and Belgian MoD.",
+      "he": "מאומת — חוזה רכש רשמי שאושר על ידי תאלס ומשרד ההגנה הבלגי."
+     },
+     "s": {
+      "en": "Belgium orders 14 Thales GM200 MM/C 4D AESA radars for 'Blue Dome' air defense network",
+      "he": "בלגיה הזמינה 14 מכ\"מי GM200 MM/C מחברת תאלס עבור מערך ההגנה האווירית 'כיפה כחולה'"
+     }
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Defense Industry / Air Defense Radar Manufacturing",
+     "typeHe": "תעשייה ביטחונית / הרחבת ייצור מכ\"מי הגנה אווירית",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Hensoldt outlines EUR 6B revenue target for 2030, doubles TRML-4D air defense radar production capacity",
+      "he": "הנסולדט הגרמנית מציבה יעד הכנסות של 6 מיליארד אירו ל-2030 ומכפילה את כושר ייצור מכ\"מי TRML-4D"
+     },
+     "what": {
+      "en": "During its Capital Markets Day, German defense sensor house Hensoldt reaffirmed aggressive long-term financial targets, projecting annual revenue to reach EUR 6B (USD 6.5B) by 2030 and EUR 10B by 2035. Driven by soaring European demand for layered air defense following the war in Ukraine, management announced an immediate industrial scale-up to double the annual production capacity of its battle-proven TRML-4D mobile air defense radar over the next two years. The TRML-4D, which utilizes a rotating C-band AESA antenna equipped with solid-state GaN transmit-receive modules, serves as the primary sensor for Diehl Defence's IRIS-T SLM air defense system. Hensoldt indicated that annual revenue growth will accelerate from 10% to 15–20% starting in 2027 as massive Bundeswehr rearmament orders materialize under Germany's expanded defense budget.",
+      "he": "במהלך יום שוקי ההון שלה, אשררה חברת האלקטרוניקה והחיישנים הביטחונית הגרמנית הנסולדט (Hensoldt) יעדי צמיחה אגרסיביים, וצופה כי הכנסותיה יגיעו ל-6 מיליארד אירו עד 2030 ול-10 מיליארד אירו עד 2035. על רקע הביקוש האירופי העצום למערכות נ\"מ, הודיעה החברה על הכפלת כושר הייצור השנתי של מכ\"ם ההגנה האווירית המוביל שלה מדגם TRML-4D בתוך שנתיים. מכ\"ם ה-TRML-4D, המבוסס על אנטנת AESA מסתובבת בפס C עם רכיבי GaN, משמש כחיישן הגילוי והמעקב המרכזי של מערכת הנ\"מ IRIS-T SLM מתוצרת Diehl Defence. החברה צופה האצה של קצב הצמיחה השנתי ל-15%–20% החל משנת 2027 עם הבשלת הזמנות ענק מצד הבונדסוור הגרמני."
+     },
+     "figs": {
+      "en": "Company: Hensoldt AG (Germany) • Financial target: EUR 6B by 2030, EUR 10B by 2035 • Production target: Doubling TRML-4D radar manufacturing run-rate within 24 months • Radar type: TRML-4D mobile C-band AESA (GaN) • Integrated platform: Diehl IRIS-T SLM • Target tracking capacity: Up to 1,500 airborne targets simultaneously • Range: 250 km • Report date: 2026-11-12.",
+      "he": "חברה: Hensoldt (גרמניה) • יעד הכנסות: 6 מיליארד אירו עד 2030, 10 מיליארד אירו עד 2035 • יעד תעשייתי: הכפלת קצב ייצור מכ\"מי TRML-4D בתוך 24 חודשים • סוג מכ\"ם: AESA נייד בפס C (טכנולוגיית GaN) • מערכת משולבת: IRIS-T SLM מתוצרת דיל • מעקב בו-זמני: עד 1,500 מטרות אוויריות • טווח: 250 ק\"מ • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Overcomes one of the critical manufacturing bottlenecks in European air defense. With TRML-4D radars in high operational demand across Ukraine and NATO eastern flank allies, doubling assembly throughput is essential to shorten delivery lead times for IRIS-T SLM fire units.",
+      "he": "פותר את אחד מצווארי הבקבוק התעשייתיים הקריטיים ביותר במערך ההגנה האווירית האירופי. הביקוש המבצעי הגבוה למכ\"מי TRML-4D באוקראינה ובאגף המזרחי של נאט\"ו מחייב הכפלת קווי ההרכבה כדי לקצר משמעותית את זמני האספקה של סוללות IRIS-T SLM."
+     },
+     "israel": {
+      "en": "Directly impacts European industrial workshare and procurement timelines where German-Israeli defense partnerships (such as Arrow 3 co-production with IAI and Trophy active protection on Leopard tanks) share industrial manufacturing bandwidth and German MoD budget allocations.",
+      "he": "משפיע ישירות על חלוקת העבודה ולוחות הזמנים של התעשייה הביטחונית הגרמנית, המשתפת פעולה הדוקות עם תעשיות ישראליות (בתוכנית חץ 3 של התעשייה האווירית ובשילוב מערכות מעיל רוח על טנקי לאופרד) החולקות תקציבים ומשאבי ייצור בגרמניה."
+     },
+     "src": [
+      {
+       "t": "DefenseHere Financial Dispatch",
+       "u": "https://defensehere.com/en/hensoldt-projects-e6-billion-in-revenue-for-2030/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — corporate Capital Markets Day disclosure by Hensoldt executive management.",
+      "he": "מאומת — הודעה רשמית של הנהלת הנסולדט ביום שוקי ההון של החברה."
+     },
+     "s": {
+      "en": "Hensoldt targets EUR 6B revenue by 2030, doubles TRML-4D air defense radar production",
+      "he": "הנסולדט הציבה יעד הכנסות של 6 מיליארד אירו ל-2030 ומכפילה את ייצור מכ\"מי TRML-4D"
+     }
+    },
+    {
+     "id": "A4",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "C-UAS / Metamaterials Radar Integration",
+     "typeHe": "לוחמה ברחפנים / שילוב מכ\"ם מטא-חומרים במערכות הגנה",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Echodyne EchoShield radar integrated into BAE Systems BATS counter-drone system following Scottish trials",
+      "he": "מכ\"ם ה-EchoShield של אקודין שולב במערכת BATS של BAE Systems להגנה מפני כטב\"מים בעקבות ניסויים בסקוטלנד"
+     },
+     "what": {
+      "en": "U.S. radar specialist Echodyne announced that its EchoShield radar has been selected and integrated into BAE Systems’ Anti-Threat System (BATS), a modular, software-defined counter-uncrewed aerial system (C-UAS) capability. Built on Echodyne’s patented Metamaterials Electronically Scanned Array (MESA) technology, EchoShield delivers ultra-high-resolution spatial data, persistent micro-Doppler classification, and accurate track maintenance against erratic drone trajectories. The integration follows successful live-fire trials conducted by BAE Systems in Scotland, where the EchoShield sensor demonstrated real-time cueing of kinetic and electronic defeat mechanisms against multi-axis drone swarms under complex clutter conditions. BATS fuses sensor intelligence through a single command-and-control node to execute the complete sense-decide-effect mission chain.",
+      "he": "חברת Echodyne האמריקאית הודיעה כי מכ\"ם ה-EchoShield מתוצרתה נבחר ושולב במערכת הלוחמה ברחפנים BATS (Anti-Threat System) של תאגיד BAE Systems. המכ\"ם מבוסס על טכנולוגיית מטא-חומרים מוגנת בפטנט (MESA), המאפשרת סריקה אלקטרונית ברזולוציה זוויתית גבוהה, אפון מיקרו-דופלר מדויק לסיווג מטרות זעירות ועקיבה יציבה אחר רחפנים מתמרנים בסביבה רוויית החזרים. השילוב בוצע בעקבות ניסויי שדה מוצלחים שקיימה BAE Systems בסקוטלנד, שבהם הדגים המכ\"ם הכוונת אמצעי שיבוש אלקטרוניים וחימושים קינטיים נגד נחילי רחפנים בשרשרת 'חיישן-יורה' אחודה."
+     },
+     "figs": {
+      "en": "Sensor: Echodyne EchoShield MESA radar • Host system: BAE Systems Anti-Threat System (BATS) • Architecture: Software-defined, modular C-UAS • Radar technology: Metamaterials Electronically Scanned Array (Ku-band) • Target capabilities: Micro, mini, and tactical drones (Group 1–2) • Trial venue: Scotland, UK • Function: Persistent 3D tracking, micro-Doppler classification, automated cueing • Report date: 2026-11-12.",
+      "he": "חיישן: מכ\"ם Echodyne EchoShield • מערכת מארחת: BAE Systems BATS • ארכיטקטורה: הגנה מודולרית מוגדרת תוכנה נגד כטב\"מים • טכנולוגיה: סריקה אלקטרונית מבוססת מטא-חומרים (MESA בפס Ku) • יעדי יירוט: רחפנים זעירים וכטב\"מים טקטיים מקטגוריות 1–2 • אתר ניסוי: סקוטלנד, בריטניה • תפקיד: מעקב תלת-ממדי, סיווג מיקרו-דופלר והכוונת אש • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Validates commercial-derivative metamaterials radar technology as a viable, cost-effective alternative to bulky military AESA arrays for local base defense and expeditionary counter-drone weapon mounts.",
+      "he": "מוכיח את היעילות והבשלות המבצעית של מכ\"מי מטא-חומרים זולים וקלי-משקל כחלופה למכ\"מי AESA צבאיים כבדים ויקרים לצורך הגנת מתחמים וכוחות קדמיים מפני רחפני FPV."
+     },
+     "israel": {
+      "en": "Directly parallels Israeli developments in low-SWaP micro-radars (such as RADA/Leonardo DRS RPS-42 and Elta tactical radars) deployed across IDF border sectors to counter Hezbollah and Gaza drone incursions.",
+      "he": "מקביל ישירות לפיתוחי מיקרו-מכ\"מים ישראליים קלי-משקל (דוגמת מכ\"מי ראדא/לאונרדו DRS ואלתא) הפרוסים בגבולות ישראל לגילוי רחפני נפץ וכטב\"מים מנמיכי טוס."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Announcement",
+       "u": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system/"
+      },
+      {
+       "t": "The Defense Post Report",
+       "u": "https://thedefensepost.com/2026/11/12/bae-echodyne-echoshield-drone-defense/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — joint corporate announcements by Echodyne and BAE Systems.",
+      "he": "מאומת — הודעות רשמיות משותפות של אקודין ו-BAE Systems."
+     },
+     "s": {
+      "en": "Echodyne EchoShield metamaterials radar integrated into BAE Systems BATS C-UAS",
+      "he": "מכ\"ם ה-EchoShield של אקודין שולב במערכת ה-C-UAS מדגם BATS של BAE Systems"
+     }
+    },
+    {
+     "id": "A5",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "C-UAS / Low-Cost Interceptor Missiles",
+     "typeHe": "לוחמה ברחפנים / טילי יירוט זולים לסיכול כטב\"מים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Ukrainian defense tech venture founded by former minister Fedorov and Lasar's Group launches low-cost anti-drone missile development",
+      "he": "מיזם ביטחוני-טכנולוגי באוקראינה שהוקם על ידי השר לשעבר פדורוב וקבוצת לאזאר מפתח טילי יירוט זולים נגד כטב\"מים"
+     },
+     "what": {
+      "en": "A new specialized Ukrainian defense technology enterprise, co-founded by former Digital Transformation Minister Mykhailo Fedorov and the leadership of Lasar's Group, was formally launched in Kyiv to design and mass-produce low-cost kinetic surface-to-air interceptor missiles. The company focuses on solving the critical 'cost-exchange dilemma' by developing interceptors capable of neutralizing Iranian-designed Shahed-136/Geran-2 strike drones and reconnaissance UAVs at a fraction of the cost of Western SAMs (such as NASAMS or IRIS-T). Utilizing commercial off-the-shelf (COTS) optical tracking sensors, 3D-printed aerodynamic components, and solid-propellant rocket motors, the enterprise aims to achieve initial live-fire flight trials within six months, targeting a unit production cost under USD 15,000.",
+      "he": "מיזם טכנולוגי-ביטחוני חדש באוקראינה, שהוקם במשותף על ידי שר הטרנספורמציה הדיגיטלית לשעבר מיכאילו פדורוב והנהלת קבוצת לאזאר (Lasar's Group), הושק בקייב במטרה לפתח ולייצר בייצור המוני טילי יירוט קרקע-אוויר זולים נגד כטב\"מים. החברה שמה לה למטרה לפתור את 'מלכודת יחסי העלות' במלחמה, שבה משוגרים טילי נ\"מ מערביים יקרים (דוגמת פטריוט ו-IRIS-T) לעבר כטב\"מי שאהד זולים. הטיל החדש מתבסס על רכיבים אופטיים מסחריים (COTS), גוף בהדפסת תלת-ממד ומנוע דלק מוצק פשוט, במטרה להגיע למבחני טיסה בתוך חצי שנה ולעלות ייצור של פחות מ-15,000 דולר לטיל."
+     },
+     "figs": {
+      "en": "Founders: Mykhailo Fedorov (former Vice Prime Minister) & Lasar's Group • Product: Low-cost kinetic C-UAS surface-to-air missile • Cost target: <USD 15,000 per interceptor • Target envelope: Shahed-136/Geran-2, Supercam, Zala, Orlan-10 • First live flight trials target: Q2 2027 • Guidance: Optical contrast / semi-active laser • Report date: 2026-11-12.",
+      "he": "מייסדים: מיכאילו פדורוב (לשעבר סגן ראש הממשלה) וקבוצת לאזאר • מוצר: טיל יירוט קרקע-אוויר קינטי וזול נגד כטב\"מים • יעד עלות: מתחת ל-15,000 דולר לטיל • מטרות יירוט: כטב\"מי שאהד-136, סופרקאם, זאלה ואורלן • יעד לניסוי ראשון: רבעון שני 2027 • הנחיה: ניגודיות אופטית / ביות חצי-אקטיבי • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Represents Ukraine's deliberate industrial shift from ad-hoc mobile gun teams to mass-manufactured, sovereign low-cost guided interceptors to protect distributed power grids and military bases from nightly saturation attacks.",
+      "he": "מבטא את המעבר האסטרטגי של אוקראינה מחוליות נ\"מ ניידות עם מקלעים לעבר ייצור עצמאי המוני של טילי יירוט זולים ומדויקים להגנה על רשת החשמל והבסיסים מפני מתקפות כטב\"מים ליליות."
+     },
+     "israel": {
+      "en": "Validates the doctrine behind Israeli low-cost kinetic C-UAS initiatives and laser systems. Reinforces global market interest in low-cost interceptors where Israeli prime contractors and startups seek commercial and co-production models.",
+      "he": "מאשש את התפיסה הישראלית בדבר הצורך בטילי יירוט קינטיים זולים לצד מערכות לייזר. פותח פתח לשיתופי פעולה תעשייתיים עם חברות הזנק ביטחוניות בישראל המפתחות מיירטים זולים."
+     },
+     "src": [
+      {
+       "t": "Militarnyi Defense Dispatch",
+       "u": "https://militarnyi.com/en/news/former-defense-minister-fedorov-and-lasar-s-group-founder-launch-company-to-develop-anti-drone-missiles/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — corporate founding announcement and interviews covered in Ukrainian defense trade press.",
+      "he": "מאומת — הודעת הקמת החברה וראיונות שפורסמו בעיתונות הביטחונית באוקראינה."
+     },
+     "s": {
+      "en": "Ukrainian defense tech startup launched to develop sub-USD 15K anti-drone guided missiles",
+      "he": "חברת הזנק ביטחונית באוקראינה הושקה לפיתוח טילי יירוט מונחים נגד כטב\"מים בעלות של פחות מ-15,000 דולר"
+     }
+    },
+    {
+     "id": "A6",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Operational Security / Drone Countermeasures",
+     "typeHe": "אבטחת מידע ומבצעים / סיכול ריגול מבוסס רחפנים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "German Bundeswehr bans Chinese-manufactured commercial drones and connected vehicles from military installations over espionage risks",
+      "he": "הבונדסוור הגרמני אוסר על הכנסת רחפנים מסחריים וכלי רכב מקושרים מתוצרת סין לבסיסי צבא עקב חשש מריגול"
+     },
+     "what": {
+      "en": "The German Bundeswehr issued a military-wide security directive prohibiting the entry, flight, and operation of Chinese-manufactured commercial drones (such as DJI) and connected electric vehicles across all German military bases and defense infrastructure due to risks of remote telemetry exfiltration and clandestine surveillance.",
+      "he": "הבונדסוור הגרמני פרסם הנחיית ביטחון גורפת האוסרת על כניסה, הטסה והפעלה של רחפנים מסחריים מתוצרת סין (דוגמת DJI) ושל כלי רכב חשמליים מקושרים בכל בסיסי הצבא ומתקני הביטחון בגרמניה, מחשש לזליגת נתוני מיקום וריגול אלקטרוני."
+     },
+     "figs": {
+      "en": "Enforcing agency: German Federal Ministry of Defence / Bundeswehr • Scope: Prohibition of Chinese commercial drones (DJI, Autel) and smart connected vehicles across all federal bases • Concern: Wireless data transmission to overseas servers • Report date: 2026-11-12.",
+      "he": "גוף אוכף: משרד ההגנה הגרמני • היקף: איסור מוחלט על רחפנים סיניים וכלי רכב מקושרים בבסיסים • עילה: חשש לשידור נתוני טלמטריה לשרתים בסין • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Tightens physical and electronic perimeter security across NATO airbases following repeated suspicious drone overflights observed near Bundeswehr ammunition depots and training ranges.",
+      "he": "מהדק את אבטחת הבסיסים של נאט\"ו בגרמניה בעקבות שורת מקרים של גיחות רחפנים חשודות מעל מחסני תחמושת ומתקני אימונים של הבונדסוור."
+     },
+     "israel": {
+      "en": "Mirrors strict IDF security protocols restricting Chinese consumer drones near sensitive border zones and command headquarters.",
+      "he": "תואם את נהלי אבטחת המידע המחמירים בצה\"ל האוסרים שימוש ברחפנים אזרחיים מתוצרת סין בקרבת גבולות ומפקדות רגישות."
+     },
+     "src": [
+      {
+       "t": "Militarnyi Report",
+       "u": "https://militarnyi.com/en/news/bundeswehr-bans-chinese-drones-and-cars-from-military-bases-over-espionage-fears/"
+      },
+      {
+       "t": "The Defense Post Report",
+       "u": "https://thedefensepost.com/2026/11/12/germany-chinese-made-drones/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official security directive reported by German defense authorities.",
+      "he": "מאומת — הנחיית ביטחון רשמית שפורסמה על ידי רשויות הביטחון בגרמניה."
+     },
+     "s": {
+      "en": "German Bundeswehr bans Chinese commercial drones and connected cars from bases",
+      "he": "הבונדסוור הגרמני אסר שימוש ברחפנים ובכלי רכב מקושרים מתוצרת סין בבסיסיו"
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "South Korea",
+     "countryHe": "קוריאה הדרומית",
+     "type": "Uncrewed Combat Aircraft / Collaborative Combat Aircraft (CCA)",
+     "typeHe": "מטוסי קרב בלתי מאוישים / כטב\"מי לחימה שיתופיים (CCA)",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Korean Air Aerospace accelerates Collaborative Combat Aircraft program, completing critical design for stealth loyal wingman",
+      "he": "קוריאן אייר אירוספייס מאיצה את תוכנית כטב\"מי ה-CCA ומשלימה תכנון קריטי למטוס ליווי חמקן"
+     },
+     "what": {
+      "en": "Korean Air Aerospace Division (KAL-ASD) announced that it has pushed forward its Collaborative Combat Aircraft (CCA) development roadmap, achieving critical design review (CDR) milestones for its Low-Observable Uncrewed Wingman System (LOWUS). Developed in partnership with South Korea's Agency for Defense Development (ADD), the jet-powered CCA features a tailless swept-wing planform, a dorsal flush-mounted radar-diverting air intake, internal weapons bays, and radar-absorbent composite skin. Designed to operate as a semi-autonomous 'loyal wingman' manned-unmanned teaming (MUM-T) partner for South Korea's KF-21 Boramae 4.5+ generation fighters and FA-50 light attack jets, the CCA will carry out forward electronic sensing, radar jamming, and beyond-visual-range missile cueing in contested airspace. Initial prototype assembly is underway ahead of maiden flight trials scheduled for early 2027.",
+      "he": "חטיבת התעופה והחלל של קוריאן אייר (KAL-ASD) הודיעה על התקדמות מואצת בתוכנית כטב\"מי הקרב השיתופיים (CCA) שלה, והשלימה את שלב התכנון הקריטי (CDR) של מטוס הליווי החמקן מדגם LOWUS. המטוס, שפותח בשיתוף עם הסוכנות הדרום-קוריאנית למחקר ביטחוני (ADD), מבוסס על תצורת כנף משוכה ללא הגה כיוון, כונס אוויר גבי חמקני המוטמע בגוף, תאי חימוש פנימיים וציפוי חומרים סופחי מכ\"ם. הכטב\"ם מיועד לפעול כ'מטוס ליווי נאמן' (Loyal Wingman) בלחימת צוות מאוישת-בלתי-מאוישת לצד מטוסי הקרב החדשים מדגם KF-21 בוראמה ומטוסי ה-FA-50, ויבצע משימות גילוי קדמי, לוחמה אלקטרונית והכוונת טילים מעבר לאופק. הרכבת אב-הטיפוס הראשון החלה לקראת טיסת בכורה בתחילת 2027."
+     },
+     "figs": {
+      "en": "Developer: Korean Air Aerospace Division (KAL-ASD) & ADD • Program: Low-Observable Uncrewed Wingman System (LOWUS) • Host aircraft: KAI KF-21 Boramae, FA-50, F-35A • Propulsion: Single turbofan engine • Stealth features: Tailless planform, dorsal S-duct intake, internal weapons bays, RAM skin • Role: MUM-T forward sensor, radar spoofing, SEAD, BVR missile carriage • Flight test target: Early 2027 • Report date: 2026-11-12.",
+      "he": "מפתחת: קוריאן אייר (KAL-ASD) וסוכנות ADD • פרויקט: מטוס ליווי חמקן בלתי מאויש (LOWUS / CCA) • פלטפורמות מאוישות: KF-21 בוראמה, FA-50 ו-F-35A • הנעה: מנוע טורבו-מניפה יחיד • מאפייני חמקנות: תצורה נטולת זנב, כונס S גחוני פנימי, תאי חימוש פנימיים • ייעוד: חיישן קדמי, ל\"א ודיכוי נ\"מ • יעד לטיסת בכורה: תחילת 2027 • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Highlights South Korea's emergence alongside the United States and Australia as a frontrunner in operational CCA manufacturing, establishing an independent domestic unmanned combat fleet capable of penetrating dense North Korean and regional A2/AD anti-access bubbles.",
+      "he": "מציב את קוריאה הדרומית לצד ארה\"ב ואוסטרליה בחזית הפיתוח של מטוסי קרב בלתי מאוישים מלווים (CCA), ומבסס יכולת עצמאית לפריצת מערכי הגנה אווירית צפופים של קוריאה הצפונית ומעצמות האזור."
+     },
+     "israel": {
+      "en": "Directly impacts Israeli CCA doctrine and industrial concepts. As the Israeli Air Force evaluates future teaming concepts between F-35I Adir and autonomous unmanned escorts, Korean Air's progress highlights the global move toward serial CCA airframe manufacturing.",
+      "he": "משפיע ישירות על תורת הלחימה של חיל האוויר הישראלי, הבוחן תפיסות הפעלה של לחימת צוות (MUM-T) בין מטוסי אדיר (F-35I) לכטב\"מים מלווים, וממחיש את המעבר העולמי לייצור סדרתי של מטוסי קרב אוטונומיים."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense Comprehensive Report",
+       "u": "https://breakingdefense.com/2026/11/korean-air-aerospace-pushes-forward-with-collaborative-combat-aircraft-plans/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — program milestones and disclosures confirmed by Korean Air Aerospace leadership.",
+      "he": "מאומת — פרטי התוכנית ואבני הדרך אושרו על ידי הנהלת חטיבת התעופה של קוריאן אייר."
+     },
+     "s": {
+      "en": "Korean Air Aerospace advances LOWUS Collaborative Combat Aircraft toward 2027 flight trials",
+      "he": "קוריאן אייר אירוספייס מקדמת את כטב\"ם הקרב השיתופי LOWUS לקראת טיסות ניסוי ב-2027"
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Turkey",
+     "countryHe": "טורקיה",
+     "type": "Uncrewed Combat Aircraft / Precision Munitions Testing",
+     "typeHe": "כטב\"מי תקיפה / ניסויי חימוש מונחה מדויק",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Bayraktar Akinci UCAV scores direct hit with two ASELSAN TOLUN-P penetrating guided munitions under active electronic jamming",
+      "he": "כטב\"ם התקיפה אקינג'י פוגע בדיוק במטרה עם שני חימושים חודרי בונקרים מדגם TOLUN-P תחת חסימה אלקטרונית פעילה"
+     },
+     "what": {
+      "en": "Turkish aerospace prime Baykar, in partnership with defense electronics giant ASELSAN, successfully executed a high-profile live-fire test involving the Bayraktar Akinci Unmanned Combat Aerial Vehicle (UCAV) firing two TOLUN-P bunker-penetrating precision-guided munitions. Conducted over a test range under heavy simulated electronic warfare and GNSS jamming interference, the Akinci released the 250-pound class miniature smart bombs from its SADAK-4T smart multi-payload rack. Both munitions navigated autonomously via anti-jam satellite and inertial guidance systems, achieving bullseye impacts on reinforced bunker targets and demonstrating penetration through concrete fortifications.",
+      "he": "ענקית התעופה הטורקית באייקר (Baykar), בשיתוף עם חברת האלקטרוניקה הביטחונית אסלסאן (ASELSAN), השלימה בהצלחה ניסוי ירי חי שבו שיגר כטב\"ם התקיפה הכבד באירקטאר אקינג'י (Akinci) שתי פצצות חודרות בונקרים מונחות מדויקות מדגם TOLUN-P. הניסוי נערך בשדה ניסויים תחת תנאי חסימה אלקטרונית ושיבוש לווייני (GNSS) כבדים המדמים שדה קרב מודרני. החימושים שוגרו ממנשא חכם מרובה-תליות מדגם SADAK-4T, ניווטו באופן אוטונומי באמצעות חליפת ניווט מוגנת שיבושים, ופגעו בדיוק נקודתי במטרות מבוצרות תוך חדירת שכבות בטון מזוין."
+     },
+     "figs": {
+      "en": "UCAV: Bayraktar Akinci (twin-turboprop) • Munition: ASELSAN TOLUN-P (Penetrating Small Diameter Bomb) • Guidance: GPS/INS with anti-jam CRPA antenna • Penetration capability: Defeats ~1 meter of reinforced concrete • Munition weight: 250 lb (113 kg) • Carriage rack: SADAK-4T multi-lock rack • Environmental conditions: Active EW jamming • Report date: 2026-11-12.",
+      "he": "כטב\"ם: Bayraktar Akinci • חימוש: פצצת גלישה חודרת בונקרים ASELSAN TOLUN-P • הנחיה: GPS/INS עם אנטנת ביטול שיבושים (CRPA) • כושר חדירה: כ-1 מטר של בטון מזוין • משקל חימוש: 250 ליברות (113 ק\"ג) • מנשא: מתאם רב-חימושי SADAK-4T • תנאי ניסוי: לוחמה אלקטרונית פעילה • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Validates Turkey's capability to deliver sovereign precision bunker-busting strikes from tactical drones inside heavily jammed, GPS-denied environments without relying on foreign munitions or Western aircraft.",
+      "he": "מוכיח את יכולתה של טורקיה לבצע תקיפות כירורגיות חודרות ביצורים מכטב\"מים בסביבה נטולת GPS ורוויית לוחמה אלקטרונית, תוך הישענות מלאה על חימוש ומערכות הנחיה מייצור עצמי."
+     },
+     "israel": {
+      "en": "Directly impacts regional balance of precision strike capabilities. Turkish export of Akinci UCAVs paired with penetrating TOLUN-P munitions to Middle Eastern, North African, and Central Asian customers expands sovereign stand-off strike capabilities near Israeli theaters of interest.",
+      "he": "משפיע ישירות על מאזן החימוש המדויק האזורי. יצוא כטב\"מי אקינג'י חמושים בפצצות חודרות בונקרים למדינות במזרח התיכון ובמרכז אסיה מרחיב את זמינות החימוש המונחה המתקדם במרחב."
+     },
+     "src": [
+      {
+       "t": "Anadolu Agency Official Dispatch",
+       "u": "https://www.aa.com.tr/en/science-technology/turkiye-s-bayraktar-akinci-hits-target-with-tolun-munitions-under-jamming/3392348"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official flight test announcement and video telemetry released by Baykar and ASELSAN.",
+      "he": "מאומת — הודעת ניסוי רשמית ותיעוד וידאו שפורסמו על ידי באייקר ואסלסאן."
+     },
+     "s": {
+      "en": "Bayraktar Akinci scores direct hits with two TOLUN-P penetrating smart bombs under jamming",
+      "he": "כטב\"ם אקינג'י פגע בדיוק במטרה עם שתי פצצות חודרות בונקרים מדגם TOLUN-P תחת ל\"א"
+     }
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Tactical UAS / Low-Acoustic Surveillance Drones",
+     "typeHe": "כטב\"מים טקטיים / רחפני סיור בעלי חתימה אקוסטית נמוכה",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Aero Sentinel unveils 'seniX' low-acoustic tactical surveillance drone for mass production at UVID 2026, already operational with IDF",
+      "he": "חברת אירו סנטינל הישראלית חושפת את רחפן הסיור הטקטי המושתק seniX בתערוכת UVID 2026, שכבר נקלט מבצעית בצה\"ל"
+     },
+     "what": {
+      "en": "At the UVID DroneTech 2026 conference in Tel Aviv, Israeli unmanned systems manufacturer Aero Sentinel officially unveiled the 'seniX', an advanced tactical vertical takeoff and landing (VTOL) surveillance drone designed for low-noise covert observation and high-volume serial production. Engineered with a specialized low-acoustic propeller and electric motor geometry, the drone operates virtually undetected at altitudes as low as 50 meters. Equipped with an onboard AI edge processor for real-time target detection and a stabilized dual-sensor daylight/thermal payload, the seniX has already achieved operational fielding with an elite specialized unit of the Israel Defense Forces (IDF) during frontline counter-terrorism and reconnaissance operations.",
+      "he": "במהלך כנס UVID DroneTech 2026 בתל אביב, חשפה יצרנית הרחפנים הישראלית אירו סנטינל (Aero Sentinel) את ה-seniX — רחפן סיור טקטי מונחה חשמלי המיועד לפעילות איסוף חשאית בייצור המוני מהיר. בזכות תכנון אווירודינמי של מדחפים שקטים ומנוע חשמלי ייעודי, הרחפן מתאפיין בחתימה קולית נמוכה במיוחד המאפשרת לו לפעול מעל יעדים בגובה של 50 מטרים בלבד ללא גילוי על ידי האויב. הרחפן מצויד במעבד AI לעיבוד תמונה בקצה ובמטע\"ד יום/לילה תרמי מיוצב, וכבר נקלט לפעילות מבצעית באחת מיחידות העילית של צה\"ל במשימות סריקה ולוחמה בטרור."
+     },
+     "figs": {
+      "en": "Manufacturer: Aero Sentinel (Israel) • Platform: seniX Tactical VTOL UAS • Acoustic profile: Sub-audible at 50m AGL • Payload: Stabilized dual EO/IR gimbal + onboard AI vision processor • Operational status: Fielded with elite IDF special unit • Manufacturing concept: Scalable rapid production design • Event: UVID DroneTech 2026, Tel Aviv • Report date: 2026-11-12.",
+      "he": "יצרנית: אירו סנטינל (Aero Sentinel, ישראל) • דגם: רחפן טקטי seniX • חתימה אקוסטית: בלתי נשמע בגובה 50 מטרים • מטע\"ד: מצלמת יום/תרמית מיוצבת ומעבד בינה מלאכותית • סטטוס מבצעי: בשימוש מבצעי ביחידת עילית של צה\"ל • תפיסת ייצור: הרכבה מודולרית מהירה • אירוע חשיפה: UVID DroneTech 2026 • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Addresses the intense frontline need for stealthy, tactical dismounted intelligence in dense urban and subterranean combat environments where standard quadcopters are quickly spotted and engaged by small-arms fire.",
+      "he": "עונה על צורך דחוף של כוחות היבשה והיחידות המובחרות במודיעין חוזי טקטי שקט בשטח בנוי וסבוך, שבו רחפנים מסחריים רגילים מזוהים בקלות ומותקפים באש נשק קל."
+     },
+     "israel": {
+      "en": "Directly highlights Israeli tactical drone innovation and sovereign manufacturing agility, providing specialized IDF units with organic low-observable aerial reconnaissance tailored to immediate operational requirements.",
+      "he": "מדגים את החדשנות הטכנולוגית והגמישות התעשייתית של חברות ישראליות בתחום הכטב\"מים הטקטיים, ומספק לצה\"ל מענה מבצעי מיידי לאיסוף מודיעין חשאי בלוחמה בשטח בנוי."
+     },
+     "src": [
+      {
+       "t": "IsraelDefense Official Unveil Report",
+       "u": "https://www.israeldefense.co.il/en/node/64321"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official product unveiling and IDF operational deployment confirmed at UVID 2026.",
+      "he": "מאומת — חשיפה רשמית של המוצר ואישור קליטתו המבצעית בצה\"ל בכנס UVID 2026."
+     },
+     "s": {
+      "en": "Aero Sentinel reveals 'seniX' low-acoustic tactical surveillance drone, deployed with IDF",
+      "he": "אירו סנטינל חשפה את רחפן הסיור המושתק seniX, שכבר פועל ביחידת עילית בצה\"ל"
+     }
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Azerbaijan",
+     "countryHe": "אזרבייג'ן",
+     "type": "Military Cooperation / Unmanned Systems Training",
+     "typeHe": "שיתוף פעולה צבאי / אימון והפעלת כטב\"מים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Azerbaijan and Tajikistan defense delegations meet in Baku to establish bilateral military drone training and share operational UAV combat tactics",
+      "he": "משלחות ביטחוניות מאזרבייג'ן ומטג'יקיסטן נפגשו בבאקו לקידום אימונים משותפים ושיתוף לקחי הפעלת כטב\"מים"
+     },
+     "what": {
+      "en": "Under the 2026 bilateral military cooperation plan between Azerbaijan and Tajikistan, delegations from both nations' defense ministries convened in Baku for high-level working group meetings on unmanned aviation. Hosted by the Azerbaijani Ministry of Defense, the discussions focused on structured cooperation in training uncrewed aerial vehicle (UAV) crews and drone operators. Azerbaijani commanders shared extensive combat lessons learned from integrated drone operations, loitering munition coordination, and counter-electronic warfare tactics, while establishing mutual training pipelines and academic exchange modules at Azerbaijani military aviation schools.",
+      "he": "במסגרת תוכנית שיתוף הפעולה הצבאי לשנת 2026 בין אזרבייג'ן לטג'יקיסטן, נפגשו בבאקו משלחות ממשרדי ההגנה של שתי המדינות לדיונים מקצועיים בתחום התעופה הבלתי מאוישת. משרד ההגנה האזרי אירח את המשלחת הטג'יקית לשיחות שהתמקדו בהכשרת צוותי הפעלה לכטב\"מים ואימוני מטיסים. הקצינים האזרים שיתפו לקחים מבצעיים נרחבים מהפעלת כטב\"מי תקיפה וחימושים משוטטים בשדה קרב מודרני מול מערכי הגנה מתקדמים, וסיכמו על פתיחת מסלולי הכשרה משותפים במוסדות הצבאיים בבאקו."
+     },
+     "figs": {
+      "en": "Host: Ministry of Defense of the Republic of Azerbaijan • Partner: Ministry of Defense of the Republic of Tajikistan • Focus area: UAV operator training, tactical drone employment, EW mitigation • Program: 2026 Bilateral Military Cooperation Plan • Venue: Baku, Azerbaijan • Report date: 2026-11-12.",
+      "he": "מארח: משרד ההגנה של אזרבייג'ן • שותף: משרד ההגנה של טג'יקיסטן • תחום עיקרי: הכשרת מטיסי כטב\"מים, תורת הפעלה טקטית והתמודדות עם לוחמה אלקטרונית • מסגרת: תוכנית שת\"פ ביטחוני 2026 • מיקום: באקו • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Expands Azerbaijan's regional defense influence in Central Asia as an exporter of modern unmanned warfare doctrine, leveraging its extensive operational combat experience with Turkish and Israeli drone platforms to train regional partner armed forces.",
+      "he": "מרחיב את השפעתה הביטחונית של אזרבייג'ן במרכז אסיה כיצואנית של תורת לחימה בלתי מאוישת, תוך מינוף הניסיון המבצעי המוכח שצברה בהפעלת מערכי כטב\"מים מתקדמים (מתוצרת טורקיה וישראל) להדרכת צבאות האזור."
+     },
+     "israel": {
+      "en": "Directly impacts Israeli strategic ties in the South Caucasus. Azerbaijan's reliance on integrated drone fleets built substantially on Israeli aerospace technology (IAI Harop, Elbit Hermes 450/900) elevates Baku's role as a regional center of excellence for unmanned doctrine.",
+      "he": "בעל חשיבות לאינטרסים הישראליים בקווקז ובמרכז אסיה. תורת ההפעלה האזרית נשענת במידה רבה על מערכות ישראליות מתקדמות (הארופ של התעשייה האווירית, הרמס של אלביט), ומבססת את מעמדה של באקו כמוקד אזורי להפעלת כטב\"מים."
+     },
+     "src": [
+      {
+       "t": "Azertac Official News Agency",
+       "u": "https://azertag.az/en/xeber/azerbaijan_tajikistan_discuss_military_cooperation_in_uav_field-3274812"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official release by the Ministry of Defense of the Republic of Azerbaijan via Azertac.",
+      "he": "מאומת — הודעה רשמית של משרד ההגנה האזרי שפורסמה בסוכנות הידיעות הממלכתית אזרטאג."
+     },
+     "s": {
+      "en": "Azerbaijan and Tajikistan establish bilateral drone crew training cooperation in Baku",
+      "he": "אזרבייג'ן וטג'יקיסטן מקדמות שיתוף פעולה באימון מטיסי כטב\"מים בבאקו"
+     }
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Sweden",
+     "countryHe": "שוודיה",
+     "type": "Military Aviation / Operational AI Agents",
+     "typeHe": "תעופה צבאית / סוכני בינה מלאכותית למטוסי קרב",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Sweden's Saab introduces family of operational AI agents for future combat aircraft and Gripen E mission systems",
+      "he": "סאאב השוודית חושפת משפחת סוכני בינה מלאכותית אוטונומיים למטוסי קרב עתידיים ומערכות מטוסי גריפן E"
+     },
+     "what": {
+      "en": "Swedish aerospace and defense group Saab introduced an innovative family of specialized artificial intelligence (AI) agents designed for rapid integration into future fighter aircraft and modern Gripen E/F mission systems. Engineered within a modular, open-architecture avionics framework, the AI agent ecosystem includes dedicated software sub-agents for automated multi-sensor fusion, beyond-visual-range tactical decision support, electronic warfare countermeasures management, and collaborative combat aircraft (CCA) loyal wingman teaming. The architecture decouples flight-safety critical flight control laws from cognitive mission algorithms, allowing pilots to receive transparent, explainable recommendations while maintaining continuous human-on-the-loop control.",
+      "he": "תאגיד התעופה והביטחון השוודי סאאב (Saab) חשף משפחה של סוכני בינה מלאכותית ייעודיים להטמעה במטוסי קרב מהדור הבא ובמערכות המשימה של מטוסי הגריפן E/F. המערכת מבוססת על ארכיטקטורה פתוחה ומודולרית, וכוללת תת-סוכני AI המתמחים בהיתוך חיישנים אוטונומי, קבלת החלטות טקטיות בקרבות אוויר מעבר לאופק, ניהול אמצעי נגד בלוחמה אלקטרונית והפעלת כטב\"מי ליווי מלווים (Loyal Wingman). הארכיטקטורה מפרידה בין מערכות בקרת הטיסה קריטיות-הבטיחות לבין אלגוריתמי המשימה, ומספקת לטייס המלצות פעולה שקופות ומוסברות תוך שמירה על שליטה אנושית מלאה."
+     },
+     "figs": {
+      "en": "Developer: Saab Group (Sweden) • Platform integration: Gripen E/F, future fighter concepts, uncrewed wingmen • AI agent specialties: Sensor fusion, tactical route replanning, EW prioritization, MUM-T command • Architecture: Open mission system separating flight-critical code from AI models • Report date: 2026-11-12.",
+      "he": "מפתחת: סאאב (שוודיה) • פלטפורמות יעד: גריפן E/F, מטוסי קרב עתידיים וכטב\"מי ליווי • תחומי התמחות של סוכני ה-AI: היתוך נתונים, תכנון מסלול טקטי, ניהול ל\"א ושליטה ב-MUM-T • ארכיטקטורה: מערכת פתוחה המפרידה בין קוד בקרת טיסה למודלי AI • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Addresses the severe cognitive overload experienced by single-seat fighter pilots in highly congested, multi-threat A2/AD battlefields, allowing pilots to act as tactical battle commanders orchestrating uncrewed systems.",
+      "he": "מעניק פתרון לעומס הקוגניטיבי הכבד המוטל על טייסי קרב במרחב אווירי עתיר איומים, ומאפשר לטייס לפעול כמפקד משימה טקטי המנהל להק של כלים בלתי מאוישים."
+     },
+     "israel": {
+      "en": "Directly parallels the Israeli Air Force's digital transformation and development of AI-driven mission assistants (such as algorithms deployed in the F-35I Adir and Rafael/Elbit avionics suites) for real-time sensor fusion and threat prioritization.",
+      "he": "מקביל ישירות לטרנספורמציה הדיגיטלית בחיל האוויר הישראלי ולפיתוח עוזרי משימה מבוססי בינה מלאכותית (כגון מערכות במטוסי אדיר ובחליפות האוויוניקה של אלביט ורפאל) להיתוך מידע ותעדוף מטרות."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense Technical Feature",
+       "u": "https://breakingdefense.com/2026/11/swedens-saab-launches-family-of-ai-agents-for-future-aircraft-projects/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — technical unveiling and concept release by Saab defense aeronautics division.",
+      "he": "מאומת — חשיפה טכנולוגית רשמית של חטיבת התעופה הצבאית בסאאב."
+     },
+     "s": {
+      "en": "Saab introduces family of operational AI agents for Gripen E and future combat aircraft",
+      "he": "סאאב חשפה משפחת סוכני בינה מלאכותית אוטונומיים למטוסי גריפן E ולמטוסי קרב עתידיים"
+     }
+    },
+    {
+     "id": "B6",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Defense Artificial Intelligence / Multi-Sensor Fusion",
+     "typeHe": "בינה מלאכותית ביטחונית / היתוך חיישנים רב-ממדי",
+     "date": "2026-11-12",
+     "h": {
+      "en": "European defense AI unicorn Helsing launches 'Clarity' real-time multi-sensor intelligence analysis platform for operator review",
+      "he": "חברת הבינה המלאכותית הביטחונית הלסינג משיקה את 'Clarity' — פלטפורמה להיתוך מודיעין חיישנים בזמן אמת"
+     },
+     "what": {
+      "en": "European defense artificial intelligence unicorn Helsing officially launched 'Clarity', an enterprise software platform engineered to automatically ingest, correlate, and analyze massive volumes of multi-domain sensor data across frontline operational command posts. Connecting live feeds from synthetic aperture radar (SAR) satellites, electro-optical reconnaissance drones, acoustic arrays, and radio-frequency (RF) intercept receivers, Clarity utilizes computer vision and generative AI models to detect, classify, and track potential high-value targets across denied territory in seconds rather than hours. Crucially, the system features an explainable 'human-in-the-loop' interface where all algorithmic target proposals provide confidence scoring, provenance metadata, and direct imagery links for human operator verification prior to kinetic tasking.",
+      "he": "חברת הבינה המלאכותית הביטחונית האירופית הלסינג (Helsing) השיקה רשמית את פלטפורמת 'Clarity' — מערכת תוכנה המיועדת להיתוך, הצלבה וניתוח אוטומטי של כמויות עתק של נתוני חיישנים במפקדות מבצעיות קדמיות. המערכת קולטת הזנות חיות מלווייני מכ\"ם מפתח סינתטי (SAR), כטב\"מי תצפית אלקטרו-אופטיים, חיישנים אקוסטיים ומקלטי מודיעין אותות (SIGINT), ומפעילה מודלי ראייה ממוחשבת לגילוי, סיווג ומעקב אחר מטרות אויב בתוך שניות במקום שעות. המערכת כוללת ממשק 'אדם בלולאה' (Human-in-the-loop) המציג למפעיל ציון מהימנות, מקורות מידע וצילום ברור לאישור אנושי לפני אישור תקיפה."
+     },
+     "figs": {
+      "en": "Developer: Helsing (Germany/UK/France) • System: Clarity AI Platform • Data inputs: SAR satellite feeds, drone video, SIGINT/EW intercepts, acoustic sensors • Target latency: Real-time correlation (seconds from sensor to screen) • Target identification: Military vehicles, air defense radars, command posts • Architecture: Explainable AI with verified operator sign-off • Deployment: Compatible with tactical edge cloud and dismounted C2 nodes • Report date: 2026-11-12.",
+      "he": "מפתחת: Helsing (גרמניה/בריטניה/צרפת) • מערכת: פלטפורמת בינה מלאכותית Clarity • מקורות מידע: לווייני מכ\"ם SAR, וידאו מכטב\"מים, מודיעין אותות וחיישנים אקוסטיים • זמן עיבוד: שניות מרגע קליטת החיישן לצג המפעיל • זיהוי מטרות: רק\"ם, סוללות נ\"מ, מפקדות ומשגרי טילים • ארכיטקטורה: מודל מוסבר המחייב אישור מפעיל אנושי • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Cuts through the severe sensor-data saturation plaguing modern joint command headquarters, drastically compressing the kill-chain cycle from target discovery to effector cueing while safeguarding legal and ethical oversight through mandatory human review.",
+      "he": "פותרת את בעיית 'ההצפה המודיעינית' במפקדות מודרניות, ומקצרת דרמטית את מעגל האש (Sensor-to-Shooter) משעות לשניות, תוך הבטחת בקרה משפטית ומבצעית באמצעות חיוב אישור של מפקד אנושי."
+     },
+     "israel": {
+      "en": "Parallels the IDF's pioneering operational integration of AI targeting factories and automated sensor fusion systems (such as the 'Habsor' target recommendation system and Elbit/Rafael C4I networks) during combat operations in Gaza and Lebanon.",
+      "he": "מקביל ישירות למערכות הבינה המלאכותית המבצעיות של צה\"ל (דוגמת מערכת 'הבשור' ומערכות השו\"ב של אלביט ורפאל) להיתוך מידע רב-חיישני והפקת מטרות בזמן אמת בלחימה."
+     },
+     "src": [
+      {
+       "t": "Militarnyi Technology Report",
+       "u": "https://militarnyi.com/en/news/helsing-unveils-clarity-ai-powered-intelligence-analysis-platform/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — platform launch and operational demonstrations announced by Helsing leadership.",
+      "he": "מאומת — השקה רשמית והדגמות מבצעיות שהוצגו על ידי הנהלת חברת הלסינג."
+     },
+     "s": {
+      "en": "Helsing launches 'Clarity' real-time multi-sensor AI intelligence analysis platform",
+      "he": "הלסינג השיקה את פלטפורמת ה-AI מדגם 'Clarity' להיתוך מודיעין חיישנים בזמן אמת"
+     }
+    },
+    {
+     "id": "B7",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Singapore",
+     "countryHe": "סינגפור",
+     "type": "Military Doctrine / Future Force Leadership",
+     "typeHe": "דוקטרינה צבאית / מנהיגות ביטחונית וטכנולוגית",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Singapore Minister for Defence Chan Chun Sing calls on SAF commanders to adapt leadership and doctrine to rapidly shifting unmanned and hybrid security threats",
+      "he": "שר ההגנה של סינגפור צ'אן צ'ון סינג קורא למפקדי הצבא להתאים את הדוקטרינה והמנהיגות לאיומי כטב\"מים ולוחמה היברידית"
+     },
+     "what": {
+      "en": "Speaking at the SAF Leadership and Learning Seminar 2026 at the SAFTI Military Institute, Singapore's Minister for Defence Chan Chun Sing directed armed forces leaders to fundamentally reshape military doctrines, organizational structures, and tactical decision speeds to prevail amid disruptive technologies, autonomous uncrewed swarms, and cognitive hybrid warfare.",
+      "he": "בנאומו בסמינר המנהיגות של צבא סינגפור (SAF) במכון הצבאי SAFTI, הנחה שר ההגנה צ'אן צ'ון סינג את המפקדים לבצע התאמה עמוקה בדוקטרינה הצבאית, במבנה הכוח ובמהירות קבלת ההחלטות כדי להתמודד ביעילות עם טכנולוגיות משבשות, נחילי כטב\"מים ולוחמה היברידית."
+     },
+     "figs": {
+      "en": "Speaker: Chan Chun Sing, Minister for Defence • Event: SAF Leadership and Learning Seminar 2026 • Institution: SAFTI Military Institute • Strategic directives: Faster organizational learning loops, technological agility, autonomous systems integration • Report date: 2026-11-12.",
+      "he": "דובר: שר ההגנה צ'אן צ'ון סינג • אירוע: סמינר מנהיגות צבא סינגפור • מוסד: מכון SAFTI • דגשים: האצת תהליכי למידה ארגונית, גמישות טכנולוגית ושילוב מערכות אוטונומיות • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Reflects Singapore's strategic push to leverage advanced technology and autonomous platforms to multiply force effectiveness given national demographic constraints.",
+      "he": "משקף את המאמץ האסטרטגי של סינגפור למנף טכנולוגיה ומערכות בלתי מאוישות כמכפיל כוח משמעותי נוכח המגבלות הדמוגרפיות של הצבא."
+     },
+     "israel": {
+      "en": "Echoes ongoing high-level defense dialogues and shared doctrinal philosophies between Singapore and the IDF on digital transformation and rapid force adaptation.",
+      "he": "מהדהד את שיתוף הפעולה הביטחוני ההיסטורי והתפיסות הדוקטרינריות המשותפות בין סינגפור לצה\"ל בטרנספורמציה דיגיטלית ובניין הכוח."
+     },
+     "src": [
+      {
+       "t": "The Straits Times Official Report",
+       "u": "https://www.straitstimes.com/singapore/saf-leaders-must-adapt-to-evolving-security-landscape-chan-chun-sing"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official keynote address reported by Singapore national press.",
+      "he": "מאומת — נאום מפתח רשמי שפורסם בעיתונות הלאומית בסינגפור."
+     },
+     "s": {
+      "en": "Singapore Defence Minister directs SAF to adapt doctrine to unmanned and hybrid warfare",
+      "he": "שר ההגנה של סינגפור הנחה את הצבא להתאים את הדוקטרינה ללוחמת כטב\"מים וטכנולוגיות משבשות"
+     }
+    },
+    {
+     "id": "B8",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Greece",
+     "countryHe": "יוון",
+     "type": "Tactical UAS / V-BAT Drones Procurement",
+     "typeHe": "כטב\"מים טקטיים / רכש רחפני V-BAT להמראה אנכית",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Shield AI receives NATO Support and Procurement Agency order to supply additional V-BAT tactical VTOL drones to Greece's Army and Navy",
+      "he": "סוכנות הרכש של נאט\"ו העניקה ל-Shield AI הזמנה לאספקת כטב\"מי V-BAT טקטיים נוספים לצבא ולצי של יוון"
+     },
+     "what": {
+      "en": "The NATO Support and Procurement Agency (NSPA) awarded defense autonomy firm Shield AI a contract to deliver an additional batch of V-BAT 128 tactical vertical takeoff and landing (VTOL) unmanned aircraft systems to the Hellenic Armed Forces, expanding maritime surveillance and border monitoring across the Aegean Sea.",
+      "he": "סוכנות הרכש והתמיכה של נאט\"ו (NSPA) העניקה לחברת Shield AI הזמנה לאספקת מקבץ נוסף של כטב\"מים טקטיים להמראה ונחיתה אנכית מדגם V-BAT 128 עבור צבא היבשה וחיל הים של יוון, לחיזוק הסיור הימי וההתרעה בים האגאי."
+     },
+     "figs": {
+      "en": "Procuring agency: NSPA (NATO) • End-user: Hellenic Army and Hellenic Navy • Supplier: Shield AI (USA) • Platform: V-BAT 128 long-endurance VTOL UAS • Endurance: 10+ hours • Payload: EO/IR sensor gimbal, AI edge autonomy • Report date: 2026-11-12.",
+      "he": "סוכנות רכש: NSPA (נאט\"ו) • משתמשי קצה: צבא וחיל הים של יוון • ספקית: Shield AI • פלטפורמה: כטב\"ם V-BAT 128 להמראה אנכית • שהייה באוויר: מעל 10 שעות • מטע\"ד: מצלמת יום/לילה ואוטונומיית AI • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Expands run-free, shipborne expeditionary ISR capabilities for the Greek military, allowing small naval combatants to launch persistent surveillance assets without catapults or recovery nets.",
+      "he": "מרחיב את יכולות הסיור הימי של צבא יוון מסיפוני ספינות קטנות, ללא צורך במסלול המראה, מעוטים או רשתות תפיסה."
+     },
+     "israel": {
+      "en": "Complements existing Greek-Israeli defense procurement agreements (such as Spike NLOS missiles and Orbiter drones) by enhancing Aegean joint maritime domain awareness.",
+      "he": "משתלב בעסקאות הביטחוניות הנרחבות בין ישראל ליוון (טילי ספייק NLOS ורחפני אורביטר) לשיפור תמונת המודיעין הימית."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Dispatch",
+       "u": "https://defence-industry.eu/shield-receives-nato-agency-order-to-supply-more-v-bat-drones-to-greeces-army-and-navy/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — contract announcement released via NSPA and industry reporting.",
+      "he": "מאומת — הודעת חוזה רשמית דרך סוכנות NSPA של נאט\"ו."
+     },
+     "s": {
+      "en": "Greece orders additional Shield AI V-BAT VTOL drones via NATO procurement agency",
+      "he": "יוון הזמינה כטב\"מי V-BAT נוספים מתוצרת Shield AI באמצעות סוכנות הרכש של נאט\"ו"
+     }
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Rocket Artillery / PULS MLRS Export",
+     "typeHe": "ארטילריה רקטית / יצוא מערכות רקטות מדויקות PULS",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Elbit Systems awarded USD 260M contract over 5 years to supply PULS artillery rocket systems and precision munitions to European NATO member",
+      "he": "אלביט מערכות זכתה בחוזה ענק בהיקף של 260 מיליון דולר ל-5 שנים לאספקת מערכות ארטילריה רקטית PULS וחימושים למדינה אירופית בנאט\"ו"
+     },
+     "what": {
+      "en": "Elbit Systems Ltd. announced that it has been awarded a major contract valued at approximately USD 260M to supply its Precise & Universal Launching System (PULS) artillery rocket systems and an extensive package of precision-guided munitions to an undisclosed European NATO member nation. Performed over a period of five years, the contract covers the delivery of launcher vehicles and modular rocket pods capable of launching unguided rockets, precision-guided tactical missiles, and deep-strike munitions across distances from 12 km to 300 km. The versatile PULS architecture can be seamlessly integrated onto any designated in-service 6x6 or 8x8 wheeled tactical truck chassis, drastically reducing logistical maintenance and lifecycle training overhead for the allied European customer.",
+      "he": "חברת אלביט מערכות הודיעה כי זכתה בחוזה גדול בהיקף של כ-260 מיליון דולר (כ-970 מיליון ש\"ח) לאספקת מערכות ארטילריה רקטית מדויקת מדגם PULS (Precise & Universal Launching System) ומארזי חימושים מונחים למדינה אירופית החברה בנאט\"ו. החוזה, שיבוצע על פני תקופה של חמש שנים, כולל אספקת משגרים מתקדמים ומגוון רקטות מדויקות וטילים לטווחים שבין 12 ק\"מ ל-300 ק\"מ (כולל רקטות Accular, אקסטרא וטילי פרדטור הוק). המערכת המודולרית ניתנת להתקנה מהירה על גבי משאיות טקטיות קיימות בצי הרכב של הלקוח, ומאפשרת מעבר גמיש בין סוגי חימוש ללא צורך בהתאמות מבניות מורכבות."
+     },
+     "figs": {
+      "en": "Seller: Elbit Systems Ltd. (Israel) • Buyer: Undisclosed European NATO member • Value: USD 260M (approx. NIS 970M) • Duration: 5 years • System: PULS (Precise & Universal Launching System) • Munitions suite: Accular 122mm (35 km), Accular 160mm (40 km), EXTRA (150 km), Predator Hawk (300 km) • Platform: Adaptable to standard military wheeled chassis • Report date: 2026-11-12.",
+      "he": "מוכרת: אלביט מערכות (ישראל) • רוכשת: מדינה אירופית חברת נאט\"ו • שווי: 260 מיליון דולר (USD 260M, כ-970 מיליון ש\"ח) • משך החוזה: 5 שנים • מערכת: משגר רקטות רב-קליברי PULS • מגוון חימושים: Accular 122 מ\"מ (35 ק\"מ), אקולר 160 מ\"מ (40 ק\"מ), EXTRA (150 ק\"מ) ופרדטור הוק (300 ק\"מ) • פלטפורמה: מותאמת למשאיות גלגליות • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Solidifies PULS as Europe's premier non-U.S. rocket artillery platform, adding another NATO customer alongside Germany, Denmark, the Netherlands, and Spain, and demonstrating strong allied confidence in Israeli precision strike solutions.",
+      "he": "מבסס את מערכת ה-PULS כפלטפורמת הארטילריה הרקטית המובילה באירופה מחוץ ל-HIMARS האמריקאי, ומצרף חברת נאט\"ו נוספת לשורת הלקוחות (הכוללת כבר את גרמניה, דנמרק, הולנד וספרד) תוך הבעת אמון מוחלטת בטכנולוגיה הישראלית."
+     },
+     "israel": {
+      "en": "Direct strategic and commercial milestone for Israeli defense exports. Proves sustained, surging European demand for Israeli heavy precision strike assets, generating long-term recurring revenue for domestic rocket production lines.",
+      "he": "הישג אסטרטגי ומסחרי ראשון במעלה עבור התעשייה הביטחונית הישראלית. מוכיח את הביקוש האירופי הגואה לאמצעי אש מדויקים כבדים מתוצרת ישראל ומבטיח הכנסות ארוכות טווח לקווי הייצור של רקטות ומשגרים בארץ."
+     },
+     "src": [
+      {
+       "t": "Globes Business Daily Official Report",
+       "u": "https://en.globes.co.il/en/article-elbit-systems-wins-260m-nato-contract-1001563165"
+      },
+      {
+       "t": "Militarnyi Defense Dispatch",
+       "u": "https://militarnyi.com/en/news/israeli-puls-mrlss-to-join-arsenal-of-european-nato-member-state/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official corporate regulatory disclosure by Elbit Systems.",
+      "he": "מאומת — הודעת דיווח מיידית רשמית של אלביט מערכות לבורסה."
+     },
+     "s": {
+      "en": "Elbit Systems wins USD 260M contract over 5 years for PULS rocket artillery from European NATO nation",
+      "he": "אלביט מערכות זכתה בחוזה ענק של 260 מיליון דולר ל-5 שנים לאספקת משגרי PULS למדינה בנאט\"ו"
+     }
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Morocco",
+     "countryHe": "מרוקו",
+     "type": "Defense Diplomacy / Defense Industry Cooperation",
+     "typeHe": "דיפלומטיה ביטחונית / שיתוף פעולה תעשייתי",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Morocco inaugurates permanent Israeli defense attaché office in Rabat as Ministry of Defense pushes MAD 190.5B multi-year modernization and technology transfers",
+      "he": "מרוקו חונכת נספחות ביטחונית ישראלית קבועה ברבאט בעוד משרד ההגנה מקדם תקציב רכש רב-שנתי של 190.5 מיליארד דירהם והעברות טכנולוגיה"
+     },
+     "what": {
+      "en": "Morocco and Israel formally inaugurated the permanent headquarters of the Israeli Defense Attaché Office in Rabat, led by Colonel Sharon Itach, concluding a milestone visit by a senior Israeli defense delegation headed by Ministry of Defense Director-General Maj. Gen. (Res.) Amir Baram. The inauguration coincided with the release of Morocco's draft 2027 Finance Bill, which expands advance commitment authorizations for military equipment procurement and defense industrial development to MAD 190.5B (~USD 19.05B). Bilateral discussions with Morocco's Minister Delegate for National Defense Abdeltif Loudyi and FAR Inspector General Mohammed Berrid focused on accelerating government-to-government (G2G) defense agreements, advancing local UAV co-production with BlueBird Aero Systems, and establishing maintenance and supply depots for advanced Israeli missile and sensor platforms.",
+      "he": "מרוקו וישראל חנכו רשמית את משרדי הקבע של הנספחות הביטחונית הישראלית הראשונה ברבאט בראשות אלוף-משנה שרון איטח, בסיומו של ביקור רשמי של משלחת ביטחונית בכירה בראשות מנכ\"ל משרד הביטחון אלוף (מיל') אמיר ברעם. חנוכת הנספחות התקיימה במקביל לפרסום טיוטת חוק התקציב לשנת 2027 במרוקו, המעלה את תקרת ההתחייבויות לרכש צבאי ופיתוח תעשייה מקומית ל-190.5 מיליארד דירהם (כ-19 מיליארד דולר). בפגישות עם השר הממונה על ההגנה עבד אל-לטיף לודי ומפקד הצבא הגנרל מוחמד בריד סוכם על האצת עסקאות רכש ממשלתיות (G2G), הקמת קווי ייצור לכטב\"מים של בלובריד והקמת מרכזי אחזקה למערכות טילים וחיישנים ישראליות."
+     },
+     "figs": {
+      "en": "Countries: Morocco and Israel • Event: Inauguration of permanent Defense Attaché Office in Rabat • Moroccan military budget ceiling: MAD 190.5B (~USD 19.05B, 21.2% increase) • Key leaders: Amir Baram (Israel MoD DG), Abdeltif Loudyi (Morocco ADN), Gen. Mohammed Berrid (FAR) • Co-production programs: BlueBird Aero Systems UAV assembly, missile maintenance • Report date: 2026-11-12.",
+      "he": "מדינות: מרוקו וישראל • אירוע: חנוכת משרדי הקבע של הנספחות הצבאית ברבאט • תקרת התחייבויות רכש של מרוקו: 190.5 מיליארד דירהם (כ-19 מיליארד דולר, גידול של 21.2%) • משתתפים: אמיר ברעם (מנכ\"ל משרד הביטחון), עבד אל-לטיף לודי, גנרל מוחמד בריד • תוכניות שת\"פ: הרכבת כטב\"מי בלובריד, אחזקת טילים וחיישנים • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Transforms the bilateral security relationship from episodic procurement deals into an institutionalized, permanent defense alliance backed by local manufacturing and multi-billion-dollar military capital programs.",
+      "he": "הופך את שיתוף הפעולה הביטחוני בין המדינות מעסקאות רכש נקודתיות לברית אסטרטגית ממוסדת וקבועה, המגובה בהקמת תעשייה ביטחונית מקומית ובתקציבי רכש רב-שנתיים בהיקף של מיליארדי דולרים."
+     },
+     "israel": {
+      "en": "A premier strategic anchor for Israel in North Africa. Facilitates streamlined export clearances and direct operational maintenance for Israeli systems (Barak MX air defense, PULS rocket artillery, SpyX loitering munitions) deployed by the Royal Moroccan Armed Forces.",
+      "he": "עוגן אסטרטגי ראשון במעלה עבור ישראל בצפון אפריקה. מאפשר ערוץ ישיר לעסקאות רכש ממשלתיות (G2G) ותמיכה מבצעית שוטפת במערכות ישראליות (ברק MX, רקטות PULS וחימושי SpyX) הפועלות בצבא מרוקו."
+     },
+     "src": [
+      {
+       "t": "Morocco World News Official Report",
+       "u": "https://www.moroccoworldnews.com/2026/11/345735/israel-establishes-first-permanent-defense-office-in-morocco/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official visit statements and bilateral ceremony confirmed in Rabat.",
+      "he": "מאומת — טקס רשמי והודעות משותפות של משרדי ההגנה ברבאט."
+     },
+     "s": {
+      "en": "Morocco opens permanent Israeli defense attaché office amid MAD 190.5B procurement push",
+      "he": "מרוקו חנכה נספחות ביטחונית ישראלית קבועה ברבאט לצד תוכנית רכש צבאי של 190.5 מיליארד דירהם"
+     }
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Stand-Off Weapons / Cruise Missile Delivery",
+     "typeHe": "חימוש מנגד / אספקת טילי שיוט ארוכי טווח",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Sweden receives batch of Taurus KEPD 350 long-range cruise missiles from Germany ahead of planned 2028 Gripen C/D mid-life avionics upgrade",
+      "he": "שוודיה קולטת משלוח של טילי שיוט ארוכי טווח מדגם טאורוס KEPD 350 מגרמניה לקראת שדרוג מטוסי הגריפן C/D"
+     },
+     "what": {
+      "en": "The Swedish Defence Materiel Administration (FMV) received a scheduled consignment of Taurus KEPD 350 air-launched cruise missiles from German manufacturer Taurus Systems GmbH (a joint venture of MBDA Deutschland and Saab Dynamics). The delivery forms part of a multi-million-euro sustainment and capability modernization framework designed to equip the Swedish Air Force’s JAS 39 Gripen C/D fighter fleet with heavy stand-off precision strike capabilities ahead of their planned mid-life upgrade program running through 2028. The Taurus KEPD 350 utilizes a multi-sensor autonomous navigation suite (GPS, INS, terrain reference TRN, and infrared seeker IBN) paired with the dual-stage MEPHISTO penetrator warhead capable of breaching reinforced underground bunkers at ranges exceeding 500 km.",
+      "he": "מנהל הרכש של משרד ההגנה השוודי (FMV) קלט משלוח מתוכנן של טילי שיוט משוגרי-אוויר מדגם טאורוס KEPD 350 מהיצרנית הגרמנית Taurus Systems GmbH (מיזם משותף של MBDA גרמניה וסאאב). המשלוח הוא חלק מתוכנית מודרניזציה ואחזקה רב-שנתית שנועדה לצייד את מטוסי הקרב גריפן C/D של חיל האוויר השוודי ביכולת תקיפת עומק מנגד, לקראת שדרוג אמצע החיים של המטוסים המתוכנן ל-2028. טיל הטאורוס מתאפיין בטווח של מעל 500 ק\"מ, מערך ניווט אוטונומי רב-חיישני עמיד בפני חסימות ורש\"ק חודר בונקרים דו-שלבי מדגם MEPHISTO לפיצוח מבנים מבוצרים."
+     },
+     "figs": {
+      "en": "Supplier: Taurus Systems GmbH (MBDA Deutschland / Saab) • Recipient: Swedish Air Force (Flygvapnet) • Missile: Taurus KEPD 350 (air-launched cruise missile) • Range: >500 km • Warhead: 481 kg MEPHISTO (Multi-Effects Penetrator, High Sophisticated and Target Optimised) • Carrier aircraft: Saab JAS 39C/D Gripen • Program: Pre-2028 Gripen mid-life upgrade • Report date: 2026-11-12.",
+      "he": "ספקית: Taurus Systems (MBDA גרמניה / סאאב) • מקבל: חיל האוויר השוודי • דגם טיל: Taurus KEPD 350 (טיל שיוט משוגר-אוויר) • טווח: מעל 500 ק\"מ • רש\"ק: 481 ק\"ג חודר בונקרים מדגם MEPHISTO • מטוס נושא: סאאב גריפן C/D • תוכנית: שדרוג אמצע חיים למטוסי גריפן לקראת 2028 • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Strengthens NATO Baltic Sea deterrence against Russian hardened coastal and logistics targets, reinforcing Sweden's long-range stand-off strike capabilities without requiring aircraft to penetrate adversary integrated air defense systems.",
+      "he": "מחזק את כושר ההרתעה של נאט\"ו במרחב הים הבלטי מול תשתיות ומפקדות רוסיות, ומספק לשוודיה יכולת תקיפת מנגד מדויקת ללא צורך בחדירת מטוסי קרב לאזורים מוגני נ\"מ."
+     },
+     "israel": {
+      "en": "Parallels the operational deployment of Israeli long-range stand-off cruise missiles (such as Rafael's Ice Breaker and the newly unveiled Super Ice), emphasizing allied focus on autonomous low-altitude terrain-following penetrators.",
+      "he": "מקביל ישירות למאפיינים המבצעיים של טילי שיוט ישראליים ארוכי טווח (דוגמת משפחת Ice Breaker ו-Super Ice של רפאל), ומדגיש את המיקוד של צבאות המערב בטילי שיוט עוקפי מכ\"ם חודרי בונקרים."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Delivery Dispatch",
+       "u": "https://defence-industry.eu/sweden-receives-taurus-cruise-missiles-from-germany-ahead-of-planned-2028-gripen-c-d-upgrade/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — scheduled procurement delivery confirmed by Swedish and German defense sources.",
+      "he": "מאומת — אספקה מתוכננת שאושרה על ידי מקורות ביטחוניים בשוודיה ובגרמניה."
+     },
+     "s": {
+      "en": "Sweden receives Taurus KEPD 350 cruise missiles from Germany for Gripen C/D fleet",
+      "he": "שוודיה קלטה טילי שיוט מדגם טאורוס KEPD 350 מגרמניה עבור מטוסי הגריפן C/D"
+     }
+    },
+    {
+     "id": "C4",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "National Security Space / Commercial Financing",
+     "typeHe": "חלל ביטחוני / מימון ממשלתי לתעשיית השיגור והחלל",
+     "date": "2026-11-12",
+     "h": {
+      "en": "U.S. Department of Defense Office of Strategic Capital awards USD 450M in commercial loans to accelerate resilient space and responsive launch capabilities",
+      "he": "משרד ההון האסטרטגי בפנטגון מעניק הלוואות בהיקף של 450 מיליון דולר לחיזוק תעשיית החלל והשיגור הצבאי"
+     },
+     "what": {
+      "en": "The Pentagon’s Office of Strategic Capital (OSC) announced a major financing package totaling USD 450M across three commercial loans to bolster critical space industrial base capabilities. The awards include a USD 150M loan to Rocket Lab to expand production and infrastructure for its reusable medium-lift Neutron launch vehicle, alongside loans to commercial satellite tracking and orbital rendezvous innovators True Anomaly and Scout Space. The initiative aims to guarantee resilient, rapid-reconstitution satellite launch capabilities and orbital maneuver defense for the U.S. Space Force and combatant commands amid growing anti-satellite weapon threats from China and Russia.",
+      "he": "משרד ההון האסטרטגי (OSC) בפנטגון הודיע על חבילת מימון משמעותית בסך 450 מיליון דולר הכוללת שלוש הלוואות מסחריות להאצת שרשרת האספקה של החלל הביטחוני האמריקאי. החבילה כוללת הלוואה של 150 מיליון דולר לחברת רוקט לאב (Rocket Lab) לפיתוח והרחבת תשתית הייצור של משגר הלוויינים הרב-פעמי Neutron, לצד הלוואות לחברות החלל והביטחון True Anomaly ו-Scout Space. המימון נועד להבטיח יכולת שיגור מהירה להחלפת לוויינים שנפגעו ותמרון מסלולי מול איומי נשק נגד-לוויינים מתוצרת סין ורוסיה."
+     },
+     "figs": {
+      "en": "Agency: Office of Strategic Capital (OSC), U.S. Department of Defense • Total financing: USD 450M • Primary recipients: Rocket Lab (USD 150M for Neutron rocket), True Anomaly, Scout Space • Focus: Responsive spacelift, rendezvous and proximity operations (RPO), tactically responsive space (TacRS) • Strategic objective: Mitigate Russian/Chinese ASAT threats • Report date: 2026-11-12.",
+      "he": "גוף מעניק: משרד ההון האסטרטגי (OSC) בפנטגון • סך המימון: 450 מיליון דולר • מקבלות עיקריות: רוקט לאב (150 מיליון דולר למשגר Neutron), חברת True Anomaly וחברת Scout Space • מטרות: שיגור לוויינים מהיר ומענה תמרוני במסלול מול איומי נשק חללי • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Demonstrates the Pentagon's aggressive transition to direct capital loans to scale private aerospace manufacturing, ensuring allied forces retain redundant space launch capabilities if primary launch facilities or constellations are degraded in wartime.",
+      "he": "מדגים את המעבר האסטרטגי של הפנטגון לשימוש בהלוואות הון מסחריות לחיזוק שרשרת האספקה הביטחונית, במטרה להבטיח יכולת שיגור מהירה של לוויינים חלופיים בעת עימות צבאי בחלל."
+     },
+     "israel": {
+      "en": "Highly relevant to Israeli space resilience doctrine. As the Israel MoD expands commercial responsive launch partnerships and synthetic aperture radar (SAR) constellations, U.S. TacRS investments provide models for sovereign rapid-reconstitution architectures.",
+      "he": "רלוונטי מאוד לתפיסת השרידות בחלל של מערכת הביטחון הישראלית, המקדמת שיתופי פעולה לשיגור מהיר של לווייני מכ\"ם (SAR) ותצפית להבטחת עליונות מודיעינית רציפה."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense Capital Financing Report",
+       "u": "https://breakingdefense.com/2026/11/dod-pushes-out-3-loans-totally-450m-to-bolster-us-space-companies/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official financing announcement by the U.S. Department of Defense Office of Strategic Capital.",
+      "he": "מאומת — הודעת מימון רשמית שפורסמה על ידי משרד ההון האסטרטגי של הפנטגון."
+     },
+     "s": {
+      "en": "Pentagon awards USD 450M in commercial loans to Rocket Lab and space defense startups",
+      "he": "הפנטגון העניק הלוואות מסחריות של 450 מיליון דולר לרוקט לאב ולחברות חלל ביטחוניות"
+     }
+    },
+    {
+     "id": "C5",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Ammunition Manufacturing / Artillery Shells",
+     "typeHe": "ייצור תחמושת / פגזי ארטילריה כבדה",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Diehl Defence and Nammo commission new automated production line in Röthenbach, Germany for DiNa 155mm artillery projectile bodies",
+      "he": "דיל ונאמו חונכות קו ייצור אוטומטי חדש ברוטנבאך שבגרמניה לגופי פגזי ארטילריה 155 מ\"מ מדגם DiNa"
+     },
+     "what": {
+      "en": "Diehl Defence, Diehl Metall, and Norwegian munitions manufacturer Nammo officially brought online a dedicated manufacturing facility in Röthenbach an der Pegnitz, Bavaria, investing tens of millions of euros to ramp up domestic production of DiNa 155mm artillery shell bodies to supply Bundeswehr and NATO stockpiles.",
+      "he": "חברת Diehl Defence הגרמנית, חברת Diehl Metall ויצרנית התחמושת הנורווגית Nammo חנכו קו ייצור תעשייתי ייעודי ברוטנבאך שבבוואריה, בהשקעה של עשרות מיליוני אירו, להאצת הייצור של גופי פגזי ארטילריה 155 מ\"מ מדגם DiNa למילוי מחסני הבונדסוור ומדינות נאט\"ו."
+     },
+     "figs": {
+      "en": "Manufacturers: Diehl Defence, Diehl Metall, Nammo • Facility: Röthenbach an der Pegnitz, Bavaria • Product: DiNa 155mm artillery projectile bodies • Investment: Mid double-digit million euros • Customer: German Bundeswehr and NATO allies • Report date: 2026-11-12.",
+      "he": "יצרניות: דיל ונאמו • אתר ייצור: רוטנבאך, בוואריה • מוצר: גופי פגזי ארטילריה 155 מ\"מ DiNa • היקף השקעה: עשרות מיליוני אירו • לקוחות: צבא גרמניה וברית נאט\"ו • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Addresses the acute artillery ammunition depletion across European militaries, securing sovereign forging and machining capacity inside Germany.",
+      "he": "מעניק מענה למחסור החמור בתחמושת ארטילרית באירופה ומבטיח יכולת ייצור ועיבוד שבבי עצמאית של פגזים בתוך שטח גרמניה."
+     },
+     "israel": {
+      "en": "Parallels Elbit Systems' aggressive domestic artillery shell manufacturing ramp-up in Israel to sustain high consumption rates during wartime.",
+      "he": "מקביל למאמצי חברת אלביט מערכות בישראל להרחבה דרמטית של קווי ייצור פגזי 155 מ\"מ כדי להבטיח עצמאות חימושית מלאה."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Dispatch",
+       "u": "https://defence-industry.eu/diehl-defence-opens-new-production-line-in-germany-for-dina-155mm-artillery-shell-bodies/"
+      },
+      {
+       "t": "The Defense Post Report",
+       "u": "https://thedefensepost.com/2026/11/12/diehl-155mm-shell-production-germany/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — formal facility opening confirmed by Diehl Defence and regional German authorities.",
+      "he": "מאומת — חנוכת מתקן רשמית שאושרה על ידי דיל והרשויות בבוואריה."
+     },
+     "s": {
+      "en": "Diehl Defence and Nammo open new 155mm artillery shell production line in Bavaria",
+      "he": "דיל ונאמו חנכו קו ייצור חדש לפגזי ארטילריה 155 מ\"מ בבוואריה שבגרמניה"
+     }
+    },
+    {
+     "id": "C6",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Precision Rocket Artillery / Industrial Production Ramps",
+     "typeHe": "ארטילריה רקטית מדויקת / האצת קווי ייצור תעשייתיים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Lockheed Martin accelerates GMLRS rocket production to nearly 14,000 rounds annually following delivery of the 100,000th unit",
+      "he": "לוקהיד מרטין מאיצה את ייצור רקטות ה-GMLRS לקצב של כ-14,000 רקטות בשנה בעקבות מסירת הרקטה ה-100,000"
+     },
+     "what": {
+      "en": "Lockheed Martin celebrated the delivery of its 100,000th Guided Multiple Launch Rocket System (GMLRS) precision rocket to the U.S. Army, while confirming that manufacturing capacity across its Camden, Arkansas facility has accelerated ahead of schedule toward nearly 14,000 rockets per year to meet surging U.S. and allied stockpiling requirements.",
+      "he": "חברת לוקהיד מרטין ציינה את מסירת הרקטה המונחית המדויקת ה-100,000 מדגם GMLRS לצבא ארה\"ב, ואישרה כי כושר הייצור במפעלה בקמדן, ארקנסו, הואץ לפני לוח הזמנים לעבר קצב של כ-14,000 רקטות בשנה כדי לענות על הביקוש הגובר בארה\"ב ובמדינות ברית נאט\"ו."
+     },
+     "figs": {
+      "en": "Manufacturer: Lockheed Martin • Milestone: 100,000th GMLRS rocket delivered • Production rate: Surging toward ~14,000 rounds annually • System: GMLRS Unitary and Alternative Warhead rockets (70+ km range) • Primary launch platforms: M142 HIMARS, M270A2 MLRS • Report date: 2026-11-12.",
+      "he": "יצרנית: לוקהיד מרטין • אבן דרך: מסירת הרקטה ה-100,000 • קצב ייצור: מטפס לעבר כ-14,000 רקטות בשנה • דגם: GMLRS לטווח של מעל 70 ק\"מ • פלטפורמות שיגור: משגרי HIMARS ו-M270 • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Demonstrates successful industrial base scaling to maintain precision magazine depth for high-intensity multi-theater conflicts.",
+      "he": "ממחיש את הצלחת ההתרחבות התעשייתית בארה\"ב לבניית מלאי חימוש מדויק בהיקפים רחבים לעימותים בעצימות גבוהה."
+     },
+     "israel": {
+      "en": "Directly relevant to IDF artillery modernization where Elbit PULS rocket lines and IMI munitions provide domestic sovereign precision strike capacity alongside U.S. foreign military financing allocations.",
+      "he": "רלוונטי מאוד לתוכניות האש המדויקת של צה\"ל, המשלב רקטות מדויקות מקומיות של אלביט לצד משגרי רקטות אמריקאיים."
+     },
+     "src": [
+      {
+       "t": "Militarnyi Industrial Report",
+       "u": "https://militarnyi.com/en/news/lockheed-martin-gmlrs-to-14000-annually/"
+      },
+      {
+       "t": "Defence Industry Europe Dispatch",
+       "u": "https://defence-industry.eu/lockheed-martin-delivers-100000th-gmlrs-rocket-reaches-nearly-14000-a-year-ahead-of-schedule/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — milestone and production capacity targets confirmed by Lockheed Martin and U.S. Army program officials.",
+      "he": "מאומת — אבן דרך תעשייתית רשמית של לוקהיד מרטין ומנהלת תוכניות הארטילריה בצבא ארה\"ב."
+     },
+     "s": {
+      "en": "Lockheed Martin delivers 100,000th GMLRS rocket, ramps production to ~14,000/year",
+      "he": "לוקהיד מרטין מסרה את רקטת ה-GMLRS ה-100,000 ומאיצה את קצב הייצור ל-14,000 בשנה"
+     }
+    },
+    {
+     "id": "C7",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Iran",
+     "countryHe": "איראן",
+     "type": "Strategic Missiles / Adversary Production Rates",
+     "typeHe": "טילים אסטרטגיים / קצב ייצור טילים של האויב",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Commercial satellite analysis and intelligence assessments indicate Iranian missile manufacturing facilities sustain production rates of up to 50 ballistic missiles monthly despite U.S. strikes",
+      "he": "ניתוח לווייני מסחרי והערכות מודיעין מעידים כי מפעלי הטילים באיראן משמרים קצב ייצור של עד 50 טילים בליסטיים בחודש למרות תקיפות"
+     },
+     "what": {
+      "en": "Commercial satellite imagery analysis and Western intelligence briefings reported by Bloomberg indicate that Iranian underground solid-propellant mixing plants and missile assembly sites have repaired damaged structures, sustaining an estimated production throughput of up to 50 ballistic missiles per month (including Fateh-110 and Kheibar Shekan variants) to replenish domestic arsenals and proxy inventories.",
+      "he": "ניתוח תצלומי לוויין מסחריים ותדרוכי מודיעין מערביים שפורסמו בבלומברג מעידים כי מתקני ייצור וערבוב הדלק המוצק התת-קרקעיים באיראן שיקמו את המבנים שנפגעו, ומשמרים קצב ייצור מוערך של עד 50 טילים בליסטיים בחודש (בהם טילי פאתח-110 וח'ייבר שכן) למילוי מאגרי משמרות המהפכה וארגוני הפרוקסי."
+     },
+     "figs": {
+      "en": "Adversary: Islamic Republic of Iran (IRGC Aerospace Force) • Estimated production throughput: Up to ~50 ballistic missiles per month • Primary classes: Fateh-110, Zolfaghar, Kheibar Shekan solid-fuel ballistic missiles • Facility status: Underground dispersion and modular motor mixer repairs • Report date: 2026-11-12.",
+      "he": "יעד: משמרות המהפכה של איראן • קצב ייצור מוערך: עד כ-50 טילים בליסטיים בחודש • דגמים עיקריים: פאתח-110, זולפיקאר וח'ייבר שכן (דלק מוצק) • סטטוס מתקנים: שיקום מערבלי דלק מוצק ופיזור תת-קרקעי • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Underscores the resilience and hardened dispersion of Iran's solid-rocket motor industrial infrastructure, highlighting continued adversary capacity for rapid arsenal regeneration.",
+      "he": "ממחיש את השרידות והביצור של תעשיית מנועי הדלק המוצק האיראנית ואת יכולתו של המשטר לחדש במהירות את מלאי הטילים הבליסטיים שלו."
+     },
+     "israel": {
+      "en": "Direct strategic threat to the Israeli home front and critical infrastructure. Reinforces the absolute necessity of maintaining high interceptor stockpiles (Arrow 2/3, David's Sling) and pre-emptive precision strike capabilities.",
+      "he": "איום אסטרטגי ישיר על העורף הישראלי ותשתיות לאומיות. מחייב שימור מלאי יירוט גבוה במערכות חץ 2 ו-3 וקלע דוד, לצד מודיעין מדויק ויכולת מהלומה מונעת."
+     },
+     "src": [
+      {
+       "t": "Militarnyi Strategic Analysis",
+       "u": "https://militarnyi.com/en/news/iran-can-produce-up-to-50-ballistic-missiles-a-month-despite-u-s-strikes-bloomberg/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — satellite tracking and intelligence reporting covered via Bloomberg and defense monitors.",
+      "he": "מאומת — ניתוח תצלומי לוויין והערכות מודיעין שפורסמו בבלומברג ובאתרי מעקב ביטחוניים."
+     },
+     "s": {
+      "en": "Satellite assessments indicate Iran produces up to 50 ballistic missiles monthly",
+      "he": "הערכות מודיעין ולוויינים: איראן משמרת קצב ייצור של עד 50 טילים בליסטיים בחודש"
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Kingdom",
+     "countryHe": "בריטניה",
+     "type": "Unmanned Maritime Systems / Anti-Submarine Warfare USVs",
+     "typeHe": "כשב\"מים / לוחמה נגד צוללות באמצעות כלי שיט בלתי מאוישים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Kongsberg Maritime and Thales UK unveil 'Arctic Hunter' autonomous anti-submarine warfare vessel design for Royal Navy",
+      "he": "קונגסברג מריטיים ותאלס בריטניה חושפות את ה-'Arctic Hunter' — כשב\"ם אוטונומי ללוחמה נגד צוללות עבור הצי המלכותי"
+     },
+     "what": {
+      "en": "At a defense forum in London, Kongsberg Maritime and Thales UK officially unveiled the design of the 'Arctic Hunter', an advanced uncrewed surface vessel (USV) purpose-built for autonomous anti-submarine warfare (ASW) and seabed infrastructure protection in the high North Atlantic and Arctic seas. Featuring an innovative wave-piercing trimaran hull optimized for extreme sea states, the Arctic Hunter integrates Thales's CAPTAS-2 variable-depth towed active/passive sonar array alongside Kongsberg's autonomous navigation suite. Designed to operate persistently without human crew for up to 30 days, the vessel tracks quiet adversary submarines, transmits real-time acoustic telemetry to Royal Navy frigates and P-8A Poseidon maritime patrol aircraft, and carries provisions for lightweight torpedo launch pods to execute autonomous kinetic engagements.",
+      "he": "בכנס ביטחוני בלונדון, חשפו חברות Kongsberg Maritime ותאלס בריטניה (Thales UK) את תכנונו של ה-'Arctic Hunter' — כלי שיט בלתי מאויש (כשב\"ם) מתקדם שפותח באופן ייעודי למשימות לוחמה נגד צוללות (ASW) והגנה על תשתיות תת-ימיות בצפון האוקיינוס האטלנטי ובמרחב הארקטי. הכשב\"ם מבוסס על גוף טרימרן חדשני החותך גלים ומיועד לפעילות בים סוער, ומשלב סונאר נגרר בעומק משתנה מדגם CAPTAS-2 מתוצרת תאלס לצד מערכת ניווט אוטונומית של קונגסברג. הכלי מסוגל לשהות בים עד 30 יום ללא מגע אדם, לעקוב אחר צוללות שקטות, לשדר תמונת מטרות בזמן אמת למטוסי P-8A ולפריגטות של הצי הבריטי, ומיועד לשאת מארזי שיגור של טילי טורפדו קלים לתקיפה קינטית."
+     },
+     "figs": {
+      "en": "Design partners: Kongsberg Maritime (Norway) & Thales UK • Platform: Arctic Hunter autonomous ASW USV • Hull form: Wave-piercing trimaran • Acoustic sensor: Thales CAPTAS-2 active/passive towed variable depth sonar • Endurance: Up to 30 days continuous patrol • Mission: ASW screening, choke-point surveillance (GIUK Gap), undersea cable defense • Optional armament: Lightweight ASW torpedoes (Sting Ray) • Report date: 2026-11-12.",
+      "he": "שותפות לפיתוח: קונגסברג מריטיים (נורווגיה) ותאלס בריטניה • פלטפורמה: כשב\"ם נגד צוללות Arctic Hunter • תצורת גוף: טרימרן חותך גלים • חיישן אקוסטי: סונאר נגרר בעומק משתנה CAPTAS-2 • שהייה בים: עד 30 ימי סיור רצופים • משימות: ציד צוללות בפתחת GIUK והגנה על כבלי תקשורת תת-ימיים • חימוש אופציונלי: מארזי טורפדו קל Sting Ray • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Addresses the severe shortage of manned ASW frigates across NATO navies, providing persistent, low-cost acoustic picket lines to track Russian nuclear and diesel-electric attack submarines attempting to transit the Greenland-Iceland-UK (GIUK) Gap into the Atlantic.",
+      "he": "מעניק פתרון למחסור החמור בפריגטות מאוישות ללוחמה נגד צוללות בנאט\"ו, ומציב קו התרעה אקוסטי זול ומתמשך לסיכול מעבר צוללות תקיפה רוסיות דרך פתחת GIUK לעבר נתיבי השיט באוקיינוס האטלנטי."
+     },
+     "israel": {
+      "en": "Directly parallels the Israeli Navy's concept of operations for uncrewed surface vessels (such as Elbit's Seagull USV) equipped with dipping sonars and torpedo launchers to protect offshore gas platforms and naval approaches from subsea threats.",
+      "he": "מקביל ישירות לתפיסת ההפעלה של חיל הים הישראלי בכשב\"מים נגד צוללות (דוגמת ה'סיגאל' של אלביט מערכות) המצוידים בסונארים ובטורפדו להגנה על אסדות הגז והמים הכלכליים."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Technical Unveil",
+       "u": "https://defence-industry.eu/kongsberg-maritime-unveils-arctic-hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-royal-navy/"
+      },
+      {
+       "t": "The Defense Post Report",
+       "u": "https://thedefensepost.com/2026/11/12/thales-uk-kongsberg-submarine-hunter/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — joint technical unveiling and program concept confirmed by Kongsberg and Thales UK.",
+      "he": "מאומת — חשיפת תכנון רשמית משותפת של קונגסברג ותאלס בריטניה."
+     },
+     "s": {
+      "en": "Kongsberg Maritime and Thales UK unveil 'Arctic Hunter' autonomous ASW drone boat",
+      "he": "קונגסברג ותאלס בריטניה חשפו את ה-'Arctic Hunter' — כשב\"ם אוטונומי לציד צוללות"
+     }
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Kingdom",
+     "countryHe": "בריטניה",
+     "type": "Naval Radars / Autonomous Drone Seekers",
+     "typeHe": "מכ\"מים ימיים / כשב\"מים לגילוי ויירוט כטב\"מים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Royal Navy awards Saab GBP 15M contract for Sea Giraffe 1X 3D radars to equip Kraken K3 Scout uncrewed surface vessels as autonomous 'drone seekers'",
+      "he": "הצי המלכותי הבריטי מעניק לסאאב חוזה של 15 מיליון ליש\"ט למכ\"מי Sea Giraffe 1X שישולבו בכשב\"מי K3 Scout לאיתור רחפנים"
+     },
+     "what": {
+      "en": "The UK Ministry of Defence awarded Swedish defense firm Saab a GBP 15M (USD 19.5M) contract to supply several Sea Giraffe 1X 3D naval radar systems for integration onto Kraken Technology Group's K3 Scout uncrewed surface vessels (USVs). Procured under the Royal Navy's 'Project BEEHIVE' payload program, the lightweight AESA radar sets will equip the Navy's newly formed 1st Autonomous Squadron. Mounted on the high-speed composite hulls of the K3 Scout, the Sea Giraffe 1X will deliver autonomous 'drone seeker' capabilities, performing persistent, distributed 3D airspace surveillance and automated classification of low-flying anti-ship missiles and swarm drones to protect naval task groups.",
+      "he": "משרד ההגנה הבריטי העניק לחברת סאאב (Saab) חוזה בהיקף של 15 מיליון ליש\"ט (כ-19.5 מיליון דולר) לאספקת מספר מכ\"מים ימיים תלת-ממדיים מדגם Sea Giraffe 1X. המכ\"מים ישולבו בכלי שיט בלתי מאוישים מהירים מדגם K3 Scout מתוצרת חברת Kraken Technology Group, במסגרת פרויקט BEEHIVE של הצי הבריטי ובמסגרת 'טייסת הכשב\"מים הראשונה'. המכ\"ם הקל, הפועל בטכנולוגיית AESA בפס X, יאפשר לכשב\"מים לפעול כ'ציידי רחפנים' אוטונומיים קדמיים — לגילוי, סיווג ומעקב אחר טילי שיוט מנמיכי טוס ונחילי כטב\"מים להגנת כוחות משימה ימיים."
+     },
+     "figs": {
+      "en": "Customer: Royal Navy (UK) • Supplier: Saab (Sweden) • Platform: Kraken Technology Group K3 Scout USV • Value: GBP 15M (USD 19.5M) • Radar: Sea Giraffe 1X 3D naval AESA • Weight: <150 kg (top-weight friendly for USVs) • Capabilities: Automated drone detection, surface search, C-RAM tracking • Unit assignment: 1st Autonomous Squadron • Report date: 2026-11-12.",
+      "he": "רוכש: הצי המלכותי הבריטי • ספקית: סאאב (שוודיה) • פלטפורמה מארחת: כשב\"ם Kraken K3 Scout • שווי: 15 מיליון ליש\"ט (USD 19.5M) • סוג מכ\"ם: AESA ימי תלת-ממדי Sea Giraffe 1X • משקל: פחות מ-150 ק\"ג (מותאם לכלי שיט קטנים) • יכולות: גילוי אוטונומי של רחפנים, סיור שטח ואיתור טילים • מסגרת: טייסת הכשב\"מים הראשונה • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Pioneers the operational use of small, uncrewed surface combatants as forward-deployed radar pickets, pushing air defense radar horizons dozens of miles ahead of carrier strike groups to counter saturation drone strikes.",
+      "he": "מדגים יישום מבצעי חלוצי של כשב\"מים מהירים כעמדות מכ\"ם קדמיות, המרחיקות את טווח הגילוי של ספינות הקרב בעשרות קילומטרים ומספקות התרעה מוקדמת מפני מתקפות כטב\"מים ימיות."
+     },
+     "israel": {
+      "en": "Directly aligns with Israeli naval doctrine where missile corvettes (Sa'ar 6) and uncrewed vessels integrate forward networked sensors to counter anti-ship cruise missiles and drone threats in the Mediterranean and Red Sea.",
+      "he": "תואם את תורת הלחימה של זרוע הים בצה\"ל, המשלבת ספינות טילים (סער 6) עם כלים בלתי מאוישים להרחקת טווח הגילוי מפני טילי חוף-ים וכטב\"מים מתאבדים בזירה הימית."
+     },
+     "src": [
+      {
+       "t": "Defence Industry Europe Official Contract Report",
+       "u": "https://defence-industry.eu/saab-says-royal-navy-orders-15-million-of-drone-detection-radars-for-uncrewed-k3-scout-vessels/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — contract announcement released by Saab and the UK Ministry of Defence.",
+      "he": "מאומת — הודעת חוזה רשמית של סאאב ומשרד ההגנה הבריטי."
+     },
+     "s": {
+      "en": "Royal Navy awards Saab GBP 15M for Sea Giraffe 1X radars on K3 Scout drone boats",
+      "he": "הצי הבריטי העניק לסאאב 15 מיליון ליש\"ט למכ\"מי Sea Giraffe 1X על גבי כשב\"מי K3 Scout"
+     }
+    },
+    {
+     "id": "D3",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "India",
+     "countryHe": "הודו",
+     "type": "Coastal Defense / Pan-India Naval Exercises",
+     "typeHe": "הגנת חופים / תמרונים ימיים כלל-ארציים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Indian Navy commences 9-day biennial coastal defense exercise 'Sea Vigil-26' spanning India's entire coastline and 2.37M sq km EEZ",
+      "he": "הצי ההודי פותח בתרגיל הגנת החופים הכלל-ארצי 'Sea Vigil-26' המכסה את כל קו החוף והמים הכלכליים של הודו"
+     },
+     "what": {
+      "en": "The Indian Navy officially launched the fifth edition of the nationwide coastal defense exercise 'Sea Vigil-26', a comprehensive 9-day multi-agency operational drill spanning India’s entire 7,516 km coastline and its 2.37 million square kilometer Exclusive Economic Zone (EEZ). Running from November 11 to 19, the exercise is coordinated jointly with the Indian Coast Guard, state marine police forces, Customs, port authorities, and the National Disaster Management Authority. Divided into two phases—a Coastal Defence Readiness Evaluation (CDRE) phase followed by a high-intensity seaward tactical phase—the drill rigorously stress-tests seaward infiltration counter-measures, automated coastal radar chains, satellite AIS vessel tracking, and rapid reaction combat teams protecting strategic commercial hubs, oil refineries, and nuclear installations.",
+      "he": "הצי ההודי פתח באופן רשמי במהדורה החמישית של תרגיל הגנת החופים הלאומי 'Sea Vigil-26' — תמרון רחב-היקף הנמשך תשעה ימים ומכסה את כל 7,516 הקילומטרים של קו החוף ההודי ושטח של 2.37 מיליון קמ\"ר של המים הכלכליים (EEZ). התרגיל, המתקיים בין ה-11 ל-19 בנובמבר, מתואם במשותף עם משמר החופים, משטרת החופים, המכס, הנהלות הנמלים ורשויות החירום הלאומיות. התרגיל מחולק לשני שלבים — שלב הערכת מוכנות וביקורת חופים ולאחריו שלב תמרון טקטי מלא בים — ובוחן תרחישי סיכול חדירה מהים, רשתות מכ\"ם חופיות אוטומטיות, ניטור לווייני של כלי שיט והקפצת צוותי לחימה מהירים להגנת נמלים אסטרטגיים, בתי זיקוק ומתקני גרעין."
+     },
+     "figs": {
+      "en": "Lead service: Indian Navy • Participating forces: Indian Coast Guard, State Marine Police, Customs, Port Trusts, CISF • Geographical scope: 7,516 km coastline, 13 coastal States/UTs, 2.37M sq km EEZ • Duration: 9 days (11–19 November 2026) • Phases: Phase 1 (11–17 Nov) Readiness Audits; Phase 2 (18–19 Nov) Tactical Free-Play Drill • Key focus: Asymmetric maritime infiltration, drone threats, coastal radar networks • Report date: 2026-11-12.",
+      "he": "גוף מוביל: הצי ההודי • כוחות משתתפים: משמר החופים, משטרת החופים, מכס, רשויות הנמלים וכוחות ביטחון פנים • היקף גאוגרפי: 7,516 ק\"מ חוף, 13 מדינות ומחוזות, 2.37 מיליון קמ\"ר מים כלכליים • משך: 9 ימים (11–19 בנובמבר 2026) • שלבים: שלב ביקורות שטח (11–17 בנובמבר) ושלב לחימה טקטית (18–19 בנובמבר) • דגשים: סיכול חדירות א-סימטריות, איומי כטב\"מים ורשתות מכ\"ם חופיות • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Serves as the pinnacle validation drill of India's maritime homeland defense architecture established post-26/11 Mumbai, synchronizing civilian and military command networks across the entire Indian subcontinent ahead of theater commands restructuring.",
+      "he": "מהווה את מופע האימות העליון של ארכיטקטורת הגנת המולדת הימית של הודו, ומסנכרן בין עשרות גופי ביטחון, מודיעין וסוכנויות אזרחיות במענה לאיומי טרור, חבלה ימית ולוחמה בלתי מאוישת."
+     },
+     "israel": {
+      "en": "Directly involves Israeli coastal security and C4I systems. The Indian Navy and Coast Guard heavily utilize Israeli sensors, electronic optronics (IAI ELTA coastal surveillance radars), and communication networks tested during nationwide drills.",
+      "he": "מערב ישירות מערכות הגנת חופים, תקשורת ומכ\"ם מתוצרת ישראל (כגון מכ\"מי חופים ואלקטרו-אופטיקה של אלתא ואלביט) המוטמעים במערך האבטחה הימי של הודו."
+     },
+     "src": [
+      {
+       "t": "Press Information Bureau (PIB) Official Release",
+       "u": "https://pib.gov.in/PressReleasePage.aspx?PRID=2072551"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official operational release by the Ministry of Defence, Government of India.",
+      "he": "מאומת — הודעה מבצעית רשמית של משרד ההגנה של ממשלת הודו דרך לשכת העיתונות הממשלתית."
+     },
+     "s": {
+      "en": "Indian Navy begins 9-day nationwide coastal defense drill 'Sea Vigil-26' across 7,516 km coastline",
+      "he": "הצי ההודי פתח בתרגיל הגנת החופים הלאומי 'Sea Vigil-26' לאורך 7,516 ק\"מ של קו החוף"
+     }
+    },
+    {
+     "id": "D4",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "India",
+     "countryHe": "הודו",
+     "type": "Naval Modernization / Frigate Repowering",
+     "typeHe": "מודרניזציה ימית / שדרוג הנעה של פריגטות",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Ministry of Defence signs INR 498.58 Cr (USD 59.8M) contract with Cochin Shipyard for mid-life refit and steam-to-diesel repowering of frigate INS Betwa",
+      "he": "משרד ההגנה ההודי חתם על חוזה בהיקף 498.58 קרוֹר רופי עם קוצ'ין שיפיארד להסבת פריגטת הטילים INS Betwa מקיטור לדיזל"
+     },
+     "what": {
+      "en": "The Indian Ministry of Defence concluded a contract valued at INR 498.58 crore (USD 59.8M) with state-owned Cochin Shipyard Limited (CSL) to execute a comprehensive mid-life refit and propulsion repowering of the Brahmaputra-class guided missile frigate INS Betwa, replacing legacy steam turbines with modern fuel-efficient marine diesel engines and upgrading weapon control systems.",
+      "he": "משרד ההגנה של הודו חתם על חוזה בהיקף של 498.58 קרוֹר רופי (כ-59.8 מיליון דולר) עם מספנות קוצ'ין (CSL) לביצוע שדרוג אמצע חיים מקיף והחלפת מערכת ההנעה של פריגטת הטילים מדגם ברהמאפוטרה INS Betwa, הכולל מעבר מטורבינות קיטור ישנות למנועי דיזל ימיים חסכוניים ושדרוג מערכות בקרת האש."
+     },
+     "figs": {
+      "en": "Customer: Indian Navy • Shipyard: Cochin Shipyard Limited (CSL) • Contract value: INR 498.58 Cr (USD 59.8M) • Vessel: INS Betwa (F39), Brahmaputra-class guided-missile frigate • Scope: Steam-to-diesel engine repowering, hull overhaul, sensor upgrades • Report date: 2026-11-12.",
+      "he": "לקוח: הצי ההודי • מספנה: Cochin Shipyard Limited • שווי החוזה: 498.58 קרוֹר רופי (USD 59.8M) • כלי שיט: INS Betwa (סדרת ברהמאפוטרה) • היקף עבודה: החלפת הנעת קיטור למנועי דיזל ושדרוג חיישנים • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Extends the operational lifespan of the indigenous frigate by 15 years while dramatically improving fuel efficiency and mission endurance across the Indian Ocean Region.",
+      "he": "מאריך את חיי השירות של הפריגטה ב-15 שנים, תוך שיפור ניכר בחיסכון בדלק וזמן השהייה במשימות סיור באוקיינוס ההודי."
+     },
+     "israel": {
+      "en": "INS Betwa carries Israeli-supplied Barak 1 point defense missile systems and ELTA tracking radars, which will receive depot-level maintenance and interfacing during the refit.",
+      "he": "הפריגטה נושאת מערכות טילי ברק 1 ומכ\"מי אלתא מתוצרת ישראל, שיעברו תחזוקה והתאמות שו\"ב במהלך השדרוג במספנה."
+     },
+     "src": [
+      {
+       "t": "Press Information Bureau (PIB) Official Notification",
+       "u": "https://pib.gov.in/PressReleasePage.aspx?PRID=2072488"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official contract signing confirmed by Ministry of Defence, New Delhi.",
+      "he": "מאומת — הודעת חתימת חוזה רשמית של משרד ההגנה בניו דלהי."
+     },
+     "s": {
+      "en": "India MoD awards USD 59.8M contract to Cochin Shipyard for frigate INS Betwa refit and repowering",
+      "he": "משרד ההגנה ההודי העניק חוזה של 59.8 מיליון דולר למספנות קוצ'ין לשדרוג הפריגטה INS Betwa"
+     }
+    },
+    {
+     "id": "D5",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Arab Emirates",
+     "countryHe": "איחוד האמירויות",
+     "type": "Military Readiness / Joint Force Exercises",
+     "typeHe": "מוכנות מבצעית / מפגני כוח צבאיים משולבים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "UAE Ministry of Defence prepares for 'Union Fortress 11' military readiness showcase in Liwa City as regional agencies track Persian Gulf maritime security",
+      "he": "משרד ההגנה של איחוד האמירויות נערך למפגן המוכנות הצבאי 'מבצר האיחוד 11' בעיר ליווה על רקע מעקב אחר הביטחון הימי במפרץ הפרסי"
+     },
+     "what": {
+      "en": "The UAE Ministry of Defence announced advanced preparations for the 11th edition of the 'Union Fortress' military demonstration, scheduled to take place in Liwa City (Al Dhafra Region) in December under the theme 'An Impregnable Fortress, a Resilient Nation'. The joint-force drill will demonstrate integrated naval, air, and ground capabilities alongside sovereign defense technologies, as regional maritime security agencies (UKMTO/Ambrey) monitor commercial tanker routing following projectile strikes in the Persian Gulf.",
+      "he": "משרד ההגנה של איחוד האמירויות הודיע על השלמת ההיערכות למפגן המוכנות הצבאי 'מבצר האיחוד 11' (Union Fortress 11) שיתקיים בעיר ליווה במחוז אל-דהפרה בחודש דצמבר, תחת הכותרת 'מבצר בלתי חדיר, אומה איתנה'. המפגן המשולב ידגים שת\"פ ימי, אווירי ויבשתי והפעלת אמל\"ח מתוצרת התעשייה המקומית, במקביל למעקב של סוכנויות הביטחון הימי (UKMTO) אחר נתיבי השיט במפרץ הפרסי."
+     },
+     "figs": {
+      "en": "Organizer: UAE Ministry of Defence • Demonstration: Union Fortress 11 (حصن الاتحاد 11) • Venue: Liwa City, Al Dhafra Region, Abu Dhabi • Participating elements: Joint armed forces (Naval, Air Force, Presidential Guard, Ground Forces) • Theme: Resilience, deterrence, sovereign technology integration • Report date: 2026-11-12.",
+      "he": "מארגן: משרד ההגנה של איחוד האמירויות • מפגן: מבצר האיחוד 11 • מיקום: העיר ליווה, מחוז אל-דהפרה, אבו דאבי • כוחות משתתפים: זרועות האוויר, הים, היבשה ומשמר הנשיאות • דגש: הפגנת כושר הרתעה ושילוב אמל\"ח מקומי • תאריך דיווח: 2026-11-12."
+     },
+     "why": {
+      "en": "Demonstrates the operational cohesion, technological independence, and deterrence capability of the UAE Armed Forces across critical sea lines of communication and strategic energy corridors.",
+      "he": "מפגין את הלכידות המבצעית, העצמאות הטכנולוגית ויכולת ההרתעה של צבא איחוד האמירויות בהגנה על נתיבי שיט קריטיים ומסדרונות אנרגיה אסטרטגיים."
+     },
+     "israel": {
+      "en": "Relevant to regional maritime security and shared Abraham Accords stability partnerships, where defense industrial dialogue and regional naval monitoring remain active.",
+      "he": "רלוונטי לביטחון הימי האזורי ולשיתופי הפעולה במסגרת הסכמי אברהם להגנה על חופש השיט והיציבות במפרץ הפרסי."
+     },
+     "src": [
+      {
+       "t": "Emirates News Agency (WAM) Official Dispatch",
+       "u": "https://wam.ae/en/article/bzi789d-uae-ministry-of-defence-prepares-for-union-fortress-11"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — official operational notice published by UAE Ministry of Defence via WAM.",
+      "he": "מאומת — הודעה רשמית של משרד ההגנה של איחוד האמירויות שפורסמה בסוכנות WAM."
+     },
+     "s": {
+      "en": "UAE Ministry of Defence readies 'Union Fortress 11' joint military demonstration in Liwa",
+      "he": "משרד ההגנה של איחוד האמירויות נערך למפגן הצבאי המשולב 'מבצר האיחוד 11' בליווה"
+     }
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "Elbit Systems secured a landmark USD 260M five-year contract to supply PULS precise universal rocket artillery systems and high-precision guided rocket pods to a European NATO member nation (C1).",
+      "AeroVironment was awarded a record USD 405M international direct commercial sale to deliver containerized LOCUST X3 30 kW high-energy laser counter-drone weapon systems across the Middle East (A1).",
+      "Korean Air Aerospace Division (KAL-ASD) advanced its Low-Observable Uncrewed Wingman System (LOWUS) Collaborative Combat Aircraft (CCA) through critical design toward 2027 maiden flight trials (B1).",
+      "Kongsberg Maritime and Thales UK unveiled the 'Arctic Hunter' autonomous trimaran anti-submarine warfare (ASW) USV tailored for Royal Navy deep-water patrol and subsea threat tracking (D1).",
+      "Morocco formally inaugurated Israel's first permanent Defense Attaché Office in Rabat headed by Col. Sharon Itach amid an approved MAD 190.5B (USD 19B) defense budget expansion and deep industrial co-production (C2).",
+      "Germany approved the delivery of Taurus KEPD 350 long-range cruise missiles to Sweden ahead of its 2028 Gripen C/D mid-life upgrade (C3), while Hensoldt announced an immediate scale-up to double TRML-4D air defense radar production (A3)."
+     ],
+     "he": [
+      "אלביט מערכות זכתה בחוזה עתק בהיקף של 260 מיליון דולר (USD 260M) לחמש שנים לאספקת מערכות רקטות מדויקות מדגם PULS ומארזי חימוש מונחה למדינה אירופית חברת נאט\"ו (ג1).",
+      "אירו-וירונמנט האמריקאית זכתה בעסקת יצוא שיא בהיקף 405 מיליון דולר (USD 405M) לאספקת מערכות נשק לייזר רב-עוצמה (30 קילוואט) מדגם LOCUST X3 ליירוט כטב\"מים במזרח התיכון (א1).",
+      "חטיבת התעופה של קוריאן אייר השלימה אבן דרך בתכנון הקריטי של כטב\"ם הקרב השיתופי החמקן LOWUS לקראת טיסות ניסוי ב-2027 בלחימת צוות עם מטוסי KF-21 (ב1).",
+      "קונגסברג ותאלס חשפו את 'ארקטיק האנטר' — כשב\"ם טרימרן אוטונומי מתקדם ללוחמה נגד צוללות (ASW) עבור הצי המלכותי הבריטי (ד1).",
+      "מרוקו חנכה רשמית את משרדי הנספחות הצבאית הישראלית הקבועה הראשונה ברבאט בראשות אל\"מ שרון איטח, על רקע הגדלת תקציב הביטחון המרוקאי ל-19 מיליארד דולר והקמת קווי ייצור לכטב\"מים (ג2).",
+      "גרמניה אישרה את מסירת טילי השיוט ארוכי הטווח טאורוס (Taurus KEPD 350) לשוודיה לשדרוג מטוסי הגריפן C/D לקראת 2028 (ג3), והנסולדט הכפילה את קו ייצור מכ\"מי ההגנה האווירית TRML-4D (א3)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "All 26 items independently verified against official government releases, defense ministry announcements, prime contractor newsrooms, and vetted defense trade publications (Globes, Breaking Defense, Defence Industry Europe, The War Zone, Militarnyi, AZERTAC, PIB India, Thales, AeroVironment, Saab, Elbit Systems, Hensoldt).",
+     "Zero-Tolerance Gatekeeper verified: Every source URL passed HTTP 200 GET verification prior to document compilation.",
+     "Authentic Source Imagery: 17 authentic high-resolution photographs downloaded directly from primary verified sources and converted to standard JPEG format; zero programmatic synthetic cards generated."
+    ],
+    "he": [
+     "כל 26 הפריטים אומתו באופן בלתי תלוי מול הודעות רשמיות של משרדי הגנה וצבאות, חדרי עיתונות של יצרניות ביטחוניות מובילות ועיתונות ביטחונית מקצועית (גלובס, Breaking Defense, Defence Industry Europe, The War Zone, Militarnyi, AZERTAC, PIB הודו, תאלס, אירו-וירונמנט, סאאב, אלביט מערכות, הנסולדט).",
+     "שער אימות קפדני: כל כתובות המקור (URLs) אומתו בבדיקת HTTP 200 GET מלאה טרם עריכת המסמכים.",
+     "צילומי מקור אותנטיים: 17 תצלומים אותנטיים ברזולוציה גבוהה הורדו ישירות מהמקורות המצוטטים והומרו לפורמט JPEG תקני; ללא שימוש בכרטיסים גרפיים מלאכותיים."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Reader profile applied: 18 full items, 8 briefly noted.",
+     "Country focus: Germany 4, UAE 1, Azerbaijan 1, Singapore 1, India 2, Morocco 1.",
+     "Open-source intelligence compilation covering the period 2026-11-11T18:41:00Z to 2026-11-12T15:01:00Z."
+    ],
+    "he": [
+     "פרופיל קורא הוחל: 18 פריטים מלאים, 8 בקצרה.",
+     "מיקוד מדינות: גרמניה 4, איחוד האמירויות 1, אזרבייג'ן 1, סינגפור 1, הודו 2, מרוקו 1.",
+     "איסוף מודיעין ממקורות גלויים המכסה את חלון הזמן 2026-11-11T18:41:00Z עד 2026-11-12T15:01:00Z."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Korean Air LOWUS CCA Prototype Fabrication: Milestone reviews leading to 2027 maiden flight integration with KAI KF-21.",
+     "Middle East Directed Energy Deployment: Operational integration schedules of AeroVironment LOCUST X3 30 kW laser batteries and C2 interoperability.",
+     "Sweden Taurus Gripen Integration: Flight separation testing and avionics interfacing of Taurus KEPD 350 on Gripen C/D MS20 upgrade.",
+     "Arctic Hunter USV Sea Trials: Deep-water sonar deployment and autonomous multi-static acoustic data linking with Royal Navy P-8A Poseidon MPA.",
+     "Morocco-Israel Defense Industrial Joint Ventures: Groundbreaking on domestic UAV manufacturing facilities in Morocco under the new Rabat defense attaché office."
+    ],
+    "he": [
+     "ייצור אב-טיפוס של כטב\"ם הקרב השיתופי LOWUS של קוריאן אייר: אבני דרך לקראת טיסת בכורה ב-2027 ושילוב עם מטוסי KF-21.",
+     "פריסת מערכות לייזר במזרח התיכון: לוחות זמנים להצבה מבצעית של סוללות LOCUST X3 בהספק 30 קילוואט ואינטגרציית שו\"ב.",
+     "שילוב טילי טאורוס במטוסי גריפן שוודיים: ניסויי הפרדה באוויר והתאמת אוויוניקה במסגרת שדרוג MS20 של מטוסי Gripen C/D.",
+     "ניסויי ים של כשב\"ם ארקטיק האנטר: פריסת סונאר מים עמוקים ותקשורת אקוסטית מול מטוסי סיור ימי P-8A פוסידון של הצי הבריטי.",
+     "מיזמים תעשייתיים ביטחוניים ישראל-מרוקו: הקמת קווי ייצור מקומיים לכטב\"מים במרוקו בליווי הנספחות הצבאית החדשה ברבאט."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1aCrJrcY8RcvxZt0twmuuQfqMD2xCSh6lhfKKlziKjj0/edit",
+    "he": "https://docs.google.com/document/d/1GoFM1SdvXblvpKchCY8fiFJiiyJmyqGzRinNb9Om-cY/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-12_AGY_EN.pdf": "1teqytdFbKVACktvx35S2XryjlL4pR_YP",
+    "Defense_Tech_Digest_2026-11-12_AGY_HE.pdf": "10GiavS2BsMYlSAI8w_TjSB9cyftpD3vt",
+    "Defense_Team_Brief_2026-11-12_AGY_EN.pdf": "1k4ZXZ_ZBwzNDa6gjpAJ6cJXs1WFqbhsz",
+    "Defense_Team_Brief_2026-11-12_AGY_HE.pdf": "1OaFeK3KcLxYklG7To58URNsr318zftbx"
+   },
+   "photos": {
+    "C1": {
+     "url": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1745919653/direct/PULS_qk7ys7.jpg",
+     "outlet": "Elbit Systems / Globes",
+     "caption_en": "Elbit Systems PULS precise universal launcher system mounted on heavy tactical chassis.",
+     "caption_he": "משגר הרקטות הרב-תכליתי PULS של אלביט מערכות על גבי מרכב טקטי כבד.",
+     "credit_en": "Photo: Elbit Systems, via Globes",
+     "credit_he": "צילום: אלביט מערכות, דרך גלובס",
+     "local_src": "../digest/2026-11-12/img/j/C1.jpg"
+    },
+    "C2": {
+     "url": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg",
+     "outlet": "Israel Ministry of Defense / Morocco World News",
+     "caption_en": "Israel Ministry of Defense Director General Amir Baram opens first permanent defense attaché office in Rabat, Morocco.",
+     "caption_he": "מנכ\"ל משרד הביטחון אמיר ברעם חונך את משרד הנספחות הביטחונית הקבוע הראשון ברבאט, מרוקו.",
+     "credit_en": "Photo: Israel Ministry of Defense, via Morocco World News",
+     "credit_he": "צילום: משרד הביטחון, דרך מרוקו וורלד ניוז",
+     "local_src": "../digest/2026-11-12/img/j/C2.jpg"
+    },
+    "C3": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Sweden-receives-Taurus-cruise-missiles-from-Germany-ahead-of-planned-2028-Gripen-C_D-upgrade.jpg",
+     "outlet": "Taurus Systems / Defence Industry Europe",
+     "caption_en": "Taurus KEPD 350 long-range precision cruise missile delivered to Swedish Armed Forces.",
+     "caption_he": "טיל שיוט מדויק ארוך-טווח מדגם Taurus KEPD 350 שנמסר לכוחות המזוינים של שוודיה.",
+     "credit_en": "Photo: Taurus Systems, via Defence Industry Europe",
+     "credit_he": "צילום: Taurus Systems, דרך Defence Industry Europe",
+     "local_src": "../digest/2026-11-12/img/j/C3.jpg"
+    },
+    "C4": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/53195468613_5c6c301a41_c-e1794425948751.jpg",
+     "outlet": "Apex Space / DoD Office of Strategic Capital / Breaking Defense",
+     "caption_en": "Satellite bus manufacturing at Apex Space under U.S. DoD space industrial base loan expansion.",
+     "caption_he": "ייצור מרכבי לוויינים בחברת Apex Space במסגרת הלוואות משרד ההגנה האמריקאי לחיזוק שרשרת אספקת החלל.",
+     "credit_en": "Photo: Apex Space, via Breaking Defense",
+     "credit_he": "צילום: Apex Space, דרך Breaking Defense",
+     "local_src": "../digest/2026-11-12/img/j/C4.jpg"
+    },
+    "A1": {
+     "url": "https://www.avinc.com/wp-content/uploads/2026/04/av-og.png?quality=100",
+     "outlet": "AeroVironment",
+     "caption_en": "AeroVironment LOCUST X3 containerized 30 kW high-energy laser counter-drone weapon system.",
+     "caption_he": "מערכת נשק לייזר עתיר אנרגיה 30 קילוואט LOCUST X3 מתוצרת אירו-וירונמנט ליירוט כטב\"מים.",
+     "credit_en": "Photo: AeroVironment",
+     "credit_he": "צילום: AeroVironment",
+     "local_src": "../digest/2026-11-12/img/j/A1.jpg"
+    },
+    "A2": {
+     "url": "https://www.thalesgroup.com/sites/default/files/styles/og_image/public/2024-06/GM200_MM_C.jpg",
+     "outlet": "Thales Group",
+     "caption_en": "Thales Ground Master 200 Multi Mission Compact (GM200 MM/C) tactical air surveillance radar.",
+     "caption_he": "מכ\"ם הגנה אווירית טקטי קומפקטי מדגם Ground Master 200 MM/C של קבוצת תאלס.",
+     "credit_en": "Photo: Thales Group",
+     "credit_he": "צילום: Thales Group",
+     "local_src": "../digest/2026-11-12/img/j/A2.jpg"
+    },
+    "A3": {
+     "url": "https://defensehere.com/wp-content/uploads/2026/10/Hensoldt-1-scaled-1-scaled-aspect-ratio-1280-720-1-1536x864-1-scaled.webp",
+     "outlet": "Hensoldt / DefenseHere",
+     "caption_en": "Hensoldt TRML-4D C-band AESA mobile air defense radar for the IRIS-T SLM system.",
+     "caption_he": "מכ\"ם הגנה אווירית נייד AESA מדגם TRML-4D של הנסולדט המשמש בסוללות IRIS-T SLM.",
+     "credit_en": "Photo: Hensoldt, via DefenseHere",
+     "credit_he": "צילום: הנסולדט, דרך DefenseHere",
+     "local_src": "../digest/2026-11-12/img/j/A3.jpg"
+    },
+    "A4": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Echodyne-says-BAE-Systems-has-integrated-EchoShield-radar-into-its-BATS-counter-drone-system.jpeg",
+     "outlet": "Echodyne / BAE Systems / Defence Industry Europe",
+     "caption_en": "Echodyne EchoShield MESA radar integrated with BAE Systems BATS counter-drone platform.",
+     "caption_he": "מכ\"ם ה-EchoShield של אקודין משולב במערכת BATS של BAE Systems לנטרול כטב\"מים.",
+     "credit_en": "Photo: Echodyne / BAE Systems",
+     "credit_he": "צילום: Echodyne / BAE Systems",
+     "local_src": "../digest/2026-11-12/img/j/A4.jpg"
+    },
+    "A5": {
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/fedorov-yelizarov-foto-1.jpg",
+     "outlet": "Militarnyi",
+     "caption_en": "Former Defense Minister Fedorov and Lasar's Group founder establish venture for low-cost interceptor missiles.",
+     "caption_he": "שר הדיגיטל פדורוב ומייסד קבוצת לזאר מייסדים חברה לפיתוח טילי יירוט זולים נגד כטב\"מים באוקראינה.",
+     "credit_en": "Photo: Militarnyi",
+     "credit_he": "צילום: Militarnyi",
+     "local_src": "../digest/2026-11-12/img/j/A5.jpg"
+    },
+    "B1": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg",
+     "outlet": "Korean Air Aerospace Division / Breaking Defense",
+     "caption_en": "Korean Air Aerospace Division LOWUS stealth Collaborative Combat Aircraft (CCA) concept design.",
+     "caption_he": "תפיסת התכנון של כטב\"ם הקרב השיתופי החמקן LOWUS של קוריאן אייר אירוספייס.",
+     "credit_en": "Photo: Korean Air Aerospace Division, via Breaking Defense",
+     "credit_he": "צילום: קוריאן אייר אירוספייס, דרך Breaking Defense",
+     "local_src": "../digest/2026-11-12/img/j/B1.jpg"
+    },
+    "B3": {
+     "url": "https://www.israeldefense.co.il/sites/default/files/2025-02/BRO-vs-C2_0.jpg",
+     "outlet": "BIRD Aerosystems / IsraelDefense",
+     "caption_en": "BIRD Aerosystems AeroShield electronic countermeasure protection pod for airborne platforms.",
+     "caption_he": "מערכת ההגנה האלקטרונית AeroShield של חברת BIRD Aerosystems להגנה על פלטפורמות אוויריות.",
+     "credit_en": "Photo: BIRD Aerosystems, via IsraelDefense",
+     "credit_he": "צילום: BIRD Aerosystems, דרך IsraelDefense",
+     "local_src": "../digest/2026-11-12/img/j/B3.jpg"
+    },
+    "B4": {
+     "url": "https://azertag.az/files/2024/3/1200x630/17313991605241838932_1200x630.jpg",
+     "outlet": "AZERTAC / Azerbaijan MoD",
+     "caption_en": "Azerbaijani and Tajik military delegations hold bilateral defense talks on unmanned aerial systems.",
+     "caption_he": "משלחות צבאיות מאזרבייג'ן וטג'יקיסטן בדיוני שיתוף פעולה ביטחוני בתחום הכטב\"מים.",
+     "credit_en": "Photo: AZERTAC",
+     "credit_he": "צילום: AZERTAC",
+     "local_src": "../digest/2026-11-12/img/j/B4.jpg"
+    },
+    "B5": {
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Gripen-E-AI-powered-scaled-e1793642273283.jpg",
+     "outlet": "Saab / Breaking Defense",
+     "caption_en": "Saab Gripen-E fighter cockpit interface evaluating autonomous AI pilot-assistance agent family.",
+     "caption_he": "ממשק תא הטייס של מטוס גריפן E של סאאב המשולב עם משפחת סוכני בינה מלאכותית לסיוע לטייס.",
+     "credit_en": "Photo: Saab, via Breaking Defense",
+     "credit_he": "צילום: סאאב, דרך Breaking Defense",
+     "local_src": "../digest/2026-11-12/img/j/B5.jpg"
+    },
+    "B6": {
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/Reenactment_-Clarity-at-the-command-post-scaled-1-1024x683.jpg",
+     "outlet": "Helsing / Militarnyi",
+     "caption_en": "Helsing demonstrates Clarity real-time AI intelligence analysis and multisource fusion platform.",
+     "caption_he": "חברת הלסינג מדגימה את פלטפורמת ניתוח המודיעין והיתוך המידע בזמן אמת Clarity מבוססת בינה מלאכותית.",
+     "credit_en": "Photo: Helsing, via Militarnyi",
+     "credit_he": "צילום: Helsing, דרך Militarnyi",
+     "local_src": "../digest/2026-11-12/img/j/B6.jpg"
+    },
+    "D1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg",
+     "outlet": "Kongsberg Maritime / Thales UK / Defence Industry Europe",
+     "caption_en": "Kongsberg Maritime Arctic Hunter autonomous anti-submarine warfare trimaran USV for the Royal Navy.",
+     "caption_he": "כשב\"ם הטרימרן האוטונומי נגד צוללות Arctic Hunter של קונגסברג ותאלס עבור הצי המלכותי הבריטי.",
+     "credit_en": "Photo: Kongsberg Maritime, via Defence Industry Europe",
+     "credit_he": "צילום: Kongsberg Maritime, דרך Defence Industry Europe",
+     "local_src": "../digest/2026-11-12/img/j/D1.jpg"
+    },
+    "D2": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Saab-says-Royal-Navy-orders-15-million-of-drone-detection-radars-for-uncrewed-K3-Scout-vessels.jpg",
+     "outlet": "Saab / Royal Navy / Defence Industry Europe",
+     "caption_en": "Saab radar integration aboard uncrewed K3 Scout surface vessels for Royal Navy fleet defense.",
+     "caption_he": "מכ\"ם הגילוי של סאאב המותקן על כשב\"מי K3 Scout להגנת ציי הצי המלכותי הבריטי מפני רחפנים.",
+     "credit_en": "Photo: Saab, via Defence Industry Europe",
+     "credit_he": "צילום: סאאב, דרך Defence Industry Europe",
+     "local_src": "../digest/2026-11-12/img/j/D2.jpg"
+    },
+    "D3": {
+     "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2072551",
+     "outlet": "Indian Navy / Press Information Bureau",
+     "caption_en": "Indian Navy warships and security assets mobilize during National Coastal Defence Exercise Sea Vigil-26.",
+     "caption_he": "ספינות הצי ההודי וזרועות הביטחון בפעילות מבצעית במהלך תרגיל ההגנה החופית הלאומי Sea Vigil-26.",
+     "credit_en": "Photo: Indian Navy / PIB",
+     "credit_he": "צילום: הצי ההודי / PIB",
+     "local_src": "../digest/2026-11-12/img/j/D3.jpg"
+    }
+   }
+  },
   "2026-11-11": {
    "date": "2026-11-11",
    "doc_id": "2026-11-11",
