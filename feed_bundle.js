@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-12",
+ "updated_at": "2026-11-12-evening",
  "dates": [
   "2026-11-12",
+  "2026-11-12-evening",
   "2026-11-11",
   "2026-11-11-evening",
   "2026-11-10",
@@ -1537,6 +1538,958 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo: Indian Navy / PIB",
      "credit_he": "צילום: הצי ההודי / PIB",
      "local_src": "../digest/2026-11-12/img/j/D3.jpg"
+    }
+   }
+  },
+  "2026-11-12-evening": {
+   "date": "2026-11-12_evening",
+   "doc_id": "2026-11-12-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-12T15:01:00Z",
+   "wend": "2026-11-12T18:55:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "NATO / Multinational",
+     "countryHe": "נאט\"ו / רב-לאומי",
+     "type": "Counter-UAS Procurement Marketplace / Integrated Air Defense",
+     "typeHe": "פלטפורמת רכש מואץ ליירוט כטמ\"מים / הגנה אווירית משולבת",
+     "date": "2026-11-12",
+     "h": {
+      "en": "NATO launches 'Drone Edge' counter-drone marketplace offering 16 vetted systems from 5 suppliers with EUR 3.1M trial fund",
+      "he": "נאט\"ו משיקה רשמית את מרקטפלייס 'Drone Edge' המציע 16 מערכות יירוט כטמ\"מים מחמישה ספקים עם תקציב ניסויים של 3.1 מיליון אירו"
+     },
+     "what": {
+      "en": "NATO has formally operationalized its new counter-drone procurement marketplace under the 'Drone Edge' framework, providing allied nations with a fast-track catalogue of 16 proven counter-UAS solutions. Sourced from five qualified industrial suppliers, the catalog encompasses fixed installations, mobile transportable systems, and on-the-move jamming and kinetic interceptors. The alliance has set aside an initial EUR 3.1M fund to subsidize allied test trials, allowing members to bypass protracted national acquisition cycles.",
+      "he": "נאט\"ו הפעילה רשמית פלטפורמת רכש מואצת ליירוט כטמ\"מים במסגרת יוזמת 'Drone Edge', המעניקה למדינות הברית קטלוג מוקדם של 16 פתרונות נגד רחפנים וכטמ\"מים. הפתרונות מיוצרים בידי חמישה ספקים מוסמכים וכוללים עמדות קבועות, מערכות ניידות ופתרונות הפועלים תוך כדי תנועה (שיבוש ויירוט קינטי). הברית הקצתה תקציב ראשוני של 3.1 מיליון אירו לסבסוד ניסויים מבצעיים כדי לעקוף מכרזים לאומיים ממושכים."
+     },
+     "figs": {
+      "en": "Scope: 16 vetted counter-drone systems across 5 certified suppliers · Trial Funding: EUR 3.1M allocated for operational evaluation · Deployment Modes: Fixed base defense, relocatable containerized, on-the-move tactical · Target Threats: Class I and II UAS, FPV strike drones, loitering munitions · Date: 2026-11-12",
+      "he": "היקף: 16 מערכות יירוט כטמ\"מים מחמישה ספקים מוסמכים · תקציב ניסויים: 3.1 מיליון אירו להערכה מבצעית · תצורות פריסה: הגנת בסיסים קבועה, עמדות ניידות ופעולה בתנועה · מטרות יעד: רחפנים קלים, רחפני FPV וחימושים משוטטים · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "Traditional defense procurement cycles across European NATO members take 18 to 36 months—an unviable timeline given the weekly software and electronic warfare iterations seen in modern drone combat. By creating a pre-cleared marketplace with interoperable C2 interfaces, NATO establishes a shared baseline that allows smaller allies to acquire frontline-tested C-UAS tech in weeks.",
+      "he": "תהליכי רכש ביטחוני מסורתיים במדינות אירופה נמשכים בין 18 ל-36 חודשים — קצב שאינו מתיישב עם קצב השדרוג של לוחמת הרחפנים והלוחמה האלקטרונית. יצירת שוק מוסדר ומאושר מראש עם ממשקי שליטה ובקרה אחידים מאפשרת גם למדינות קטנות בברית להצטייד במערכות שנבחנו בשדה הקרב בתוך שבועות ספורים."
+     },
+     "israel": {
+      "en": "Israeli defense companies with European subsidiaries or teaming partners can leverage this streamlined procurement model to supply mature C-UAS sensors and kinetic effectors directly into allied pipelines without navigating individual national tender gauntlets.",
+      "he": "התעשיות הביטחוניות הישראליות הפועלות באירופה באמצעות חברות-בת או שותפויות יוכלו למנף את המודל המואץ כדי להציע מערכות גילוי, ל\"א ויירוט קינטי ישירות למדינות הברית ללא צורך במכרזים לאומיים מפרכים."
+     },
+     "note": {
+      "en": "CONFIRMED — Official NATO Drone Edge initiative disclosures and trade reports.",
+      "he": "מאומת — הודעה רשמית על יוזמת Drone Edge של נאט\"ו ודיווחי עיתונות מקצועית."
+     },
+     "s": {
+      "en": "NATO launches 'Drone Edge' marketplace with 16 counter-UAS solutions and EUR 3.1M trial fund",
+      "he": "נאט\"ו משיקה מרקטפלייס לפתרונות יירוט כטמ\"מים עם 16 מערכות ותקציב ניסויים של 3.1 מיליון אירו"
+     },
+     "src": [
+      {
+       "u": "https://defence-industry.eu/nato-moves-to-strengthen-air-and-missile-defence-with-faster-counter-drone-procurement/",
+       "t": "NATO moves to strengthen air and missile defence with faster counter-drone procurement",
+       "outlet": "Defence Industry Europe"
+      }
+     ]
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "UAE",
+     "countryHe": "איחוד האמירויות",
+     "type": "C-UAS Systems & Air Defense Missile Development",
+     "typeHe": "פיתוח מואץ של מערכות יירוט כטמ\"מים וטילי הגנה אווירית",
+     "date": "2026-11-12",
+     "h": {
+      "en": "EDGE Group fast-tracks development of simplified counter-drone hardware and Skyknight air defense missiles",
+      "he": "קבוצת EDGE האמירתית מאיצה פיתוח מערכות יירוט כטמ\"מים מוזלות וטילי הגנה אווירית מדגם Skyknight"
+     },
+     "what": {
+      "en": "EDGE Group Managing Director and CEO Hamad Al Marar confirmed that the Emirati defense conglomerate has aggressively fast-tracked the development of new, simplified counter-drone hardware alongside its flagship Skyknight air defense missile system. The initiative is tailored to provide high-volume, cost-effective counter-swarm protection across Gulf airspace against persistent regional UAV attacks.",
+      "he": "מנכ\"ל קבוצת EDGE מאיחוד האמירויות, חמד אל-מראר, אישר כי התאגיד הביטחוני האיץ משמעותית את פיתוחן של מערכות יירוט כטמ\"מים פשוטות וזולות לצד טיל ההגנה האווירית Skyknight. המהלך נועד לספק מענה זמין ורחב היקף נגד מתקפות נחילי כטמ\"מים ורחפנים ארוכי טווח במרחב המפרץ."
+     },
+     "figs": {
+      "en": "Lead Entity: EDGE Group (United Arab Emirates) · Core Platforms: Skyknight air defense missile & simplified C-UAS effectors · Deployment Focus: Protection of critical infrastructure and maritime chokepoints in the Gulf · Cost Objective: Drastic reduction in cost-per-interception against swarms · Date: 2026-11-12",
+      "he": "גוף מוביל: קבוצת EDGE (איחוד האמירויות) · פלטפורמות עיקריות: טיל הגנה אווירית Skyknight ומיירטי כטמ\"מים מוזלים · יעד פריסה: הגנה על תשתיות קריטיות ומעברים ימיים במפרץ · יעד כלכלי: הוזלה דרסטית של עלות יירוט מול נחילי כטמ\"מים · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "The asymmetric economic disparity of firing multi-million-dollar air defense missiles against USD 20,000 loitering munitions has forced Gulf militaries to pivot toward layered, low-cost kinetic and directed-energy effectors designed for sovereign mass manufacture.",
+      "he": "הפער הכלכלי הבלתי-נסבל של ירי טילי נ\"מ יקרים נגד חימושים משוטטים זולים חייב את צבאות המפרץ לעבור למערכות הגנה רב-שכבתיות בעלות נמוכה, המבוססות על ייצור עצמי רחב היקף."
+     },
+     "israel": {
+      "en": "The UAE's rapid expansion of domestic air defense and C-UAS manufacturing aligns with shared regional threat architectures, creating potential opportunities for sensor integration and datalink interoperability with Israeli-built regional warning radars.",
+      "he": "ההתעצמות המהירה של האמירויות במערכות נ\"מ ויירוט רחפנים מייצרת פוטנציאל לשילוביות חיישנים ומערכות התרעה אזוריות הפועלות במקביל למכ\"מים ומערכות גילוי מתוצרת ישראל."
+     },
+     "note": {
+      "en": "CONFIRMED — CEO interview disclosures reported by Aviation Week.",
+      "he": "מאומת — ראיון מנכ\"ל שפורסם ב-Aviation Week."
+     },
+     "s": {
+      "en": "EDGE Group accelerates production of low-cost counter-drone systems and Skyknight SAMs",
+      "he": "קבוצת EDGE מאיצה ייצור מערכות יירוט מוזלות וטילי נ\"מ מדגם Skyknight"
+     },
+     "src": [
+      {
+       "u": "https://aviationweek.com/defense/missile-defense-weapons/edge-group-fast-tracked-equipment-development-counter-iranian",
+       "t": "EDGE Fast-Tracks Equipment Development To Counter Threats",
+       "outlet": "Aviation Week"
+      }
+     ]
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine / Poland",
+     "countryHe": "אוקראינה / פולין",
+     "type": "C-UAS 3D Radar Depot Maintenance",
+     "typeHe": "תחזוקת דרג ד' למכ\"מי יירוט כטמ\"מים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Ukrainian defense firm Global Saling establishes domestic warranty and depot repair facility for Polish APS SKYctrl 3D air defense radars",
+      "he": "חברת Global Saling האוקראינית הקימה מרכז תחזוקה ותיקונים מקומי למכ\"מי נ\"מ ויירוט רחפנים פולניים מדגם SKYctrl 3D מתוצרת APS"
+     },
+     "what": {
+      "en": "Ukrainian importer Global Saling has organized domestic warranty and post-warranty maintenance services inside Ukraine for Polish Advanced Protection Systems (APS) SKYctrl 3D radars, ensuring rapid turnaround times for frontline anti-drone detection units.",
+      "he": "החברה האוקראינית Global Saling הקימה מערך תחזוקה ותיקונים פנים-מדינתי מלא עבור מכ\"מי SKYctrl 3D הפולניים של חברת APS, המאפשר החזרה מהירה של מערכות גילוי כטמ\"מים לכשירות מבצעית."
+     },
+     "figs": {
+      "en": "Radar System: APS SKYctrl 3D counter-UAS radar · Facility Location: Domestic Ukrainian depot · Service Model: Warranty & field diagnostics · Turnaround: Reduced from weeks to days",
+      "he": "מערכת מכ\"ם: APS SKYctrl 3D ליירוט כטמ\"מים · מיקום מתקן: בסיס תחזוקה באוקראינה · מודל שירות: אחריות ודיאגנוסטיקה קדמית · זמני החזרה: ירידה משבועות לימים"
+     },
+     "why": {
+      "en": "In-country maintenance eliminates the 4-to-8 week delay associated with transporting damaged radar antennas across international borders to Polish factories.",
+      "he": "התחזוקה המקומית מונעת עיכובים של שבועות ארוכים הכרוכים בשינוע מערכות מכ\"ם מעבר לגבול למפעלים בפולין."
+     },
+     "israel": {
+      "en": "Validates the operational necessity of in-country depot repair capabilities for tactical AESA radars operating under constant electronic warfare and counter-battery fire.",
+      "he": "ממחיש את הצורך המבצעי הקריטי בהקמת מרכזי תחזוקה קדמיים עבור מכ\"מי בוהה ו-AESA הפועלים תחת איומי שיבוש ולוחמה אלקטרונית מתמדת."
+     },
+     "note": {
+      "en": "CONFIRMED — Ukrainian defense trade disclosures via Militarnyi.",
+      "he": "מאומת — פרסומי עיתונות ביטחונית אוקראינית דרך Militarnyi."
+     },
+     "s": {
+      "en": "Ukraine sets up domestic repair hub for Polish APS SKYctrl anti-drone radars",
+      "he": "אוקראינה מקימה מרכז תחזוקה מקומי למכ\"מי SKYctrl פולניים"
+     },
+     "src": [
+      {
+       "u": "https://militarnyi.com/uk/",
+       "t": "Ukraine sets up maintenance services for Polish SKYctrl radars",
+       "outlet": "Militarnyi"
+      }
+     ]
+    },
+    {
+     "id": "A4",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Czech Republic / Ukraine",
+     "countryHe": "צ'כיה / אוקראינה",
+     "type": "Light Jet C-UAS Interceptors",
+     "typeHe": "מטוסי סילון קלים ליירוט כטמ\"מים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Czech Republic and Ukraine discuss supply of up to 16 Aero L-39 Skyfox light jet trainers adapted with laser-guided rockets for counter-drone interception",
+      "he": "צ'כיה ואוקראינה גיבשו מתווה לאספקת עד 16 מטוסי סילון קלים מדגם L-39 Skyfox חמושים ברקטות מונחות-לייזר ליירוט כטמ\"מים"
+     },
+     "what": {
+      "en": "Czech Industry Minister Karel Havlicek announced a preliminary framework to supply Ukraine with 4 Aero L-39 Skyfox jet aircraft with options for an additional 12, equipped with specialized optronics and laser-guided munitions for low-cost drone interception.",
+      "he": "שר התעשייה הצ'כי הודיע על גיבוש מסגרת ראשונית לאספקת 4 מטוסי סילון קלים מדגם Aero L-39 Skyfox (עם אופציה ל-12 נוספים) המצוידים במערכות אלקטרו-אופטיות ורקטות מונחות לייזר ליירוט מוזל של כטמ\"מים."
+     },
+     "figs": {
+      "en": "Aircraft Model: Aero L-39 Skyfox (L-39NG) · Planned Volume: 4 firm aircraft + 12 options · Weapons: Guided rockets / gun pods · Role: Low-cost airborne drone interception",
+      "he": "דגם מטוס: Aero L-39 Skyfox · היקף מתוכנן: 4 מטוסים ראשונים + 12 אופציה · חימוש: רקטות מונחות / פודי תותחים · ייעוד: יירוט מוזל של כטמ\"מים"
+     },
+     "why": {
+      "en": "Provides an intermediate airborne intercept solution between ground-based flak guns and supersonic fighter jets, preserving high-end Patriot and NASAMS missile stocks.",
+      "he": "מייצר שכבת יירוט אווירית מקבילה בין תותחי נ\"מ קרקעיים לבין מטוסי קרב יקרים, וחוסך שימוש בטילי קרקע-אוויר מתקדמים."
+     },
+     "israel": {
+      "en": "Highlights expanding international interest in converting light training aircraft into armed C-UAS platforms using bolt-on electro-optical pods and guided rockets.",
+      "he": "מדגיש את המגמה העולמית של הסבת מטוסי אימון לפלטפורמות יירוט רחפנים באמצעות פודי תצפית ורקטות מדויקות."
+     },
+     "note": {
+      "en": "CONFIRMED — Czech official statements and Kyiv bilateral negotiations.",
+      "he": "מאומת — הצהרות גורמים רשמיים בצ'כיה ומשא ומתן בילטרלי."
+     },
+     "s": {
+      "en": "Czech Republic plans delivery of up to 16 L-39 Skyfox jet interceptors to Ukraine for C-UAS",
+      "he": "צ'כיה מתכננת אספקת עד 16 מטוסי סילון L-39 Skyfox לאוקראינה ליירוט כטמ\"מים"
+     },
+     "src": [
+      {
+       "u": "https://militarnyi.com/uk/",
+       "t": "Czech Republic may supply Ukraine with L-39 Skyfox aircraft for counter-drone operations",
+       "outlet": "Militarnyi"
+      }
+     ]
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine / UK / US",
+     "countryHe": "אוקראינה / בריטניה / ארה\"ב",
+     "type": "Autonomous Multi-Domain Combat Systems / Defense Tech Capitalization",
+     "typeHe": "מערכות לחימה אוטונומיות רב-ממדיות / הון דיפנס-טק",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Ukrainian defense tech powerhouse UFORCE raises USD 700M Series A at USD 6B valuation to scale MAGURA, NEMESIS, and PREDATOR systems across Western hubs",
+      "he": "ענקית הדיפנס-טק האוקראינית UFORCE גייסה 700 מיליון דולר בסבב A לפי שווי של 6 מיליארד דולר להרחבת ייצור מערכות MAGURA, NEMESIS ו-PREDATOR במערב"
+     },
+     "what": {
+      "en": "Ukrainian defense technology leader UFORCE has secured a record-breaking USD 700M Series A investment round at a USD 6B valuation. Co-led by the UK National Wealth Fund (contributing GBP 113M) and U.S. firm Valor Equity Partners, with backing from the U.S.-Ukraine Reconstruction Investment Fund (URIF) and Silicon Valley venture funds, the capital will finance distributed sovereign manufacturing facilities across the UK, U.S., and continental Europe. UFORCE produces battle-tested autonomous platforms including the MAGURA maritime strike USVs, NEMESIS heavy attack aerial drones, LIUT ground robotic vehicles, and PREDATOR automated anti-drone turrets.",
+      "he": "חברת הדיפנס-טק האוקראינית UFORCE השלימה גיוס ענק של 700 מיליון דולר בסבב A לפי שווי חברה של 6 מיליארד דולר. הסבב הובל במשותף על ידי קרן העושר הלאומית של בריטניה (שהשקיעה 113 מיליון ליש\"ט) וקרן Valor Equity Partners האמריקאית, בהשתתפות קרן השיקום ארה\"ב-אוקראינה (URIF) וקרנות מובילות. ההון ישמש להקמת מתקני ייצור מתקדמים ומבוזרים בבריטניה, ארה\"ב ואירופה. החברה מייצרת פלטפורמות קרב אוטונומיות מוכחות ובהן כלי השיט התוקפים MAGURA, רחפני התקיפה הכבדים NEMESIS, רכבי היבשה הרובוטיים LIUT ועמדות היירוט האוטומטיות PREDATOR."
+     },
+     "figs": {
+      "en": "Round Size: USD 700M Series A · Valuation: USD 6B post-money · Lead Investors: UK National Wealth Fund (GBP 113M) & Valor Equity Partners · Core Systems: MAGURA USV, NEMESIS heavy UAV, LIUT UGV, PREDATOR turret · Global Hubs: London (HQ), Kyiv (R&D), production in UK/US/EU · Date: 2026-11-12",
+      "he": "היקף סבב: 700 מיליון דולר בסבב A · שווי חברה: 6 מיליארד דולר · משקיעים מובילים: קרן העושר הבריטית (113 מיליון ליש\"ט) ו-Valor Equity · מערכות עיקריות: כשב\"מ MAGURA, רחפן כבד NEMESIS, רובוט יבשתי LIUT, עמדת PREDATOR · מוקדים: לונדון, קייב, מתקני ייצור בארה\"ב ובאירופה · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "This transaction represents the largest single venture capital round ever raised by a defense technology firm founded in wartime Ukraine. By establishing distributed manufacturing lines in NATO countries, UFORCE secures its supply chains against ballistic missile strikes on Ukrainian industrial facilities while enabling direct, sovereign procurement by Western allied armed forces.",
+      "he": "מדובר בסבב ההשקעה הגדול ביותר אי פעם בחברת טכנולוגיה ביטחונית שצמחה באוקראינה תחת לחימה. פריסת קווי הייצור במדינות נאט\"ו מגנה על שרשרת האספקה מפני מתקפות טילים ומאפשרת רכש צבאי ישיר של מערכות אוטונומיות מוכחות על ידי צבאות המערב."
+     },
+     "israel": {
+      "en": "UFORCE's rapid ascent highlights the shifting global defense venture ecosystem toward combat-proven, rapidly iteratable uncrewed hardware. Israeli defense tech founders and accelerators face intensified competition for Western sovereign defense funds but also potential integration synergies in sensor payloads and counter-EW autonomy.",
+      "he": "הצמיחה המהירה של UFORCE ממחישה את הסטת הון הסיכון הביטחוני העולמי לחברות המפתחות מערכות בלתי מאוישות שנוסו בתנאי קרב קיצוניים, ומציבה רף חדש של תחרות ואינטגרציה טכנולוגית מול התעשיות הישראליות בתחומי האוטונומיה והחיישנים."
+     },
+     "note": {
+      "en": "CONFIRMED — Official corporate financing press release and sovereign fund filings.",
+      "he": "מאומת — הודעה רשמית לעיתונות ומסמכי קרנות העושר הלאומיות."
+     },
+     "s": {
+      "en": "Ukrainian defense tech leader UFORCE raises USD 700M Series A at USD 6B valuation to build Western manufacturing hubs",
+      "he": "חברת הדיפנס-טק UFORCE מאוקראינה גייסה 700 מיליון דולר לפי שווי 6 מיליארד דולר"
+     },
+     "src": [
+      {
+       "u": "https://www.prnewswire.com/news-releases/uforce-raises-700m-at-6-billion-valuation-from-leading-tech-and-sovereign-wealth-funds-to-scale-combat-proven-defence-systems-for-ukraine-and-allied-nations-302937140.html",
+       "t": "UFORCE Raises $700M at $6 Billion Valuation from Leading Tech and Sovereign Wealth Funds",
+       "outlet": "PR Newswire"
+      }
+     ]
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "High-Mach Autonomous Aircraft Mission Systems Teaming",
+     "typeHe": "שילוב מערכות משימה בכלי טיס אוטונומי במהירות מאך גבוהה",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Northrop Grumman and Hermeus sign strategic agreement to integrate advanced mission systems into high-Mach Quarterhorse aircraft",
+      "he": "נורת'רופ גרומן וחברת Hermeus חתמו על הסכם אסטרטגי לשילוב מערכות משימה מתקדמות בכלי הטיס המהיר Quarterhorse"
+     },
+     "what": {
+      "en": "Northrop Grumman and hypersonic technology developer Hermeus have signed a strategic teaming agreement to design, integrate, and sustain advanced mission systems for Hermeus' unmanned, high-Mach Quarterhorse aircraft. Northrop Grumman will supply combat-proven sensor suites, electronic warfare systems, communications, and command-and-control payloads, while Hermeus provides its high-speed airframe and proprietary Open Mission Management System core.",
+      "he": "נורת'רופ גרומן וחברת Hermeus חתמו על הסכם שיתוף פעולה אסטרטגי לפיתוח, שילוב ותחזוקת מערכות משימה מתקדמות עבור כלי הטיס האוטונומי המהיר Quarterhorse הפועל במהירויות מאך גבוהות. נורת'רופ תספק חליפות חיישנים, לוחמה אלקטרונית, קשר ושו\"ב מוכחות, בעוד Hermeus תתרום את גוף המטוס המהיר ומערכת ניהול המשימה הפתוחה שפיתחה."
+     },
+     "figs": {
+      "en": "Partners: Northrop Grumman & Hermeus (USA) · Aircraft: Quarterhorse high-Mach unmanned testbed · Architecture: Open Mission Management System (OMS/UCI and AMS-GRA compliant) · Payloads: RF sensors, electronic attack, resilient communications, C2 · Date: 2026-11-12",
+      "he": "שותפות: נורת'רופ גרומן וחברת Hermeus · פלטפורמה: כלי הטיס האוטונומי Quarterhorse במהירויות מאך גבוהות · ארכיטקטורה: מערכת ניהול משימה פתוחה (תואמת OMS/UCI) · מטע\"דים: חיישני RF, לוחמה אלקטרונית, קשר שריד ושו\"ב · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "High-speed and high-Mach flight regimes impose extreme thermal, acoustic, and aerodynamic loads that rapidly degrade conventional radar and electronic sensors. Teaming Northrop's sensor packaging with Hermeus' flight vehicle bridges the gap between raw propulsion breakthroughs and survivable, missionized military capabilities.",
+      "he": "טיסה במהירויות מאך גבוהות יוצרת עומסים תרמיים, אקוסטיים ואווירודינמיים קיצוניים הפוגעים בחיישני מכ\"ם ולוחמה אלקטרונית סטנדרטיים. השילוב בין מומחיות המארזים של נורת'רופ לבין הפלטפורמה המהירה של Hermeus מחבר בין פריצות דרך בהנעה לבין יכולות מבצעיות שרידות בפועל."
+     },
+     "israel": {
+      "en": "High-Mach autonomous platforms represent the frontier of long-range intelligence, reconnaissance, and penetration of dense A2/AD zones—capabilities central to deep-strike planning against fortified standoff adversaries.",
+      "he": "פלטפורמות אוטונומיות במהירויות מאך גבוהות מהוות את חזית הטכנולוגיה לאיסוף מודיעין וחדירת אזורי הגנה אווירית צפופים (A2/AD) — יכולות בעלות זיקה ישירה לתכנון מבצעי מול יעדים אסטרטגיים מבוצרים."
+     },
+     "note": {
+      "en": "CONFIRMED — Joint corporate press release and industry disclosures.",
+      "he": "מאומת — הודעה משותפת לעיתונות ודיווחי תעופה צבאית."
+     },
+     "s": {
+      "en": "Northrop Grumman and Hermeus partner to integrate mission systems into high-Mach Quarterhorse aircraft",
+      "he": "נורת'רופ גרומן ו-Hermeus ישלבו מערכות משימה בכלי הטיס המהיר Quarterhorse"
+     },
+     "src": [
+      {
+       "u": "https://www.prnewswire.com/news-releases/hermeus-and-northrop-grumman-team-up-to-bring-advanced-mission-systems-to-high-mach-aircraft-302937103.html",
+       "t": "Hermeus and Northrop Grumman Team Up to Bring Advanced Mission Systems to High-Mach Aircraft",
+       "outlet": "PR Newswire"
+      },
+      {
+       "u": "https://uasmagazine.com/articles/hermeus-and-northrop-grumman-announce-strategic-teaming-agreement-for-quarterhorse",
+       "t": "Hermeus and Northrop Grumman announce strategic teaming agreement for Quarterhorse",
+       "outlet": "UAS Magazine"
+      }
+     ]
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Carrier Fighter Depot Modification & Fleet Life Extension",
+     "typeHe": "שדרוג מטוסי קרב נושאי מטוסים והארכת חיי שלד",
+     "date": "2026-11-12",
+     "h": {
+      "en": "U.S. Navy NAVAIR solicits commercial turnkey depot capacity to modify up to 47 F/A-18E/F Super Hornets annually to Block III standard starting FY2029",
+      "he": "הצי האמריקאי פותח מכרז להקמת קו שיפורים מסחרי לשדרוג עד 47 מטוסי F/A-18E/F סופר הורנט בשנה לתקן בלוק 3 החל משנת 2029"
+     },
+     "what": {
+      "en": "Naval Air Systems Command (NAVAIR) has issued a commercial market solicitation to identify secondary depot maintenance and repair overhaul (MRO) facilities capable of executing Service Life Modification (SLM) on F/A-18E/F Super Hornet and EA-18G Growler aircraft. The planned line must handle up to 47 inductions per year starting in FY2029, extending airframe flight hours from 6,000 to 10,000 hours and installing the full Block III upgrade suite (advanced touchscreen cockpits, distributed targeting processors, and conformal fuel tank fittings).",
+      "he": "פיקוד מערכות האוויר של הצי האמריקאי (NAVAIR) פרסם בקשת מידע מסחרית לאיתור מתקני תחזוקה והשבחה (MRO) שיוכלו לבצע תוכניות הארכת חיים (SLM) למטוסי קרב מדגם F/A-18E/F סופר הורנט ולמטוסי לוחמה אלקטרונית EA-18G גראולר. הקו המבוקש יידרש לקלוט עד 47 מטוסים בשנה החל משנת 2029, להאריך את שעות הטיסה מ-6,000 ל-10,000 שעות ולהתקין את חליפת בלוק 3 המלאה."
+     },
+     "figs": {
+      "en": "Annual Throughput: Up to 47 aircraft per year starting FY2029 · Airframe Life Extension: Expanded from 6,000 flight hours to 10,000 flight hours · Configuration: Full Block III upgrade suite · Total Fleet: ~550 F/A-18E/F and EA-18G aircraft · Date: 2026-11-12",
+      "he": "קצב שנתי: עד 47 מטוסים בשנה החל משנת 2029 · הארכת חיי שלד: מ-6,000 ל-10,000 שעות טיסה · תצורה: חליפת שדרוג מלאה בלוק 3 · סד\"כ כולל: כ-550 מטוסי סופר הורנט וגראולר בצי · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "With Boeing slated to end new-build Super Hornet assembly in 2027 and closing its primary SLM line in St. Louis, the Navy requires commercial second-source capacity to prevent fighter shortfalls aboard carrier air wings while awaiting next-generation F/A-XX carrier fighters.",
+      "he": "עם סיום ייצור מטוסי הסופר הורנט החדשים בבואינג ב-2027 וסגירת קו השדרוג בסנט לואיס, הצי נדרש לקווי תעשייה מסחריים חלופיים כדי למנוע מחסור במטוסי קרב על נושאות המטוסים עד לכניסת מטוסי הדור הבא (F/A-XX)."
+     },
+     "israel": {
+      "en": "Demonstrates how top-tier air forces rely on deep structural life-extension and avionics overhauls (Block III) to sustain mass and bridge transition gaps between 4.5-generation legacy fleets and stealth 5th/6th-generation platforms.",
+      "he": "ממחיש את החשיבות של תוכניות הארכת חיים מבניות ושדרוגי אוויוניקה עמוקים לשמירה על סד\"כ קרבי איכותי ומסה קריטית במעבר בין מטוסי דור 4.5 למטוסי דור 5 ו-6."
+     },
+     "note": {
+      "en": "CONFIRMED — NAVAIR SAM.gov contracting notice and TWZ reporting.",
+      "he": "מאומת — הודעת התקשרות רשמית של NAVAIR ודיווח ב-The War Zone."
+     },
+     "s": {
+      "en": "U.S. Navy seeks commercial depot line to upgrade 47 F/A-18E/F Super Hornets per year to Block III",
+      "he": "הצי האמריקאי מבקש להקים קו מסחרי לשדרוג 47 מטוסי סופר הורנט בשנה לתקן בלוק 3"
+     },
+     "src": [
+      {
+       "u": "https://www.twz.com/air/new-facilities-to-pump-out-upgraded-f-a-18e-f-super-hornets-eyed-by-navy",
+       "t": "New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy",
+       "outlet": "The War Zone (TWZ)"
+      }
+     ]
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "MALE RPAS Procurement Budget Escalation",
+     "typeHe": "התייקרות תקציבית ברכש כטמ\"מ MALE אירופי",
+     "date": "2026-11-12",
+     "h": {
+      "en": "German Bundestag budget filings reveal unplanned EUR 798.9M cost increase for MALE RPAS Eurodrone procurement following Dassault exit",
+      "he": "מסמכי הבונדסטאג חושפים תוספת תקציבית בלתי מתוכננת של 798.9 מיליון אירו לרכש ה-Eurodrone בעקבות פרישת דאסו"
+     },
+     "what": {
+      "en": "Government procurement records submitted to the German Bundestag's Budget Committee on November 12, 2026, indicate that Germany's acquisition of the multinational MALE RPAS (Eurodrone) will require nearly EUR 800M in supplementary funds. The increase consists of EUR 291.3M in immediate funding for FY2027 and EUR 507.6M in expanded commitment authorizations. The cost surge is attributed to detailed design optimizations and an adjusted national cost-sharing formula necessitated by the departure of French planemaker Dassault Aviation, whose industrial packages are transitioning to German engineering conglomerate Liebherr.",
+      "he": "מסמכי רכש ממשלתיים שהוגשו לוועדת התקציב של הבונדסטאג ב-12 בנובמבר 2026 חושפים כי פרויקט ההצטיידות של גרמניה בכטמ\"מ האירופי MALE RPAS (Eurodrone) ידרוש תוספת תקציב של כמעט 800 מיליון אירו. הגידול כולל 291.3 מיליון אירו לתקציב 2027 ועוד 507.6 מיליון אירו בהתחייבויות לשנים הבאות. העלייה מוסברת באופטימיזציית תכן ובשינוי מפתח חלוקת העלויות בעקבות פרישת חברת דאסו הצרפתית, שחלקיה מועברים לקבוצת ליבהר הגרמנית."
+     },
+     "figs": {
+      "en": "Program: Eurodrone (MALE RPAS) German package · Immediate FY2027 Funding: EUR 291.3M under line 1405/55427-032 · Commitment Authorization Rise: EUR 507.6M increase to EUR 1.16B · Industrial Role: Liebherr assuming Dassault packages · Date: 2026-11-12",
+      "he": "תוכנית: Eurodrone (כטמ\"מ MALE אירופי) · תוספת ל-2027: 291.3 מיליון אירו בסעיף 1405/55427-032 · גידול בהתחייבויות עתידיות: 507.6 מיליון אירו ל-1.16 מיליארד אירו · מעבר תעשייתי: ליבהר מקבלת את חלקי דאסו · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "Multinational European defense projects remain highly vulnerable to cost escalation and political friction whenever primary tier-1 primes withdraw, forcing remaining governments to absorb redesign liabilities and redistribute industrial workshares.",
+      "he": "פרויקטי רכש אירופיים משותפים ממשיכים לסבול מעליות מחירים ומחיכוך תעשייתי בעת פרישת קבלניות ראשיות, מה שמאלץ את המדינות הנותרות לספוג פערי מימון ולהתאים מחדש את קווי הייצור."
+     },
+     "israel": {
+      "en": "Persistent delivery delays and cost increases on the Eurodrone project prolong Germany's operational reliance on Israeli Heron TP (German Heron TP) leased systems for medium-altitude long-endurance reconnaissance.",
+      "he": "התמשכות העיכובים ועליות המחירים במיזם ה-Eurodrone מאריכות בפועל את תלותה המבצעית של גרמניה בכטמ\"מי Heron TP ('גרמן הרון TP') מתוצרת התעשייה האווירית למשימות סיור ושהייה ממושכת."
+     },
+     "note": {
+      "en": "CONFIRMED — German parliamentary budget documentation reported by hartpunkt.",
+      "he": "מאומת — מסמכי ועדת התקציב של הבונדסטאג כפי שפורסמו ב-hartpunkt."
+     },
+     "s": {
+      "en": "Germany faces EUR 798.9M cost surge for Eurodrone procurement following Dassault workshare shift",
+      "he": "גרמניה נדרשת לתוספת של 798.9 מיליון אירו לרכש כטמ\"ם ה-Eurodrone לאחר עזיבת דאסו"
+     },
+     "src": [
+      {
+       "u": "https://www.hartpunkt.de/male-rpas-deutschland-muss-rund-800-millionen-euro-fuer-die-beschaffung-der-eurodrohne-nachschiessen/",
+       "t": "MALE RPAS: Deutschland muss knapp 800 Millionen Euro nachschiessen",
+       "outlet": "hartpunkt"
+      }
+     ]
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Continuous UAS Procurement Doctrine",
+     "typeHe": "דוקטרינת רכש רציף לכטמ\"מים ורחפנים מתכלים",
+     "date": "2026-11-12",
+     "h": {
+      "en": "U.S. Army Materiel Command abandons large small-UAS stockpiles in favor of continuous commercial production lines to counter rapid tactical obsolescence",
+      "he": "פיקוד החימוש של צבא ארה\"ב זונח צבירת מחסני ענק של רחפנים תוקפים לטובת רכש מסחרי רציף וקווי ייצור פעילים"
+     },
+     "what": {
+      "en": "Army Materiel Command officials confirmed a paradigm shift away from stockpiling small attack drones, transitioning instead to continuous commercial contracting to ensure frontline units receive modern software and counter-EW electronic suites every few months.",
+      "he": "בכירי פיקוד החימוש בצבא ארה\"ב הודיעו על שינוי תפיסתי ומעבר מצבירת מלאי של רחפני תקיפה קטנים לרכש מסחרי שוטף, במטרה להבטיח שהכוחות יקבלו מערכות מעודכנות טכנולוגית וחסינות ל\"א באופן רציף."
+     },
+     "figs": {
+      "en": "Procuring Branch: U.S. Army Materiel Command · Drone Category: Small unit-level strike and FPV UAS · Strategy: Continuous multi-vendor contracts over static depots · Cycle: Rolling refreshes every 6 months",
+      "he": "גוף רוכש: פיקוד החימוש של צבא ארה\"ב · קטגוריית כטמ\"מ: רחפנים תוקפים טקטיים ו-FPV · אסטרטגיה: רכש שוטף מספקים מרובים במקום צבירת מחסנים · מחזור ריענון: כל 6 חודשים"
+     },
+     "why": {
+      "en": "Drones stored in warehouses become obsolete within 6 to 12 months due to evolving electronic warfare frequencies, making 'hot' production lines far more valuable than static inventories.",
+      "he": "רחפנים המאוחסנים במחסנים הופכים לבלתי-ישימים בתוך חודשים ספורים עקב שינויים מהירים בתדרי החסימה, ולכן קווי ייצור חמים עדיפים על מלאי סטטי."
+     },
+     "israel": {
+      "en": "Directly mirrors the IDF's recent battlefield lessons requiring continuous agile procurement of tactical loitering munitions with real-time electronic counter-countermeasures.",
+      "he": "תואם ישירות את לקחי צה\"ל מהלחימה האחרונה, המחייבים רכש גמיש ורציף של חימושים משוטטים טקטיים בעלי יכולת שדרוג תוכנה מהירה."
+     },
+     "note": {
+      "en": "CONFIRMED — Statements by Army Materiel Command leadership reported by Breaking Defense.",
+      "he": "מאומת — הצהרות בכירי פיקוד החימוש כפי שדווחו ב-Breaking Defense."
+     },
+     "s": {
+      "en": "U.S. Army transitions to continuous small drone procurement instead of static stockpiling",
+      "he": "צבא ארה\"ב עובר למודל רכש רציף של רחפנים במקום צבירת מלאי מחסנים"
+     },
+     "src": [
+      {
+       "u": "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones/",
+       "t": "Instead of stockpiling small attack drones, Army looking to simply buy new ones",
+       "outlet": "Breaking Defense"
+      }
+     ]
+    },
+    {
+     "id": "B6",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Morocco",
+     "countryHe": "מרוקו",
+     "type": "Fighter Modernization & Auto-GCAS Integration",
+     "typeHe": "מודרניזציית מטוסי קרב ושילוב מערכת מניעת התרסקות",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Royal Moroccan Air Force shifts F-16 modernization priority from costly Block 52+ Viper radar retrofits to safety Auto-GCAS integration alongside new Block 72s",
+      "he": "חיל האוויר המלכותי של מרוקו מעדכן את תוכנית ה-F-16: מתמקד בהטמעת Auto-GCAS במטוסי בלוק 52+ במקום שדרוג מכ\"ם מלא, לצד קליטת בלוק 72 חדשים"
+     },
+     "what": {
+      "en": "Following the maiden flight of Morocco's first new F-16 Block 72, defense sources confirmed Rabat has recalibrated its modernization roadmap to install Auto-GCAS life-saving systems on its existing 23 F-16 Block 52+ fighters while relying on new Block 72 jets for AN/APG-83 AESA radar capabilities.",
+      "he": "בעקבות טיסת הבכורה של מטוס ה-F-16 בלוק 72 הראשון של מרוקו, מקורות ביטחוניים אישרו כי רבאט עדכנה את תוכנית ההשבחה של 23 מטוסי הבלוק 52+ הוותיקים ותתמקד בהתקנת מערכות Auto-GCAS למניעת התרסקות, תוך הישענות על מטוסי הבלוק 72 למכ\"מי AESA מתקדמים."
+     },
+     "figs": {
+      "en": "Airframe Fleet: 23 operational F-16 Block 52+ fighters · System Integration: Automatic Ground Collision Avoidance System (Auto-GCAS) · Complement: Brand new F-16 Block 72 fighters equipped with AN/APG-83 AESA",
+      "he": "סד\"כ מטוסים: 23 מטוסי קרב F-16 בלוק 52+ · שילוב מערכת: מערכת אוטומטית למניעת פגיעה בקרקע (Auto-GCAS) · השלמה: מטוסי בלוק 72 חדשים עם מכ\"מי AESA מדגם AN/APG-83"
+     },
+     "why": {
+      "en": "Optimizes Moroccan defense budget expenditures by avoiding redundant radar retrofits on older airframes while preserving pilot safety and frontline operational availability.",
+      "he": "מייעל את הוצאות תקציב הביטחון של מרוקו על ידי מניעת השבחות מכ\"ם כפולות במטוסים ותיקים, תוך שיפור בטיחות הטיסה וזמינות המטוסים."
+     },
+     "israel": {
+      "en": "Follows the inauguration of Israel's defense attaché office in Rabat, where bilateral aerospace cooperation focuses heavily on electronic warfare, tactical sensors, and maintenance support.",
+      "he": "מתרחש במקביל לחניכת משרד הנספחות הביטחונית הישראלית ברבאט, המרכז שיתופי פעולה בתחומי ל\"א, חיישנים ואחזקת כלי טיס."
+     },
+     "note": {
+      "en": "CONFIRMED — Defense industry disclosures and flight test reporting from Morocco.",
+      "he": "מאומת — פרסומי עיתונות צבאית במרוקו בעקבות טיסות הניסוי של בלוק 72."
+     },
+     "s": {
+      "en": "Morocco prioritizes Auto-GCAS integration on F-16 Block 52+ fleet alongside new Block 72 deliveries",
+      "he": "מרוקו מתמקדת בהטמעת Auto-GCAS בצי ה-F-16 בלוק 52+ לצד קליטת מטוסי בלוק 72"
+     },
+     "src": [
+      {
+       "u": "https://www.siliconvalley.ma/en/morocco-f16-block-52-upgrade/",
+       "t": "Morocco recalibrates F-16 modernization roadmap",
+       "outlet": "Silicon Valley MA"
+      }
+     ]
+    },
+    {
+     "id": "B7",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "India",
+     "countryHe": "הודו",
+     "type": "Himalayan Air Combat NOTAM Exercises",
+     "typeHe": "תרגיל לחימה אווירית אינטנסיבי בגזרת ההימלאיה",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Indian Air Force issues NOTAMs for intensive multi-type air combat exercise in Uttarakhand Himalayan sector deploying Rafale, Su-30MKI, and LCA Tejas from Nov 13-21",
+      "he": "חיל האוויר ההודי פרסם הודעות NOTAM לקראת תרגיל קרב אווירי אינטנסיבי באזור ההימלאיה באוטראקהאנד בהשתתפות מטוסי רפאל, סוחוי-30MKI וטג'אס בין 13 ל-21 בנובמבר"
+     },
+     "what": {
+      "en": "The Indian Air Force has issued formal airspace closure notices (NOTAMs) for a high-intensity combat exercise across the central Himalayan border sector from November 13 to 21, 2026, testing high-altitude electronic warfare, networked targeting, and rapid strike deployment.",
+      "he": "חיל האוויר ההודי פרסם הודעות סגירת מרחב אווירי (NOTAM) לקראת תרגיל לחימה רחב היקף בגבול הצפוני באזור ההימלאיה בין ה-13 ל-21 בנובמבר 2026, לבחינת לוחמה אלקטרונית בתנאי גובה קיצוניים ורשתות שו\"ב משולבות."
+     },
+     "figs": {
+      "en": "Exercise Window: 13–21 November 2026 · Sector: Uttarakhand Central Himalayan LAC · Aircraft Types: Dassault Rafale, Sukhoi Su-30MKI, LCA Tejas · Primary Focus: High-altitude EW and sensor fusion",
+      "he": "מועדי תרגיל: 13–21 בנובמבר 2026 · גזרה: קו השליטה בפועל (LAC) באוטראקהאנד · סוגי מטוסים: רפאל, סוחוי-30MKI, טג'אס · מיקוד מבצעי: לוחמה אלקטרונית והיתוך חיישנים בגובה רב"
+     },
+     "why": {
+      "en": "Validates frontline IAF readiness along critical Himalayan mountain passes (Mana, Niti, Lipulekh) facing heightened PLA Air Force infrastructure build-ups across Tibet.",
+      "he": "מאמת את מוכנות הטייסות הקדמיות של הודו מול מעברי הרים אסטרטגיים בהימלאיה על רקע התעצמות התשתיות של חיל האוויר הסיני בטיבט."
+     },
+     "israel": {
+      "en": "IAF Su-30MKI and Tejas fleets heavily utilize Israeli-supplied Litening targeting pods, SPICE precision glide bombs, and Derby air-to-air missiles during high-altitude exercise routines.",
+      "he": "מטוסי הקרב ההודיים מתבססים באופן נרחב על פודי סימון מדגם לייטנינג, חימושי SPICE מדויקים וטילי דרבי מתוצרת רפאל בתרגולים אלו."
+     },
+     "note": {
+      "en": "CONFIRMED — Airspace NOTAM publications verified by Indian defense press and geospatial analysts.",
+      "he": "מאומת — הודעות NOTAM מאומתות שפורסמו בידי רשויות התעופה ועיתונות הביטחון בהודו."
+     },
+     "s": {
+      "en": "Indian Air Force issues NOTAMs for high-intensity Himalayan combat exercises from Nov 13-21",
+      "he": "חיל האוויר ההודי סוגר מרחב אווירי לתרגיל קרב אינטנסיבי בהימלאיה"
+     },
+     "src": [
+      {
+       "u": "https://www.indiandefensenews.in/2026/11/iaf-to-stage-major-air-combat-exercise.html",
+       "t": "IAF to stage major air combat exercise in northern sector",
+       "outlet": "Indian Defence News"
+      }
+     ]
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Passive Staring RF Electronic Support Systems",
+     "typeHe": "מערכות בוהות פסיביות לגילוי RF ול\"א",
+     "date": "2026-11-12",
+     "h": {
+      "en": "DARPA launches 'Beamers' solicitation to develop prototype staring RF sensors using analog beamspace processing for continuous wideband electronic support",
+      "he": "סוכנות דארפ\"א מפרסמת פנייה לפרויקט 'Beamers' לפיתוח חיישני RF בוהים המעבדים אותות באנלוג לגילוי פסיבי רציף"
+     },
+     "what": {
+      "en": "DARPA's Strategic Technologies Office has released a formal program solicitation for 'Beamers' (Beamspace Analog Processing for Multifunctional Enhanced RF Systems). The initiative seeks industry proposals to develop prototype staring radio-frequency sensors capable of covering wide fields of regard across broad frequency bandwidths simultaneously, entirely eliminating the need for spatial or frequency scanning. The technology utilizes analog beamspace processing to filter and focus RF waveforms before digital conversion, dramatically slashing power consumption.",
+      "he": "משרד הטכנולוגיות האסטרטגיות של דארפ\"א (DARPA STO) פרסם פנייה להגשת הצעות לפרויקט 'Beamers'. הפרויקט מיועד לפיתוח אבות-טיפוס של חיישני RF בוהים המסוגלים לכסות גזרות רחבות וטווחי תדרים גדולים בו-זמנית ובאופן רציף, ללא צורך בסריקה מרחבית או בסריקת תדרים. המערכת מנצלת עיבוד אנלוגי מוקדם של גלי הרדיו לפני המרתם לדיגיטל, ובכך חוסכת צריכת חשמל אדירה ומאפשרת זיהוי מיידי של איומים."
+     },
+     "figs": {
+      "en": "Managing Agency: DARPA Strategic Technologies Office (STO) · Concept: Analog beamspace processing prior to ADC · Coverage: Continuous staring without phased array or mechanical scanning · Target Applications: Passive ESM, RWR, electronic attack cueing · Date: 2026-11-12",
+      "he": "גוף מנהל: דארפ\"א (משרד טכנולוגיות אסטרטגיות) · רעיון מוביל: עיבוד אותות באנלוג לפני המרה לדיגיטל · כיסוי: בהייה רציפה ללא צורך בסריקה מכנית או אלקטרונית · יישומים: אלינט/ESM, התרעת מכ\"ם והכוונת ל\"א · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "Modern agile radar and missile seekers use rapid frequency-hopping and pulse-to-pulse variation that can evade traditional scanning receivers. A continuously staring, wideband passive RF sensor guarantees instantaneous detection and geolocation of emissions without blind spots.",
+      "he": "מכ\"מים וראשי ביות מודרניים משתמשים בדילוגי תדרים מהירים ובפולסים קצרים החומקים ממקלטי סריקה מסורתיים. חיישן RF בוהה ורציף מבטיח גילוי ואיכון מידיים של שידורי אויב ללא 'שטחים מתים'."
+     },
+     "israel": {
+      "en": "Analog RF beamspace processing is highly relevant to Israel's next-generation electronic support measures (ESM) and airborne radar warning receivers (RWR) developed by Elbit and IAI Elta to counter advanced Russian- and Iranian-designed SAM systems.",
+      "he": "טכנולוגיית עיבוד אותות RF באנלוג רלוונטית ביותר למערכות המודיעין האלקטרוני (אלינט/ESM) ומקלטי התרעת המכ\"ם של אלביט ואלתא, המתמודדות עם מערכות נ\"מ מתקדמות במזרח התיכון."
+     },
+     "note": {
+      "en": "CONFIRMED — DARPA broad agency announcement and technical analysis by Aviation Week.",
+      "he": "מאומת — קול קורא רשמי של דארפ\"א וניתוח טכנולוגי ב-Aviation Week."
+     },
+     "s": {
+      "en": "DARPA solicits 'Beamers' prototype staring RF sensors for continuous passive electronic support",
+      "he": "דארפ\"א מפרסמת קול קורא לפיתוח חיישני RF בוהים לעיבוד אותות באנלוג בפרויקט Beamers"
+     },
+     "src": [
+      {
+       "u": "https://aviationweek.com/defense/sensors-electronic-warfare/darpa-plans-project-develop-staring-electronic-support-sensors",
+       "t": "DARPA Plans Project To Develop Staring Electronic Support Sensors",
+       "outlet": "Aviation Week"
+      }
+     ]
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany / Poland",
+     "countryHe": "גרמניה / פולין",
+     "type": "AI Satellite Synthetic Aperture Radar (SAR) Analytics",
+     "typeHe": "ניתוח מבוסס בינה מלאכותית של צילומי מכ\"ם לווייני (SAR)",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Polish MoD awards contract to SATIM for AI-based SAR imagery analytics under MikroSAR program, expanding German SPOCK-1 collaboration with Rheinmetall",
+      "he": "משרד ההגנה הפולני העניק חוזה לחברת SATIM לניתוח אוטומטי של צילומי מכ\"ם לווייני (SAR), המרחיב את שיתוף הפעולה עם ריינמטאל בגרמניה"
+     },
+     "what": {
+      "en": "The Polish Ministry of National Defence has awarded a contract to Krakow-based defense software firm SATIM to supply AI-driven automated analysis tools for synthetic aperture radar (SAR) satellite imagery. Handled by the 2nd Regional Logistics Base for the ARGUS Geospatial Reconnaissance Agency, the software will interpret radar feeds from Poland's ICEYE-built MikroSAR satellite constellation. Concurrently, SATIM is expanding its strategic collaboration with Germany, integrating automated object-detection algorithms into Rheinmetall's SPOCK-1 military satellite reconnaissance system.",
+      "he": "משרד ההגנה הפולני העניק חוזה לחברת התוכנה הביטחונית SATIM לספק כלי בינה מלאכותית לניתוח אוטומטי של צילומי לוויין ממכ\"ם מפתח סינתטי (SAR). התוכנה תשמש את סוכנות המודיעין הגאו-מרחבי ARGUS לפענוח צילומים מלווייני ה-MikroSAR מתוצרת ICEYE. במקביל, SATIM מרחיבה את פעילותה בגרמניה ומשלבת אלגוריתמים לזיהוי מטרות במערכת סיור הלוויינים הצבאית SPOCK-1 של ריינמטאל."
+     },
+     "figs": {
+      "en": "Contract Authorities: Polish MoD (ARGUS Agency) & Rheinmetall (Germany) · Technology: Automated AI classification on SAR radar imagery · Target Constellations: Polish MikroSAR (ICEYE) and German SPOCK-1 · Detection Classes: Over 100 military object classes (vessels, TELs, combat vehicles, aircraft) · Date: 2026-11-12",
+      "he": "רשויות מתקשרות: משרד ההגנה הפולני וריינמטאל (גרמניה) · טכנולוגיה: סיווג מטרות אוטומטי בצילומי מכ\"ם SAR · מערכי לוויינים: MikroSAR הפולני ו-SPOCK-1 הגרמני · סיווגי מטרות: מעל 100 סוגי מטרות צבאיות (ספינות, משגרי טילים, רק\"ם) · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "SAR satellites pierce cloud cover, fog, and nighttime conditions, but raw radar phase returns require specialized, time-consuming human interpretation. Automated AI classification with 90-95% accuracy enables real-time target identification across Eastern European theaters in minutes rather than hours.",
+      "he": "לווייני SAR חודרים עננות, ערפל וחושך מוחלט, אך פענוח החזרי המכ\"ם מורכב וגוזל זמן רב ממפעילים אנושיים. כלי בינה מלאכותית המזהים כלי רכב וסוללות טילים בדיוק של 90%-95% מקצרים את מעגל המודיעין לדקות בודדות."
+     },
+     "israel": {
+      "en": "Directly complements Israeli orbital SAR intelligence doctrines (Ofeq-series radar satellites), underscoring the universal transition to onboard and cloud AI classification for rapid target generation and battle damage assessment.",
+      "he": "משלים את דוקטרינת איסוף ה-SAR של ישראל (לווייני אופק מבוססי מכ\"ם), ומדגיש את המעבר הגלובלי לפענוח מבוסס AI לצורך הפקת מטרות מהירה והערכת נזקי תקיפה (BDA)."
+     },
+     "note": {
+      "en": "CONFIRMED — Official procurement award disclosures and reporting by Defense News.",
+      "he": "מאומת — הודעות רכש רשמיות ודיווח ב-Defense News."
+     },
+     "s": {
+      "en": "Poland and Germany tap SATIM AI software for automated SAR satellite target reconnaissance",
+      "he": "פולין וגרמניה משלבות תוכנת בינה מלאכותית של SATIM לפענוח צילומי לוויין ממכ\"ם SAR"
+     },
+     "src": [
+      {
+       "u": "https://www.defensenews.com/global/europe/2026/11/12/germany-poland-tap-satim-to-analyze-military-satellite-imagery/",
+       "t": "Germany, Poland tap SATIM to analyze military satellite imagery",
+       "outlet": "Defense News"
+      }
+     ]
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Defense IT & AI Intelligence Funding",
+     "typeHe": "אישור תקציבי ביטחון ל-IT ומודיעין מבוסס בינה מלאכותית",
+     "date": "2026-11-12",
+     "h": {
+      "en": "German Bundestag Budget Committee approves EUR 2.5B procurement package including EUR 1.7B HERKULES IT extension and EUR 50M for AI-driven Internet Reconnaissance",
+      "he": "ועדת התקציב של הבונדסטאג אישרה עסקאות רכש ביטחוני בסך 2.5 מיליארד אירו, בהן 1.7 מיליארד אירו להרחבת IT ו-50 מיליון אירו למודיעין מקוון מבוסס AI"
+     },
+     "what": {
+      "en": "The German Bundestag's Budget Committee approved five major procurement bills totaling EUR 2.5B, led by a EUR 1.7B contract extension for the Bundeswehr's secure IT backbone (HERKULES) and EUR 50M for an AI-powered open-source intelligence platform ('Internet Reconnaissance').",
+      "he": "ועדת התקציב של הפרלמנט הגרמני אישרה חמישה חוזי רכש ביטחוניים בסך 2.5 מיליארד אירו, כולל 1.7 מיליארד אירו להמשך פרויקט מחשוב הבונדסוור (HERKULES) ו-50 מיליון אירו למערכת מודיעין גלוי מבוססת AI."
+     },
+     "figs": {
+      "en": "Total Approved: EUR 2.5B across 5 projects · Major Items: HERKULES IT renewal (EUR 1.7B) and AI OSINT platform (EUR 50M) · Approving Body: German Bundestag Budget Committee",
+      "he": "סך שאושר: 2.5 מיליארד אירו ב-5 פרויקטים · סעיפים עיקריים: הארכת רשת HERKULES ב-1.7 מיליארד אירו ופלטפורמת אוסינט AI ב-50 מיליון אירו · גוף מאשר: ועדת התקציב בבונדסטאג"
+     },
+     "why": {
+      "en": "Strengthens German military command-and-control infrastructure and automated threat sensing ahead of anticipated Russian cyber and hybrid espionage campaigns.",
+      "he": "מחזק את תשתית התקשורת והשו\"ב של צבא גרמניה ומספק יכולות ניטור פסיביות מול מבצעי ריגול וסייבר היברידיים."
+     },
+     "israel": {
+      "en": "Demonstrates sustained European capital commitment toward cyber, automated OSINT, and sovereign secure enterprise clouds.",
+      "he": "מעיד על היקפי ההשקעה האירופיים בתשתיות ענן מאובטחות ובכלי מודיעין מבוססי AI, תחומים בהם לחברות ישראליות יתרון אינטגרטיבי."
+     },
+     "note": {
+      "en": "CONFIRMED — Official parliamentary budget resolution reported by hartpunkt.",
+      "he": "מאומת — החלטת ועדת התקציב בבונדסטאג כפי שדווחה ב-hartpunkt."
+     },
+     "s": {
+      "en": "German Bundestag greenlights EUR 2.5B military procurement package for IT network and AI OSINT",
+      "he": "הבונדסטאג מאשר חבילת רכש ביטחונית של 2.5 מיליארד אירו לתשתיות IT ומודיעין AI"
+     },
+     "src": [
+      {
+       "u": "https://www.hartpunkt.de/haushaltsausschuss-billigt-fuenf-ruestungsvorhaben-im-wert-von-25-milliarden-euro/",
+       "t": "Haushaltsausschuss billigt fünf Rüstungsvorhaben im Wert von 2,5 Milliarden Euro",
+       "outlet": "hartpunkt"
+      }
+     ]
+    },
+    {
+     "id": "C4",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Azerbaijan / Türkiye",
+     "countryHe": "אזרבייג'ן / טורקיה",
+     "type": "Bilateral Military Dialogue & EW Integration Protocol",
+     "typeHe": "פרוטוקול שיתוף פעולה צבאי ול\"א בילטרלי",
+     "date": "2026-11-12",
+     "h": {
+      "en": "Azerbaijan and Türkiye sign final military protocol in Baku covering command-and-control, electronic warfare, and joint military education under 17th High-Level Dialogue",
+      "he": "אזרבייג'ן וטורקיה חתמו בבאקו על פרוטוקול צבאי מסכם בתחומי השו\"ב, הלוחמה האלקטרונית והאימונים המשותפים במסגרת הדיאלוג הצבאי ה-17"
+     },
+     "what": {
+      "en": "Military leadership delegations from Azerbaijan and Turkey concluded the 17th High-Level Military Dialogue Meeting in Baku, signing a comprehensive protocol to deepen joint electronic warfare tactics, integrated command network interoperability, and professional military training.",
+      "he": "משלחות צבאיות בכירות מאזרבייג'ן ומטורקיה סיימו את מפגש הדיאלוג הצבאי ה-17 בבאקו וחתמו על פרוטוקול להעמקת שיתוף הפעולה בלוחמה אלקטרונית, שו\"ב משולב והכשרות צבאיות מתקדמות."
+     },
+     "figs": {
+      "en": "Forum: 17th Azerbaijan-Türkiye High-Level Military Dialogue · Location: Baku, Azerbaijan · Key Focus Areas: Electronic warfare, networked C2, joint cyber defense, military education",
+      "he": "פורום: הדיאלוג הצבאי הבכיר ה-17 בין אזרבייג'ן לטורקיה · מיקום: באקו · תחומי מיקוד: ל\"א, שו\"ב מרושת, הגנת סייבר והכשרות צבאיות"
+     },
+     "why": {
+      "en": "Advances the structural integration of the Azerbaijani Armed Forces into Turkish/NATO doctrinal and electronic interoperability standards across the South Caucasus.",
+      "he": "ממשיך את תהליך ההתאמה הדוקטרינרית והטכנולוגית של צבא אזרבייג'ן לתקני נאט\"ו ולתורת הלחימה הטורקית בדרום הקווקז."
+     },
+     "israel": {
+      "en": "Baku maintains balanced defense-industrial partnerships between Turkish platforms (Bayraktar, EW) and Israeli strategic capabilities (Barak MX, Harop, precision loitering systems).",
+      "he": "באקו ממשיכה לנהל שותפות ביטחונית מאוזנת המשלבת מערכות טורקיות עם פלטפורמות אסטרטגיות ישראליות (ברק MX, הארופ וחימושים משוטטים)."
+     },
+     "note": {
+      "en": "CONFIRMED — Official Azerbaijani Ministry of Defense release via AZERTAC.",
+      "he": "מאומת — הודעה רשמית של משרד ההגנה של אזרבייג'ן דרך סוכנות הידיעות AZERTAC."
+     },
+     "s": {
+      "en": "Azerbaijan and Türkiye sign protocol in Baku to expand electronic warfare and command interoperability",
+      "he": "אזרבייג'ן וטורקיה חותמות על פרוטוקול להעמקת השילוביות בלוחמה אלקטרונית ובשו\"ב"
+     },
+     "src": [
+      {
+       "u": "https://azertag.az/en/xeber/baku_hosts_17th_azerbaijan_turkiye_high_level_military_dialogue_meeting-4507209",
+       "t": "Baku hosts 17th Azerbaijan-Türkiye High-Level Military Dialogue Meeting",
+       "outlet": "AZERTAC"
+      }
+     ]
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Submarine Fleet Mishap Oversight & Command Relief",
+     "typeHe": "תקרית צוללת גרעינית, הדחת פיקוד וביקורת קונגרס",
+     "date": "2026-11-12",
+     "h": {
+      "en": "U.S. Navy relieves command triad of fast-attack submarine USS South Dakota (SSN 790) following October grounding, sparking Congressional oversight probe",
+      "he": "הצי האמריקאי הדיח את שורת הפיקוד בצוללת הגרעינית USS South Dakota עקב תקרית עגינה/התרסקות קרקעית, מה שעורר ביקורת בקונגרס"
+     },
+     "what": {
+      "en": "Senior members of the U.S. House Armed Services Committee revealed on November 12, 2026, that the U.S. Navy quietly relieved the command triad of the Virginia-class nuclear attack submarine USS South Dakota (SSN 790)—including the Commanding Officer, Executive Officer, and Chief of the Boat—on October 14 following an undisclosed at-sea grounding incident. Lawmakers expressed deep frustration over the Department of the Navy's failure to provide mandatory timely notification to Congress, initiating formal inquiries into submarine navigation procedures and reporting transparency.",
+      "he": "חברים בכירים בוועדת השירותים המזוינים של בית הנבחרים האמריקאי חשפו ב-12 בנובמבר 2026 כי הצי האמריקאי הדיח בחשאי את כל שורת הפיקוד (מפקד, סגן מפקד ונגד היחידה) של הצוללת הגרעינית USS South Dakota (מדגם וירג'יניה) ב-14 באוקטובר בעקבות תקרית פגיעה בקרקעית הים. המחוקקים הביעו זעם על אי-דיווח בזמן לקונגרס ופתחו בבדיקה רשמית בנוגע לנהלי הניווט התת-מימי וחובת השקיפות של הצי."
+     },
+     "figs": {
+      "en": "Vessel: USS South Dakota (SSN 790), Virginia-class Block III fast-attack submarine · Relieved Personnel: Commanding Officer, Executive Officer, Chief of the Boat (Command Triad) · Mishap: Undisclosed at-sea submarine grounding incident · Congressional Oversight: Formal inquiry by House Armed Services Committee leadership · Date: 2026-11-12",
+      "he": "צוללת: USS South Dakota (SSN 790) מדגם וירג'יניה בלוק 3 · קצינים מודחים: מפקד, סגן מפקד ונגד היחידה (טריאדת הפיקוד) · נסיבות: פגיעה תת-ימית בקרקעית הים · ביקורת: פנייה רשמית מוועדת השירותים המזוינים של בית הנבחרים · תאריך: 2026-11-12"
+     },
+     "why": {
+      "en": "Fast-attack submarine availability is already severely constrained by shipyard maintenance backlogs across the U.S. submarine industrial base. Any hull grounding that requires drydock inspection or acoustic coating repairs removes a critical undersea asset from Indo-Pacific or Atlantic deterrent rotations.",
+      "he": "זמינות צי הצוללות של הצי האמריקאי מוגבלת ממילא בשל עומסים כבדים במספנות התיקונים. כל תקרית קרקעית הדורשת כניסה למבדוק יבש ובדיקות אקוסטיות גורעת צוללת תקיפה חיונית ממשימות הרתעה באוקיינוס השקט והאטלנטי."
+     },
+     "israel": {
+      "en": "Underscores the unforgiving operational risks and navigational rigors of complex littoral and deep-water submarine patrols, providing institutional case-study insights for the Israeli Navy's Dolphin-class and future Drakon submarine operations.",
+      "he": "ממחיש את הסיכונים המבצעיים החמורים ואת האתגרים בניווט תת-מימי חשאי, ומספק תובנות מקצועיות להפעלת שייטת הצוללות (מדגם דולפין ודראקון) של זרוע הים."
+     },
+     "note": {
+      "en": "CONFIRMED — Official congressional letters released by House Armed Services Committee members.",
+      "he": "מאומת — מכתב רשמי של הנהגת ועדת השירותים המזוינים בבית הנבחרים של ארה\"ב."
+     },
+     "s": {
+      "en": "U.S. Navy relieves command triad of USS South Dakota following submarine grounding mishap",
+      "he": "הצי האמריקאי מדיח את פיקוד הצוללת USS South Dakota לאחר פגיעה בקרקעית הים"
+     },
+     "src": [
+      {
+       "u": "https://courtney.house.gov/media-center/press-releases/letter-navy-courtney-smith-express-deep-frustration-over-failure-notify",
+       "t": "Courtney, Smith Express Deep Frustration Over Failure to Notify Committee on Submarine Incident",
+       "outlet": "U.S. House of Representatives"
+      }
+     ]
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Australia / UK",
+     "countryHe": "ארה\"ב / אוסטרליה / בריטניה",
+     "type": "AUKUS Submarine Infrastructure Progress",
+     "typeHe": "התקדמות תשתיות בצוללות AUKUS",
+     "date": "2026-11-12",
+     "h": {
+      "en": "U.S. Navy Rear Adm. Chris Cavanaugh confirms AUKUS submarine rotational deployment infrastructure in Western Australia is running ahead of schedule",
+      "he": "אדמירל בצי ארה\"ב מאשר: הקמת תשתיות פריסת הצוללות של AUKUS במערב אוסטרליה מתקדמת לפני לוחות הזמנים המקוריים"
+     },
+     "what": {
+      "en": "Rear Adm. Chris Cavanaugh announced at the Naval Submarine League Symposium that infrastructure for Submarine Rotational Force-West at HMAS Stirling in Western Australia is tracking ahead of schedule to host rotational U.S. and UK nuclear submarines by 2027.",
+      "he": "אדמירל כריס קוואנו הודיע בכנס הצוללות האמריקאי כי פיתוח התשתיות בבסיס HMAS Stirling במערב אוסטרליה לקליטת סבבי צוללות גרעיניות אמריקאיות ובריטיות מתקדם לפני לוח הזמנים."
+     },
+     "figs": {
+      "en": "Initiative: AUKUS Pillar 1 Submarine Rotational Force-West (SRF-West) · Facility: HMAS Stirling, Western Australia · Target Timeline: Operational rotational basing ahead of 2027 schedule",
+      "he": "יוזמה: עמוד התווך הראשון של AUKUS לפריסת צוללות · בסיס: HMAS Stirling, מערב אוסטרליה · לוח זמנים: הקדמת המוכנות המבצעית לקראת 2027"
+     },
+     "why": {
+      "en": "Accelerated infrastructure completion secures forward Indo-Pacific submarine staging ahead of planned Australian acquisition of Virginia-class submarines in the early 2030s.",
+      "he": "השלמה מוקדמת של התשתיות מבטיחה בסיס קדמי איתן לצוללות במרחב האינדו-פסיפיק לקראת מכירת צוללות וירג'יניה לאוסטרליה."
+     },
+     "israel": {
+      "en": "Highlights trilateral allied industrial execution and deep infrastructure forward-basing to maintain long-range undersea deterrence.",
+      "he": "ממחיש את האפקטיביות של שיתופי פעולה ביטחוניים רב-לאומיים בבניית תשתיות קדמיות לתמיכה בהרתעה אסטרטגית."
+     },
+     "note": {
+      "en": "CONFIRMED — Statements by U.S. Navy Program Executive Officer Submarines at Naval Submarine League Symposium.",
+      "he": "מאומת — הצהרות קצין התוכנית הראשי של הצי בכנס הצוללות השנתי."
+     },
+     "s": {
+      "en": "AUKUS submarine base infrastructure in Western Australia tracking ahead of schedule for 2027 operations",
+      "he": "הקמת תשתיות צוללות AUKUS במערב אוסטרליה מקדימה את לוחות הזמנים"
+     },
+     "src": [
+      {
+       "u": "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says/",
+       "t": "AUKUS on track, even 'ahead of schedule' for some parts, admiral says",
+       "outlet": "Breaking Defense"
+      }
+     ]
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "Ukrainian defense tech scale-up UFORCE raised a landmark USD 700M Series A round at a USD 6B valuation co-led by the UK National Wealth Fund and Valor Equity to establish distributed Western manufacturing hubs for combat-proven MAGURA naval USVs, NEMESIS heavy strike UAVs, and PREDATOR counter-drone turrets.",
+      "Northrop Grumman and high-speed autonomy developer Hermeus signed a strategic teaming agreement to integrate Northrop's sensor, electronic warfare, and C2 mission systems into the high-Mach Quarterhorse aircraft, accelerating fielding timelines for autonomous survivable flight.",
+      "Germany's procurement of the Eurodrone (MALE RPAS) faces an unplanned EUR 798.9M cost surge according to parliamentary budget filings, driven by system design optimizations and industrial cost-share reallocation following Dassault Aviation's exit and Liebherr's workload assumption.",
+      "NATO officially launched its 'Drone Edge' Counter-Drone Marketplace offering 16 vetted static, transportable, and on-the-move C-UAS systems from 5 suppliers with EUR 3.1M in trial funding to bypass lengthy national procurement bureaucracies.",
+      "The U.S. Navy NAVAIR command solicited commercial second-source turnkey depot lines capable of modifying up to 47 F/A-18E/F Super Hornets per year to the Block III standard starting in FY2029 as Boeing prepares to wind down assembly operations in St. Louis."
+     ],
+     "he": [
+      "חברת הדיפנס-טק האוקראינית UFORCE גייסה 700 מיליון דולר בסבב A לפי שווי של 6 מיליארד דולר, בהובלת קרן העושר הלאומית של בריטניה ו-Valor Equity, להקמת מתקני ייצור מערביים מבוזרים עבור כלי שיט בלתי מאוישים מדגם MAGURA, רחפני תקיפה כבדים מדגם NEMESIS ומערכות יירוט PREDATOR.",
+      "נורת'רופ גרומן וחברת Hermeus חתמו על הסכם שיתוף פעולה אסטרטגי לשילוב מערכות משימה, לוחמה אלקטרונית, חיישנים ושו\"ב מתוצרת נורת'רופ בכלי הטיס האוטונומי המהיר Quarterhorse (במהירויות מאך גבוהות), לקיצור זמני ההצטיידות במערכות שרידות.",
+      "תוכנית ה-Eurodrone (כטמ\"מ MALE) של גרמניה מתמודדת עם זינוק תקציבי בלתי מתוכנן של 798.9 מיליון אירו לפי מסמכי הבונדסטאג, בעקבות אופטימיזציית תכן וחלוקת עבודה תעשייתית חדשה לאחר פרישת דאסו והעברת האחריות לקבוצת ליבהר.",
+      "נאט\"ו השיקה רשמית מרקטפלייס ייעודי ליירוט כטמ\"מים תחת יוזמת 'Drone Edge', הכולל 16 מערכות מבצעיות מחמישה ספקים עם תקציב ניסויים של 3.1 מיליון אירו, במטרה לעקוף בירוקרטיות רכש לאומיות איטיות.",
+      "פיקוד מערכות האוויר של הצי האמריקאי (NAVAIR) פרסם פנייה להקמת קו שיפורים מסחרי מקביל המסוגל לשדרג עד 47 מטוסי קרב מדגם F/A-18E/F סופר הורנט בשנה לתקן בלוק 3 החל משנת 2029, לקראת סגירת קו הייצור של בואינג בסנט לואיס."
+     ]
+    }
+   },
+   "notes": {
+    "en": "This evening digest covers open-source defense disclosures between 15:01Z and 18:55Z on 12 November 2026. Every item and URL has been independently verified via live HTTP GET checks. Sourcing is strictly unclassified open-source reporting across prime contractor releases, defense trade press, parliamentary budget records, and authenticated OSINT channels. All foreign currency figures are reported in standard ISO codes.",
+    "he": "מהדורת הערב מכסה דיווחי ביטחון וטכנולוגיה ממקורות גלויים בין השעות 15:01Z ל-18:55Z ב-12 בנובמבר 2026. כל פריט וכתובת מקור אומתו עצמאית בבדיקות HTTP GET חיות. המקורות נשענים על פרסומי יצרניות ביטחוניות, עיתונות מקצועית, רשומות פרלמנטריות וערוצי מודיעין גלוי מאומתים."
+   },
+   "runnotes": {
+    "en": "Defense Digest [AGY] Evening Run. Window covered: 2026-11-12T15:01:00Z – 2026-11-12T18:55:00Z. Reader profile applied: 9 full items, 8 briefly noted. Country focus: Germany 3, UAE 1, Azerbaijan 1, Singapore 0, India 1, Morocco 1. All live URLs verified; 7 authentic source photos embedded. Delivered to local archive, Google Drive, and App feed.",
+    "he": "מהדורת ערב [AGY]. חלון זמן מכוסה: 2026-11-12T15:01:00Z עד 2026-11-12T18:55:00Z. פרופיל קורא יושם: 9 פריטים מלאים, 8 בקצרה. מיקוד מדינות: גרמניה 3, איחוד האמירויות 1, אזרבייג'ן 1, סינגפור 0, הודו 1, מרוקו 1. כל הקישורים אומתו חיים; 7 תצלומי מקור אותנטיים הוטמעו."
+   },
+   "watch": {
+    "en": "Monitor Congressional hearings regarding the USS South Dakota command triad relief; track initial hardware integration benchmarks under the Northrop Grumman-Hermeus Quarterhorse agreement; oversee German Bundestag final budget voting on the EUR 798.9M Eurodrone cost allocation.",
+    "he": "מעקב אחר הדיונים בבית הנבחרים בעקבות הדחת הפיקוד בצוללת USS South Dakota; מעקב אחר שלבי האינטגרציה הראשונים בהסכם נורת'רופ-הרמאוס עבור ה-Quarterhorse; מעקב אחר אישור התקציב הסופי בבונדסטאג לתוספת 798.9 מיליון אירו עבור פרויקט ה-Eurodrone."
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1ykj7YeyDuf6dKQKtryP-JdGf_FtR0savL7DO8vAN9hw/edit",
+    "he": "https://docs.google.com/document/d/1Y5KPgOfczG_xxvhZ-qm12IEO16P0MBEyk_dYkKhx1Dg/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-12_evening_EN.pdf": "19E_th0KuBqOety2WeYSOf1L8ur9t4Bvz",
+    "Defense_Tech_Digest_2026-11-12_evening_HE.pdf": "1K81m9ergf_GwiwCrWbgo883irmwv98Ok",
+    "Defense_Team_Brief_2026-11-12_evening_EN.pdf": "15mTU-rULfYLYpNz9AnHriueMiUikh_lB",
+    "Defense_Team_Brief_2026-11-12_evening_HE.pdf": "1Xj4kbT9mbOxgi7TvKdh90shesG8pEJ10"
+   },
+   "photos": {
+    "A1": {
+     "url": "https://defence-industry.eu/wp-content/uploads/2026/11/NATO-moves-to-strengthen-air-and-missile-defence-with-faster-counter-drone-procurement.jpeg",
+     "outlet": "Defence Industry Europe",
+     "caption_en": "NATO anti-drone systems deployed for testing under the Drone Edge initiative",
+     "caption_he": "מערכות נגד רחפנים של נאט\"ו שנפרסו לבדיקות במסגרת יוזמת Drone Edge",
+     "credit_en": "NATO ACT, via Defence Industry Europe",
+     "credit_he": "נאט\"ו ACT, דרך Defence Industry Europe",
+     "local_src": "../digest/2026-11-12-evening/img/j/A1.jpg"
+    },
+    "B1": {
+     "url": "https://mmx.prnewswire.com/media/MS2033285/UFORCE-MAGURA-MV7-3-NEMESIS-SEASTRIKE-Aerial.jpg",
+     "outlet": "PR Newswire",
+     "caption_en": "UFORCE autonomous fleet: MAGURA naval USVs and NEMESIS heavy strike UAVs",
+     "caption_he": "צי המערכות האוטונומיות של UFORCE: כשב\"מים מדגם MAGURA ורחפני תקיפה כבדים מדגם NEMESIS",
+     "credit_en": "UFORCE via PR Newswire",
+     "credit_he": "UFORCE דרך PR Newswire",
+     "local_src": "../digest/2026-11-12-evening/img/j/B1.jpg"
+    },
+    "B2": {
+     "url": "https://mmx.prnewswire.com/media/MS2032495/Hermeus-Image.jpg",
+     "outlet": "PR Newswire",
+     "caption_en": "Hermeus Quarterhorse high-Mach unmanned testbed slated for Northrop Grumman mission systems integration",
+     "caption_he": "כלי הטיס האוטונומי המהיר Quarterhorse של Hermeus שישולבו בו מערכות משימה של נורת'רופ גרומן",
+     "credit_en": "Hermeus / Northrop Grumman via PR Newswire",
+     "credit_he": "Hermeus / נורת'רופ גרומן דרך PR Newswire",
+     "local_src": "../digest/2026-11-12-evening/img/j/B2.jpg"
+    },
+    "B3": {
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/super-hornet-growler-upgrade-capacity-plans-us-navy.jpg?w=1200",
+     "outlet": "The War Zone",
+     "caption_en": "U.S. Navy F/A-18E Super Hornet undergoing Service Life Modification to Block III configuration",
+     "caption_he": "מטוס F/A-18E סופר הורנט של הצי האמריקאי בתהליך הארכת חיים ושדרוג לתקן בלוק 3",
+     "credit_en": "U.S. Navy via The War Zone",
+     "credit_he": "הצי האמריקאי דרך The War Zone",
+     "local_src": "../digest/2026-11-12-evening/img/j/B3.jpg"
+    },
+    "B4": {
+     "url": "https://www.hartpunkt.de/wp-content/uploads/2026/06/EuroMALE_Bild_hartpunkt_Lars-Hoffmann.jpeg",
+     "outlet": "hartpunkt",
+     "caption_en": "Eurodrone MALE RPAS scale model displayed by prime contractors",
+     "caption_he": "דגם כטמ\"מ ה-Eurodrone שהוצג בידי הקבלניות הראשיות",
+     "credit_en": "Lars Hoffmann / hartpunkt",
+     "credit_he": "לארס הופמן / hartpunkt",
+     "local_src": "../digest/2026-11-12-evening/img/j/B4.jpg"
+    },
+    "C2": {
+     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2236464966.jpg?w=1024",
+     "outlet": "Defense News",
+     "caption_en": "Synthetic aperture radar satellite visualization demonstrating AI target tracking capabilities",
+     "caption_he": "הדמיית לוויין מכ\"ם SAR הממחישה זיהוי מטרות צבאיות באמצעות בינה מלאכותית",
+     "credit_en": "Getty Images via Defense News",
+     "credit_he": "Getty Images דרך Defense News",
+     "local_src": "../digest/2026-11-12-evening/img/j/C2.jpg"
+    },
+    "D1": {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/USS_South_Dakota_%28SSN-790%29_underway_off_Groton%2C_Connecticut_%28USA%29%2C_on_9_January_2019_%28190109-N-LW591-045%29.JPG",
+     "outlet": "U.S. Navy / Wikimedia Commons",
+     "caption_en": "Virginia-class fast-attack submarine USS South Dakota (SSN 790) underway during sea trials",
+     "caption_he": "הצוללת הגרעינית USS South Dakota מדגם וירג'יניה במהלך הפלגה",
+     "credit_en": "U.S. Navy via Wikimedia Commons",
+     "credit_he": "הצי האמריקאי דרך ויקימדיה קומונס",
+     "local_src": "../digest/2026-11-12-evening/img/j/D1.jpg"
     }
    }
   },
@@ -29864,8 +30817,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/hypersonic-interceptor-patriot-usa-660-million-pac-3-edge/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A2.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "A3": {
      "url": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html",
@@ -29878,7 +30830,8 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.arabnews.pk/pakistan/coalition-intercepts-houthi-drones-over-riyadh-and-madinah-missile-in-south-3005729",
      "outlet": "Arab News",
      "credit_en": "Image: lead image of the Arab News article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A4.jpg"
     },
     "A6": {
      "url": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
@@ -29904,7 +30857,8 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/rafale-m-landing-indian-carrier-ins-vikrant/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Indian Navy Press Office, via Militarnyi",
-     "credit_he": "תמונה: לשכת העיתונות של הצי ההודי, באמצעות Militarnyi"
+     "credit_he": "תמונה: לשכת העיתונות של הצי ההודי, באמצעות Militarnyi",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B4.jpg"
     },
     "B5": {
      "url": "https://militarnyi.com/en/news/ukrspecsystems-lower-cost-ram-2x-black-betty-prytula-foundation-45/",
@@ -29943,41 +30897,39 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/satellite-confirm-destruction-2-su-34s-neptune-missiles/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/C3.jpg"
     },
     "D1": {
      "url": "https://www.thejc.com/news/world/france-euronaval-arms-show-restricts-israeli-companies-gnmts2nm",
      "outlet": "The Jewish Chronicle",
      "credit_en": "Image: Getty, via The Jewish Chronicle",
-     "credit_he": "תמונה: ‏Getty, באמצעות The Jewish Chronicle"
+     "credit_he": "תמונה: ‏Getty, באמצעות The Jewish Chronicle",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D1.jpg"
     },
     "D2": {
      "url": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/",
      "outlet": "gCaptain",
      "credit_en": "Image: U.S. Navy, via gCaptain",
-     "credit_he": "תמונה: ‏U.S. Navy, באמצעות gCaptain",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D2.jpg"
+     "credit_he": "תמונה: ‏U.S. Navy, באמצעות gCaptain"
     },
     "D3": {
      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
      "outlet": "Naval News",
      "credit_en": "Image: Screenshot from a Naval Group video, via Naval News",
-     "credit_he": "תמונה: צילום מסך מסרטון של Naval Group, באמצעות Naval News",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D3.jpg"
+     "credit_he": "תמונה: צילום מסך מסרטון של Naval Group, באמצעות Naval News"
     },
     "D4": {
      "url": "https://www.navalnews.com/naval-news/2026/10/belgium-transfers-first-tripartite-minehunter-bns-bellis-to-bulgarian-navy/",
      "outlet": "Naval News",
      "credit_en": "Image: Belgian Navy, via Naval News",
-     "credit_he": "תמונה: הצי הבלגי, באמצעות Naval News",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D4.jpg"
+     "credit_he": "תמונה: הצי הבלגי, באמצעות Naval News"
     },
     "D5": {
      "url": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D5.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "D6": {
      "url": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
