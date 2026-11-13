@@ -2487,8 +2487,14 @@ window.DEFENSE_BRIEF_FEED = {
     "he": "מעקב אחר הרחבת מעטפת ניסויי הטלת החימוש ממפציץ ה-B-21 בבסיס אדוארדס; מעקב אחר חוזי משרד ההגנה הבריטי לשילוב ה-Talon Blue על נושאת המטוסים HMS Prince of Wales; מעקב אחר אישורי תקציב בבונדסטאג לעסקאות רכש מול WB Germany; מעקב אחר נתוני ניסויי הטיסה של טיל השיוט Wolfshark של קבוצת EDGE."
    },
    "docs": {
-    "en": "https://docs.google.com/document/d/placeholder/edit",
-    "he": "https://docs.google.com/document/d/placeholder/edit"
+    "en": "https://docs.google.com/document/d/1u0BWPjNzLLeWEVGapv67ihPmtRDvUhSkcDLZBtcZZ5U/edit",
+    "he": "https://docs.google.com/document/d/1jWEWJNqHMUEXMxS-FmBUoV7nFulwVuExABS8eIGHUN0/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-13_evening_EN.pdf": "1CuDj0Hm0AHfgD8hSXv9STfM2eTJqa8-u",
+    "Defense_Tech_Digest_2026-11-13_evening_HE.pdf": "115bInaz_myL3eANEsFh0YTwFIJjGj69D",
+    "Defense_Team_Brief_2026-11-13_evening_EN.pdf": "1rE4lAUO6mSMTcVYmDIhrrYr09v4lVGdb",
+    "Defense_Team_Brief_2026-11-13_evening_HE.pdf": "103n6_nr1mcIqWDeAtl6OU2BAon5oKPn1"
    },
    "photos": {
     "A1": {
