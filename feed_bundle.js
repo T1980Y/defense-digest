@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-14",
+ "updated_at": "2026-11-14-evening",
  "dates": [
   "2026-11-14",
+  "2026-11-14-evening",
   "2026-11-13",
   "2026-11-13-evening",
   "2026-11-12",
@@ -1234,6 +1235,598 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo: Xavier Vavasseur / Naval News",
      "credit_he": "צילום: קסבייה ווסור / Naval News",
      "local_src": "../digest/2026-11-14/img/j/D1.jpg"
+    }
+   }
+  },
+  "2026-11-14-evening": {
+   "date": "2026-11-14_evening",
+   "doc_id": "2026-11-14-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-14T15:01:00Z",
+   "wend": "2026-11-14T18:42:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Italy",
+     "countryHe": "איטליה",
+     "type": "Counter-Drone Weapon Systems / Kinetic Hard-Kill Remote Weapon Station",
+     "typeHe": "מערכות יירוט רחפנים / עמדת נשק קינטית נשלטת מרחוק",
+     "date": "2026-11-14",
+     "h": {
+      "en": "Beretta Defense Technologies and Dualee unveil LIVET automated C-UAS turret mounting eight Benelli M4 shotguns with AI tracking",
+      "he": "ברטה דיפנס טכנולוגיס ו-Dualee חושפות את עמדת ה-LIVET האוטונומית ליירוט רחפנים המשלבת שמונה רובי שוטגאן בנלי M4 ומעקב מבוסס בינה מלאכותית"
+     },
+     "what": {
+      "en": "Beretta Defense Technologies (BDT) partnered with Italian developer Dualee to unveil the LIVET (Light Vehicular Turret M4 A.I. Drone Guardian), an automated, remote-controlled counter-UAS weapon station. The turret is armed with eight semi-automatic Benelli M4 12-gauge shotguns featuring specialized choke geometry optimized for anti-drone duty. Powered by real-time computer vision and machine-learning target tracking algorithms, the turret autonomously slews and aims at low-flying micro and mini FPV drones, unleashing dense salvos of tungsten pellets or programmable airburst rounds to eliminate maneuvering threats at close range while preserving human-in-the-loop fire control.",
+      "he": "חברת ברטה דיפנס טכנולוגיס (BDT) בשיתוף חברת Dualee האיטלקית חשפו את עמדת ה-LIVET (עמדת נשק קלה לרכב מבוססת בינה מלאכותית), מערכת אוטונומית נשלטת מרחוק להגנה מפני כטב\"מים ורחפנים. העמדה מצוידת בשמונה רובי שוטגאן חצי-אוטומטיים מדגם Benelli M4 בקליבר 12, בעלי קנה מותאם לפיזור קטלני בטווחים קצרים. המערכת מופעלת על ידי אלגוריתמי ראייה ממוחשבת מבוססי AI המזהים ועוקבים אוטונומית אחר רחפני FPV מהירים, ומשגרת מטחי כדוריות טונגסטן או תחמושת רסס מתוכנתת, תוך שמירה על אישור ירי ידני של מפעיל."
+     },
+     "figs": {
+      "en": "Armament: 8x semi-automatic Benelli M4 Drone Guardian 12-gauge shotguns • Target Tracking: AI computer-vision electro-optical/IR suite with automatic slew-to-cue • Target Class: NATO Class I micro/mini UAS and high-speed commercial FPV attack drones • Munition Types: High-velocity tungsten buckshot and specialized airburst cartridges • Operation: Autonomous target acquisition and tracking with human-in-the-loop engagement • Mount: Light tactical vehicle roof mount or fixed facility pedestal • Developers: Beretta Defense Technologies (BDT) & Dualee • Source Date: 2026-11-14",
+      "he": "חימוש: 8 רובי שוטגאן חצי-אוטומטיים מדגם Benelli M4 Drone Guardian קליבר 12 • רכישת מטרות: חליפת אלקטרו-אופטיקה/תרמי מונעת בינה מלאכותית עם כיוון אוטונומי • ייעוד: רחפני מיקרו/מיני ורחפני FPV טקטיים מתאבדים • סוגי תחמושת: כדוריות טונגסטן מהירות ותחמושת רסס מתוכנתת • מוד הפעלה: זיהוי ומעקב אוטונומי עם אישור ירי אנושי • התקנה: רכבי שטח קלים או עמדות נייחות • מפתחות: ברטה ו-Dualee • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "The ubiquitous proliferation of cheap, highly agile FPV kamikaze drones on modern battlefields has exposed severe vulnerabilities in traditional remote weapon stations using single machine guns or expensive guided missiles. Shotguns firing dense pellets create an expansive interception cone, drastically increasing probability of kill against fast-evading targets at sub-100 meter engagement distances at negligible cost per engagement.",
+      "he": "התפשטות רחפני ה-FPV המתאבדים המוזלים חשפה פגיעות חמורה בעמדות נשק מסורתיות הנשענות על מקלעים בודדים או טילי יירוט יקרים. שימוש במטח משולב של 8 רובי שוטגאן יוצר 'חרוט רסס' צפוף המעלה דרמטית את סיכויי הפגיעה מול רחפנים מתמרנים בטווחים של עד 100 מטר, בעלות זניחה לכל יירוט."
+     },
+     "israel": {
+      "en": "Highly relevant for IDF border outpost defense, armored combat vehicle roof protection, and critical infrastructure installations. Israeli ground forces facing multi-axis commercial drone and loitering munition threats require dense kinetic point-defense solutions to complement electronic warfare and laser systems like Iron Beam.",
+      "he": "רלוונטיות גבוהה להגנת מוצבים, הגנת גגות לרק\"ם (טנקים ונגמ\"שים) ומתקנים רגישים בצה\"ל. מול איומי רחפני FPV מתמרנים, קיים צורך דחוף במערכות 'הגנה אחרונה' קינטיות צפופות וזולות לצד מערכות ל\"א ולייזר (כדוגמת מגן אור)."
+     },
+     "src": [
+      {
+       "t": "The War Zone",
+       "u": "https://www.twz.com/air/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Technical demonstration filings and industry unveilings by Beretta Defense Technologies and Dualee.",
+      "he": "מאומת — פרסומים טכניים וחשיפות רשמיות של ברטה דיפנס ו-Dualee."
+     },
+     "s": {
+      "en": "Beretta BDT and Dualee unveil LIVET automated turret mounting eight Benelli M4 shotguns with AI tracking for low-cost kinetic C-UAS hard-kill defense.",
+      "he": "ברטה ו-Dualee חושפות את עמדת ה-LIVET האוטונומית להגנה מרחפנים עם 8 רובי בנלי M4 ומעקב מבוסס בינה מלאכותית."
+     },
+     "photo": "img/j/A1.jpg"
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Arab Emirates",
+     "countryHe": "איחוד האמירויות",
+     "type": "Air Defense Industrial Acceleration / Counter-Drone Missile Production",
+     "typeHe": "האצת ייצור הגנה אווירית / קווי ייצור טילי יירוט לרחפנים",
+     "date": "2026-11-14",
+     "h": {
+      "en": "UAE EDGE Group fast-tracks Skyknight and counter-drone interceptor acceleration following Gulf aerial escalations",
+      "he": "קבוצת EDGE מאיחוד האמירויות מאיצה את קווי ייצור טילי ההגנה האווירית Skyknight ומיירטי הרחפנים בעקבות איומים אזוריים במפרץ"
+     },
+     "what": {
+      "en": "UAE defense conglomerate EDGE Group accelerated production timelines for its Skyknight short-range air defense missile and modular counter-drone systems, responding to heightened Gulf regional aerial threats with expanded Abu Dhabi assembly capacity.",
+      "he": "קבוצת EDGE מאיחוד האמירויות האיצה את לוחות הזמנים לייצור טילי ההגנה האווירית קצרי-הטווח Skyknight ומערכות יירוט כטב\"מים מודולריות, במטרה לתת מענה לאיומים אוויריים גוברים במפרץ באמצעות הרחבת כושר ההרכבה באבו דאבי."
+     },
+     "figs": {
+      "en": "Platform: Skyknight C-RAM / C-UAS missile • Manufacturer: EDGE Group (Halcon / Abu Dhabi) • Targets: Drones, cruise missiles, artillery rockets • Context: Accelerated production for UAE domestic air defense • Date: 2026-11-14",
+      "he": "פלטפורמה: טיל הגנה אווירית Skyknight • יצרן: קבוצת EDGE (האלקון / אבו דאבי) • מטרות: כטב\"מים, טילי שיוט ורקטות ארטילריות • הקשר: האצת ייצור להגנה עצמית של איחוד האמירויות • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "Regional drone and missile proliferation in the Gulf requires sovereign production lines to replenish defensive interceptor stockpiles without overseas supply chain delays.",
+      "he": "התפשטות איומי כטב\"מים וטילים במפרץ מחייבת קווי ייצור עצמאיים לחידוש מלאי מיירטים ללא תלות באספקה מחוץ לאזור."
+     },
+     "israel": {
+      "en": "Aligns with regional air defense coordination. Both Israel and the UAE face similar Iranian-origin drone salvos, driving shared interest in layered C-UAS kinetics.",
+      "he": "מתכתב עם תיאום ההגנה האווירית האזורי. ישראל ואיחוד האמירויות מתמודדות עם איומי כטב\"מים דומים מתוצרת איראן, מה שמחזק את הצורך בפתרונות יירוט רב-שכבתיים."
+     },
+     "src": [
+      {
+       "t": "Aviation Week",
+       "u": "https://aviationweek.com/defense/missile-defense-weapons/edge-group-fast-tracked-equipment-development-counter-iranian"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Statements by EDGE Group leadership reported in Aviation Week Aerospace Daily.",
+      "he": "מאומת — הצהרות הנהלת קבוצת EDGE כפי שדווחו ב-Aviation Week."
+     },
+     "s": {
+      "en": "UAE EDGE Group accelerates Skyknight air defense and counter-drone interceptor production lines",
+      "he": "קבוצת EDGE מאיחוד האמירויות מאיצה את קווי ייצור טילי ההגנה האווירית ומיירטי הרחפנים"
+     }
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Unmanned Airborne Early Warning & ISTAR / Sensor Integration Flight Demonstrations",
+     "typeHe": "התראה מוקדמת ומודיעין מוטס בלתי-מאויש / ניסויי טיסה לשילוב חיישנים",
+     "date": "2026-11-14",
+     "h": {
+      "en": "HENSOLDT and Dronamics demonstrate Europe's first unmanned Airborne Early Warning (AEW) and ISTAR system on Black Swan UAV",
+      "he": "הנסולדט ודרונמיקס מדגימות את מערכת ההתראה המוקדמת (AEW) והמודיעין המוטס הבלתי-מאוישת הראשונה באירופה על גבי כטב\"ם Black Swan"
+     },
+     "what": {
+      "en": "German sensor powerhouse HENSOLDT and Bulgarian cargo drone developer Dronamics successfully conducted flight demonstrations of Europe's first combined unmanned Airborne Early Warning (AEW) and ISTAR solution, marketed as 'Dronamics Detect & Defend'. The system integrates HENSOLDT's modular MissionGrid architecture—including the PrecISR multimode AESA radar, Argos electro-optical/infrared turret, MissMarvin mission management software, and MDOcore cross-domain data networking—onto Dronamics' full-scale Black Swan heavy-lift UAV. Trials in Bulgaria demonstrated long-range maritime vessel tracking on the Danube and ground moving-target detection, establishing an ITAR-free, sovereign EU capability to bridge surveillance gaps along NATO's Eastern Flank.",
+      "he": "ענקית החיישנים הגרמנית HENSOLDT וחברת Dronamics הבולגרית השלימו בהצלחה סדרת ניסויי טיסה מבצעיים של מערכת התראה מוקדמת (AEW) ומודיעין (ISTAR) בלתי-מאוישת ראשונה מסוגה באירופה, תחת המותג 'Dronamics Detect & Defend'. הפתרון משלב את חליפת החיישנים MissionGrid של הנסולדט – הכוללת מכ\"ם AESA רב-משימתי מדגם PrecISR, מטע\"ד אלקטרו-אופטי Argos, תוכנת ניהול משימה MissMarvin ורשת נתונים מאובטחת MDOcore – על גבי כטב\"ם המטען הכבד Black Swan. הניסויים הדגימו מעקב ימי לאורך נהר הדנובה ואיתור מטרות קרקעיות נעות, ומספקים פתרון אירופי עצמאי (ללא תלות ב-ITAR) לסגירת פערי מעקב באגף המזרחי של נאט\"ו."
+     },
+     "figs": {
+      "en": "Platform: Dronamics Black Swan (NATO Class III long-endurance cargo/tactical UAV) • Payload Capacity: 350 kg • Flight Endurance: >24 hours • Operational Range: Up to 2,500 km • Integrated Sensor Suite: HENSOLDT PrecISR AESA radar, Argos EO/IR turret, MissMarvin mission suite, MDOcore networking • Compliance: 100% European sovereign, ITAR-free design • Target Environment: Maritime surveillance, land border patrol, and low-altitude aerial target cueing across Europe's Eastern Flank • Developers: HENSOLDT (Germany) & Dronamics (Bulgaria) • Source Date: 2026-11-14",
+      "he": "פלטפורמה: כטב\"ם Dronamics Black Swan (נאט\"ו קלאס 3, שהייה ממושכת) • כושר נשיאה: 350 ק\"ג • שהייה באוויר: מעל 24 שעות • טווח פעולה: עד 2,500 ק\"מ • חליפת חיישנים: מכ\"ם AESA מדגם PrecISR, מטע\"ד Argos, מערכת ניהול MissMarvin ותקשורת MDOcore • עצמאות טכנולוגית: 100% ייצור אירופי, ללא תלות ב-ITAR • תרחישי משימה: סיור ימי, אבטחת גבולות וזיהוי מטרות מנמיכות טוס באגף המזרחי • מפתחות: הנסולדט (גרמניה) ודרונמיקס (בולגריה) • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "Dedicated manned AEW&C aircraft (like the E-3 Sentry or E-7 Wedgetail) are prohibitively expensive to operate and in critically short supply across European air forces. Repurposing a high-endurance, low-operating-cost cargo UAV with advanced AESA radar democratizes persistent radar picket coverage, enabling continuous monitoring of low-altitude cruise missiles and drone incursions along contested borders.",
+      "he": "מטוסי בקרה והתראה מאוישים (דוגמת E-3 או E-7) מתאפיינים בעלויות שעה גבוהות ובמחסור חמור ברחבי חילות האוויר באירופה. הסבת כטב\"ם מטען אזרחי בעל שהייה של מעל יממה לפלטפורמת מכ\"ם AESA מוטסת מייצרת פתרון זול וזמין לכיסוי מכ\"מי רציף, במיוחד מול טילי שיוט וכטב\"מים מנמיכי טוס באגף המזרחי."
+     },
+     "israel": {
+      "en": "Important for Israeli defense electronics exporters (IAI ELTA, Elbit). European nations prioritizing ITAR-free sovereign sensor architectures creates competitive headwinds for non-European radar exporters, while accelerating demand for Israeli micro-synthetic aperture radar and SIGINT pods compatible with Class III tactical UAVs.",
+      "he": "משמעות חשובה עבור התעשיות הביטחוניות הישראליות (אלתא/התעשייה האווירית, אלביט). ההעדפה האירופית הגוברת לחיישנים עצמאיים ללא תלות ב-ITAR מציבה אתגר תחרותי, אך במקביל פותחת הזדמנויות לשילוב מטע\"די מודיעין ומכ\"מי SAR ממוזערים מתוצרת ישראל על גבי פלטפורמות בלתי מאוישות ארוכות שהייה."
+     },
+     "src": [
+      {
+       "t": "HENSOLDT Press Release",
+       "u": "https://www.hensoldt.net/news/hensoldt-and-dronamics-demonstrate-istar-and-airborne-early-warning-on-the-black-swan-uav"
+      },
+      {
+       "t": "Asia-Pacific Defence Reporter",
+       "u": "https://asiapacificdefencereporter.com/posts/dronamics-and-hensoldt-demo-istar-and-airborne-early-warning-on-black-swan"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official corporate announcements and live flight trial verification from HENSOLDT and Dronamics.",
+      "he": "מאומת — פרסומים רשמיים ואימות תוצאות ניסויי טיסה של הנסולדט ודרונמיקס."
+     },
+     "s": {
+      "en": "HENSOLDT and Dronamics demonstrate Europe's first unmanned Airborne Early Warning and ISTAR system on the 2,500 km-range Black Swan UAV.",
+      "he": "הנסולדט ודרונמיקס מדגימות מערכת התראה מוקדמת ומודיעין בלתי-מאוישת ראשונה באירופה על גבי כטב\"ם Black Swan לטווח 2,500 ק\"מ."
+     },
+     "photo": "img/j/B1.jpg"
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Military Procurement & Defense Budget / Tactical Transport Fleet Expansion",
+     "typeHe": "רכש צבאי ותקציב ביטחון / הרחבת צי מטוסי התובלה הטקטיים",
+     "date": "2026-11-14",
+     "h": {
+      "en": "German Bundestag Budget Committee clears record EUR 139B+ 2027 defense framework approving 16 additional Airbus A400M airlifters",
+      "he": "ועדת התקציבים של הבונדסטאג בגרמניה אישרה מסגרת ביטחון שוברת שיאים של מעל 139 מיליארד אירו לשנת 2027, ואישרה רכש 16 מטוסי תובלה נוספים מדגם איירבוס A400M"
+     },
+     "what": {
+      "en": "The German Bundestag Budget Committee concluded deliberations on the 2027 federal defense budget, establishing a record combined expenditure ceiling exceeding EUR 139B across Einzelplan 14 (the regular defense ministry budget, which rises to EUR 109.7B) and the Sondervermögen Bundeswehr special fund. As part of this approved authorization, the committee formally sanctioned the procurement of 16 additional Airbus A400M Atlas four-engine turboprop tactical transport aircraft for the Luftwaffe. The purchase will expand Germany's strategic and tactical airlift fleet to support rapid NATO rapid deployment brigades and heavy logistics sustainment along the Baltic corridor.",
+      "he": "ועדת התקציבים של הבונדסטאג הגרמני השלימה את הדיונים על תקציב הביטחון הפדרלי לשנת 2027, וקבעה תקרת הוצאות שיא משולבת של מעל 139 מיליארד אירו (הכוללת את תקציב משרד ההגנה הסדיר שצמח ל-109.7 מיליארד אירו ואת הקרן המיוחדת לבונדסוור). במסגרת אישור זה, הוועדה אישרה רשמית רכש של 16 מטוסי תובלה טקטיים נוספים מדגם איירבוס A400M אטלס עבור חיל האוויר הגרמני (לופטוואפה). הרכש ירחיב את צי התובלה והתדלוק האווירי של גרמניה לתמיכה בחטיבות הפריסה המהירה של נאט\"ו ובשרשראות האספקה באגף הבלטי."
+     },
+     "figs": {
+      "en": "Combined 2027 Defense Authorization: >EUR 139B • Core MoD Budget (Einzelplan 14): EUR 109.7B • New Platform Buy: 16x Airbus A400M Atlas tactical/strategic airlifters • Operator: German Air Force (Luftwaffe) Air Transport Wing 62 (Wunstorf) • Capabilities: 37-tonne payload, tactical airstrip landing, automated air-to-air refueling receiver/tanker pods • Primary Mission: Rapid tactical airlift, heavy vehicle deployment, and NATO eastern flank logistics • Source Date: 2026-11-14",
+      "he": "היקף תקציב הביטחון המשולב ל-2027: מעל 139 מיליארד אירו • תקציב משרד ההגנה הסדיר: 109.7 מיליארד אירו • פלטפורמות ברכש: 16 מטוסי תובלה איירבוס A400M • מפעיל: כנף תובלה 62 של הלופטוואפה (בסיס וונסטורף) • יכולות: נשיאת 37 טון מטען, נחיתה במסלולים מאולתרים, תדלוק אווירי • ייעוד עיקרי: פריסה מהירה של כוחות כבדים ותמיכה לוגיסטית באגף המזרחי • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "The war in Ukraine and Germany's commitment to deploy a permanent combat brigade to Lithuania by 2027 have severely strained the Luftwaffe's transport capacity. Expanding the A400M fleet by 16 airframes consolidates Germany's role as the central logistical backbone of European NATO, while sustaining production lines at Airbus Military in Seville.",
+      "he": "המלחמה באוקראינה והתחייבות גרמניה לפרוס חטיבה קרבית קבועה בליטא עד 2027 הטילו עומס כבד על מערך התובלה של הלופטוואפה. הרחבת צי ה-A400M ב-16 מטוסים מבססת את מעמדה של גרמניה כעמוד השדרה הלוגיסטי של נאט\"ו באירופה ומבטיחה רציפות ייצור באיירבוס."
+     },
+     "israel": {
+      "en": "Positive defense cooperation implications. The German A400M fleet routinely integrates Israeli self-protection systems (such as Elbit DIRCM laser countermeasure suites). Expanding the fleet creates follow-on opportunities for Israeli electronic warfare, missile warning, and secure communication avionics upgrades.",
+      "he": "השלכות חיוביות על התעשייה הישראלית. צי מטוסי ה-A400M של גרמניה משלב מערכות הגנה עצמית מתוצרת ישראל (כגון מערכות DIRCM מבוססות לייזר של אלביט מערכות להגנה מפני טילי כתף). הרחבת הצי מייצרת פוטנציאל לעסקאות המשך בתחומי ל\"א, התרעת טילים ותקשורת מאובטחת."
+     },
+     "src": [
+      {
+       "t": "Aviacionline",
+       "u": "https://www.aviacionline.com/english/defence/europe/bundestag-clears-the-purchase-of-16-new-airbus-a400m-atlas-transports-for-the-luftwaffe_a6af730cd87005f8fa3f8fa26"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — German Bundestag Budget Committee official parliamentary recommendations and defense reporting.",
+      "he": "מאומת — הודעות רשמיות של ועדת התקציבים בבונדסטאג הגרמני ודיווחים מקצועיים."
+     },
+     "s": {
+      "en": "German Bundestag Budget Committee clears record EUR 139B+ 2027 defense framework approving 16 additional Airbus A400M tactical transports.",
+      "he": "ועדת התקציבים בגרמניה אישרה מסגרת ביטחון של מעל 139 מיליארד אירו ל-2027 ורכש 16 מטוסי תובלה איירבוס A400M ללופטוואפה."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "India",
+     "countryHe": "הודו",
+     "type": "Strategic Heavy Airlift / High-Altitude Forward Airfield Operations",
+     "typeHe": "תובלה אסטרטגית כבדה / פעילות בשדות תעופה קדמיים בגובה רב",
+     "date": "2026-11-14",
+     "h": {
+      "en": "Indian Air Force Il-76MD sets world altitude record landing at Nyoma airbase in eastern Ladakh at 13,629 feet",
+      "he": "מטוס תובלה כבד מדגם Il-76MD של חיל האוויר ההודי קבע שיא עולם בנחיתה בבסיס נומה במזרח לדאק בגובה 13,629 רגל"
+     },
+     "what": {
+      "en": "An Indian Air Force (IAF) Ilyushin Il-76MD 'Gajraj' heavy-lift strategic transport aircraft executed a successful landing and takeoff at the newly upgraded Nyoma Advanced Landing Ground in eastern Ladakh. Situated at an elevation of 13,629 feet (4,154 meters) above sea level and positioned just 25–30 km from the disputed Line of Actual Control (LAC) with China, the flight established a world altitude record for the Il-76 type. The operation validates Nyoma's newly paved 2.7 km runway—upgraded by the Border Roads Organisation at a cost of INR 218 crore—for heavy military transports capable of airlifting T-90 Bhishma main battle tanks and BMP infantry fighting vehicles directly to the frontline mountain border.",
+      "he": "מטוס תובלה אסטרטגי כבד מדגם איליושין Il-76MD ('גג'ראג'') של חיל האוויר ההודי ביצע נחיתה והמראה מוצלחות בבסיס הטיסה הקדמי המשודרג נומה (Nyoma) במזרח לדאק. הבסיס ממוקם בגובה של 13,629 רגל (4,154 מטר) מעל פני הים, במרחק של כ-25 עד 30 ק\"מ בלבד מקו השליטה בפועל (LAC) מול סין. הנחיתה קבעה שיא עולמי עבור מטוס מדגם Il-76, ואימתה את מסלול ההמראה החדש באורך 2.7 ק\"מ שנסלל על ידי ארגון דרכי הגבול (BRO) בעלות של 218 קרוֹר רופי. ההישג מאפשר הטסה ישירה של טנקי T-90 ונגמ\"שי קרב לחזית ההררית המושלגת."
+     },
+     "figs": {
+      "en": "Aircraft: Ilyushin Il-76MD 'Gajraj' four-turbofan heavy transport • Airfield: Nyoma Advanced Landing Ground (Eastern Ladakh, India) • Elevation: 13,629 feet (4,154 meters) above sea level • Runway: 2.7 km newly surfaced runway developed by Border Roads Organisation (BRO) • Proximity: ~25-30 km from Line of Actual Control (LAC) with China • Payload Capability: Up to 48 tonnes (capable of carrying T-90/T-72 MBTs and mechanized armor) • Operational Milestone: Highest-altitude tactical landing by an Il-76 platform globally • Source Date: 2026-11-14",
+      "he": "פלטפורמה: איליושין Il-76MD גג'ראג' • שדה תעופה: בסיס נומה הקדמי, מזרח לדאק • גובה מסלול: 13,629 רגל (4,154 מטר) • אורך מסלול: 2.7 ק\"מ סלול על ידי BRO • קרבה לחזית: 25-30 ק\"מ מקו השליטה מול סין • כושר נשיאה: עד 48 טון (מאפשר נשיאת טנקי T-90 ונגמ\"שים) • אבן דרך: הנחיתה הגבוהה ביותר בעולם עבור מטוס Il-76 • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "Operating heavy jet transports at 13,600+ feet poses severe aerodynamic and engine-thrust penalties due to thin air and steep approach profiles. Demonstrating that the Il-76MD can operate from Nyoma fundamentally transforms Indian military logistics along the Sino-Indian border, shrinking heavy armor reinforcement timelines from weeks of tortuous mountain road transit to mere hours.",
+      "he": "הפעלת מטוסי סילון כבדים בגובה של מעל 13,600 רגל כרוכה במגבלות אווירודינמיות ודחף מנוע חמורות בשל האוויר הדליל ומתווי גישה תלולים. הוכחת יכולת הנחיתה בנומה משנה מהותית את המשוואה הלוגיסטית מול סין, ומקצרת את זמני הזרמת שריון כבד משבועות של נסיעה בצירים הרריים לשעות בודדות."
+     },
+     "israel": {
+      "en": "Relevant to Israeli airborne sensor and avionics integration. The IAF's Il-76 fleet serves as the baseline airframe for India's Phalcon EL/W-2090 Airborne Early Warning and Control (AEW&C) aircraft developed by IAI ELTA. Validating extreme high-altitude performance reinforces IAF confidence in the underlying airframe for Himalayan airspace surveillance.",
+      "he": "רלוונטיות למערכות מוטסות ישראליות. צי ה-Il-76 של חיל האוויר ההודי משמש כפלטפורמת הבסיס למטוסי ההתראה המוקדמת מדגם פאלקון (EL/W-2090) שפותחו על ידי אלתא והתעשייה האווירית. הוכחת ביצועים בגבהים קיצוניים מחזקת את כשירות המערך במשימות מעקב מעל רכס ההימלאיה."
+     },
+     "src": [
+      {
+       "t": "Defence Security Asia",
+       "u": "https://defencesecurityasia.com/en/india-il-76md-nyoma-landing-china-border/"
+      },
+      {
+       "t": "The New Indian Express",
+       "u": "https://www.newindianexpress.com/explainers/2026/Nov/13/what-iafs-gajraj-landing-at-nyoma-the-border-with-china-means"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Indian Air Force official operational disclosures and verified imagery from eastern Ladakh.",
+      "he": "מאומת — פרסומי חיל האוויר ההודי ותיעוד מבצעי מאומת ממזרח לדאק."
+     },
+     "s": {
+      "en": "Indian Air Force Il-76MD sets world altitude record with tactical landing at eastern Ladakh's Nyoma airbase at 13,629 feet near the LAC.",
+      "he": "מטוס Il-76MD של חיל האוויר ההודי קבע שיא עולם בנחיתה בבסיס נומה במזרח לדאק בגובה 13,629 רגל סמוך לקו הגבול עם סין."
+     },
+     "photo": "img/j/B3.jpg"
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Solar-Electric Autonomous Drones / Program of Record Selection & Battalion Reconnaissance",
+     "typeHe": "כטב\"מים סולאריים אוטונומיים / בחירה כתוכנית רכש רשמית וסיור גדודי",
+     "date": "2026-11-14",
+     "h": {
+      "en": "U.S. Army selects Kraus Hamdani Aerospace K1000ULE solar-electric drone as formal Program of Record under USD 14.9M award",
+      "he": "צבא ארה\"ב בחר בכטב\"ם הסולארי K1000ULE של Kraus Hamdani כתוכנית רכש רשמית במסגרת חוזה בסך 14.9 מיליון דולר"
+     },
+     "what": {
+      "en": "The U.S. Army awarded Kraus Hamdani Aerospace a USD 14.9M firm-fixed-price contract for Battalion Reconnaissance Unmanned Aircraft Systems, formally designating the K1000ULE solar-electric drone as a U.S. Army Program of Record. The K1000ULE is an ultra-long-endurance Group 2 autonomous aircraft that harnesses onboard solar cells and thermal soaring algorithms to achieve continuous multi-day flight durations (having demonstrated over 75 hours in testing). Under the Redstone Arsenal contract, the Army will field the silent, zero-emission platform across brigade combat teams to provide persistent organic electronic warfare, communications relay, and high-altitude reconnaissance directly to battalion commanders.",
+      "he": "צבא ארה\"ב העניק לחברת Kraus Hamdani Aerospace חוזה במחיר קבוע של 14.9 מיליון דולר לאספקת כטב\"מי סיור ברמת הגדוד, והגדיר רשמית את הכטב\"ם הסולארי K1000ULE כתוכנית רכש רשמית (Program of Record). ה-K1000ULE הוא כלי טיס אוטונומי מקבוצה 2 בעל שהייה אולטרה-ממושכת, הלוכד אנרגיה סולארית ומשתמש באלגוריתמי דאייה תרמית כדי לשהות ימים רצופים באוויר (הוכיח מעל 75 שעות שהייה ברציפות). במסגרת החוזה יצוידו צוותי קרב חטיבתיים בפלטפורמה שקטה ונטולת פליטות, המספקת ממסר קשר מוטס, לוחמה אלקטרונית וסיור מתמשך ישירות למפקדי גדודים."
+     },
+     "figs": {
+      "en": "Platform: Kraus Hamdani Aerospace K1000ULE • Classification: NATO Group 2 UAS (sub-25 kg MTOW) • Propulsion: Solar-electric hybrid with autonomous thermal soaring algorithms • Flight Endurance: >75 hours demonstrated continuous unrefueled flight • Contract Value: USD 14.9M ($14,948,792 firm-fixed-price) • Contracting Agency: Army Contracting Command, Redstone Arsenal • Missions: Organic battalion reconnaissance, communications relay, electronic warfare, and target cueing • Source Date: 2026-11-14",
+      "he": "פלטפורמה: Kraus Hamdani K1000ULE • קטגוריה: נאט\"ו קבוצה 2 (משקל המראה מרבי מתחת ל-25 ק\"ג) • הנעה: היברידית סולארית-חשמלית עם אלגוריתמי דאייה חכמים • שהייה באוויר: מעל 75 שעות טיסה רצופה • שווי חוזה: 14.9 מיליון דולר • גוף רוכש: פיקוד הרכש של צבא ארה\"ב, רדסטון ארסנל • ייעוד: סיור גדודי, ממסר תקשורת, לוחמה אלקטרונית והכוונת אש • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "Transitioning from rapid prototyping prototypes to a baseline Program of Record validates solar-electric pseudo-satellite technology for tactical ground forces. Unlike noisy fuel-burning tactical UAVs that require cumbersome catapults and ground logistical footprints, the silent K1000ULE provides weeks-long orbital persistence without disclosing ground command posts.",
+      "he": "המעבר מאב-טיפוס ניסיוני לתוכנית רכש רשמית מהווה אימות מבצעי לטכנולוגיית 'פסאודו-לוויינים' סולאריים טקטיים. בניגוד לכטב\"מים רועשים מונעי דלק הדורשים תשתית לוגיסטית מסורבלת, ה-K1000ULE מספק שהייה חרישית וממושכת מעל אזור הקרב ללא חשיפת כוחות הקרקע."
+     },
+     "israel": {
+      "en": "Directly aligns with IDF tactical intelligence requirements. Israeli tactical drone developers (such as Elbit Skylark or Rafael Orbiter) operate primarily on battery or fuel engines. Adopting autonomous solar-gliding algorithms represents an attractive evolutionary pathway for Israeli brigade-level reconnaissance suites.",
+      "he": "התאמה ישירה לצורכי המודיעין הטקטי של צה\"ל. כטב\"מי הסיור הגדודיים בישראל (דוגמת רוכב שמיים של אלביט או אורביטר של רפאל) מתבססים בעיקר על סוללות מוגבלות בזמן או מנועי דלק. שילוב טכנולוגיית דאייה סולארית אוטונומית מציע מתווה שדרוג אטרקטיבי להארכת משך המשימה בחזית."
+     },
+     "src": [
+      {
+       "t": "Kraus Hamdani Aerospace",
+       "u": "https://www.khaero.com/post/k1000ule-army-program-of-record"
+      },
+      {
+       "t": "Defense War Room",
+       "u": "https://defensewarroom.com/2026/11/12/army-k1000ule-drone-program-of-record/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — U.S. Department of Defense contract announcements and company program-of-record disclosures.",
+      "he": "מאומת — הודעות רכש של משרד ההגנה האמריקאי והודעות רשמיות של החברה."
+     },
+     "s": {
+      "en": "U.S. Army designates Kraus Hamdani Aerospace K1000ULE solar-electric drone as formal Program of Record under USD 14.9M award.",
+      "he": "צבא ארה\"ב בחר בכטב\"ם הסולארי K1000ULE כתוכנית רכש רשמית לסיור גדודי במסגרת חוזה של 14.9 מיליון דולר."
+     },
+     "photo": "img/j/B4.jpg"
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "China",
+     "countryHe": "סין",
+     "type": "Tactical Strike Missiles & Airframe Integration / Imaging Infrared Seeker Upgrade",
+     "typeHe": "טילי תקיפה טקטיים ושילוב חימוש / שדרוג ראש ביות הדמאה תרמית",
+     "date": "2026-11-14",
+     "h": {
+      "en": "Chinese PLAAF J-10C spotted armed with modified Kh-29T air-to-surface missile featuring indigenous IIR seeker",
+      "he": "מטוס קרב סיני מדגם J-10C תועד חמוש בטיל אוויר-קרקע מוסב מדגם Kh-29T עם ראש ביות הדמאה תרמית עצמאי"
+     },
+     "what": {
+      "en": "New photographic imagery confirmed that the Chinese People's Liberation Army Air Force (PLAAF) has integrated an indigenously upgraded variant of the heavy Kh-29T (AS-14 'Kedge') supersonic air-to-surface missile onto its J-10C multirole fighter fleet. While original Soviet/Russian Kh-29T missiles utilize daytime-only electro-optical television seekers, the Chinese modification replaces the optical front section with an uncooled imaging infrared (IIR) dome. This modification equips the single-engine J-10C with a heavy 320 kg high-explosive penetrator warhead capable of conducting 24/7 all-weather precision strikes against fortified bunkers, hardened command shelters, and naval combatants.",
+      "he": "תיעוד צילומי חדש אימת כי חיל האוויר של צבא השחרור העממי (PLAAF) שילב גרסה משודרגת מקומית של טיל האוויר-קרקע העל-קולי הכבד Kh-29T (קוד נאט\"ו: AS-14 Kedge) על גבי מטוסי הקרב הרב-משימתיים מדגם J-10C. בעוד הטילים המקוריים מתוצרת ברית המועצות/רוסיה מתבססים על ראש ביות טלוויזיוני אופטי הפועל ביום בלבד, הגרסה הסינית כוללת חרטום הדמאה תרמית (IIR) עצמאי. שדרוג זה מעניק למטוסי ה-J-10C יכולת תקיפה חודרת מדויקת של 24/7 בכל תנאי מזג אוויר, עם ראש קרב כבד במשקל 320 ק\"ג, נגד בונקרים מבוצרים ומטרות שטח ימיות."
+     },
+     "figs": {
+      "en": "Aircraft Platform: Chengdu J-10C 'Vigorous Dragon' multirole fighter • Weapon: Modified Kh-29T (AS-14 'Kedge') air-to-surface missile • Seeker Upgrade: Indigenous Chinese uncooled Imaging Infrared (IIR) seeker dome replacing original optical TV seeker • Warhead: 320 kg armor-piercing high-explosive penetrator warhead • Missile Mass: ~680 kg • Guidance: Fire-and-forget autonomous terminal infrared homing with day/night capability • Target Profile: Hardened aircraft shelters, subterranean command posts, bridges, and maritime combatants • Source Date: 2026-11-14",
+      "he": "פלטפורמת שיגור: מטוס קרב צ'נגדו J-10C • חימוש: טיל אוויר-קרקע Kh-29T משודרג • שדרוג ראש ביות: ראש הדמאה תרמית (IIR) עצמאי מתוצרת סין המחליף ראש טלוויזיוני • ראש קרב: 320 ק\"ג חודר שריון ובטון עתיר רסס • משקל טיל כולל: כ-680 ק\"ג • הנחיה: שגר ושכח אוטונומי תרמי ליום ולילה • מטרות ייעוד: דירים מבוצרים, עמדות פיקוד מוגנות, גשרים וכלי שיט • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "Upgrading legacy Soviet-derived heavy standoff munitions with modern domestic focal plane array infrared seekers allows China to utilize deep stockpiles of heavy rocket-propelled missile airframes for modern precision strike doctrine. The heavy 320 kg warhead provides the J-10C with a potent tactical bunker-busting punch previously restricted to heavier twin-engine strike platforms like the JH-7A.",
+      "he": "שדרוג טילים כבדים ממקור סובייטי באמצעות ראשי ביות תרמיים מתקדמים מאפשר לסין לנצל מלאים קיימים של גופי טילים רקטיים רבי-עוצמה במחיר נמוך. ראש הקרב הכבד (320 ק\"ג) מעניק למטוס חד-מנועי קל כמו ה-J-10C יכולת פיצוח בונקרים טקטית שהייתה שמורה בעבר למטוסי תקיפה דו-מנועיים כבדים דוגמת ה-JH-7A."
+     },
+     "israel": {
+      "en": "Technical monitoring relevance. Chinese precision guidance seekers and seeker integration methodologies frequently proliferate to Middle Eastern regional adversaries (including Iran and allied proxies). Tracking Chinese IIR focal plane array advancements informs Israeli electronic-optical countermeasure and missile defense development.",
+      "he": "משמעות במעקב טכנולוגי. טכנולוגיות הנחיה וראשי ביות סיניים נוטים לזלוג בהמשך לשחקנים אזוריים במזרח התיכון (כולל איראן וגרורותיה). מעקב אחר התקדמות ראשי ביות תרמיים סיניים מסייע לפיתוח אמצעי נגד אלקטרו-אופטיים וחליפות הגנה עצמית בישראל."
+     },
+     "src": [
+      {
+       "t": "Andreas Rupprecht / PLAAF OSINT",
+       "u": "https://x.com/RupprechtDeino/status/2121629531081752577"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — High-resolution imagery analysis from recognized Chinese military aviation analyst Andreas Rupprecht.",
+      "he": "מאומת — ניתוח תיעוד חזותי ברזולוציה גבוהה של מומחה התעופה הצבאית הסינית אנדריאס רופרכט."
+     },
+     "s": {
+      "en": "Chinese PLAAF J-10C fighter spotted armed with modified Kh-29T air-to-surface missile equipped with indigenous IIR seeker.",
+      "he": "מטוס קרב סיני J-10C תועד חמוש בטיל אוויר-קרקע Kh-29T משודרג עם ראש ביות תרמי עצמאי."
+     },
+     "photo": "img/j/B5.jpg"
+    },
+    {
+     "id": "B6",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United Kingdom",
+     "countryHe": "בריטניה",
+     "type": "Military Satellite Communications / Procurement Competition Review",
+     "typeHe": "לווייני תקשורת צבאיים / בחינת מכרז רכש",
+     "date": "2026-11-14",
+     "h": {
+      "en": "British government extends GBP 2.4B Skynet 6 military satellite competition review between Lockheed Martin and Airbus",
+      "he": "ממשלת בריטניה מאריכה את בחינת מכרז לווייני התקשורת הצבאיים Skynet 6 בשווי 2.4 מיליארד ליש\"ט בין לוקהיד מרטין לאיירבוס"
+     },
+     "what": {
+      "en": "The UK Ministry of Defence extended deliberations over the GBP 2.4B Skynet 6 Wideband Satellite System contract following political scrutiny regarding domestic aerospace job preservation between bidder Lockheed Martin and incumbent Airbus.",
+      "he": "משרד ההגנה הבריטי האריך את הבחינה סביב חוזה לווייני התקשורת הצבאיים Skynet 6 בשווי 2.4 מיליארד ליש\"ט, על רקע דיון ציבורי ופוליטי סביב שימור מקומות עבודה מקומיים בתעשיית החלל מול הצעות לוקהיד מרטין ואיירבוס."
+     },
+     "figs": {
+      "en": "Program: Skynet 6 Wideband Satellite System (WSS) • Value: GBP 2.4B (~USD 3.2B) • Competitors: Lockheed Martin vs. Airbus Defence and Space • Procurement Status: Provisional recommendation under political review • Date: 2026-11-14",
+      "he": "תוכנית: לווייני תקשורת צבאיים Skynet 6 WSS • שווי: 2.4 מיליארד ליש\"ט • מתחרות: לוקהיד מרטין מול איירבוס • סטטוס רכש: המלצה ראשונית תחת בחינה פוליטית • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "The contest tests British industrial sovereignty against U.S. prime partnerships, balancing 3,000 UK aerospace jobs against transatlantic defense technological interoperability.",
+      "he": "המכרז בוחן את שאלת הריבונות התעשייתית הבריטית אל מול שיתוף פעולה עם ענקית ביטחון אמריקאית, תוך שקילת 3,000 מקומות עבודה מול תאימות מבצעית."
+     },
+     "israel": {
+      "en": "Demonstrates the intense political sensitivity surrounding military satellite constellation awards among European NATO members, relevant to Israeli space export pursuits.",
+      "he": "מדגים את הרגישות הפוליטית והתעשייתית ברכש לווייני תקשורת צבאיים באירופה, בעל עניין למאמצי הייצוא של התעשייה האווירית בתחום החלל."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/uk-satellite-decision-looms-as-political-fight-heats-up/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — UK Ministry of Defence and aerospace industry reports.",
+      "he": "מאומת — פרסומי משרד ההגנה הבריטי ודיווחים בתעשיית החלל."
+     },
+     "s": {
+      "en": "UK MoD extends review on GBP 2.4B Skynet 6 military satellite contest between Lockheed Martin and Airbus",
+      "he": "משרד ההגנה הבריטי מאריך את בחינת מכרז לווייני Skynet 6 בשווי 2.4 מיליארד ליש\"ט"
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Strategic Submarine Construction / Schedule Recovery & Industrial Acceleration",
+     "typeHe": "בניית צוללות אסטרטגיות / התאוששות מלוחות זמנים והאצת ייצור",
+     "date": "2026-11-14",
+     "h": {
+      "en": "USS District of Columbia (SSBN-826) lead submarine recovers from post-2030 delay risk, back on track for 2028 delivery as weekly shipyard pace surges 2.5x",
+      "he": "צוללת הליבה הגרעינית USS District of Columbia מתאוששת מסיכוני דחייה מעבר ל-2030, וחוזרת למסלול מסירה ב-2028 בעקבות זינוק של פי 2.5 בקצב העבודה השבועי במספנות"
+     },
+     "what": {
+      "en": "Leadership from U.S. Navy Submarine Programs and General Dynamics Electric Boat confirmed that the lead Columbia-class ballistic missile submarine, USS District of Columbia (SSBN-826), has eliminated severe post-2030 delivery delay risks. Following an urgent recovery plan implemented across Electric Boat (Groton/Quonset Point) and Newport News Shipbuilding, weekly earned-hour production rates climbed roughly 2.5 times compared to early-2026 baselines. The vessel is now roughly two-thirds complete, realigning the schedule to achieve the critical late-2028 delivery window before the legacy Ohio-class SSBN retirement begins.",
+      "he": "פיקוד תוכניות הצוללות של הצי האמריקאי וחברת ג'נרל דיינמיקס אלקטריק בוט אישרו כי צוללת הטילים הבליסטיים המובילה מסדרת קולומביה, USS District of Columbia (SSBN-826), התאוששה מסיכוני דחייה חמורים אל מעבר לשנת 2030. בעקבות תוכנית האצה מיוחדת במספנות אלקטריק בוט וניופורט ניוז, קצב שעות העבודה השבועי זינק פי 2.5 בהשוואה לתחילת 2026. הצוללת הושלמה בכשני שלישים, מה שמחזיר את לוח הזמנים ליעד המסירה הקריטי בסוף 2028 לפני תחילת הוצאת צוללות האוהיו משירות."
+     },
+     "figs": {
+      "en": "Platform: Columbia-class SSBN (SSBN-826) • Shipyards: General Dynamics Electric Boat (lead) & HII Newport News Shipbuilding • Delivery Target: Late 2028 (realigned from 2030+ risk) • Work Rate Acceleration: ~2.5x increase in weekly earned hours vs. early-2026 baseline • Completion Status: ~66% overall structural completion • Strategic Role: Primary U.S. sea-based nuclear deterrence leg replacing 14 Ohio-class SSBNs • Source Date: 2026-11-14",
+      "he": "פלטפורמה: צוללת טילים בליסטיים מסדרת קולומביה (SSBN-826) • מספנות: ג'נרל דיינמיקס אלקטריק בוט (מובילה) וניופורט ניוז • יעד מסירה: סוף 2028 (התאוששות מסיכון גלישה ל-2030) • קצב עבודה: זינוק של פי 2.5 בשעות עבודה שבועיות • היקף השלמה: כ-66% • תפקיד אסטרטגי: זרוע ההרתעה הגרעינית הימית המרכזית להחלפת 14 צוללות אוהיו • תאריך: 2026-11-14"
+     },
+     "why": {
+      "en": "The Columbia-class represents the single highest-priority acquisition program in the U.S. Navy. Any delivery slip beyond 2028 would leave an unbridgeable deterrent patrol gap as aging Ohio-class submarines exhaust their 42-year nuclear reactor lives. Surging shipyard throughput by 2.5x demonstrates that industrial recovery investments and modular outfitting reforms are finally reversing post-pandemic naval shipbuilding bottlenecks.",
+      "he": "סדרת קולומביה מהווה את תוכנית הרכש החשובה והדחופה ביותר של הצי האמריקאי. כל גלישה במסירה מעבר ל-2028 הייתה יוצרת פער מבצעי חסר תקדים בסיורי ההרתעה, בשל הגעת צוללות האוהיו לסוף תוחלת חיי הכורים הגרעיניים (42 שנה). הזינוק של פי 2.5 בתפוקת המספנות מעיד על כך שהשקעות החירום והרפורמות במודולריות מצליחות לחלץ את התעשייה הימית מצווארי הבקבוק."
+     },
+     "israel": {
+      "en": "Indirect strategic significance. Preserving the readiness and credibility of the U.S. strategic nuclear triad maintains global deterrence stability and ensures the U.S. Navy can sustain forward conventional posture across the Middle East without strategic force diversion.",
+      "he": "השלכות אסטרטגיות עקיפות אך משמעותיות. שמירה על רציפות סיורי ההרתעה הגרעינית האמריקאית מבטיחה יציבות גלובלית ומונעת סטיית משאבים ימיים ממשימות פריסה קונבנציונליות בזירה המזרח-תיכונית."
+     },
+     "src": [
+      {
+       "t": "Naval News",
+       "u": "https://www.navalnews.com/naval-news/2026/11/uss-district-of-columbia-ssbn-826-back-on-track-for-2028-delivery/"
+      },
+      {
+       "t": "Naval News Official X",
+       "u": "https://x.com/navalnewscom/status/2121644758481481915"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Statements by Submarine Program Executive Officers at the Naval Submarine League 2026 Annual Symposium.",
+      "he": "מאומת — הצהרות בכירי מנהלת תוכניות הצוללות בכנס סימפוזיון הצוללות השנתי 2026."
+     },
+     "s": {
+      "en": "USS District of Columbia (SSBN-826) lead submarine recovers from delay risks, realigning for late-2028 delivery after weekly work rates surge 2.5x.",
+      "he": "צוללת הטילים הבליסטיים USS District of Columbia מתאוששת מסיכוני דחייה וחוזרת ליעד מסירה ב-2028 בעקבות זינוק של פי 2.5 בקצב העבודה."
+     },
+     "photo": "img/j/D1.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "U.S. Navy Submarine Program leadership confirmed that the lead Columbia-class ballistic missile submarine, USS District of Columbia (SSBN-826), has eliminated post-2030 delay risks and realigned for late-2028 delivery after weekly shipyard work rates surged nearly 2.5 times.",
+      "HENSOLDT and Dronamics test-flew Europe's first sovereign unmanned Airborne Early Warning (AEW) and ISTAR system, integrating the PrecISR AESA radar suite onto the 2,500 km-range Black Swan UAV for Eastern Flank surveillance.",
+      "The German Bundestag Budget Committee concluded its 2027 defense framework exceeding EUR 139B in authorizations, approving the acquisition of 16 additional Airbus A400M Atlas tactical airlifters for the Luftwaffe.",
+      "The Indian Air Force established a world altitude record for the Il-76 heavy transport with a tactical landing at eastern Ladakh's newly upgraded Nyoma airbase at 13,629 feet, 25 km from the Line of Actual Control.",
+      "Beretta Defense Technologies and Dualee unveiled the LIVET automated C-UAS turret mounting eight Benelli M4 shotguns with AI tracking for low-cost kinetic hard-kill defense against agile FPV drones."
+     ],
+     "he": [
+      "פיקוד תוכניות הצוללות של הצי האמריקאי אישר כי צוללת הטילים הבליסטיים המובילה מסדרת קולומביה, USS District of Columbia (SSBN-826), התאוששה מסיכוני דחייה אל מעבר ל-2030 וחזרה למסלול מסירה בסוף 2028, לאחר שקצב העבודה השבועי במספנות זינק פי 2.5.",
+      "הנסולדט הגרמנית ודרונמיקס השלימו בהצלחה ניסויי טיסה של מערכת התראה מוקדמת (AEW) ומודיעין בלתי-מאוישת ראשונה מסוגה באירופה, המשלבת מכ\"ם AESA מדגם PrecISR על גבי כטב\"ם Black Swan לטווח 2,500 ק\"מ להגנת האגף המזרחי.",
+      "ועדת התקציבים של הבונדסטאג בגרמניה אישרה מסגרת ביטחון משולבת שוברת שיאים של מעל 139 מיליארד אירו לשנת 2027, ואישרה רכש של 16 מטוסי תובלה טקטיים נוספים מדגם איירבוס A400M אטלס ללופטוואפה.",
+      "חיל האוויר ההודי קבע שיא עולם בתובלה כבדה עם נחיתה טקטית של מטוס Il-76MD בבסיס נומה במזרח לדאק בגובה 13,629 רגל, כ-25 ק\"מ בלבד מקו השליטה מול סין.",
+      "ברטה דיפנס טכנולוגיס ו-Dualee חשפו את עמדת ה-LIVET האוטונומית להגנה מרחפנים המשלבת שמונה רובי שוטגאן בנלי M4 ומעקב מבוסס AI ליירוט קינטי זול של רחפני FPV מתאבדים."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 15:01Z and 18:42Z on 14 November 2026. Every item and URL has been independently verified via live HTTP GET checks. Sourcing is strictly unclassified open-source reporting across prime contractor newsrooms, defense trade press, parliamentary budget filings, and authenticated OSINT channels. All foreign currency figures are reported in standard ISO codes."
+    ],
+    "he": [
+     "מהדורת הערב מכסה דיווחי ביטחון וטכנולוגיה ממקורות גלויים בין השעות 15:01Z ל-18:42Z ב-14 בנובמבר 2026. כל פריט וכתובת מקור אומתו עצמאית בבדיקות HTTP GET חיות. המקורות נשענים על פרסומי יצרניות ביטחוניות, עיתונות מקצועית, רשומות תקציב פרלמנטריות וערוצי מודיעין גלוי מאומתים."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-14T15:01:00Z – 2026-11-14T18:42:00Z. Reader profile applied: 7 full items, 2 briefly noted.",
+     "Country focus: Germany 2, UAE 1, Azerbaijan 0, Singapore 0, India 1, Morocco 0.",
+     "All live URLs verified; 7 authentic source photos embedded. Delivered to local archive, Google Drive, and App feed."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: 2026-11-14T15:01:00Z עד 2026-11-14T18:42:00Z. פרופיל קורא יושם: 7 פריטים מלאים, 2 בקצרה.",
+     "מיקוד מדינות: גרמניה 2, איחוד האמירויות 1, אזרבייג'ן 0, סינגפור 0, הודו 1, מרוקו 0.",
+     "כל הקישורים אומתו חיים; 7 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Track General Dynamics Electric Boat shipyard throughput metrics toward 2027 pressure-hull closure on USS District of Columbia.",
+     "Monitor flight trial data and potential NATO customer evaluations for the HENSOLDT-Dronamics Black Swan AEW platform.",
+     "Follow German parliamentary defense budget sign-offs for final contractual closure on the 16 additional A400M transports.",
+     "Assess Indian Air Force infrastructure expansion at Nyoma for permanent fighter and armor rotations along the Line of Actual Control."
+    ],
+    "he": [
+     "מעקב אחר תפוקת מספנות אלקטריק בוט לקראת השלמת גוף הלחץ בצוללת USS District of Columbia במהלך 2027.",
+     "מעקב אחר נתוני ניסויי הטיסה והערכות מצד לקוחות נאט\"ו של פלטפורמת ה-AEW הבלתי-מאוישת מתוצרת הנסולדט ודרונמיקס.",
+     "מעקב אחר חתימת החוזים הסופיים בגרמניה לאספקת 16 מטוסי ה-A400M הנוספים ללופטוואפה.",
+     "מעקב אחר הרחבת התשתית בבסיס נומה של חיל האוויר ההודי להצבה קבועה של מטוסי קרב וכוחות שריון מול קו הגבול עם סין."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1tdIRmS9SWpdf_tRGQD_WTR7xhBLEBb20G5C5Xl4rh80/edit",
+    "he": "https://docs.google.com/document/d/1J1AggjWptcug98USfeXIwJgPSn-WD0Qw1oKfxR8fI4c/edit"
+   },
+   "photos": {
+    "A1": {
+     "file": "A1.jpg",
+     "url": "https://www.twz.com/wp-content/uploads/2026/11/LIVET-C-UAS-SHOTGUN.jpg",
+     "outlet": "The War Zone",
+     "caption_en": "Beretta LIVET counter-drone remote weapon station armed with eight Benelli M4 shotguns.",
+     "caption_he": "עמדת ה-LIVET של ברטה להגנה מרחפנים חמושה בשמונה רובי בנלי M4.",
+     "credit_en": "Image: Beretta Defense Technologies, via TWZ",
+     "credit_he": "צילום: ברטה דיפנס טכנולוגיס, דרך TWZ",
+     "local_src": "../digest/2026-11-14-evening/img/j/A1.jpg"
+    },
+    "B1": {
+     "file": "B1.jpg",
+     "url": "https://pbs.twimg.com/media/HXGay3sW8AAPgfn.jpg",
+     "outlet": "Presamiga / HENSOLDT",
+     "caption_en": "Dronamics Black Swan heavy-lift UAV equipped with HENSOLDT MissionGrid sensor pod.",
+     "caption_he": "כטב\"ם ה-Black Swan של דרונמיקס מצויד בפוד חיישני MissionGrid של הנסולדט.",
+     "credit_en": "Image: HENSOLDT / Dronamics, via Presamiga",
+     "credit_he": "צילום: הנסולדט / דרונמיקס, דרך פרסמיגה",
+     "local_src": "../digest/2026-11-14-evening/img/j/B1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://flex-app.tadevel-cdn.com/hostname/www.aviacionline.com/api/v1/image/article/6af730cd87005f8fa3f8fa26/facebook?v=c1fd03344e065cf0086d7f8e5bdeb503&s=ce1053a1b16e61db823a346fc059adb7",
+     "outlet": "Aviacionline",
+     "caption_en": "Airbus A400M Atlas four-engine tactical transport aircraft in Luftwaffe service.",
+     "caption_he": "מטוס תובלה טקטי מדגם איירבוס A400M אטלס בשירות הלופטוואפה.",
+     "credit_en": "Image: Airbus Defence / Bundeswehr, via Aviacionline",
+     "credit_he": "צילום: איירבוס / בונדסוור, דרך Aviacionline",
+     "local_src": "../digest/2026-11-14-evening/img/j/B2.jpg"
+    },
+    "B3": {
+     "file": "B3.jpg",
+     "url": "https://defencesecurityasia.com/wp-content/uploads/2026/11/HWgPN8SakAAC3sc.webp",
+     "outlet": "Defence Security Asia",
+     "caption_en": "Indian Air Force Il-76MD strategic transport aircraft operating at Nyoma Advanced Landing Ground.",
+     "caption_he": "מטוס תובלה כבד Il-76MD של חיל האוויר ההודי בנחיתה בבסיס נומה בלדאק.",
+     "credit_en": "Image: Indian Air Force, via Defence Security Asia",
+     "credit_he": "צילום: חיל האוויר ההודי, דרך Defence Security Asia",
+     "local_src": "../digest/2026-11-14-evening/img/j/B3.jpg"
+    },
+    "B4": {
+     "file": "B4.jpg",
+     "url": "https://static.wixstatic.com/media/e06cde_5a6952538df44ab8b868c5c6d6d3f6ec~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_90/e06cde_5a6952538df44ab8b868c5c6d6d3f6ec~mv2.jpg",
+     "outlet": "Kraus Hamdani Aerospace",
+     "caption_en": "Kraus Hamdani Aerospace K1000ULE solar-electric autonomous unmanned aircraft.",
+     "caption_he": "כטב\"ם סולארי-חשמלי אוטונומי K1000ULE של קראוס חמדאני בפעילות.",
+     "credit_en": "Image: Kraus Hamdani Aerospace",
+     "credit_he": "צילום: Kraus Hamdani Aerospace",
+     "local_src": "../digest/2026-11-14-evening/img/j/B4.jpg"
+    },
+    "B5": {
+     "file": "B5.jpg",
+     "url": "https://pbs.twimg.com/media/HXGKsUcXkAAR-Jd.jpg",
+     "outlet": "Andreas Rupprecht",
+     "caption_en": "PLAAF J-10C multirole fighter armed with indigenously modified Kh-29T missile featuring IIR seeker.",
+     "caption_he": "מטוס קרב J-10C של חיל האוויר הסיני חמוש בטיל Kh-29T מוסב עם ראש ביות תרמי.",
+     "credit_en": "Image: via Andreas Rupprecht",
+     "credit_he": "צילום: דרך אנדריאס רופרכט",
+     "local_src": "../digest/2026-11-14-evening/img/j/B5.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Columbia-class-SSBN-scale-model-SAS.jpg",
+     "outlet": "Naval News",
+     "caption_en": "Scale model of the U.S. Navy Columbia-class ballistic missile submarine.",
+     "caption_he": "דגם מוקטן של צוללת הטילים הבליסטיים הגרעינית מסדרת קולומביה של הצי האמריקאי.",
+     "credit_en": "Image: Naval News",
+     "credit_he": "צילום: Naval News",
+     "local_src": "../digest/2026-11-14-evening/img/j/D1.jpg"
     }
    }
   },
@@ -34568,15 +35161,13 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/us-state-department-sale-of-500-missiles-to-ukraine-for-patriot/",
      "outlet": "Image: Not stated (Militarnyi)",
      "credit_en": "Image: Not stated (Militarnyi)",
-     "credit_he": "תמונה: לא צוין (Militarnyi)",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A1.jpg"
+     "credit_he": "תמונה: לא צוין (Militarnyi)"
     },
     "A2": {
      "url": "https://militarnyi.com/en/news/hypersonic-interceptor-patriot-usa-660-million-pac-3-edge/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A2.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "A3": {
      "url": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html",
@@ -34589,13 +35180,15 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.arabnews.pk/pakistan/coalition-intercepts-houthi-drones-over-riyadh-and-madinah-missile-in-south-3005729",
      "outlet": "Arab News",
      "credit_en": "Image: lead image of the Arab News article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A4.jpg"
     },
     "A6": {
      "url": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A6.jpg"
     },
     "B2": {
      "url": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza",
@@ -34608,7 +35201,8 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.twz.com/news-features/general-atomics-developing-strike-recon-flying-wing-called-nextgen-that-uses-hybrid-electric-propulsion",
      "outlet": "The War Zone",
      "credit_en": "Image: General Atomics, via The War Zone",
-     "credit_he": "תמונה: ‏General Atomics, באמצעות The War Zone"
+     "credit_he": "תמונה: ‏General Atomics, באמצעות The War Zone",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B3.jpg"
     },
     "B4": {
      "url": "https://militarnyi.com/en/news/rafale-m-landing-indian-carrier-ins-vikrant/",
@@ -34628,15 +35222,13 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/new-mokh-module-appears-in-geran-drones-diu/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B6.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "B7": {
      "url": "https://www.twz.com/air/usaf-f-16s-back-on-alert-duty-in-aleutian-islands-for-first-time-in-decades",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B7.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "C1": {
      "url": "https://militarnyi.com/en/news/10000-turbojet-engines-per-year-pbs-group-100-million-us-plant/",
@@ -34656,8 +35248,7 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/satellite-confirm-destruction-2-su-34s-neptune-missiles/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/C3.jpg"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
     },
     "D1": {
      "url": "https://www.thejc.com/news/world/france-euronaval-arms-show-restricts-israeli-companies-gnmts2nm",
@@ -34691,19 +35282,22 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D5.jpg"
     },
     "D6": {
      "url": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
      "outlet": "Naval News",
      "credit_en": "Image: lead image of the Naval News article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Naval News; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Naval News; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D6.jpg"
     },
     "D7": {
      "url": "https://militarnyi.com/en/news/french-aircraft-detected-russian-maritime-drones-early/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D7.jpg"
     },
     "B1": {
      "url": "https://www.einpresswire.com/article/953439001/hades-prototype-1-completes-first-flight-advances-army-deep-sensing-capability",
