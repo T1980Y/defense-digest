@@ -2405,6 +2405,16 @@ window.DEFENSE_BRIEF_FEED = {
      "אישורי הבונדסטאג בדצמבר: צפי לאישור חוזה לווייני ההתרעה SBMD."
     ]
    },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1go3U8segoH6mSu9IP9p08OOghjUBs_yFGEUzAv0D7Js/edit",
+    "he": "https://docs.google.com/document/d/1VPtYiv22rVuHTBuJ54-SwWhC5-19iFVLagvRizoNJMc/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-17_AGY_EN.pdf": "1t6Wq2KylIic2rMWIYn0TJ4X4dXCEHgZf",
+    "Defense_Tech_Digest_2026-11-17_AGY_HE.pdf": "1_6ZqewENug95gSPWCKa9kWaYwD3GfEit",
+    "Defense_Team_Brief_2026-11-17_AGY_EN.pdf": "1xHYoQVhxVWUr43rVo3F_JjpX99dPfe61",
+    "Defense_Team_Brief_2026-11-17_AGY_HE.pdf": "1jtfTfVZpTE1nn_GiZ1yWJwruRZhpOX65"
+   },
    "photos": {
     "A1": {
      "file": "A1.jpg",
