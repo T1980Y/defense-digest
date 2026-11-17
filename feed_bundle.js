@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-17",
+ "updated_at": "2026-11-17-evening",
  "dates": [
   "2026-11-17",
+  "2026-11-17-evening",
   "2026-11-16",
   "2026-11-16-evening",
   "2026-11-15",
@@ -2745,6 +2746,1075 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo via The Maritime Executive",
      "credit_he": "צילום דרך The Maritime Executive",
      "local_src": "../digest/2026-11-17/img/j/D9.jpg"
+    }
+   }
+  },
+  "2026-11-17-evening": {
+   "date": "2026-11-17_evening",
+   "doc_id": "2026-11-17-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-17T15:15:00Z",
+   "wend": "2026-11-17T18:52:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "Air Defense Radars / Multilateral Aid",
+     "typeHe": "מכ\"מי הגנה אווירית / סיוע רב-לאומי",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Germany to supply Ukraine with new radars for future multinational 'Freyja' air defense system",
+      "he": "גרמניה תספק לאוקראינה מכ\"מים חדשים עבור מערכת ההגנה האווירית הרב-לאומית העתידית 'Freyja'"
+     },
+     "what": {
+      "en": "Speaking after the 37th Ukraine Defense Contact Group (Ramstein) meeting in Brussels on November 17, German Defense Minister Boris Pistorius announced that Berlin will provide Ukraine with new high-performance radars to bolster its air situational picture. Pistorius stated these sensors will form a key building block of the future 'Freyja' European air defense system, noting that roughly ten nations are now involved in advancing Freyja alongside ongoing German deliveries of Patriot PAC-2/PAC-3 interceptors, IRIS-T systems, and IRIS-T integration onto Norwegian-supplied NASAMS.",
+      "he": "בתום מפגש קבוצת רמשטיין ה-37 בבריסל ב-17 בנובמבר, הודיע שר ההגנה הגרמני בוריס פיסטוריוס כי ברלין תספק לאוקראינה מכ\"מים חדשים בעלי ביצועים גבוהים לשיפור התמונה האווירית. פיסטוריוס ציין כי המכ\"מים יהוו נדבך מרכזי במערך ההגנה האווירית האירופי העתידי 'Freyja', שבו מעורבות כיום כעשר מדינות, במקביל לאספקת טילי פטריוט PAC-2/PAC-3, מערכות IRIS-T והיערכות לשילוב טילי IRIS-T במשגרי NASAMS מתוצרת נורווגיה."
+     },
+     "figs": {
+      "en": "Supplier / Buyer: Germany (aid package) to Ukraine; ~10 partner nations participating in Freyja development · System: High-performance air-surveillance radars linked to the future multinational Freyja air defense architecture · Additional commitments: PAC-2/PAC-3 Patriot interceptors, IRIS-T systems/missiles, F-16 & drone ammunition, and IRIS-T-on-NASAMS integration · Deal / Report date: Announced November 17, 2026 (post-UDCG press conference); specific radar contract value not disclosed",
+      "he": "‏ספק / לקוח: גרמניה (חבילת סיוע) לאוקראינה; כ-10 מדינות שותפות בקידום מערך Freyja · ‏מערכת: מכ\"מים חדשים לשיפור התמונה האווירית כרכיב מרכזי בארכיטקטורת ההגנה האווירית Freyja · ‏מרכיבים נוספים: טילי פטריוט PAC-2/PAC-3, מערכות וטילי IRIS-T, תחמושת ל-F-16 ולכטב\"מים ושילוב IRIS-T ב-NASAMS · ‏מועד דיווח: 17 בנובמבר 2026 (מסיבת עיתונאים לאחר רמשטיין); שווי חוזה המכ\"מים לא פורסם"
+     },
+     "why": {
+      "en": "Freyja represents Europe's push to build a cost-effective, open-architecture anti-ballistic and air defense 'system of systems' combining national sensors and interceptors rather than relying exclusively on U.S. Patriot batteries. Germany's commitment of high-performance radars anchors European sensor primes (such as Hensoldt) directly into Ukraine's live ballistic-defense testbed.",
+      "he": "פרויקט Freyja מבטא מאמץ אירופי לגבש 'מערכת על' פתוחה וחסכונית ליירוט טילים בליסטיים ואיומים אוויריים, המשלבת חיישנים ומיירטים לאומיים כחלופה משלימה לפטריוט האמריקאי. אספקת המכ\"מים הגרמניים מעגנת את תעשיית החישה האירופית בלב ניסויי השטח החיים באוקראינה."
+     },
+     "israel": {
+      "en": "Highlights accelerating European multi-national modular air defense architectures that directly compete with—or seek interoperability alongside—Israeli offerings like Rafael's David's Sling and IAI's Barak MX in NATO tenders.",
+      "he": "מדגיש את ההאצה בארכיטקטורות הגנה אווירית מודולריות רב-לאומיות באירופה, המתחרות ישירות מול מערכות ישראליות דוגמת קלע דוד של רפאל וברק MX של התעשייה האווירית במכרזי נאט\"ו."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-polytics/4185759-germany-to-supply-ukraine-with-new-radars-for-future-freyja-air-defense-system-pistorius.html"
+      },
+      {
+       "t": "Anadolu Agency",
+       "u": "https://aa.com.tr/en/europe/germany-announces-new-air-defense-aid-package-for-ukraine/4127480"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Announced by German Defense Minister Boris Pistorius at NATO HQ Brussels and verified across Ukrinform and Anadolu Agency.",
+      "he": "מאומת — הוכרז על ידי שר ההגנה הגרמני בוריס פיסטוריוס במטה נאט\"ו בבריסל ואומת בדיווחי Ukrinform ו-Anadolu Agency."
+     },
+     "s": {
+      "en": "Germany pledges high-performance radars to Ukraine for the ~10-nation 'Freyja' European air defense system.",
+      "he": "גרמניה תספק לאוקראינה מכ\"מים חדשים עבור מערכת ההגנה האווירית האירופית 'Freyja' בהשתתפות כ-10 מדינות."
+     },
+     "photo": "img/j/A1.jpg"
+    },
+    {
+     "id": "A2",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "Directed Energy / C-UAS Laser",
+     "typeHe": "אנרגיה מכוונת / לייזר נגד כטב\"מים",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Ukrainian defense firm UFORCE conducts frontline field trials of combat lasers against enemy UAVs",
+      "he": "חברת UFORCE האוקראינית מבצעת ניסויי שטח קרביים במערכות לייזר ליירוט כטב\"מים בחזית"
+     },
+     "what": {
+      "en": "In an interview published by Militarnyi on November 17, UFORCE CEO Oleh Rohynskyi disclosed that the company is conducting frontline field trials of combat laser systems designed to destroy enemy UAVs, reporting high effectiveness during live testing. Rohynskyi stated that UFORCE is cooperating with developer Sunray and will allocate part of its recently raised USD 700M investment round toward both fixed-site rear-area laser defenses and mobile frontline units.",
+      "he": "בריאיון שפורסם ב-Militarnyi ב-17 בנובמבר חשף מנכ\"ל חברת UFORCE אולה רוהינסקי כי החברה מבצעת ניסויי שטח בחזית במערכות לייזר קרביות להפלת כטב\"מים עוינים, ודיווח על יעילות גבוהה בניסויים. לדבריו, UFORCE משתפת פעולה עם חברת הפיתוח Sunray ותקצה חלק מגיוס ההון האחרון שלה (USD 700M) להאצת פיתוח יחידות לייזר נייחות להגנת העורף ויחידות ניידות לקו החזית."
+     },
+     "figs": {
+      "en": "Developer / Partner: UFORCE in cooperation with Sunray · Target set: Enemy unmanned aerial vehicles (UAVs), addressing cost asymmetry between attack drones and kinetic interceptors · Deployment concepts: Fixed-site systems for rear infrastructure protection and mobile units for frontline maneuver forces · Funding allocation: Portion of UFORCE's USD 700M Series A investment; technical power specs undisclosed",
+      "he": "‏מפתח / שותף: UFORCE בשיתוף חברת Sunray · ‏מטרות יעד: כטב\"מים עוינים, לצמצום האסימטריה הכלכלית בין תקיפת כטב\"מים ליירוט קינטי · ‏תצורות פיתוח: מערכות נייחות להגנת מתקני עורף ויחידות ניידות לקו המגע · ‏מימון: חלק מסבב הגיוס של USD 700M של UFORCE; נתוני הספק טכניים לא פורסמו"
+     },
+     "why": {
+      "en": "Active combat-zone field trials of tactical C-UAS lasers demonstrate that directed-energy weapons are moving out of laboratory test ranges into attritional drone warfare. Pairing rapid venture funding with live frontline feedback compresses development cycles for sub-megawatt tactical laser effectors.",
+      "he": "ניסויי שדה מבצעיים של לייזר טקטי נגד רחפנים ממחישים את המעבר של נשק אנרגיה מכוונת ממטווחי ניסוי אל תוך שדה הקרב השוחק. שילוב של הון סיכון רחב-היקף עם משוב ישיר מהחזית מקצר משמעותית את מחזורי הפיתוח של מערכות לייזר טקטיות."
+     },
+     "israel": {
+      "en": "UFORCE's CEO explicitly cited the United States and Israel alongside Ukraine as the only nations with proven combat laser experience—underscoring Rafael's Iron Beam operational benchmark while signaling emerging lower-cost European tactical laser competitors.",
+      "he": "מנכ\"ל UFORCE ציין מפורשות את ארה\"ב וישראל לצד אוקראינה כמדינות היחידות בעלות ניסיון קרבי מוכח בלייזר – תזכורת למעמדה המוביל של מערכת 'אור איתן' (מגן אור) של רפאל לצד כניסת מתחרים אירופיים חדשים."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/uforce-tests-combat-lasers-against-uavs-on-the-front-line/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED (company disclosure) — Single-source interview with UFORCE CEO Oleh Rohynskyi published by Militarnyi.",
+      "he": "מאומת (הצהרת חברה) — מקור יחיד: ריאיון עם מנכ\"ל UFORCE שפורסם ב-Militarnyi."
+     },
+     "s": {
+      "en": "Ukraine's UFORCE reports successful frontline field trials of combat lasers against enemy UAVs.",
+      "he": "חברת UFORCE האוקראינית מדווחת על ניסויי שטח מוצלחים בחזית במערכות לייזר נגד כטב\"מים."
+     },
+     "photo": "img/j/A2.jpg"
+    },
+    {
+     "id": "A3",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Finland / NATO",
+     "countryHe": "פינלנד / נאט\"ו",
+     "type": "Airborne Passive Radar / C-UAS Sensor",
+     "typeHe": "מכ\"ם פסיבי מוטס / חישת כטב\"מים",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Finnish startup Kelluu unveils HALO hydrogen airship with hull-integrated passive radar for NATO eastern flank C-UAS",
+      "he": "חברת Kelluu הפינית חושפת את ספינת האוויר HALO בעלת מכ\"ם פסיבי מובנה בגוף לזיהוי רחפנים בגבול נאט\"ו"
+     },
+     "what": {
+      "en": "Finnish autonomous airship maker Kelluu unveiled its 'HALO' airborne passive-radar platform ahead of NATO EDGE 26 in İzmir, Türkiye (Nov 17–19). By integrating passive radar antennas directly into the hull of its hydrogen-powered autonomous airships—which operate at 50–1,000 meters for 12-hour sorties (with 36-hour models in testing)—HALO detects low-flying non-emitting drones using ambient TV, radio, and cellular reflections while more than doubling ground-based passive radar range.",
+      "he": "חברת Kelluu הפינית חשפה לקראת כנס NATO EDGE 26 באיזמיר (17–19 בנובמבר) את פלטפורמת HALO – ספינת אוויר אוטונומית מונעת במימן בעלת אנטנות מכ\"ם פסיבי המשולבות ישירות במעטפת הגוף. הפלטפורמה, הפועלת בגובה 50–1,000 מטר למשימות של 12 שעות (עד 36 שעות בדור הבא), קולטת החזרי אותות שידור אזרחיים וסלולריים לגילוי רחפנים מנמיכי-טוס ללא פליטת קרינה עצמית, ומכפילה יותר מפי שניים את טווח המכ\"ם הפסיבי הקרקעי."
+     },
+     "figs": {
+      "en": "Manufacturer / Debut: Kelluu (Joensuu, Finland, 60 km from Russian border); unveiled ahead of NATO EDGE 26 (Nov 17–19, 2026) · Platform & endurance: Hydrogen autonomous airship, 50–1,000 m altitude, 12-hour sortie endurance (36-hour next-gen testing), -36C to +40C operating window · Sensor tech: Hull-integrated passive bistatic/multistatic radar exploiting ambient radio, TV, and mobile signals (zero RF emission) · Deployment roadmap: Closed five-nation NATO pilot scheduled for early 2027 after 16 NATO exercises including NATO FUSE in Latvia",
+      "he": "‏יצרן / חשיפה: Kelluu (יואנסו, פינלנד, 60 ק\"מ מגבול רוסיה); נחשפה לקראת NATO EDGE 26 · ‏ביצועי פלטפורמה: ספינת אוויר מימן אוטונומית, גובה 50–1,000 מ', שהייה 12 שעות (ניסויי דור הבא עד 36 שעות), טווח טמפרטורות ‎-36°C עד +40°C · ‏חיישן: מכ\"ם פסיבי משולב-גוף המנצל אותות רדיו, טלוויזיה וסלולר סביבתיים ללא פליטת RF · ‏לו\"ז מבצעי: פיילוט סגור בהשתתפות 5 מדינות נאט\"ו בתחילת 2027 לאחר 16 תרגילי נאט\"ו"
+     },
+     "why": {
+      "en": "Ground-based passive radars suffer severe radar-horizon clipping against terrain-hugging drones and cruise missiles, while active emitters draw anti-radiation and FPV strikes. Elevating a zero-emission passive array on a low-cost persistent airship creates an attritable, survivable gap-filler sensor layer along NATO's eastern flank.",
+      "he": "מכ\"מים פסיביים קרקעיים מוגבלים מאוד על ידי עקמומיות כדור הארץ מול רחפנים וטילי שיוט מנמיכי-טוס, בעוד מכ\"מים פעילים חשופים לחימושים נגד-קרינה. העלאת מערך פסיבי חסר-פליטה לגובה על גבי ספינת אוויר זולה מספקת שכבת גילוי שרידה למילוי פערי כיסוי בגבול המזרחי."
+     },
+     "israel": {
+      "en": "Relevant benchmark for Israeli persistent aerostat and passive-sensing programs (including IAI/Elta border surveillance balloons and non-emitting C-UAS sensor fusion) facing low-RCS drone threats.",
+      "he": "רלוונטי להשוואה מול מערכי הבלונים התצפיתיים והחישה הפסיבית של ישראל (אלביט, תע\"א/אלתא) להתמודדות עם חדירת רחפנים בעלי חתימת מכ\"ם נמוכה."
+     },
+     "src": [
+      {
+       "t": "DroneXL",
+       "u": "https://dronexl.co/2026/11/16/kelluu-halo-airship-passive-radar-nato-eastern-flank/"
+      },
+      {
+       "t": "Defense WarRoom",
+       "u": "https://defensewarroom.com/2026/11/16/kelluu-halo-passive-radar-hydrogen-airship/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Reported across DroneXL and Defense WarRoom (also covered by Janes on Nov 17).",
+      "he": "מאומת — אומת בדיווחי DroneXL ו-Defense WarRoom (וסוקר גם ב-Janes ב-17 בנובמבר)."
+     },
+     "s": {
+      "en": "Finland's Kelluu unveils HALO hydrogen airship with hull-integrated passive radar ahead of NATO EDGE 26.",
+      "he": "חברת Kelluu הפינית חשפה את ספינת האוויר HALO בעלת מכ\"ם פסיבי מובנה לקראת כנס NATO EDGE 26."
+     },
+     "photo": "img/j/A3.jpg"
+    },
+    {
+     "id": "A4",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "Interceptor Stockpile Swap Proposal",
+     "typeHe": "הצעת החלפת מלאי מיירטים",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Zelenskyy proposes swapping partner Patriot and IRIS-T interceptor stockpiles for future production deliveries at Ramstein",
+      "he": "זלנסקי מציע ברמשטיין עסקת חליפין של מיירטי פטריוט ו-IRIS-T ממלאי השותפות תמורת משלוחי ייצור עתידיים"
+     },
+     "what": {
+      "en": "Addressing the 37th Ramstein Ukraine Defense Contact Group meeting on November 17, Ukrainian President Volodymyr Zelenskyy proposed exchanging Patriot and IRIS-T interceptors from partner nations' active stockpiles for newer missiles Ukraine has already ordered for later delivery, while warning that F-16 maintenance downtime requires a larger fighter fleet.",
+      "he": "בנאום וידאו במפגש רמשטיין ה-37 ב-17 בנובמבר הציע נשיא אוקראינה וולודימיר זלנסקי להחליף מיירטי פטריוט ו-IRIS-T מהמלאים הזמינים של מדינות שותפות תמורת טילים חדשים יותר שכבר הוזמנו עבור אוקראינה לאספקה עתידית, והתריע כי זמני התחזוקה של מטוסי F-16 מחייבים הגדלת סד\"כ המטוסים."
+     },
+     "figs": {
+      "en": "Briefly noted in the digest. · Systems referenced: Patriot (PAC-2/PAC-3) and IRIS-T surface-to-air interceptors; F-16 fleet availability",
+      "he": "צוין בקצרה בסקירה. · ‏מערכות: מיירטי פטריוט ו-IRIS-T; זמינות מבצעית ותחזוקת מטוסי F-16"
+     },
+     "why": {
+      "en": "Briefly noted in the digest. Underscores severe near-term interceptor queue bottlenecks ahead of winter infrastructure bombardments despite multi-billion-dollar factory expansions.",
+      "he": "צוין בקצרה בסקירה. מדגיש את צווארי הבקבוק החריפים באספקת מיירטים בטווח המיידי לקראת החורף למרות הרחבת קווי הייצור."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-ato/4185731-ramstein-zelensky-proposes-swapping-partners-patriot-and-irist-missile-stockpiles-for-future-deliveries.html"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Presidential video address at 37th UDCG reported by Ukrinform.",
+      "he": "מאומת — נאום הנשיא במפגש רמשטיין ה-37 בדיווח Ukrinform."
+     },
+     "s": {
+      "en": "Zelenskyy proposes swapping allies' existing Patriot and IRIS-T missiles for Ukraine's future production orders.",
+      "he": "זלנסקי הציע ברמשטיין החלפת מיירטי פטריוט ו-IRIS-T ממלאי בעלות הברית תמורת הזמנות ייצור עתידיות."
+     },
+     "photo": "img/j/A4.jpg"
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel / Brazil",
+     "countryHe": "ישראל / ברזיל",
+     "type": "Israeli UAV Export Delivery / Logistics",
+     "typeHe": "אספקת כטב\"ם ישראלי / תובלה צבאית",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Brazilian Air Force KC-390 lands at Ben Gurion Airport to collect replacement Elbit Hermes 900 (RQ-900) UAV",
+      "he": "מטוס KC-390 של חיל האוויר הברזילאי נחת בנתב\"ג לאיסוף כטב\"ם אלביט הרמס 900 (RQ-900) חלופי"
+     },
+     "what": {
+      "en": "A Brazilian Air Force Embraer KC-390 military transport aircraft made an unusual direct flight to Israel's Ben Gurion Airport via Greece on November 16 to collect a replacement Elbit Systems Hermes 900 drone, designated RQ-900 in Brazilian service. For operational security, the Brazilian crew avoided staying overnight and departed immediately after loading the UAV, which replenishes Brazil's Hermes 900 fleet after two crashes in 2024 and early 2026.",
+      "he": "מטוס תובלה צבאי מדגם Embraer KC-390 של חיל האוויר הברזילאי ביצע ב-16 בנובמבר נחיתה חריגה בנמל התעופה בן גוריון (לאחר עצירת ביניים ביוון) כדי לאסוף כטב\"ם הרמס 900 (RQ-900) מתוצרת אלביט מערכות. מטעמי אבטחה הצוות לא לן בישראל והמריא מיד עם העמסת הכלי, המיועד לשקם את צי ה-RQ-900 של ברזיל לאחר שני אובדנים בתאונות ב-2024 ובתחילת 2026."
+     },
+     "figs": {
+      "en": "Supplier / Buyer: Elbit Systems (Israel) to Força Aérea Brasileira / Brazilian Air Force · System: Hermes 900 MALE UAS (Brazilian designation RQ-900), transported aboard Embraer KC-390 · Fleet context: Replaces two RQ-900 losses (2024 Rio Grande do Sul flood rescue crash and early 2026 exercise crash) · Deal / Contract value: Not reported; flight occurred Nov 16 and reported Nov 17, 2026",
+      "he": "‏ספק / לקוח: אלביט מערכות (ישראל) לחיל האוויר הברזילאי · ‏מערכת: כטב\"ם MALE מדגם הרמס 900 (סימון ברזילאי RQ-900), הועמס במטוס Embraer KC-390 · ‏רקע מבצעי: משלים שתי תאונות אובדן של כטב\"מי RQ-900 בברזיל (2024 ותחילת 2026) · ‏שווי עסקה: לא פורסם; הטיסה התקיימה ב-16 בנובמבר והדיווח פורסם ב-17 בנובמבר 2026"
+     },
+     "why": {
+      "en": "Demonstrates the stickiness of long-term Israeli unmanned aircraft fleets in Latin America: despite sharp diplomatic friction between Brasilia and Jerusalem over the Gaza war, Brazil's Air Force relies on Elbit Systems for urgent attrition replacement and operational continuity.",
+      "he": "ממחיש את העמידות של ציי הכטב\"מים הישראליים באמריקה הלטינית: חרף המתיחות המדינית החריפה בין ממשלת ברזיל לישראל, חיל האוויר הברזילאי נסמך על אלביט מערכות להשלמת סד\"כ מהירה ושמירה על רציפות מבצעית."
+     },
+     "israel": {
+      "en": "Confirms ongoing export deliveries and sustainment support by Elbit Systems to Brazil's RQ-900 ISR fleet even under strained bilateral political ties.",
+      "he": "מאשר המשך אספקות ותחזוקה בפועל של אלביט מערכות למערך ה-RQ-900 הברזילאי גם תחת אילוצים פוליטיים ודיפלומטיים."
+     },
+     "src": [
+      {
+       "t": "Israel Defense",
+       "u": "https://www.israeldefense.co.il/node/72899"
+      },
+      {
+       "t": "Jfeed",
+       "u": "https://www.jfeed.com/news-world/tolw9k"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated by Israel Defense and Jfeed (citing Brazilian defense aviation tracking).",
+      "he": "מאומת — אומת בדיווחי Israel Defense ו-Jfeed (על בסיס מעקב תעופה ביטחונית ברזילאי)."
+     },
+     "s": {
+      "en": "Brazilian Air Force KC-390 picks up replacement Elbit Hermes 900 UAV at Ben Gurion Airport.",
+      "he": "מטוס KC-390 ברזילאי אסף כטב\"ם אלביט הרמס 900 חלופי מנתב\"ג."
+     },
+     "photo": "img/j/B1.jpg"
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Germany",
+     "countryHe": "גרמניה",
+     "type": "C4ISR / Drone Battle Management",
+     "typeHe": "שו\"ב קרב / ניהול לוחמת רחפנים",
+     "date": "2026-11-17",
+     "h": {
+      "en": "German Bundeswehr tests Ukraine's DELTA battle management system in drone warfare exercise and moves toward joint adoption",
+      "he": "הבונדסוור הגרמני בחן את מערכת ניהול הקרב האוקראינית DELTA בתרגיל לוחמת רחפנים ומתקדם לקראת אימוץ משותף"
+     },
+     "what": {
+      "en": "German Defense Minister Boris Pistorius disclosed on November 17 at the 37th Ramstein meeting in Brussels that the German Army tested Ukraine's DELTA digital battlefield management system last month during a modern drone-warfare exercise alongside European partners and Ukrainian instructors. Pistorius said Germany wants to jointly develop the system further with Kyiv and test its adoption inside the Bundeswehr.",
+      "he": "שר ההגנה הגרמני בוריס פיסטוריוס חשף ב-17 בנובמבר בפתיחת מפגש רמשטיין ה-37 בבריסל כי צבא גרמניה בחן בחודש שעבר את מערכת ניהול הקרב הדיגיטלית האוקראינית DELTA במסגרת תרגיל לוחמת רחפנים מתקדמת בהשתתפות שותפים אירופיים ומדריכים אוקראינים. פיסטוריוס הדגיש כי גרמניה מעוניינת לפתח את המערכת במשותף עם קייב ולבחון את שילובה בבונדסוור."
+     },
+     "figs": {
+      "en": "User / Developer: German Bundeswehr evaluating Ukraine MoD's DELTA situational-awareness and drone-C2 network · Capabilities: Real-time fusion of UAV video, sensor tracks, and unit positions into one tactical map; NATO CWIX tested since 2019 · Next phase: Joint German-Ukrainian co-development and broader Bundeswehr evaluation trials · Contract value: Evaluation / cooperation phase (no commercial contract value announced)",
+      "he": "‏משתמש / מפתח: הבונדסוור הגרמני בוחן את מערכת השו\"ב DELTA של משרד ההגנה האוקראיני · ‏יכולות: היתוך בזמן אמת של הזנות רחפנים, חיישנים ומיקומי כוחות במפה טקטית אחידה; תואמת נאט\"ו (נבחנה ב-CWIX מאז 2019) · ‏שלב הבא: פיתוח משותף גרמני-אוקראיני והרחבת ניסויי ההטמעה בבונדסוור · ‏שווי עסקה: שלב בחינה ושיתוף פעולה (ללא היקף כספי מדווח)"
+     },
+     "why": {
+      "en": "Signals a rare reversal of NATO technology transfer: instead of imposing multi-billion-dollar legacy Western C4ISR suites, Europe's largest defense spender is turning to Ukraine's combat-hardened DELTA software to solve real-time drone-saturation command and control.",
+      "he": "מאותת על היפוך מגמה נדיר בהעברת טכנולוגיה בנאט\"ו: במקום להישען רק על מערכות שו\"ב מערביות יקרות ואיטיות, הצבא הגרמני פונה לתוכנת DELTA האוקראינית שחושלה בלחימה כדי לפתור את אתגרי הפיקוד והשליטה של שדה קרב רווי רחפנים."
+     },
+     "israel": {
+      "en": "Relevant to Israeli C4ISR exporters (Elbit Torch-X, Rafael Fire Weaver) competing in Europe, as combat-proven Ukrainian software gains rapid credibility among NATO armies.",
+      "he": "רלוונטי ליצואניות השו\"ב הישראליות (אלביט Torch-X, רפאל Fire Weaver) באירופה, נוכח ההכרה הגוברת של צבאות נאט\"ו בתוכנות אוקראיניות מנוסות-קרב."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/german-army-tested-ukraines-delta-battle-system/"
+      },
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-ato/4185739-bundeswehr-tests-ukraines-delta-system-considers-adopting-it-pistorius.html"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Direct ministerial statement by Boris Pistorius verified across Defence Blog and Ukrinform.",
+      "he": "מאומת — הצהרה ישירה של השר פיסטוריוס שאומתה בדיווחי Defence Blog ו-Ukrinform."
+     },
+     "s": {
+      "en": "German Bundeswehr tested Ukraine's DELTA drone-warfare battle system and plans joint adoption work.",
+      "he": "צבא גרמניה בחן את מערכת השו\"ב DELTA של אוקראינה ומקדם פיתוח ושילוב שלה בבונדסוור."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Sweden / UK / Ukraine",
+     "countryHe": "שבדיה / בריטניה / אוקראינה",
+     "type": "Fighter Weapons Integration / LoI",
+     "typeHe": "חימוש מטוסי קרב / מכתב כוונות",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Sweden, UK, and Ukraine sign trilateral Letter of Intent to arm Ukraine's 32-aircraft Gripen C/D and E/F fleet",
+      "he": "שבדיה, בריטניה ואוקראינה חתמו על מכתב כוונות משולש לחימוש ותמיכה בצי 32 מטוסי הגריפן של אוקראינה"
+     },
+     "what": {
+      "en": "On November 17 at the Ukraine Defense Contact Group in Brussels, Swedish Defense Minister Pål Jonson, UK Defence Secretary Wes Streeting, and Ukrainian Defense Minister Evgeniy Khmara signed a trilateral Letter of Intent to procure, integrate, and synchronize weapons, ammunition, training, and spare parts for Ukraine's future Saab JAS 39 Gripen fleet. The pact covers 16 Gripen C/D fighters donated by Sweden, 16 Gripen E/F jets Kyiv is purchasing, and future orders; Ukraine highlighted MBDA Meteor beyond-visual-range air-to-air missiles as its top priority.",
+      "he": "ב-17 בנובמבר חתמו בבריסל שרי ההגנה של שבדיה, בריטניה ואוקראינה על מכתב כוונות משולש לתיאום רכש, אספקה, הכשרות ושילוב של חימוש, תחמושת וחלפים עבור צי מטוסי ה-JAS 39 גריפן העתידי של אוקראינה. ההסכם מכסה 16 מטוסי גריפן C/D בתרומה שבדית, 16 מטוסי גריפן E/F ברכש אוקראיני והזמנות עתידיות, כאשר קייב סימנה את טילי האוויר-אוויר ארוכי הטווח Meteor בעדיפות עליונה."
+     },
+     "figs": {
+      "en": "Signatories: Sweden, United Kingdom, Ukraine (signed Nov 17, 2026 at 37th UDCG, Brussels) · Fleet covered: 16 donated Gripen C/D + 16 purchased Gripen E/F (32 fighters total) plus follow-on orders · Industrial link: Over 30% of Gripen components manufactured in the UK; builds on UK EUR 300M Gripen pledge · Priority munition: Ukraine seeks Meteor BVR air-to-air missiles to counter Russian glide-bomb aircraft (Meteor transfer not yet confirmed)",
+      "he": "‏צדדים להסכם: שבדיה, בריטניה ואוקראינה (נחתם ב-17 בנובמבר 2026 במפגש רמשטיין בבריסל) · ‏היקף הצי: 16 מטוסי גריפן C/D מתרומת שבדיה + 16 מטוסי גריפן E/F ברכש אוקראיני (32 מטוסים בסך הכל) · ‏רקע תעשייתי: מעל 30% מרכיבי הגריפן מיוצרים בבריטניה; ממשיך התחייבות בריטית של EUR 300M לתוכנית · ‏חימוש מועדף: אוקראינה מבקשת טילי Meteor ליירוט מטוסים משגרי פצצות גלישה (טרם אושרה אספקתם)"
+     },
+     "why": {
+      "en": "Synchronizing weapons and spares ahead of airframe handovers prevents Ukraine's Gripen transition from repeating the munition bottlenecks experienced on early F-16 deliveries. If Meteor integration is approved, Gripen E/F would give Kyiv an active-radar BVR missile capable of pushing Russian UMPK glide-bomb carriers well back from the front.",
+      "he": "סנכרון חבילות החימוש והחלפים במקביל להגעת המטוסים נועד למנוע את צווארי הבקבוק שנרשמו בתחילת קליטת ה-F-16. אישור עתידי של טילי Meteor על גבי גריפן E/F יעניק לאוקראינה יכולת אוויר-אוויר ארוכת טווח לדחיקת מטוסי התקיפה הרוסיים הנושאים פצצות גלישה."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets/"
+      },
+      {
+       "t": "UNITED24 Media",
+       "u": "https://united24media.com/war-in-ukraine/ukraine-sweden-and-uk-move-to-arm-gripen-jets-with-cutting-edge-meteor-missiles-24465"
+      },
+      {
+       "t": "Nordic Defence Sector",
+       "u": "https://nordicdefencesector.com/en/article/sweden-uk-and-ukraine-sign-agreement-on-gripen-weapons-supply"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Trilateral signing verified across Defence Blog, UNITED24 Media, and Nordic Defence Sector.",
+      "he": "מאומת — החתימה המשולשת אומתה בדיווחי Defence Blog, UNITED24 Media ו-Nordic Defence Sector."
+     },
+     "s": {
+      "en": "Sweden, UK, and Ukraine sign Letter of Intent to synchronize weapons and spares for 32 Ukrainian Gripen jets.",
+      "he": "שבדיה, בריטניה ואוקראינה חתמו על מכתב כוונות לסנכרון חימוש וחלפים ל-32 מטוסי גריפן אוקראיניים."
+     },
+     "photo": "img/j/B3.jpg"
+    },
+    {
+     "id": "B4",
+     "domain": "aerial",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Bomber Weapons Pylon / Critical Design Review",
+     "typeHe": "מנשא חימוש למפציץ / סקירת תכן קריטית",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Boeing B-1B Load Adaptable Modular (LAM) pylon clears Critical Design Review, advancing 50% payload boost and external hypersonic carriage",
+      "he": "מנשא החימוש החיצוני LAM של בואינג למפציץ B-1B עבר סקירת תכן קריטית (CDR) בדרך להגדלת הנשיאה ב-50%"
+     },
+     "what": {
+      "en": "Boeing Defense announced on November 17 that its Load Adaptable Modular (LAM) external pylon for the U.S. Air Force B-1B Lancer bomber cleared Critical Design Review (CDR), moving the program into hardware and software build and testing. Following its May 2026 Preliminary Design Review, the LAM pylon restores six dormant external fuselage hardpoints originally built for Cold War ALCM carriage, enabling a ~50% weapons capacity increase (up to 36 precision munitions) or external carriage of outsized hypersonic and standoff missiles.",
+      "he": "חטיבת הביטחון של בואינג הודיעה ב-17 בנובמבר כי מנשא החימוש המודולרי החיצוני LAM (Load Adaptable Modular) למפציצי B-1B לאנסר של חיל האוויר האמריקאי עבר בהצלחה סקירת תכן קריטית (CDR), והתוכנית מתקדמת כעת לשלב בניית החומרה והתוכנה והניסויים. המנשא מחבר לשש נקודות תלייה חיצוניות רדומות בגוף המטוס ומגדיל בכ-50% את קיבולת הנשיאה (עד 36 חימושים מדויקים) או נשיאה חיצונית של טילים היפרסוניים וטילי שיוט ארוכים שאינם נכנסים לתאי הפצצות הפנימיים."
+     },
+     "figs": {
+      "en": "Contractor / Customer: Boeing Defense for U.S. Air Force (July 2025 contract; PDR completed May 2026; CDR cleared Nov 2026) · Mount configuration: Six dormant fuselage hardpoints (originally built for nuclear ALCMs prior to START deactivation) · Capacity per pylon: Two 2,000-lb-class (~907 kg) weapons or one heavy hypersonic / outsized standoff missile (up to ~7,500 lb class) · Fleet impact: ~50% precision payload expansion (up to 36 weapons total) to bridge B-1B capability into the 2030s",
+      "he": "‏קבלן / לקוח: בואינג עבור חיל האוויר האמריקאי (חוזה מיולי 2025; PDR במאי 2026; CDR בנובמבר 2026) · ‏תצורה: שימוש בשש נקודות תלייה חיצוניות רדומות מתקופת טילי ה-ALCM בגחון המפציץ · ‏קיבולת מנשא: שני חימושים בקטגוריית 2,000 ליברות (~907 ק\"ג) או טיל היפרסוני/ארוך-טווח כבד אחד · ‏השפעה מבצעית: גידול של כ-50% בנשיאת חימוש מדויק (עד 36 פצצות/טילים) להארכת כשירות הצי עד שנות ה-2030"
+     },
+     "why": {
+      "en": "Clearing CDR unlocks external carriage on the non-nuclear B-1B fleet for long hypersonic boost-glide and scramjet weapons (such as ARRW or HACM-class follow-ons) that exceed internal rotary-launcher bay dimensions, turning the Bone into a high-volume non-stealth standoff missile truck ahead of B-21 maturity.",
+      "he": "מעבר שלב ה-CDR סולל את הדרך לנשיאת טילים היפרסוניים וטילי שיוט גדולי-ממדים (החורגים ממידות תא הפצצות הפנימי) על גבי צי ה-B-1B, והופך אותו לפלטפורמת שיגור עתירת-חימוש לגיבוי עד להבשלת צי ה-B-21."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/b-1-bomber-gets-closer-to-carrying-more-weapons/"
+      },
+      {
+       "t": "X (@NatSecLedger RT @BoeingDefense)",
+       "u": "https://x.com/NatSecLedger/status/2122748218723504582"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official Boeing Defense disclosure reported by Defence Blog.",
+      "he": "מאומת — הודעת Boeing Defense שדווחה ב-Defence Blog."
+     },
+     "s": {
+      "en": "Boeing's B-1B Load Adaptable Modular pylon passes Critical Design Review for 50% payload boost and external hypersonics.",
+      "he": "מנשא ה-LAM של בואינג למפציצי B-1B עבר סקירת תכן קריטית בדרך להגדלת קיבולת החימוש ב-50%."
+     },
+     "photo": "img/j/B4.jpg"
+    },
+    {
+     "id": "B5",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Russia",
+     "countryHe": "רוסיה",
+     "type": "Military Transport Crash",
+     "typeHe": "התרסקות מטוס תובלה צבאי",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Russian military An-12 transport aircraft crashes in Siberia near Kemerovo, killing all 17 aboard",
+      "he": "מטוס תובלה צבאי רוסי מדגם An-12 התרסק בסיביר סמוך לקמרובו; כל 17 הנוסעים ואנשי הצוות נהרגו"
+     },
+     "what": {
+      "en": "A Russian military Antonov An-12 transport aircraft carrying spare parts from Novosibirsk to Kansk crashed in a field near Yagunovo, roughly 5 km from Kemerovo airport in western Siberia on November 17 during an attempted emergency landing after an reported onboard fire, killing all 17 people aboard (earlier initial reports cited 3–13).",
+      "he": "מטוס תובלה צבאי רוסי מדגם אנטונוב An-12 שהוביל חלפים מנובוסיבירסק לקאנסק התרסק ב-17 בנובמבר בשדה ליד הכפר יאגונובו, כ-5 ק\"מ משדה התעופה של קמרובו במערב סיביר, בעת ניסיון נחיתת חירום לאחר דליקה באוויר; כל 17 האנשים שעל הסיפון נהרגו."
+     },
+     "figs": {
+      "en": "Briefly noted in the digest. · Aircraft / Route: Antonov An-12 turboprop transport, Novosibirsk Tolmachevo to Kansk Air Base; 17 fatalities reported",
+      "he": "צוין בקצרה בסקירה. · ‏כלי טיס / מסלול: מטוס תובלה טורבו-פרופ An-12 מנובוסיבירסק לבסיס קאנסק; 17 הרוגים"
+     },
+     "why": {
+      "en": "Briefly noted in the digest. Further degrades Russia's aging Soviet-era military airlift fleet amid sustained wartime sortie rates and sanctions-constrained maintenance.",
+      "he": "צוין בקצרה בסקירה. ממחיש את השחיקה המתמשכת בצי התובלה הצבאי המזדקן של רוסיה תחת עומס המלחמה והסנקציות."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/an-12-aircraft-crashes-in-russia-killing-17/"
+      },
+      {
+       "t": "Ukrinform",
+       "u": "https://www.ukrinform.net/rubric-emergencies/4185741-russian-military-transport-plane-crashes-17-feared-dead.html"
+      },
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/russian-military-plane-crashes-in-siberia-all-aboard-reported-dead/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Verified across Militarnyi, Ukrinform, and Defence Blog citing Kemerovo regional authorities and Russian media.",
+      "he": "מאומת — אומת בדיווחי Militarnyi, Ukrinform ו-Defence Blog על בסיס הרשויות במחוז קמרובו."
+     },
+     "s": {
+      "en": "Russian military An-12 transport carrying spare parts crashes near Kemerovo in Siberia, killing all 17 aboard.",
+      "he": "מטוס תובלה צבאי רוסי An-12 שהוביל חלפים התרסק ליד קמרובו בסיביר; 17 נהרגו."
+     },
+     "photo": "img/j/B5.jpg"
+    },
+    {
+     "id": "B6",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Ireland",
+     "countryHe": "ארצות הברית / אירלנד",
+     "type": "Airbase Security / Aircraft Sabotage",
+     "typeHe": "אבטחת בסיסים / חבלה במטוס צבאי",
+     "date": "2026-11-17",
+     "h": {
+      "en": "U.S. indicts Irish national for USD 60M sabotage of Air National Guard C-130H at Shannon Airport",
+      "he": "ארה\"ב הגישה כתב אישום נגד אזרח אירי בגין חבלה בשווי USD 60M שהשביתה מטוס C-130H של המשמר הלאומי באירלנד"
+     },
+     "what": {
+      "en": "Federal prosecutors in New York unsealed an indictment on November 17 charging 48-year-old Irish national Daithi O'Corrain with destroying a U.S. Air National Guard C-130H Hercules parked at Shannon Airport on April 11, 2026, after allegedly breaching the perimeter fence, severing wiring and hydraulic lines, smashing cockpit gauges, and deploying liquid gallium to corrode the airframe—rendering the USD 60M aircraft a total write-off.",
+      "he": "התביעה הפדרלית בניו יורק חשפה ב-17 בנובמבר כתב אישום נגד אזרח אירי בן 48 בגין השבתה מוחלטת של מטוס תובלה C-130H של המשמר הלאומי האמריקאי בשדה התעופה שאנון באירלנד ב-11 באפריל 2026, לאחר שפרץ את גדר ההיקף, חתך צמות חיווט וצנרת הידראולית, ניפץ את מכשירי הקוקפיט והשתמש בגליום נוזלי לאיכול שלדת האלומיניום (נזק של USD 60M)."
+     },
+     "figs": {
+      "en": "Briefly noted in the digest. · Aircraft / Damage: U.S. Air National Guard C-130H Hercules; USD 60M write-off; maximum 10-year federal sentence",
+      "he": "צוין בקצרה בסקירה. · ‏כלי טיס / נזק: מטוס C-130H של המשמר הלאומי האמריקאי; הושבת לחלוטין בנזק של USD 60M"
+     },
+     "why": {
+      "en": "Briefly noted in the digest. Exposes acute physical security vulnerabilities for Western military aircraft transiting civilian airfields and highlights deliberate use of gallium against aluminum airframes.",
+      "he": "צוין בקצרה בסקירה. חושף פגיעות אבטחה חמורה של מטוסים צבאיים מערביים בנחיתות ביניים בשדות תעופה אזרחיים."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "U.S. Department of Justice (SDNY)",
+       "u": "https://www.justice.gov/usao-sdny/pr/irish-national-indicted-destroying-60-million-us-military-c-130h-aircraft-shannon"
+      },
+      {
+       "t": "Defence Blog",
+       "u": "https://defence-blog.com/u-s-charges-irish-man-with-destroying-air-force-plane/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official U.S. Department of Justice SDNY release and Defence Blog coverage.",
+      "he": "מאומת — הודעת משרד המשפטים האמריקאי ודיווח Defence Blog."
+     },
+     "s": {
+      "en": "U.S. DOJ indicts Irish man for USD 60M sabotage using wire cutters and gallium against USAF C-130H in Shannon.",
+      "he": "ארה\"ב הגישה כתב אישום בגין חבלה בשווי USD 60M שהשביתה מטוס C-130H אמריקאי באירלנד."
+     },
+     "photo": "img/j/B6.jpg"
+    },
+    {
+     "id": "C1",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel / United States",
+     "countryHe": "ישראל / ארצות הברית",
+     "type": "Loitering Munition EW/Cyber Software Order",
+     "typeHe": "הזמנת תוכנת ל\"א וסייבר לחימוש משוטט",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Israeli-founded Mobilicom secures USD 863K follow-on order for ICE EW/cyber software on U.S. loitering munition Program of Record",
+      "he": "מובליקום הישראלית-אמריקאית זכתה בהזמנת המשך של USD 863K לתוכנת ל\"א וסייבר בחימוש משוטט של משרד המלחמה האמריקאי"
+     },
+     "what": {
+      "en": "Israeli-founded defense tech firm Mobilicom Limited announced on November 17 a follow-on production order worth approximately USD 863,000 from a U.S. Tier-1 defense prime for integration into a loitering munition platform under a U.S. Department of War Program of Record (POR). The contract covers Professional-tier licenses of Mobilicom's ICE cybersecurity and electronic warfare resilience software bundled with its datalinks, lifting cumulative POR orders since Q4 2025 to roughly USD 4.7M as monthly deliveries continue.",
+      "he": "חברת הטכנולוגיה הביטחונית מובליקום (Mobilicom) מייסוד ישראלי הודיעה ב-17 בנובמבר על קבלת הזמנת ייצור נוספת בהיקף כ-USD 863,000 מקבלן ביטחוני אמריקאי מוביל (Tier-1) לשילוב בפלטפורמת חימוש משוטט במסגרת תוכנית שיא (Program of Record) של משרד המלחמה האמריקאי. ההזמנה כוללת רישיונות תוכנת סייבר ועמידות ל\"א מסוג ICE בגרסת Professional, ומעלה את צבר ההזמנות המצטבר בתוכנית מאז הרבעון הרביעי של 2025 לכ-USD 4.7M תוך אספקה חודשית שוטפת."
+     },
+     "figs": {
+      "en": "Seller / Buyer: Mobilicom Limited to undisclosed U.S. Tier-1 defense contractor (for U.S. DoW Program of Record) · System: ICE cybersecurity and EW-resilient software (upgraded Professional tier) integrated into loitering munition datalink architecture · Value: USD 863K follow-on order; ~USD 4.7M cumulative POs under this POR since Q4 2025 · Deal / Report date: Reported November 17, 2026; monthly production deliveries ongoing",
+      "he": "‏ספק / לקוח: Mobilicom לקבלן ביטחוני אמריקאי Tier-1 (עבור תוכנית שיא של משרד המלחמה האמריקאי) · ‏מערכת: תוכנת סייבר והגנת ל\"א ICE (שדרוג לגרסת Professional) לערוצי קשר של חימוש משוטט · ‏היקף כספי: הזמנת המשך של USD 863K; צבר מצטבר של כ-USD 4.7M בתוכנית מאז רבעון 4 של 2025 · ‏מועד דיווח: 17 בנובמבר 2026; אספקות חודשיות שוטפות"
+     },
+     "why": {
+      "en": "Illustrates how Israeli-developed tactical datalink encryption and anti-jamming software are moving into recurring high-margin software licensing inside U.S. loitering munition production lines, where RF survivability against GPS/datalink jamming dictates terminal hit rates.",
+      "he": "ממחיש את החדירה של תוכנות ישראליות להצפנת ערוצי קשר ושרידות בלוחמה אלקטרונית לרישיונות תוכנה חוזרים בקווי הייצור של חימושים משוטטים אמריקאיים, שבהם שרידות ה-RF מול חסימות קובעת את אחוזי הפגיעה."
+     },
+     "israel": {
+      "en": "Direct recurring production win for an Israeli-founded defense-tech supplier inside a U.S. loitering munition Program of Record, expanding software revenue per airframe.",
+      "he": "הצלחת ייצור ישירה ומתמשכת לספקית טכנולוגיה ביטחונית ישראלית-שורשית בתוך תוכנית שיא אמריקאית לחימוש משוטט."
+     },
+     "src": [
+      {
+       "t": "Morningstar / GlobeNewswire",
+       "u": "https://www.morningstar.com/news/globe-newswire/9879373/mobilicom-secures-863000-in-follow-on-orders-for-us-dow-program-of-record-bringing-cumulative-orders-to-47-million-as-monthly-deliveries-continue"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED (company release) — Official GlobeNewswire release syndicated by Morningstar. Item omitted image cleanly (release page carries publisher logo only).",
+      "he": "מאומת (הודעת חברה) — הודעה רשמית של GlobeNewswire שפורסמה ב-Morningstar. ללא תמונה מוטמעת (דף המקור מכיל לוגו בלבד)."
+     },
+     "s": {
+      "en": "Israeli-founded Mobilicom wins USD 863K follow-on ICE EW/cyber software order for U.S. loitering munition Program of Record.",
+      "he": "מובליקום זכתה בהזמנת המשך של USD 863K לתוכנת ל\"א וסייבר ICE עבור חימוש משוטט אמריקאי."
+     }
+    },
+    {
+     "id": "C2",
+     "domain": "strike",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "NATO / Germany / South Korea",
+     "countryHe": "נאט\"ו / גרמניה / דרום קוריאה",
+     "type": "Responsive Space Launch / Early Warning",
+     "typeHe": "שיגור חלל צבאי / התרעה וניטור",
+     "date": "2026-11-17",
+     "h": {
+      "en": "NATO formally launches 11-nation 'STARLIFT' responsive military satellite launch initiative via NSPA",
+      "he": "נאט\"ו השיקה רשמית את מיזם שיגור הלוויינים הצבאי הרב-לאומי STARLIFT בהובלת NSPA ובהשתתפות 11 מדינות"
+     },
+     "what": {
+      "en": "At the NATO EDGE 26 conference in İzmir on November 17, NATO announced the formal implementation of STARLIFT, an 11-nation space launch brokerage initiative run through the NATO Support and Procurement Agency (NSPA). Ten NATO allies—Belgium, Canada, Finland, Germany, Italy, the Netherlands, Norway, Sweden, Türkiye, and the UK—plus South Korea committed funding to pool commercial rocket launch demand and test short-notice responsive space launches across allied spaceports, while original 2024 conceptual members France, Hungary, Luxembourg, and the United States were absent.",
+      "he": "בכנס NATO EDGE 26 באיזמיר ב-17 בנובמבר הכריזה נאט\"ו על הפעלת מיזם STARLIFT בהובלת סוכנות הרכש של נאט\"ו (NSPA). עשר בעלות ברית—בלגיה, קנדה, פינלנד, גרמניה, איטליה, הולנד, נורווגיה, שבדיה, טורקיה ובריטניה—לצד דרום קוריאה (מדינה שותפה ראשונה מחוץ לברית) התחייבו למימון המיזם שיאגד ביקושים לשיגור מסחרי של לווייני קשר, מודיעין והתרעה ויתרגל שיגור מהיר בשעת משבר. צרפת, הונגריה, לוקסמבורג וארה\"ב נעדרות מרשימת המממנות הנוכחית."
+     },
+     "figs": {
+      "en": "Participants (11): Belgium, Canada, Finland, Germany, Italy, Netherlands, Norway, Sweden, Türkiye, UK, and partner South Korea · Executing agency: NATO Support and Procurement Agency (NSPA); funding commitment signed Oct 29 and announced Nov 17, 2026 · Mission scope: Pooled commercial launch slots and short-notice responsive launch exercises for ISR, comms, PNT, and early-warning satellites · Notable absences & cost: U.S., France, Hungary, and Luxembourg did not join this phase; financial contribution totals undisclosed",
+      "he": "‏משתתפות (11): גרמניה, בריטניה, איטליה, טורקיה, נורווגיה, שבדיה, פינלנד, בלגיה, הולנד, קנדה ודרום קוריאה · ‏סוכנות מבצעת: NSPA (הסוכנות לתמיכה ורכש של נאט\"ו); הסכם המימון נחתם ב-29 באוקטובר והוכרז ב-17 בנובמבר · ‏ייעוד: איחוד חוזי שיגור מסחריים ותרגול שיגור חלל מהיר (Responsive Launch) ללווייני מודיעין, קשר, ניווט והתרעה · ‏היעדרויות ועלות: ארה\"ב, צרפת, הונגריה ולוקסמבורג אינן משתתפות בשלב זה; תקציב המיזם לא נחשף"
+     },
+     "why": {
+      "en": "With U.S. launch bottlenecks underscored by yesterday's ULA Vulcan orbital failure and growing anti-satellite threats, European allies and South Korea are pooling sovereign demand to guarantee rapid satellite replenishment and tactical launch responsiveness independent of Washington or Paris.",
+      "he": "על רקע צווארי הבקבוק ביכולות השיגור של ארה\"ב (שהומחשו בכישלון Vulcan אתמול) והתגברות האיומים נגד לוויינים, בעלות הברית באירופה ודרום קוריאה מאגדות ביקושי שיגור עצמאיים להבטחת יתירות והחלפה מהירה של מערכי חלל צבאיים."
+     },
+     "israel": {
+      "en": "Highlights growing international appetite for rapid-turnaround small/medium military satellite launch ecosystems (where Israel's Shavit heritage and IAI/Rafael space assets operate) alongside South Korea's deepening NATO space integration.",
+      "he": "מדגיש את הביקוש הגובר ליכולות שיגור לוויינים מהירות ויתירות ואת העמקת שיתוף הפעולה של דרום קוריאה עם נאט\"ו בתחום החלל הצבאי."
+     },
+     "src": [
+      {
+       "t": "NATO",
+       "u": "https://www.nato.int/en/news-and-events/articles/news/2026/11/17/natos-multinational-space-initiative-starlift-begins"
+      },
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/nato-kicks-off-11-nation-starlift-satellite-launch-program/"
+      },
+      {
+       "t": "UK Defence Journal",
+       "u": "https://ukdefencejournal.org.uk/uk-among-nations-part-of-nato-starlift-launch-plan/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official NATO release corroborated by Breaking Defense and UK Defence Journal.",
+      "he": "מאומת — הודעה רשמית של נאט\"ו שאומתה בדיווחי Breaking Defense ו-UK Defence Journal."
+     },
+     "s": {
+      "en": "NATO kicks off 11-nation STARLIFT military satellite launch initiative via NSPA with Germany and South Korea.",
+      "he": "נאט\"ו השיקה את מיזם שיגור הלוויינים STARLIFT בהשתתפות 11 מדינות כולל גרמניה ודרום קוריאה."
+     },
+     "photo": "img/j/C2.jpg"
+    },
+    {
+     "id": "C3",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Cruise Missile Production Surge",
+     "typeHe": "זינוק בייצור טילי שיוט",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Acting Navy Secretary Hung Cao testifies U.S. Tomahawk missile production has surged past 60 units per month",
+      "he": "מזכיר הצי האמריקאי בפועל הונג קאו העיד כי ייצור טילי השיוט טומהוק זינק אל מעל 60 טילים בחודש"
+     },
+     "what": {
+      "en": "During his Senate Armed Services Committee confirmation hearing on November 17, Acting U.S. Navy Secretary Hung Cao defended munitions readiness amid wartime drawdowns in the Iran conflict, testifying that Tomahawk cruise missile production now runs 'well above 60 every month' compared with roughly 125 per year earlier in his career. Cao also confirmed Sen. Elizabeth Warren's cited figure of roughly USD 32.5M per day for the U.S. naval blockade on Iranian shipping, while declining to offer a full damage assessment of Navy facilities in Bahrain due to nonpermissive access.",
+      "he": "בשימוע לאישור מינויו בוועדת הכוחות המזוינים של הסנאט ב-17 בנובמבר, הגן מזכיר הצי האמריקאי בפועל הונג קאו על מוכנות מאגרי החימוש של הצי תחת לחץ הלחימה מול איראן, והצהיר כי קצב ייצור טילי השיוט טומהוק עלה לכדי 'הרבה מעל 60 טילים בכל חודש' (לעומת כ-125 בשנה בעבר). קאו גם אישר נתון עלות של כ-USD 32.5M ליום עבור הסגר הימי על ספנות איראנית."
+     },
+     "figs": {
+      "en": "Missile / Rate: RTX Tomahawk Land Attack Missile; production stated at 'well above 60 every month' (>720 annualized vs. 125/year baseline) · Operational context: Sustained expenditure in Iran campaign and concurrent naval blockade (~USD 32.5M/day operational cost confirmed) · Related industrial push: Follows NAWCWD China Lake initiating PBXN-107 warhead loading to accelerate Tomahawk fill rates",
+      "he": "‏אמל\"ח / קצב ייצור: טיל שיוט טומהוק (RTX); מעל 60 טילים בחודש (מעל 720 בשנה, לעומת כ-125 בשנה בעבר) · ‏הקשר מבצעי: שחיקת מלאים במערכה מול איראן לצד עלות סגר ימי של כ-USD 32.5M ליום · ‏מאמץ תעשייתי מקביל: חידוש מילוי ראשי קרב WDU-36/B בחומר נפץ PBXN-107 בצ'יינה לייק"
+     },
+     "why": {
+      "en": "Passing 60 Tomahawks per month—more than 720 missiles annualized—represents an almost six-fold expansion over pre-surge rates, demonstrating that multi-year RTX industrial investments and Navy energetic-fill expansion are beginning to replenish deep-magazine VLS inventories.",
+      "he": "מעבר קצב של מעל 60 טילי טומהוק בחודש (קצב שנתי של מעל 720 טילים) משקף זינוק של כמעט פי שישה לעומת היקפי הייצור בעבר, ומעיד על הצלחת ההשקעות בהרחבת קווי הייצור והחנ\"מ לחידוש מחסני הטילים בספינות הצי."
+     },
+     "israel": {
+      "en": "Higher U.S. Tomahawk production directly supports CENTCOM's sustained strike magazine depth against Iranian and proxy targets in the Red Sea and Persian Gulf.",
+      "he": "הגברת קצב ייצור טילי השיוט האמריקאיים תומכת ישירות באורך הנשימה המבצעי של CENTCOM בתקיפות עומק מול איראן ושלוחותיה."
+     },
+     "src": [
+      {
+       "t": "Newsday / AP",
+       "u": "https://www.newsday.com/news/nation/navy-secretary-senate-nomination-cao-trump-q78746"
+      },
+      {
+       "t": "X (@NatSecLedger RT @briana_reilly)",
+       "u": "https://x.com/NatSecLedger/status/2122735463429447938"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Sworn Senate Armed Services Committee testimony reported by Newsday / AP.",
+      "he": "מאומת — עדות מוקלטת בוועדת הכוחות המזוינים של הסנאט בדיווח Newsday / AP."
+     },
+     "s": {
+      "en": "Acting Navy Secretary Hung Cao testifies U.S. Tomahawk cruise missile output is now well above 60 units per month.",
+      "he": "מזכיר הצי בפועל הונג קאו העיד בסנאט כי קצב ייצור טילי הטומהוק עלה אל מעל 60 בחודש."
+     },
+     "photo": "img/j/C3.jpg"
+    },
+    {
+     "id": "C4",
+     "domain": "strike",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States / Russia / China",
+     "countryHe": "ארצות הברית / רוסיה / סין",
+     "type": "Strategic Arms Control",
+     "typeHe": "בקרת נשק אסטרטגי",
+     "date": "2026-11-17",
+     "h": {
+      "en": "U.S. pushes trilateral nuclear stockpile cuts with Putin and Xi at Shenzhen APEC summit amid post-New START vacuum",
+      "he": "ארה\"ב דוחפת לשיחות קיצוץ נשק גרעיני משולשות עם פוטין ושי בפסגת APEC בשנג'ן, חרף הסתייגות סינית"
+     },
+     "what": {
+      "en": "On the sidelines of the Shenzhen APEC summit on November 17, the Trump administration pressed for trilateral nuclear arsenal reduction talks with Russian President Vladimir Putin and Chinese President Xi Jinping following New START's expiration, though analysts view breakthroughs as unlikely given China's smaller arsenal and reluctance to enter parity caps.",
+      "he": "בשולי פסגת APEC בשנג'ן ב-17 בנובמבר מקדם ממשל טראמפ יוזמה לשיחות משולשות לצמצום מאגרי הנשק הגרעיני מול נשיאי רוסיה וסין לאחר פקיעת אמנת New START, אך הסיכויים לפריצת דרך נחשבים נמוכים נוכח התנגדות בייג'ינג."
+     },
+     "figs": {
+      "en": "Briefly noted in the digest. · Framework: Proposed U.S.-Russia-China trilateral nuclear reductions in post-New START environment",
+      "he": "צוין בקצרה בסקירה. · ‏מסגרת: יוזמה אמריקאית למשא ומתן גרעיני משולש בעידן שלאחר New START"
+     },
+     "why": {
+      "en": "Briefly noted in the digest. High diplomatic salience with no concrete hardware or verification treaty breakthrough yet.",
+      "he": "צוין בקצרה בסקירה. מהלך מדיני בולט ללא מנגנון בקרה או מגבלות אמל\"ח מוסכמות בשלב זה."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Defense News",
+       "u": "https://www.defensenews.com/global/the-americas/2026/11/17/trump-seeks-nuclear-cuts-at-summit-with-putin-and-xi-but-prospects-are-low/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Reported by Defense News from Shenzhen APEC summit.",
+      "he": "מאומת — דיווח Defense News מפסגת APEC בשנג'ן."
+     },
+     "s": {
+      "en": "Trump administration presses Putin and Xi for trilateral nuclear cuts in Shenzhen despite low expectations.",
+      "he": "ממשל טראמפ מקדם שיחות קיצוץ גרעיני משולשות מול רוסיה וסין בפסגת APEC בשנג'ן."
+     },
+     "photo": "img/j/C4.jpg"
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Ukraine",
+     "countryHe": "אוקראינה",
+     "type": "Uncrewed Maritime Combat Module",
+     "typeHe": "עמדת נשק ימית מיוצבת לכשב\"ם",
+     "date": "2026-11-17",
+     "h": {
+      "en": "Ukrainian defense firm UFORCE unveils APEX PREDATOR stabilized heavy naval combat module rated for three-meter waves",
+      "he": "חברת UFORCE האוקראינית חשפה עמדת נשק ימית כבדה ומיוצבת מדגם APEX PREDATOR לפעולה בגלים של 3 מטרים"
+     },
+     "what": {
+      "en": "Ukrainian defense manufacturer UFORCE revealed details on November 17 of its newly developed APEX PREDATOR heavy naval combat module, engineered to gyro-stabilize 500 kg to 1-metric-ton weapon payloads on unmanned surface vessels operating in waves up to three meters high. CEO Oleh Rohynskyi told Militarnyi that APEX PREDATOR is a clean-sheet architecture distinct from the earlier PREDATOR automated turret and pairs naturally with UFORCE's 11-meter MV11 multi-mission USV carrying radar, interceptor drones, and stabilized turrets.",
+      "he": "חברת הביטחון האוקראינית UFORCE חשפה ב-17 בנובמבר פרטים על עמדת הנשק הימית הכבדה מדגם APEX PREDATOR, שפותחה לייצוב ג'ירוסקופי של מטעני נשק במשקל 500 ק\"ג עד טון אחד על גבי כלי שיט בלתי-מאוישים בים סוער עם גלים בגובה של עד שלושה מטרים. המנכ\"ל אולה רוהינסקי ציין בריאיון ל-Militarnyi כי מדובר בתכנון חדש לחלוטין המיועד בין היתר לכלי השיט הבלתי-מאויש MV11 באורך 11 מטר."
+     },
+     "figs": {
+      "en": "Developer: UFORCE (Ukraine); clean-sheet naval module distinct from legacy PREDATOR turret · Payload / Sea-state rating: 500 kg to 1,000 kg (1 metric ton) weapon payload stabilized in waves up to 3 meters · Target carrier: 11-meter MV11 USV (configurable with aerial interceptor drones, radar, and stabilized weapon stations) · Armament & test status: Specific weapon fit and live combat-test dates undisclosed",
+      "he": "‏מפתח: UFORCE (אוקראינה); פיתוח חדש הנבדל מצריח ה-PREDATOR הקודם · ‏מטען / עמידות ים: ייצוב מטען חימוש במשקל 500–1,000 ק\"ג בתנאי גלים של עד 3 מטרים · ‏פלטפורמה מיועדת: כשב\"ם MV11 באורך 11 מטר (הנושא גם רחפני יירוט ומכ\"ם) · ‏חימוש וניסויים: סוג החימוש הספציפי ולו\"ז הניסויים המבצעיים לא פורסמו"
+     },
+     "why": {
+      "en": "High sea states rapidly degrade small-USV gunnery and missile-launcher accuracy. Achieving 1-ton stabilization in 3-meter waves enables unmanned combatant boats to carry heavier autocannons, SAM launchers, or rocket pods for open-water Black Sea air-defense and anti-surface patrols.",
+      "he": "ים סוער פוגע דרמטית בדיוק הירי של כלי שיט בלתי-מאוישים קטנים. ייצוב מטען של עד טון בגלים של 3 מטרים מאפשר לצייד כשב\"מים בתותחים אוטומטיים כבדים, משגרי נ\"מ או רקטות לפעילות ממושכת במים פתוחים."
+     },
+     "israel": {
+      "en": "Relevant benchmark for Israeli stabilized naval remote weapon stations (Rafael Typhoon, Elbit naval RWS) deployed on USVs and fast patrol craft in rough eastern Mediterranean sea states.",
+      "he": "מהווה מדד השוואה מול עמדות הנשק הימיות המיוצבות של ישראל (טייפון של רפאל ועמדות אלביט) המותקנות על כשב\"מים וספינות בט\"ש."
+     },
+     "src": [
+      {
+       "t": "Militarnyi",
+       "u": "https://militarnyi.com/en/news/uforce-details-apex-predator-combat-module/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED (company interview) — Single-source interview with UFORCE CEO published by Militarnyi.",
+      "he": "מאומת (ריאיון חברה) — מקור יחיד: ריאיון עם מנכ\"ל UFORCE שפורסם ב-Militarnyi."
+     },
+     "s": {
+      "en": "UFORCE unveils APEX PREDATOR 1-ton stabilized naval combat module built to fire in 3-meter waves.",
+      "he": "חברת UFORCE חשפה עמדת נשק ימית במשקל עד טון מדגם APEX PREDATOR המיוצבת לגלים של 3 מטרים."
+     },
+     "photo": "img/j/D1.jpg"
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED",
+      "UPDATE"
+     ],
+     "country": "India / Oman / United States",
+     "countryHe": "הודו / עומאן / ארצות הברית",
+     "type": "Maritime Security / CENTCOM Carrier Posture",
+     "typeHe": "ביטחון ימי / היערכות נושאות מטוסים",
+     "date": "2026-11-17",
+     "h": {
+      "en": "UPDATE: Second strike hits LPG tanker Tara Gas off Oman leaving one Indian seafarer missing; dual U.S. carriers sail together in Arabian Sea",
+      "he": "עדכון: תקיפה שנייה פגעה במכלית Tara Gas ליד עומאן – מלח הודי נעדר; שתי נושאות מטוסים אמריקאיות שטות יחד בים הערבי"
+     },
+     "what": {
+      "en": "Following a second strike on November 17 against the disabled Panama-flagged LPG tanker Tara Gas ~7 nm north of Khasab, Oman, India's Ministry of External Affairs confirmed 21 of 24 Indian crewmembers were evacuated ashore, two were hospitalized, and one Indian seafarer remains missing, while CENTCOM released imagery of USS Theodore Roosevelt (CVN-71) and USS George Washington (CVN-73) sailing together in the Arabian Sea.",
+      "he": "בעקבות תקיפה שנייה ב-17 בנובמבר על מכלית הגז Tara Gas כ-7 מייל ימי מצפון לח'סב שבעומאן, אישר משרד החוץ ההודי כי 21 מתוך 24 אנשי הצוות ההודים פונו לחוף, שניים אושפזו ואחד נעדר, בעוד CENTCOM פרסם תיעוד משותף של נושאות המטוסים USS Theodore Roosevelt ו-USS George Washington בים הערבי."
+     },
+     "figs": {
+      "en": "Briefly noted in the digest. · What's new: Confirms second strike & Indian crew casualties/missing status on Tara Gas (16–17 Nov) and joint CVN-71 / CVN-73 Arabian Sea underway operations",
+      "he": "צוין בקצרה בסקירה. · ‏מה חדש: אישור פגיעה שנייה, פינוי 21 ונעדר הודי במכלית Tara Gas, ושיוט משותף של CVN-71 ו-CVN-73 בים הערבי"
+     },
+     "why": {
+      "en": "Briefly noted in the digest. Escalating kinetic risk to commercial gas tankers in the Strait of Hormuz underscores the operational backdrop for the U.S. Navy's restored three-carrier CENTCOM posture.",
+      "he": "צוין בקצרה בסקירה. החמרת התקיפות על מכליות גז במצר הורמוז ממחישה את רקע המתיחות להצבת שלוש קבוצות נושאות מטוסים בזירת CENTCOM."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "gCaptain",
+       "u": "https://gcaptain.com/second-strike-on-lpg-tanker-in-strait-of-hormuz-leaves-one-missing-two-injured/"
+      },
+      {
+       "t": "Ministry of External Affairs, India",
+       "u": "https://www.mea.gov.in/speeches-statements?dtl/41964"
+      },
+      {
+       "t": "X (@NatSecLedger RT @CENTCOM)",
+       "u": "https://x.com/NatSecLedger/status/2122742820708454626"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED, UPDATE — Updates Nov 17 main run items D7 and D9 with second strike, Indian crew casualties, and joint CVN-71/CVN-73 operations.",
+      "he": "מאומת, עדכון — מעדכן את פריטי D7 ו-D9 מהמהדורה הראשית עם פגיעה שנייה, נתוני צוות הודיים ופעילות משותפת של נושאות המטוסים."
+     },
+     "s": {
+      "en": "UPDATE: Second strike on Tara Gas off Oman leaves one Indian seafarer missing as CVN-71 and CVN-73 sail together in Arabian Sea.",
+      "he": "עדכון: תקיפה שנייה על המכלית Tara Gas הותירה מלח הודי נעדר; CVN-71 ו-CVN-73 שטות יחד בים הערבי."
+     },
+     "photo": "img/j/D2.jpg"
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "German Defense Minister Boris Pistorius announced after the 37th Ramstein meeting in Brussels that Berlin will supply Ukraine with new high-performance radars for the multinational ~10-nation 'Freyja' air defense system, while confirming the Bundeswehr tested Ukraine's DELTA battle management system and plans joint development for potential German military adoption.",
+      "Sweden, the United Kingdom, and Ukraine signed a trilateral Letter of Intent in Brussels to synchronize weapons, ammunition, training, and spare parts deliveries for Ukraine's 32-aircraft JAS 39 Gripen C/D and E/F fighter fleet, with Kyiv identifying Meteor air-to-air missiles as a top priority.",
+      "Boeing's Load Adaptable Modular (LAM) external pylon for the USAF B-1B Lancer cleared Critical Design Review (CDR), advancing hardware and software build/testing toward a ~50% weapons capacity increase and external carriage of hypersonic and outsized standoff missiles.",
+      "Israeli-founded Mobilicom secured a USD 863K follow-on production order—bringing cumulative orders to USD 4.7M—for its Professional-tier ICE electronic warfare and cybersecurity software integrated into a U.S. Tier-1 loitering munition Program of Record, while a Brazilian Air Force KC-390 collected a replacement Elbit Hermes 900 (RQ-900) UAV at Ben Gurion Airport.",
+      "NATO formally launched the 11-nation STARLIFT responsive military satellite launch brokerage initiative via NSPA at NATO EDGE 26 (bringing in 10 Allies including Germany plus South Korea, without the U.S. or France), while Acting U.S. Navy Secretary Hung Cao testified Tomahawk cruise missile production has surged past 60 units per month."
+     ],
+     "he": [
+      "שר ההגנה הגרמני בוריס פיסטוריוס הכריז בתום מפגש רמשטיין ה-37 בבריסל כי ברלין תספק לאוקראינה מכ\"מים מתקדמים עבור מערך ההגנה האווירית האירופי העתידי 'Freyja' (בשיתוף כ-10 מדינות), ואישר כי הבונדסוור בחן את מערכת ניהול הקרב האוקראינית DELTA ומתכנן פיתוח משותף לקראת אימוץ אפשרי בצבא גרמניה.",
+      "שבדיה, בריטניה ואוקראינה חתמו בבריסל על מכתב כוונות משולש לסנכרון אספקת חימוש, תחמושת, הכשרות וחלפים עבור צי 32 מטוסי הקרב JAS 39 גריפן C/D ו-E/F של קייב, תוך ציון טילי האוויר-אוויר Meteor בעדיפות ראשונה.",
+      "מנשא הנשק החיצוני המודולרי LAM (Load Adaptable Modular) של בואינג למפציץ B-1B לאנסר עבר בהצלחה סקירת תכן קריטית (CDR), מה שמקדם ייצור וניסויי חומרה/תוכנה להגדלת קיבולת החימוש בכ-50% ונשיאה חיצונית של טילים היפרסוניים וחימושי תקיפה כבדים.",
+      "חברת מובליקום (Mobilicom) מייסוד ישראלי זכתה בהזמנת המשך של USD 863K (סך מצטבר USD 4.7M) לתוכנת הלוחמה האלקטרונית והסייבר ICE בגרסת Professional עבור חימוש משוטט אמריקאי בתוכנית שיא (POR), בעוד מטוס תובלה KC-390 של חיל האוויר הברזילאי נחת בנתב\"ג לאיסוף כטב\"ם אלביט הרמס 900 (RQ-900) חלופי.",
+      "נאט\"ו השיקה רשמית בכנס NATO EDGE 26 את מיזם שיגור הלוויינים הרב-לאומי STARLIFT בהובלת NSPA ובהשתתפות 11 מדינות (10 בעלות ברית כולל גרמניה ודרום קוריאה, ללא ארה\"ב וצרפת), בעוד מזכיר הצי האמריקאי בפועל הונג קאו העיד כי קצב ייצור טילי השיוט טומהוק עלה אל מעל 60 טילים בחודש."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 15:15Z and 18:52Z on 17 November 2026 (plus selected 17 November items published earlier in the day not captured in the 15:15Z main run). Every item and cited source URL has been independently verified via live HTTP 200 GET checks. Gmail MCP was unauthenticated in this session (matching the main run). All currency values use ISO notation (no '$' symbol). Analysis lines ('Why it matters' and 'Israel implications') represent analytical assessment."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪15:15Z‬ ל-‪18:52Z‬ ב-17 בנובמבר 2026 (לצד פריטים נבחרים מה-17 בנובמבר שלא נכללו במהדורה הראשית של ‪15:15Z‬). כל הפריטים וכתובות המקור אומתו עצמאית בבדיקות HTTP 200 חיות. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). כל הסכומים מוצגים בסימון מטבע תקני (ללא תו '$')."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-17T15:15:00Z – 2026-11-17T18:52:00Z. Reader profile applied: 11 full items, 5 briefly noted.",
+     "Country focus: Germany 3, UAE 0, Azerbaijan 0, Singapore 0, India 1, Morocco 0.",
+     "Minimum search gate satisfied: >=30 web queries, RSS/listing sweeps across core trade portals, 46-account X harvest (48 candidate tweets), and Gmail lead check attempted. All URLs verified HTTP 200; 15 authentic source photos embedded (C1 omitted cleanly due to logo-only press release page)."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-17T15:15:00Z – 2026-11-17T18:52:00Z‬. פרופיל קורא יושם: 11 פריטים מלאים, 5 בקצרה.",
+     "מיקוד מדינות: גרמניה 3, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 1, מרוקו 0.",
+     "שער החיפוש המינימלי הושלם: מעל 30 שאילתות, סריקת אתרי מסחר מובילים, איסוף מ-46 חשבונות X וניסיון בדיקת Gmail. כל הקישורים אומתו חיים; 15 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Track German radar industrial designations and multinational partner announcements under the ~10-nation 'Freyja' air defense architecture.",
+     "Monitor Bundeswehr-Ukraine DELTA software adaptation trials and potential German procurement milestones in 2027.",
+     "Follow Boeing B-1B LAM pylon hardware build and flight-test integration schedule for hypersonic and outsized standoff missiles.",
+     "Watch Sweden-UK-Ukraine Gripen C/D delivery synchronization and potential Meteor BVR missile clearance.",
+     "Monitor Mobilicom's monthly ICE EW/cyber software deliveries and potential expansion across U.S. loitering munition Programs of Record."
+    ],
+    "he": [
+     "מעקב אחר דגמי המכ\"מים הגרמניים והשותפות הרב-לאומיות בפרויקט ההגנה האווירית האירופי 'Freyja'.",
+     "מעקב אחר שיתוף הפעולה בין הבונדסוור לאוקראינה להתאמת מערכת השו\"ב DELTA בצבא גרמניה.",
+     "מעקב אחר שלבי הייצור וניסויי הטיסה של מנשא ה-LAM על מפציצי B-1B לנשיאת טילים היפרסוניים וחימושי תקיפה.",
+     "מעקב אחר אספקת מטוסי הגריפן והתחמושת לאוקראינה והחלטות עתידיות לגבי טילי Meteor.",
+     "מעקב אחר המשך האספקות החודשיות של מובליקום בתוכנית החימוש המשוטט האמריקאית והרחבה לתוכניות נוספות."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1cOktELB-P2qpMgJlUsezuvHOdErj9TmX5SCCYCnYiWs/edit",
+    "he": "https://docs.google.com/document/d/1xyEi3bppPCfkgP9TDtYV1Ms2t4ahnRaNQadI8SNoA3M/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-17_evening_AGY_EN.pdf": "1tMfDnuK7IHvV-X0kiAV26XGm2GgYbHK3",
+    "Defense_Tech_Digest_2026-11-17_evening_AGY_HE.pdf": "1Ry3lRunTxGuDXnSIarQUwSIxX6rAiVXY",
+    "Defense_Team_Brief_2026-11-17_evening_AGY_EN.pdf": "1JBsCfMBpsmoOb9ZETerHSMiqOkaFTGmR",
+    "Defense_Team_Brief_2026-11-17_evening_AGY_HE.pdf": "17Koc_gZk1P6PwtlMYzEBs_XF_IiXhens"
+   },
+   "photos": {
+    "A1": {
+     "file": "A1.jpg",
+     "url": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/17/thumbs_b_c_8ba16ae901a37c0b3def58ac439a7f38.jpg",
+     "outlet": "Anadolu Agency",
+     "caption_en": "German Defense Minister Boris Pistorius speaks to reporters ahead of EU defense talks in Brussels, Nov. 17, 2026.",
+     "caption_he": "שר ההגנה הגרמני בוריס פיסטוריוס בתדרוך בבריסל לקראת שיחות שרי ההגנה של האיחוד האירופי, 17 בנובמבר 2026.",
+     "credit_en": "Image: Anadolu Agency",
+     "credit_he": "צילום: Anadolu Agency",
+     "local_src": "../digest/2026-11-17-evening/img/j/A1.jpg"
+    },
+    "A2": {
+     "file": "A2.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/Laser-1-1.jpg",
+     "outlet": "Militarnyi / UFORCE",
+     "caption_en": "UFORCE combat laser system showcased during counter-UAV testing.",
+     "caption_he": "מערכת לייזר קרבית של UFORCE כפי שהוצגה במסגרת ניסויי יירוט כטב\"מים.",
+     "credit_en": "Image: UFORCE, via Militarnyi",
+     "credit_he": "צילום: UFORCE, דרך Militarnyi",
+     "local_src": "../digest/2026-11-17-evening/img/j/A2.jpg"
+    },
+    "A3": {
+     "file": "A3.jpg",
+     "url": "https://defensewarroom.com/wp-content/uploads/2026/11/defense-warroom-Kelluu-halo-passive-radar-hydrogen-airship.webp",
+     "outlet": "Defense WarRoom / Kelluu",
+     "caption_en": "Kelluu autonomous hydrogen airship platform from which the HALO passive-radar variant is derived.",
+     "caption_he": "ספינת האוויר האוטונומית המונעת במימן של Kelluu, שעליה מבוססת גרסת המכ\"ם הפסיבי HALO.",
+     "credit_en": "Image: Kelluu, via Defense WarRoom",
+     "credit_he": "צילום: Kelluu, דרך Defense WarRoom",
+     "local_src": "../digest/2026-11-17-evening/img/j/A3.jpg"
+    },
+    "A4": {
+     "file": "A4.jpg",
+     "url": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1788325206-922.png",
+     "outlet": "Ukrinform",
+     "caption_en": "Ukrainian President Volodymyr Zelenskyy (archive photo).",
+     "caption_he": "נשיא אוקראינה וולודימיר זלנסקי (צילום ארכיון).",
+     "credit_en": "Image: Ukrinform",
+     "credit_he": "צילום: Ukrinform",
+     "local_src": "../digest/2026-11-17-evening/img/j/A4.jpg"
+    },
+    "B1": {
+     "file": "B1.jpg",
+     "url": "https://www.israeldefense.co.il/sites/default/files/2026-11/7f1a9015e3b2d6078efb67e9dc37c3ac2af650362511f4f700932dc97ca38289-web.jpg",
+     "outlet": "Israel Defense / Wikimedia Commons",
+     "caption_en": "Elbit Systems Hermes 900 unmanned aerial vehicle (2024 archive photo).",
+     "caption_he": "כטב\"ם הרמס 900 מתוצרת אלביט מערכות (צילום ארכיון, 2024).",
+     "credit_en": "Image: TRTPUWU / CC BY-SA 4.0 / Wikimedia Commons, via Israel Defense",
+     "credit_he": "צילום: TRTPUWU / CC BY-SA 4.0 / Wikimedia Commons, דרך Israel Defense",
+     "local_src": "../digest/2026-11-17-evening/img/j/B1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_180.jpg",
+     "outlet": "Defence Blog",
+     "caption_en": "German Army Leopard 2 and combat engineer during Exercise Freedom Shield in Pabrade, Lithuania, June 1, 2026.",
+     "caption_he": "טנק לאופרד 2 והנדסה של צבא גרמניה במהלך תרגיל Freedom Shield בליטא, 1 ביוני 2026.",
+     "credit_en": "Image: via Defence Blog",
+     "credit_he": "צילום: דרך Defence Blog",
+     "local_src": "../digest/2026-11-17-evening/img/j/B2.jpg"
+    },
+    "B3": {
+     "file": "B3.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3655.jpg",
+     "outlet": "Defence Blog",
+     "caption_en": "Swedish Air Force JAS-39 Gripen fighter at Kallax Air Base, Luleå, Sweden.",
+     "caption_he": "מטוס קרב JAS-39 גריפן של חיל האוויר השבדי בבסיס קאלאקס, שבדיה.",
+     "credit_en": "Image: via Defence Blog",
+     "credit_he": "צילום: דרך Defence Blog",
+     "local_src": "../digest/2026-11-17-evening/img/j/B3.jpg"
+    },
+    "B4": {
+     "file": "B4.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_178.jpg",
+     "outlet": "Defence Blog / Boeing",
+     "caption_en": "U.S. Air Force B-1B Lancer carrying an external test store under the forward fuselage during LAM pylon development.",
+     "caption_he": "מפציץ B-1B לאנסר של חיל האוויר האמריקאי נושא מכלול ניסוי חיצוני בגחון במסגרת פיתוח מנשא LAM.",
+     "credit_en": "Image: Boeing / USAF, via Defence Blog",
+     "credit_he": "צילום: Boeing / USAF, דרך Defence Blog",
+     "local_src": "../digest/2026-11-17-evening/img/j/B4.jpg"
+    },
+    "B5": {
+     "file": "B5.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3650.jpg",
+     "outlet": "Defence Blog",
+     "caption_en": "Antonov An-12 military transport aircraft (file photo).",
+     "caption_he": "מטוס תובלה צבאי מדגם אנטונוב An-12 (תצלום ארכיון).",
+     "credit_en": "Image: via Defence Blog",
+     "credit_he": "צילום: דרך Defence Blog",
+     "local_src": "../digest/2026-11-17-evening/img/j/B5.jpg"
+    },
+    "B6": {
+     "file": "B6.jpg",
+     "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_175.jpg",
+     "outlet": "Defence Blog / U.S. DOJ",
+     "caption_en": "U.S. Air National Guard C-130H Hercules at Shannon Airport, Ireland, prior to the April 11, 2026 sabotage attack.",
+     "caption_he": "מטוס C-130H הרקולס של המשמר הלאומי האמריקאי בנמל התעופה שאנון, אירלנד, לפני מתקפת החבלה.",
+     "credit_en": "Image: U.S. Department of Justice, via Defence Blog",
+     "credit_he": "צילום: משרד המשפטים האמריקאי, דרך Defence Blog",
+     "local_src": "../digest/2026-11-17-evening/img/j/B6.jpg"
+    },
+    "C2": {
+     "file": "C2.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/NATO-space-e1794917446837.jpeg",
+     "outlet": "Breaking Defense / NATO",
+     "caption_en": "NATO launches the 11-nation STARLIFT responsive satellite launch program through NSPA, Nov. 17, 2026.",
+     "caption_he": "תדמית תוכנית השיגור הרב-לאומית STARLIFT של נאט\"ו בהובלת NSPA, 17 בנובמבר 2026.",
+     "credit_en": "Image: NATO, via Breaking Defense",
+     "credit_he": "צילום: NATO, דרך Breaking Defense",
+     "local_src": "../digest/2026-11-17-evening/img/j/C2.jpg"
+    },
+    "C3": {
+     "file": "C3.jpg",
+     "url": "https://cdn.newsday.com/ace/c:ODE5M2JiOWMtOGFiZi00:MDZmMmFhYjUtY2Y0Zi00/landscape/1280",
+     "outlet": "Newsday / AP",
+     "caption_en": "Acting Navy Secretary Hung Cao testifies before the Senate Armed Services Committee on Capitol Hill, Nov. 17, 2026.",
+     "caption_he": "מזכיר הצי בפועל הונג קאו בעדותו בוועדת הכוחות המזוינים של הסנאט בוושינגטון, 17 בנובמבר 2026.",
+     "credit_en": "Image: Jacquelyn Martin / AP, via Newsday",
+     "credit_he": "צילום: Jacquelyn Martin / AP, דרך Newsday",
+     "local_src": "../digest/2026-11-17-evening/img/j/C3.jpg"
+    },
+    "C4": {
+     "file": "C4.jpg",
+     "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-16T142521Z_59012794_RC2XOOAOEYHD_RTRMADP_3_APEC-SUMMIT-YALTA-ARTWORK.jpg",
+     "outlet": "Defense News / Reuters",
+     "caption_en": "Flags of China, Russia, and the United States displayed ahead of summit talks, Nov. 16, 2026.",
+     "caption_he": "דגלי סין, רוסיה וארה\"ב לקראת מפגשי הפסגה, 16 בנובמבר 2026.",
+     "credit_en": "Image: Reuters, via Defense News",
+     "credit_he": "צילום: Reuters, דרך Defense News",
+     "local_src": "../digest/2026-11-17-evening/img/j/C4.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://militarnyi.com/wp-content/uploads/2026/11/APEX-PREDATOR-UFORCE-1.jpg",
+     "outlet": "Militarnyi / UFORCE",
+     "caption_en": "UFORCE APEX PREDATOR stabilized heavy naval combat module.",
+     "caption_he": "עמדת הנשק הימית הכבדה והמיוצבת APEX PREDATOR של חברת UFORCE.",
+     "credit_en": "Image: UFORCE, via Militarnyi",
+     "credit_he": "צילום: UFORCE, דרך Militarnyi",
+     "local_src": "../digest/2026-11-17-evening/img/j/D1.jpg"
+    },
+    "D2": {
+     "file": "D2.jpg",
+     "url": "https://gcaptain.com/wp-content/uploads/2026/11/Blazing-Ship-on-the-Dusk-Horizon.jpg",
+     "outlet": "gCaptain",
+     "caption_en": "Vessel ablaze in footage circulating online following reported strikes on LPG tanker Tara Gas off Oman, Nov. 16–17, 2026.",
+     "caption_he": "להבות עולות ממכלית בתיעוד מהרשת בעקבות הדיווחים על תקיפת המכלית Tara Gas מול עומאן, ‪16–17‬ בנובמבר 2026.",
+     "credit_en": "Image: Social media footage (unverified), via gCaptain",
+     "credit_he": "צילום: תיעוד רשתות חברתיות (לא מאומת), דרך gCaptain",
+     "local_src": "../digest/2026-11-17-evening/img/j/D2.jpg"
     }
    }
   },
