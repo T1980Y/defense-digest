@@ -639,6 +639,7 @@
         <option value="brief">Briefly Noted Only</option>
       </select>
       <input type="search" id="inp-search" placeholder="Search systems, countries, primes, specs..." />
+      <a href="preview_apple.html" id="link-apple-view" class="btn" style="background:#0071e3;color:#ffffff;border-color:#0071e3;text-decoration:none;display:inline-flex;align-items:center;gap:4px;font-weight:700;" title="Switch to Apple News Edition">🍎 Apple View</a>
     </div>
   </section>
 
@@ -710,6 +711,11 @@
         document.documentElement.dir = he ? "rtl" : "ltr";
         btnEn.classList.toggle("active", !he);
         btnHe.classList.toggle("active", he);
+
+        const appleLink = document.getElementById("link-apple-view");
+        if (appleLink) {
+          appleLink.href = `preview_apple.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}`;
+        }
 
         if (!d) {
           mainEl.innerHTML = "<p>No digest data loaded. Run <code>python scripts/update_app_feed.py</code>.</p>";

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Defense Brief — Apple News Edition</title>
+  <style>
+    :root {
+      /* Apple iOS Human Interface System Tokens */
+      --ios-bg: #f2f2f7;
+      --ios-card: #ffffff;
+      --ios-card-secondary: #f8f9fa;
+      --ios-border: rgba(60, 60, 67, 0.12);
+      --ios-border-subtle: rgba(60, 60, 67, 0.06);
+      --ios-text: #1c1c1e;
+      --ios-text-secondary: #636366;
+      --ios-text-tertiary: #8e8e93;
+      --ios-accent: #0071e3;
+      --ios-red: #ff3b30;
+      --ios-amber: #ff9500;
+      --ios-green: #34c759;
+      --ios-cyan: #32ade6;
+      --ios-purple: #af52de;
+      --ios-chip-bg: rgba(120, 120, 128, 0.12);
+      --ios-chip-active: #1c1c1e;
+      --ios-chip-active-text: #ffffff;
+      --ios-header-blur: rgba(242, 242, 247, 0.85);
+      --ios-shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      --ios-shadow-active: 0 8px 28px rgba(0, 0, 0, 0.08);
+      --ios-radius: 18px;
+      --ios-radius-sm: 10px;
+      --target-size: 40px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ios-bg: #000000;
+        --ios-card: #1c1c1e;
+        --ios-card-secondary: #2c2c2e;
+        --ios-border: rgba(255, 255, 255, 0.12);
+        --ios-border-subtle: rgba(255, 255, 255, 0.07);
+        --ios-text: #f5f5f7;
+        --ios-text-secondary: #a1a1a6;
+        --ios-text-tertiary: #6e6e73;
+        --ios-accent: #0a84ff;
+        --ios-red: #ff453a;
+        --ios-amber: #ffd60a;
+        --ios-green: #30d158;
+        --ios-cyan: #64d2ff;
+        --ios-purple: #bf5af2;
+        --ios-chip-bg: rgba(255, 255, 255, 0.12);
+        --ios-chip-active: #ffffff;
+        --ios-chip-active-text: #000000;
+        --ios-header-blur: rgba(20, 20, 22, 0.85);
+        --ios-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+        --ios-shadow-active: 0 8px 30px rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      overflow-x: clip;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--ios-bg);
+      color: var(--ios-text);
+      line-height: 1.45;
+      overflow-wrap: break-word;
+      padding-block-end: max(2rem, env(safe-area-inset-bottom, 0px));
+      padding-inline-start: env(safe-area-inset-left, 0px);
+      padding-inline-end: env(safe-area-inset-right, 0px);
+    }
+
+    :where(a, code) {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    /* Apple Frosted Glass Header */
+    header.apple-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: var(--ios-header-blur);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-block-end: 1px solid var(--ios-border-subtle);
+      transition: background-color 0.2s ease;
+    }
+
+    .apple-header-inner {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 0.75rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
+
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .apple-logo-badge {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ff3b30, #ff9500);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 0.95rem;
+      font-weight: 800;
+      box-shadow: 0 2px 8px rgba(255, 59, 48, 0.35);
+    }
+
+    .brand-titles h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-titles .date-sub {
+      font-size: 0.75rem;
+      color: var(--ios-text-secondary);
+      font-weight: 500;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    /* iOS Segmented Control */
+    .segmented-control {
+      display: inline-flex;
+      background: var(--ios-chip-bg);
+      padding: 3px;
+      border-radius: 9px;
+      user-select: none;
+    }
+
+    .segment-btn {
+      background: transparent;
+      border: none;
+      color: var(--ios-text-secondary);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      min-block-size: 28px;
+    }
+
+    .segment-btn.active {
+      background: var(--ios-card);
+      color: var(--ios-text);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    }
+
+    .apple-select {
+      background: var(--ios-chip-bg);
+      border: none;
+      color: var(--ios-text);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 9px;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .switch-view-btn {
+      background: transparent;
+      border: 1px solid var(--ios-border);
+      color: var(--ios-accent);
+      border-radius: 9px;
+      padding: 5px 10px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Category Filter Pills (Horizontal Scroll) */
+    .filter-scroll-wrapper {
+      background: var(--ios-bg);
+      border-block-end: 1px solid var(--ios-border-subtle);
+      padding: 0.6rem 1rem;
+    }
+
+    .filter-pills-inner {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-block: 2px;
+    }
+
+    .filter-pills-inner::-webkit-scrollbar {
+      display: none;
+    }
+
+    .pill-btn {
+      flex: 0 0 auto;
+      background: var(--ios-chip-bg);
+      color: var(--ios-text);
+      border: none;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      touch-action: manipulation;
+    }
+
+    .pill-btn.active {
+      background: var(--ios-chip-active);
+      color: var(--ios-chip-active-text);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .pill-badge {
+      font-size: 0.72rem;
+      padding: 2px 6px;
+      border-radius: 10px;
+      background: rgba(120, 120, 128, 0.2);
+    }
+
+    .pill-btn.active .pill-badge {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* Main Container */
+    main.apple-main {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 1.25rem 1rem;
+    }
+
+    /* Section Headers */
+    .section-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--ios-red);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-block-end: 0.35rem;
+    }
+
+    .section-eyebrow::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .section-heading-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-block-end: 0.85rem;
+    }
+
+    .section-headline {
+      margin: 0;
+      font-size: 1.55rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtext {
+      font-size: 0.85rem;
+      color: var(--ios-text-secondary);
+    }
+
+    /* Carousel / Top Stories (Apple News style) */
+    .carousel-section {
+      margin-block-end: 2rem;
+    }
+
+    .carousel-track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      overscroll-behavior-x: contain;
+      touch-action: manipulation;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-block: 4px;
+    }
+
+    .carousel-track::-webkit-scrollbar {
+      display: none;
+    }
+
+    .carousel-slide {
+      flex: 0 0 88%;
+      max-inline-size: 440px;
+      scroll-snap-align: center;
+      background: var(--ios-card);
+      border-radius: var(--ios-radius);
+      border: 1px solid var(--ios-border-subtle);
+      overflow: hidden;
+      box-shadow: var(--ios-shadow);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    @media (min-width: 768px) {
+      .carousel-slide {
+        flex: 0 0 380px;
+      }
+    }
+
+    .carousel-slide:active {
+      transform: scale(0.985);
+    }
+
+    .carousel-img-wrap {
+      position: relative;
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: var(--ios-card-secondary);
+      overflow: hidden;
+    }
+
+    .carousel-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .carousel-priority-tag {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--ios-red);
+      color: #ffffff;
+      font-size: 0.68rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    html[dir="rtl"] .carousel-priority-tag {
+      left: auto;
+      right: 10px;
+    }
+
+    .carousel-content {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .carousel-tags {
+      display: flex;
+      gap: 6px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--ios-text-secondary);
+      text-transform: uppercase;
+      margin-block-end: 0.4rem;
+    }
+
+    .carousel-title {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.05rem;
+      font-weight: 700;
+      line-height: 1.35;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .carousel-desc {
+      font-size: 0.85rem;
+      color: var(--ios-text-secondary);
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    /* BLUF Card (Apple Morning Briefing Card) */
+    .bluf-card {
+      background: linear-gradient(135deg, rgba(0, 113, 227, 0.08), rgba(175, 82, 222, 0.05));
+      border: 1px solid rgba(0, 113, 227, 0.15);
+      border-radius: var(--ios-radius);
+      padding: 1.25rem;
+      margin-block-end: 2rem;
+    }
+
+    .bluf-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-block-end: 0.85rem;
+    }
+
+    .bluf-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      background: var(--ios-accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+    }
+
+    .bluf-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      margin: 0;
+    }
+
+    .bluf-list {
+      margin: 0;
+      padding-inline-start: 1.25rem;
+    }
+
+    .bluf-list li {
+      margin-block-end: 0.6rem;
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+
+    /* Feed Grid / Cards */
+    .feed-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .story-card {
+      background: var(--ios-card);
+      border-radius: var(--ios-radius);
+      border: 1px solid var(--ios-border-subtle);
+      box-shadow: var(--ios-shadow);
+      overflow: hidden;
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+
+    .story-card:hover {
+      box-shadow: var(--ios-shadow-active);
+    }
+
+    .story-card.high-priority {
+      border-inline-start: 4px solid var(--ios-red);
+    }
+
+    .story-card-inner {
+      padding: 1.25rem;
+    }
+
+    @media (max-width: 640px) {
+      .story-card-inner {
+        padding: 1rem;
+      }
+    }
+
+    .story-top-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-block-end: 0.65rem;
+    }
+
+    .meta-pills {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .mini-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 6px;
+      background: var(--ios-chip-bg);
+      color: var(--ios-text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .mini-badge.priority-high {
+      background: rgba(255, 59, 48, 0.12);
+      color: var(--ios-red);
+    }
+
+    .mini-badge.domain {
+      background: rgba(0, 113, 227, 0.1);
+      color: var(--ios-accent);
+    }
+
+    .story-share-btn {
+      background: var(--ios-chip-bg);
+      border: none;
+      color: var(--ios-text);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 4px 9px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: background-color 0.15s ease;
+    }
+
+    .story-share-btn:hover {
+      background: var(--ios-border);
+    }
+
+    .story-title {
+      margin: 0 0 0.85rem 0;
+      font-size: 1.2rem;
+      font-weight: 800;
+      line-height: 1.35;
+      letter-spacing: -0.015em;
+    }
+
+    /* Media Box */
+    .story-media-box {
+      margin-block-end: 1rem;
+      border-radius: var(--ios-radius-sm);
+      overflow: hidden;
+      background: var(--ios-card-secondary);
+      border: 1px solid var(--ios-border-subtle);
+    }
+
+    .story-media-box img {
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      max-block-size: 320px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .media-caption {
+      padding: 0.45rem 0.75rem;
+      font-size: 0.75rem;
+      color: var(--ios-text-tertiary);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-block-start: 1px solid var(--ios-border-subtle);
+    }
+
+    .media-caption a {
+      color: var(--ios-accent);
+      text-decoration: none;
+    }
+
+    /* Story Text */
+    .story-lead {
+      font-size: 0.96rem;
+      line-height: 1.5;
+      margin: 0 0 0.85rem 0;
+      color: var(--ios-text);
+    }
+
+    /* Disclosure / Expandable Specs */
+    .specs-disclosure {
+      margin-block: 0.85rem;
+      border-radius: var(--ios-radius-sm);
+      background: var(--ios-card-secondary);
+      border: 1px solid var(--ios-border-subtle);
+      overflow: hidden;
+    }
+
+    .specs-summary {
+      padding: 0.65rem 0.85rem;
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--ios-accent);
+      user-select: none;
+    }
+
+    .specs-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .specs-chevron {
+      transition: transform 0.2s ease;
+      font-size: 0.75rem;
+    }
+
+    details[open] .specs-chevron {
+      transform: rotate(180deg);
+    }
+
+    .specs-body {
+      padding: 0.85rem;
+      border-block-start: 1px solid var(--ios-border-subtle);
+      font-size: 0.88rem;
+    }
+
+    .spec-block {
+      margin-block-end: 0.65rem;
+    }
+
+    .spec-block:last-child {
+      margin-block-end: 0;
+    }
+
+    .spec-label {
+      font-weight: 700;
+      color: var(--ios-text);
+      display: block;
+      margin-block-end: 2px;
+    }
+
+    .story-sources {
+      margin-block-start: 0.85rem;
+      padding-block-start: 0.65rem;
+      border-block-start: 1px solid var(--ios-border-subtle);
+      font-size: 0.8rem;
+      color: var(--ios-text-secondary);
+    }
+
+    .story-sources a {
+      color: var(--ios-accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .story-sources a:hover {
+      text-decoration: underline;
+    }
+
+    /* Toast */
+    #apple-toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: rgba(30, 30, 32, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      color: #ffffff;
+      padding: 9px 18px;
+      border-radius: 20px;
+      font-size: 0.86rem;
+      font-weight: 600;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+      z-index: 9999;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.25s ease;
+    }
+
+    #apple-toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    /* Highlights animation */
+    .highlight-card {
+      outline: 3px solid var(--ios-accent) !important;
+      box-shadow: 0 0 25px rgba(0, 113, 227, 0.4) !important;
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+  <!-- Apple Frosted Glass Top Bar -->
+  <header class="apple-header">
+    <div class="apple-header-inner">
+      <div class="brand-wrap">
+        <div class="apple-logo-badge">🛡️</div>
+        <div class="brand-titles">
+          <h1 id="ui-brand-title">Defense Brief</h1>
+          <div class="date-sub" id="ui-date-sub">Loading...</div>
+        </div>
+      </div>
+      <div class="header-controls">
+        <select id="sel-date" class="apple-select" aria-label="Select digest date"></select>
+        <div class="segmented-control" role="group" aria-label="Language">
+          <button type="button" class="segment-btn active" id="btn-en">EN</button>
+          <button type="button" class="segment-btn" id="btn-he">עברית</button>
+        </div>
+        <a href="index.html" class="switch-view-btn" id="link-classic" title="Switch to Classic Ops Terminal view">⚙️ Classic</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Horizontal Scrollable Category Pills -->
+  <nav class="filter-scroll-wrapper" aria-label="Categories">
+    <div class="filter-pills-inner">
+      <button type="button" class="pill-btn active" data-domain="all">
+        <span id="pill-all-label">All Stories</span>
+        <span class="pill-badge" id="count-all">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="high">
+        <span>🔥 <span id="pill-high-label">Top Priority</span></span>
+        <span class="pill-badge" id="count-high">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="air">
+        <span id="pill-air-label">Air Defense</span>
+        <span class="pill-badge" id="count-air">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="aerial">
+        <span id="pill-aerial-label">Aerial</span>
+        <span class="pill-badge" id="count-aerial">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="strike">
+        <span id="pill-strike-label">Strike</span>
+        <span class="pill-badge" id="count-strike">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="naval">
+        <span id="pill-naval-label">Naval</span>
+        <span class="pill-badge" id="count-naval">0</span>
+      </button>
+    </div>
+  </nav>
+
+  <main class="apple-main" id="app-main"></main>
+  <div id="apple-toast" role="status" aria-live="polite"></div>
+
+  <script src="./feed_bundle.js"></script>
+  <script>
+    (function () {
+      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      const urlParams = new URLSearchParams(window.location.search);
+      let initialDate = feed.dates[0] || "";
+      if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
+        initialDate = urlParams.get("date");
+      }
+      let initialLang = "en";
+      if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
+        initialLang = urlParams.get("lang");
+      }
+
+      let state = {
+        date: initialDate,
+        lang: initialLang,
+        filter: "all"
+      };
+
+      const selDate = document.getElementById("sel-date");
+      const btnEn = document.getElementById("btn-en");
+      const btnHe = document.getElementById("btn-he");
+      const mainEl = document.getElementById("app-main");
+      const linkClassic = document.getElementById("link-classic");
+
+      feed.dates.forEach((d) => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        selDate.appendChild(opt);
+      });
+      selDate.value = state.date;
+
+      function hid(id, he) {
+        if (!he) return id;
+        const map = { A: "א", B: "ב", C: "ג", D: "ד" };
+        return (map[id[0]] || id[0]) + id.slice(1);
+      }
+
+      function esc(str) {
+        const div = document.createElement("div");
+        div.textContent = str || "";
+        return div.innerHTML;
+      }
+
+      function showToast(msg) {
+        const t = document.getElementById("apple-toast");
+        if (!t) return;
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
+
+      window.shareStory = function(id, title) {
+        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#story-${id}`;
+        if (navigator.share) {
+          navigator.share({
+            title: title || "Defense Brief",
+            text: title,
+            url: shareUrl
+          }).catch(() => {});
+        } else {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast(state.lang === "he" ? "הקישור הועתק ללוח" : "Link copied to clipboard");
+          });
+        }
+      };
+
+      function updateCategoryCounts(items) {
+        const he = state.lang === "he";
+        document.getElementById("count-all").textContent = items.length;
+        document.getElementById("count-high").textContent = items.filter(i => i.priority === "high").length;
+        document.getElementById("count-air").textContent = items.filter(i => i.domain === "air").length;
+        document.getElementById("count-aerial").textContent = items.filter(i => i.domain === "aerial").length;
+        document.getElementById("count-strike").textContent = items.filter(i => i.domain === "strike").length;
+        document.getElementById("count-naval").textContent = items.filter(i => i.domain === "naval").length;
+
+        // Localize pills
+        document.getElementById("pill-all-label").textContent = he ? "כל הידיעות" : "All Stories";
+        document.getElementById("pill-high-label").textContent = he ? "עדיפות עליונה" : "Top Priority";
+        document.getElementById("pill-air-label").textContent = he ? "הגנה אווירית" : "Air Defense";
+        document.getElementById("pill-aerial-label").textContent = he ? "אווירי" : "Aerial";
+        document.getElementById("pill-strike-label").textContent = he ? "תקיפה וטילים" : "Strike";
+        document.getElementById("pill-naval-label").textContent = he ? "לוחמה ימית" : "Naval";
+      }
+
+      function render() {
+        const d = feed.digests[state.date];
+        const he = state.lang === "he";
+        document.documentElement.lang = he ? "he" : "en";
+        document.documentElement.dir = he ? "rtl" : "ltr";
+        btnEn.classList.toggle("active", !he);
+        btnHe.classList.toggle("active", he);
+
+        // Update classic link query string
+        linkClassic.href = `index.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}`;
+
+        if (!d) {
+          mainEl.innerHTML = "<p>No digest loaded for this date.</p>";
+          return;
+        }
+
+        const allItems = d.items || [];
+        updateCategoryCounts(allItems);
+
+        document.getElementById("ui-brand-title").textContent = he ? "סקירת ביטחון" : "Defense Brief";
+        document.getElementById("ui-date-sub").textContent = he
+          ? `מהדורת ${d.date} · ${allItems.length} דיווחים`
+          : `Edition ${d.date} · ${allItems.length} developments`;
+
+        // Domain labels map
+        const domLabels = he
+          ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה וטילים", naval: "לוחמה ימית" }
+          : { air: "Air Defense", aerial: "Aerial", strike: "Strike", naval: "Naval" };
+
+        // Filter items
+        let filtered = allItems;
+        if (state.filter === "high") {
+          filtered = allItems.filter(i => i.priority === "high");
+        } else if (state.filter !== "all") {
+          filtered = allItems.filter(i => i.domain === state.filter);
+        }
+
+        let html = "";
+
+        // 1. Apple News "Top Stories" Carousel (Only if filter is "all" or "high")
+        const highItems = allItems.filter(i => i.priority === "high");
+        const photos = d.photos || {};
+
+        if ((state.filter === "all" || state.filter === "high") && highItems.length > 0) {
+          const carouselSlides = highItems.slice(0, 6).map((it, idx) => {
+            const pinfo = photos[it.id];
+            const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
+            const remoteUrl = pinfo ? (pinfo.url || "") : "";
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{this.style.display='none';}`
+              : `this.style.display='none';`;
+
+            return `
+              <article class="carousel-slide" onclick="document.getElementById('story-${it.id}').scrollIntoView({behavior:'smooth',block:'center'});">
+                <div class="carousel-img-wrap">
+                  ${primarySrc ? `<img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />` : ""}
+                  <span class="carousel-priority-tag">${he ? "עדיפות גבוהה" : "High Priority"}</span>
+                </div>
+                <div class="carousel-content">
+                  <div class="carousel-tags">
+                    <span>${esc(domLabels[it.domain])}</span> · <span>${esc(he ? it.countryHe : it.country)}</span>
+                  </div>
+                  <h3 class="carousel-title">${esc(it.h[state.lang])}</h3>
+                  <p class="carousel-desc">${esc(it.what[state.lang])}</p>
+                </div>
+              </article>
+            `;
+          }).join("");
+
+          html += `
+            <section class="carousel-section" aria-roledescription="carousel" aria-label="Top stories">
+              <div class="section-eyebrow">${he ? "כותרות מובילות" : "Top Stories"}</div>
+              <div class="section-heading-row">
+                <h2 class="section-headline">${he ? "התפתחויות מרכזיות" : "Spotlight"}</h2>
+                <span class="section-subtext">${highItems.length} ${he ? "ידיעות עדיפות" : "high priority items"}</span>
+              </div>
+              <div class="carousel-track">
+                ${carouselSlides}
+              </div>
+            </section>
+          `;
+        }
+
+        // 2. Apple Briefing Card (BLUF)
+        const bluf = (d.digest && d.digest.bluf && d.digest.bluf[state.lang]) || [];
+        if (bluf.length && state.filter === "all") {
+          html += `
+            <section class="bluf-card">
+              <div class="bluf-header">
+                <div class="bluf-icon">⚡</div>
+                <h2 class="bluf-title">${he ? "תקציר מנהלים (BLUF)" : "Executive Briefing (BLUF)"}</h2>
+              </div>
+              <ul class="bluf-list">
+                ${bluf.map(b => `<li>${esc(b)}</li>`).join("")}
+              </ul>
+            </section>
+          `;
+        }
+
+        // 3. Stories Feed
+        html += `
+          <section class="feed-section">
+            <div class="section-heading-row">
+              <h2 class="section-headline">${state.filter === "all" ? (he ? "כל הידיעות" : "All Stories") : (he ? "ידיעות מסוננות" : "Filtered Feed")}</h2>
+              <span class="section-subtext">${filtered.length} ${he ? "פריטים" : "items"}</span>
+            </div>
+            <div class="feed-grid">
+        `;
+
+        filtered.forEach((it) => {
+          const pinfo = photos[it.id];
+          const hasPhoto = Boolean(pinfo && (pinfo.url || pinfo.local_src));
+          const isHigh = it.priority === "high";
+
+          let mediaHtml = "";
+          if (hasPhoto) {
+            const primarySrc = pinfo.local_src || pinfo.url;
+            const remoteUrl = pinfo.url || "";
+            const cred = he ? (pinfo.credit_he || pinfo.credit_en) : pinfo.credit_en;
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';}`
+              : `const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';`;
+
+            mediaHtml = `
+              <div class="story-media-box">
+                <img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />
+                <div class="media-caption">
+                  <span>${esc(cred)}</span>
+                  <a href="${esc(remoteUrl || primarySrc)}" target="_blank" rel="noopener">${he ? "מקור תמונה" : "Photo Source"}</a>
+                </div>
+              </div>
+            `;
+          }
+
+          const hasDeepSpecs = Boolean(it.figs || it.why || it.israel);
+          let specsHtml = "";
+          if (hasDeepSpecs) {
+            specsHtml = `
+              <details class="specs-disclosure">
+                <summary class="specs-summary">
+                  <span>${he ? "🔍 ניתוח מעמיק והשלכות לישראל" : "🔍 Deep Dive & Strategic Implications"}</span>
+                  <span class="specs-chevron">▼</span>
+                </summary>
+                <div class="specs-body">
+                  ${it.figs ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "נתונים טכניים מרכזיים:" : "Key Specs & Figures:"}</span>
+                      <span>${esc(it.figs[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.why ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "למה זה משמעותי:" : "Why It Matters:"}</span>
+                      <span>${esc(it.why[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.israel ? `
+                    <div class="spec-block">
+                      <span class="spec-label" style="color:var(--ios-accent);">${he ? "משמעויות לישראל ולמזה\"ת:" : "Israel & Regional Implications:"}</span>
+                      <span>${esc(it.israel[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                </div>
+              </details>
+            `;
+          }
+
+          const srcLinks = (it.src || [])
+            .map(s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
+            .join(" · ");
+
+          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
+          const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
+
+          html += `
+            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}">
+              <div class="story-card-inner">
+                <div class="story-top-meta">
+                  <div class="meta-pills">
+                    <span class="mini-badge">${esc(hid(it.id, he))}</span>
+                    <span class="mini-badge domain">${esc(domLabels[it.domain])}</span>
+                    <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
+                    ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות עליונה" : "HIGH PRIORITY"}</span>` : ""}
+                  </div>
+                  <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
+                    <span>↗</span> ${he ? "שיתוף" : "Share"}
+                  </button>
+                </div>
+
+                <h3 class="story-title">${esc(it.h[state.lang])}</h3>
+
+                ${mediaHtml}
+
+                <p class="story-lead">${esc(it.what[state.lang])}</p>
+
+                ${specsHtml}
+
+                <div class="story-sources">
+                  <strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}
+                </div>
+              </div>
+            </article>
+          `;
+        });
+
+        html += `
+            </div>
+          </section>
+        `;
+
+        mainEl.innerHTML = html;
+
+        // Auto-scroll to item if hash present
+        if (window.location.hash) {
+          setTimeout(() => {
+            const el = document.querySelector(window.location.hash);
+            if (el) {
+              el.scrollIntoView({ behavior: "smooth", block: "center" });
+              el.classList.add("highlight-card");
+              setTimeout(() => el.classList.remove("highlight-card"), 2500);
+            }
+          }, 150);
+        }
+      }
+
+      // Event listeners
+      selDate.addEventListener("change", (e) => { state.date = e.target.value; render(); });
+      btnEn.addEventListener("click", () => { state.lang = "en"; render(); });
+      btnHe.addEventListener("click", () => { state.lang = "he"; render(); });
+
+      document.querySelectorAll(".pill-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".pill-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.filter = btn.getAttribute("data-domain");
+          render();
+        });
+      });
+
+      render();
+    })();
+  </script>
+</body>
+</html>
