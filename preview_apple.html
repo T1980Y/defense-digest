@@ -198,6 +198,11 @@
       display: inline-flex;
       align-items: center;
       gap: 4px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    @media (max-width: 640px) {
+      .switch-view-btn { display: none; }
     }
 
     /* Category Filter Pills (Horizontal Scroll) */

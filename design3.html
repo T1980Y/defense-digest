@@ -180,33 +180,6 @@
       padding: 1.25rem 1rem;
     }
 
-    /* Design Navigation Banner */
-    .design-banner {
-      background: linear-gradient(135deg, rgba(0, 102, 204, 0.08), rgba(217, 119, 6, 0.06));
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 0.65rem 0.85rem;
-      margin-block-end: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 0.5rem;
-      font-size: 0.82rem;
-    }
-
-    .design-banner-links { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-    .design-tag {
-      padding: 3px 8px;
-      border-radius: 6px;
-      background: var(--card);
-      color: var(--accent);
-      border: 1px solid var(--border);
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 0.78rem;
-    }
-    .design-tag.current { background: var(--text); color: var(--bg); border-color: var(--text); }
 
     /* Top Carousel */
     .carousel-section { margin-block-end: 2rem; }
@@ -475,8 +448,6 @@
     <button type="button" class="capsule-btn" id="cap-date" title="Select Date">📅 <span id="cap-date-text">Date</span></button>
     <div class="capsule-divider"></div>
     <button type="button" class="capsule-btn" id="cap-bluf" title="View BLUF Summary">⚡ BLUF</button>
-    <div class="capsule-divider"></div>
-    <button type="button" class="capsule-btn" id="cap-style" title="Switch Design">🎨 Style</button>
   </aside>
 
   <!-- BLUF Bottom Sheet -->
@@ -500,23 +471,6 @@
         <button type="button" class="sheet-close-btn" id="close-date-sheet">Done</button>
       </div>
       <div id="date-list-buttons" style="display:flex;flex-direction:column;gap:8px;padding-block:6px;"></div>
-    </div>
-  </div>
-
-  <!-- Style / Design Bottom Sheet -->
-  <div class="sheet-backdrop" id="style-sheet">
-    <div class="bottom-sheet">
-      <div class="sheet-grabber"></div>
-      <div class="sheet-header">
-        <h2 class="sheet-title">Select Mobile Design</h2>
-        <button type="button" class="sheet-close-btn" id="close-style-sheet">Done</button>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:8px;padding-block:6px;">
-        <a href="design1.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d1">Design 1: Apple 2-Tier Bar</a>
-        <a href="design2.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d2">Design 2: Bottom Navigation Bar</a>
-        <a href="design3.html" class="tab-item active" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d3">Design 3A: Neo-Editorial (Round Hebrew)</a>
-        <a href="index.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-classic">Classic Ops Terminal</a>
-      </div>
     </div>
   </div>
 
@@ -578,14 +532,6 @@
         }
       };
 
-      function updateLinks() {
-        const q = `?date=${encodeURIComponent(state.date)}&lang=${state.lang}`;
-        document.getElementById("link-d1").href = `design1.html${q}`;
-        document.getElementById("link-d2").href = `design2.html${q}`;
-        document.getElementById("link-d3").href = `design3.html${q}`;
-        document.getElementById("link-classic").href = `index.html${q}`;
-      }
-
       function populateDateSheet() {
         const dateContainer = document.getElementById("date-list-buttons");
         dateContainer.innerHTML = feed.dates.map(d => `
@@ -607,7 +553,6 @@
         document.documentElement.lang = he ? "he" : "en";
         document.documentElement.dir = he ? "rtl" : "ltr";
 
-        updateLinks();
         populateDateSheet();
 
         if (!d) {
@@ -649,17 +594,7 @@
           filtered = allItems.filter(i => i.domain === state.filter);
         }
 
-        let html = `
-          <div class="design-banner">
-            <div><strong>Design 3A: Neo-Editorial</strong> — Round Segoe UI / Rubik typography & floating capsule:</div>
-            <div class="design-banner-links">
-              <a href="design1.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">1: 2-Tier</a>
-              <a href="design2.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">2: Bottom Bar</a>
-              <span class="design-tag current">3A: Neo-Editorial</span>
-              <a href="index.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">Classic</a>
-            </div>
-          </div>
-        `;
+        let html = "";
 
         // Top Stories Carousel (Spotlight)
         const highItems = allItems.filter(i => i.priority === "high");
@@ -821,13 +756,6 @@
       });
       document.getElementById("close-bluf-sheet").addEventListener("click", () => {
         document.getElementById("bluf-sheet").classList.remove("open");
-      });
-
-      document.getElementById("cap-style").addEventListener("click", () => {
-        document.getElementById("style-sheet").classList.add("open");
-      });
-      document.getElementById("close-style-sheet").addEventListener("click", () => {
-        document.getElementById("style-sheet").classList.remove("open");
       });
 
       // Tabs
