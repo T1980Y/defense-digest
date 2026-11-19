@@ -649,9 +649,14 @@
       if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
         initialDate = urlParams.get("date");
       }
-      let initialLang = "en";
+      let initialLang = "he";
       if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
         initialLang = urlParams.get("lang");
+      } else {
+        try {
+          const saved = localStorage.getItem("defense_brief_lang");
+          if (saved === "he" || saved === "en") initialLang = saved;
+        } catch (e) {}
       }
 
       let state = {
@@ -1110,6 +1115,7 @@
       document.getElementById("cap-lang").addEventListener("click", () => {
         state.lang = state.lang === "en" ? "he" : "en";
         state.country = null;
+        try { localStorage.setItem("defense_brief_lang", state.lang); } catch (e) {}
         render();
       });
 
