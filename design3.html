@@ -102,17 +102,31 @@
 
     .masthead-top-line {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.65rem;
       font-size: 0.72rem;
-      font-family: Consolas, monospace;
+      font-family: var(--font-sans);
       font-weight: 700;
-      letter-spacing: 0.12em;
+      letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--text-sec);
-      padding-bottom: 0.4rem;
+      padding-bottom: 0.45rem;
       border-block-end: 1px solid var(--border-subtle);
       margin-bottom: 0.85rem;
+      line-height: 1.25;
+    }
+
+    .meta-tag {
+      white-space: nowrap;
+    }
+
+    .meta-dot {
+      color: var(--accent);
+      opacity: 0.65;
+      font-size: 0.65rem;
+      user-select: none;
     }
 
     .masthead-title {
@@ -332,36 +346,48 @@
       color: var(--capsule-text);
       border: 1px solid var(--capsule-border);
       border-radius: 35px;
-      padding: 6px 14px;
+      padding: 5px 10px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 5px;
       box-shadow: 0 10px 32px rgba(0, 0, 0, 0.45);
       font-family: var(--font-hebrew);
+      max-width: calc(100vw - 20px);
+      box-sizing: border-box;
     }
 
     .capsule-btn {
       background: transparent;
       border: none;
       color: #fff;
-      font-size: 0.82rem;
+      font-size: 0.8rem;
       font-weight: 700;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      padding: 6px 8px;
-      border-radius: 20px;
+      gap: 4px;
+      padding: 6px 7px;
+      border-radius: 18px;
       touch-action: manipulation;
       font-family: inherit;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background 0.15s ease, color 0.15s ease;
     }
 
     .capsule-btn:active { background: rgba(255, 255, 255, 0.2); }
 
+    .capsule-btn.active-filter {
+      background: var(--accent);
+      color: #ffffff;
+      box-shadow: 0 0 12px rgba(0, 102, 204, 0.6);
+    }
+
     .capsule-divider {
       width: 1px;
-      height: 16px;
-      background: rgba(255, 255, 255, 0.25);
+      height: 14px;
+      background: rgba(255, 255, 255, 0.22);
+      flex-shrink: 0;
     }
 
     /* Bottom Sheet (BLUF & Dates) */
@@ -399,6 +425,125 @@
     .bluf-sheet-list { margin: 0; padding-inline-start: 1.25rem; }
     .bluf-sheet-list li { margin-block-end: 0.75rem; font-size: 0.95rem; line-height: 1.55; }
 
+    /* Country Sheet Styles */
+    .country-search-wrap {
+      margin-bottom: 0.85rem;
+    }
+    .country-search-field {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--card-sec);
+      color: var(--text);
+      font-size: 0.92rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.15s ease;
+    }
+    .country-search-field:focus {
+      border-color: var(--accent);
+    }
+    .country-sheet-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      max-height: 55vh;
+      overflow-y: auto;
+      padding-inline-end: 2px;
+    }
+    .country-group-label {
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-ter);
+      margin-top: 0.65rem;
+      margin-bottom: 0.35rem;
+    }
+    .country-chips-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 0.5rem;
+    }
+    .country-btn {
+      background: var(--card-sec);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 12px;
+      padding: 9px 12px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.15s ease;
+      text-align: start;
+    }
+    .country-btn:active, .country-btn:hover {
+      background: var(--card-highlight);
+      border-color: var(--accent);
+    }
+    .country-btn.active {
+      background: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+    .country-btn .c-count {
+      background: rgba(0, 0, 0, 0.08);
+      font-size: 0.75rem;
+      padding: 2px 7px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+    .country-btn.active .c-count {
+      background: rgba(255, 255, 255, 0.25);
+      color: var(--bg);
+    }
+    @media (prefers-color-scheme: dark) {
+      .country-btn .c-count {
+        background: rgba(255, 255, 255, 0.12);
+      }
+    }
+    .active-filter-banner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 102, 204, 0.08);
+      border: 1px solid var(--border-accent);
+      border-radius: 12px;
+      padding: 9px 14px;
+      margin-bottom: 1.25rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      gap: 10px;
+    }
+    .clear-filter-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 5px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      cursor: pointer;
+      font-family: inherit;
+      white-space: nowrap;
+    }
+    .empty-country-feed {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--text-sec);
+    }
+    .empty-country-feed p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
     #capsule-toast {
       position: fixed;
       bottom: calc(75px + max(1rem, env(safe-area-inset-bottom, 0px)));
@@ -423,9 +568,11 @@
   <!-- Grand Editorial Masthead -->
   <header class="editorial-masthead">
     <div class="masthead-top-line">
-      <span>UNCLASSIFIED / OSINT</span>
-      <span id="ui-meta-date">NOVEMBER 18, 2026</span>
-      <span>INTELLIGENCE BRIEF</span>
+      <span class="meta-tag">UNCLASSIFIED / OSINT</span>
+      <span class="meta-dot">•</span>
+      <span class="meta-tag" id="ui-meta-date">NOVEMBER 18, 2026</span>
+      <span class="meta-dot">•</span>
+      <span class="meta-tag" id="ui-meta-edition">DAILY BRIEF</span>
     </div>
     <h1 class="masthead-title" id="ui-brand-title">THE DEFENSE BRIEF</h1>
     <div class="masthead-tagline" id="ui-brand-sub">Daily Strategic Weaponry, Procurement & Regional Implication Analysis</div>
@@ -445,7 +592,9 @@
   <aside class="floating-capsule" role="navigation" aria-label="Quick Navigation">
     <button type="button" class="capsule-btn" id="cap-lang" title="Toggle Language">🌐 <span id="cap-lang-text">עב</span></button>
     <div class="capsule-divider"></div>
-    <button type="button" class="capsule-btn" id="cap-date" title="Select Date">📅 <span id="cap-date-text">Date</span></button>
+    <button type="button" class="capsule-btn" id="cap-date" title="Select Date">📅 <span id="cap-date-text">11/18</span></button>
+    <div class="capsule-divider"></div>
+    <button type="button" class="capsule-btn" id="cap-country" title="Filter by Country">🌍 <span id="cap-country-text">מדינה</span></button>
     <div class="capsule-divider"></div>
     <button type="button" class="capsule-btn" id="cap-bluf" title="View BLUF Summary">⚡ BLUF</button>
   </aside>
@@ -474,6 +623,21 @@
     </div>
   </div>
 
+  <!-- Country Bottom Sheet -->
+  <div class="sheet-backdrop" id="country-sheet">
+    <div class="bottom-sheet">
+      <div class="sheet-grabber"></div>
+      <div class="sheet-header">
+        <h2 class="sheet-title" id="sheet-country-title">סינון לפי מדינה</h2>
+        <button type="button" class="sheet-close-btn" id="close-country-sheet">Done</button>
+      </div>
+      <div class="country-search-wrap">
+        <input type="search" id="country-search-input" class="country-search-field" placeholder="חיפוש מדינה..." autocomplete="off" />
+      </div>
+      <div id="country-sheet-content" class="country-sheet-grid"></div>
+    </div>
+  </div>
+
   <div id="capsule-toast" role="status" aria-live="polite"></div>
 
   <script src="./feed_bundle.js"></script>
@@ -493,8 +657,173 @@
       let state = {
         date: initialDate,
         lang: initialLang,
-        filter: "all"
+        filter: "all",
+        country: null
       };
+
+      const FLAG_MAP = {
+        "israel": "🇮🇱", "ישראל": "🇮🇱",
+        "germany": "🇩🇪", "גרמניה": "🇩🇪",
+        "united states": "🇺🇸", "ארצות הברית": "🇺🇸", "ארה\"ב": "🇺🇸", "usa": "🇺🇸", "us": "🇺🇸",
+        "india": "🇮🇳", "הודו": "🇮🇳",
+        "uae": "🇦🇪", "איחוד האמירויות": "🇦🇪",
+        "azerbaijan": "🇦🇿", "אזרבייג'ן": "🇦🇿",
+        "singapore": "🇸🇬", "סינגפור": "🇸🇬",
+        "morocco": "🇲🇦", "מרוקו": "🇲🇦",
+        "south korea": "🇰🇷", "דרום קוריאה": "🇰🇷",
+        "france": "🇫🇷", "צרפת": "🇫🇷",
+        "ukraine": "🇺🇦", "אוקראינה": "🇺🇦",
+        "russia": "🇷🇺", "רוסיה": "🇷🇺",
+        "china": "🇨🇳", "סין": "🇨🇳",
+        "iran": "🇮🇷", "איראן": "🇮🇷",
+        "poland": "🇵🇱", "פולין": "🇵🇱",
+        "united kingdom": "🇬🇧", "בריטניה": "🇬🇧", "uk": "🇬🇧",
+        "nato": "🇪🇺", "נאט\"ו": "🇪🇺",
+        "europe": "🇪🇺", "אירופה": "🇪🇺",
+        "czech republic": "🇨🇿", "צ'כיה": "🇨🇿",
+        "switzerland": "🇨🇭", "שווייץ": "🇨🇭",
+        "kuwait": "🇰🇼", "כווית": "כווית",
+        "bahrain": "🇧🇭", "בחריין": "🇧🇭",
+        "austria": "🇦🇹", "אוסטריה": "🇦🇹",
+        "malaysia": "🇲🇾", "מלזיה": "מלזיה",
+        "ghana": "🇬🇭", "גאנה": "גאנה",
+        "spain": "🇪🇸", "ספרד": "🇪🇸",
+        "canada": "🇨🇦", "קנדה": "קנדה",
+        "pakistan": "🇵🇰", "פקיסטן": "פקיסטן",
+        "italy": "🇮🇹", "איטליה": "איטליה",
+        "finland": "🇫🇮", "פינלנד": "פינלנד",
+        "albania": "🇦🇱", "אלבניה": "אלבניה",
+        "saudi arabia": "🇸🇦", "ערב הסעודית": "ערב הסעודית",
+        "yemen": "🇾🇪", "תימן": "תימן",
+        "estonia": "🇪🇪", "אסטוניה": "אסטוניה",
+        "ireland": "🇮🇪", "אירלנד": "אירלנד",
+        "oman": "🇴🇲", "עומאן": "עומאן",
+        "taiwan": "🇹🇼", "טייוואן": "טייוואן",
+        "turkey": "🇹🇷", "טורקיה": "טורקיה",
+        "japan": "🇯🇵", "יפן": "יפן"
+      };
+
+      function formatHebrewDate(dateStr) {
+        if (!dateStr) return "";
+        const parts = dateStr.split("-");
+        if (parts.length < 3) return dateStr;
+        const monthsHe = {
+          "01": "בינואר", "02": "בפברואר", "03": "במרץ", "04": "באפריל",
+          "05": "במאי", "06": "ביוני", "07": "ביולי", "08": "באוגוסט",
+          "09": "בספטמבר", "10": "באוקטובר", "11": "בנובמבר", "12": "בדצמבר"
+        };
+        const isEvening = dateStr.includes("evening");
+        const day = parseInt(parts[2], 10);
+        const m = monthsHe[parts[1]] || parts[1];
+        return `${day} ${m} ${parts[0]}${isEvening ? " (ערב)" : ""}`;
+      }
+
+      function formatEnglishDate(dateStr) {
+        if (!dateStr) return "";
+        const parts = dateStr.split("-");
+        if (parts.length < 3) return dateStr;
+        const monthsEn = {
+          "01": "JANUARY", "02": "FEBRUARY", "03": "MARCH", "04": "APRIL",
+          "05": "MAY", "06": "JUNE", "07": "JULY", "08": "AUGUST",
+          "09": "SEPTEMBER", "10": "OCTOBER", "11": "NOVEMBER", "12": "DECEMBER"
+        };
+        const isEvening = dateStr.includes("evening");
+        const m = monthsEn[parts[1]] || parts[1];
+        return `${m} ${parseInt(parts[2], 10)}, ${parts[0]}${isEvening ? " (EVENING)" : ""}`;
+      }
+
+      function getDigestCountries(items, isHe) {
+        const counts = {};
+        items.forEach(it => {
+          const raw = isHe ? (it.countryHe || it.country) : (it.country || it.countryHe);
+          if (!raw) return;
+          const parts = raw.split("/").map(s => s.trim()).filter(Boolean);
+          parts.forEach(c => {
+            counts[c] = (counts[c] || 0) + 1;
+          });
+        });
+        return Object.keys(counts).map(c => ({
+          name: c,
+          count: counts[c],
+          flag: FLAG_MAP[c.toLowerCase()] || "🌍"
+        })).sort((a, b) => b.count - a.count);
+      }
+
+      function itemMatchesCountry(it, targetCountry) {
+        if (!targetCountry) return true;
+        const target = targetCountry.trim().toLowerCase();
+        const cen = (it.country || "").toLowerCase().split("/").map(s => s.trim());
+        const che = (it.countryHe || "").toLowerCase().split("/").map(s => s.trim());
+        return cen.includes(target) || che.includes(target) ||
+               (it.country || "").toLowerCase().includes(target) ||
+               (it.countryHe || "").toLowerCase().includes(target);
+      }
+
+      window.selectCountry = function(c) {
+        state.country = c || null;
+        document.getElementById("country-sheet").classList.remove("open");
+        render();
+      };
+
+      function populateCountrySheet(allItems, he) {
+        const container = document.getElementById("country-sheet-content");
+        const countries = getDigestCountries(allItems, he);
+
+        const focusNamesHe = ["ישראל", "גרמניה", "הודו", "ארצות הברית", "איחוד האמירויות", "אזרבייג'ן", "סינגפור", "מרוקו"];
+        const focusNamesEn = ["Israel", "Germany", "India", "United States", "UAE", "Azerbaijan", "Singapore", "Morocco"];
+        const focusNames = he ? focusNamesHe : focusNamesEn;
+
+        const focusList = countries.filter(c => focusNames.some(fn => fn.toLowerCase() === c.name.toLowerCase()));
+        const otherList = countries.filter(c => !focusNames.some(fn => fn.toLowerCase() === c.name.toLowerCase()));
+
+        let html = `
+          <button type="button" class="country-btn all-btn ${!state.country ? "active" : ""}" onclick="selectCountry('')">
+            <span>🌐 ${he ? "כל המדינות (הצג הכל)" : "All Countries (Show All)"}</span>
+            <span class="c-count">${allItems.length}</span>
+          </button>
+        `;
+
+        if (focusList.length > 0) {
+          html += `
+            <div class="country-group-label">${he ? "מדינות מיקוד" : "Focus Countries"}</div>
+            <div class="country-chips-row">
+              ${focusList.map(c => `
+                <button type="button" class="country-btn ${state.country === c.name ? "active" : ""}" onclick="selectCountry('${esc(c.name)}')">
+                  <span>${c.flag} ${esc(c.name)}</span>
+                  <span class="c-count">${c.count}</span>
+                </button>
+              `).join("")}
+            </div>
+          `;
+        }
+
+        if (otherList.length > 0) {
+          html += `
+            <div class="country-group-label">${he ? "מדינות נוספות" : "Other Nations"}</div>
+            <div class="country-chips-row">
+              ${otherList.map(c => `
+                <button type="button" class="country-btn ${state.country === c.name ? "active" : ""}" onclick="selectCountry('${esc(c.name)}')">
+                  <span>${c.flag} ${esc(c.name)}</span>
+                  <span class="c-count">${c.count}</span>
+                </button>
+              `).join("")}
+            </div>
+          `;
+        }
+
+        container.innerHTML = html;
+
+        const searchInput = document.getElementById("country-search-input");
+        searchInput.value = "";
+        searchInput.placeholder = he ? "חיפוש מדינה..." : "Search country...";
+        searchInput.oninput = function() {
+          const q = this.value.trim().toLowerCase();
+          container.querySelectorAll(".country-btn:not(.all-btn)").forEach(btn => {
+            const txt = btn.textContent.toLowerCase();
+            btn.style.display = (!q || txt.includes(q)) ? "flex" : "none";
+          });
+        };
+      }
 
       const mainEl = document.getElementById("app-main");
       const capLangText = document.getElementById("cap-lang-text");
@@ -543,6 +872,7 @@
 
       window.changeDate = function(newDate) {
         state.date = newDate;
+        state.country = null;
         document.getElementById("date-sheet").classList.remove("open");
         render();
       };
@@ -567,11 +897,28 @@
         document.getElementById("ui-brand-sub").textContent = he
           ? `מהדורת ${d.date} · ניתוח אמצעי לחימה, רכש ומשמעויות אזוריות`
           : `Daily Strategic Weaponry, Procurement & Regional Implication Analysis · ${d.date}`;
-        document.getElementById("ui-meta-date").textContent = d.date;
+        
+        document.getElementById("ui-meta-date").textContent = he ? formatHebrewDate(d.date) : formatEnglishDate(d.date);
+        document.getElementById("ui-meta-edition").textContent = he ? (d.date.includes("evening") ? "מהדורת ערב" : "סקירה יומית") : (d.date.includes("evening") ? "EVENING DIGEST" : "DAILY BRIEF");
 
         // Capsule text
         capLangText.textContent = he ? "EN" : "עב";
-        capDateText.textContent = d.date.slice(5);
+        capDateText.textContent = d.date.slice(5).replace("-", "/");
+
+        const capCountryBtn = document.getElementById("cap-country");
+        const capCountryText = document.getElementById("cap-country-text");
+        if (state.country) {
+          capCountryBtn.classList.add("active-filter");
+          capCountryText.textContent = state.country;
+        } else {
+          capCountryBtn.classList.remove("active-filter");
+          capCountryText.textContent = he ? "מדינה" : "Country";
+        }
+
+        // Country bottom sheet
+        document.getElementById("sheet-country-title").textContent = he ? "סינון לפי מדינה" : "Filter by Country";
+        document.getElementById("close-country-sheet").textContent = he ? "סגור" : "Done";
+        populateCountrySheet(allItems, he);
 
         // Tab titles
         document.getElementById("tab-all-lbl").textContent = he ? `כל הדיווחים (${allItems.length})` : `All Reports (${allItems.length})`;
@@ -593,14 +940,26 @@
         if (state.filter !== "all") {
           filtered = allItems.filter(i => i.domain === state.filter);
         }
+        if (state.country) {
+          filtered = filtered.filter(i => itemMatchesCountry(i, state.country));
+        }
 
         let html = "";
+
+        if (state.country) {
+          html += `
+            <div class="active-filter-banner">
+              <span>🌍 ${he ? "סינון מדינה:" : "Filtered by country:"} <strong>${esc(state.country)}</strong> (${filtered.length} ${he ? "דיווחים" : "reports"})</span>
+              <button type="button" class="clear-filter-btn" onclick="selectCountry('')">${he ? "✕ הצג הכל" : "✕ Clear"}</button>
+            </div>
+          `;
+        }
 
         // Top Stories Carousel (Spotlight)
         const highItems = allItems.filter(i => i.priority === "high");
         const photos = d.photos || {};
 
-        if (state.filter === "all" && highItems.length > 0) {
+        if (state.filter === "all" && !state.country && highItems.length > 0) {
           const carouselSlides = highItems.slice(0, 6).map((it) => {
             const pinfo = photos[it.id];
             const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
@@ -638,7 +997,15 @@
         }
 
         // Feed List
-        html += `<section class="feed-section"><div class="feed-grid">`;
+        if (filtered.length === 0) {
+          html += `
+            <div class="empty-country-feed">
+              <p>${he ? `לא נמצאו דיווחים עבור <strong>${esc(state.country || "")}</strong>${state.filter !== 'all' ? ' בתחום זה' : ''}.` : `No reports found for <strong>${esc(state.country || "")}</strong>${state.filter !== 'all' ? ' in this domain' : ''}.`}</p>
+              <button type="button" class="clear-filter-btn" onclick="selectCountry('')">${he ? "הצג את כל המדינות" : "Show All Countries"}</button>
+            </div>
+          `;
+        } else {
+          html += `<section class="feed-section"><div class="feed-grid">`;
 
         filtered.forEach((it) => {
           const pinfo = photos[it.id];
@@ -734,13 +1101,15 @@
           `;
         });
 
-        html += `</div></section>`;
+          html += `</div></section>`;
+        }
         mainEl.innerHTML = html;
       }
 
       // Capsule buttons
       document.getElementById("cap-lang").addEventListener("click", () => {
         state.lang = state.lang === "en" ? "he" : "en";
+        state.country = null;
         render();
       });
 
@@ -749,6 +1118,13 @@
       });
       document.getElementById("close-date-sheet").addEventListener("click", () => {
         document.getElementById("date-sheet").classList.remove("open");
+      });
+
+      document.getElementById("cap-country").addEventListener("click", () => {
+        document.getElementById("country-sheet").classList.add("open");
+      });
+      document.getElementById("close-country-sheet").addEventListener("click", () => {
+        document.getElementById("country-sheet").classList.remove("open");
       });
 
       document.getElementById("cap-bluf").addEventListener("click", () => {
