@@ -2,10 +2,11 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
   <!-- MANDATORY: Declare support for both light and dark themes -->
   <meta name="color-scheme" content="light dark" />
-  <title>Defense Technology Brief — Local App</title>
+  <title>Defense Technology Brief — Feed</title>
   <style>
     :root {
       /* Light & Dark design tokens (Navy standard + Ops Console Cyan dark) */
@@ -40,6 +41,9 @@
       --red: var(--red-light);
       --scrollbar-track: #edf1f5;
       --scrollbar-thumb: #8ca3b8;
+
+      /* Touch target size per modern-web-guidance: form-factor-adaptation */
+      --target-size: 34px;
 
       @media (prefers-color-scheme: dark) {
         --bg: var(--bg-dark);
@@ -76,6 +80,12 @@
       scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
     }
 
+    @media (pointer: coarse) {
+      :root {
+        --target-size: 42px;
+      }
+    }
+
     @supports not (scrollbar-color: auto) {
       ::-webkit-scrollbar {
         width: 10px;
@@ -93,12 +103,26 @@
       box-sizing: border-box;
     }
 
+    /* Lock horizontal scrolling on viewport to prevent mobile wobble */
+    html, body {
+      overflow-x: clip;
+    }
+
     body {
       margin: 0;
       font-family: Arial, system-ui, -apple-system, sans-serif;
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.5;
+      overflow-wrap: break-word;
+      padding-block-end: max(1.5rem, env(safe-area-inset-bottom, 0px));
+      padding-inline-start: env(safe-area-inset-left, 0px);
+      padding-inline-end: env(safe-area-inset-right, 0px);
+    }
+
+    :where(a, code) {
+      overflow-wrap: anywhere;
+      word-break: break-word;
     }
 
     header.top-band {
@@ -139,13 +163,19 @@
       color: #9be0fa;
     }
 
+    /* Sticky on desktop, naturally scrolls on mobile */
     .controls-bar {
       background-color: var(--panel);
       border-block-end: 1px solid var(--border);
       padding: 0.85rem 1.5rem;
-      position: sticky;
-      inset-block-start: 0;
-      z-index: 10;
+    }
+
+    @media (min-width: 769px) {
+      .controls-bar {
+        position: sticky;
+        inset-block-start: 0;
+        z-index: 10;
+      }
     }
 
     .controls-inner {
@@ -153,7 +183,7 @@
       margin-inline: auto;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      gap: 0.65rem;
       align-items: center;
     }
 
@@ -164,10 +194,12 @@
       border-radius: 4px;
       padding: 0.45rem 0.75rem;
       font-size: 0.9rem;
+      min-block-size: var(--target-size);
+      max-inline-size: 100%;
     }
 
     input[type="search"] {
-      flex: 1 1 240px;
+      flex: 1 1 200px;
     }
 
     button.btn {
@@ -203,6 +235,29 @@
       padding-block-end: 0.4rem;
     }
 
+    .overview-summary {
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      user-select: none;
+    }
+
+    .overview-summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .details-chevron {
+      transition: transform 0.2s ease;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    details[open] .details-chevron {
+      transform: rotate(180deg);
+    }
+
     .bluf-list {
       margin: 0;
       padding-inline-start: 1.25rem;
@@ -214,7 +269,7 @@
 
     .stats-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
       gap: 0.75rem;
       margin-block-end: 1.5rem;
     }
@@ -249,6 +304,7 @@
       container-type: inline-size;
       border: 1px solid var(--border);
       border-radius: 4px;
+      -webkit-overflow-scrolling: touch;
     }
 
     table.overview-table {
@@ -324,7 +380,7 @@
       table.overview-table td:nth-child(7)::before { content: var(--label-7) ": "; font-weight: 700; }
     }
 
-    /* Item cards & deferred off-screen rendering per modern-web-guidance: defer-rendering-heavy-content */
+    /* Item cards */
     .item-card {
       background-color: var(--panel);
       border: 1px solid var(--border);
@@ -336,11 +392,6 @@
 
     .item-card.high-priority {
       border-inline-start-color: var(--red);
-    }
-
-    .heavy-section-deferred {
-      content-visibility: auto;
-      contain-intrinsic-size: auto none auto 220px;
     }
 
     .badges {
@@ -391,12 +442,25 @@
       }
     }
 
+    .photo-box {
+      margin-block-end: 0.5rem;
+    }
+
     .photo-box img {
       inline-size: 100%;
-      height: auto;
+      aspect-ratio: 16 / 9;
+      max-block-size: 260px;
+      object-fit: cover;
       border-radius: 4px;
       border: 1px solid var(--border);
       display: block;
+      background-color: var(--panel2);
+    }
+
+    @media (min-width: 768px) {
+      .photo-box img {
+        max-block-size: 185px;
+      }
     }
 
     .photo-credit {
@@ -431,6 +495,7 @@
       font-style: italic;
       margin-block-start: 0.2rem;
     }
+
     .share-btn {
       display: inline-flex;
       align-items: center;
@@ -446,10 +511,12 @@
       transition: all 0.15s ease-in-out;
       margin-inline-start: auto;
     }
+
     .share-btn:hover {
       background: var(--border);
       color: var(--text);
     }
+
     .item-top-bar {
       display: flex;
       align-items: center;
@@ -457,11 +524,13 @@
       gap: 10px;
       margin-bottom: 6px;
     }
+
     .item-highlighted {
       outline: 3px solid #f59e0b !important;
       box-shadow: 0 0 25px rgba(245, 158, 11, 0.45) !important;
       transition: outline 0.3s ease, box-shadow 0.3s ease;
     }
+
     #toast {
       position: fixed;
       bottom: 24px;
@@ -480,9 +549,56 @@
       transition: transform 0.25s ease, opacity 0.25s ease;
       box-shadow: 0 8px 24px rgba(0,0,0,0.6);
     }
+
     #toast.show {
       transform: translateX(-50%) translateY(0);
       opacity: 1;
+    }
+
+    /* Mobile view optimizations */
+    @media (max-width: 768px) {
+      .controls-bar {
+        position: static;
+        padding: 0.75rem 0.85rem;
+      }
+      .controls-inner {
+        gap: 0.5rem;
+      }
+      select, input[type="search"], button.btn {
+        font-size: 0.88rem;
+        padding: 0.4rem 0.6rem;
+      }
+      input[type="search"] {
+        flex: 1 1 140px;
+      }
+      main {
+        padding: 0.75rem;
+      }
+      header.top-band {
+        padding: 1rem 0.85rem;
+      }
+      h1 {
+        font-size: 1.35rem;
+      }
+      .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+      }
+      .stat-box {
+        padding: 0.65rem 0.75rem;
+      }
+      .stat-num {
+        font-size: 1.35rem;
+      }
+      .item-card {
+        padding: 0.85rem;
+      }
+      .item-header {
+        font-size: 1rem;
+      }
+      .table-wrapper {
+        max-block-size: 340px;
+      }
     }
   </style>
 </head>
@@ -676,43 +792,47 @@
           `;
         }
 
-        // Overview Table
+        // Overview Table (Collapsible)
         const colNames = he
           ? ["#", "כותרת", "מדינה", "תחום", "סוג", "עדיפות", "סטטוס"]
           : ["#", "Headline", "Country", "Domain", "Type", "Priority", "Status"];
         html += `
           <section class="section-card">
-            <h2 class="section-title" id="overview-table-caption">${he ? "טבלת סקירה" : "Overview Table"} (${filtered.length})</h2>
-            <div tabindex="0" role="region" aria-labelledby="overview-table-caption" class="table-wrapper">
-              <table class="overview-table" style="--label-2:'${colNames[1]}';--label-3:'${colNames[2]}';--label-4:'${colNames[3]}';--label-5:'${colNames[4]}';--label-6:'${colNames[5]}';--label-7:'${colNames[6]}';">
-                <thead>
-                  <tr>${colNames.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>
-                </thead>
-                <tbody>
-                  ${filtered.map((it) => `
-                    <tr>
-                      <th><a href="#item-${it.id}" style="color:inherit;">${esc(hid(it.id, he))}</a></th>
-                      <td>${esc(it.h[state.lang])}</td>
-                      <td>${esc(he ? it.countryHe : it.country)}</td>
-                      <td>${esc(domLabels[it.domain])}</td>
-                      <td>${esc(he ? it.typeHe : it.type)}</td>
-                      <td>${it.priority === "high" ? `<strong style="color:var(--red);">${he ? "עדיפות גבוהה" : "HIGH PRIORITY"}</strong>` : esc(he ? "שגרתי" : "STANDARD")}</td>
-                      <td>${esc((it.statuses || []).join(" / "))}</td>
-                    </tr>
-                  `).join("")}
-                </tbody>
-              </table>
-            </div>
+            <details class="overview-details" id="overview-details" open>
+              <summary class="section-title overview-summary" id="overview-table-caption">
+                <span>${he ? "טבלת סקירה" : "Overview Table"} (${filtered.length})</span>
+                <span class="details-chevron">▼</span>
+              </summary>
+              <div tabindex="0" role="region" aria-labelledby="overview-table-caption" class="table-wrapper">
+                <table class="overview-table" style="--label-2:'${colNames[1]}';--label-3:'${colNames[2]}';--label-4:'${colNames[3]}';--label-5:'${colNames[4]}';--label-6:'${colNames[5]}';--label-7:'${colNames[6]}';">
+                  <thead>
+                    <tr>${colNames.map((c) => `<th>${esc(c)}</th>`).join("")}</tr>
+                  </thead>
+                  <tbody>
+                    ${filtered.map((it) => `
+                      <tr>
+                        <th><a href="#item-${it.id}" style="color:inherit;">${esc(hid(it.id, he))}</a></th>
+                        <td>${esc(it.h[state.lang])}</td>
+                        <td>${esc(he ? it.countryHe : it.country)}</td>
+                        <td>${esc(domLabels[it.domain])}</td>
+                        <td>${esc(he ? it.typeHe : it.type)}</td>
+                        <td>${it.priority === "high" ? `<strong style="color:var(--red);">${he ? "עדיפות גבוהה" : "HIGH PRIORITY"}</strong>` : esc(he ? "שגרתי" : "STANDARD")}</td>
+                        <td>${esc((it.statuses || []).join(" / "))}</td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            </details>
           </section>
         `;
 
-        // Items list (first 3 items rendered immediately in initial viewport; remaining items use heavy-section-deferred)
+        // Items list
         const photos = d.photos || {};
-        filtered.forEach((it, idx) => {
-          const deferClass = idx >= 3 ? "heavy-section-deferred" : "";
+        filtered.forEach((it) => {
           const highClass = it.priority === "high" ? "high-priority" : "";
           const pinfo = photos[it.id];
-          const hasPhoto = Boolean(pinfo && pinfo.local_src);
+          const hasPhoto = Boolean(pinfo && (pinfo.url || pinfo.local_src));
           const brief = isBrief(it);
 
           const badges = [
@@ -731,10 +851,20 @@
           let photoCol = "";
           if (hasPhoto) {
             const cred = he ? (pinfo.credit_he || pinfo.credit_en) : pinfo.credit_en;
+            const primarySrc = pinfo.local_src || pinfo.url;
+            const remoteUrl = pinfo.url || "";
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{const pb=this.closest('.photo-box');if(pb)pb.style.display='none';}`
+              : `const pb=this.closest('.photo-box');if(pb)pb.style.display='none';`;
+
             photoCol = `
               <div class="photo-box">
-                <img src="${esc(pinfo.local_src)}" alt="${esc(it.h[state.lang])}" loading="lazy" />
-                <div class="photo-credit">${esc(cred)} · <a href="${esc(pinfo.url)}" target="_blank" rel="noopener" style="color:inherit;">${he ? "מקור" : "Source"}</a></div>
+                <img src="${esc(primarySrc)}" 
+                     alt="${esc(it.h[state.lang])}" 
+                     loading="lazy" 
+                     referrerpolicy="no-referrer"
+                     onerror="${fallbackJs}" />
+                <div class="photo-credit">${esc(cred)} · <a href="${esc(remoteUrl || pinfo.local_src)}" target="_blank" rel="noopener" style="color:inherit;">${he ? "מקור" : "Source"}</a></div>
               </div>
             `;
           }
@@ -746,7 +876,7 @@
           const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
           const safeShareTitle = esc(shareTitle).replace(/'/g, "&#39;");
           html += `
-            <article class="item-card ${highClass} ${deferClass}" id="item-${it.id}">
+            <article class="item-card ${highClass}" id="item-${it.id}">
               <div class="item-top-bar">
                 <div class="badges">${badges.join("")}</div>
                 <button type="button" class="share-btn" onclick="shareItem('${it.id}', '${safeShareTitle}')" title="${he ? 'שתף ידיעה' : 'Share story'}">🔗 ${he ? 'שיתוף' : 'Share'}</button>

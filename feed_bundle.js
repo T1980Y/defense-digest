@@ -2507,7 +2507,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל הגנה אווירית נקודתית ברק-1 מספינת הצי ההודי.",
      "credit_en": "Photo: Indian Navy, via BharatShakti",
      "credit_he": "צילום: הצי ההודי, דרך BharatShakti",
-     "local_src": "../digest/2026-11-18/img/j/A1.jpg"
+     "local_src": "img/2026-11-18/A1.jpg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -2517,7 +2517,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט הטילים הבליסטיים חץ 3 מתוצרת התעשייה האווירית.",
      "credit_en": "Photo: IAI / Israel MoD, via The Jerusalem Post",
      "credit_he": "צילום: התעשייה האווירית / משרד הביטחון, דרך ג'רוזלם פוסט",
-     "local_src": "../digest/2026-11-18/img/j/A2.jpg"
+     "local_src": "img/2026-11-18/A2.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -2527,7 +2527,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת לייזר מוטס רב-עוצמה של אלביט מערכות לקראת מעבר לייצור.",
      "credit_en": "Image: Elbit Systems, via Raksha Anirveda",
      "credit_he": "תמונה: אלביט מערכות, דרך Raksha Anirveda",
-     "local_src": "../digest/2026-11-18/img/j/A3.jpg"
+     "local_src": "img/2026-11-18/A3.jpg"
     },
     "A4": {
      "file": "A4.jpg",
@@ -2537,7 +2537,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אילוסטרציית מערכות איכון ארטילריה עבור הבונדסוור מאת אלביט מערכות.",
      "credit_en": "Photo: Elbit Systems, via IsraelDefense",
      "credit_he": "צילום: אלביט מערכות, דרך IsraelDefense",
-     "local_src": "../digest/2026-11-18/img/j/A4.jpg"
+     "local_src": "img/2026-11-18/A4.jpg"
     },
     "A5": {
      "file": "A5.jpg",
@@ -2547,7 +2547,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הלייזר הממוכלת בהספק 300 קילוואט IFPC-HEL 'Valkyrie' של לוקהיד מרטין.",
      "credit_en": "Photo by Jack Cheung, via Defence Blog",
      "credit_he": "צילום: Jack Cheung, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/A5.jpg"
+     "local_src": "img/2026-11-18/A5.jpg"
     },
     "A6": {
      "file": "A6.jpg",
@@ -2557,7 +2557,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם ה-AESA הקומפקטי נגד רחפנים של Hanwha Systems שנבחר בידי Rebellion Industries.",
      "credit_en": "Photo: Hanwha Systems, via Defence Industry Europe",
      "credit_he": "צילום: Hanwha Systems, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/A6.jpg"
+     "local_src": "img/2026-11-18/A6.jpg"
     },
     "A7": {
      "file": "A7.jpg",
@@ -2567,7 +2567,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-הטיפוס FENNEK AIR של KNDS גרמניה שהוצג בתערוכת NEDS 2026 ברוטרדם.",
      "credit_en": "Photo: KNDS Deutschland, via Soldat & Technik",
      "credit_he": "צילום: KNDS Deutschland, דרך Soldat & Technik",
-     "local_src": "../digest/2026-11-18/img/j/A7.jpg"
+     "local_src": "img/2026-11-18/A7.jpg"
     },
     "A8": {
      "file": "A8.jpg",
@@ -2577,7 +2577,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב Eagle V 6x6 של GDELS ו-Auterion המותאם ללוחמת רחפנים ניידת והגנה עצמית.",
      "credit_en": "Photo: GDELS, via Hartpunkt",
      "credit_he": "צילום: GDELS, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-18/img/j/A8.jpg"
+     "local_src": "img/2026-11-18/A8.jpg"
     },
     "A9": {
      "file": "A9.jpg",
@@ -2587,7 +2587,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט פטריוט PAC-3 MSE (תצלום ארכיון להמחשה).",
      "credit_en": "Photo: U.S. Army / Reuters, via The Jerusalem Post",
      "credit_he": "צילום: צבא ארה\"ב / רויטרס, דרך ג'רוזלם פוסט",
-     "local_src": "../digest/2026-11-18/img/j/A9.jpg"
+     "local_src": "img/2026-11-18/A9.jpg"
     },
     "A10": {
      "file": "A10.jpg",
@@ -2597,7 +2597,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "המחשת שילוב רשתות תקשורת מתקדמות ומערכי C-UAS בנאט\"ו.",
      "credit_en": "Image: NATO, via Defence Industry Europe",
      "credit_he": "תמונה: נאט\"ו, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/A10.jpg"
+     "local_src": "img/2026-11-18/A10.jpg"
     },
     "A11": {
      "file": "A11.jpg",
@@ -2607,7 +2607,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סיקור הדיווחים על שיגורי הכטב\"מים האיראניים לעבר כווית ובחריין, 18 בנובמבר 2026.",
      "credit_en": "Photo: Anadolu Agency",
      "credit_he": "צילום: סוכנות אנאדולו",
-     "local_src": "../digest/2026-11-18/img/j/A11.jpg"
+     "local_src": "img/2026-11-18/A11.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -2617,7 +2617,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הכטב\"ם הטקטי Orbiter 4 VTOL של אירונאוטיקס המיועד לייצור בגרמניה עם איירבוס.",
      "credit_en": "Photo: Aeronautics Ltd., via Hartpunkt",
      "credit_he": "צילום: אירונאוטיקס, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-18/img/j/B1.jpg"
+     "local_src": "img/2026-11-18/B1.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -2627,7 +2627,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם התקיפה ארוך-הטווח ממשפחת Liutyi לצד חשיפת הדגם הסילוני An-197.",
      "credit_en": "Photo via Militarnyi",
      "credit_he": "צילום דרך Militarnyi",
-     "local_src": "../digest/2026-11-18/img/j/B2.jpg"
+     "local_src": "img/2026-11-18/B2.jpg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -2637,7 +2637,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב מיראז' 2000-5F שצרפת תעביר שתי יחידות נוספות ממנו לאוקראינה עד סוף השנה.",
      "credit_en": "Photo via UNITED24 Media",
      "credit_he": "צילום דרך UNITED24 Media",
-     "local_src": "../digest/2026-11-18/img/j/B3.jpg"
+     "local_src": "img/2026-11-18/B3.jpg"
     },
     "B4": {
      "file": "B4.jpg",
@@ -2647,7 +2647,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק S-100 של Schiebel נושא רחפן מהיר OSIRIS HSCD-1 בניסוי באוסטריה.",
      "credit_en": "Photo: Schiebel, via Defence Blog",
      "credit_he": "צילום: Schiebel, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/B4.jpg"
+     "local_src": "img/2026-11-18/B4.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -2657,7 +2657,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F-15EX של חיל האוויר האמריקאי; הסנאט קיצץ רבע מהרכש לשנת 2027 לטובת חמישה F-35A.",
      "credit_en": "Photo: U.S. Air Force, via Air & Space Forces Magazine",
      "credit_he": "צילום: חיל האוויר האמריקאי, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-18/img/j/B5.jpg"
+     "local_src": "img/2026-11-18/B5.jpg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -2667,7 +2667,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חיילי צבא ארה\"ב משגרים רחפן טקטי בניסוי שטח לקראת מכרז Manufacturing Rodeo.",
      "credit_en": "Photo: U.S. Army / Kathryn Bailey, via Breaking Defense",
      "credit_he": "צילום: צבא ארה\"ב, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-18/img/j/B6.jpg"
+     "local_src": "img/2026-11-18/B6.jpg"
     },
     "B7": {
      "file": "B7.jpg",
@@ -2677,7 +2677,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק H225M בשירות חיל האוויר המלזי שהגיש מכתב כוונות לארבעה מסוקים נוספים.",
      "credit_en": "Photo: Airbus / AFP, via The Vibes",
      "credit_he": "צילום: איירבוס / AFP, דרך The Vibes",
-     "local_src": "../digest/2026-11-18/img/j/B7.jpg"
+     "local_src": "img/2026-11-18/B7.jpg"
     },
     "B8": {
      "file": "B8.jpg",
@@ -2687,7 +2687,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם ההמראה האנכית MQ-35A V-BAT של Shield AI המתוכנן לרכש בצי של גאנה.",
      "credit_en": "Photo: Shield AI, via Janes",
      "credit_he": "צילום: Shield AI, דרך Janes",
-     "local_src": "../digest/2026-11-18/img/j/B8.jpg"
+     "local_src": "img/2026-11-18/B8.jpg"
     },
     "B9": {
      "file": "B9.jpg",
@@ -2697,7 +2697,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב הודי מדגם Tejas להמחשת מכרז האוויוניקה של HAL.",
      "credit_en": "Photo via IDRW",
      "credit_he": "צילום דרך IDRW",
-     "local_src": "../digest/2026-11-18/img/j/B9.jpg"
+     "local_src": "img/2026-11-18/B9.jpg"
     },
     "B10": {
      "file": "B10.jpg",
@@ -2707,7 +2707,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F-35B על סיפון USS Boxer על רקע חוזה 93.25 מיליון דולר ללוקהיד מרטין לתמיכת דרג ד'.",
      "credit_en": "Photo: NAVCENT Public Affairs, via Defence Blog",
      "credit_he": "צילום: הצי האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/B10.jpg"
+     "local_src": "img/2026-11-18/B10.jpg"
     },
     "B11": {
      "file": "B11.jpg",
@@ -2717,7 +2717,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוסי C-101 של חיל האוויר הספרדי ואיירבוס בניסוי קישוריות IP מעל 370 ק\"מ.",
      "credit_en": "Photo: Airbus / Ejército del Aire, via Demócrata",
      "credit_he": "צילום: איירבוס / חיל האוויר הספרדי, דרך Demócrata",
-     "local_src": "../digest/2026-11-18/img/j/B11.jpg"
+     "local_src": "img/2026-11-18/B11.jpg"
     },
     "B12": {
      "file": "B12.jpg",
@@ -2727,7 +2727,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית כלי הטיס האוטונומי הארקטי Scout של Dominion Dynamics.",
      "credit_en": "Image: Dominion Dynamics, via Defence Industry Europe",
      "credit_he": "תמונה: Dominion Dynamics, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/B12.jpg"
+     "local_src": "img/2026-11-18/B12.jpg"
     },
     "B13": {
      "file": "B13.jpg",
@@ -2737,7 +2737,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק אפאצ'י AH-64E של צבא ארה\"ב; הצבא מדווח על ירידת זמינות הצי אל מתחת ל-60%.",
      "credit_en": "Photo: U.S. Army / Sgt. Andrew McNeil, via Breaking Defense",
      "credit_he": "צילום: צבא ארה\"ב, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-18/img/j/B13.jpg"
+     "local_src": "img/2026-11-18/B13.jpg"
     },
     "B14": {
      "file": "B14.jpg",
@@ -2747,7 +2747,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוחמי 40 Commando הבריטים מפעילים רחפן Neros Archer בתחרות בגרמניה.",
      "credit_en": "Photo: Royal Marines, via Defence Blog",
      "credit_he": "צילום: חיל הנחתים המלכותי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/B14.jpg"
+     "local_src": "img/2026-11-18/B14.jpg"
     },
     "B15": {
      "file": "B15.jpg",
@@ -2757,7 +2757,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תיעוד OSINT לא מאומת מרשת X הנראה כמטוס J-20A סיני עם מנועי WS-15 ונשיאת חימוש חיצונית.",
      "credit_en": "Image via @RupprechtDeino on X",
      "credit_he": "תמונה דרך @RupprechtDeino ב-X",
-     "local_src": "../digest/2026-11-18/img/j/B15.jpg"
+     "local_src": "img/2026-11-18/B15.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -2767,7 +2767,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מרעומים אלקטרוניים מתוצרת רשף טכנולוגיות (ארית תעשיות).",
      "credit_en": "Photo: Reshef Technologies, via IsraelDefense",
      "credit_he": "צילום: רשף טכנולוגיות, דרך IsraelDefense",
-     "local_src": "../digest/2026-11-18/img/j/C1.jpg"
+     "local_src": "img/2026-11-18/C1.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -2777,7 +2777,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל ה-ICBM הלא-חמוש Minuteman III מוונדנברג בניסוי Glory Trip 257.",
      "credit_en": "Photo: U.S. Air Force, via Defence Industry Europe",
      "credit_he": "צילום: חיל האוויר האמריקאי, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/C2.jpg"
+     "local_src": "img/2026-11-18/C2.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -2787,7 +2787,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פריים מסרטון שיגור טיל השיוט העל-קולי Fatah-3 של פיקוד הרקטות הפקיסטני.",
      "credit_en": "Screengrab via Pakistan ISPR / Defence Blog",
      "credit_he": "תיעוד דובר צבא פקיסטן דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/C3.jpg"
+     "local_src": "img/2026-11-18/C3.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -2797,7 +2797,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקן MBDA גרמניה, שחתמה על שיתוף פעולה עם ATMOS לפיתוח PODS.",
      "credit_en": "Photo: MBDA Deutschland, via Hartpunkt",
      "credit_he": "צילום: MBDA Deutschland, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-18/img/j/C4.jpg"
+     "local_src": "img/2026-11-18/C4.jpg"
     },
     "C5": {
      "file": "C5.jpg",
@@ -2807,7 +2807,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקני Avio SpA בעקבות פתיחת בחינת הצעת הרכש של ICEYE ואיגרת השר האיטלקי.",
      "credit_en": "Photo: Avio SpA",
      "credit_he": "צילום: Avio SpA",
-     "local_src": "../digest/2026-11-18/img/j/C5.jpg"
+     "local_src": "img/2026-11-18/C5.jpg"
     },
     "C6": {
      "file": "C6.jpg",
@@ -2817,7 +2817,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר M142 HIMARS; ארה\"ב אישרה מכירת שני משגרים ו-72 רקטות GMLRS לאלבניה.",
      "credit_en": "Photo: Devin Bard / U.S. Army, via Defence Blog",
      "credit_he": "צילום: צבא ארה\"ב, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/C6.jpg"
+     "local_src": "img/2026-11-18/C6.jpg"
     },
     "C7": {
      "file": "C7.jpg",
@@ -2827,7 +2827,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אזור מצר הורמוז והאי קשם שבו תקפו מטוסים אמריקאיים אתר שיגור טילים איראני.",
      "credit_en": "Photo: Reuters, via The Jerusalem Post",
      "credit_he": "צילום: רויטרס, דרך ג'רוזלם פוסט",
-     "local_src": "../digest/2026-11-18/img/j/C7.jpg"
+     "local_src": "img/2026-11-18/C7.jpg"
     },
     "C8": {
      "file": "C8.jpg",
@@ -2837,7 +2837,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תיעוד AP המלווה את הדיווח על תקיפות הקואליציה הסעודית במנהרות הטילים בתימן.",
      "credit_en": "Photo: Associated Press, via Sentinel Colorado",
      "credit_he": "צילום: Associated Press",
-     "local_src": "../digest/2026-11-18/img/j/C8.jpg"
+     "local_src": "img/2026-11-18/C8.jpg"
     },
     "C9": {
      "file": "C9.jpg",
@@ -2847,7 +2847,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "השקת זירת נתוני החלל המסחריים של נאט\"ו בכנס NATO Edge 26.",
      "credit_en": "Image: NATO NCIA, via Defence Industry Europe",
      "credit_he": "תמונה: NCIA נאט\"ו, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/C9.jpg"
+     "local_src": "img/2026-11-18/C9.jpg"
     },
     "C11": {
      "file": "C11.jpg",
@@ -2857,7 +2857,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תומ\"תי Krab 155 מ\"מ של צבא פולין בקליטה לדיוויזיה המשוריינת ה-11.",
      "credit_en": "Photo: 11th Lubusz Armored Cavalry Division, via Defence Blog",
      "credit_he": "צילום: צבא פולין, דרך Defence Blog",
-     "local_src": "../digest/2026-11-18/img/j/C11.jpg"
+     "local_src": "img/2026-11-18/C11.jpg"
     },
     "C12": {
      "file": "C12.jpg",
@@ -2867,7 +2867,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תיעוד טיל שיוט אוקראיני במתקפה על גשר קרץ' לצד נתוני שיגור טילי Ruta ו-FP-5 Flamingo.",
      "credit_en": "Screengrab via Ukrainian MoD / The War Zone",
      "credit_he": "תיעוד משרד ההגנה האוקראיני דרך TWZ",
-     "local_src": "../digest/2026-11-18/img/j/C12.jpg"
+     "local_src": "img/2026-11-18/C12.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -2877,7 +2877,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל Chunmoo ממשגר ימי מודולרי מול חופי מיסיסיפי, 15 בנובמבר 2026.",
      "credit_en": "Photo: Hanwha Defense USA, via Defence Industry Europe",
      "credit_he": "צילום: Hanwha Defense USA, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18/img/j/D1.jpg"
+     "local_src": "img/2026-11-18/D1.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -2887,7 +2887,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס השקת הפריגטה ROKS Pyeongtaek (FFG-833) במספנת Hanwha Ocean, 18 בנובמבר 2026.",
      "credit_en": "Photo: ROK Navy / Hanwha Ocean, via Naval Today",
      "credit_he": "צילום: הצי הדרום-קוריאני, דרך Naval Today",
-     "local_src": "../digest/2026-11-18/img/j/D2.jpg"
+     "local_src": "img/2026-11-18/D2.jpg"
     },
     "D4": {
      "file": "D4.jpg",
@@ -2897,7 +2897,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סיפון השיגור האלקטרומגנטי EMALS של נושאת המטוסים USS Gerald R. Ford.",
      "credit_en": "Photo: U.S. Navy, via The War Zone",
      "credit_he": "צילום: הצי האמריקאי, דרך TWZ",
-     "local_src": "../digest/2026-11-18/img/j/D4.jpg"
+     "local_src": "img/2026-11-18/D4.jpg"
     }
    }
   },
@@ -4120,7 +4120,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ממשק המפעיל של מערכת המכ\"ם הפולנית APS SKYctrl נגד כטב\"מים בשירות אוקראיני.",
      "credit_en": "Photo: Global Saling, via Militarnyi",
      "credit_he": "צילום: Global Saling, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/A1.jpg"
+     "local_src": "img/2026-11-18-evening/A1.jpg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -4130,7 +4130,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תחמושת 20 מ\"מ לתותחי M61A1 וולקן (תמונת אילוסטרציה שפורסמה עם הדיווח).",
      "credit_en": "Photo: Komatta, via Militarnyi",
      "credit_he": "צילום: Komatta, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/A2.jpg"
+     "local_src": "img/2026-11-18-evening/A2.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -4140,7 +4140,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חשיפת משבש הרחפנים הידני Vajra Sind של חברת Big Bang Boom Solutions בצ'נאי.",
      "credit_en": "Photo: Big Bang Boom Solutions / NewsVoir, via Business Standard",
      "credit_he": "צילום: Big Bang Boom Solutions / NewsVoir, דרך Business Standard",
-     "local_src": "../digest/2026-11-18-evening/img/j/A3.jpg"
+     "local_src": "img/2026-11-18-evening/A3.jpg"
     },
     "A4": {
      "file": "A4.jpg",
@@ -4150,7 +4150,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תרשים מערכת של חבילת XTS Tactical מבית BAE Systems להעברת מידע רב-זרועית.",
      "credit_en": "Graphic: BAE Systems, via Janes",
      "credit_he": "תרשים: BAE Systems, דרך Janes",
-     "local_src": "../digest/2026-11-18-evening/img/j/A4.jpg"
+     "local_src": "img/2026-11-18-evening/A4.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -4160,7 +4160,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תדלוק 'ראם' של טייסת 120 ומטוסי קרב F-16 יווניים במהלך תרגיל התדלוק האווירי המשותף בשמי יוון, נובמבר 2026.",
      "credit_en": "Photo: Israeli Air Force, via X (@IAFsite)",
      "credit_he": "צילום: חיל האוויר הישראלי, דרך X (@IAFsite)",
-     "local_src": "../digest/2026-11-18-evening/img/j/B1.jpg"
+     "local_src": "img/2026-11-18-evening/B1.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -4170,7 +4170,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מלך מרוקו מוחמד השישי בישיבת השקת אסטרטגיית התעשייה הביטחונית 'Offre Maroc' בארמון המלוכה ברבאט, ‪18.11.2026‬.",
      "credit_en": "Photo: MAP, via Atalayar",
      "credit_he": "צילום: סוכנות הידיעות MAP, דרך Atalayar",
-     "local_src": "../digest/2026-11-18-evening/img/j/B2.jpg"
+     "local_src": "img/2026-11-18-evening/B2.jpg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -4180,7 +4180,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם התקיפה הסילוני הרוסי הקודם Geran-5 (מאי 2026, תמונת אילוסטרציה שפורסמה לצד הדיווח על Geran-6).",
      "credit_en": "Photo: OTS LIVE, via Militarnyi",
      "credit_he": "צילום: OTS LIVE, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/B3.jpg"
+     "local_src": "img/2026-11-18-evening/B3.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -4190,7 +4190,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שלט של חברת BAE Systems בבריטניה (תצלום ארכיון שפורסם עם הדיווח מ-18 בנובמבר).",
      "credit_en": "Photo: Anadolu Agency",
      "credit_he": "צילום: סוכנות אנאדולו",
-     "local_src": "../digest/2026-11-18-evening/img/j/B5.jpg"
+     "local_src": "img/2026-11-18-evening/B5.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -4200,7 +4200,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיגור Vulcan של ULA מועבר לכן השיגור בקייפ קנוורל לקראת משימת USSF-87.",
      "credit_en": "Photo: United Launch Alliance, via Air & Space Forces Magazine",
      "credit_he": "צילום: United Launch Alliance, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-18-evening/img/j/C2.jpg"
+     "local_src": "img/2026-11-18-evening/C2.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -4210,7 +4210,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ירי ארטילריה רקטית של הבונדסוור (תצלום ארכיון להמחשה שפורסם עם דיווח Hartpunkt על Evonik).",
      "credit_en": "Photo: Bundeswehr / Mario Bähr, via Hartpunkt",
      "credit_he": "צילום: בונדסוור / מריו בר, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-18-evening/img/j/C3.jpg"
+     "local_src": "img/2026-11-18-evening/C3.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -4220,7 +4220,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב הקרב הקרקעי הבלתי מאויש Shumer של DevDroid עם צריח דו-רובי בניסוי שטח.",
      "credit_en": "Photo: DevDroid / Oboronka, via UNITED24 Media",
      "credit_he": "צילום: DevDroid / Oboronka, דרך UNITED24 Media",
-     "local_src": "../digest/2026-11-18-evening/img/j/C4.jpg"
+     "local_src": "img/2026-11-18-evening/C4.jpg"
     },
     "C5": {
      "file": "C5.jpg",
@@ -4230,7 +4230,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור רקטת GMLRS ממשגר M142 HIMARS של צבא ארה\"ב.",
      "credit_en": "Photo: U.S. Army, via Defence Industry Europe",
      "credit_he": "צילום: צבא ארה\"ב, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-18-evening/img/j/C5.jpg"
+     "local_src": "img/2026-11-18-evening/C5.jpg"
     },
     "C6": {
      "file": "C6.jpg",
@@ -4240,7 +4240,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הטנק הקל ההודי Zorawar במשקל 25 טון שפותח בידי DRDO ו-Larsen & Toubro.",
      "credit_en": "Photo: DRDO / L&T, via Raksha Anirveda",
      "credit_he": "צילום: DRDO / L&T, דרך Raksha Anirveda",
-     "local_src": "../digest/2026-11-18-evening/img/j/C6.jpg"
+     "local_src": "img/2026-11-18-evening/C6.jpg"
     },
     "C7": {
      "file": "C7.jpg",
@@ -4250,7 +4250,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מקטע כביש קרס בגשר קרץ' בעקבות התקיפה המשולבת ב-17 בנובמבר 2026.",
      "credit_en": "Photo: Supernova+, via Militarnyi",
      "credit_he": "צילום: Supernova+, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/C7.jpg"
+     "local_src": "img/2026-11-18-evening/C7.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -4260,7 +4260,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי השיט הבלתי מאוישים FOG של חברת NEWT21 במצעד בריגה, ‪18.11.2026‬.",
      "credit_en": "Photo: Jānis Garisons / LinkedIn, via Militarnyi",
      "credit_he": "צילום: יאניס גריסונס / LinkedIn, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/D1.jpg"
+     "local_src": "img/2026-11-18-evening/D1.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -4270,7 +4270,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי השיט הבלתי מאויש הקומפקטי Harpoon מתוצרת NOAH X.",
      "credit_en": "Photo: NOAH X, via Militarnyi",
      "credit_he": "צילום: NOAH X, דרך Militarnyi",
-     "local_src": "../digest/2026-11-18-evening/img/j/D2.jpg"
+     "local_src": "img/2026-11-18-evening/D2.jpg"
     },
     "D3": {
      "file": "D3.jpg",
@@ -4280,7 +4280,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינת הסיור GNS Ankobra של צי גאנה מדגם Penguin Flex Fighter Max מתוצרת סינגפור.",
      "credit_en": "Photo: Ghana Navy, via Janes",
      "credit_he": "צילום: צי גאנה, דרך Janes",
-     "local_src": "../digest/2026-11-18-evening/img/j/D3.jpg"
+     "local_src": "img/2026-11-18-evening/D3.jpg"
     },
     "D4": {
      "file": "D4.jpg",
@@ -4290,7 +4290,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי השיט האוטונומי Bluebottle של חברת Ocius Technology המונע באנרגיית שמש, רוח וגלים.",
      "credit_en": "Photo: Ocius Technology, via Janes",
      "credit_he": "צילום: Ocius Technology, דרך Janes",
-     "local_src": "../digest/2026-11-18-evening/img/j/D4.jpg"
+     "local_src": "img/2026-11-18-evening/D4.jpg"
     },
     "D5": {
      "file": "D5.jpg",
@@ -4300,7 +4300,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוללת הטילים הבליסטיים HMS Vengeance שבה לבסיס קלייד לאחר סיור הרתעה ממושך של כ-217 ימים.",
      "credit_en": "Photo: Michael Deveney, via The War Zone",
      "credit_he": "צילום: מייקל דבני, דרך The War Zone",
-     "local_src": "../digest/2026-11-18-evening/img/j/D5.jpg"
+     "local_src": "img/2026-11-18-evening/D5.jpg"
     },
     "D6": {
      "file": "D6.jpg",
@@ -4310,7 +4310,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב שטח אמפיבי פועל בקרח שבור במהלך ניסויי Task Force X-Arctic של נאט\"ו.",
      "credit_en": "Photo: NATO Allied Joint Force Command Norfolk, via Janes",
      "credit_he": "צילום: פיקוד הכוחות המשולבים של נאט\"ו בנורפולק, דרך Janes",
-     "local_src": "../digest/2026-11-18-evening/img/j/D6.jpg"
+     "local_src": "img/2026-11-18-evening/D6.jpg"
     }
    }
   },
@@ -6701,7 +6701,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי טיס בלתי מאויש של חברת אנדוריל (תמונת המחשה מהדיווח בגלובס על המגעים מול משרד הביטחון).",
      "credit_en": "Photo: Anduril Industries official YouTube channel, via Globes",
      "credit_he": "צילום: ערוץ אנדוריל, דרך גלובס",
-     "local_src": "../digest/2026-11-17/img/j/A1.jpg"
+     "local_src": "img/2026-11-17/A1.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -6711,7 +6711,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שר הביטחון הגרמני בוריס פיסטוריוס בשיחות נאט\"ו והאיחוד האירופי בבריסל, 17 בנובמבר 2026.",
      "credit_en": "Photo: Kay Nietfeld / picture alliance via Getty Images, via The Kyiv Independent",
      "credit_he": "צילום: Kay Nietfeld / Getty Images, דרך The Kyiv Independent",
-     "local_src": "../digest/2026-11-17/img/j/A3.jpg"
+     "local_src": "img/2026-11-17/A3.jpg"
     },
     "A4": {
      "file": "A4.jpg",
@@ -6721,7 +6721,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "יחידת המכ\"ם הפסיבי החמקן Ghost Radar של חברת BAE Systems בבריטניה.",
      "credit_en": "Photo: BAE Systems, via ADS Advance",
      "credit_he": "צילום: BAE Systems, דרך ADS Advance",
-     "local_src": "../digest/2026-11-17/img/j/A4.jpg"
+     "local_src": "img/2026-11-17/A4.jpg"
     },
     "A5": {
      "file": "A5.jpg",
@@ -6731,7 +6731,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדגמת שיגור קרקעי של אנדוריל לצד זכייתה בחוזה המשגר המכולתי בתוכנית CAMP.",
      "credit_en": "Photo: Anduril, via The Defense Post",
      "credit_he": "צילום: Anduril, דרך The Defense Post",
-     "local_src": "../digest/2026-11-17/img/j/A5.jpg"
+     "local_src": "img/2026-11-17/A5.jpg"
     },
     "A6": {
      "file": "A6.jpg",
@@ -6741,7 +6741,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט פטריוט PAC-3 MSE המונע במנועים מוצקים מתוצרת נורת'רופ גראמן.",
      "credit_en": "Photo: U.S. Army / Sgt. Erica Earl, via Industrial Base Alpha",
      "credit_he": "צילום: צבא ארה\"ב, דרך Industrial Base Alpha",
-     "local_src": "../digest/2026-11-17/img/j/A6.jpg"
+     "local_src": "img/2026-11-17/A6.jpg"
     },
     "A7": {
      "file": "A7.jpg",
@@ -6751,7 +6751,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצלום המחשה לווייני מדיווח hartpunkt על רכש לווייני ההתרעה SBMD בבונדסוור.",
      "credit_en": "Image: Symbolic visual, via hartpunkt",
      "credit_he": "תמונה: הדמיה סמלית, דרך hartpunkt",
-     "local_src": "../digest/2026-11-17/img/j/A7.jpg"
+     "local_src": "img/2026-11-17/A7.jpg"
     },
     "A9": {
      "file": "A9.jpg",
@@ -6761,7 +6761,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב התותח 30 מ\"מ Agnostic Gun Truck של צבא ארה\"ב ונורת'רופ בניסוי נגד כטב\"מים בפורט סיל.",
      "credit_en": "Photo: U.S. Army Transformation and Training Command, via Defence Blog",
      "credit_he": "צילום: צבא ארה\"ב, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17/img/j/A9.jpg"
+     "local_src": "img/2026-11-17/A9.jpg"
     },
     "A10": {
      "file": "A10.jpg",
@@ -6771,7 +6771,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם האיכון הגרמני המשודרג הראשון מדגם COBRA MLU שהוצג באירוע OCCAR.",
      "credit_en": "Photo: Balticnews, via Inbox.eu",
      "credit_he": "צילום: Balticnews, דרך Inbox.eu",
-     "local_src": "../digest/2026-11-17/img/j/A10.jpg"
+     "local_src": "img/2026-11-17/A10.jpg"
     },
     "A11": {
      "file": "A11.jpg",
@@ -6781,7 +6781,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן היירוט המהיר המשודרג SPYS של Quantum WIY במהירות 500 קמ\"ש.",
      "credit_en": "Photo: Quantum WIY Industries, via UNITED24 Media",
      "credit_he": "צילום: Quantum WIY Industries, דרך UNITED24 Media",
-     "local_src": "../digest/2026-11-17/img/j/A11.jpg"
+     "local_src": "img/2026-11-17/A11.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -6791,7 +6791,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח רועם (SIGMA) של אלביט מערכות, לצד דיווח החברה על שיא צבר הזמנות של 33 מיליארד דולר.",
      "credit_en": "Photo: Elbit Systems, via Defence Blog",
      "credit_he": "צילום: אלביט מערכות, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17/img/j/B1.jpg"
+     "local_src": "img/2026-11-17/B1.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -6801,7 +6801,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור חימוש משוטט מדגם HERO-120 מתוצרת UVision הישראלית.",
      "credit_en": "Photo: Christopher Bailey, via Defence Blog",
      "credit_he": "צילום: Christopher Bailey, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17/img/j/B2.jpg"
+     "local_src": "img/2026-11-17/B2.jpg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -6811,7 +6811,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפציץ אסטרטגי רוסי Tu-95MS שנפרס לנמל התעופה בווייטנאם, 17 בנובמבר 2026.",
      "credit_en": "Photo: GO Journal VN, via Defence Blog",
      "credit_he": "צילום: GO Journal VN, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17/img/j/B3.jpg"
+     "local_src": "img/2026-11-17/B3.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -6821,7 +6821,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם הטקטי Tekever AR5 שנבחר עבור תוכנית הסיור הצרפתית ADAPT.",
      "credit_en": "Photo: Tekever / Army Recognition",
      "credit_he": "צילום: Tekever / Army Recognition",
-     "local_src": "../digest/2026-11-17/img/j/B5.jpg"
+     "local_src": "img/2026-11-17/B5.jpg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -6831,7 +6831,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס הנחת אבן הפינה למרכז התחזוקה למדחפים של קולינס אירוספייס בבנגלור, 17 בנובמבר 2026.",
      "credit_en": "Photo: Deccan Chronicle",
      "credit_he": "צילום: Deccan Chronicle",
-     "local_src": "../digest/2026-11-17/img/j/B6.jpg"
+     "local_src": "img/2026-11-17/B6.jpg"
     },
     "B7": {
      "file": "B7.jpg",
@@ -6841,7 +6841,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל Vulcan VC6L בקייפ קנוורל ב-15 בנובמבר טרם תקלת השלב העליון.",
      "credit_en": "Photo: Manuel Mazzanti / NurPhoto via Getty Images, via Breaking Defense",
      "credit_he": "צילום: Manuel Mazzanti / Getty Images, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-17/img/j/B7.jpg"
+     "local_src": "img/2026-11-17/B7.jpg"
     },
     "B9": {
      "file": "B9.jpg",
@@ -6851,7 +6851,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפציץ קרב רוסי Su-34 ממשלוח חדש של תאגיד UAC ב-2026.",
      "credit_en": "Photo: UAC, via Militarnyi",
      "credit_he": "צילום: UAC, דרך Militarnyi",
-     "local_src": "../digest/2026-11-17/img/j/B9.jpg"
+     "local_src": "img/2026-11-17/B9.jpg"
     },
     "B10": {
      "file": "B10.jpg",
@@ -6861,7 +6861,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב MiG-29 של חיל האוויר הסרבי (תצלום ארכיון).",
      "credit_en": "Photo: Serbian Ministry of Defense, via Militarnyi",
      "credit_he": "צילום: משרד ההגנה הסרבי, דרך Militarnyi",
-     "local_src": "../digest/2026-11-17/img/j/B10.jpg"
+     "local_src": "img/2026-11-17/B10.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -6871,7 +6871,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "קשת הכביש שקרסה בגשר קרץ' בעקבות תקיפת טילי השיוט והכטב\"מים ב-16–17 בנובמבר 2026.",
      "credit_en": "Photo via X, via The War Zone",
      "credit_he": "תיעוד מרשת X, דרך The War Zone",
-     "local_src": "../digest/2026-11-17/img/j/C1.jpg"
+     "local_src": "img/2026-11-17/C1.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -6881,7 +6881,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוויין ICEYE ומשגר Avio בעקבות הצעת הרכש בסך 2.05 מיליארד אירו.",
      "credit_en": "Image: ESA / Avio / ICEYE, via European Spaceflight",
      "credit_he": "תמונה: ESA / Avio / ICEYE, דרך European Spaceflight",
-     "local_src": "../digest/2026-11-17/img/j/C2.jpg"
+     "local_src": "img/2026-11-17/C2.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -6891,7 +6891,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "בניין הקפיטול בוושינגטון, בו פורסמה הצעת תקציב הביטחון של הסנאט ל-2027.",
      "credit_en": "Photo: Anna Rose Layden / Getty Images, via Breaking Defense",
      "credit_he": "צילום: Anna Rose Layden / Getty Images, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-17/img/j/C3.jpg"
+     "local_src": "img/2026-11-17/C3.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -6901,7 +6901,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "בדיקת נזקי פגיעת הטילים הבליסטיים הרוסיים בגשר מעל הדנייפר בקייב, 17 בנובמבר 2026.",
      "credit_en": "Photo: Christopher Occhicone / The Kyiv Independent",
      "credit_he": "צילום: Christopher Occhicone / The Kyiv Independent",
-     "local_src": "../digest/2026-11-17/img/j/C4.jpg"
+     "local_src": "img/2026-11-17/C4.jpg"
     },
     "C5": {
      "file": "C5.jpg",
@@ -6911,7 +6911,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פצצת הגרעין B83; מסמכי הסנאט מקצים 77 מיליון דולר למחליפתה החודרת B94.",
      "credit_en": "Photo: Hill Air Force Base / U.S. Air Force, via Breaking Defense",
      "credit_he": "צילום: חיל האוויר האמריקאי, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-17/img/j/C5.jpg"
+     "local_src": "img/2026-11-17/C5.jpg"
     },
     "C6": {
      "file": "C6.jpg",
@@ -6921,7 +6921,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פגז הארטילריה 155 מ\"מ מונע מגח-סילון Sceptre של Tiberius Aerospace.",
      "credit_en": "Photo: Tiberius Aerospace, via Defence Industry Europe",
      "credit_he": "צילום: Tiberius Aerospace, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-17/img/j/C6.jpg"
+     "local_src": "img/2026-11-17/C6.jpg"
     },
     "C7": {
      "file": "C7.jpg",
@@ -6931,7 +6931,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אילוסטרציה מפרסום חוזי הענק של אסלסאן ורוקטסאן בהיקף 1.28 מיליארד אירו.",
      "credit_en": "Image via UA.News",
      "credit_he": "תמונה דרך UA.News",
-     "local_src": "../digest/2026-11-17/img/j/C7.jpg"
+     "local_src": "img/2026-11-17/C7.jpg"
     },
     "C9": {
      "file": "C9.jpg",
@@ -6941,7 +6941,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית טיל השיוט Stratus של MBDA המוזכרת בדיווח על הצעת המיזם בהודו.",
      "credit_en": "Rendering: MBDA, via idrw.org",
      "credit_he": "הדמיה: MBDA, דרך idrw.org",
-     "local_src": "../digest/2026-11-17/img/j/C9.jpg"
+     "local_src": "img/2026-11-17/C9.jpg"
     },
     "C10": {
      "file": "C10.jpg",
@@ -6951,7 +6951,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור ניסוי של טיל בליסטי בין-יבשתי Minuteman III בלתי חמוש מבסיס ונדנברג.",
      "credit_en": "Photo: Andrew Taller / U.S. Space Force, via Defence Blog",
      "credit_he": "צילום: Andrew Taller / חיל החלל האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17/img/j/C10.jpg"
+     "local_src": "img/2026-11-17/C10.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -6961,7 +6961,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית הפריגטה הגרמנית MEKO A-200 DEU שהזמנתה הוכפלה ל-8 אוניות ב-17 בנובמבר.",
      "credit_en": "Rendering: TKMS, via hartpunkt",
      "credit_he": "הדמיה: TKMS, דרך hartpunkt",
-     "local_src": "../digest/2026-11-17/img/j/D1.jpg"
+     "local_src": "img/2026-11-17/D1.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -6971,7 +6971,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חתימת מזכר ההבנות הימי בין Babcock הבריטית ל-ST Engineering מסינגפור, 17 בנובמבר 2026.",
      "credit_en": "Photo: Babcock International",
      "credit_he": "צילום: Babcock International",
-     "local_src": "../digest/2026-11-17/img/j/D2.jpg"
+     "local_src": "img/2026-11-17/D2.jpg"
     },
     "D3": {
      "file": "D3.jpg",
@@ -6981,7 +6981,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס החתימה בין WASS (פינקנטיירי) ל-BDL ההודית בניו דלהי, 17 בנובמבר 2026.",
      "credit_en": "Photo: Fincantieri, via Marine Technology News",
      "credit_he": "צילום: פינקנטיירי, דרך Marine Technology News",
-     "local_src": "../digest/2026-11-17/img/j/D3.jpg"
+     "local_src": "img/2026-11-17/D3.jpg"
     },
     "D4": {
      "file": "D4.jpg",
@@ -6991,7 +6991,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי השיט המתאבד המהיר Berani Mati מתוצרת מספנת PT PAL באינדונזיה.",
      "credit_en": "Photo: PT PAL, via Janes",
      "credit_he": "צילום: PT PAL, דרך Janes",
-     "local_src": "../digest/2026-11-17/img/j/D4.jpg"
+     "local_src": "img/2026-11-17/D4.jpg"
     },
     "D5": {
      "file": "D5.jpg",
@@ -7001,7 +7001,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הצוללת הבלתי מאוישת הקטנה Lionfish של HII שהזמנתה הורחבה ב-82 כלים נוספים.",
      "credit_en": "Photo: HII, via Naval Today",
      "credit_he": "צילום: HII, דרך Naval Today",
-     "local_src": "../digest/2026-11-17/img/j/D5.jpg"
+     "local_src": "img/2026-11-17/D5.jpg"
     },
     "D6": {
      "file": "D6.jpg",
@@ -7011,7 +7011,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי השיט האוטונומי נמוך-הצללית ALPV של Saronic שנבחר עבור חיל הנחתים האמריקאי.",
      "credit_en": "Photo: Saronic Technologies, via Naval Today",
      "credit_he": "צילום: Saronic Technologies, דרך Naval Today",
-     "local_src": "../digest/2026-11-17/img/j/D6.jpg"
+     "local_src": "img/2026-11-17/D6.jpg"
     },
     "D9": {
      "file": "D9.jpg",
@@ -7021,7 +7021,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אוניית הדגנים Betul 8 שהתהפכה מול חופי בולגריה בים השחור לאחר דיווח על תקיפת כטב\"ם.",
      "credit_en": "Photo via The Maritime Executive",
      "credit_he": "צילום דרך The Maritime Executive",
-     "local_src": "../digest/2026-11-17/img/j/D9.jpg"
+     "local_src": "img/2026-11-17/D9.jpg"
     }
    }
   },
@@ -7950,7 +7950,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שר ההגנה הגרמני בוריס פיסטוריוס בתדרוך בבריסל לקראת שיחות שרי ההגנה של האיחוד האירופי, 17 בנובמבר 2026.",
      "credit_en": "Image: Anadolu Agency",
      "credit_he": "צילום: Anadolu Agency",
-     "local_src": "../digest/2026-11-17-evening/img/j/A1.jpg"
+     "local_src": "img/2026-11-17-evening/A1.jpg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -7960,7 +7960,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת לייזר קרבית של UFORCE כפי שהוצגה במסגרת ניסויי יירוט כטב\"מים.",
      "credit_en": "Image: UFORCE, via Militarnyi",
      "credit_he": "צילום: UFORCE, דרך Militarnyi",
-     "local_src": "../digest/2026-11-17-evening/img/j/A2.jpg"
+     "local_src": "img/2026-11-17-evening/A2.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -7970,7 +7970,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינת האוויר האוטונומית המונעת במימן של Kelluu, שעליה מבוססת גרסת המכ\"ם הפסיבי HALO.",
      "credit_en": "Image: Kelluu, via Defense WarRoom",
      "credit_he": "צילום: Kelluu, דרך Defense WarRoom",
-     "local_src": "../digest/2026-11-17-evening/img/j/A3.jpg"
+     "local_src": "img/2026-11-17-evening/A3.jpg"
     },
     "A4": {
      "file": "A4.jpg",
@@ -7980,7 +7980,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נשיא אוקראינה וולודימיר זלנסקי (צילום ארכיון).",
      "credit_en": "Image: Ukrinform",
      "credit_he": "צילום: Ukrinform",
-     "local_src": "../digest/2026-11-17-evening/img/j/A4.jpg"
+     "local_src": "img/2026-11-17-evening/A4.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -7990,7 +7990,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם הרמס 900 מתוצרת אלביט מערכות (צילום ארכיון, 2024).",
      "credit_en": "Image: TRTPUWU / CC BY-SA 4.0 / Wikimedia Commons, via Israel Defense",
      "credit_he": "צילום: TRTPUWU / CC BY-SA 4.0 / Wikimedia Commons, דרך Israel Defense",
-     "local_src": "../digest/2026-11-17-evening/img/j/B1.jpg"
+     "local_src": "img/2026-11-17-evening/B1.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -8000,7 +8000,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טנק לאופרד 2 והנדסה של צבא גרמניה במהלך תרגיל Freedom Shield בליטא, 1 ביוני 2026.",
      "credit_en": "Image: via Defence Blog",
      "credit_he": "צילום: דרך Defence Blog",
-     "local_src": "../digest/2026-11-17-evening/img/j/B2.jpg"
+     "local_src": "img/2026-11-17-evening/B2.jpg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -8010,7 +8010,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב JAS-39 גריפן של חיל האוויר השבדי בבסיס קאלאקס, שבדיה.",
      "credit_en": "Image: via Defence Blog",
      "credit_he": "צילום: דרך Defence Blog",
-     "local_src": "../digest/2026-11-17-evening/img/j/B3.jpg"
+     "local_src": "img/2026-11-17-evening/B3.jpg"
     },
     "B4": {
      "file": "B4.jpg",
@@ -8020,7 +8020,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפציץ B-1B לאנסר של חיל האוויר האמריקאי נושא מכלול ניסוי חיצוני בגחון במסגרת פיתוח מנשא LAM.",
      "credit_en": "Image: Boeing / USAF, via Defence Blog",
      "credit_he": "צילום: Boeing / USAF, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17-evening/img/j/B4.jpg"
+     "local_src": "img/2026-11-17-evening/B4.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -8030,7 +8030,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה צבאי מדגם אנטונוב An-12 (תצלום ארכיון).",
      "credit_en": "Image: via Defence Blog",
      "credit_he": "צילום: דרך Defence Blog",
-     "local_src": "../digest/2026-11-17-evening/img/j/B5.jpg"
+     "local_src": "img/2026-11-17-evening/B5.jpg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -8040,7 +8040,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס C-130H הרקולס של המשמר הלאומי האמריקאי בנמל התעופה שאנון, אירלנד, לפני מתקפת החבלה.",
      "credit_en": "Image: U.S. Department of Justice, via Defence Blog",
      "credit_he": "צילום: משרד המשפטים האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-17-evening/img/j/B6.jpg"
+     "local_src": "img/2026-11-17-evening/B6.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -8050,7 +8050,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תדמית תוכנית השיגור הרב-לאומית STARLIFT של נאט\"ו בהובלת NSPA, 17 בנובמבר 2026.",
      "credit_en": "Image: NATO, via Breaking Defense",
      "credit_he": "צילום: NATO, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-17-evening/img/j/C2.jpg"
+     "local_src": "img/2026-11-17-evening/C2.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -8060,7 +8060,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מזכיר הצי בפועל הונג קאו בעדותו בוועדת הכוחות המזוינים של הסנאט בוושינגטון, 17 בנובמבר 2026.",
      "credit_en": "Image: Jacquelyn Martin / AP, via Newsday",
      "credit_he": "צילום: Jacquelyn Martin / AP, דרך Newsday",
-     "local_src": "../digest/2026-11-17-evening/img/j/C3.jpg"
+     "local_src": "img/2026-11-17-evening/C3.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -8070,7 +8070,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגלי סין, רוסיה וארה\"ב לקראת מפגשי הפסגה, 16 בנובמבר 2026.",
      "credit_en": "Image: Reuters, via Defense News",
      "credit_he": "צילום: Reuters, דרך Defense News",
-     "local_src": "../digest/2026-11-17-evening/img/j/C4.jpg"
+     "local_src": "img/2026-11-17-evening/C4.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -8080,7 +8080,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת הנשק הימית הכבדה והמיוצבת APEX PREDATOR של חברת UFORCE.",
      "credit_en": "Image: UFORCE, via Militarnyi",
      "credit_he": "צילום: UFORCE, דרך Militarnyi",
-     "local_src": "../digest/2026-11-17-evening/img/j/D1.jpg"
+     "local_src": "img/2026-11-17-evening/D1.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -8090,7 +8090,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "להבות עולות ממכלית בתיעוד מהרשת בעקבות הדיווחים על תקיפת המכלית Tara Gas מול עומאן, ‪16–17‬ בנובמבר 2026.",
      "credit_en": "Image: Social media footage (unverified), via gCaptain",
      "credit_he": "צילום: תיעוד רשתות חברתיות (לא מאומת), דרך gCaptain",
-     "local_src": "../digest/2026-11-17-evening/img/j/D2.jpg"
+     "local_src": "img/2026-11-17-evening/D2.jpg"
     }
    }
   },
@@ -9280,7 +9280,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טנק לאופרד 2A7A1 של צבא גרמניה המצויד במערכת מעיל רוח וברשת מיגון עליונה נגד רחפנים בליטא.",
      "credit_en": "Photo: Bundeswehr / NATO eFP, via Defence Blog",
      "credit_he": "צילום: צבא גרמניה / נאט\"ו, דרך Defence Blog",
-     "local_src": "../digest/2026-11-16/img/j/A1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3632.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -9290,7 +9290,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טנק מערכה סיני משודרג מדגם VT-4 המצויד בתותח 30 מ\"מ נגד רחפנים ומכ\"ם ייעודי.",
      "credit_en": "Photo: Norinco, via Defence Blog",
      "credit_he": "צילום: נורינקו, דרך Defence Blog",
-     "local_src": "../digest/2026-11-16/img/j/A3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_162.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -9300,7 +9300,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק אפאצ'י AH-64A+ מושבח של צבא יוון חמוש בזבילי שיגור לטילי ספייק NLOS מתוצרת רפאל.",
      "credit_en": "Photo: Hellenic Army Air Corps, via Rotorfocus",
      "credit_he": "צילום: חיל האוויר של צבא יוון, דרך Rotorfocus",
-     "local_src": "../digest/2026-11-16/img/j/B1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXPRRCyWAAA9flf.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -9310,7 +9310,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תת-אלוף ג' מסיים את תפקידו כראש להק אוויר ועובר לפקד על חטיבת הרובוטיקה החדשה במפקדת העומק.",
      "credit_en": "Photo: Israeli Air Force",
      "credit_he": "צילום: דובר צה\"ל / חיל האוויר",
-     "local_src": "../digest/2026-11-16/img/j/B2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXPUL93XcAAJl6o.jpg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -9320,7 +9320,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ערכת החימוש המודולרית לרחפנים MLK של סרברון ודינמיט נובל דיפנס במהלך ניסוי טיסה מבצעי.",
      "credit_en": "Photo: Cerberon Defence Systems / DND, via Hartpunkt",
      "credit_he": "צילום: סרברון / דינמיט נובל דיפנס, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-16/img/j/B3.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/cerberon_defence_systems-mlk_weapon_system-002.jpg"
     },
     "B4": {
      "file": "B4.jpg",
@@ -9330,7 +9330,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה טקטי איירבוס A400M של חיל האוויר הגרמני משגר נורי הטעיה במהלך תמרון טקטי.",
      "credit_en": "Photo: Bundeswehr / Jane Schmidt, via Hartpunkt",
      "credit_he": "צילום: צבא גרמניה, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-16/img/j/B4.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2025/09/A400M-Transportflugzeug-mit-Flare_Bild_Bundeswehr.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -9340,7 +9340,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם קונספט בגודל מלא של מטוס הקרב מהדור השישי GCAP המוצג בתערוכה בינלאומית.",
      "credit_en": "Photo: Getty Images, via Defense News",
      "credit_he": "צילום: Getty Images, דרך Defense News",
-     "local_src": "../digest/2026-11-16/img/j/B5.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2286426338.jpg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -9350,7 +9350,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הדרכה אווירובטי T-19A Kestrel של חיל האוויר האמריקאי בטיסה מעל קולורדו.",
      "credit_en": "Photo: U.S. Air Force, via Defence Blog",
      "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך Defence Blog",
-     "local_src": "../digest/2026-11-16/img/j/B6.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3624.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -9360,7 +9360,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפציץ חמקן B-2A Spirit של חיל האוויר האמריקאי הנושא חימוש מוטל-אוויר מדויק.",
      "credit_en": "Photo: U.S. Air Force / DoD, via The War Zone",
      "credit_he": "צילום: חיל האוויר האמריקאי, דרך The War Zone",
-     "local_src": "../digest/2026-11-16/img/j/C1.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/new-us-nuclear-bomb-designation-emerges.jpg?w=1200"
     },
     "C2": {
      "file": "C2.jpg",
@@ -9370,7 +9370,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הודעת התקשרות ממשלתית רשמית של פרויקט האב-טיפוס ההיפר-סוני 'לויתן' של חברת קסטליון.",
      "credit_en": "Image: U.S. Department of Defense / NSTXL, via NatSecLedger",
      "credit_he": "צילום: משרד ההגנה האמריקאי / NSTXL, דרך NatSecLedger",
-     "local_src": "../digest/2026-11-16/img/j/C2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXP1dcxXsAAz7Ff.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -9380,7 +9380,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוערים של צבא מרוקו באימון ירי בטיל נ\"ט סיני מדגם HJ-9A המותקן על גבי האמר אמריקאי.",
      "credit_en": "Photo: Royal Military Academy Meknes, via Defence Blog",
      "credit_he": "צילום: האקדמיה הצבאית המלכותית במקנס, דרך Defence Blog",
-     "local_src": "../digest/2026-11-16/img/j/C4.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3630.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -9390,7 +9390,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "יונדאי תעשיות כבדות ואנדוריל משיקות את ספינת המלחמה האוטונומית ASV Alpha במספנות אולסן.",
      "credit_en": "Photo: HD Hyundai Heavy Industries / Anduril, via The Elec",
      "credit_he": "צילום: יונדאי / אנדוריל, דרך The Elec",
-     "local_src": "../digest/2026-11-16/img/j/D1.jpg"
+     "local_src": "https://cdn.thelec.net/news/photo/202611/15634_15974_1911.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -9400,7 +9400,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס השקת צוללת הענק 'סאו הו' (SS-088) מסדרת KSS-III Batch-2 במספנות הנווה אושן.",
      "credit_en": "Photo: Republic of Korea Navy / Hanwha Ocean, via Militarnyi",
      "credit_he": "צילום: צי דרום קוריאה / הנווה אושן, דרך Militarnyi",
-     "local_src": "../digest/2026-11-16/img/j/D2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/drugyj-pidvodnyj-choven-Seo-Hui-SS-088-proyektu-KSS-III-Batch-II-Pivdenna-Koreya-1.jpg"
     },
     "D3": {
      "file": "D3.jpg",
@@ -9410,7 +9410,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ניסויי שיגור כטב\"מי תקיפה וסיור מסיפון נושאת המטוסים הבריטית HMS Queen Elizabeth בצפון האטלנטי.",
      "credit_en": "Photo: Royal Navy / Crown Copyright, via Naval Technology",
      "credit_he": "צילום: הצי המלכותי הבריטי, דרך Naval Technology",
-     "local_src": "../digest/2026-11-16/img/j/D3.jpg"
+     "local_src": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/Royal-Navy-8.jpg"
     },
     "D6": {
      "file": "D6.jpg",
@@ -9420,7 +9420,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב תת-ימי בלתי מאויש ענק מדגם 'אורקה' (XLUUV) של בואינג והצי האמריקאי במהלך ניסויי ים.",
      "credit_en": "Photo: Boeing / U.S. Navy, via Breaking Defense",
      "credit_he": "צילום: בואינג / הצי האמריקאי, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-16/img/j/D6.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2020/06/Boeing-ORCA-XLUUV-e1794840313551.jpg"
     }
    }
   },
@@ -10090,7 +10090,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת ירי של תותח מתנייע Panzerhaubitze 2000 של הבונדסוור הנתמכת ברשת איכון ארטילרי אקוסטי.",
      "credit_en": "Image: Bundeswehr, via Hartpunkt",
      "credit_he": "צילום: בונדסוור, באמצעות Hartpunkt",
-     "local_src": "../digest/2026-11-16-evening/img/j/A1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/08/Panzerhaubitze-2000-im-Scharfen-Schuss_Bild_bundeswehr.jpeg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -10100,7 +10100,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת נשק לייזר רב-עוצמה מיירטת מטרות אוויריות במהלך ניסויי שדה נגד כטב״מים.",
      "credit_en": "Image: U.S. DoD, via DefenseScoop",
      "credit_he": "צילום: משרד ההגנה האמריקאי, באמצעות DefenseScoop",
-     "local_src": "../digest/2026-11-16-evening/img/j/A2.jpg"
+     "local_src": "https://defensescoop.com/wp-content/uploads/sites/8/2026/11/Laser.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -10110,7 +10110,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "גוף המטוס הראשון של מטוס המטה-רוטור MV-75 שאיין במרכז ההרכבה של בל בויצ'יטה.",
      "credit_en": "Image: Bell Textron",
      "credit_he": "צילום: בל טקסטרון",
-     "local_src": "../digest/2026-11-16-evening/img/j/B1.jpg"
+     "local_src": "https://d21buns5ku92am.cloudfront.net/67992/images/716445-Phone-1-971da9-large-1794601796.jpeg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -10120,7 +10120,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-הטיפוס של כטב״ם ה-AeroForce X במהלך גיחת טיסת הבכורה מעל שדה התעופה שטראוסברג ליד ברלין.",
      "credit_en": "Image: Aerodata AG, via DroneXL",
      "credit_he": "צילום: Aerodata AG, באמצעות DroneXL",
-     "local_src": "../digest/2026-11-16-evening/img/j/B2.jpg"
+     "local_src": "https://cdn.dronexl.co/wp-content/uploads/2026/11/aerodata-aeroforce-x-first-flight-underside-d-iafx.webp"
     },
     "B3": {
      "file": "B3.jpg",
@@ -10130,7 +10130,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת חימוש השוטטות כנף-קבועה KB-5E של חיל האוויר המלכותי של תאילנד.",
      "credit_en": "Image: Royal Thai Air Force / TAI, via Janes",
      "credit_he": "צילום: חיל האוויר המלכותי של תאילנד / TAI, באמצעות Janes",
-     "local_src": "../digest/2026-11-16-evening/img/j/B3.jpg"
+     "local_src": "https://www.janes.com/images/default-source/news-images/bsp_126137-jdw-39250.jpeg?sfvrsn=7ed0443b_2"
     },
     "B4": {
      "file": "B4.jpg",
@@ -10140,7 +10140,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקן פיתוח המערכות האוטונומיות והרובוטיקה הקרבית של ריינמטאל.",
      "credit_en": "Image: Rheinmetall, via Hartpunkt",
      "credit_he": "צילום: ריינמטאל, באמצעות Hartpunkt",
-     "local_src": "../digest/2026-11-16-evening/img/j/B4.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/07/Ausbildung_Symbolbild_Rheinmetall.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -10150,7 +10150,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת פריסת מוקשים מכנית Minenverlegesystem 85 (MiVSys 85) של הבונדסוור הגרמני.",
      "credit_en": "Image: Ralph Zwilling / Bundeswehr, via Hartpunkt",
      "credit_he": "צילום: ראלף צווילינג / בונדסוור, באמצעות Hartpunkt",
-     "local_src": "../digest/2026-11-16-evening/img/j/C1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Minenverlegesystem-85_Symbolbild_Bundeswehr_Ralph-Zwilling.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -10160,7 +10160,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ראשי קרב ראשונים מסוג WDU-36/B של טילי טומהוק במילוי חומר נפץ PBXN-107 במעבדת צ'יינה לייק.",
      "credit_en": "Image: U.S. Navy NAWCWD, via Defence Blog",
      "credit_he": "צילום: מעבדת הלוחמה של הצי האמריקאי, באמצעות Defence Blog",
-     "local_src": "../digest/2026-11-16-evening/img/j/C2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3622.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -10170,7 +10170,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פריגטת FREMM של הצי האיטלקי המצוידת במערכות שיגור אנכי לטילים.",
      "credit_en": "Image: Italian Navy, via Breaking Defense",
      "credit_he": "צילום: הצי האיטלקי, באמצעות Breaking Defense",
-     "local_src": "../digest/2026-11-16-evening/img/j/D1.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/7797356-e1794847247350.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -10180,7 +10180,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי שיט רובוטי אוטונומי של Ocean Infinity לניטור תת-ימי ואיתור צוללות.",
      "credit_en": "Image: Ocean Infinity, via Janes",
      "credit_he": "צילום: Ocean Infinity, באמצעות Janes",
-     "local_src": "../digest/2026-11-16-evening/img/j/D2.jpg"
+     "local_src": "https://www.janes.com/images/default-source/news-images/bsp_125992-jdw-39205.jpeg?sfvrsn=79f887d8_2"
     },
     "D3": {
      "file": "D3.jpg",
@@ -10190,7 +10190,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב״ם חמוש מדגם Sargan 3000 של הצי האוקראיני המצויד בעמדת מקלע נשלטת.",
      "credit_en": "Image: Ukrainian Navy, via UNITED24 Media",
      "credit_he": "צילום: הצי האוקראיני, באמצעות UNITED24 Media",
-     "local_src": "../digest/2026-11-16-evening/img/j/D3.jpg"
+     "local_src": "https://storage.united24media.com/og/1/6c/7eed42c217cd0fbbc9dbce0b9c8656c1.jpg"
     }
    }
   },
@@ -11218,7 +11218,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הלוחמה האלקטרומגנטית עתירת ההספק EJDERHA של אסלסאן במהלך ניסויי ירי חי ליירוט רחפנים.",
      "credit_en": "Photo: ASELSAN, via Daily Sabah",
      "credit_he": "צילום: אסלסאן, דרך Daily Sabah",
-     "local_src": "../digest/2026-11-15/img/j/A1.jpg"
+     "local_src": "https://idsb.tmgrup.com.tr/ly/uploads/images/2026/11/15/thumbs/1200x675/470536.jpg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -11228,7 +11228,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אנטנות מערכת ההגנה נגד רחפנים סנטריקס פרוסות על גג מבנה ממשלתי בדבלין לאבטחת אירועים רשמיים.",
      "credit_en": "Photo: The Journal / Garda Síochána",
      "credit_he": "צילום: The Journal / משטרת אירלנד",
-     "local_src": "../digest/2026-11-15/img/j/A2.jpg"
+     "local_src": "https://img2.thejournal.ie/article/7225221/river/?height=400&version=7225743"
     },
     "A3": {
      "file": "A3.jpg",
@@ -11238,7 +11238,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פעילות יירוט של מערך ההגנה האווירית בשמי המפרץ במהלך סיכול כטב\"מים.",
      "credit_en": "Photo: Anadolu Agency / Bahrain Defence Force",
      "credit_he": "צילום: Anadolu Agency / צבא בחריין",
-     "local_src": "../digest/2026-11-15/img/j/A3.jpg"
+     "local_src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/15/thumbs_b_c_09b3279c7aa9992119270bb27f5603d5.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -11248,7 +11248,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב F-15EX Eagle II של חיל האוויר האמריקאי נוחת בבסיס קאדינה באוקינאווה בפריסתו הקבועה הראשונה מעבר לים.",
      "credit_en": "Photo: U.S. Air Force / Staff Sgt. Kadena, via The Aviationist",
      "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך The Aviationist",
-     "local_src": "../digest/2026-11-15/img/j/B1.jpg"
+     "local_src": "https://theaviationist.com/wp-content/uploads/2026/11/F-15EX_Kadena_10095268.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -11258,7 +11258,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס בואינג 767 בתצורת הסבה למטוס תדלוק אווירי רב-משימתי (MRTT).",
      "credit_en": "Photo: Reuters / ANI, via Globes",
      "credit_he": "צילום: רויטרס / ANI, דרך גלובס",
-     "local_src": "../digest/2026-11-15/img/j/B2.jpg"
+     "local_src": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1793448281/2026-10-06T095415Z_258268705_MT1ASNEWS20261006258L_RTRMADP_3_ANI_b27gtl.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -11268,7 +11268,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט נגד ספינות מדגם ATMACA מתוצרת רוקטסאן במהלך שיגור ניסוי ימי.",
      "credit_en": "Photo: Roketsan, via Naval News",
      "credit_he": "צילום: רוקטסאן, דרך Naval News",
-     "local_src": "../digest/2026-11-15/img/j/C1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2021/02/Turkeys-New-ATMACA-Missile-Aces-Latest-Tests-Achieves-IOC.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -11278,7 +11278,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמודי עשן מיתמרים מעל מתקני התעשייה בניז'נקמסק בטטרסטן בעקבות מתקפת הכטב\"מים האוקראינית.",
      "credit_en": "Photo: OSINT / Social Media, via Kyiv Independent",
      "credit_he": "צילום: רשתות חברתיות / OSINT, דרך Kyiv Independent",
-     "local_src": "../digest/2026-11-15/img/j/C2.jpg"
+     "local_src": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-14_20-04-06_20261115-031924.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -11288,7 +11288,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ביתן קבוצת EDGE המציג חימושים מדויקים ומערכות הנחיה וניווט מתקדמות לכלים בלתי מאוישים.",
      "credit_en": "Photo: EDGE Group, via Defence Industry Europe",
      "credit_he": "צילום: EDGE Group, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-15/img/j/C3.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/08/EDGE-seeks-further-European-acquisitions-and-industry-partnerships-in-drive-to-expand-defence-technology-development-and-production.jpeg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -11298,7 +11298,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקן ייצור התחמושת ופגזי הארטילריה 155 מ\"מ של דיהל דיפנס.",
      "credit_en": "Photo: Diehl Defence Official",
      "credit_he": "צילום: דיהל דיפנס",
-     "local_src": "../digest/2026-11-15/img/j/C4.jpg"
+     "local_src": "https://new.diehl.com/var/site/storage/images/2/6/3/8/108362-1-ger-DE/d9b96f146550-social_share_defence.jpg"
     },
     "C5": {
      "file": "C5.jpg",
@@ -11308,7 +11308,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב קשר קרבי משוריין פיראנה 5 בתצורת רשת הקשר הטקטית TaWAN LBO של הבונדסוור.",
      "credit_en": "Photo: Rheinmetall, via Hartpunkt",
      "credit_he": "צילום: ריינמטאל, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-15/img/j/C5.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2025/02/TaWAN-Image-final_Bild_Rheinmetall.jpg"
     },
     "C6": {
      "file": "C6.jpg",
@@ -11318,7 +11318,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כוחות ממוכנים של צבא מרוקו במהלך תמרון צבאי ותרגיל שדה.",
      "credit_en": "Photo: Royal Moroccan Armed Forces, via Morocco World News",
      "credit_he": "צילום: צבא מרוקו, דרך Morocco World News",
-     "local_src": "../digest/2026-11-15/img/j/C6.jpg"
+     "local_src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/Morocco-Raises-Military-Procurement-Ceiling-to-MAD-190.5-Billion-in-2027-Budget.jpeg"
     }
    }
   },
@@ -11897,7 +11897,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ממשק ניתוח המודיעין ומעקב האיומים אחר מערכות כטב\"ם עוינות מתוצרת DroneSec.",
      "credit_en": "Image: DroneSec, via Hartpunkt",
      "credit_he": "צילום: DroneSec, באמצעות Hartpunkt",
-     "local_src": "../digest/2026-11-15-evening/img/j/A1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/US-Streitkraefte-beauftragen-DroneSec-mit-Informationsbeschaffung-und-Analyse-gegnerischer-Drohnensysteme-und-Taktiken_Symbolbild_DroneSec.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -11907,7 +11907,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הצגת ארכיטקטורת נחילי הרחפנים האוטונומיים בכנס UVID DroneTech 2026.",
      "credit_en": "Image: Israel Defense, via UVID DroneTech",
      "credit_he": "צילום: Israel Defense, באמצעות UVID DroneTech",
-     "local_src": "../digest/2026-11-15-evening/img/j/B1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2025-02/1204843%20%281%29.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -11917,7 +11917,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב קרבי רובוטי R3NEGADE של צבא ארה\"ב פורץ ממכולה בניסוי באש חיה בגראפנווהר, גרמניה.",
      "credit_en": "Image: U.S. Army, via Israel Defense",
      "credit_he": "צילום: צבא ארה\"ב, באמצעות Israel Defense",
-     "local_src": "../digest/2026-11-15-evening/img/j/B2.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2025-02/4b5e859860633fac37c0cd5b6302d240_1739032829_extra_large.jpeg"
     },
     "B3": {
      "file": "B3.jpg",
@@ -11927,7 +11927,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן התקיפה הטקטי הרב-פעמי Cerberus MI החמוש ברובה ובמטול רימונים.",
      "credit_en": "Image: Skyborne Technologies, via Israel Defense",
      "credit_he": "צילום: Skyborne Technologies, באמצעות Israel Defense",
-     "local_src": "../digest/2026-11-15-evening/img/j/B3.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2025-02/HEVEN_RAIDER_OVERVIEW.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -11937,7 +11937,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-טיפוס מנוע הדטונציה הסיבובית (RDE) בעוצמת 5 קילו-ניוטון במהלך ניסוי הבערה במעבדת DRDO.",
      "credit_en": "Image: D-Propulse Aerospace, via Raksha Anirveda",
      "credit_he": "צילום: D-Propulse Aerospace, באמצעות Raksha Anirveda",
-     "local_src": "../digest/2026-11-15-evening/img/j/C1.jpg"
+     "local_src": "https://raksha-anirveda.com/wp-content/uploads/2026/07/D-Propulse-Successfully-Demonstrates.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -11947,7 +11947,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פלטפורמת הצוללת האוטונומית המודולרית פרי שיתוף הפעולה בין TII ל-Naval Group.",
      "credit_en": "Image: Naval Group, via Israel Defense",
      "credit_he": "צילום: Naval Group, באמצעות Israel Defense",
-     "local_src": "../digest/2026-11-15-evening/img/j/D1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2025-02/WhatsApp%20Image%202024-04-30%20at%2008.57.31.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -11957,7 +11957,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תת-אדמירל כריס קוואנו נואם על התרחבות ציי הצוללות של סין ורוסיה בכנס ליגת הצוללות.",
      "credit_en": "Image: Naval News",
      "credit_he": "צילום: Naval News",
-     "local_src": "../digest/2026-11-15-evening/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/IMG_18831-scaled.jpg"
     },
     "D3": {
      "file": "D3.jpg",
@@ -11967,7 +11967,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית תכנון הקורבטה האירופית (EPC) שהוצגה בתערוכת Euronaval 2026.",
      "credit_en": "Image: Naval Group / Navantia / Fincantieri, via Naval News",
      "credit_he": "צילום: Naval Group / Navantia / Fincantieri, באמצעות Naval News",
-     "local_src": "../digest/2026-11-15-evening/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/epc-1-ink.jpeg"
     }
    }
   },
@@ -13063,7 +13063,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצורת ניסוי ראש הקרב של מיירט ה-PAC-3 ACE המוזל מתוצרת לוקהיד מרטין נגד מטרות אוויריות מדרגה 3.",
      "credit_en": "Photo: Lockheed Martin, via NatSecLedger",
      "credit_he": "צילום: לוקהיד מרטין, דרך NatSecLedger",
-     "local_src": "../digest/2026-11-14/img/j/A1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXFvx8HXsAA-3yq.jpg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -13073,7 +13073,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערך הגנה אווירית ויירוט רחפנים (C-UAS) מבצעי הפרוס במסגרת תוכנית ההגנה של נאט\"ו.",
      "credit_en": "Photo: NATO, via Anadolu Agency",
      "credit_he": "צילום: נאט\"ו, דרך Anadolu Agency",
-     "local_src": "../digest/2026-11-14/img/j/A2.jpg"
+     "local_src": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/11/05/thumbs_b_c_943a093343c6c6bc6a128391ff7ee0e1.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -13083,7 +13083,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הנוסעים הכל-חשמלי COMAC CE-25A (19 מושבים) ממריא לטיסת הבכורה המאוישת שלו בבינג'ואו, שאנדונג.",
      "credit_en": "Photo: Polis / ACuriousPLAFan, via RupprechtDeino",
      "credit_he": "צילום: Polis / ACuriousPLAFan, דרך RupprechtDeino",
-     "local_src": "../digest/2026-11-14/img/j/B1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXEK4QkXcAAPhx4.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -13093,7 +13093,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-טיפוס מדגים טכנולוגי של כטב\"ם הקרב החמקן LOWUS מתוצרת קוריאן אייר.",
      "credit_en": "Photo: Korean Air, via Breaking Defense",
      "credit_he": "צילום: קוריאן אייר, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-14/img/j/B2.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg"
     },
     "B4": {
      "file": "B4.jpg",
@@ -13103,7 +13103,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חייל בונדסוור מפעיל רחפן סיור במהלך אימון שדה.",
      "credit_en": "Photo: Getty Images, via The Guardian",
      "credit_he": "צילום: Getty Images, דרך The Guardian",
-     "local_src": "../digest/2026-11-14/img/j/B4.jpg"
+     "local_src": "https://i.guim.co.uk/img/media/cd544b4eda9c6644bc1f2a607c6d84915015d8c7/614_0_5179_4144/master/5179.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=89f6be3705ce6b3a329fc29ed265b61c"
     },
     "B5": {
      "file": "B5.jpg",
@@ -13113,7 +13113,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפגש חניכת הנספחות הביטחונית הקבועה הראשונה של ישראל ברבאט בהשתתפות צמרת מערכת הביטחון המרוקאית.",
      "credit_en": "Photo: Morocco World News",
      "credit_he": "צילום: Morocco World News",
-     "local_src": "../digest/2026-11-14/img/j/B5.jpg"
+     "local_src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -13123,7 +13123,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס פתיחת תרגיל המפקדות 'Eternity-2026' בבאקו בהשתתפות קצינים מאזרבייג'אן, גאורגיה וטורקיה.",
      "credit_en": "Photo: Azerbaijan MoD, via Azernews",
      "credit_he": "צילום: משרד ההגנה של אזרבייג'אן, דרך Azernews",
-     "local_src": "../digest/2026-11-14/img/j/B6.jpg"
+     "local_src": "https://www.azernews.az/media/2026/11/13/img_2051.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -13133,7 +13133,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר הארטילריה הרקטית המדויקת הרב-קליברית PULS מתוצרת אלביט מערכות.",
      "credit_en": "Photo: Elbit Systems, via Globes",
      "credit_he": "צילום: אלביט מערכות, דרך גלובס",
-     "local_src": "../digest/2026-11-14/img/j/C1.jpg"
+     "local_src": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1745919653/direct/PULS_qk7ys7.jpg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -13143,7 +13143,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ניסוי ירי קרקעי במנוע הדלק המוצק החדש עבור רקטות GMLRS במתקן קמדן.",
      "credit_en": "Photo: GD-OTS / Lockheed Martin",
      "credit_he": "צילום: GD-OTS / לוקהיד מרטין",
-     "local_src": "../digest/2026-11-14/img/j/C2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXCBIr5bAAACZlg.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -13153,7 +13153,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר 9P78-1 רוסי פורס טיל מעין-בליסטי מדגם איסקנדר-M (9M723).",
      "credit_en": "Photo: TASS, via Reform.news",
      "credit_he": "צילום: TASS, דרך Reform.news",
-     "local_src": "../digest/2026-11-14/img/j/C3.jpg"
+     "local_src": "https://reform.news/wp-content/uploads/2026/11/6af833005d94d.jpg"
     },
     "C4": {
      "file": "C4.jpg",
@@ -13163,7 +13163,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל הניסוי ההיפר-קולי Blackbeard מתוצרת Castelion נישא על גבי F/A-18F סופר הורנט של הצי האמריקאי.",
      "credit_en": "Photo: U.S. Navy, via The War Zone",
      "credit_he": "צילום: הצי האמריקאי, דרך The War Zone",
-     "local_src": "../digest/2026-11-14/img/j/C4.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/09/blackbeard-hypersonic-super-hornet-flight-testing.jpg?w=1200"
     },
     "D1": {
      "file": "D1.jpg",
@@ -13173,7 +13173,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם ספינת הקרב וספינת האם לכשב\"מים SCX 26 בהדחק 10,000 טון מתוצרת Naval Group בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Xavier Vavasseur / Naval News",
      "credit_he": "צילום: קסבייה ווסור / Naval News",
-     "local_src": "../digest/2026-11-14/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/DSC05461_WM.jpg"
     }
    }
   },
@@ -13705,7 +13705,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת ה-LIVET של ברטה להגנה מרחפנים חמושה בשמונה רובי בנלי M4.",
      "credit_en": "Image: Beretta Defense Technologies, via TWZ",
      "credit_he": "צילום: ברטה דיפנס טכנולוגיס, דרך TWZ",
-     "local_src": "../digest/2026-11-14-evening/img/j/A1.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/LIVET-C-UAS-SHOTGUN.jpg"
     },
     "B1": {
      "file": "B1.jpg",
@@ -13715,7 +13715,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם ה-Black Swan של דרונמיקס מצויד בפוד חיישני MissionGrid של הנסולדט.",
      "credit_en": "Image: HENSOLDT / Dronamics, via Presamiga",
      "credit_he": "צילום: הנסולדט / דרונמיקס, דרך פרסמיגה",
-     "local_src": "../digest/2026-11-14-evening/img/j/B1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXGay3sW8AAPgfn.jpg"
     },
     "B2": {
      "file": "B2.jpg",
@@ -13725,7 +13725,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה טקטי מדגם איירבוס A400M אטלס בשירות הלופטוואפה.",
      "credit_en": "Image: Airbus Defence / Bundeswehr, via Aviacionline",
      "credit_he": "צילום: איירבוס / בונדסוור, דרך Aviacionline",
-     "local_src": "../digest/2026-11-14-evening/img/j/B2.jpg"
+     "local_src": "https://flex-app.tadevel-cdn.com/hostname/www.aviacionline.com/api/v1/image/article/6af730cd87005f8fa3f8fa26/facebook?v=c1fd03344e065cf0086d7f8e5bdeb503&s=ce1053a1b16e61db823a346fc059adb7"
     },
     "B3": {
      "file": "B3.jpg",
@@ -13735,7 +13735,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה כבד Il-76MD של חיל האוויר ההודי בנחיתה בבסיס נומה בלדאק.",
      "credit_en": "Image: Indian Air Force, via Defence Security Asia",
      "credit_he": "צילום: חיל האוויר ההודי, דרך Defence Security Asia",
-     "local_src": "../digest/2026-11-14-evening/img/j/B3.jpg"
+     "local_src": "https://defencesecurityasia.com/wp-content/uploads/2026/11/HWgPN8SakAAC3sc.webp"
     },
     "B4": {
      "file": "B4.jpg",
@@ -13745,7 +13745,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם סולארי-חשמלי אוטונומי K1000ULE של קראוס חמדאני בפעילות.",
      "credit_en": "Image: Kraus Hamdani Aerospace",
      "credit_he": "צילום: Kraus Hamdani Aerospace",
-     "local_src": "../digest/2026-11-14-evening/img/j/B4.jpg"
+     "local_src": "https://static.wixstatic.com/media/e06cde_5a6952538df44ab8b868c5c6d6d3f6ec~mv2.jpg/v1/fill/w_1200,h_800,al_c,q_90/e06cde_5a6952538df44ab8b868c5c6d6d3f6ec~mv2.jpg"
     },
     "B5": {
      "file": "B5.jpg",
@@ -13755,7 +13755,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב J-10C של חיל האוויר הסיני חמוש בטיל Kh-29T מוסב עם ראש ביות תרמי.",
      "credit_en": "Image: via Andreas Rupprecht",
      "credit_he": "צילום: דרך אנדריאס רופרכט",
-     "local_src": "../digest/2026-11-14-evening/img/j/B5.jpg"
+     "local_src": "https://pbs.twimg.com/media/HXGKsUcXkAAR-Jd.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -13765,7 +13765,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם מוקטן של צוללת הטילים הבליסטיים הגרעינית מסדרת קולומביה של הצי האמריקאי.",
      "credit_en": "Image: Naval News",
      "credit_he": "צילום: Naval News",
-     "local_src": "../digest/2026-11-14-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/Columbia-class-SSBN-scale-model-SAS.jpg"
     }
    }
   },
@@ -15149,7 +15149,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן הסיור והתצפית הטקטי הנישא בתרמיל גב seniX מתוצרת אירו סנטינל.",
      "credit_en": "Photo: Aero Sentinel, via Raksha Anirveda",
      "credit_he": "צילום: אירו סנטינל, דרך Raksha Anirveda",
-     "local_src": "../digest/2026-11-13/img/j/B1.jpg"
+     "local_src": "https://raksha-anirveda.com/wp-content/uploads/2026/11/Aero-Sentinel-Drone1-e1794478303980.jpg"
     },
     "A1": {
      "file": "A1.jpg",
@@ -15159,7 +15159,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית קונספט של מיירט הטילים ההיפר-קוליים 'אקווילה' בתוכנית HYDIS של קרן ההגנה האירופית.",
      "credit_en": "Rendering: MBDA, via Israel Defense",
      "credit_he": "הדמיה: MBDA, דרך Israel Defense",
-     "local_src": "../digest/2026-11-13/img/j/A1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2026-11/download-81-_0.jpeg"
     },
     "A2": {
      "file": "A2.jpg",
@@ -15169,7 +15169,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן היירוט נגד מטוסים הרוסי 'סוקול-3' על גבי מסילת שיגור.",
      "credit_en": "Photo: Russian MoD, via Militarnyi",
      "credit_he": "צילום: משרד ההגנה הרוסי, דרך Militarnyi",
-     "local_src": "../digest/2026-11-13/img/j/A2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/sokol-3-1.jpg"
     },
     "A3": {
      "file": "A3.jpg",
@@ -15179,7 +15179,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור אנכי של טיל קרקע-אוויר מסוללת Cheongung-II (KM-SAM Block II) הדרום-קוריאנית.",
      "credit_en": "Photo: LIG Nex1, via The National News",
      "credit_he": "צילום: LIG Nex1, דרך The National News",
-     "local_src": "../digest/2026-11-13/img/j/A3.jpg"
+     "local_src": "https://www.thenationalnews.com/resizer/v2/IEBM7GC2DVDGDNDQKU4OLUWODA.jpg?auth=1c74e6cdbbce2c5e0941ee8e3a05095dcd875ce0e21a7f02f762eb79cd9c5e58&focal=3121%2C2575&width=1200&height=630"
     },
     "B2": {
      "file": "B2.jpg",
@@ -15189,7 +15189,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס חמקן מדגם F-35A של חיל האוויר האיטלקי בפעילות שיטור אווירי במדינות הבלטיות.",
      "credit_en": "Photo: Aeronautica Militare, via Militarnyi",
      "credit_he": "צילום: חיל האוויר האיטלקי, דרך Militarnyi",
-     "local_src": "../digest/2026-11-13/img/j/B2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Vynyshhuvach-F-35-Povitryanyh-syl-Italiyi-na-aviabazi-Emari-v-Estoniyi.jpg"
     },
     "B4": {
      "file": "B4.jpg",
@@ -15199,7 +15199,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם באירקטאר אקינג'י מבצע נחיתת חירום על כביש מהיר אזרחי בין מניסה לבאליקסיר.",
      "credit_en": "Photo: Baykar, via News.az",
      "credit_he": "צילום: בייקאר, דרך News.az",
-     "local_src": "../digest/2026-11-13/img/j/B4.jpg"
+     "local_src": "https://news.az/photos/2026/11/1794580946.webp"
     },
     "B5": {
      "file": "B5.jpg",
@@ -15209,7 +15209,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן הסיור הטקטי להמראה אנכית מדגם וקטור (Vector) של קוונטום-סיסטמס.",
      "credit_en": "Photo: Quantum-Systems, via Militarnyi",
      "credit_he": "צילום: קוונטום-סיסטמס, דרך Militarnyi",
-     "local_src": "../digest/2026-11-13/img/j/B5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/08/vector-1.jpg"
     },
     "B6": {
      "file": "B6.jpg",
@@ -15219,7 +15219,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית תלת-ממד של מרכז האחזקה לתעופה צבאית בהיקף 50 מיליון אירו בנורדהולץ.",
      "credit_en": "Rendering: GA-ATS, via Hartpunkt",
      "credit_he": "הדמיה: GA-ATS, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-13/img/j/B6.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/ATS_Nordholz_3D_Visualisierung.jpg"
     },
     "B7": {
      "file": "B7.jpg",
@@ -15229,7 +15229,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם טיל השיוט העל-קולי הקל מונע הרמג'ט לנשיאה מרובה על מטוסי סוחוי-30 של חיל האוויר ההודי.",
      "credit_en": "Photo: DRDO, via Indian Defence News",
      "credit_he": "צילום: DRDO, דרך Indian Defence News",
-     "local_src": "../digest/2026-11-13/img/j/B7.jpg"
+     "local_src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMu3m4zWR3LbLxlHQf2mqqc1Upz9PIHayONd7qweUyhfFKh118fmTM-MSLx45osmyv63MVQMXZ9jeBy6mfS0IKZ9K2jnB-GCCKj-ZMrmQMrFJL_d6YnsEvBAJJjJ3d8zAg8XwXfrVBThMytQ8wMbQP_BmHHLPyk2Y4H6JaTibK9S_zHl0FUw_tjHnaFKE/s1600/Lighter_BrahMos_Supersonic_Cruise_Missile.jpg"
     },
     "C1": {
      "file": "C1.jpg",
@@ -15239,7 +15239,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל מדויק מדגם PrSM ממשגר רקטות M142 HIMARS של לוקהיד מרטין.",
      "credit_en": "Photo: Lockheed Martin, via Defence Industry Europe",
      "credit_he": "צילום: לוקהיד מרטין, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-13/img/j/C1.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/09/Lockheed-Martin-says-1.2-billion-PrSM-Increment-2-award-advances-maritime-strike-technology-and-fourfold-production-expansion.jpeg"
     },
     "C2": {
      "file": "C2.jpg",
@@ -15249,7 +15249,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פגזי ארטילריה בקליבר 155 מ\"מ נפיצים לטווח מוגדל מדגם DiNa מתוצרת דיל ונאמו.",
      "credit_en": "Photo: Diehl Defence, via Hartpunkt",
      "credit_he": "צילום: דיל דיפנס, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-13/img/j/C2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/155mm-Artilleriemunition-DiNa-155mm_Bild_Diehl-Defence.jpg"
     },
     "C3": {
      "file": "C3.jpg",
@@ -15259,7 +15259,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת המרגמה הניידת 120 מ\"מ R.A.M.S של בהראט פורג' מותקנת על רכב שטח קרבי 4x4.",
      "credit_en": "Photo: Bharat Forge / KSSL, via Financial Express",
      "credit_he": "צילום: בהראט פורג' / KSSL, דרך Financial Express",
-     "local_src": "../digest/2026-11-13/img/j/C3.jpg"
+     "local_src": "https://images.financialexpressdigital.com/2026/11/BharatForgeQ1FY27_20260810144214_20260904015555_20260918073205_20261105080819_20261112080138.jpg"
     },
     "D1": {
      "file": "D1.jpg",
@@ -15269,7 +15269,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכלול הנעה שאובה מושתקת (Propulsor) לצוללות תקיפה גרעיניות מסדרת וירג'יניה מתוצרת BAE Systems.",
      "credit_en": "Photo: BAE Systems, via Defence Connect",
      "credit_he": "צילום: BAE Systems, דרך Defence Connect",
-     "local_src": "../digest/2026-11-13/img/j/D1.jpg"
+     "local_src": "https://res.cloudinary.com/momentum-media-group-pty-ltd/image/upload/v1794536460/Propulsor_ribbnl.jpg"
     },
     "D2": {
      "file": "D2.jpg",
@@ -15279,7 +15279,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיה של ספינת האם P1118 ללוחמת מוקשים אוטונומית עבור הצי המלכותי הבריטי.",
      "credit_en": "Rendering: Salt Ship Design / Royal Navy, via Naval Today",
      "credit_he": "הדמיה: Salt Ship Design / הצי הבריטי, דרך Naval Today",
-     "local_src": "../digest/2026-11-13/img/j/D2.jpg"
+     "local_src": "https://www.navaltoday.com/api/media/file/RN%20minehunting.png?prefix=media"
     },
     "D3": {
      "file": "D3.jpg",
@@ -15289,7 +15289,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שר ההגנה הבריטי מטיס כשב\"ם אוטונומי של UFORCE במהלך ניסוי על סיפון נושאת המטוסים HMS Prince of Wales.",
      "credit_en": "Photo: UK Ministry of Defence (Crown Copyright)",
      "credit_he": "צילום: משרד ההגנה הבריטי (זכויות הכתר)",
-     "local_src": "../digest/2026-11-13/img/j/D3.jpg"
+     "local_src": "https://assets.publishing.service.gov.uk/media/6af5ee299be17c68c69ca7c2/s960_DDC-20261112-3202647.jpg"
     },
     "D4": {
      "file": "D4.jpg",
@@ -15299,7 +15299,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם של מכלית האספקה והתדלוק הימי מסדרה 707 עבור הצי הגרמני.",
      "credit_en": "Photo: NVL Group, via Hartpunkt",
      "credit_he": "צילום: קבוצת NVL, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-13/img/j/D4.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Klasse-707-Marineversorger_Bild_NVL.jpg"
     }
    }
   },
@@ -16244,7 +16244,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט PAC-3 MSE של לוקהיד מרטין במהלך ניסוי טיסה מבצעי.",
      "credit_en": "Image: Lockheed Martin, via Briefs",
      "credit_he": "צילום: לוקהיד מרטין, דרך Briefs",
-     "local_src": "../digest/2026-11-13-evening/img/j/A1.jpg"
+     "local_src": ""
     },
     "B1": {
      "file": "B1.jpg",
@@ -16254,7 +16254,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפציץ החמקן B-21 ריידר במהלך טיסת ניסוי בשמי בסיס אדוארדס בקליפורניה.",
      "credit_en": "Image: U.S. Air Force, via The War Zone",
      "credit_he": "צילום: חיל האוויר האמריקאי, דרך The War Zone",
-     "local_src": "../digest/2026-11-13-evening/img/j/B1.jpg"
+     "local_src": ""
     },
     "B2": {
      "file": "B2.jpg",
@@ -16264,7 +16264,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי הטיס האוטונומי השיתופי YFQ-48A Talon Blue של נורת'רופ גרומן.",
      "credit_en": "Image: Northrop Grumman, via Aviation Week",
      "credit_he": "צילום: נורת'רופ גרומן, דרך Aviation Week",
-     "local_src": "../digest/2026-11-13-evening/img/j/B2.jpg"
+     "local_src": ""
     },
     "B3": {
      "file": "B3.jpg",
@@ -16274,7 +16274,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק קרב רוסי מדגם Mi-28NM בתצורה המיועדת לתקיפות מנגד מוטסות.",
      "credit_en": "Image: Russian MoD, via Israel Defense",
      "credit_he": "צילום: משרד ההגנה הרוסי, דרך Israel Defense",
-     "local_src": "../digest/2026-11-13-evening/img/j/B3.jpg"
+     "local_src": ""
     },
     "B4": {
      "file": "B4.jpg",
@@ -16284,7 +16284,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נשיא קבוצת WB פיוטר וויצ'חובסקי ובכירים גרמנים בטקס השקת החברה בברלין.",
      "credit_en": "Image: WB Group Official Press Office",
      "credit_he": "צילום: קבוצת WB, לשכת העיתונות הרשמית",
-     "local_src": "../digest/2026-11-13-evening/img/j/B4.jpg"
+     "local_src": ""
     },
     "B5": {
      "file": "B5.jpg",
@@ -16294,7 +16294,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם מלא של מטוס הקרב מהדור השישי בתוכנית GCAP המשותפת לבריטניה, איטליה ויפן.",
      "credit_en": "Image: Getty Images, via Defense News",
      "credit_he": "צילום: Getty Images, דרך Defense News",
-     "local_src": "../digest/2026-11-13-evening/img/j/B5.jpg"
+     "local_src": ""
     },
     "B6": {
      "file": "B6.jpg",
@@ -16304,7 +16304,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס ההתרעה האיטלקי E-550A מדגם גאלפסטרים G550 המצויד במכ\"ם קונפורמי מתוצרת אלתא.",
      "credit_en": "Image: Italian Air Force, via ItaMilRadar",
      "credit_he": "צילום: חיל האוויר האיטלקי, דרך ItaMilRadar",
-     "local_src": "../digest/2026-11-13-evening/img/j/B6.jpg"
+     "local_src": ""
     },
     "C1": {
      "file": "C1.jpg",
@@ -16314,7 +16314,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט ומערכת תקיפה מדויקת של קבוצת EDGE באירוע תצוגה בינלאומי.",
      "credit_en": "Image: EDGE Group, via Aviation Week",
      "credit_he": "צילום: קבוצת EDGE, דרך Aviation Week",
-     "local_src": "../digest/2026-11-13-evening/img/j/C1.jpg"
+     "local_src": ""
     }
    }
   },
@@ -17683,7 +17683,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר הרקטות הרב-תכליתי PULS של אלביט מערכות על גבי מרכב טקטי כבד.",
      "credit_en": "Photo: Elbit Systems, via Globes",
      "credit_he": "צילום: אלביט מערכות, דרך גלובס",
-     "local_src": "../digest/2026-11-12/img/j/C1.jpg"
+     "local_src": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1745919653/direct/PULS_qk7ys7.jpg"
     },
     "C2": {
      "url": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg",
@@ -17692,7 +17692,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מנכ\"ל משרד הביטחון אמיר ברעם חונך את משרד הנספחות הביטחונית הקבוע הראשון ברבאט, מרוקו.",
      "credit_en": "Photo: Israel Ministry of Defense, via Morocco World News",
      "credit_he": "צילום: משרד הביטחון, דרך מרוקו וורלד ניוז",
-     "local_src": "../digest/2026-11-12/img/j/C2.jpg"
+     "local_src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg"
     },
     "C3": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Sweden-receives-Taurus-cruise-missiles-from-Germany-ahead-of-planned-2028-Gripen-C_D-upgrade.jpg",
@@ -17701,7 +17701,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט מדויק ארוך-טווח מדגם Taurus KEPD 350 שנמסר לכוחות המזוינים של שוודיה.",
      "credit_en": "Photo: Taurus Systems, via Defence Industry Europe",
      "credit_he": "צילום: Taurus Systems, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-12/img/j/C3.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Sweden-receives-Taurus-cruise-missiles-from-Germany-ahead-of-planned-2028-Gripen-C_D-upgrade.jpg"
     },
     "C4": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/53195468613_5c6c301a41_c-e1794425948751.jpg",
@@ -17710,7 +17710,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ייצור מרכבי לוויינים בחברת Apex Space במסגרת הלוואות משרד ההגנה האמריקאי לחיזוק שרשרת אספקת החלל.",
      "credit_en": "Photo: Apex Space, via Breaking Defense",
      "credit_he": "צילום: Apex Space, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-12/img/j/C4.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/03/53195468613_5c6c301a41_c-e1794425948751.jpg"
     },
     "A1": {
      "url": "https://www.avinc.com/wp-content/uploads/2026/04/av-og.png?quality=100",
@@ -17719,7 +17719,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת נשק לייזר עתיר אנרגיה 30 קילוואט LOCUST X3 מתוצרת אירו-וירונמנט ליירוט כטב\"מים.",
      "credit_en": "Photo: AeroVironment",
      "credit_he": "צילום: AeroVironment",
-     "local_src": "../digest/2026-11-12/img/j/A1.jpg"
+     "local_src": "https://www.avinc.com/wp-content/uploads/2026/04/av-og.png?quality=100"
     },
     "A2": {
      "url": "https://www.thalesgroup.com/sites/default/files/styles/og_image/public/2024-06/GM200_MM_C.jpg",
@@ -17728,7 +17728,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם הגנה אווירית טקטי קומפקטי מדגם Ground Master 200 MM/C של קבוצת תאלס.",
      "credit_en": "Photo: Thales Group",
      "credit_he": "צילום: Thales Group",
-     "local_src": "../digest/2026-11-12/img/j/A2.jpg"
+     "local_src": "https://www.thalesgroup.com/sites/default/files/styles/og_image/public/2024-06/GM200_MM_C.jpg"
     },
     "A3": {
      "url": "https://defensehere.com/wp-content/uploads/2026/10/Hensoldt-1-scaled-1-scaled-aspect-ratio-1280-720-1-1536x864-1-scaled.webp",
@@ -17737,7 +17737,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם הגנה אווירית נייד AESA מדגם TRML-4D של הנסולדט המשמש בסוללות IRIS-T SLM.",
      "credit_en": "Photo: Hensoldt, via DefenseHere",
      "credit_he": "צילום: הנסולדט, דרך DefenseHere",
-     "local_src": "../digest/2026-11-12/img/j/A3.jpg"
+     "local_src": "https://defensehere.com/wp-content/uploads/2026/10/Hensoldt-1-scaled-1-scaled-aspect-ratio-1280-720-1-1536x864-1-scaled.webp"
     },
     "A4": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Echodyne-says-BAE-Systems-has-integrated-EchoShield-radar-into-its-BATS-counter-drone-system.jpeg",
@@ -17746,7 +17746,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם ה-EchoShield של אקודין משולב במערכת BATS של BAE Systems לנטרול כטב\"מים.",
      "credit_en": "Photo: Echodyne / BAE Systems",
      "credit_he": "צילום: Echodyne / BAE Systems",
-     "local_src": "../digest/2026-11-12/img/j/A4.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Echodyne-says-BAE-Systems-has-integrated-EchoShield-radar-into-its-BATS-counter-drone-system.jpeg"
     },
     "A5": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/fedorov-yelizarov-foto-1.jpg",
@@ -17755,7 +17755,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שר הדיגיטל פדורוב ומייסד קבוצת לזאר מייסדים חברה לפיתוח טילי יירוט זולים נגד כטב\"מים באוקראינה.",
      "credit_en": "Photo: Militarnyi",
      "credit_he": "צילום: Militarnyi",
-     "local_src": "../digest/2026-11-12/img/j/A5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/fedorov-yelizarov-foto-1.jpg"
     },
     "B1": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg",
@@ -17764,7 +17764,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת התכנון של כטב\"ם הקרב השיתופי החמקן LOWUS של קוריאן אייר אירוספייס.",
      "credit_en": "Photo: Korean Air Aerospace Division, via Breaking Defense",
      "credit_he": "צילום: קוריאן אייר אירוספייס, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-12/img/j/B1.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg"
     },
     "B3": {
      "url": "https://www.israeldefense.co.il/sites/default/files/2025-02/BRO-vs-C2_0.jpg",
@@ -17773,7 +17773,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת ההגנה האלקטרונית AeroShield של חברת BIRD Aerosystems להגנה על פלטפורמות אוויריות.",
      "credit_en": "Photo: BIRD Aerosystems, via IsraelDefense",
      "credit_he": "צילום: BIRD Aerosystems, דרך IsraelDefense",
-     "local_src": "../digest/2026-11-12/img/j/B3.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2025-02/BRO-vs-C2_0.jpg"
     },
     "B4": {
      "url": "https://azertag.az/files/2024/3/1200x630/17313991605241838932_1200x630.jpg",
@@ -17782,7 +17782,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משלחות צבאיות מאזרבייג'ן וטג'יקיסטן בדיוני שיתוף פעולה ביטחוני בתחום הכטב\"מים.",
      "credit_en": "Photo: AZERTAC",
      "credit_he": "צילום: AZERTAC",
-     "local_src": "../digest/2026-11-12/img/j/B4.jpg"
+     "local_src": "https://azertag.az/files/2024/3/1200x630/17313991605241838932_1200x630.jpg"
     },
     "B5": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Gripen-E-AI-powered-scaled-e1793642273283.jpg",
@@ -17791,7 +17791,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ממשק תא הטייס של מטוס גריפן E של סאאב המשולב עם משפחת סוכני בינה מלאכותית לסיוע לטייס.",
      "credit_en": "Photo: Saab, via Breaking Defense",
      "credit_he": "צילום: סאאב, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-12/img/j/B5.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Gripen-E-AI-powered-scaled-e1793642273283.jpg"
     },
     "B6": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/Reenactment_-Clarity-at-the-command-post-scaled-1-1024x683.jpg",
@@ -17800,7 +17800,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חברת הלסינג מדגימה את פלטפורמת ניתוח המודיעין והיתוך המידע בזמן אמת Clarity מבוססת בינה מלאכותית.",
      "credit_en": "Photo: Helsing, via Militarnyi",
      "credit_he": "צילום: Helsing, דרך Militarnyi",
-     "local_src": "../digest/2026-11-12/img/j/B6.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Reenactment_-Clarity-at-the-command-post-scaled-1-1024x683.jpg"
     },
     "D1": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg",
@@ -17809,7 +17809,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם הטרימרן האוטונומי נגד צוללות Arctic Hunter של קונגסברג ותאלס עבור הצי המלכותי הבריטי.",
      "credit_en": "Photo: Kongsberg Maritime, via Defence Industry Europe",
      "credit_he": "צילום: Kongsberg Maritime, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-12/img/j/D1.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg"
     },
     "D2": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Saab-says-Royal-Navy-orders-15-million-of-drone-detection-radars-for-uncrewed-K3-Scout-vessels.jpg",
@@ -17818,7 +17818,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם הגילוי של סאאב המותקן על כשב\"מי K3 Scout להגנת ציי הצי המלכותי הבריטי מפני רחפנים.",
      "credit_en": "Photo: Saab, via Defence Industry Europe",
      "credit_he": "צילום: סאאב, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-12/img/j/D2.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Saab-says-Royal-Navy-orders-15-million-of-drone-detection-radars-for-uncrewed-K3-Scout-vessels.jpg"
     },
     "D3": {
      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2072551",
@@ -17827,7 +17827,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינות הצי ההודי וזרועות הביטחון בפעילות מבצעית במהלך תרגיל ההגנה החופית הלאומי Sea Vigil-26.",
      "credit_en": "Photo: Indian Navy / PIB",
      "credit_he": "צילום: הצי ההודי / PIB",
-     "local_src": "../digest/2026-11-12/img/j/D3.jpg"
+     "local_src": "https://pib.gov.in/PressReleasePage.aspx?PRID=2072551"
     }
    }
   },
@@ -18725,7 +18725,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכות נגד רחפנים של נאט\"ו שנפרסו לבדיקות במסגרת יוזמת Drone Edge",
      "credit_en": "NATO ACT, via Defence Industry Europe",
      "credit_he": "נאט\"ו ACT, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-12-evening/img/j/A1.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/NATO-moves-to-strengthen-air-and-missile-defence-with-faster-counter-drone-procurement.jpeg"
     },
     "B1": {
      "url": "https://mmx.prnewswire.com/media/MS2033285/UFORCE-MAGURA-MV7-3-NEMESIS-SEASTRIKE-Aerial.jpg",
@@ -18734,7 +18734,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צי המערכות האוטונומיות של UFORCE: כשב\"מים מדגם MAGURA ורחפני תקיפה כבדים מדגם NEMESIS",
      "credit_en": "UFORCE via PR Newswire",
      "credit_he": "UFORCE דרך PR Newswire",
-     "local_src": "../digest/2026-11-12-evening/img/j/B1.jpg"
+     "local_src": "https://mmx.prnewswire.com/media/MS2033285/UFORCE-MAGURA-MV7-3-NEMESIS-SEASTRIKE-Aerial.jpg"
     },
     "B2": {
      "url": "https://mmx.prnewswire.com/media/MS2032495/Hermeus-Image.jpg",
@@ -18743,7 +18743,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי הטיס האוטונומי המהיר Quarterhorse של Hermeus שישולבו בו מערכות משימה של נורת'רופ גרומן",
      "credit_en": "Hermeus / Northrop Grumman via PR Newswire",
      "credit_he": "Hermeus / נורת'רופ גרומן דרך PR Newswire",
-     "local_src": "../digest/2026-11-12-evening/img/j/B2.jpg"
+     "local_src": "https://mmx.prnewswire.com/media/MS2032495/Hermeus-Image.jpg"
     },
     "B3": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/super-hornet-growler-upgrade-capacity-plans-us-navy.jpg?w=1200",
@@ -18752,7 +18752,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F/A-18E סופר הורנט של הצי האמריקאי בתהליך הארכת חיים ושדרוג לתקן בלוק 3",
      "credit_en": "U.S. Navy via The War Zone",
      "credit_he": "הצי האמריקאי דרך The War Zone",
-     "local_src": "../digest/2026-11-12-evening/img/j/B3.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/super-hornet-growler-upgrade-capacity-plans-us-navy.jpg?w=1200"
     },
     "B4": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/06/EuroMALE_Bild_hartpunkt_Lars-Hoffmann.jpeg",
@@ -18761,7 +18761,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם כטמ\"מ ה-Eurodrone שהוצג בידי הקבלניות הראשיות",
      "credit_en": "Lars Hoffmann / hartpunkt",
      "credit_he": "לארס הופמן / hartpunkt",
-     "local_src": "../digest/2026-11-12-evening/img/j/B4.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/06/EuroMALE_Bild_hartpunkt_Lars-Hoffmann.jpeg"
     },
     "C2": {
      "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2236464966.jpg?w=1024",
@@ -18770,7 +18770,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית לוויין מכ\"ם SAR הממחישה זיהוי מטרות צבאיות באמצעות בינה מלאכותית",
      "credit_en": "Getty Images via Defense News",
      "credit_he": "Getty Images דרך Defense News",
-     "local_src": "../digest/2026-11-12-evening/img/j/C2.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2236464966.jpg?w=1024"
     },
     "D1": {
      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/USS_South_Dakota_%28SSN-790%29_underway_off_Groton%2C_Connecticut_%28USA%29%2C_on_9_January_2019_%28190109-N-LW591-045%29.JPG",
@@ -18779,7 +18779,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הצוללת הגרעינית USS South Dakota מדגם וירג'יניה במהלך הפלגה",
      "credit_en": "U.S. Navy via Wikimedia Commons",
      "credit_he": "הצי האמריקאי דרך ויקימדיה קומונס",
-     "local_src": "../digest/2026-11-12-evening/img/j/D1.jpg"
+     "local_src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/USS_South_Dakota_%28SSN-790%29_underway_off_Groton%2C_Connecticut_%28USA%29%2C_on_9_January_2019_%28190109-N-LW591-045%29.JPG"
     }
    }
   },
@@ -20196,7 +20196,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רפאל חושפת רשמית את טיל השיוט ארוך הטווח Super Ice עם רש\"ק רב-תכליתי במשקל 1,000 ליברות.",
      "credit_en": "Photo: Rafael Advanced Defense Systems, via Times of Israel",
      "credit_he": "צילום: רפאל מערכות לחימה מתקדמות, דרך טיימס אוף ישראל",
-     "local_src": "../digest/2026-11-11/img/j/C1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW0U73xXIAAh7D7.jpg"
     },
     "C2": {
      "url": "https://pbs.twimg.com/media/HWzDgnjWsAAY2it.jpg",
@@ -20205,7 +20205,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מנכ\"ל משרד הביטחון אמיר ברעם בראש משלחת ביטחונית בכירה ברבאט, מרוקו.",
      "credit_en": "Photo: Israel Ministry of Defense, via Presa Amiga",
      "credit_he": "צילום: משרד הביטחון, דרך פרסה אמיגה",
-     "local_src": "../digest/2026-11-11/img/j/C2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzDgnjWsAAY2it.jpg"
     },
     "A1": {
      "url": "https://pbs.twimg.com/media/HW1RAw0W0AAghDy.jpg",
@@ -20214,7 +20214,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת צבא ארה\"ב למערכת הגנה אווירית קצרת טווח מודולרית SLED להגנת נקודה ניידת.",
      "credit_en": "Photo: U.S. Army, via The War Zone",
      "credit_he": "צילום: צבא ארה\"ב, דרך The War Zone",
-     "local_src": "../digest/2026-11-11/img/j/A1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1RAw0W0AAghDy.jpg"
     },
     "A2": {
      "url": "https://pbs.twimg.com/media/HW1BhlkWsAA86HI.jpg",
@@ -20223,7 +20223,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צריח ההגנה האווירית הנייד Skyranger 30 של ריינמטאל להגנה על תשתיות חיוניות.",
      "credit_en": "Photo: Rheinmetall, via Defence Industry Europe",
      "credit_he": "צילום: Rheinmetall, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-11/img/j/A2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1BhlkWsAA86HI.jpg"
     },
     "A3": {
      "url": "https://pbs.twimg.com/media/HWzMWk7WQAA-uyi.png",
@@ -20232,7 +20232,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת הנשק האוטונומית נגד רחפנים Bullfrog של חברת Allen Control Systems.",
      "credit_en": "Photo: Allen Control Systems, via Breaking Defense",
      "credit_he": "צילום: Allen Control Systems, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-11/img/j/A3.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzMWk7WQAA-uyi.png"
     },
     "A4": {
      "url": "https://pbs.twimg.com/media/HW1BhnIWMAA3fIR.jpg",
@@ -20241,7 +20241,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חנוכת קו הייצור החדש לפגזי ארטילריה 155 מ\"מ DiNa ברותנבאך, בוואריה.",
      "credit_en": "Photo: Diehl Defence",
      "credit_he": "צילום: Diehl Defence",
-     "local_src": "../digest/2026-11-11/img/j/A4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1BhnIWMAA3fIR.jpg"
     },
     "B1": {
      "url": "https://pbs.twimg.com/media/HWziaShawAAQ7zn.jpg",
@@ -20250,7 +20250,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שידור הטלוויזיה הממלכתית של סין (CCTV) חושף את תאי החימוש הפנימיים של כטב\"ם החמקן GJ-11.",
      "credit_en": "Photo: CCTV, via Alex Luck",
      "credit_he": "צילום: CCTV, דרך אלכס לוק",
-     "local_src": "../digest/2026-11-11/img/j/B1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWziaShawAAQ7zn.jpg"
     },
     "B2": {
      "url": "https://pbs.twimg.com/media/HWzHz6wWwAAsxy_.jpg",
@@ -20259,7 +20259,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F-35B משחרר טיל אוויר-אוויר מטאור אינרטי של MBDA מתא החימוש הפנימי במהלך ניסוי טיסה.",
      "credit_en": "Photo: MBDA / F-35 JPO, via Presa Amiga",
      "credit_he": "צילום: MBDA / מנהלת ה-F-35, דרך פרסה אמיגה",
-     "local_src": "../digest/2026-11-11/img/j/B2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzHz6wWwAAsxy_.jpg"
     },
     "B3": {
      "url": "https://pbs.twimg.com/media/HWzF7KwW0AAUptf.jpg",
@@ -20268,7 +20268,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פלטפורמת רחפן תקיפה טקטי של צבא הודו הנבחנת להרתעה בגבולות.",
      "credit_en": "Photo: Indian Army / IDRW",
      "credit_he": "צילום: צבא הודו / IDRW",
-     "local_src": "../digest/2026-11-11/img/j/B3.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzF7KwW0AAUptf.jpg"
     },
     "B4": {
      "url": "https://pbs.twimg.com/media/HW1CPA8WYAAuop7.jpg",
@@ -20277,7 +20277,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן המטען Black Swan של דרונמיקס עם חליפת המכ\"ם והמודיעין MissionGrid של הנסולדט בבולגריה.",
      "credit_en": "Photo: Dronamics / Hensoldt, via SeeNews",
      "credit_he": "צילום: Dronamics / Hensoldt, דרך SeeNews",
-     "local_src": "../digest/2026-11-11/img/j/B4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1CPA8WYAAuop7.jpg"
     },
     "B5": {
      "url": "https://pbs.twimg.com/media/HWzYvWDWoAAacS4.jpg",
@@ -20286,7 +20286,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן מסחרי בסביבת אימונים צבאית הכפוף לאיסור השימוש וההוצאה משירות בבונדסוור הגרמני.",
      "credit_en": "Photo: Militarnyi",
      "credit_he": "צילום: Militarnyi",
-     "local_src": "../digest/2026-11-11/img/j/B5.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzYvWDWoAAacS4.jpg"
     },
     "B6": {
      "url": "https://pbs.twimg.com/media/HWzKcg4WsAAw2c7.jpg",
@@ -20295,7 +20295,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ייצור הגוף הקדמי של מטוס היורופייטר טייפון הראשון עבור טורקיה במפעל BAE Systems בסמילסברי.",
      "credit_en": "Photo: BAE Systems, via Presa Amiga",
      "credit_he": "צילום: BAE Systems, דרך פרסה אמיגה",
-     "local_src": "../digest/2026-11-11/img/j/B6.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzKcg4WsAAw2c7.jpg"
     },
     "B7": {
      "url": "https://pbs.twimg.com/media/HWzK8-9WQAAIc_K.jpg",
@@ -20304,7 +20304,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית לוויין התצפית האופטי הצבאי מהדור הבא IRIS של צרפת.",
      "credit_en": "Rendering: Airbus Defence and Space, via Breaking Defense",
      "credit_he": "הדמיה: Airbus Defence and Space, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-11/img/j/B7.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWzK8-9WQAAIc_K.jpg"
     },
     "C3": {
      "url": "https://pbs.twimg.com/media/HWy64jsXIAAGS8e.jpg",
@@ -20313,7 +20313,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת ג'נרל אטומיקס לשילוב חימושי גלישה מתמרנים LRMP בחרטום טיל AIM-174B.",
      "credit_en": "Rendering: General Atomics, via The War Zone",
      "credit_he": "הדמיה: General Atomics, דרך The War Zone",
-     "local_src": "../digest/2026-11-11/img/j/C3.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWy64jsXIAAGS8e.jpg"
     },
     "C4": {
      "url": "https://pbs.twimg.com/media/HW2bZF-WEAAQ_87.jpg",
@@ -20322,7 +20322,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור רקטת אימונים DeepStrike JR3 של ריית'יאון ממארז HIMARS במהלך ניסויי ירי באריזונה.",
      "credit_en": "Photo: Raytheon / RTX",
      "credit_he": "צילום: Raytheon / RTX",
-     "local_src": "../digest/2026-11-11/img/j/C4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW2bZF-WEAAQ_87.jpg"
     },
     "C5": {
      "url": "https://pbs.twimg.com/media/HW1tuQoWsAAqb-K.jpg",
@@ -20331,7 +20331,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חיילי צבא אזרבייג'ן במהלך תרגיל צבאי במקביל להגשת תקציב הביטחון לשנת 2027.",
      "credit_en": "Photo: Azerbaijan MoD, via APA",
      "credit_he": "צילום: משרד ההגנה של אזרבייג'ן, דרך APA",
-     "local_src": "../digest/2026-11-11/img/j/C5.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1tuQoWsAAqb-K.jpg"
     },
     "D1": {
      "url": "https://pbs.twimg.com/media/HW2CXXSbkAAPcjC.jpg",
@@ -20340,7 +20340,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי שיט המצויד בערכת ההסבה האוטונומית AUTONOMAST של ST Engineering בפעילות בים.",
      "credit_en": "Photo: ST Engineering, via Naval News",
      "credit_he": "צילום: ST Engineering, דרך Naval News",
-     "local_src": "../digest/2026-11-11/img/j/D1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW2CXXSbkAAPcjC.jpg"
     },
     "D2": {
      "url": "https://pbs.twimg.com/media/HW1xXvpXgAANHYW.png",
@@ -20349,7 +20349,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית כטב\"ם הסילון Talon בפעילות על סיפון נושאת מטוסים של הצי המלכותי הבריטי.",
      "credit_en": "Image: Northrop Grumman / Navy Lookout",
      "credit_he": "תמונה: נורת'רופ גרומן / נייבי לוקאאוט",
-     "local_src": "../digest/2026-11-11/img/j/D2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1xXvpXgAANHYW.png"
     },
     "D3": {
      "url": "https://pbs.twimg.com/media/HW2CXXabUAAg8sf.jpg",
@@ -20358,7 +20358,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם התקיפה המתאבד TRACUS שנחשף על ידי KNDS ו-SeaOwl בתערוכת Euronaval 2026.",
      "credit_en": "Photo: KNDS / SeaOwl, via Euronaval 2026",
      "credit_he": "צילום: KNDS / SeaOwl, דרך Euronaval 2026",
-     "local_src": "../digest/2026-11-11/img/j/D3.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW2CXXabUAAg8sf.jpg"
     },
     "D4": {
      "url": "https://pbs.twimg.com/media/HW1COh4W4AA6kOD.jpg",
@@ -20367,7 +20367,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית נחתת כבדה (LCH) עבור צבא אוסטרליה הנבנית במספנות אוסטל בהנדרסון.",
      "credit_en": "Rendering: Austal Defence Australia, via Naval News",
      "credit_he": "הדמיה: Austal Defence Australia, דרך Naval News",
-     "local_src": "../digest/2026-11-11/img/j/D4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW1COh4W4AA6kOD.jpg"
     },
     "D5": {
      "url": "https://pbs.twimg.com/media/HW0PfoLWAAAjtVF.jpg",
@@ -20376,7 +20376,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שריפה במסוף הנפט בנמל אוסט-לוגה בים הבלטי בעקבות מתקפת כטב\"מים אוקראינית בלילה.",
      "credit_en": "Photo via Osinttechnical / Militarnyi",
      "credit_he": "צילום דרך אוסינט טכניקל / מיליטרני",
-     "local_src": "../digest/2026-11-11/img/j/D5.jpg"
+     "local_src": "https://pbs.twimg.com/media/HW0PfoLWAAAjtVF.jpg"
     }
    }
   },
@@ -21094,7 +21094,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת טיל הנ\"מ ההולנדי המוזל WARDEN שהוצגה במהלך השקת התוכנית.",
      "credit_en": "Image: Guardian Dynamics, via Militarnyi",
      "credit_he": "צילום: חברת Guardian Dynamics, דרך Militarnyi",
-     "local_src": "../digest/2026-11-11-evening/img/j/A1.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/raketa-niderlandy-varden.jpg"
     },
     "B1": {
      "url": "https://aviationweek.com/sites/default/files/2026-11/c-130j-afsoc-1.jpg",
@@ -21103,7 +21103,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה C-130J Super Hercules שנבחר לשילוב מערכת הטיסה האוטונומית Merlin Pilot.",
      "credit_en": "Image: USAF, via Aviation Week",
      "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך Aviation Week",
-     "local_src": "../digest/2026-11-11-evening/img/j/B1.jpg"
+     "local_src": "https://aviationweek.com/sites/default/files/2026-11/c-130j-afsoc-1.jpg"
     },
     "B2": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/autonomous-casaulty-evacuation-demonstration-us-africa-command.jpg?w=1200",
@@ -21112,7 +21112,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס ססנה 208B גרנד קרוואן המצויד במערכת הטיסה האוטונומית Merlin Pilot.",
      "credit_en": "Image: Merlin Labs, via The War Zone",
      "credit_he": "צילום: חברת Merlin Labs, דרך The War Zone",
-     "local_src": "../digest/2026-11-11-evening/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/autonomous-casaulty-evacuation-demonstration-us-africa-command.jpg?w=1200"
     },
     "B3": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/F-35-WITH-TEJAS-INDIA-1.jpg?w=1200",
@@ -21121,7 +21121,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F-35A של חיל האוויר האמריקני במבנה טיסה לצד מטוס טג'אס של חיל האוויר ההודי בשמי רג'סטאן.",
      "credit_en": "Image: Indian Air Force, via The War Zone",
      "credit_he": "צילום: חיל האוויר ההודי, דרך The War Zone",
-     "local_src": "../digest/2026-11-11-evening/img/j/B3.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/F-35-WITH-TEJAS-INDIA-1.jpg?w=1200"
     },
     "B4": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/Cradle-scaled.jpeg",
@@ -21130,7 +21130,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רובוט קרקעי בלתי מאויש מדגם MAUL בתצורה ממוגנת לפינוי פצועים.",
      "credit_en": "Image: AIDronesUA, via Militarnyi",
      "credit_he": "צילום: חברת AIDronesUA, דרך Militarnyi",
-     "local_src": "../digest/2026-11-11-evening/img/j/B4.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Cradle-scaled.jpeg"
     },
     "C1": {
      "url": "https://cdn.prod.www.manager-magazin.de/images/db45c265-f7ea-4c31-93f9-f371d6a7fdec_w1200_r1.778_fpx29.15_fpy49.99.jpg",
@@ -21139,7 +21139,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקני הייצור וההרכבה של טנקי המערכה Leopard 2 מתוצרת KNDS.",
      "credit_en": "Image: KNDS, via Manager Magazin",
      "credit_he": "צילום: חברת KNDS, דרך Manager Magazin",
-     "local_src": "../digest/2026-11-11-evening/img/j/C1.jpg"
+     "local_src": "https://cdn.prod.www.manager-magazin.de/images/db45c265-f7ea-4c31-93f9-f371d6a7fdec_w1200_r1.778_fpx29.15_fpy49.99.jpg"
     },
     "C2": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3576.jpg",
@@ -21148,7 +21148,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוויין מתוצרת SpaceX המצויד במסופי תקשורת אופטית מבוססת לייזר לקישוריות בין-לוויינית.",
      "credit_en": "Image: SpaceX, via Defence Blog",
      "credit_he": "צילום: חברת SpaceX, דרך Defence Blog",
-     "local_src": "../digest/2026-11-11-evening/img/j/C2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3576.jpg"
     },
     "C3": {
      "url": "https://mmo.aiircdn.com/265/6af3ec79bcaa3715409.jpeg",
@@ -21157,7 +21157,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם לוויין המכ\"ם האמירתי Sirb-1 העובר לשלב ההרכבה והבדיקות.",
      "credit_en": "Image: UAE Space Agency, via ARN News",
      "credit_he": "צילום: סוכנות החלל של איחוד האמירויות, דרך ARN News",
-     "local_src": "../digest/2026-11-11-evening/img/j/C3.jpg"
+     "local_src": "https://mmo.aiircdn.com/265/6af3ec79bcaa3715409.jpeg"
     },
     "C4": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/09/20290908_GRUPA_WB-PremiereDay-MSPO_01.jpg",
@@ -21166,7 +21166,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצוגת מערכות בלתי מאוישות וחימוש משוטט מתוצרת קבוצת WB הפולנית.",
      "credit_en": "Image: WB Group, via Hartpunkt",
      "credit_he": "צילום: חברת WB Group, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-11-evening/img/j/C4.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/09/20290908_GRUPA_WB-PremiereDay-MSPO_01.jpg"
     },
     "D1": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3589.jpg",
@@ -21175,7 +21175,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם השטח Vanta 12 מתוצרת STARK חמוש בטיל Sea Venom במהלך ההדגמה בנמל אוסלו.",
      "credit_en": "Image: STARK, via Defence Blog",
      "credit_he": "צילום: חברת STARK, דרך Defence Blog",
-     "local_src": "../digest/2026-11-11-evening/img/j/D1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3589.jpg"
     }
    }
   },
@@ -22593,7 +22593,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב דינגו 2 להגנה מפני רחפנים עם תורן מכ\"ם ספקסר ומארזי שיגור למיירטי מטיס.",
      "credit_en": "Photo: Tytan Technologies, via Hartpunkt",
      "credit_he": "צילום: Tytan Technologies, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-10/img/j/A1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Drohnenabwehr-Dingo_Bild_Tytan-Technologies.jpeg"
     },
     "A2": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/counter-drone-nets-tyndall-air-force-base-f-35s.jpg",
@@ -22602,7 +22602,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סככות מטוסים בבסיס טינדל המיועדות להתקנת רשתות מיגון נשלפות נגד רחפנים.",
      "credit_en": "Photo: TWZ / US Army Corps of Engineers",
      "credit_he": "צילום: TWZ / חיל ההנדסה של צבא ארה\"ב",
-     "local_src": "../digest/2026-11-10/img/j/A2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/counter-drone-nets-tyndall-air-force-base-f-35s.jpg"
     },
     "A3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3500.jpg",
@@ -22611,7 +22611,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצורת ניסוי נשיאה של טיל השיוט AGM-188A ראסטי דאגר (ERAM) על מטוס קרב.",
      "credit_en": "Photo: Zone 5 Technologies, via Defence Blog",
      "credit_he": "צילום: Zone 5 Technologies, דרך Defence Blog",
-     "local_src": "../digest/2026-11-10/img/j/A3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3500.jpg"
     },
     "B1": {
      "url": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg",
@@ -22620,7 +22620,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מנכ\"ל משרד הביטחון אמיר ברעם בפגישה עם הנהגת משרד ההגנה והצבא של מרוקו ברבאט.",
      "credit_en": "Photo: Israel Ministry of Defense, via Morocco World News",
      "credit_he": "צילום: משרד הביטחון, דרך Morocco World News",
-     "local_src": "../digest/2026-11-10/img/j/B1.jpg"
+     "local_src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-10-at-1.52.52-PM.jpeg"
     },
     "B2": {
      "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2288509356.jpg",
@@ -22629,7 +22629,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיה של לוויין תצפית צבאי מתקדם במסלול נמוך סביב כדור הארץ.",
      "credit_en": "Photo: Getty Images, via Defense News",
      "credit_he": "צילום: Getty Images, דרך Defense News",
-     "local_src": "../digest/2026-11-10/img/j/B2.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2288509356.jpg"
     },
     "B3": {
      "url": "https://www.airdatanews.com/uploads/aviation/2026/11/gj-11-ucav-z3ronrz.webp",
@@ -22638,7 +22638,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מבט מקרוב על תאי החימוש הפנימיים של כטב\"ם החמקן הסיני GJ-11 בשידור חיל האוויר.",
      "credit_en": "Photo: CCTV / PLAAF, via Air Data News",
      "credit_he": "צילום: CCTV / חיל האוויר הסיני, דרך Air Data News",
-     "local_src": "../digest/2026-11-10/img/j/B3.jpg"
+     "local_src": "https://www.airdatanews.com/uploads/aviation/2026/11/gj-11-ucav-z3ronrz.webp"
     },
     "B4": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg",
@@ -22647,7 +22647,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס ההדגמה החמקן הבלתי מאויש LOWUS של חטיבת התעופה של קוריאן אייר.",
      "credit_en": "Photo: Korean Air, via Breaking Defense",
      "credit_he": "צילום: קוריאן אייר, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-10/img/j/B4.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Korean_Air_Lowus_CCA.jpg"
     },
     "B5": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/kratos-valkyrie-drone-new-cost-data.jpg?w=1200",
@@ -22656,7 +22656,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הקרב הבלתי מאויש XQ-58A ואלקירי מתוצרת קראטוס בטיסה.",
      "credit_en": "Photo: Kratos Defense, via The War Zone",
      "credit_he": "צילום: קראטוס דיפנס, דרך The War Zone",
-     "local_src": "../digest/2026-11-10/img/j/B5.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/kratos-valkyrie-drone-new-cost-data.jpg?w=1200"
     },
     "B6": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261022_DVIDS_f35_formation_7525323-e1792701184823.jpg",
@@ -22665,7 +22665,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוסי קרב חמקנים מסוג F-35A של חיל האוויר האמריקאי במבנה במהלך תרגיל מוכנות.",
      "credit_en": "Photo: USAF 56th Fighter Wing / DVIDS, via Breaking Defense",
      "credit_he": "צילום: כנף 56 חיל האוויר האמריקאי / DVIDS, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-10/img/j/B6.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261022_DVIDS_f35_formation_7525323-e1792701184823.jpg"
     },
     "C1": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2024/06/Raketenartilleriesystem-EuroPULS_2_Bild_hartpunkt_Lars-Hoffmann-696x522.jpg",
@@ -22674,7 +22674,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר רקטות רב-קליברי EuroPULS מפיתוח משותף של KNDS ואלביט מערכות.",
      "credit_en": "Photo: Lars Hoffmann, via Hartpunkt",
      "credit_he": "צילום: לארס הופמן, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-10/img/j/C1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2024/06/Raketenartilleriesystem-EuroPULS_2_Bild_hartpunkt_Lars-Hoffmann-696x522.jpg"
     },
     "C2": {
      "url": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2026/11/07/6fc67255-f8d7-4d52-845e-0b28d896bbcf_156a3794.jpg?itok=xQS3DfJO&v=1794049450",
@@ -22683,7 +22683,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר חופי של טילי ברהמוס על-קוליים נגד ספינות של צבא הפיליפינים.",
      "credit_en": "Photo: BrahMos Aerospace / Indian MoD, via SCMP",
      "credit_he": "צילום: ברהמוס אירוספייס / משרד ההגנה ההודי, דרך SCMP",
-     "local_src": "../digest/2026-11-10/img/j/C2.jpg"
+     "local_src": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2026/11/07/6fc67255-f8d7-4d52-845e-0b28d896bbcf_156a3794.jpg?itok=xQS3DfJO&v=1794049450"
     },
     "C3": {
      "url": "https://www.airandspaceforces.com/app/uploads/2023/03/hacm.jpeg",
@@ -22692,7 +22692,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיה של טיל השיוט ההיפר-קולי HACM בטיסת שיוט מונעת במנוע סקראמג'ט.",
      "credit_en": "Image: RTX / U.S. Air Force, via Air & Space Forces Magazine",
      "credit_he": "הדמיה: RTX / חיל האוויר האמריקאי, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-10/img/j/C3.jpg"
+     "local_src": "https://www.airandspaceforces.com/app/uploads/2023/03/hacm.jpeg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Armada86061000x5632x.webp",
@@ -22701,7 +22701,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינת שטח אוטונומית מדגם ארמדה של חברת Ocean Infinity בניסויי הצי המלכותי.",
      "credit_en": "Photo: Ocean Infinity, via Naval News",
      "credit_he": "צילום: Ocean Infinity, דרך Naval News",
-     "local_src": "../digest/2026-11-10/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/Armada86061000x5632x.webp"
     },
     "D2": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg",
@@ -22710,7 +22710,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם ספינת השטח הבלתי מאוישת ארקטיק האנטר של קונגסברג ללוחמה בצוללות.",
      "credit_en": "Image: Kongsberg Maritime, via Defence Industry Europe",
      "credit_he": "הדמיה: קונגסברג מריטיים, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-10/img/j/D2.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/1793804282325.jpeg",
@@ -22719,7 +22719,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס הענקת תעודת האישור העקרוני של DNV להנהלת ST Engineering ביורונאבאל.",
      "credit_en": "Photo: ST Engineering / DNV, via Naval News",
      "credit_he": "צילום: ST Engineering / DNV, דרך Naval News",
-     "local_src": "../digest/2026-11-10/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/1793804282325.jpeg"
     },
     "D4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/NN-Alseamar3-show-stand-LW-scaled.jpg",
@@ -22728,7 +22728,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכות הניטור התת-ימיות של חברת Alseamar בתערוכת יורונאבאל 2026.",
      "credit_en": "Photo: Naval News, via Alseamar",
      "credit_he": "צילום: Naval News, דרך Alseamar",
-     "local_src": "../digest/2026-11-10/img/j/D4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/NN-Alseamar3-show-stand-LW-scaled.jpg"
     },
     "D5": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/saab-9lv.jpeg",
@@ -22737,7 +22737,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדות הפעלה של הדור הבא של מערכת ניהול הקרב 9LV של סאאב בתערוכת יורונאבאל.",
      "credit_en": "Photo: Naval News / Saab",
      "credit_he": "צילום: Naval News / סאאב",
-     "local_src": "../digest/2026-11-10/img/j/D5.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/saab-9lv.jpeg"
     }
    }
   },
@@ -23480,7 +23480,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב משגר של מערכת טילי הנ\"מ הניידת לתגובה מהירה QRSAM במהלך ניסויי שדה וניידות של DRDO.",
      "credit_en": "Image: DRDO, via IDRW",
      "credit_he": "צילום: סוכנות DRDO, דרך IDRW",
-     "local_src": "../digest/2026-11-10-evening/img/j/A1.jpg"
+     "local_src": "https://idrw.org/wp-content/uploads/2026/10/QRSAM-Shield-Over-Delhi-NCR-1.png"
     },
     "B1": {
      "url": "https://www.navylookout.com/app/uploads/2026/11/Royal-Navy-plans-to-launch-Talon-jet-drone-from-carrier-in-2027.webp",
@@ -23489,7 +23489,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם הקרב הסילוני Talon מתוצרת נורת'רופ גרומן מוצג בתצורה המיועדת להפעלה מנושאות מטוסים.",
      "credit_en": "Image: Northrop Grumman, via Navy Lookout",
      "credit_he": "צילום: נורת'רופ גרומן, דרך Navy Lookout",
-     "local_src": "../digest/2026-11-10-evening/img/j/B1.jpg"
+     "local_src": "https://www.navylookout.com/app/uploads/2026/11/Royal-Navy-plans-to-launch-Talon-jet-drone-from-carrier-in-2027.webp"
     },
     "B2": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/05/DB_image_812.jpg",
@@ -23498,7 +23498,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם טקטי מתוצרת חברת AEVEX Aerospace במהלך הערכה מבצעית צבאית.",
      "credit_en": "Image: AEVEX Aerospace, via Defence Blog",
      "credit_he": "צילום: חברת AEVEX Aerospace, דרך Defence Blog",
-     "local_src": "../digest/2026-11-10-evening/img/j/B2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/05/DB_image_812.jpg"
     },
     "B3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3572.jpg",
@@ -23507,7 +23507,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חימוש משוטט מושלך-יד מדגם STUD מתוצרת חברת XDOWN בתצורה מקופלת לנשיאה.",
      "credit_en": "Image: XDOWN, via Defence Blog",
      "credit_he": "צילום: חברת XDOWN, דרך Defence Blog",
-     "local_src": "../digest/2026-11-10-evening/img/j/B3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3572.jpg"
     },
     "C1": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Lockheed-Martin-delivers-100000th-GMLRS-rocket-reaches-nearly-14000-a-year-ahead-of-schedule.jpeg",
@@ -23516,7 +23516,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "קו הייצור של לוקהיד מרטין במפעל קמדן בארקנסו המציין את מסירת רקטת ה-GMLRS ה-100,000.",
      "credit_en": "Image: Lockheed Martin, via Defence Industry Europe",
      "credit_he": "צילום: לוקהיד מרטין, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-10-evening/img/j/C1.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Lockheed-Martin-delivers-100000th-GMLRS-rocket-reaches-nearly-14000-a-year-ahead-of-schedule.jpeg"
     },
     "C2": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3559.jpg",
@@ -23525,7 +23525,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "גופי פגזי ארטילריה 155 מ\"מ מחושלים בקו הייצור החדש של דיל דיפנס ונאמו בעיר רותנבאך שבבוואריה.",
      "credit_en": "Image: Diehl Defence, via Defence Blog",
      "credit_he": "צילום: חברת Diehl Defence, דרך Defence Blog",
-     "local_src": "../digest/2026-11-10-evening/img/j/C2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3559.jpg"
     },
     "C3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/26-B81-01_LRASM-F15EX.webp",
@@ -23534,7 +23534,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט נגד ספינות ארוך טווח מדגם AGM-158C LRASM המצויד בחיישני הביות של BAE Systems.",
      "credit_en": "Image: BAE Systems, via Naval News",
      "credit_he": "צילום: חברת BAE Systems, דרך Naval News",
-     "local_src": "../digest/2026-11-10-evening/img/j/C3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/26-B81-01_LRASM-F15EX.webp"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/uuv-callouts-1920x598-1.jpg",
@@ -23543,7 +23543,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת הגלשן התת-ימי האוטונומי ארוך-הטווח Ranger מתוצרת ג'נרל אטומיקס בתצורת כנף מעורבת.",
      "credit_en": "Image: General Atomics, via Naval News",
      "credit_he": "צילום: חברת ג'נרל אטומיקס, דרך Naval News",
-     "local_src": "../digest/2026-11-10-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/uuv-callouts-1920x598-1.jpg"
     },
     "D2": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Vollansicht-SCX-26-Foto-Naval-News.jpg",
@@ -23552,7 +23552,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת ספינת הקרב העתידית SCX 26 של נבאל גרופ הכוללת תורן משולב ומפרץ משימה מודולרי.",
      "credit_en": "Image: Naval Group, via Hartpunkt",
      "credit_he": "צילום: חברת Naval Group, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-10-evening/img/j/D2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Vollansicht-SCX-26-Foto-Naval-News.jpg"
     },
     "D3": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg",
@@ -23561,7 +23561,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת כשב\"ם השטח ללוחמה נגד צוללות Arctic Hunter של קונגסברג המיועד לדרישת ה-Type 92 הבריטית.",
      "credit_en": "Image: Kongsberg Maritime, via Defence Industry Europe",
      "credit_he": "צילום: חברת קונגסברג מאריטיים, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-10-evening/img/j/D3.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Kongsberg-Maritime-unveils-Arctic-Hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-Royal-Navy.jpg"
     }
    }
   },
@@ -24970,7 +24970,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צריח הגנה אווירית סקיירנג'ר 30 מתוצרת ריינמטאל בתצורה ניידת על גבי משטח מכולה.",
      "credit_en": "Photo: Rheinmetall",
      "credit_he": "צילום: Rheinmetall",
-     "local_src": "../digest/2026-11-09/img/j/A1.jpg"
+     "local_src": "https://www.rheinmetall.com/Rheinmetall%20Group/Presse/News/Images/2026/11/202838/image-thumb__202838__small-stage/2026-11-09-rheinmetall-st%C3%A4rkt-belgische-luftverteidigung.030a0089.jpg"
     },
     "A2": {
      "url": "https://www.armyrecognition.com/images/stories/news/2026/november/US%20Army%20Launches%20FD-1%20Drone%20Interceptor%20From%20Stryker%20Air%20Defense%20Vehicle%20Against%20Mass%20Drone%20Attacks.jpg",
@@ -24979,7 +24979,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב הגנה אווירית SGT Stout של צבא ארה\"ב משגר רחפן יירוט FD-1 בניסוי בחוף הים הבלטי.",
      "credit_en": "Photo: U.S. Army, via Army Recognition",
      "credit_he": "צילום: צבא ארה\"ב, דרך Army Recognition",
-     "local_src": "../digest/2026-11-09/img/j/A2.jpg"
+     "local_src": "https://www.armyrecognition.com/images/stories/news/2026/november/US%20Army%20Launches%20FD-1%20Drone%20Interceptor%20From%20Stryker%20Air%20Defense%20Vehicle%20Against%20Mass%20Drone%20Attacks.jpg"
     },
     "B1": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Erfolgreicher-Ausklinktest-mit-dem-Flugkoerper-Meteor-von-einer-F-35B_Bild_MBDA-UK.jpg",
@@ -24988,7 +24988,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל מטאור אינרטי מתוצרת MBDA מוטל מתא החימוש הפנימי של מטוס קרב F-35B בניסוי בבסיס פקס ריבר.",
      "credit_en": "Photo: MBDA UK, via Hartpunkt",
      "credit_he": "צילום: MBDA UK, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-09/img/j/B1.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Erfolgreicher-Ausklinktest-mit-dem-Flugkoerper-Meteor-von-einer-F-35B_Bild_MBDA-UK.jpg"
     },
     "B2": {
      "url": "https://static.kyivpost.com/storage/2026/11/09/9f57c0496a9e8ad8e5e5eba3a97cdf87.png?w=1200&q=90&f=jpg",
@@ -24997,7 +24997,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נציגי התעשיות הביטחוניות של פינלנד ואוקראינה חותמים על הסכם שיתוף הפעולה בייצור רחפנים.",
      "credit_en": "Photo: Kyiv Post",
      "credit_he": "צילום: Kyiv Post",
-     "local_src": "../digest/2026-11-09/img/j/B2.jpg"
+     "local_src": "https://static.kyivpost.com/storage/2026/11/09/9f57c0496a9e8ad8e5e5eba3a97cdf87.png?w=1200&q=90&f=jpg"
     },
     "B3": {
      "url": "https://www.airandspaceforces.com/app/uploads/2026/11/C-17-Demo.jpg",
@@ -25006,7 +25006,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה C-17 של חיל האוויר האמריקאי במהלך ניסוי שיגור משטח טילים מונחים בתוכנית Dragon Cart.",
      "credit_en": "Photo: U.S. Air Force, via Air & Space Forces Magazine",
      "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-09/img/j/B3.jpg"
+     "local_src": "https://www.airandspaceforces.com/app/uploads/2026/11/C-17-Demo.jpg"
     },
     "C1": {
      "url": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-1242565964_20261013-112530.jpg",
@@ -25015,7 +25015,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עשן מיתמר בעקבות פגיעות מדויקות במתקני תעשייה ביטחונית בעומק רוסיה.",
      "credit_en": "Photo: Getty Images, via The Kyiv Independent",
      "credit_he": "צילום: Getty Images, דרך The Kyiv Independent",
-     "local_src": "../digest/2026-11-09/img/j/C1.jpg"
+     "local_src": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-1242565964_20261013-112530.jpg"
     },
     "C2": {
      "url": "https://cdn.dronexl.co/wp-content/uploads/2026/11/geran-5-k5k-cruise-missile-hur-3d-model.webp",
@@ -25024,7 +25024,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מודל תלת-ממדי ופירוק רכיבים הנדסי של טיל השיוט הזעיר גראן-5 K5-K שפורסם על ידי המודיעין האוקראיני.",
      "credit_en": "Image: Defence Intelligence of Ukraine, via DroneXL",
      "credit_he": "איור: מודיעין משרד ההגנה האוקראיני, דרך DroneXL",
-     "local_src": "../digest/2026-11-09/img/j/C2.jpg"
+     "local_src": "https://cdn.dronexl.co/wp-content/uploads/2026/11/geran-5-k5k-cruise-missile-hur-3d-model.webp"
     },
     "D1": {
      "url": "https://pbs.twimg.com/media/Dz1ryH7WkAYswdo?format=jpg&name=900x900",
@@ -25033,7 +25033,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכ\"ם ה-AESA ההודי המקומי Uttam, שנעקף על ידי תאגיד HAL לטובת רכש מכ\"מי אלתא ישראליים נוספים.",
      "credit_en": "Photo: DRDO, via Livefist",
      "credit_he": "צילום: DRDO, דרך Livefist",
-     "local_src": "../digest/2026-11-09/img/j/D1.jpg"
+     "local_src": "https://pbs.twimg.com/media/Dz1ryH7WkAYswdo?format=jpg&name=900x900"
     },
     "D4": {
      "url": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/FRPUE-20261105-ZJ0193-026.jpg",
@@ -25042,7 +25042,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסדר החניכה הרשמי של שייטת אוטונומית 1 של הצי המלכותי בבסיס פורטסמות'.",
      "credit_en": "Photo: Royal Navy, via UK Defence Journal",
      "credit_he": "צילום: הצי המלכותי הבריטי, דרך UK Defence Journal",
-     "local_src": "../digest/2026-11-09/img/j/D4.jpg"
+     "local_src": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/FRPUE-20261105-ZJ0193-026.jpg"
     },
     "D5": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/korvet-NRA-Nimi-ya-Lukeni-F301-proyektu-BR71-MK-II-Angola-EDGE-Group-1.jpg",
@@ -25051,7 +25051,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס השקת הקורבטה NRA Nimi-ya-Lukeni של צי אנגולה במספנות ADSB באבו דאבי.",
      "credit_en": "Photo: EDGE Group, via Militarnyi",
      "credit_he": "צילום: EDGE Group, דרך Militarnyi",
-     "local_src": "../digest/2026-11-09/img/j/D5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/korvet-NRA-Nimi-ya-Lukeni-F301-proyektu-BR71-MK-II-Angola-EDGE-Group-1.jpg"
     },
     "D6": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Kongsberg-Maritime-launches-Arctic-Hunter-USV.jpg",
@@ -25060,7 +25060,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם Arctic Hunter החדש מתוצרת קונגסברג בפעילות במימי הקוטב.",
      "credit_en": "Photo: Kongsberg Maritime, via Naval News",
      "credit_he": "צילום: קונגסברג, דרך Naval News",
-     "local_src": "../digest/2026-11-09/img/j/D6.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/Kongsberg-Maritime-launches-Arctic-Hunter-USV.jpg"
     },
     "D7": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV.jpeg",
@@ -25069,7 +25069,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם מוקטן של הספינה המודולרית הרב-משימתית M3V של פינקנטיירי בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Naval News",
      "credit_he": "צילום: Naval News",
-     "local_src": "../digest/2026-11-09/img/j/D7.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV.jpeg"
     }
    }
   },
@@ -25523,7 +25523,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגמי טילי Aster ו-CAMM של MBDA מוצגים לצד מודול משגר אנכי אמריקני MK 41 מתוצרת לוקהיד מרטין.",
      "credit_en": "Image: Naval News / Richard Scott, via Naval News",
      "credit_he": "צילום: ריצ'רד סקוט / Naval News, דרך Naval News",
-     "local_src": "../digest/2026-11-09-evening/img/j/A1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/MBDA-Aster-CAMM-Stratus-Mk41-IndoPac25.jpg"
     },
     "A2": {
      "url": "https://www.israeldefense.co.il/sites/default/files/2024-10/a841584e-59d8-4a11-b865-8105c636d7ff.jpeg",
@@ -25532,7 +25532,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית קונספט של מיירט היפר-סוני אירופי במהלך יירוט איום מתמרן בשכבה האנדו-אטמוספרית.",
      "credit_en": "Image: European Defence Fund / Diehl / MBDA, via IsraelDefense",
      "credit_he": "צילום: קרן ההגנה האירופית / דיל / MBDA, דרך IsraelDefense",
-     "local_src": "../digest/2026-11-09-evening/img/j/A2.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2024-10/a841584e-59d8-4a11-b865-8105c636d7ff.jpeg"
     },
     "A3": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/punkt-upravlinnya-tolga.jpg",
@@ -25541,7 +25541,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת השליטה ותורן החיישנים של מערכת ה-TOLGA הטורקית מתוצרת MKE במהלך ניסויי ירי במטווח.",
      "credit_en": "Image: MKE, via Militarnyi",
      "credit_he": "צילום: תאגיד MKE, דרך Militarnyi",
-     "local_src": "../digest/2026-11-09-evening/img/j/A3.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/punkt-upravlinnya-tolga.jpg"
     },
     "B1": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/9351862-e1793985605129.jpg",
@@ -25550,7 +25550,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי טיס בלתי מאויש ממערך ה-Launched Effects של צבא ארה\"ב במהלך הכנות לשיגור ניסיוני.",
      "credit_en": "Image: U.S. Army / Griffon Aerospace, via Breaking Defense",
      "credit_he": "צילום: צבא ארה\"ב / Griffon Aerospace, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-09-evening/img/j/B1.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/9351862-e1793985605129.jpg"
     },
     "B2": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/operational-f-15exs-flying-with-conformal-fuel-tanks.jpg",
@@ -25559,7 +25559,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב בואינג F-15EX Eagle II מבצעי בטיסה כשהוא נושא מכלי דלק תצורתיים (CFT) לאורך כונסי האוויר.",
      "credit_en": "Image: U.S. Air Force, via The War Zone",
      "credit_he": "צילום: חיל האוויר של ארה\"ב, דרך The War Zone",
-     "local_src": "../digest/2026-11-09-evening/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/operational-f-15exs-flying-with-conformal-fuel-tanks.jpg"
     },
     "B3": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/Machina-RoboCraftsman-Making-A-LUCAS-drone.jpg",
@@ -25568,7 +25568,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "זרוע רובוטית ממוחשבת בתוך מכולת הייצור הניידת של Machina במהלך הרכבת גוף כטב\"ם LUCAS.",
      "credit_en": "Image: Machina, via The War Zone",
      "credit_he": "צילום: חברת Machina, דרך The War Zone",
-     "local_src": "../digest/2026-11-09-evening/img/j/B3.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/Machina-RoboCraftsman-Making-A-LUCAS-drone.jpg"
     },
     "C1": {
      "url": "https://idrw.org/wp-content/uploads/2026/10/brahmos_650x400_81493840841.webp",
@@ -25577,7 +25577,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט על-קולי ברהמוס מוצג על גבי רכב שיגור כבד של הכוחות המזוינים של הודו.",
      "credit_en": "Image: BrahMos Aerospace / DRDO, via IDRW",
      "credit_he": "צילום: תאגיד ברהמוס / DRDO, דרך IDRW",
-     "local_src": "../digest/2026-11-09-evening/img/j/C1.jpg"
+     "local_src": "https://idrw.org/wp-content/uploads/2026/10/brahmos_650x400_81493840841.webp"
     },
     "D1": {
      "url": "https://cdn.thelec.net/news/photo/202504/5214_5582_08.png",
@@ -25586,7 +25586,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר רקטות מכולתי של האנווה מותקן על גבי כלי שיט בלתי מאויש לניסויי ירי ימיים.",
      "credit_en": "Image: Hanwha Defense USA / Magnet Defense, via The Elec",
      "credit_he": "צילום: האנווה דיפנס ארה\"ב / Magnet Defense, דרך The Elec",
-     "local_src": "../digest/2026-11-09-evening/img/j/D1.jpg"
+     "local_src": "https://cdn.thelec.net/news/photo/202504/5214_5582_08.png"
     }
    }
   },
@@ -26947,7 +26947,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אינטגרציית מכ\"ם ה-Twinvis הפסיבי של הנזולדט במערכת השו\"ב Skymaster של ריינמטאל.",
      "credit_en": "Photo: Hensoldt / Rheinmetall",
      "credit_he": "צילום: הנזולדט / ריינמטאל",
-     "local_src": "../digest/2026-11-08/img/j/A1.jpg"
+     "local_src": "https://d2csxpduxe849s.cloudfront.net/media/A14868A9-EF99-4148-ACC2D04DE609CA3B/C302E14C-914B-4713-8DC21BD57A9CC0F7/webimage-40DBAC65-8321-4BF7-94EAEFA57CBD37CC.png"
     },
     "A2": {
      "url": "https://q7.itc.cn/images01/20261108/bf808088eaad4073821ef54994caccca.jpeg",
@@ -26956,7 +26956,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט הגנה מפני טילים בליסטיים של צבא סין במהלך ניסוי יירוט כפול.",
      "credit_en": "Photo: PLA CCTV via Sohu",
      "credit_he": "צילום: צבא סין / CCTV דרך Sohu",
-     "local_src": "../digest/2026-11-08/img/j/A2.jpg"
+     "local_src": "https://q7.itc.cn/images01/20261108/bf808088eaad4073821ef54994caccca.jpeg"
     },
     "A3": {
      "url": "https://pbs.twimg.com/media/HWkc2rZWgAAr6xM.jpg",
@@ -26965,7 +26965,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוחמי גדוד הנ\"מ החופי ה-3 של הנחתים פורסים משגר MRIC בהוואי.",
      "credit_en": "Photo: Jonathan Beauchamp / USMC, via NatSecLedger",
      "credit_he": "צילום: ג'ונתן בושמפ / חיל הנחתים, דרך NatSecLedger",
-     "local_src": "../digest/2026-11-08/img/j/A3.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWkc2rZWgAAr6xM.jpg"
     },
     "B1": {
      "url": "https://pbs.twimg.com/media/HWjYOI9XcAALDmL.jpg",
@@ -26974,7 +26974,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טרמינל תקשורת הלוויינים SmartLITE של חברת hiSky הישראלית שהותקן בכטב\"ם תקיפה אוקראיני.",
      "credit_en": "Photo: via Presamiga / OSINT",
      "credit_he": "צילום: דרך Presamiga / מקורות גלויים",
-     "local_src": "../digest/2026-11-08/img/j/B1.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWjYOI9XcAALDmL.jpg"
     },
     "B2": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_143.jpg",
@@ -26983,7 +26983,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חיל הנחתים של ארה\"ב מציג מודול שו\"ב אווירי CAC2S על רכב פולריס MRZR.",
      "credit_en": "Photo: U.S. Marine Corps, via Defence Blog",
      "credit_he": "צילום: חיל הנחתים האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-08/img/j/B2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_143.jpg"
     },
     "B3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_141.jpg",
@@ -26992,7 +26992,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הכרב\"ם הפולני HUNTeR במהלך ניסויי עבירות הרריים בשווייץ.",
      "credit_en": "Photo: Łukasiewicz-PIAP, via Defence Blog",
      "credit_he": "צילום: מכון PIAP, דרך Defence Blog",
-     "local_src": "../digest/2026-11-08/img/j/B3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_141.jpg"
     },
     "B4": {
      "url": "https://pbs.twimg.com/media/HWlexWEXQAAPepR.jpg",
@@ -27001,7 +27001,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס האימון המתקדם JL-10J של הצי הסיני המותאם לפעילות מנושאות מטוסים.",
      "credit_en": "Photo: via Andreas Rupprecht (@RupprechtDeino)",
      "credit_he": "צילום: דרך אנדריאס רופרכט (@RupprechtDeino)",
-     "local_src": "../digest/2026-11-08/img/j/B4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWlexWEXQAAPepR.jpg"
     },
     "C1": {
      "url": "https://imagedelivery.net/XO8UY-c6-LfWgEjQsN8IQw/9530992a-b657-4ff4-be03-41613993b100/public",
@@ -27010,7 +27010,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נשק הנ\"ט האישי RGW110 מתוצרת חברת DND (חברת בת של רפאל) שנרכש על ידי צבא פינלנד.",
      "credit_en": "Photo: Dynamit Nobel Defence, via Nordic Defence Sector",
      "credit_he": "צילום: חברת DND, דרך Nordic Defence Sector",
-     "local_src": "../digest/2026-11-08/img/j/C1.jpg"
+     "local_src": "https://imagedelivery.net/XO8UY-c6-LfWgEjQsN8IQw/9530992a-b657-4ff4-be03-41613993b100/public"
     },
     "C2": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_142.jpg",
@@ -27019,7 +27019,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית טיל השיוט ההיפר-סוני האירופי המפותח על ידי חברת Hypersonica.",
      "credit_en": "Rendering: Hypersonica, via Defence Blog",
      "credit_he": "הדמיה: חברת Hypersonica, דרך Defence Blog",
-     "local_src": "../digest/2026-11-08/img/j/C2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_142.jpg"
     },
     "C3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_144.jpg",
@@ -27028,7 +27028,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עשן ונזקים בריאד בעקבות מטח הטילים הבליסטיים והכטב\"מים של החות'ים.",
      "credit_en": "Photo: Social Media via Defence Blog",
      "credit_he": "צילום: רשתות חברתיות דרך Defence Blog",
-     "local_src": "../digest/2026-11-08/img/j/C3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_144.jpg"
     },
     "C4": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3529.jpg",
@@ -27037,7 +27037,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מאגרי מתכות ומינרלים קריטיים במחסני החירום של מנהל הלוגיסטיקה של ארה\"ב.",
      "credit_en": "Photo: Defense Logistics Agency, via Defence Blog",
      "credit_he": "צילום: סוכנות DLA, דרך Defence Blog",
-     "local_src": "../digest/2026-11-08/img/j/C4.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3529.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/seagent-ink-scaled.jpeg",
@@ -27046,7 +27046,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מדגים רכב הקרב התת-מימי הבלתי מאויש (UCUV) של חברת Naval Group.",
      "credit_en": "Photo: Naval Group, via Naval News",
      "credit_he": "צילום: חברת Naval Group, דרך Naval News",
-     "local_src": "../digest/2026-11-08/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/seagent-ink-scaled.jpeg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/The-Tekever-AR5-drone-prepares-to-touch-down-on-HMS-Queen-Elizabeths-deck.webp",
@@ -27055,7 +27055,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם הסיור Tekever AR5 נערך לנחיתה על סיפון נושאת המטוסים הבריטית.",
      "credit_en": "Photo: Royal Navy / Tekever, via Naval News",
      "credit_he": "צילום: הצי הבריטי / חברת Tekever, דרך Naval News",
-     "local_src": "../digest/2026-11-08/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/The-Tekever-AR5-drone-prepares-to-touch-down-on-HMS-Queen-Elizabeths-deck.webp"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/spanish-sinkex-1024x665.jpg",
@@ -27064,7 +27064,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינת הסיור אינפנטה אלנה טובעת בעקבות פגיעת טורפדו כבד מהצוללת הספרדית אייזק פראל.",
      "credit_en": "Photo: Spanish Navy (Armada), via Naval News",
      "credit_he": "צילום: הצי הספרדי, דרך Naval News",
-     "local_src": "../digest/2026-11-08/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/spanish-sinkex-1024x665.jpg"
     },
     "D4": {
      "url": "https://pbs.twimg.com/media/HWk9pOSaAAAmLZ4.jpg",
@@ -27073,7 +27073,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ספינת בית החולים והסיוע האווירי KRI Sriwijaya של הצי האינדונזי מוכנה לפעילות מבצעית.",
      "credit_en": "Photo: TNI-AL, via Collin Koh",
      "credit_he": "צילום: הצי האינדונזי, דרך קולין קו",
-     "local_src": "../digest/2026-11-08/img/j/D4.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWk9pOSaAAAmLZ4.jpg"
     }
    }
   },
@@ -27541,7 +27541,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור מיירט קלע דוד (סטאנדר / SkyCeptor) רב-שלבי בעל חרטום הדולפין הייחודי.",
      "credit_en": "Image: Rafael Advanced Defense Systems, via Militarnyi",
      "credit_he": "צילום: רפאל מערכות לחימה מתקדמות, דרך Militarnyi",
-     "local_src": "../digest/2026-11-08-evening/img/j/A1.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2023/08/David-Sling-0001-1.jpg"
     },
     "A2": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/DSC_5810-scaled-e1790774958611.jpg",
@@ -27550,7 +27550,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-טיפוס מבצעי של מערכת נשק לייזר רב-עוצמה (HEL) ליירוט כטב\"מים במהלך ניסוי ירי בשדה ניסויים.",
      "credit_en": "Image: U.S. Army / AeroVironment, via Breaking Defense",
      "credit_he": "צילום: צבא ארצות הברית / AeroVironment, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-08-evening/img/j/A2.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/DSC_5810-scaled-e1790774958611.jpg"
     },
     "B1": {
      "url": "https://theaviationist.com/wp-content/uploads/2026/11/ShieldXBATRollout_1.jpg",
@@ -27559,7 +27559,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-טיפוס בגודל מלא של מטוס הקרב האוטונומי העל-קולי X-BAT בהמראה אנכית במהלך טקס החשיפה.",
      "credit_en": "Image: Shield AI, via The Aviationist",
      "credit_he": "צילום: Shield AI, דרך The Aviationist",
-     "local_src": "../digest/2026-11-08-evening/img/j/B1.jpg"
+     "local_src": "https://theaviationist.com/wp-content/uploads/2026/11/ShieldXBATRollout_1.jpg"
     },
     "D1": {
      "url": "https://www.elbitsystems.com/sites/default/files/2026-10/ISE%20UUV.jpg",
@@ -27568,7 +27568,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי שיט תת-מימי אוטונומי בלתי מאויש של אלביט מערכות ו-ISE המיועד לסיור תת-ימי ונטרול מוקשים.",
      "credit_en": "Image: Elbit Systems / ISE, via Elbit Systems",
      "credit_he": "צילום: אלביט מערכות / ISE, דרך Elbit Systems",
-     "local_src": "../digest/2026-11-08-evening/img/j/D1.jpg"
+     "local_src": "https://www.elbitsystems.com/sites/default/files/2026-10/ISE%20UUV.jpg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/edge-europe-novamarine.jpeg",
@@ -27577,7 +27577,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נציגי חברת EDGE Europe ומספנת Novamarine חותמים על ההסכם לפיתוח משותף של כשב\"מים בתערוכת Euronaval 2026.",
      "credit_en": "Image: Naval News, via Naval News",
      "credit_he": "צילום: Naval News, דרך Naval News",
-     "local_src": "../digest/2026-11-08-evening/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/edge-europe-novamarine.jpeg"
     }
    }
   },
@@ -29020,7 +29020,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוחמי הגנה אווירית של צבא ארה\"ב מכיילים את רחפן היירוט FD-1 במסגרת תרגיל Audacious Fury בפולין.",
      "credit_en": "Photo: Sgt. Luis Garcia, U.S. Army via DVIDS",
      "credit_he": "צילום: סמל לואיס גרסיה, צבא ארה\"ב, דרך DVIDS",
-     "local_src": "../digest/2026-11-07/img/j/A1.jpg"
+     "local_src": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2611/10076352/1000w_q95.jpg"
     },
     "A2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/vlcsnap-2026-11-04-21h52m52s530.png",
@@ -29029,7 +29029,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח ה-40 מ\"מ הימי Sea Tridon של BAE סיסטמס בתצורת מכולה לסיכול כטב\"מים בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Naval News / BAE Systems",
      "credit_he": "צילום: Naval News / BAE Systems",
-     "local_src": "../digest/2026-11-07/img/j/A2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/vlcsnap-2026-11-04-21h52m52s530.png"
     },
     "A4": {
      "url": "https://storage.united24media.com/og/d/c8/d2b49ffdf95a0fce1365bc628bb4bc8d.jpg",
@@ -29038,7 +29038,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר של מערכת טילי הנ\"מ הרוסית S-400 טריומף במהלך תרגיל צבאי.",
      "credit_en": "Photo: Russian MoD via United24 Media",
      "credit_he": "צילום: משרד ההגנה הרוסי, דרך United24 Media",
-     "local_src": "../digest/2026-11-07/img/j/A4.jpg"
+     "local_src": "https://storage.united24media.com/og/d/c8/d2b49ffdf95a0fce1365bc628bb4bc8d.jpg"
     },
     "A5": {
      "url": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/trump-072647800-16x9_0.png?VersionId=99WPjBN9g8RspxkGP27E7L7NLL16zPE9",
@@ -29047,7 +29047,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נשיא ארה\"ב דונלד טראמפ מאשר את התקיפה הצבאית נגד מתקן ההגנה האווירית האיראני באי קשם.",
      "credit_en": "Photo: AP via India Today",
      "credit_he": "צילום: AP, דרך India Today",
-     "local_src": "../digest/2026-11-07/img/j/A5.jpg"
+     "local_src": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202611/trump-072647800-16x9_0.png?VersionId=99WPjBN9g8RspxkGP27E7L7NLL16zPE9"
     },
     "B1": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3482.jpg",
@@ -29056,7 +29056,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חיילי צבא ארה\"ב מכינים רחפן FPV מדגם Archer של חברת Neros במהלך אימון טקטי.",
      "credit_en": "Photo: U.S. DoD via Defence Blog",
      "credit_he": "צילום: משרד ההגנה האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07/img/j/B1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3482.jpg"
     },
     "B2": {
      "url": "https://www.israeldefense.co.il/sites/default/files/2026-11/d19a56aa52d9cce71b0a7d57924df1418b8188ea4483557d130f2dbf294a.jpg",
@@ -29065,7 +29065,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם מטוס הקרב האוטונומי Vectis של לוקהיד מרטין לתוכנית ה-CCA שלב 2.",
      "credit_en": "Photo: Lockheed Martin via Israel Defense",
      "credit_he": "צילום: לוקהיד מרטין, דרך Israel Defense",
-     "local_src": "../digest/2026-11-07/img/j/B2.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2026-11/d19a56aa52d9cce71b0a7d57924df1418b8188ea4483557d130f2dbf294a.jpg"
     },
     "B4": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/operational-f-15exs-flying-with-conformal-fuel-tanks.jpg?w=1200",
@@ -29074,7 +29074,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס F-15EX Eagle II מבצעי (מספר 20-0012) טס עם מכלי דלק תצורתיים בבסיס פורטלנד.",
      "credit_en": "Photo: Bill Shemley via The War Zone",
      "credit_he": "צילום: ביל שמלי, דרך The War Zone",
-     "local_src": "../digest/2026-11-07/img/j/B4.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/operational-f-15exs-flying-with-conformal-fuel-tanks.jpg?w=1200"
     },
     "B5": {
      "url": "https://www.twz.com/wp-content/uploads/2025/12/CH7-Stealth-drone-first-flight.jpg?w=1200",
@@ -29083,7 +29083,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-טיפוס של כטב\"ם החמקן הכבד CH-7 של CASC במהלך ניסויי טיסה במחוז שאאנשי.",
      "credit_en": "Photo: Chinese State Media via The War Zone",
      "credit_he": "צילום: התקשורת הממלכתית בסין, דרך The War Zone",
-     "local_src": "../digest/2026-11-07/img/j/B5.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2025/12/CH7-Stealth-drone-first-flight.jpg?w=1200"
     },
     "B6": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3518.jpg",
@@ -29092,7 +29092,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה Il-76MD של חיל האוויר ההודי נוחת בבסיס ניומה בגובה 13,629 רגל במזרח לדאק.",
      "credit_en": "Photo: Indian Air Force via Defence Blog",
      "credit_he": "צילום: חיל האוויר ההודי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07/img/j/B6.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3518.jpg"
     },
     "B7": {
      "url": "https://www.israeldefense.co.il/sites/default/files/2026-11/download-83.jpeg",
@@ -29101,7 +29101,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מנוע רוטורי היברידי מודפס של DEVCOM ARL הפועל על דלק כבד מותקן בכטב\"ם VICTOR.",
      "credit_en": "Photo: Trevor Jones / U.S. Army via Israel Defense",
      "credit_he": "צילום: טרוור ג'ונס, צבא ארה\"ב, דרך Israel Defense",
-     "local_src": "../digest/2026-11-07/img/j/B7.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2026-11/download-83.jpeg"
     },
     "C1": {
      "url": "https://www.twz.com/wp-content/uploads/2026/11/Mi-28NM-cruise-missile.jpg?quality=85",
@@ -29110,7 +29110,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק קרב רוסי מסוג Mi-28NM משגר טיל שיוט מנגד מסדרת S8000 Banderol / Dan-T.",
      "credit_en": "Photo: Russian MoD via The War Zone",
      "credit_he": "צילום: משרד ההגנה הרוסי, דרך The War Zone",
-     "local_src": "../digest/2026-11-07/img/j/C1.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2026/11/Mi-28NM-cruise-missile.jpg?quality=85"
     },
     "C2": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/missile-de-croisiere-naval-MdCN_Bild_DGA.jpg",
@@ -29119,7 +29119,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל שיוט ימי MdCN של חברת MBDA מספינת מלחמה צרפתית.",
      "credit_en": "Photo: DGA via Hartpunkt",
      "credit_he": "צילום: מינהל הרכש הצרפתי (DGA), דרך Hartpunkt",
-     "local_src": "../digest/2026-11-07/img/j/C2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/missile-de-croisiere-naval-MdCN_Bild_DGA.jpg"
     },
     "C3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3525.jpg",
@@ -29128,7 +29128,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר נייד מסוג 9P78-1 של מערך האיסקנדר הרוסי בעמדת ירי.",
      "credit_en": "Photo: Ukrainian Defense Forces via Defence Blog",
      "credit_he": "צילום: כוחות ההגנה של אוקראינה, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07/img/j/C3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3525.jpg"
     },
     "C5": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3517.jpg",
@@ -29137,7 +29137,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פס ייצור רובוטי אוטומטי לפגזי ארטילריה 155 מ\"מ במפעל התחמושת באיווה.",
      "credit_en": "Photo: Shawn Eldridge, U.S. Army via Defence Blog",
      "credit_he": "צילום: שון אלדרידג', צבא ארה\"ב, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07/img/j/C5.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3517.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden.jpg",
@@ -29146,7 +29146,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצורת פריגטת ה-FDI של הצי השוודי המשולבת במערכות הלחימה והחיישנים של סאאב.",
      "credit_en": "Photo: Naval Group / Saab via Naval News",
      "credit_he": "צילום: Naval Group / סאאב, דרך Naval News",
-     "local_src": "../digest/2026-11-07/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden.jpg"
     },
     "D2": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Frankreich-foerdert-Entwicklung-von-Energieversorgung-fuer-Railguns-auf-Schiffen_Bild_ISL-1-696x395.jpg",
@@ -29155,7 +29155,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקן הניסוי לתותח אלקטרומגנטי (ריילגאן) במכון המחקר הצרפתי-גרמני סנט-לואיס (ISL).",
      "credit_en": "Photo: ISL via Hartpunkt",
      "credit_he": "צילום: מכון ISL, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-07/img/j/D2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Frankreich-foerdert-Entwicklung-von-Energieversorgung-fuer-Railguns-auf-Schiffen_Bild_ISL-1-696x395.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV.jpeg",
@@ -29164,7 +29164,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם של הספינה המודולרית הרב-משימתית MMMV של פינקנטיירי בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Fincantieri via Naval News",
      "credit_he": "צילום: פינקנטיירי, דרך Naval News",
-     "local_src": "../digest/2026-11-07/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/MMMV.jpeg"
     },
     "D6": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/kongsberg-aegir-scaled.jpg",
@@ -29173,7 +29173,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטע\"ד סונאר המודעות התת-ימית Aegir SSA של חברת Kongsberg Discovery.",
      "credit_en": "Photo: Kongsberg Discovery via Naval News",
      "credit_he": "צילום: קונגסברג דיסקברי, דרך Naval News",
-     "local_src": "../digest/2026-11-07/img/j/D6.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/kongsberg-aegir-scaled.jpg"
     },
     "D7": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Paris-Euronaval-Babcock-Everllence-Signing2.jpg",
@@ -29182,7 +29182,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "בכירי Babcock ו-Everllence במעמד חתימת מזכר ההבנות בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Babcock International via Naval News",
      "credit_he": "צילום: בבקוק אינטרנשיונל, דרך Naval News",
-     "local_src": "../digest/2026-11-07/img/j/D7.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/Paris-Euronaval-Babcock-Everllence-Signing2.jpg"
     }
    }
   },
@@ -29602,7 +29602,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "גרסה ניידת של מערכת תותחי הנ\"מ 'ציטדל' על גבי משאית שנחשפה בידי תאגיד רוסטק.",
      "credit_en": "Image: Rostec, via Defence Blog",
      "credit_he": "צילום: רוסטק, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07-evening/img/j/A1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3516.jpg"
     },
     "B1": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3526.jpg",
@@ -29611,7 +29611,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוויין התקשורת והביון הצבאי 'טיטניה' של משרד ההגנה הבריטי במסלול לווייני נמוך.",
      "credit_en": "Image: UK MoD / BAE Systems, via Defence Blog",
      "credit_he": "צילום: משרד ההגנה הבריטי / BAE Systems, דרך Defence Blog",
-     "local_src": "../digest/2026-11-07-evening/img/j/B1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3526.jpg"
     },
     "B2": {
      "url": "https://pbs.twimg.com/media/HWiP6PcWsAA52Ek.jpg",
@@ -29620,7 +29620,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב חמקן J-20A נוחת בג'וחאי מצויד במנועי WS-15 ובנחירי פליטה משוננים לחמקנות.",
      "credit_en": "Image: via Andreas Rupprecht (@RupprechtDeino) / X",
      "credit_he": "צילום: דרך אנדראס רופרכט (@RupprechtDeino) / רשת X",
-     "local_src": "../digest/2026-11-07-evening/img/j/B2.jpg"
+     "local_src": "https://pbs.twimg.com/media/HWiP6PcWsAA52Ek.jpg"
     },
     "C1": {
      "url": "https://militarnyi.com/wp-content/uploads/2025/08/Neptun-1.jpg",
@@ -29629,7 +29629,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט אוקראיני מדגם R-360 נפטון המשמש לתקיפות עומק מדויקות נגד מטרות קרקע.",
      "credit_en": "Image: Ukrainian Navy, via Militarnyi",
      "credit_he": "צילום: הצי האוקראיני, דרך Militarnyi",
-     "local_src": "../digest/2026-11-07-evening/img/j/C1.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2025/08/Neptun-1.jpg"
     },
     "C2": {
      "url": "https://militarnyi.com/wp-content/uploads/2025/01/photo_2023-07-06_09-22-14.jpg",
@@ -29638,7 +29638,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוויין תקשורת במסלול נמוך מדגם 'ראסווט' של חברת Bureau 1440 במהלך הרכבה.",
      "credit_en": "Image: Bureau 1440, via Militarnyi",
      "credit_he": "צילום: חברת Bureau 1440, דרך Militarnyi",
-     "local_src": "../digest/2026-11-07-evening/img/j/C2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2025/01/photo_2023-07-06_09-22-14.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/France-Orders-32-Cell-Aster-Missile-Upgrade-for-FDI-Frigates.jpg",
@@ -29647,7 +29647,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פריגטת FDI של הצי הצרפתי בתצורת 32 תאי שיגור אנכיים מדגם Sylver.",
      "credit_en": "Image: Naval Group, via Naval News",
      "credit_he": "צילום: Naval Group, דרך Naval News",
-     "local_src": "../digest/2026-11-07-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/France-Orders-32-Cell-Aster-Missile-Upgrade-for-FDI-Frigates.jpg"
     }
    }
   },
@@ -30116,7 +30116,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת אנטנות לשיבוש סלולרי ולווייני מדגם MCTECH MC-60P.",
      "credit_en": "Photo: MCTECH, via Israel Defense",
      "credit_he": "צילום: חברת MCTECH, דרך Israel Defense",
-     "local_src": "../digest/2026-11-06/img/j/A1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/2026-11/mc-60%20antenna%20system%20overlooking%20mediterranean%20hills%20%281%29.jpg"
     },
     "A2": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/endo-atmospheric-interceptor-twister-pesco-c-mourad-cherfi.webp",
@@ -30125,7 +30125,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם תפיסתי של מיירט היפר-סוני תוך-אטמוספרי אירופי במסגרת יוזמת TWISTER.",
      "credit_en": "Image: Mourad Cherfi, via Breaking Defense",
      "credit_he": "הדמיה: מוראד שרפי, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-06/img/j/A2.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/endo-atmospheric-interceptor-twister-pesco-c-mourad-cherfi.webp"
     },
     "A3": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3516.jpg",
@@ -30134,7 +30134,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב הנ\"מ המתנייע 'ציטדל' (ZAK-30) עם תותח 30 מ\"מ לסיכול רחפנים.",
      "credit_en": "Photo: Rostec, via Defence Blog",
      "credit_he": "צילום: רוסטק, דרך Defence Blog",
-     "local_src": "../digest/2026-11-06/img/j/A3.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3516.jpg"
     },
     "B1": {
      "url": "https://www.twz.com/wp-content/uploads/2024/11/chinese-jet-drone-swarm-mothership.jpg?w=1200",
@@ -30143,7 +30143,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם-האם הכבד 'ג'יו טיאן' של תאגיד AVIC על המסלול בשדה התעופה ז'והאי.",
      "credit_en": "Photo: Social media via TWZ",
      "credit_he": "צילום: רשתות חברתיות, דרך TWZ",
-     "local_src": "../digest/2026-11-06/img/j/B1.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2024/11/chinese-jet-drone-swarm-mothership.jpg?w=1200"
     },
     "B2": {
      "url": "https://www.twz.com/wp-content/uploads/2024/11/J35A-china.jpg?w=1200",
@@ -30152,7 +30152,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הקרב החמקן הסיני Shenyang J-35A בעת נחיתה בז'והאי.",
      "credit_en": "Photo: Social media via TWZ",
      "credit_he": "צילום: רשתות חברתיות, דרך TWZ",
-     "local_src": "../digest/2026-11-06/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2024/11/J35A-china.jpg?w=1200"
     },
     "B3": {
      "url": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/RS312884_FLEET-20261020-XD0143-833_lpr.jpg",
@@ -30161,7 +30161,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חימוש תקיפה מדגם Nyan משוגר ממסילה על סיפון נושאת המטוסים הבריטית.",
      "credit_en": "Photo: Royal Navy / UKDJ",
      "credit_he": "צילום: הצי המלכותי הבריטי, דרך UK Defence Journal",
-     "local_src": "../digest/2026-11-06/img/j/B3.jpg"
+     "local_src": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/RS312884_FLEET-20261020-XD0143-833_lpr.jpg"
     },
     "C1": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3515.jpg",
@@ -30170,7 +30170,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק קרב מדגם Mi-28NM משגר טיל שיוט סילוני קל מכנף החימוש.",
      "credit_en": "Photo: Russian MoD, via Defence Blog",
      "credit_he": "צילום: משרד ההגנה הרוסי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-06/img/j/C1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3515.jpg"
     },
     "D1": {
      "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-1674409591.jpg",
@@ -30179,7 +30179,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אימון פריסת מוקשי קרקעית ימיים במרחב הים הבלטי.",
      "credit_en": "Photo: Getty Images via Defense News",
      "credit_he": "צילום: Getty Images, דרך Defense News",
-     "local_src": "../digest/2026-11-06/img/j/D1.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-1674409591.jpg"
     }
    }
   },
@@ -30605,7 +30605,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פלטפורמת הגנה אווירית אוטונומית של Shield AI המשלבת ארכיטקטורת חיישנים מבוזרת.",
      "credit_en": "Photo: Shield AI, via Defense News",
      "credit_he": "צילום: Shield AI, דרך Defense News",
-     "local_src": "../digest/2026-11-06-evening/img/j/A1.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/08/Shield-AI-X-BAT.jpg.jpg"
     },
     "A2": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2025/10/Symbolbild-OSINT_Bild_Bundeswehr_Jana-Neumann.jpg",
@@ -30614,7 +30614,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חיילי פיקוד הסייבר והמודיעין של הבונדסוור בניטור נתוני מודיעין דיגיטליים.",
      "credit_en": "Photo: Bundeswehr / Jana Neumann, via Hartpunkt",
      "credit_he": "צילום: הבונדסוור / יאנה נוימן, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-06-evening/img/j/A2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2025/10/Symbolbild-OSINT_Bild_Bundeswehr_Jana-Neumann.jpg"
     },
     "B1": {
      "url": "https://thedefensepost.com/wp-content/uploads/2026/11/6ae8cfa7787d1e931f92afb6_Neros_OSC_BlogHero_v4-e1793972517423.jpg",
@@ -30623,7 +30623,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מתקן הייצור ההמוני של Neros ופלטפורמות התקיפה האוטונומיות.",
      "credit_en": "Photo: Neros Technologies / DoD OSC, via The Defense Post",
      "credit_he": "צילום: Neros Technologies / משרד ההון האסטרטגי, דרך The Defense Post",
-     "local_src": "../digest/2026-11-06-evening/img/j/B1.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2026/11/6ae8cfa7787d1e931f92afb6_Neros_OSC_BlogHero_v4-e1793972517423.jpg"
     },
     "B2": {
      "url": "https://thedefensepost.com/wp-content/uploads/2026/11/AIRO.jpg",
@@ -30632,7 +30632,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם האיסוף הטקטי הנישא RQ-35 Heidrun מתוצרת AIRO.",
      "credit_en": "Photo: AIRO Group, via The Defense Post",
      "credit_he": "צילום: AIRO Group, דרך The Defense Post",
-     "local_src": "../digest/2026-11-06-evening/img/j/B2.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2026/11/AIRO.jpg"
     },
     "C1": {
      "url": "https://thedefensepost.com/wp-content/uploads/2026/11/Mk21A_Scenario_02-scaled-1.jpg",
@@ -30641,7 +30641,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית מסלול הניסוי של רכב החדירה Mk21A מתוצרת לוקהיד מרטין.",
      "credit_en": "Photo: Lockheed Martin, via The Defense Post",
      "credit_he": "צילום: לוקהיד מרטין, דרך The Defense Post",
-     "local_src": "../digest/2026-11-06-evening/img/j/C1.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2026/11/Mk21A_Scenario_02-scaled-1.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden.jpg",
@@ -30650,7 +30650,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם פריגטת ה-FDI של Naval Group המשולב במערכות חימוש וחיישנים של סאאב עבור הצי השוודי.",
      "credit_en": "Photo: Naval Group / Saab, via Naval News",
      "credit_he": "צילום: Naval Group / סאאב, דרך Naval News",
-     "local_src": "../digest/2026-11-06-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/02/Naval-Group-FDI-Sweden.jpg"
     },
     "D2": {
      "url": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Frankreich-foerdert-Entwicklung-von-Energieversorgung-fuer-Railguns-auf-Schiffen_Bild_ISL-1.jpg",
@@ -30659,7 +30659,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ניסויי ירי של תותח המסילה האלקטרומגנטי במכון הצרפתי-גרמני ISL.",
      "credit_en": "Photo: ISL, via Hartpunkt",
      "credit_he": "צילום: מכון ISL, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-06-evening/img/j/D2.jpg"
+     "local_src": "https://www.hartpunkt.de/wp-content/uploads/2026/11/Frankreich-foerdert-Entwicklung-von-Energieversorgung-fuer-Railguns-auf-Schiffen_Bild_ISL-1.jpg"
     }
    }
   },
@@ -32243,7 +32243,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת החסימה הטקטית MC-60P מתוצרת MCTECH.",
      "credit_en": "Photo: MCTECH, via Israel Defense",
      "credit_he": "צילום: MCTECH, דרך Israel Defense",
-     "local_src": "../digest/2026-11-05-evening/img/j/A1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/styles/full_article_image_1024x510/public/2026-11/mctech_mc60p.jpg"
     },
     "A2": {
      "url": "https://www.nato.int/nato_static_fl2014/assets/pictures/stock_photos/2026/c-uas-marketplace.jpg",
@@ -32252,7 +32252,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדגמת יכולות C-UAS במסגרת בחינת מערכות Drone Edge בנאט\"ו.",
      "credit_en": "Photo: NATO HQ, via NATO Press",
      "credit_he": "צילום: מפקדת נאט\"ו, דרך שירות הידיעות של נאט\"ו",
-     "local_src": "../digest/2026-11-05-evening/img/j/A2.jpg"
+     "local_src": "https://www.nato.int/nato_static_fl2014/assets/pictures/stock_photos/2026/c-uas-marketplace.jpg"
     },
     "A3": {
      "url": "https://www.thedefensepost.com/wp-content/uploads/2026/11/mbda-laser-demonstrator.jpg",
@@ -32261,7 +32261,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית פוד הלייזר המוטס מתוצרת MBDA Deutschland.",
      "credit_en": "Image: MBDA Deutschland, via The Defense Post",
      "credit_he": "הדמיה: MBDA Deutschland, דרך The Defense Post",
-     "local_src": "../digest/2026-11-05-evening/img/j/A3.jpg"
+     "local_src": "https://www.thedefensepost.com/wp-content/uploads/2026/11/mbda-laser-demonstrator.jpg"
     },
     "A4": {
      "url": "https://lockheedmartin.com/content/dam/lockheed-martin/mfc/photo/pac-3/pac3-mse-vls-firing.jpg",
@@ -32270,7 +32270,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור אנכי של טיל PAC-3 MSE במסגרת תוכנית השילוב הימי.",
      "credit_en": "Photo: Lockheed Martin, via LM Newsroom",
      "credit_he": "צילום: Lockheed Martin, דרך שירות הידיעות של החברה",
-     "local_src": "../digest/2026-11-05-evening/img/j/A4.jpg"
+     "local_src": "https://lockheedmartin.com/content/dam/lockheed-martin/mfc/photo/pac-3/pac3-mse-vls-firing.jpg"
     },
     "B1": {
      "url": "https://hartpunkt.de/wp-content/uploads/2026/11/stark-virtus-loitering-munition.jpg",
@@ -32279,7 +32279,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור חימוש משוטט Virtus מתוצרת חברת STARK הגרמנית.",
      "credit_en": "Photo: STARK, via Hartpunkt",
      "credit_he": "צילום: STARK, דרך Hartpunkt",
-     "local_src": "../digest/2026-11-05-evening/img/j/B1.jpg"
+     "local_src": "https://hartpunkt.de/wp-content/uploads/2026/11/stark-virtus-loitering-munition.jpg"
     },
     "B2": {
      "url": "https://israeldefense.co.il/sites/default/files/styles/full_article_image_1024x510/public/2026-11/destinus_ruta_b1.jpg",
@@ -32288,7 +32288,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל השיוט הטורבו-סילוני המוזל Ruta B1 של חברת דסטינוס.",
      "credit_en": "Photo: Destinus, via Israel Defense",
      "credit_he": "צילום: Destinus, דרך Israel Defense",
-     "local_src": "../digest/2026-11-05-evening/img/j/B2.jpg"
+     "local_src": "https://israeldefense.co.il/sites/default/files/styles/full_article_image_1024x510/public/2026-11/destinus_ruta_b1.jpg"
     },
     "B3": {
      "url": "https://israeldefense.co.il/sites/default/files/styles/full_article_image_1024x510/public/2026-11/vectis_skunk_works.jpg",
@@ -32297,7 +32297,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית מטוס הקרב האוטונומי החמקן Vectis מתוצרת Skunk Works.",
      "credit_en": "Image: Lockheed Martin, via Israel Defense",
      "credit_he": "הדמיה: Lockheed Martin, דרך Israel Defense",
-     "local_src": "../digest/2026-11-05-evening/img/j/B3.jpg"
+     "local_src": "https://israeldefense.co.il/sites/default/files/styles/full_article_image_1024x510/public/2026-11/vectis_skunk_works.jpg"
     },
     "C1": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/apu-l-lmur-izdeliye-305.jpg",
@@ -32306,7 +32306,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר APU-L חמוש בטיל מונחה מדויק LMUR (איזדליה 305).",
      "credit_en": "Photo: Russian MoD / Dallas Analytics, via Militarnyi",
      "credit_he": "צילום: משרד ההגנה הרוסי / Dallas Analytics, דרך Militarnyi",
-     "local_src": "../digest/2026-11-05-evening/img/j/C1.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/apu-l-lmur-izdeliye-305.jpg"
     },
     "C2": {
      "url": "https://www.thedefensepost.com/wp-content/uploads/2026/11/gmlrs-himars-retargeting.jpg",
@@ -32315,7 +32315,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור רקטת GMLRS מונחית במהלך ניסוי הסטת המטרה באוויר.",
      "credit_en": "Photo: US Army / Lockheed Martin, via The Defense Post",
      "credit_he": "צילום: צבא ארה\"ב / לוקהיד מרטין, דרך The Defense Post",
-     "local_src": "../digest/2026-11-05-evening/img/j/C2.jpg"
+     "local_src": "https://www.thedefensepost.com/wp-content/uploads/2026/11/gmlrs-himars-retargeting.jpg"
     },
     "C3": {
      "url": "https://www.leidos.com/sites/default/files/styles/hero/public/2026-11/black-arrow-agm-190a.jpg",
@@ -32324,7 +32324,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל השיוט מנגד AGM-190A מדגם Black Arrow מתוצרת חברת ליידוס.",
      "credit_en": "Photo: Leidos, via Leidos Media",
      "credit_he": "צילום: Leidos, דרך שירות הידיעות של החברה",
-     "local_src": "../digest/2026-11-05-evening/img/j/C3.jpg"
+     "local_src": "https://www.leidos.com/sites/default/files/styles/hero/public/2026-11/black-arrow-agm-190a.jpg"
     },
     "C4": {
      "url": "https://hartpunkt.de/wp-content/uploads/2026/11/damon-mr-night-vision.jpg",
@@ -32333,7 +32333,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מודול ראיית לילה DAMON MR מורכב על גבי רובה סער.",
      "credit_en": "Photo: Bundeswehr / Hartpunkt",
      "credit_he": "צילום: הבונדסוור / דרך Hartpunkt",
-     "local_src": "../digest/2026-11-05-evening/img/j/C4.jpg"
+     "local_src": "https://hartpunkt.de/wp-content/uploads/2026/11/damon-mr-night-vision.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/s-81-isaac-peral-sinkex-26.jpg",
@@ -32342,7 +32342,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוללת הצי הספרדי 'איסק פראל' (S-81) במהלך תרגיל הטיבוע SINKEX-26.",
      "credit_en": "Photo: Spanish Navy (Armada Española), via Naval News",
      "credit_he": "צילום: הצי הספרדי (Armada Española), דרך Naval News",
-     "local_src": "../digest/2026-11-05-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/s-81-isaac-peral-sinkex-26.jpg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/aselsan-containerised-air-defense.jpg",
@@ -32351,7 +32351,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת ההגנה האווירית המכולתית של אסלסאן שהוצגה ב-Euronaval 2026.",
      "credit_en": "Photo: Aselsan, via Naval News",
      "credit_he": "צילום: Aselsan, דרך Naval News",
-     "local_src": "../digest/2026-11-05-evening/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/aselsan-containerised-air-defense.jpg"
     },
     "D3": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/3/2026/11/saildrone-surveyor-umoe-mandal.jpg",
@@ -32360,7 +32360,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם Saildrone Surveyor באורך 20 מטר בפעילות בלב ים.",
      "credit_en": "Photo: Saildrone, via Breaking Defense",
      "credit_he": "צילום: Saildrone, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-05-evening/img/j/D3.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/3/2026/11/saildrone-surveyor-umoe-mandal.jpg"
     },
     "D4": {
      "url": "https://cyprusshippingnews.com/wp-content/uploads/2026/11/vestdavit-autohook.jpg",
@@ -32369,7 +32369,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת ההשקה והשליפה האוטונומית AutoHook לכשב\"מים מתוצרת Vestdavit.",
      "credit_en": "Photo: Vestdavit, via Cyprus Shipping News",
      "credit_he": "צילום: Vestdavit, דרך Cyprus Shipping News",
-     "local_src": "../digest/2026-11-05-evening/img/j/D4.jpg"
+     "local_src": "https://cyprusshippingnews.com/wp-content/uploads/2026/11/vestdavit-autohook.jpg"
     }
    }
   },
@@ -34952,7 +34952,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מיירט הרחפנים האוטונומי Iron Drone Raider בשיגור מעמדת הטעינה האוטומטית במהלך ניסויי יירוט קינטיים.",
      "credit_en": "Image: Iron Drone / Ondas Holdings, via StreetInsider",
      "credit_he": "תצלום: איירון דרון / אונדס הולדינגס, דרך StreetInsider",
-     "local_src": "../digest/2026-11-04/img/j/A1.jpg"
+     "local_src": "https://www.ondas.com/wp-content/uploads/2023/06/Iron-Drone-Interception.jpg"
     },
     "A2": {
      "url": "https://www.iai.co.il/sites/default/files/2021-04/Barak-MX-Firing.jpg",
@@ -34961,7 +34961,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר אנכי נייד של מערכת ברק MX מתוצרת תע\"א בשיגור מיירט ברק ER במהלך ניסויי שדה.",
      "credit_en": "Image: Israel Aerospace Industries (IAI), via Defense News",
      "credit_he": "תצלום: התעשייה האווירית (תע\"א), דרך Defense News",
-     "local_src": "../digest/2026-11-04/img/j/A2.jpg"
+     "local_src": "https://www.iai.co.il/sites/default/files/2021-04/Barak-MX-Firing.jpg"
     },
     "A3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Sea-Warden-MBDA.jpg",
@@ -34970,7 +34970,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת השו\"ב וחליפת ההגנה הימית Sea Warden של MBDA בתערוכת Euronaval 2026.",
      "credit_en": "Image: MBDA Systems, via Naval News",
      "credit_he": "תצלום: חברת MBDA, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/A3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Sea-Warden-MBDA.jpg"
     },
     "A4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/NGDS-Mistral-Safran.jpg",
@@ -34979,7 +34979,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר NGDS ההיברידי של ספרן עם מארזי טילי מיסטרל 3 בתערוכת Euronaval 2026.",
      "credit_en": "Image: Safran Electronics & Defense, via Naval News",
      "credit_he": "תצלום: חברת ספרן, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/A4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/NGDS-Mistral-Safran.jpg"
     },
     "A5": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MPLS-Naval-Group.jpg",
@@ -34988,7 +34988,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צריח השיגור המודולרי MPLS של Naval Group עם מארזי טילים מתחלפים בתערוכת Euronaval 2026.",
      "credit_en": "Image: Naval Group, via Naval News",
      "credit_he": "תצלום: חברת Naval Group, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/A5.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MPLS-Naval-Group.jpg"
     },
     "A6": {
      "url": "https://www.airandspaceforces.com/wp-content/uploads/2023/10/LOCUST-Laser-C-UAS.jpg",
@@ -34997,7 +34997,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הלייזר הניידת LOCUST ומערכת המיקרוגל Leonidas במהלך ניסויי הערכה צבאיים בארה\"ב.",
      "credit_en": "Image: DoD / JIATF 401, via Air & Space Forces Magazine",
      "credit_he": "תצלום: משרד ההגנה האמריקאי, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-04/img/j/A6.jpg"
+     "local_src": "https://www.airandspaceforces.com/wp-content/uploads/2023/10/LOCUST-Laser-C-UAS.jpg"
     },
     "A7": {
      "url": "https://thedefensepost.com/wp-content/uploads/2024/11/rheinmetall-skynex-air-defense.jpg",
@@ -35006,7 +35006,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח הגנה אווירית Skynex 35 מ\"מ של ריינמטאל עם חיישני RF פסיביים במהלך הדגמת ירי חי.",
      "credit_en": "Image: Rheinmetall Air Defence, via The Defense Post",
      "credit_he": "תצלום: ריינמטאל, דרך The Defense Post",
-     "local_src": "../digest/2026-11-04/img/j/A7.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2024/11/rheinmetall-skynex-air-defense.jpg"
     },
     "B1": {
      "url": "https://armiya.az/photos/2026/11/Bayraktar-TB2-Dagger-Pod.jpg",
@@ -35015,7 +35015,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם Bayraktar TB2 חמוש במארזי DAGGER POD לנשיאת רחפני FPV מתאבדים במהלך ניסויי טיסה.",
      "credit_en": "Image: Baykar Technology, via Armiya.az",
      "credit_he": "תצלום: חברת בייקאר, דרך Armiya.az",
-     "local_src": "../digest/2026-11-04/img/j/B1.jpg"
+     "local_src": "https://armiya.az/photos/2026/11/Bayraktar-TB2-Dagger-Pod.jpg"
     },
     "B2": {
      "url": "https://www.twz.com/wp-content/uploads/2024/11/X-BAT-Shield-AI-Rollout.jpg",
@@ -35024,7 +35024,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-הטיפוס המלא של מטוס הקרב החמקן האוטונומי X-BAT 001 של חברת Shield AI שנחשף במינכן.",
      "credit_en": "Image: Shield AI, via The War Zone",
      "credit_he": "תצלום: חברת Shield AI, דרך The War Zone",
-     "local_src": "../digest/2026-11-04/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2024/11/X-BAT-Shield-AI-Rollout.jpg"
     },
     "B3": {
      "url": "https://www.globaltimes.cn/Portals/0/attachment/2024/2024-11-05/a971844b-4890-4c3e-80c1-3d778d067c29.jpeg",
@@ -35033,7 +35033,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצלום רשמי של מטוס הקרב החמקן הסיני J-35A החושף את מבנה הגוף להקטנת חתימת מכ\"ם.",
      "credit_en": "Image: PLA Air Force, via Global Times",
      "credit_he": "תצלום: חיל האוויר הסיני, דרך Global Times",
-     "local_src": "../digest/2026-11-04/img/j/B3.jpg"
+     "local_src": "https://www.globaltimes.cn/Portals/0/attachment/2024/2024-11-05/a971844b-4890-4c3e-80c1-3d778d067c29.jpeg"
     },
     "B4": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/11/Su-57-China-Landing.jpg",
@@ -35042,7 +35042,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס החמקן הרוסי Su-57 (מספר 054) נוסע על מסלול ההסעה בז'והאי לקראת פתיחת התערוכה.",
      "credit_en": "Image: CGTN, via Militarnyi",
      "credit_he": "תצלום: רשת CGTN, דרך Militarnyi",
-     "local_src": "../digest/2026-11-04/img/j/B4.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/11/Su-57-China-Landing.jpg"
     },
     "B5": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/11/Airbus-U760-Ravenstorm-CCA-rendering.jpg",
@@ -35051,7 +35051,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצורת כטב\"ם הקרב החמקן השיתופי U760 Ravenstorm של איירבוס המבוססת על מפגין ה-Barracuda.",
      "credit_en": "Image: Airbus Defence and Space, via Breaking Defense",
      "credit_he": "תצלום: איירבוס, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-04/img/j/B5.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/11/Airbus-U760-Ravenstorm-CCA-rendering.jpg"
     },
     "B6": {
      "url": "https://aviationweek.com/sites/default/files/2026-11/RSAF-CH47F-drone-deployment-Shoalwater.jpg",
@@ -35060,7 +35060,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "איש צוות אוויר סינגפורי משגר רחפן FPV מכבש מסוק צ'ינוק CH-47F באוסטרליה.",
      "credit_en": "Image: Singapore Ministry of Defence (MINDEF), via Aviation Week",
      "credit_he": "תצלום: משרד ההגנה של סינגפור (MINDEF), דרך Aviation Week",
-     "local_src": "../digest/2026-11-04/img/j/B6.jpg"
+     "local_src": "https://aviationweek.com/sites/default/files/2026-11/RSAF-CH47F-drone-deployment-Shoalwater.jpg"
     },
     "B7": {
      "url": "https://f.le360.ma/f/styles/image_detail_800/public/2026-11/Apache-AH64E-Maroc-Sale.jpg",
@@ -35069,7 +35069,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוקי קרב AH-64E אפאצ'י גארדיאן חדשים של חיל האוויר המרוקאי בבסיס סאלה.",
      "credit_en": "Image: FAR Maroc, via Le360",
      "credit_he": "תצלום: צבא מרוקו, דרך Le360",
-     "local_src": "../digest/2026-11-04/img/j/B7.jpg"
+     "local_src": "https://f.le360.ma/f/styles/image_detail_800/public/2026-11/Apache-AH64E-Maroc-Sale.jpg"
     },
     "B8": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/11/TBBCh-50M-thermobaric-warhead-shahed.jpg",
@@ -35078,7 +35078,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ראש הקרב התרמובארי TBBCh-50M שחולץ בשלמותו מכטב\"ם גראן-2 רוסי שהופל.",
      "credit_en": "Image: HUR Ukraine / KNDISE, via Militarnyi",
      "credit_he": "תצלום: המודיעין הצבאי האוקראיני, דרך Militarnyi",
-     "local_src": "../digest/2026-11-04/img/j/B8.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/11/TBBCh-50M-thermobaric-warhead-shahed.jpg"
     },
     "B9": {
      "url": "https://edgegroup.ae/sites/default/files/2026-11/EDGE-CMD-Signing.jpg",
@@ -35087,7 +35087,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הנהלת קבוצת EDGE חותמת על הסכם רכישת השליטה ביצרנית מנועי התעופה והים האיטלקית CMD.",
      "credit_en": "Image: EDGE Group via Forbes Middle East",
      "credit_he": "תצלום: קבוצת EDGE, דרך Forbes Middle East",
-     "local_src": "../digest/2026-11-04/img/j/B9.jpg"
+     "local_src": "https://edgegroup.ae/sites/default/files/2026-11/EDGE-CMD-Signing.jpg"
     },
     "B10": {
      "url": "https://turdef.com/uploads/kizilelma-pt3-afterburner-takeoff.jpg",
@@ -35096,7 +35096,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הקרב הבלתי מאויש Kızılelma PT-3 בהמראה עם מבער אחורי בצ'ורלו.",
      "credit_en": "Image: Baykar Technology, via TurDef",
      "credit_he": "תצלום: חברת בייקאר, דרך TurDef",
-     "local_src": "../digest/2026-11-04/img/j/B10.jpg"
+     "local_src": "https://turdef.com/uploads/kizilelma-pt3-afterburner-takeoff.jpg"
     },
     "C1": {
      "url": "https://www.israeldefense.co.il/sites/default/files/styles/full_article_image/public/Roem-Elbit-Artillery.jpg",
@@ -35105,7 +35105,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח מתנייע אופני אוטומטי \"רועם\" (SIGMA 155 מ\"מ) של צה\"ל במהלך ניסויי ירי בשטח.",
      "credit_en": "Image: IDF Spokesperson / Elbit Systems, via IsraelDefense",
      "credit_he": "תצלום: דובר צה\"ל / אלביט מערכות, דרך IsraelDefense",
-     "local_src": "../digest/2026-11-04/img/j/C1.jpg"
+     "local_src": "https://www.israeldefense.co.il/sites/default/files/styles/full_article_image/public/Roem-Elbit-Artillery.jpg"
     },
     "C2": {
      "url": "https://quwa.org/wp-content/uploads/2024/11/PAF-FAAZ-Missile-Test.jpg",
@@ -35114,7 +35114,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב פקיסטני מדגם JF-17 משגר את טיל האוויר-אוויר המקומי Fa'az במהלך טיסת הניסוי הראשונה.",
      "credit_en": "Image: DGPR Pakistan Air Force / ISPR, via Quwa",
      "credit_he": "תצלום: דובר חיל האוויר של פקיסטן, דרך Quwa",
-     "local_src": "../digest/2026-11-04/img/j/C2.jpg"
+     "local_src": "https://quwa.org/wp-content/uploads/2024/11/PAF-FAAZ-Missile-Test.jpg"
     },
     "C3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MBDA-Status-RS.jpg",
@@ -35123,7 +35123,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם קונספט של טיל התקיפה העל-קולי הרב-תכליתי Status RS של MBDA בתערוכת Euronaval 2026.",
      "credit_en": "Image: MBDA Systems, via Defense News",
      "credit_he": "תצלום: חברת MBDA, דרך Defense News",
-     "local_src": "../digest/2026-11-04/img/j/C3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MBDA-Status-RS.jpg"
     },
     "C4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/SM40-Exocet-MBDA.jpg",
@@ -35132,7 +35132,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל ה-SM40 של MBDA וקפסולת השיגור התת-מימית מצוללות בתערוכת Euronaval 2026.",
      "credit_en": "Image: MBDA Systems, via Naval News",
      "credit_he": "תצלום: חברת MBDA, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/C4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/SM40-Exocet-MBDA.jpg"
     },
     "C5": {
      "url": "https://militarnyi.com/wp-content/uploads/2024/11/Filin-Cruise-Missile-HUR.jpg",
@@ -35141,7 +35141,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שרידי גוף הטיל והרכיבים האלקטרוניים של טיל השיוט הסילוני הרוסי 'פילין' שפורסמו על ידי המודיעין האוקראיני.",
      "credit_en": "Image: Defence Intelligence of Ukraine (HUR), via Militarnyi",
      "credit_he": "תצלום: מודיעין ההגנה של אוקראינה, דרך Militarnyi",
-     "local_src": "../digest/2026-11-04/img/j/C5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2024/11/Filin-Cruise-Missile-HUR.jpg"
     },
     "C6": {
      "url": "https://www.japantimes.co.jp/wp-content/uploads/2024/11/North-Korea-SRBM-Launch.jpg",
@@ -35150,7 +35150,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר טילים בליסטיים טקטיים נייד של צפון קוריאה בשיגור במהלך תרגילי כוננות מבצעיים.",
      "credit_en": "Image: KCNA via Reuters, via The Japan Times",
      "credit_he": "תצלום: סוכנות הידיעות הצפון-קוריאנית / רויטרס, דרך The Japan Times",
-     "local_src": "../digest/2026-11-04/img/j/C6.jpg"
+     "local_src": "https://www.japantimes.co.jp/wp-content/uploads/2024/11/North-Korea-SRBM-Launch.jpg"
     },
     "C7": {
      "url": "https://defence-industry.eu/wp-content/uploads/2024/10/UK-Germany-Trinity-House.jpg",
@@ -35159,7 +35159,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שר ההגנה הגרמני בוריס פיסטוריוס ושר ההגנה הבריטי ווס סטריטינג במעמד הסכם טריניטי האוס בלונדון.",
      "credit_en": "Image: UK Ministry of Defence, via Defence Industry Europe",
      "credit_he": "תצלום: משרד ההגנה הבריטי, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-04/img/j/C7.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2024/10/UK-Germany-Trinity-House.jpg"
     },
     "C8": {
      "url": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/Morocco-Parliament-Budget.jpg",
@@ -35168,7 +35168,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מליאת הפרלמנט של מרוקו בדיוני הצעת חוק התקציב 60.26 והעלאת תקרת ההתחייבויות לביטחון.",
      "credit_en": "Image: Moroccan Parliament via Hespress",
      "credit_he": "תצלום: הפרלמנט של מרוקו, דרך Hespress",
-     "local_src": "../digest/2026-11-04/img/j/C8.jpg"
+     "local_src": "https://www.moroccoworldnews.com/wp-content/uploads/2026/10/Morocco-Parliament-Budget.jpg"
     },
     "D1": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/11/Rafael-Euronaval-Display.jpg",
@@ -35177,7 +35177,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ביתן רפאל בתערוכת Euronaval 2026 המציג את מערכות ההגנה הימיות כיפת מגן ו-C-GEM.",
      "credit_en": "Image: Rafael Advanced Defense Systems, via Breaking Defense",
      "credit_he": "תצלום: רפאל מערכות לחימה מתקדמות, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-04/img/j/D1.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/11/Rafael-Euronaval-Display.jpg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2023/05/BlueWhale-IAI-TKMS.jpg",
@@ -35186,7 +35186,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוללת BlueWhale האוטונומית של תע\"א ו-TKMS מעל פני המים במהלך ניסויים בים הבלטי.",
      "credit_en": "Image: IAI / German Navy, via Naval News",
      "credit_he": "תצלום: התעשייה האווירית / הצי הגרמני, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2023/05/BlueWhale-IAI-TKMS.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/SCX-26-Naval-Group.jpg",
@@ -35195,7 +35195,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם קונספט ספינת המערכה העתידית SCX 26 של Naval Group בתערוכת Euronaval 2026 בפריז.",
      "credit_en": "Image: Naval Group, via Defense Mirror",
      "credit_he": "תצלום: חברת Naval Group, דרך Defense Mirror",
-     "local_src": "../digest/2026-11-04/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/SCX-26-Naval-Group.jpg"
     },
     "D4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Naval-Group-UCUV.jpg",
@@ -35204,7 +35204,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית צוללת הקרב האוטונומית הכבדה UCUV של Naval Group שהוצגה בתערוכת Euronaval 2026.",
      "credit_en": "Image: Naval Group, via Defense News",
      "credit_he": "תצלום: חברת Naval Group, דרך Defense News",
-     "local_src": "../digest/2026-11-04/img/j/D4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Naval-Group-UCUV.jpg"
     },
     "D5": {
      "url": "https://militarnyi.com/wp-content/uploads/2024/11/STARK-VANTA-24-USV.jpg",
@@ -35213,7 +35213,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית הכשב\"ם הקרבי החמוש VANTA 24 באורך 24 מטרים של חברת STARK Defence הגרמנית.",
      "credit_en": "Image: STARK Defence, via Militarnyi",
      "credit_he": "תצלום: חברת STARK Defence, דרך Militarnyi",
-     "local_src": "../digest/2026-11-04/img/j/D5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2024/11/STARK-VANTA-24-USV.jpg"
     },
     "D6": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MEKO-A400-AMD-TKMS.jpg",
@@ -35222,7 +35222,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם פריגטת ההגנה האווירית MEKO A-400 AMD של TKMS עבור הצי הגרמני בתערוכת Euronaval 2026.",
      "credit_en": "Image: Thyssenkrupp Marine Systems, via Naval News",
      "credit_he": "תצלום: חברת TKMS, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D6.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MEKO-A400-AMD-TKMS.jpg"
     },
     "D7": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/EDGE-Fincantieri-Signing.jpg",
@@ -35231,7 +35231,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מנכ\"ל קבוצת EDGE ומנכ\"ל פינקנטיירי חותמים על הרחבת המיזם לתחום התת-מימי ב-Euronaval 2026.",
      "credit_en": "Image: Fincantieri via Naval News",
      "credit_he": "תצלום: פינקנטיירי, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D7.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/EDGE-Fincantieri-Signing.jpg"
     },
     "D8": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/RABDAN-FA-400-ADSB.jpg",
@@ -35240,7 +35240,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם ספינת הקרב המהירה RABDAN FA-400 של מספנות אבו דאבי חמושה בטילי MANSUP בתערוכת Euronaval.",
      "credit_en": "Image: ADSB via Naval News",
      "credit_he": "תצלום: מספנות אבו דאבי, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D8.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/RABDAN-FA-400-ADSB.jpg"
     },
     "D9": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/09/Next-Generation-Corvette-India.jpg",
@@ -35249,7 +35249,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיה רשמית של הצי ההודי לקורבטת הדור הבא (NGC) עם תאי שיגור אנכיים ומשגרי ברהמוס.",
      "credit_en": "Image: Indian Navy Directorate of Naval Design, via Naval News",
      "credit_he": "תצלום: מנהלת התכנון של הצי ההודי, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D9.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/09/Next-Generation-Corvette-India.jpg"
     },
     "D10": {
      "url": "https://defensehere.com/wp-content/uploads/2024/02/ST-Engineering-Terrex-s5.jpg",
@@ -35258,7 +35258,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נגמ\"ש הלחימה Terrex s5 8x8 של ST Engineering חמוש בצריח 30 מ\"מ במהלך ניסויי עבירות וירי.",
      "credit_en": "Image: ST Engineering, via Defense Here",
      "credit_he": "תצלום: חברת ST Engineering, דרך Defense Here",
-     "local_src": "../digest/2026-11-04/img/j/D10.jpg"
+     "local_src": "https://defensehere.com/wp-content/uploads/2024/02/ST-Engineering-Terrex-s5.jpg"
     },
     "D11": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/DANAE-Armed-USV-DGA.jpg",
@@ -35267,7 +35267,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם קונספט של הכשב\"ם החמוש מתוכנית DANAE של הצי הצרפתי בתערוכת Euronaval 2026.",
      "credit_en": "Image: DGA / Marine Nationale, via Naval News",
      "credit_he": "תצלום: מנהל הרכש הצרפתי / הצי הצרפתי, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D11.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/DANAE-Armed-USV-DGA.jpg"
     },
     "D12": {
      "url": "https://ukdefencejournal.org.uk/wp-content/uploads/2026/11/Babcock-Pelorus-Console.jpg",
@@ -35276,7 +35276,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת הפיקוד והניהול הדיגיטלי Pelorus של חברת Babcock בתערוכת Euronaval 2026.",
      "credit_en": "Image: Babcock International, via UK Defence Journal",
      "credit_he": "תצלום: חברת Babcock, דרך UK Defence Journal",
-     "local_src": "../digest/2026-11-04/img/j/D12.jpg"
+     "local_src": "https://ukdefencejournal.org.uk/wp-content/uploads/2026/11/Babcock-Pelorus-Console.jpg"
     },
     "D13": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/SMART-4000-Navantia.jpg",
@@ -35285,7 +35285,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם פריגטת SMART 4000 של מספנת נבנטיה הספרדית בתערוכת Euronaval 2026.",
      "credit_en": "Image: Navantia, via Naval News",
      "credit_he": "תצלום: חברת נבנטיה, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D13.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/SMART-4000-Navantia.jpg"
     },
     "D14": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MPSS-7000-Damen.jpg",
@@ -35294,7 +35294,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם ספינת האם לנשיאת כטב\"מים MPSS 7000 של מספנות דמן עבור צי פורטוגל בתערוכת Euronaval 2026.",
      "credit_en": "Image: Damen Shipyards Group, via Naval News",
      "credit_he": "תצלום: מספנות דמן, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D14.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MPSS-7000-Damen.jpg"
     },
     "D15": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Goksur-100-N-Aselsan.jpg",
@@ -35303,7 +35303,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צריח ההגנה האווירית הימית GÖKSUR 100-N של אסלסאן הטורקית בתערוכת Euronaval 2026.",
      "credit_en": "Image: Aselsan, via Naval News",
      "credit_he": "תצלום: חברת אסלסאן, דרך Naval News",
-     "local_src": "../digest/2026-11-04/img/j/D15.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Goksur-100-N-Aselsan.jpg"
     }
    }
   },
@@ -36169,7 +36169,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן היירוט הקינטי BLAZE מתוצרת חברת Origin Robotics.",
      "credit_en": "Photo: Origin Robotics, via LSM",
      "credit_he": "צילום: Origin Robotics, דרך LSM",
-     "local_src": "../digest/2026-11-04-evening/img/j/A1.jpg"
+     "local_src": "https://originrobotics.com/wp-content/uploads/2024/09/blaze-interceptor.jpg"
     },
     "A2": {
      "url": "https://static.ukrinform.net/photos/2024_11/thumb_files/630_360_1730718542-836.jpg",
@@ -36178,7 +36178,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוות הגנה אווירית נייד באוקראינה מאבטח מתקן תשתית אנרגיה.",
      "credit_en": "Photo: General Staff of the Armed Forces of Ukraine, via Ukrinform",
      "credit_he": "צילום: המטה הכללי של צבא אוקראינה, דרך Ukrinform",
-     "local_src": "../digest/2026-11-04-evening/img/j/A2.jpg"
+     "local_src": "https://static.ukrinform.net/photos/2024_11/thumb_files/630_360_1730718542-836.jpg"
     },
     "A3": {
      "url": "https://www.thalesgroup.com/sites/default/files/styles/crop_16_9_medium_1024_576/public/assets/images/2024-11/thales-remote-launcher-lmm.jpg",
@@ -36187,7 +36187,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר הטילים הבלתי מאויש של תאלס במהלך ניסוי הירי החי הראשון.",
      "credit_en": "Photo: Thales UK, via NextGen Defense",
      "credit_he": "צילום: Thales UK, דרך NextGen Defense",
-     "local_src": "../digest/2026-11-04-evening/img/j/A3.jpg"
+     "local_src": "https://www.thalesgroup.com/sites/default/files/styles/crop_16_9_medium_1024_576/public/assets/images/2024-11/thales-remote-launcher-lmm.jpg"
     },
     "A4": {
      "url": "https://defence-blog.com/wp-content/uploads/2024/11/gps-jamming-baltic-black-sea.jpg",
@@ -36196,7 +36196,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מפת חום של שיבושי ה-GPS במזרח אירופה ב-3 בנובמבר.",
      "credit_en": "Data: ItaMilRadar / AirNav, via Defence Blog",
      "credit_he": "נתונים: ItaMilRadar / AirNav, דרך Defence Blog",
-     "local_src": "../digest/2026-11-04-evening/img/j/A4.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2024/11/gps-jamming-baltic-black-sea.jpg"
     },
     "A5": {
      "url": "https://static.ua.news/media/2024/11/kharkiv-anti-drone-netting.jpg",
@@ -36205,7 +36205,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רשתות מיגון נגד רחפנים שהוקמו לאורך כביש חרקוב.",
      "credit_en": "Photo: Kharkiv RMA, via UA News",
      "credit_he": "צילום: המנהל הצבאי של חרקוב, דרך UA News",
-     "local_src": "../digest/2026-11-04-evening/img/j/A5.jpg"
+     "local_src": "https://static.ua.news/media/2024/11/kharkiv-anti-drone-netting.jpg"
     },
     "A6": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/11/buk-m3-strike-muramasa.jpg",
@@ -36214,7 +36214,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת נ\"מ רוסית בוק-M3 שנפגעה מרחפן אוקראיני.",
      "credit_en": "Screenshot: MURAMASA unit / 3rd Army Corps, via Militarnyi",
      "credit_he": "צילום מסך: יחידת MURAMASA / קורפוס 3, דרך Militarnyi",
-     "local_src": "../digest/2026-11-04-evening/img/j/A6.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/11/buk-m3-strike-muramasa.jpg"
     },
     "B1": {
      "url": "https://defence-blog.com/wp-content/uploads/2024/11/victor-uav-engine.jpg",
@@ -36223,7 +36223,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הכטב\"ם הטקטי VICTOR המונע במנוע רוטורי היברידי שהודפס בתלת-ממד.",
      "credit_en": "Photo: DEVCOM Army Research Laboratory, via Defence Blog",
      "credit_he": "צילום: מעבדת המחקר DEVCOM ARL, דרך Defence Blog",
-     "local_src": "../digest/2026-11-04-evening/img/j/B1.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2024/11/victor-uav-engine.jpg"
     },
     "B2": {
      "url": "https://www.twz.com/wp-content/uploads/2024/07/beechcraft-m346n-trainer.jpg",
@@ -36232,7 +36232,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס ההדרכה הסילוני Beechcraft M-346N של טקסטרון ולאונרדו.",
      "credit_en": "Photo: Textron Aviation Defense, via The War Zone",
      "credit_he": "צילום: Textron Aviation Defense, דרך The War Zone",
-     "local_src": "../digest/2026-11-04-evening/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/wp-content/uploads/2024/07/beechcraft-m346n-trainer.jpg"
     },
     "B3": {
      "url": "https://turdef.com/uploads/article/hurkus-ii-flight.jpg",
@@ -36241,7 +36241,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס ההדרכה הבסיסי Hürkuş-II מתוצרת TUSAŞ בטיסה.",
      "credit_en": "Photo: TUSAŞ, via TurDef",
      "credit_he": "צילום: TUSAŞ, דרך TurDef",
-     "local_src": "../digest/2026-11-04-evening/img/j/B3.jpg"
+     "local_src": "https://turdef.com/uploads/article/hurkus-ii-flight.jpg"
     },
     "C1": {
      "url": "https://www.safran-group.com/sites/default/files/styles/crop_16_9_medium_1024_576/public/assets/images/2024-11/safran-hrg-inertial-navigation.jpg",
@@ -36250,7 +36250,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הניווט האינרציאלית מבוססת גירוסקופ מהוד חצי-כדורי (HRG) של ספראן.",
      "credit_en": "Photo: Safran Electronics & Defense, via Naval News",
      "credit_he": "צילום: Safran Electronics & Defense, דרך Naval News",
-     "local_src": "../digest/2026-11-04-evening/img/j/C1.jpg"
+     "local_src": "https://www.safran-group.com/sites/default/files/styles/crop_16_9_medium_1024_576/public/assets/images/2024-11/safran-hrg-inertial-navigation.jpg"
     },
     "C2": {
      "url": "https://static.pravda.com.ua/images/doc/8/f/8f09d73-mig-29-poland.jpg",
@@ -36259,7 +36259,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב מיג-29 של חיל האוויר הפולני.",
      "credit_en": "Photo: Polish MoD, via Ukrainska Pravda",
      "credit_he": "צילום: משרד ההגנה הפולני, דרך Ukrainska Pravda",
-     "local_src": "../digest/2026-11-04-evening/img/j/C2.jpg"
+     "local_src": "https://static.pravda.com.ua/images/doc/8/f/8f09d73-mig-29-poland.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/CB90-CX-Saab-Euronaval-2024.jpg",
@@ -36268,7 +36268,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סירת הקרב המודולרית CB90 CX של חברת סאאב בתצורה מבצעית.",
      "credit_en": "Photo: Saab / Docksta, via Naval News",
      "credit_he": "צילום: Saab / Docksta, דרך Naval News",
-     "local_src": "../digest/2026-11-04-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/CB90-CX-Saab-Euronaval-2024.jpg"
     },
     "D2": {
      "url": "https://defence-blog.com/wp-content/uploads/2024/11/saronic-marauder-launch.jpg",
@@ -36277,7 +36277,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם ה-Marauder השני של חברת סרוניק בעת הורדתו למים בפרנקלין, לואיזיאנה.",
      "credit_en": "Photo: Saronic Technologies, via Defence Blog",
      "credit_he": "צילום: Saronic Technologies, דרך Defence Blog",
-     "local_src": "../digest/2026-11-04-evening/img/j/D2.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2024/11/saronic-marauder-launch.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/EDGE-Novamarine-USV-Euronaval.jpg",
@@ -36286,7 +36286,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם קונספט של כשב\"ם אוטונומי משותף של Novamarine וקבוצת EDGE בתערוכת Euronaval.",
      "credit_en": "Photo: Naval News, via EDGE Group",
      "credit_he": "צילום: Naval News, דרך קבוצת EDGE",
-     "local_src": "../digest/2026-11-04-evening/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/EDGE-Novamarine-USV-Euronaval.jpg"
     },
     "D4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/BR71-Mk-II-ADSB-Angola.jpg",
@@ -36295,7 +36295,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הקורבטה השנייה מדגם BR71 Mk II בעת השקתה במספנות ADSB באבו דאבי.",
      "credit_en": "Photo: ADSB / EDGE Group, via Naval News",
      "credit_he": "צילום: ADSB / קבוצת EDGE, דרך Naval News",
-     "local_src": "../digest/2026-11-04-evening/img/j/D4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/BR71-Mk-II-ADSB-Angola.jpg"
     }
    }
   },
@@ -38963,7 +38963,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "בכירי מערכת הביטחון של אוסטרליה בוחנים את מיירטי כיפת ברזל של רפאל עבור מגן ההגנה האווירית.",
      "credit_en": "Image: Oren Rozen / CC BY-SA 4.0, via SBS News",
      "credit_he": "תמונה: אורן רוזן, דרך SBS News",
-     "local_src": "../digest/2026-11-03/img/j/A1.jpg"
+     "local_src": "https://images.sbs.com.au/dims4/default/6be273f/2147483647/strip/true/crop/1920x1080+0+0/resize/1280x720!/quality/90/?url=http%3A%2F%2Fsbs-au-brightspot.s3.amazonaws.com%2F09%2F2b%2Fdf3eb4324f2b96d9539365538eef%2Fap-24288673757342.jpg"
     },
     "A2": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/MBDA-Laser-Demonstrator.jpg",
@@ -38972,7 +38972,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית פוד נשק הלייזר המוטס מתוצרת MBDA Deutschland על גבי מטוס קרב.",
      "credit_en": "Image: MBDA Deutschland, via Defence Industry Europe",
      "credit_he": "תמונה: MBDA Deutschland, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-03/img/j/A2.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/MBDA-Laser-Demonstrator.jpg"
     },
     "A3": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Patriot-Germany.jpg",
@@ -38981,7 +38981,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר טילי פטריוט של חיל האוויר הגרמני בפריסה מבצעית בשטח.",
      "credit_en": "Image: Bundeswehr / Marco Dorow, via Defence Industry Europe",
      "credit_he": "תמונה: בונדסוור, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-03/img/j/A3.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Patriot-Germany.jpg"
     },
     "A4": {
      "url": "https://i.guim.co.uk/img/media/2026/11/02/qeshm_strike.jpg?width=1200&quality=85&auto=format&fit=max&s=abc",
@@ -38990,7 +38990,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מבט לווייני על האי קשם במצר הורמוז שבו הותקפה סוללת טילי הנ\"מ האיראנית.",
      "credit_en": "Image: Satellite imagery via The Guardian",
      "credit_he": "תמונה: צילום לוויין, דרך The Guardian",
-     "local_src": "../digest/2026-11-03/img/j/A4.jpg"
+     "local_src": "https://i.guim.co.uk/img/media/2026/11/02/qeshm_strike.jpg?width=1200&quality=85&auto=format&fit=max&s=abc"
     },
     "A5": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/SIMBAD-RC-4-MBDA.jpg",
@@ -38999,7 +38999,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר הנ\"מ הימי SIMBAD-RC 4 של MBDA הנושא ארבעה מיירטי מיסטרל 3 מוכנים לשיגור.",
      "credit_en": "Image: Naval News / MBDA, via Naval News",
      "credit_he": "תמונה: Naval News / MBDA, דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/A5.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/SIMBAD-RC-4-MBDA.jpg"
     },
     "A6": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/harpe-interceptor-perseus.jpg",
@@ -39008,7 +39008,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל היירוט הזעיר Harpe של חברת Perseus Defense ממשגר מודולרי קל-משקל.",
      "credit_en": "Image: Perseus Defense, via Defence Blog",
      "credit_he": "תמונה: Perseus Defense, דרך Defence Blog",
-     "local_src": "../digest/2026-11-03/img/j/A6.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/harpe-interceptor-perseus.jpg"
     },
     "A7": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/sting-s-interceptor-drone.jpg",
@@ -39017,7 +39017,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן היירוט המהיר Sting S מתוצרת Wild Hornets המצויד בחיישן נעילה אופטי.",
      "credit_en": "Image: Wild Hornets, via Militarnyi",
      "credit_he": "תמונה: Wild Hornets, דרך Militarnyi",
-     "local_src": "../digest/2026-11-03/img/j/A7.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/sting-s-interceptor-drone.jpg"
     },
     "A8": {
      "url": "https://www.armyrecognition.com/images/stories/news/2026/november/uzor_kalashnikov_c_uas_network.jpg",
@@ -39026,7 +39026,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "עמדת הפיקוד של מערכת Uzor-K מבית קלצ'ניקוב המציגה ממשק מעקב והיתוך חיישנים כנגד כטב\"מים.",
      "credit_en": "Image: Kalashnikov Concern, via Army Recognition",
      "credit_he": "תמונה: קונצרן קלצ'ניקוב, דרך Army Recognition",
-     "local_src": "../digest/2026-11-03/img/j/A8.jpg"
+     "local_src": "https://www.armyrecognition.com/images/stories/news/2026/november/uzor_kalashnikov_c_uas_network.jpg"
     },
     "A9": {
      "url": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/aselsan-goksur-pdms.jpg",
@@ -39035,7 +39035,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צריח מערכת ההגנה הנקודתית GÖKSUR 100-N בעל 20 תאי שיגור מתוצרת Aselsan בתערוכת יורונאבאל.",
      "credit_en": "Image: Aselsan, via Naval Technology",
      "credit_he": "תמונה: Aselsan, דרך Naval Technology",
-     "local_src": "../digest/2026-11-03/img/j/A9.jpg"
+     "local_src": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/aselsan-goksur-pdms.jpg"
     },
     "B1": {
      "url": "https://www.airandspaceforces.com/app/uploads/2024/09/Fury_CCA_Rendering_Anduril.jpg",
@@ -39044,7 +39044,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית כטב\"ם הקרב השיתופי YFQ-44A Fury של אנדוריל בטיסה משותפת עם מטוס קרב F-35A.",
      "credit_en": "Image: Anduril Industries, via Air & Space Forces Magazine",
      "credit_he": "תמונה: אנדוריל תעשיות, דרך Air & Space Forces Magazine",
-     "local_src": "../digest/2026-11-03/img/j/B1.jpg"
+     "local_src": "https://www.airandspaceforces.com/app/uploads/2024/09/Fury_CCA_Rendering_Anduril.jpg"
     },
     "B2": {
      "url": "https://mediaportal.saab.com/imagedata/4000/18063.jpg",
@@ -39053,7 +39053,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב מדגם Saab Gripen E בביצוע תמרונים חדים תחת ניסויי אלגוריתמיקה אוטונומית.",
      "credit_en": "Image: Saab AB, via Defense News",
      "credit_he": "תמונה: סאאב, דרך Defense News",
-     "local_src": "../digest/2026-11-03/img/j/B2.jpg"
+     "local_src": "https://mediaportal.saab.com/imagedata/4000/18063.jpg"
     },
     "B3": {
      "url": "https://assets.publishing.service.gov.uk/media/64f89d5a805f420014cae785/Protector_RG_Mk1_at_RAF_Waddington.jpg",
@@ -39062,7 +39062,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם ה-Protector RG1 של חיל האוויר המלכותי על מסלול ההסעה בבסיס וודינגטון לקראת גיחה מבצעית.",
      "credit_en": "Image: Crown Copyright / UK Ministry of Defence, via RAF News",
      "credit_he": "תמונה: משרד ההגנה הבריטי, דרך RAF News",
-     "local_src": "../digest/2026-11-03/img/j/B3.jpg"
+     "local_src": "https://assets.publishing.service.gov.uk/media/64f89d5a805f420014cae785/Protector_RG_Mk1_at_RAF_Waddington.jpg"
     },
     "B4": {
      "url": "https://aviationweek.com/sites/default/files/2026-11/GA-ASI-NextGen-Stealth-UAS-concept.jpg",
@@ -39071,7 +39071,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית תפיסת כטב\"ם הכנף המעופפת החמקן NextGen של ג'נרל אטומיקס בעל הנעה היברידית.",
      "credit_en": "Image: General Atomics Aeronautical Systems, via Aviation Week",
      "credit_he": "תמונה: ג'נרל אטומיקס, דרך Aviation Week",
-     "local_src": "../digest/2026-11-03/img/j/B4.jpg"
+     "local_src": "https://aviationweek.com/sites/default/files/2026-11/GA-ASI-NextGen-Stealth-UAS-concept.jpg"
     },
     "B5": {
      "url": "https://en.defence-ua.com/media/contentimages/6511a2f9c8bbd083.jpg",
@@ -39080,7 +39080,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם היירוט הסילוני המהיר X-12 'ויטיס' מתוצרת ליטא בתצוגה בפורום הביטחון הבלטי.",
      "credit_en": "Image: RSI Europe, via Defense Express",
      "credit_he": "תמונה: RSI Europe, דרך Defense Express",
-     "local_src": "../digest/2026-11-03/img/j/B5.jpg"
+     "local_src": "https://en.defence-ua.com/media/contentimages/6511a2f9c8bbd083.jpg"
     },
     "B6": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/07/Type-076-Sichuan-Flight-Deck-Analysis.jpg",
@@ -39089,7 +39089,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צילום לוויין של סיפון הטיסה בספינת הסער הסינית Type 076 'סצ'ואן' עם מגרעת המעוט האלקטרומגנטי.",
      "credit_en": "Image: Planet Labs / Naval News analysis, via Naval News",
      "credit_he": "תמונה: Planet Labs / ניתוח Naval News",
-     "local_src": "../digest/2026-11-03/img/j/B6.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/07/Type-076-Sichuan-Flight-Deck-Analysis.jpg"
     },
     "B7": {
      "url": "https://www.savunmasanayist.com/wp-content/uploads/2024/02/kaan-milli-muharip-ucak-taksi.jpg",
@@ -39098,7 +39098,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אב-הטיפוס הראשון של מטוס הקרב הטורקי KAAN במהלך ניסויי הסעה ממונעים במתקני TAI באנקרה.",
      "credit_en": "Image: TAI / SSB, via SavunmaSanayiST",
      "credit_he": "תמונה: התעשייה האווירית הטורקית TAI, דרך SavunmaSanayiST",
-     "local_src": "../digest/2026-11-03/img/j/B7.jpg"
+     "local_src": "https://www.savunmasanayist.com/wp-content/uploads/2024/02/kaan-milli-muharip-ucak-taksi.jpg"
     },
     "B8": {
      "url": "https://www.opex360.com/wp-content/uploads/rafale-b374-dga-20261102.jpg",
@@ -39107,7 +39107,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס הניסוי Rafale B374 של מנהלת החימוש הצרפתית בבסיס איסטר לפיתוח תקן F5.",
      "credit_en": "Image: DGA Essais en vol, via Zone Militaire",
      "credit_he": "תמונה: מנהלת החימוש הצרפתית DGA, דרך Zone Militaire",
-     "local_src": "../digest/2026-11-03/img/j/B8.jpg"
+     "local_src": "https://www.opex360.com/wp-content/uploads/rafale-b374-dga-20261102.jpg"
     },
     "B9": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/04/RAM-2X-Black-Betty-UAV.jpg",
@@ -39116,7 +39116,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "חימוש משוטט טקטי RAM-2X 'בלאק בטי' על גבי מעוט שיגור שדה באוקראינה.",
      "credit_en": "Image: Ukrspecsystems, via Militarnyi",
      "credit_he": "תמונה: Ukrspecsystems, דרך Militarnyi",
-     "local_src": "../digest/2026-11-03/img/j/B9.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/04/RAM-2X-Black-Betty-UAV.jpg"
     },
     "C1": {
      "url": "https://puolustusvoimat.fi/documents/19488123/0/RGW110_ampumassa.jpg",
@@ -39125,7 +39125,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לוחם צבא פינלנד מבצע ירי במערכת הנ\"ט האישית RGW110 בקליבר 110 מ\"מ במהלך ניסויי הקליטה.",
      "credit_en": "Image: Finnish Defence Forces (Puolustusvoimat), via Janes",
      "credit_he": "תמונה: צבא פינלנד (Puolustusvoimat), דרך Janes",
-     "local_src": "../digest/2026-11-03/img/j/C1.jpg"
+     "local_src": "https://puolustusvoimat.fi/documents/19488123/0/RGW110_ampumassa.jpg"
     },
     "C2": {
      "url": "https://www.baesystems.com/en/multimedia-assets/image?id=6f8d3c1a-cv9035-iron-fist-dutch.jpg",
@@ -39134,7 +39134,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נגמ\"ש CV9035 של צבא הולנד מצויד במערכת ההגנה האקטיבית 'חץ דורבן' של אלביט מערכות.",
      "credit_en": "Image: BAE Systems Hägglunds, via Defensie.nl",
      "credit_he": "תמונה: BAE Systems, דרך Defensie.nl",
-     "local_src": "../digest/2026-11-03/img/j/C2.jpg"
+     "local_src": "https://www.baesystems.com/en/multimedia-assets/image?id=6f8d3c1a-cv9035-iron-fist-dutch.jpg"
     },
     "C3": {
      "url": "https://static.pib.gov.in/WriteReadData/userfiles/image/Pralay_Launch_Nov2026.jpg",
@@ -39143,7 +39143,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל הקוואזי-בליסטי 'פראלאי' של DRDO מאי הניסויים ע\"ש עבדול קאלאם באודישה, הודו.",
      "credit_en": "Image: DRDO / PIB India, via Times of India",
      "credit_he": "תמונה: DRDO / לשכת העיתונות הממשלתית של הודו, דרך Times of India",
-     "local_src": "../digest/2026-11-03/img/j/C3.jpg"
+     "local_src": "https://static.pib.gov.in/WriteReadData/userfiles/image/Pralay_Launch_Nov2026.jpg"
     },
     "C4": {
      "url": "https://assets.publishing.service.gov.uk/media/6717a1d5e5b3f2001bb3a201/Trinity_House_Agreement_Signing.jpg",
@@ -39152,7 +39152,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שרי ההגנה של בריטניה וגרמניה חותמים על הסכם טריניטי האוס הכולל את מיזם Deep Precision Strike.",
      "credit_en": "Image: UK Ministry of Defence, via Gov.uk",
      "credit_he": "תמונה: משרד ההגנה הבריטי, דרך Gov.uk",
-     "local_src": "../digest/2026-11-03/img/j/C4.jpg"
+     "local_src": "https://assets.publishing.service.gov.uk/media/6717a1d5e5b3f2001bb3a201/Trinity_House_Agreement_Signing.jpg"
     },
     "C5": {
      "url": "https://static.reuters.com/resources/r/?m=02&d=20240125&t=2&i=1672349182&r=LYNXMPEK0O03Z&w=800",
@@ -39161,7 +39161,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל שיוט צפון-קוריאני ממשגר נייד במהלך ניסויי טיסה מבצעיים.",
      "credit_en": "Image: KCNA / Reuters, via Yonhap News",
      "credit_he": "תמונה: סוכנות הידיעות הצפון קוריאנית KCNA, דרך רויטרס",
-     "local_src": "../digest/2026-11-03/img/j/C5.jpg"
+     "local_src": "https://static.reuters.com/resources/r/?m=02&d=20240125&t=2&i=1672349182&r=LYNXMPEK0O03Z&w=800"
     },
     "C6": {
      "url": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/05/Leidos-Black-Arrow-LCCM-Missile.jpg",
@@ -39170,7 +39170,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם בגודל מלא של טיל השיוט הזול LCCM של חברת ליידוס בעריסת ייצור.",
      "credit_en": "Image: Leidos, via Breaking Defense",
      "credit_he": "תמונה: חברת ליידוס, דרך Breaking Defense",
-     "local_src": "../digest/2026-11-03/img/j/C6.jpg"
+     "local_src": "https://breakingdefense.com/wp-content/uploads/sites/3/2024/05/Leidos-Black-Arrow-LCCM-Missile.jpg"
     },
     "C7": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/05/Luhansk-Airbase-Strike-Satellite-Damage.jpg",
@@ -39179,7 +39179,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצלום לוויין החושף מכתשי פגיעה, סימני שרפה והאנגרים הרוסים בשדה התעופה בלוהנסק בעקבות התקיפה האוקראינית.",
      "credit_en": "Image: Planet Labs / Militarnyi, via Ukrainska Pravda",
      "credit_he": "תמונה: Planet Labs / Militarnyi, דרך Ukrainska Pravda",
-     "local_src": "../digest/2026-11-03/img/j/C7.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/05/Luhansk-Airbase-Strike-Satellite-Damage.jpg"
     },
     "C8": {
      "url": "https://mil.in.ua/wp-content/uploads/2024/01/2S22-Bohdana-155mm-firing.jpg",
@@ -39188,7 +39188,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח מתנייע 2S22 'בוהדנה' בקליבר 155 מ\"מ במהלך ירי מבצעי.",
      "credit_en": "Image: Armed Forces of Ukraine, via Militarnyi",
      "credit_he": "תמונה: צבא אוקראינה, דרך Militarnyi",
-     "local_src": "../digest/2026-11-03/img/j/C8.jpg"
+     "local_src": "https://mil.in.ua/wp-content/uploads/2024/01/2S22-Bohdana-155mm-firing.jpg"
     },
     "C9": {
      "url": "https://img9.irna.ir/d/r2/2023/05/25/4/169123891.jpg",
@@ -39197,7 +39197,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל בליסטי איראני לטווח בינוני מדגם ח'ייבר שכן ממשגר נייד במהלך ניסוי.",
      "credit_en": "Image: IRNA / Fars News, via Iran International",
      "credit_he": "תמונה: סוכנות הידיעות האיראנית IRNA, דרך Iran International",
-     "local_src": "../digest/2026-11-03/img/j/C9.jpg"
+     "local_src": "https://img9.irna.ir/d/r2/2023/05/25/4/169123891.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Elbit-Systems-Seagull-UUV-Euronaval-2026.jpg",
@@ -39206,7 +39206,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם כלי השיט התת-ימי האוטונומי של אלביט מערכות לצד כשב\"ם Seagull בתערוכת יורונאבאל 2026 בפריז.",
      "credit_en": "Image: Elbit Systems / Naval News, via Naval News",
      "credit_he": "תמונה: אלביט מערכות / Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Elbit-Systems-Seagull-UUV-Euronaval-2026.jpg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Rafael-Euronaval-2026-C-Dome-Display.jpg",
@@ -39215,7 +39215,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת השיגור האנכית של כיפת מגן ומלכודות C-GEM מתוצרת רפאל בתצוגת Euronaval 2026 בפריז.",
      "credit_en": "Image: Rafael / Naval News, via Naval News",
      "credit_he": "תמונה: רפאל / Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Rafael-Euronaval-2026-C-Dome-Display.jpg"
     },
     "D3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/09/IAI-BlueWhale-Submarine-At-Sea.jpg",
@@ -39224,7 +39224,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוללת הביון האוטונומית BlueWhale של התעשייה האווירית בניסויי מעקב אקוסטיים בים.",
      "credit_en": "Image: Israel Aerospace Industries (IAI), via Naval News",
      "credit_he": "תמונה: התעשייה האווירית (תע\"א), דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/09/IAI-BlueWhale-Submarine-At-Sea.jpg"
     },
     "D4": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MBDA-Exocet-SM40-Euronaval-2026.jpg",
@@ -39233,7 +39233,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם טיל ה-Exocet SM40 בשיגור מצוללות שנחשף בתערוכת Euronaval על ידי חברת MBDA.",
      "credit_en": "Image: MBDA / Naval News, via Naval News",
      "credit_he": "תמונה: חברת MBDA / Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D4.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MBDA-Exocet-SM40-Euronaval-2026.jpg"
     },
     "D5": {
      "url": "https://www.naval-group.com/sites/default/files/2026-11/SCX-26-Destroyer-Concept-Naval-Group.jpg",
@@ -39242,7 +39242,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם תפיסת המשחתת הכבדה SCX-26 בהדחק 10,000 טונות של חברת Naval Group בתערוכת יורונאבאל.",
      "credit_en": "Image: Naval Group, via Naval News",
      "credit_he": "תמונה: Naval Group, דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D5.jpg"
+     "local_src": "https://www.naval-group.com/sites/default/files/2026-11/SCX-26-Destroyer-Concept-Naval-Group.jpg"
     },
     "D6": {
      "url": "https://news.usni.org/wp-content/uploads/2024/04/Medium-Landing-Ship-LSM-Rendering-Navy.jpg",
@@ -39251,7 +39251,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית ספינת הנחיתה הבינונית (LSM) של הצי האמריקאי בביצוע נחיתה ישירה על החוף.",
      "credit_en": "Image: U.S. Navy / USNI News, via USNI News",
      "credit_he": "תמונה: צי ארה\"ב / USNI News",
-     "local_src": "../digest/2026-11-03/img/j/D6.jpg"
+     "local_src": "https://news.usni.org/wp-content/uploads/2024/04/Medium-Landing-Ship-LSM-Rendering-Navy.jpg"
     },
     "D7": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/FREMM-EVO-Model-Euronaval-2026-Fincantieri.jpg",
@@ -39260,7 +39260,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם פריגטת ה-FREMM EVO של הצי האיטלקי שהוצג על ידי OSN בתערוכת Euronaval בפריז.",
      "credit_en": "Image: Fincantieri / Leonardo, via Naval News",
      "credit_he": "תמונה: פינקנטיירי / לאונרדו, דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D7.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/FREMM-EVO-Model-Euronaval-2026-Fincantieri.jpg"
     },
     "D8": {
      "url": "https://wam.ae/media/cache/article_large/assets/2026/11/02/MARIX_MARIP24_USV_EDGE.jpg",
@@ -39269,7 +39269,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם רב-משימתי MARIP-24 באורך 24 מטרים בביצוע תמרונים מהירים בניסויי ים.",
      "credit_en": "Image: EDGE Group / MARIX, via WAM",
      "credit_he": "תמונה: קבוצת EDGE / חברת MARIX, דרך WAM",
-     "local_src": "../digest/2026-11-03/img/j/D8.jpg"
+     "local_src": "https://wam.ae/media/cache/article_large/assets/2026/11/02/MARIX_MARIP24_USV_EDGE.jpg"
     },
     "D9": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/Rheinmetall-Hybrid-Fleet-Euronaval-2026.jpg",
@@ -39278,7 +39278,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דגם כשב\"ם הסיור Kraken K3 לצד דגם פריגטת GMF 140 של ריינמטאל בתערוכת Euronaval.",
      "credit_en": "Image: Rheinmetall AG / Naval News, via Naval News",
      "credit_he": "תמונה: ריינמטאל / Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D9.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/Rheinmetall-Hybrid-Fleet-Euronaval-2026.jpg"
     },
     "D10": {
      "url": "https://www.thalesgroup.com/sites/default/files/2026-11/Thales-MMC-Containerized-ASW-Module.jpg",
@@ -39287,7 +39287,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מכולת המשימה הימית MMC של תאלס באורך 20 רגל הכוללת מערכת TACTICOS וסונאר טובל קל-משקל.",
      "credit_en": "Image: Thales Group, via Naval News",
      "credit_he": "תמונה: קבוצת תאלס, דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D10.jpg"
+     "local_src": "https://www.thalesgroup.com/sites/default/files/2026-11/Thales-MMC-Containerized-ASW-Module.jpg"
     },
     "D11": {
      "url": "https://mediaportal.saab.com/imagedata/4000/18210.jpg",
@@ -39296,7 +39296,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תרשים ארכיטקטורת Ocean Barrier של סאאב: מערכי הידרופונים בקרקעית הים המשדרים למערכת ניהול קרב 9LV.",
      "credit_en": "Image: Saab AB, via Naval News",
      "credit_he": "תמונה: סאאב, דרך Naval News",
-     "local_src": "../digest/2026-11-03/img/j/D11.jpg"
+     "local_src": "https://mediaportal.saab.com/imagedata/4000/18210.jpg"
     }
    }
   },
@@ -39906,7 +39906,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת יירוט הרחפנים האוטונומית והרב-פעמית TillOnAIR של חברת ParaZero.",
      "credit_en": "Photo: ParaZero Technologies, via The Defense Post",
      "credit_he": "צילום: ParaZero Technologies, דרך The Defense Post",
-     "local_src": "../digest/2026-11-03-evening/img/j/A1.jpg"
+     "local_src": "https://parazero.com/wp-content/uploads/2023/10/DefendAir-Pod.jpg"
     },
     "A2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/DAUPHIN-Euronaval-2024.jpg",
@@ -39915,7 +39915,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הקסרחפן ההטעיה האקטיבי DAUPHIN בתערוכת Euronaval 2026.",
      "credit_en": "Photo: Naval News, via French DGA / Thales",
      "credit_he": "צילום: Naval News, דרך מנהל הרכש הצרפתי DGA ותאלס",
-     "local_src": "../digest/2026-11-03-evening/img/j/A2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/DAUPHIN-Euronaval-2024.jpg"
     },
     "A3": {
      "url": "https://www.navalnews.com/wp-content/uploads/2022/10/ESSM-Block-2-Launch.jpg",
@@ -39924,7 +39924,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור חי של טיל ESSM Block 2 מספינת קרב.",
      "credit_en": "Photo: U.S. Navy, via Naval News",
      "credit_he": "צילום: הצי האמריקאי, דרך Naval News",
-     "local_src": "../digest/2026-11-03-evening/img/j/A3.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2022/10/ESSM-Block-2-Launch.jpg"
     },
     "B1": {
      "url": "https://thedefensepost.com/wp-content/uploads/2024/09/proteus-leonardo.jpg",
@@ -39933,7 +39933,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מדגים הטכנולוגיות למסוק אוטונומי מדגם Proteus של לאונרדו.",
      "credit_en": "Photo: Leonardo, via The Defense Post",
      "credit_he": "צילום: לאונרדו, דרך The Defense Post",
-     "local_src": "../digest/2026-11-03-evening/img/j/B1.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2024/09/proteus-leonardo.jpg"
     },
     "B2": {
      "url": "https://militarnyi.com/wp-content/uploads/2024/09/fiber-optic-drone-spool.jpg",
@@ -39942,7 +39942,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סליל סיב אופטי זעיר לרחפני תקיפה טקטיים מדגם FPV.",
      "credit_en": "Photo: Jiangxi Guangbo, via Militarnyi",
      "credit_he": "צילום: Jiangxi Guangbo, דרך Militarnyi",
-     "local_src": "../digest/2026-11-03-evening/img/j/B2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2024/09/fiber-optic-drone-spool.jpg"
     },
     "C1": {
      "url": "https://edgegroup.ae/sites/default/files/2024-11/lahab-155mm-firing.jpg",
@@ -39951,7 +39951,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "ניסוי ירי דינמי של פגז ה-155 מ\"מ ERFB האמירתי מתותח 52 קליבר.",
      "credit_en": "Photo: EDGE Group / LAHAB, via The Defense Post",
      "credit_he": "צילום: קבוצת EDGE / LAHAB, דרך The Defense Post",
-     "local_src": "../digest/2026-11-03-evening/img/j/C1.jpg"
+     "local_src": "https://edgegroup.ae/sites/default/files/2024-11/lahab-155mm-firing.jpg"
     },
     "C2": {
      "url": "https://militarnyi.com/wp-content/uploads/2024/09/taurus-gripen.jpg",
@@ -39960,7 +39960,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טיל שיוט מדגם Taurus KEPD 350 תלוי תחת כנף מטוס קרב מדגם גריפן JAS 39.",
      "credit_en": "Photo: Saab / Bundeswehr, via Militarnyi",
      "credit_he": "צילום: סאאב / בונדסוור, דרך Militarnyi",
-     "local_src": "../digest/2026-11-03-evening/img/j/C2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2024/09/taurus-gripen.jpg"
     },
     "D1": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/09/Next-Generation-Corvette-India.jpg",
@@ -39969,7 +39969,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית מחשב רשמית של קורבטת הדור הבא (NGC / פרויקט 28A) עבור הצי ההודי.",
      "credit_en": "Rendering: Indian Navy / GRSE, via Naval News",
      "credit_he": "הדמיה: הצי ההודי / מספנת GRSE, דרך Naval News",
-     "local_src": "../digest/2026-11-03-evening/img/j/D1.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/09/Next-Generation-Corvette-India.jpg"
     },
     "D2": {
      "url": "https://www.navalnews.com/wp-content/uploads/2024/11/MKE-PIRANA-Euronaval-2024.jpg",
@@ -39978,7 +39978,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם ה-PIRANA החמוש מתוצרת MKE עם תא שיגור רחפנים.",
      "credit_en": "Photo: Naval News, via MKE",
      "credit_he": "צילום: Naval News, דרך MKE",
-     "local_src": "../digest/2026-11-03-evening/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2024/11/MKE-PIRANA-Euronaval-2024.jpg"
     },
     "D3": {
      "url": "https://www.knds.com/media/seaowl-knds-usv.jpg",
@@ -39987,7 +39987,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית קונספט לכשב\"ם החמוש המשותף של SeaOwl ו-KNDS.",
      "credit_en": "Rendering: KNDS / SeaOwl, via Naval News",
      "credit_he": "הדמיה: KNDS / SeaOwl, דרך Naval News",
-     "local_src": "../digest/2026-11-03-evening/img/j/D3.jpg"
+     "local_src": "https://www.knds.com/media/seaowl-knds-usv.jpg"
     }
    }
   },
@@ -42316,7 +42316,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר טילי הגנה אווירית Barak MX מתוצרת התעשייה האווירית.",
      "credit_en": "Image: Reuters / Benoit Tessler & IAI, via Globes",
      "credit_he": "תמונה: רויטרס / התעשייה האווירית, דרך גלובס",
-     "local_src": "../digest/2026-11-02/img/j/A1.jpg"
+     "local_src": "https://res.cloudinary.com/globes/image/upload/t_800X392/v1793539527/800_x5lgzy.jpg"
     },
     "A2": {
      "url": "https://www.israeldefense.co.il/system/files/2026-11/029d209b296c5f0bb932c1ae325fe9d768354b43e5c644ac410a6216cfce.jpg",
@@ -42325,7 +42325,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משלחת צי פרו בוחנת רכיבי מערכת ברק במהלך מבדקי הקבלה בתעשייה האווירית.",
      "credit_en": "Image: Marina de Guerra del Peru, via Israel Defense",
      "credit_he": "תמונה: צי פרו, דרך Israel Defense",
-     "local_src": "../digest/2026-11-02/img/j/A2.jpg"
+     "local_src": "https://www.israeldefense.co.il/system/files/2026-11/029d209b296c5f0bb932c1ae325fe9d768354b43e5c644ac410a6216cfce.jpg"
     },
     "A3": {
      "url": "https://www.israeldefense.co.il/system/files/2026-11/44821f4436a01877b7fb593daa0d2d60a74d95417fb696e6fe019dfbcddf.jpg",
@@ -42334,7 +42334,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוסי תובלה כבדים של חיל האוויר האמריקאי בהעמסת ציוד הגנה אווירית המיועד לישראל.",
      "credit_en": "Image: US Air Force, via Israel Defense",
      "credit_he": "תמונה: חיל האוויר של ארה\"ב, דרך Israel Defense",
-     "local_src": "../digest/2026-11-02/img/j/A3.jpg"
+     "local_src": "https://www.israeldefense.co.il/system/files/2026-11/44821f4436a01877b7fb593daa0d2d60a74d95417fb696e6fe019dfbcddf.jpg"
     },
     "A4": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/dron-perehoplyuvach-BLAZE-Latviya-e1793599582285-1.jpg",
@@ -42343,7 +42343,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן היירוט האוטונומי BLAZE מתוצרת Origin Robotics בשימוש צבא לטביה.",
      "credit_en": "Image: Latvian National Armed Forces (NBS), via Militarnyi",
      "credit_he": "תמונה: צבא לטביה (NBS), דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/A4.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/dron-perehoplyuvach-BLAZE-Latviya-e1793599582285-1.jpg"
     },
     "A5": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Leonardo-DRS-E-HEL.jpg",
@@ -42352,7 +42352,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הלייזר LOCUST X3 מתוצרת AeroVironment בשילוב מערכות הניהול התרמי של לאונרדו DRS.",
      "credit_en": "Image: Leonardo DRS / AeroVironment, via EDR Magazine",
      "credit_he": "תמונה: לאונרדו DRS / AeroVironment, דרך EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/A5.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Leonardo-DRS-E-HEL.jpg"
     },
     "A6": {
      "url": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/photo/next-generation-short-range-interceptor/NGSRI%203%20Image%20Resize.jpg",
@@ -42361,7 +42361,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "בדיקת רכיבי מיירט ה-QuadStar של לוקהיד מרטין בתא ההרכבה הרובוטי בארקנסו.",
      "credit_en": "Image: Lockheed Martin",
      "credit_he": "תמונה: לוקהיד מרטין",
-     "local_src": "../digest/2026-11-02/img/j/A6.jpg"
+     "local_src": "https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/photo/next-generation-short-range-interceptor/NGSRI%203%20Image%20Resize.jpg"
     },
     "A7": {
      "url": "https://thedefensepost.com/wp-content/uploads/2026/11/Skynex-Silvus-1.jpg",
@@ -42370,7 +42370,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח נ\"מ 35 מ\"מ של מערכת Skynex מתוצרת ריינמטאל בשילוב חיישני RF פסיביים.",
      "credit_en": "Image: Rheinmetall, via The Defense Post",
      "credit_he": "תמונה: ריינמטאל, דרך The Defense Post",
-     "local_src": "../digest/2026-11-02/img/j/A7.jpg"
+     "local_src": "https://thedefensepost.com/wp-content/uploads/2026/11/Skynex-Silvus-1.jpg"
     },
     "A8": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/pantsir-s1-azerbaijan.jpg",
@@ -42379,7 +42379,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת נ\"מ פנציר-S1 מתוצרת רוסיה המוצעת לרכש עבור צבא אזרבייג'ן.",
      "credit_en": "Image: Russian Ministry of Defence, via Militarnyi",
      "credit_he": "תמונה: משרד ההגנה של רוסיה, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/A8.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/pantsir-s1-azerbaijan.jpg"
     },
     "A9": {
      "url": "https://www.israeldefense.co.il/system/files/2026-11/download-70.jpeg",
@@ -42388,7 +42388,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הלייזר הדרום-קוריאנית Cheongwang מתוצרת Hanwha על גבי רק\"ם 8x8.",
      "credit_en": "Image: DAPA / Korea JoongAng Daily, via Israel Defense",
      "credit_he": "תמונה: DAPA, דרך Israel Defense",
-     "local_src": "../digest/2026-11-02/img/j/A9.jpg"
+     "local_src": "https://www.israeldefense.co.il/system/files/2026-11/download-70.jpeg"
     },
     "A10": {
      "url": "https://defence-industry.eu/wp-content/uploads/2026/11/Ericsson-introduces-5G-drone-detection-system-for-defense-and-critical-infrastructure-protection.jpg",
@@ -42397,7 +42397,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "אנטנות סלולר 5G של חברת אריקסון המשמשות כחיישני מכ\"ם פסיביים לגילוי רחפנים.",
      "credit_en": "Image: Ericsson, via Defence Industry Europe",
      "credit_he": "תמונה: אריקסון, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-02/img/j/A10.jpg"
+     "local_src": "https://defence-industry.eu/wp-content/uploads/2026/11/Ericsson-introduces-5G-drone-detection-system-for-defense-and-critical-infrastructure-protection.jpg"
     },
     "B1": {
      "url": "https://www.israeldefense.co.il/system/files/2026-11/dan-slasky.jpg",
@@ -42406,7 +42406,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "דן סלסקי, נשיא ומנכ\"ל קבוצת אירונאוטיקס.",
      "credit_en": "Image: Aeronautics Group, via Israel Defense",
      "credit_he": "תמונה: קבוצת אירונאוטיקס, דרך Israel Defense",
-     "local_src": "../digest/2026-11-02/img/j/B1.jpg"
+     "local_src": "https://www.israeldefense.co.il/system/files/2026-11/dan-slasky.jpg"
     },
     "B2": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/c-390-millennium-hellenic-air-force-1-1.jpg",
@@ -42415,7 +42415,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס תובלה ותדלוק Embraer KC-390 Millennium בצבעי חיל האוויר היווני.",
      "credit_en": "Image: Embraer, via Militarnyi",
      "credit_he": "תמונה: אמבראר, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/B2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/c-390-millennium-hellenic-air-force-1-1.jpg"
     },
     "B3": {
      "url": "https://www.armyrecognition.com/media/yootheme/cache/60/U.S.%20Army%20Flies%20Revolutionary%203D%20Printed%20Hybrid%20Engine%20to%20Power%20Next%20Generation%20Drones%201920%20001-6014b8e5.jpg",
@@ -42424,7 +42424,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם טקטי מדגם VICTOR בניסוי טיסה עם מנוע היברידי מודפס בתלת-ממד בדלק כבד.",
      "credit_en": "Image: US Army DEVCOM ARL, via Army Recognition",
      "credit_he": "תמונה: מעבדת המחקר של צבא ארה\"ב, דרך Army Recognition",
-     "local_src": "../digest/2026-11-02/img/j/B3.jpg"
+     "local_src": "https://www.armyrecognition.com/media/yootheme/cache/60/U.S.%20Army%20Flies%20Revolutionary%203D%20Printed%20Hybrid%20Engine%20to%20Power%20Next%20Generation%20Drones%201920%20001-6014b8e5.jpg"
     },
     "B4": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/Grid-Aero-Lifter-1.jpg",
@@ -42433,7 +42433,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם המטען האוטונומי הכבד Lifter של Grid Aero שייוצר בידי אושקוש דיפנס.",
      "credit_en": "Image: Grid Aero, via Militarnyi",
      "credit_he": "תמונה: Grid Aero, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/B4.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Grid-Aero-Lifter-1.jpg"
     },
     "B5": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/gerbera-2-zbilshena-1.jpg",
@@ -42442,7 +42442,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כטב\"ם התקיפה הרוסי המוגדל גרברה-2 לאחר בחינת המודיעין האוקראיני.",
      "credit_en": "Image: Defense Intelligence of Ukraine (DIU), via Militarnyi",
      "credit_he": "תמונה: המודיעין הצבאי של אוקראינה, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/B5.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/gerbera-2-zbilshena-1.jpg"
     },
     "B6": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/Reaktyvnyj-BM-35-perehoplennya-Skelya-425-e1793612719367-1.jpg",
@@ -42451,7 +42451,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רחפן יירוט FPV אוקראיני ננעל על כטב\"ם סילוני רוסי מדגם BM-35 שניות לפני השמדתו.",
      "credit_en": "Image: 425th Separate Assault Regiment Skelia, via Militarnyi",
      "credit_he": "תמונה: רגימנט 425 סקליה, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/B6.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Reaktyvnyj-BM-35-perehoplennya-Skelya-425-e1793612719367-1.jpg"
     },
     "B7": {
      "url": "https://www.armyrecognition.com/images/stories/news/2026/november/Iran%20confirms%20Russian%20Su-35%20fighter%20jets%20will%20arrive%20only%20after%20war%20with%20US%20and%20Israel%20as%20deliveries%20remain%20delayed%20925%20001.jpg",
@@ -42460,7 +42460,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס קרב סוחוי Su-35 שיועד לאיראן ואספקתו נדחתה עד לאחר המלחמה.",
      "credit_en": "Image: Vitaly Kuzmin, via Army Recognition",
      "credit_he": "תמונה: ויטאלי קוזמין, דרך Army Recognition",
-     "local_src": "../digest/2026-11-02/img/j/B7.jpg"
+     "local_src": "https://www.armyrecognition.com/images/stories/news/2026/november/Iran%20confirms%20Russian%20Su-35%20fighter%20jets%20will%20arrive%20only%20after%20war%20with%20US%20and%20Israel%20as%20deliveries%20remain%20delayed%20925%20001.jpg"
     },
     "B8": {
      "url": "https://www.armyrecognition.com/images/stories/news/2026/november/Leonardo%20to%20equip%20Proteus%20uncrewed%20helicopter%20with%20Shield%20AI%20Hivemind%20for%20autonomous%20maritime%20missions%20925%20001.jpg",
@@ -42469,7 +42469,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "המסוק הימי הבלתי מאויש Proteus של לאונרדו שיצויד בבינה מלאכותית של Shield AI.",
      "credit_en": "Image: Leonardo, via Army Recognition",
      "credit_he": "תמונה: לאונרדו, דרך Army Recognition",
-     "local_src": "../digest/2026-11-02/img/j/B8.jpg"
+     "local_src": "https://www.armyrecognition.com/images/stories/news/2026/november/Leonardo%20to%20equip%20Proteus%20uncrewed%20helicopter%20with%20Shield%20AI%20Hivemind%20for%20autonomous%20maritime%20missions%20925%20001.jpg"
     },
     "B9": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/s-8-1.jpg",
@@ -42478,7 +42478,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מסוק קרב Ka-52M חמוש ברקטות S-8VC עם מרעום קרבה ליירוט כטב\"מים.",
      "credit_en": "Image: SMOTRIM / Russian MoD, via Militarnyi",
      "credit_he": "תמונה: משרד ההגנה הרוסי, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/B9.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/s-8-1.jpg"
     },
     "C1": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/roem-1.jpg",
@@ -42487,7 +42487,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תותח ה\"רועם\" (SIGMA) האופני האוטומטי 155 מ\"מ של צה\"ל שפותח בידי אלביט מערכות.",
      "credit_en": "Image: Elbit Systems / IMOD, via Militarnyi",
      "credit_he": "תמונה: אלביט מערכות / משרד הביטחון, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/C1.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/roem-1.jpg"
     },
     "C2": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/Raketa-fylyn-na-puskovij-1-1-1.jpg",
@@ -42496,7 +42496,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תצלום ראשון של טיל השיוט הרוסי פילין עם מאיץ רקטי על משגר נייד.",
      "credit_en": "Image: Yuri Podolyaka / Russian OSINT, via Militarnyi",
      "credit_he": "תמונה: יורי פודוליאקה / מקורות גלויים, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/C2.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/Raketa-fylyn-na-puskovij-1-1-1.jpg"
     },
     "C3": {
      "url": "https://militarnyi.com/wp-content/uploads/2026/11/trotyl-1.jpg",
@@ -42505,7 +42505,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "לבני חומר נפץ TNT צבאי; רוסיה הטילה איסור יצוא על חומרי המוצא הכימיים.",
      "credit_en": "Image: Exilenova+ / Russian media, via Militarnyi",
      "credit_he": "תמונה: מקורות גלויים, דרך Militarnyi",
-     "local_src": "../digest/2026-11-02/img/j/C3.jpg"
+     "local_src": "https://militarnyi.com/wp-content/uploads/2026/11/trotyl-1.jpg"
     },
     "D1": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/combat-boat-90-cx.jpg",
@@ -42514,7 +42514,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סירת הקרב המודולרית CB90 CX מתוצרת סאאב בתצורת סיור עם מכ\"ם Giraffe 1X.",
      "credit_en": "Image: Saab, via EDR Magazine",
      "credit_he": "תמונה: סאאב, דרך EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/D1.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/combat-boat-90-cx.jpg"
     },
     "D2": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Naval-Group-Sirenha-Seaquest-S_03.jpg",
@@ -42523,7 +42523,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם הקרב Seaquest S של נאוול גרופ וסירנה במהלך הדגמת שיט אוטונומי מול נמל טולון.",
      "credit_en": "Image: Luca Peruzzi / EDR Magazine",
      "credit_he": "תמונה: לוקה פרוצי / EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/D2.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Naval-Group-Sirenha-Seaquest-S_03.jpg"
     },
     "D3": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Naval-Group-Rampart_01.jpg",
@@ -42532,7 +42532,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר ההגנה המודולרי הרב-משימתי Rampart של נאוול גרופ בעת ניסויי ירי חיים בים.",
      "credit_en": "Image: Naval Group / EDR Magazine",
      "credit_he": "תמונה: נאוול גרופ / EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/D3.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Naval-Group-Rampart_01.jpg"
     },
     "D4": {
      "url": "https://navaltoday.com/api/media/file/india.png?prefix=media",
@@ -42541,7 +42541,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מזכיר ההגנה של הודו וראשי המספנות GRSE ו-GSL בעת חילופי מסמכי החוזה לרכש 8 קורבטות בניו דלהי.",
      "credit_en": "Image: Indian Ministry of Defence, via Naval Today",
      "credit_he": "תמונה: משרד ההגנה של הודו, דרך Naval Today",
-     "local_src": "../digest/2026-11-02/img/j/D4.jpg"
+     "local_src": "https://navaltoday.com/api/media/file/india.png?prefix=media"
     },
     "D5": {
      "url": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3479.jpg",
@@ -42550,7 +42550,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מלחים בצי ארה\"ב טוענים טיל יירוט ESSM Block 2 לתוך תא שיגור אנכי מדגם Mk 41.",
      "credit_en": "Image: U.S. Navy, via DVIDS / Defence Blog",
      "credit_he": "תמונה: הצי האמריקאי, דרך DVIDS / Defence Blog",
-     "local_src": "../digest/2026-11-02/img/j/D5.jpg"
+     "local_src": "https://defence-blog.com/wp-content/uploads/2026/11/DB_image_3479.jpg"
     },
     "D6": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/AAC.jpg",
@@ -42559,7 +42559,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "גוף הסונאר הנגרר של מערכת ציד המוקשים Remote Mine Hunting מתוצרת חברת הבת AAC של תאלס.",
      "credit_en": "Image: Thales / Advanced Acoustic Concepts, via EDR Magazine",
      "credit_he": "תמונה: תאלס / AAC, דרך EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/D6.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/AAC.jpg"
     },
     "D7": {
      "url": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2300407469.jpg?w=1024",
@@ -42568,7 +42568,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "צוללת הענק האוטונומית Ghost Shark של אנדוריל והצי האוסטרלי במהלך ניסויי עומק בים.",
      "credit_en": "Image: Australian Department of Defence / Getty Images, via Defense News",
      "credit_he": "תמונה: משרד ההגנה האוסטרלי / Getty Images, דרך Defense News",
-     "local_src": "../digest/2026-11-02/img/j/D7.jpg"
+     "local_src": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2300407469.jpg?w=1024"
     },
     "D8": {
      "url": "https://www.navalnews.com/wp-content/uploads/2026/11/Type-212CD-Submarine.jpg",
@@ -42577,7 +42577,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית מחשב של צוללת ה-Type 212CD החשאית המשותפת לגרמניה ונורווגיה הנבנית במספנות TKMS בקיל.",
      "credit_en": "Image: TKMS, via Naval News",
      "credit_he": "תמונה: TKMS, דרך Naval News",
-     "local_src": "../digest/2026-11-02/img/j/D8.jpg"
+     "local_src": "https://www.navalnews.com/wp-content/uploads/2026/11/Type-212CD-Submarine.jpg"
     },
     "D9": {
      "url": "https://www.meretmarine.com/sites/default/files/styles/1440x810/public/images/2026-11/SNLE3G_Safran.jpg",
@@ -42586,7 +42586,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית מחשב של צוללת הטילים הבליסטיים הגרעינית מהדור השלישי (SNLE 3G) של צרפת.",
      "credit_en": "Image: Naval Group / DGA, via Mer et Marine",
      "credit_he": "תמונה: נאוול גרופ / DGA, דרך Mer et Marine",
-     "local_src": "../digest/2026-11-02/img/j/D9.jpg"
+     "local_src": "https://www.meretmarine.com/sites/default/files/styles/1440x810/public/images/2026-11/SNLE3G_Safran.jpg"
     },
     "D10": {
      "url": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/Indra-4.jpg",
@@ -42595,7 +42595,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערך האנטנה של מכ\"ם ה-AESA הימי הדיגיטלי Prisma-S מתוצרת אינדרה הספרדית.",
      "credit_en": "Image: Indra, via Naval Technology",
      "credit_he": "תמונה: אינדרה, דרך Naval Technology",
-     "local_src": "../digest/2026-11-02/img/j/D10.jpg"
+     "local_src": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/11/Indra-4.jpg"
     },
     "D11": {
      "url": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Thales-BeamTracker_01.jpg",
@@ -42604,7 +42604,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטע\"ד הלוחמה האלקטרונית הקומפקטי BeamTracker במשקל 5 ק\"ג מתוצרת תאלס עבור כטב\"מים וכשב\"מים.",
      "credit_en": "Image: Thales, via EDR Magazine",
      "credit_he": "תמונה: תאלס, דרך EDR Magazine",
-     "local_src": "../digest/2026-11-02/img/j/D11.jpg"
+     "local_src": "https://www.edrmagazine.eu/wp-content/uploads/2026/11/Thales-BeamTracker_01.jpg"
     },
     "D12": {
      "url": "https://news.usni.org/wp-content/uploads/2026/10/SSNX-concept-rendering.jpg",
@@ -42613,7 +42613,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדמיית קונספט של הצי האמריקאי לצוללת התקיפה הגרעינית מהדור הבא SSN(X) במשקל 10,100 טונות.",
      "credit_en": "Image: U.S. Navy / Congressional Research Service, via USNI News",
      "credit_he": "תמונה: הצי האמריקאי / CRS, דרך USNI News",
-     "local_src": "../digest/2026-11-02/img/j/D12.jpg"
+     "local_src": "https://news.usni.org/wp-content/uploads/2026/10/SSNX-concept-rendering.jpg"
     },
     "D13": {
      "url": "https://news.usni.org/wp-content/uploads/2026/11/Enterprise-towed-Newport-News.jpg",
@@ -42622,7 +42622,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "גוף נושאת המטוסים לשעבר אנטרפרייז נגרר בנהר ג'יימס ממספנות ניופורט ניוז במסעה האחרון.",
      "credit_en": "Image: U.S. Navy / Newport News Shipbuilding, via USNI News",
      "credit_he": "תמונה: הצי האמריקאי / ניופורט ניוז, דרך USNI News",
-     "local_src": "../digest/2026-11-02/img/j/D13.jpg"
+     "local_src": "https://news.usni.org/wp-content/uploads/2026/11/Enterprise-towed-Newport-News.jpg"
     },
     "D14": {
      "url": "https://navaltoday.com/api/media/file/Valpas-OPV.jpg",
@@ -42631,7 +42631,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "טקס השקת ספינת המשמר Valpas של משמר הגבול הפיני במספנות מאייר טורקו.",
      "credit_en": "Image: Meyer Turku, via Naval Today",
      "credit_he": "תמונה: מאייר טורקו, דרך Naval Today",
-     "local_src": "../digest/2026-11-02/img/j/D14.jpg"
+     "local_src": "https://navaltoday.com/api/media/file/Valpas-OPV.jpg"
     }
    }
   },
@@ -43858,7 +43858,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "נכסי הגנה אווירית רוסיים שהושמדו ושריפות במתקן התעשייתי במחוז רוסטוב.",
      "credit_en": "Image: Ukrainian Defense Forces / SBU, via United24 Media",
      "credit_he": "תמונה: כוחות הביטחון של אוקראינה / SBU, דרך United24 Media",
-     "local_src": "../digest/2026-11-01/img/j/A1.jpg"
+     "local_src": "https://www.kyivpost.com/post/41530"
     },
     "A2": {
      "url": "https://www.twz.com/air/avenger-short-range-air-defense-systems-deployed-around-trumps-mar-a-lago-residence",
@@ -43867,7 +43867,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מערכת הגנה אווירית קצרת-טווח AN/TWQ-1 Avenger מוצבת על דוברה בלגונת לייק וורת' בסמוך למאר-א-לאגו.",
      "credit_en": "Image: Local reporting / Social Media, via The War Zone (twz.com)",
      "credit_he": "תמונה: דיווחים מקומיים / רשתות חברתיות, דרך The War Zone (twz.com)",
-     "local_src": "../digest/2026-11-01/img/j/A2.jpg"
+     "local_src": "https://www.twz.com/air/avenger-short-range-air-defense-systems-deployed-around-trumps-mar-a-lago-residence"
     },
     "B1": {
      "url": "https://www.army.mil/article/280820/u_s_army_hades_prototype_completes_first_flight",
@@ -43876,7 +43876,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מטוס המנהלים Bombardier Global 6500 שעבר הסבה בידי Sierra Nevada Corporation עבור תוכנית הריגול והחישה העמוקה HADES של צבא ארה\"ב.",
      "credit_en": "Image: U.S. Army / Sierra Nevada Corporation, via Defence Blog",
      "credit_he": "תמונה: צבא ארה\"ב / Sierra Nevada Corporation, דרך Defence Blog",
-     "local_src": "../digest/2026-11-01/img/j/B1.jpg"
+     "local_src": "https://www.army.mil/article/280820/u_s_army_hades_prototype_completes_first_flight"
     },
     "B2": {
      "url": "https://defence-blog.com/uk-flies-protector-drone-on-first-home-operation-against-russian-frigate/",
@@ -43885,7 +43885,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי הטיס המאויש מרחוק MQ-9B Protector RG1 של חיל האוויר המלכותי הבריטי במהלך ניסויי טיסה מבצעיים מבסיס RAF Waddington.",
      "credit_en": "Image: UK Ministry of Defence / Crown Copyright, via Defence Blog",
      "credit_he": "תמונה: משרד ההגנה הבריטי / Crown Copyright, דרך Defence Blog",
-     "local_src": "../digest/2026-11-01/img/j/B2.jpg"
+     "local_src": "https://defence-blog.com/uk-flies-protector-drone-on-first-home-operation-against-russian-frigate/"
     },
     "B3": {
      "url": "https://asiapacificdefencereporter.com/quantum-systems-expands-into-japan-with-tokyo-office-and-partnerships/",
@@ -43894,7 +43894,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כלי טיס בלתי מאויש טקטי להמראה ונחיתה אנכית (eVTOL) מדגם Vector של חברת Quantum Systems.",
      "credit_en": "Image: Quantum Systems, via Militarnyi",
      "credit_he": "תמונה: Quantum Systems, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01/img/j/B3.jpg"
+     "local_src": "https://asiapacificdefencereporter.com/quantum-systems-expands-into-japan-with-tokyo-office-and-partnerships/"
     },
     "C1": {
      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/",
@@ -43903,7 +43903,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "משגר ה-NSM in a Box המכולתי של קונגסברג מרים ארבעה טילי שיוט ימיים במהלך ניסויי ירי חי בנורווגיה.",
      "credit_en": "Image: Kongsberg Defence & Aerospace, via Naval News",
      "credit_he": "תמונה: Kongsberg Defence & Aerospace, דרך Naval News",
-     "local_src": "../digest/2026-11-01/img/j/C1.jpg"
+     "local_src": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/kongsberg-demonstrates-containerised-nsm-in-a-box/"
     },
     "C2": {
      "url": "https://www.janes.com/osint-insights/defence-news/weapons/north-korea-test-launches-new-hwasong-19-icbm",
@@ -43912,7 +43912,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור הטיל הבין-יבשתי המוצק Hwasong-19 של צפון קוריאה ממשגר נייד כבד בעל 11 סרנים.",
      "credit_en": "Image: KCNA / Yonhap, via The Korea Times",
      "credit_he": "תמונה: KCNA / Yonhap, דרך The Korea Times",
-     "local_src": "../digest/2026-11-01/img/j/C2.jpg"
+     "local_src": "https://www.janes.com/osint-insights/defence-news/weapons/north-korea-test-launches-new-hwasong-19-icbm"
     },
     "C3": {
      "url": "https://dealroom.co/companies/wavepia",
@@ -43921,7 +43921,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "מודול MMIC מבוסס גליום-ניטריד (GaN) בהספק גבוה של חברת WAVEPIA המשמש בראשי ביות של טילים ומערכות מכ\"ם AESA.",
      "credit_en": "Image: WAVEPIA corporate catalog, via everything RF",
      "credit_he": "תמונה: קטלוג חברת WAVEPIA, דרך everything RF",
-     "local_src": "../digest/2026-11-01/img/j/C3.jpg"
+     "local_src": "https://dealroom.co/companies/wavepia"
     },
     "D1": {
      "url": "https://www.jpost.com/business-and-innovation/article-826970",
@@ -43930,7 +43930,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "רכב תת-ימי אוטונומי (AUV) של חברת-הבת ISE מבית אלביט מערכות המוצג לקראת תערוכת Euronaval 2026.",
      "credit_en": "Image: Elbit Systems / ISE, via The Jerusalem Post",
      "credit_he": "תמונה: אלביט מערכות / ISE, דרך The Jerusalem Post",
-     "local_src": "../digest/2026-11-01/img/j/D1.jpg"
+     "local_src": "https://www.jpost.com/business-and-innovation/article-826970"
     },
     "D2": {
      "url": "https://militarnyi.com/en/news/hellenic-navy-receives-second-french-built-fdi-frigate/",
@@ -43939,7 +43939,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "פריגטת הצי היווני HS Nearchos (F602) במהלך ניסויי ים ממספנות Naval Group בלוריאן.",
      "credit_en": "Image: Naval Group, via Militarnyi",
      "credit_he": "תמונה: Naval Group, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01/img/j/D2.jpg"
+     "local_src": "https://militarnyi.com/en/news/hellenic-navy-receives-second-french-built-fdi-frigate/"
     },
     "D3": {
      "url": "https://www.armyrecognition.com/news/navy-news/2026/chinas-gj-21-stealth-drone-completes-first-takeoff-and-landing-aboard-type-076-sichuan-amphibious-assault-ship",
@@ -43948,7 +43948,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תרשים ותצלום לוויין של ספינת הסער האמפיבית Type 076 מדגם Sichuan הכוללת מסילת שיגור אלקטרומגנטית (EMALS).",
      "credit_en": "Image: Chinese MoD / PLA Military Update, via Army Recognition",
      "credit_he": "תמונה: משרד ההגנה הסיני / PLA Military Update, דרך Army Recognition",
-     "local_src": "../digest/2026-11-01/img/j/D3.jpg"
+     "local_src": "https://www.armyrecognition.com/news/navy-news/2026/chinas-gj-21-stealth-drone-completes-first-takeoff-and-landing-aboard-type-076-sichuan-amphibious-assault-ship"
     },
     "D4": {
      "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/10/2026-10-30-rheinmetall-at-the-euronaval-exhibition",
@@ -43957,7 +43957,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "כשב\"ם הסיור המהיר Kraken K3 Scout במהלך ניסויי ים מהירים של היצרן טרם מסירה.",
      "credit_en": "Image: Rheinmetall / Kraken Technology Group, via Rheinmetall Newsroom",
      "credit_he": "תמונה: Rheinmetall / Kraken Technology Group, דרך חדר העיתונות של ריינמטאל",
-     "local_src": "../digest/2026-11-01/img/j/D4.jpg"
+     "local_src": "https://www.rheinmetall.com/en/media/news-watch/news/2026/10/2026-10-30-rheinmetall-at-the-euronaval-exhibition"
     },
     "D5": {
      "url": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/saabs-ocean-barrier-concept-builds-multi-layered-sensing-construct-for-maritime-border-security/",
@@ -43966,7 +43966,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "תפיסת ההפעלה של מערכת Ocean Barrier מבית סאאב, המציגה רשתות חיישנים תת-מימיות במעגלי גילוי, מניעה והגנה.",
      "credit_en": "Image: Saab, via Naval News",
      "credit_he": "תמונה: Saab, דרך Naval News",
-     "local_src": "../digest/2026-11-01/img/j/D5.jpg"
+     "local_src": "https://www.navalnews.com/event-news/euronaval-2026/2026/10/saabs-ocean-barrier-concept-builds-multi-layered-sensing-construct-for-maritime-border-security/"
     }
    }
   },
@@ -44403,7 +44403,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "יו\"ר רפאל פרופ' יובל שטייניץ נואם בוועידה הכלכלית של ביזפורטל.",
      "credit_en": "Photo: Bizportal, via Bizportal",
      "credit_he": "צילום: ביזפורטל, דרך Bizportal",
-     "local_src": "../digest/2026-11-01-evening/img/j/B1.jpg"
+     "local_src": "https://www.bizportal.co.il/BizTech/news/article/20046910"
     },
     "B2": {
      "url": "https://militarnyi.com/en/news/latvia-opens-military-ai-and-6g-communications-testing-center-with-u-s-participation/",
@@ -44412,7 +44412,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הדגמת רשתות קשר ותקשורת טקטית צבאית במרחב הבלטי.",
      "credit_en": "Photo: AlliedTechLabs / Latvian MoD, via Militarnyi",
      "credit_he": "צילום: AlliedTechLabs / משרד ההגנה הלטבי, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-evening/img/j/B2.jpg"
+     "local_src": "https://militarnyi.com/en/news/latvia-opens-military-ai-and-6g-communications-testing-center-with-u-s-participation/"
     },
     "B3": {
      "url": "https://militarnyi.com/en/news/two-su-30s-damaged-over-kaliningrad-on-october-21-earlier-reports-mentioned-only-one/",
@@ -44421,7 +44421,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הנזק הכבד לכנף מטוס ה-Su-30SM2 הרוסי (\"89 כחול\") בבסיס צ'רניאחובסק.",
      "credit_en": "Photo: OSINT Bees, via Militarnyi",
      "credit_he": "צילום: OSINT Bees, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-evening/img/j/B3.jpg"
+     "local_src": "https://militarnyi.com/en/news/two-su-30s-damaged-over-kaliningrad-on-october-21-earlier-reports-mentioned-only-one/"
     },
     "C1": {
      "url": "https://militarnyi.com/en/news/north-korea-tests-hwasong-11d-ballistic-missile-with-cluster-warhead/",
@@ -44430,7 +44430,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "שיגור טיל ה-Hwasong-11D עם ראש מצרר במהלך הניסוי ב-31 באוקטובר.",
      "credit_en": "Photo: KCNA, via Militarnyi",
      "credit_he": "צילום: KCNA, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-evening/img/j/C1.jpg"
+     "local_src": "https://militarnyi.com/en/news/north-korea-tests-hwasong-11d-ballistic-missile-with-cluster-warhead/"
     },
     "D1": {
      "url": "https://militarnyi.com/en/news/six-months-at-sea-on-solar-power-australia-to-provide-fiji-with-usvs-to-combat-drug-trafficking/",
@@ -44439,7 +44439,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "הרכבת כשב\"מי Bluebottle אוטונומיים של חברת Ocius באוסטרליה.",
      "credit_en": "Photo: Ocius Technology, via Militarnyi",
      "credit_he": "צילום: Ocius Technology, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-evening/img/j/D1.jpg"
+     "local_src": "https://militarnyi.com/en/news/six-months-at-sea-on-solar-power-australia-to-provide-fiji-with-usvs-to-combat-drug-trafficking/"
     },
     "D2": {
      "url": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/",
@@ -44448,7 +44448,7 @@ window.DEFENSE_BRIEF_FEED = {
      "caption_he": "סיירת הקרב הגרעינית הרוסית 'פיוטר הגדול' בהפלגה.",
      "credit_en": "Photo: Russian MoD / TASS, via Naval News",
      "credit_he": "צילום: משרד ההגנה הרוסי / TASS, דרך Naval News",
-     "local_src": "../digest/2026-11-01-evening/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/naval-news/2026/11/pyotr-velikiy-modernization-canceled/"
     }
    }
   },
@@ -45529,126 +45529,126 @@ window.DEFENSE_BRIEF_FEED = {
      "outlet": "Militarnyi",
      "credit_en": "Image: Vyriy Industries / ZRK.tech video still, via Militarnyi",
      "credit_he": "תמונה: מתוך תיעוד של Vyriy Industries / ZRK.tech, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A1.jpg"
+     "local_src": "https://militarnyi.com/uk/news/zirka-modernizuvaly-znyshhennya-reaktyvnyh/"
     },
     "A2": {
      "url": "https://militarnyi.com/en/news/lithuania-first-thales-gm200-mm-c-radar/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Thales Nederland, via Militarnyi",
      "credit_he": "תמונה: Thales Nederland, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A2.jpg"
+     "local_src": "https://militarnyi.com/en/news/lithuania-first-thales-gm200-mm-c-radar/"
     },
     "A3": {
      "url": "https://ukdefencejournal.org.uk/advanced-new-naval-anti-air-missiles-to-arrive-later-this-year/",
      "outlet": "UK Defence Journal",
      "credit_en": "Image: MBDA / UK MoD, via UK Defence Journal",
      "credit_he": "תמונה: MBDA / משרד ההגנה הבריטי, דרך UK Defence Journal",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A3.jpg"
+     "local_src": "https://ukdefencejournal.org.uk/advanced-new-naval-anti-air-missiles-to-arrive-later-this-year/"
     },
     "A4": {
      "url": "https://www.ukrinform.net/rubric-ato/4180116-ukraine-hopes-european-partners-will-help-fund-purchase-of-500-patriot-missiles-zelensky.html",
      "outlet": "Ukrinform",
      "credit_en": "Image: Office of the President of Ukraine, via Ukrinform",
      "credit_he": "תמונה: לשכת נשיא אוקראינה, דרך Ukrinform",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A4.jpg"
+     "local_src": "https://www.ukrinform.net/rubric-ato/4180116-ukraine-hopes-european-partners-will-help-fund-purchase-of-500-patriot-missiles-zelensky.html"
     },
     "A5": {
      "url": "https://www.ukrinform.net/rubric-ato/4180121-air-defense-neutralizes-122-russian-drones-two-banderol-missiles-on-saturday.html",
      "outlet": "Ukrinform",
      "credit_en": "Image: Ukrainian Air Force, via Ukrinform",
      "credit_he": "תמונה: חיל האוויר האוקראיני, דרך Ukrinform",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A5.jpg"
+     "local_src": "https://www.ukrinform.net/rubric-ato/4180121-air-defense-neutralizes-122-russian-drones-two-banderol-missiles-on-saturday.html"
     },
     "A6": {
      "url": "https://www.ukrinform.net/rubric-defense/4180045-cost-of-countering-aerial-threats-should-be-proportionate-to-threat-defense-industry-representative.html",
      "outlet": "Ukrinform",
      "credit_en": "Image: UNWAVE, via Ukrinform",
      "credit_he": "תמונה: UNWAVE, דרך Ukrinform",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/A6.jpg"
+     "local_src": "https://www.ukrinform.net/rubric-defense/4180045-cost-of-countering-aerial-threats-should-be-proportionate-to-threat-defense-industry-representative.html"
     },
     "B1": {
      "url": "https://www.wireisrael.com/news/iai-boeing-tankers-india-31",
      "outlet": "WireIsrael",
      "credit_en": "Image: Israel Aerospace Industries (IAI), via WireIsrael",
      "credit_he": "תמונה: התעשייה האווירית (IAI), דרך WireIsrael",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/B1.jpg"
+     "local_src": "https://www.wireisrael.com/news/iai-boeing-tankers-india-31"
     },
     "B2": {
      "url": "https://defence-blog.com/u-s-navy-orders-114-7m-power-upgrade-for-h-1-helicopters/",
      "outlet": "Defence Blog",
      "credit_en": "Image: US Marine Corps, via Defence Blog",
      "credit_he": "תמונה: חיל הנחתים האמריקאי, דרך Defence Blog",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/B2.jpg"
+     "local_src": "https://defence-blog.com/u-s-navy-orders-114-7m-power-upgrade-for-h-1-helicopters/"
     },
     "B3": {
      "url": "https://defence-industry.eu/gkn-aerospace-becomes-first-to-gain-nadcap-accreditation-for-laser-wire-additive-manufacturing/",
      "outlet": "Defence Industry Europe",
      "credit_en": "Image: GKN Aerospace, via Defence Industry Europe",
      "credit_he": "תמונה: GKN Aerospace, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/B3.jpg"
+     "local_src": "https://defence-industry.eu/gkn-aerospace-becomes-first-to-gain-nadcap-accreditation-for-laser-wire-additive-manufacturing/"
     },
     "B4": {
      "url": "https://defence-industry.eu/lockheed-martin-ceo-says-f-35-framework-backs-decade-of-production-and-850-u-s-jets/",
      "outlet": "Defence Industry Europe",
      "credit_en": "Image: US Air National Guard, via Defence Industry Europe",
      "credit_he": "תמונה: המשמר הלאומי האווירי של ארה\"ב, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/B4.jpg"
+     "local_src": "https://defence-industry.eu/lockheed-martin-ceo-says-f-35-framework-backs-decade-of-production-and-850-u-s-jets/"
     },
     "B5": {
      "url": "https://militarnyi.com/uk/news/alfa-sbu-likviduvala-ponad-2000-okupantiv/",
      "outlet": "Militarnyi",
      "credit_en": "Image: SBU video still, via Militarnyi",
      "credit_he": "תמונה: מתוך תיעוד של ה-SBU, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/B5.jpg"
+     "local_src": "https://militarnyi.com/uk/news/alfa-sbu-likviduvala-ponad-2000-okupantiv/"
     },
     "C1": {
      "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261101/n-korea-tests-cluster-bomb-mountable-on-tactical-ballistic-missiles",
      "outlet": "The Korea Times",
      "credit_en": "Image: KCNA / Yonhap, via The Korea Times",
      "credit_he": "תמונה: KCNA / Yonhap, דרך The Korea Times",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/C1.jpg"
+     "local_src": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261101/n-korea-tests-cluster-bomb-mountable-on-tactical-ballistic-missiles"
     },
     "C2": {
      "url": "https://defence-industry.eu/raytheon-critical-munitions-output-jumps-more-than-90-before-next-phase-of-missile-expansion/",
      "outlet": "Defence Industry Europe",
      "credit_en": "Image: Raytheon, via Defence Industry Europe",
      "credit_he": "תמונה: Raytheon, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/C2.jpg"
+     "local_src": "https://defence-industry.eu/raytheon-critical-munitions-output-jumps-more-than-90-before-next-phase-of-missile-expansion/"
     },
     "C3": {
      "url": "https://militarnyi.com/en/news/ukraine-damaged-all-units-novokuybyshevsky-oil-refinery/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Exilenova+, via Militarnyi",
      "credit_he": "תמונה: Exilenova+, דרך Militarnyi",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/C3.jpg"
+     "local_src": "https://militarnyi.com/en/news/ukraine-damaged-all-units-novokuybyshevsky-oil-refinery/"
     },
     "D1": {
      "url": "https://ukdefencejournal.org.uk/reactor-core-plant-upgrades-for-dreadnought-delivered/",
      "outlet": "UK Defence Journal",
      "credit_en": "Rendering: BAE Systems / UK MoD, via UK Defence Journal",
      "credit_he": "הדמיה: BAE Systems / משרד ההגנה הבריטי, דרך UK Defence Journal",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/D1.jpg"
+     "local_src": "https://ukdefencejournal.org.uk/reactor-core-plant-upgrades-for-dreadnought-delivered/"
     },
     "D2": {
      "url": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/",
      "outlet": "Naval News",
      "credit_en": "Image: Naval News",
      "credit_he": "תמונה: Naval News",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/D2.jpg"
+     "local_src": "https://www.navalnews.com/naval-news/2026/10/chess-dynamics-wins-3m-contract-for-indonesian-bung-tomo-class-frigates/"
     },
     "D3": {
      "url": "https://defence-industry.eu/australia-strengthens-aukus-submarine-maintenance-capability-ahead-of-rotational-force-launch-in-2027/",
      "outlet": "Defence Industry Europe",
      "credit_en": "Image: Australian Department of Defence / US Navy, via Defence Industry Europe",
      "credit_he": "תמונה: משרד ההגנה האוסטרלי / הצי האמריקאי, דרך Defence Industry Europe",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/D3.jpg"
+     "local_src": "https://defence-industry.eu/australia-strengthens-aukus-submarine-maintenance-capability-ahead-of-rotational-force-launch-in-2027/"
     },
     "D4": {
      "url": "https://gcaptain.com/taiwan-says-china-harassing-shipping-with-east-coast-patrol/",
      "outlet": "gCaptain (Reuters)",
      "credit_en": "Image: Ann Wang / Reuters, via gCaptain",
      "credit_he": "תמונה: Ann Wang / רויטרס, דרך gCaptain",
-     "local_src": "../digest/2026-11-01-0415Z/img/j/D4.jpg"
+     "local_src": "https://gcaptain.com/taiwan-says-china-harassing-shipping-with-east-coast-patrol/"
     }
    }
   },
@@ -47100,150 +47100,155 @@ window.DEFENSE_BRIEF_FEED = {
      "url": "https://militarnyi.com/en/news/us-state-department-sale-of-500-missiles-to-ukraine-for-patriot/",
      "outlet": "Image: Not stated (Militarnyi)",
      "credit_en": "Image: Not stated (Militarnyi)",
-     "credit_he": "תמונה: לא צוין (Militarnyi)"
+     "credit_he": "תמונה: לא צוין (Militarnyi)",
+     "local_src": "https://militarnyi.com/en/news/us-state-department-sale-of-500-missiles-to-ukraine-for-patriot/"
     },
     "A2": {
      "url": "https://militarnyi.com/en/news/hypersonic-interceptor-patriot-usa-660-million-pac-3-edge/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "https://militarnyi.com/en/news/hypersonic-interceptor-patriot-usa-660-million-pac-3-edge/"
     },
     "A3": {
      "url": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html",
      "outlet": "Ukrinform",
      "credit_en": "Image: lead image of the Ukrinform article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת Ukrinform; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A3.jpg"
+     "local_src": "https://www.ukrinform.net/rubric-ato/4179957-air-defenses-down-105-out-of-134-russian-drones-launched-at-ukraine-overnight.html"
     },
     "A4": {
      "url": "https://www.arabnews.pk/pakistan/coalition-intercepts-houthi-drones-over-riyadh-and-madinah-missile-in-south-3005729",
      "outlet": "Arab News",
      "credit_en": "Image: lead image of the Arab News article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת Arab News; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A4.jpg"
+     "local_src": "https://www.arabnews.pk/pakistan/coalition-intercepts-houthi-drones-over-riyadh-and-madinah-missile-in-south-3005729"
     },
     "A6": {
      "url": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/A6.jpg"
+     "local_src": "https://www.twz.com/land/avenger-assemble-surface-to-air-missiles-deployed-to-protect-trumps-mar-a-lago-estate"
     },
     "B2": {
      "url": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza",
      "outlet": "The War Zone",
      "credit_en": "Image: KCNA, via The War Zone",
      "credit_he": "תמונה: ‏KCNA, באמצעות The War Zone",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B2.jpg"
+     "local_src": "https://www.twz.com/air/highlights-from-north-koreas-drone-a-palooza"
     },
     "B3": {
      "url": "https://www.twz.com/news-features/general-atomics-developing-strike-recon-flying-wing-called-nextgen-that-uses-hybrid-electric-propulsion",
      "outlet": "The War Zone",
      "credit_en": "Image: General Atomics, via The War Zone",
      "credit_he": "תמונה: ‏General Atomics, באמצעות The War Zone",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B3.jpg"
+     "local_src": "https://www.twz.com/news-features/general-atomics-developing-strike-recon-flying-wing-called-nextgen-that-uses-hybrid-electric-propulsion"
     },
     "B4": {
      "url": "https://militarnyi.com/en/news/rafale-m-landing-indian-carrier-ins-vikrant/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Indian Navy Press Office, via Militarnyi",
      "credit_he": "תמונה: לשכת העיתונות של הצי ההודי, באמצעות Militarnyi",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B4.jpg"
+     "local_src": "https://militarnyi.com/en/news/rafale-m-landing-indian-carrier-ins-vikrant/"
     },
     "B5": {
      "url": "https://militarnyi.com/en/news/ukrspecsystems-lower-cost-ram-2x-black-betty-prytula-foundation-45/",
      "outlet": "Militarnyi",
      "credit_en": "Image: Serhiy Prytula Foundation, via Militarnyi",
      "credit_he": "תמונה: קרן סרהיי פריטולה, באמצעות Militarnyi",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B5.jpg"
+     "local_src": "https://militarnyi.com/en/news/ukrspecsystems-lower-cost-ram-2x-black-betty-prytula-foundation-45/"
     },
     "B6": {
      "url": "https://militarnyi.com/en/news/new-mokh-module-appears-in-geran-drones-diu/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "https://militarnyi.com/en/news/new-mokh-module-appears-in-geran-drones-diu/"
     },
     "B7": {
      "url": "https://www.twz.com/air/usaf-f-16s-back-on-alert-duty-in-aleutian-islands-for-first-time-in-decades",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "https://www.twz.com/air/usaf-f-16s-back-on-alert-duty-in-aleutian-islands-for-first-time-in-decades"
     },
     "C1": {
      "url": "https://militarnyi.com/en/news/10000-turbojet-engines-per-year-pbs-group-100-million-us-plant/",
      "outlet": "Militarnyi",
      "credit_en": "Image: PBS Group, via Militarnyi",
      "credit_he": "תמונה: ‏PBS Group, באמצעות Militarnyi",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/C1.jpg"
+     "local_src": "https://militarnyi.com/en/news/10000-turbojet-engines-per-year-pbs-group-100-million-us-plant/"
     },
     "C2": {
      "url": "https://militarnyi.com/en/news/neptune-missiles-drones-strike-rocket-fuel-plant-in-russia/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/C2.jpg"
+     "local_src": "https://militarnyi.com/en/news/neptune-missiles-drones-strike-rocket-fuel-plant-in-russia/"
     },
     "C3": {
      "url": "https://militarnyi.com/en/news/satellite-confirm-destruction-2-su-34s-neptune-missiles/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
-     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף"
+     "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
+     "local_src": "https://militarnyi.com/en/news/satellite-confirm-destruction-2-su-34s-neptune-missiles/"
     },
     "D1": {
      "url": "https://www.thejc.com/news/world/france-euronaval-arms-show-restricts-israeli-companies-gnmts2nm",
      "outlet": "The Jewish Chronicle",
      "credit_en": "Image: Getty, via The Jewish Chronicle",
      "credit_he": "תמונה: ‏Getty, באמצעות The Jewish Chronicle",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D1.jpg"
+     "local_src": "https://www.thejc.com/news/world/france-euronaval-arms-show-restricts-israeli-companies-gnmts2nm"
     },
     "D2": {
      "url": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/",
      "outlet": "gCaptain",
      "credit_en": "Image: U.S. Navy, via gCaptain",
      "credit_he": "תמונה: ‏U.S. Navy, באמצעות gCaptain",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D2.jpg"
+     "local_src": "https://gcaptain.com/hanwha-philly-shipyard-wins-269-million-u-s-navy-landing-ship-contract/"
     },
     "D3": {
      "url": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/",
      "outlet": "Naval News",
      "credit_en": "Image: Screenshot from a Naval Group video, via Naval News",
      "credit_he": "תמונה: צילום מסך מסרטון של Naval Group, באמצעות Naval News",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D3.jpg"
+     "local_src": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-receives-its-second-fdi-frigate-built-by-naval-group/"
     },
     "D4": {
      "url": "https://www.navalnews.com/naval-news/2026/10/belgium-transfers-first-tripartite-minehunter-bns-bellis-to-bulgarian-navy/",
      "outlet": "Naval News",
      "credit_en": "Image: Belgian Navy, via Naval News",
      "credit_he": "תמונה: הצי הבלגי, באמצעות Naval News",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D4.jpg"
+     "local_src": "https://www.navalnews.com/naval-news/2026/10/belgium-transfers-first-tripartite-minehunter-bns-bellis-to-bulgarian-navy/"
     },
     "D5": {
      "url": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims",
      "outlet": "The War Zone",
      "credit_en": "Image: lead image of the The War Zone article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת The War Zone; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D5.jpg"
+     "local_src": "https://www.twz.com/air/stealthy-gj-21-drone-has-launched-and-recovered-from-type-076-amphibious-assault-ship-china-claims"
     },
     "D6": {
      "url": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/",
      "outlet": "Naval News",
      "credit_en": "Image: lead image of the Naval News article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת Naval News; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D6.jpg"
+     "local_src": "https://www.navalnews.com/naval-news/2026/10/china-expands-construction-of-type-071-amphibious-warfare-ships-to-guangzhou/"
     },
     "D7": {
      "url": "https://militarnyi.com/en/news/french-aircraft-detected-russian-maritime-drones-early/",
      "outlet": "Militarnyi",
      "credit_en": "Image: lead image of the Militarnyi article; credit not stated in the page metadata",
      "credit_he": "תמונה: התמונה הראשית בכתבת Militarnyi; הקרדיט לא צוין במטא-נתונים של הדף",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/D7.jpg"
+     "local_src": "https://militarnyi.com/en/news/french-aircraft-detected-russian-maritime-drones-early/"
     },
     "B1": {
      "url": "https://www.einpresswire.com/article/953439001/hades-prototype-1-completes-first-flight-advances-army-deep-sensing-capability",
      "outlet": "EIN Presswire",
      "credit_en": "Photo: photographer not credited (U.S. Army release via EIN Presswire)",
      "credit_he": "צילום: הצלם לא צוין (הודעת צבא ארה\"ב דרך EIN Presswire)",
-     "local_src": "file:///C:/Users/talye/OneDrive/Documents/DefenseDigest/img/j/B1.jpg"
+     "local_src": "https://www.einpresswire.com/article/953439001/hades-prototype-1-completes-first-flight-advances-army-deep-sensing-capability"
     }
    }
   }
