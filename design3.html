@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Design 3 — Editorial Masthead & Floating Glass Capsule</title>
+  <style>
+    :root {
+      --bg: #f9f9fb;
+      --card: #ffffff;
+      --card-sec: #f4f4f7;
+      --border: rgba(0, 0, 0, 0.08);
+      --border-subtle: rgba(0, 0, 0, 0.05);
+      --text: #1a1a1c;
+      --text-sec: #5c5c60;
+      --text-ter: #8e8e93;
+      --accent: #0066cc;
+      --red: #d32f2f;
+      --amber: #d97706;
+      --capsule-bg: rgba(28, 28, 30, 0.85);
+      --capsule-text: #ffffff;
+      --capsule-border: rgba(255, 255, 255, 0.2);
+      --radius: 16px;
+      --radius-sm: 8px;
+      --shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d0e12;
+        --card: #16181f;
+        --card-sec: #1f222c;
+        --border: rgba(255, 255, 255, 0.1);
+        --border-subtle: rgba(255, 255, 255, 0.05);
+        --text: #f0f1f5;
+        --text-sec: #9fa3b0;
+        --text-ter: #686c78;
+        --accent: #3b82f6;
+        --red: #ef4444;
+        --amber: #f59e0b;
+        --capsule-bg: rgba(22, 24, 31, 0.9);
+        --capsule-text: #ffffff;
+        --capsule-border: rgba(255, 255, 255, 0.15);
+        --shadow: 0 4px 22px rgba(0, 0, 0, 0.45);
+      }
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body { overflow-x: clip; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Georgia, serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      overflow-wrap: break-word;
+      padding-block-end: calc(85px + max(1rem, env(safe-area-inset-bottom, 0px)));
+      padding-inline-start: env(safe-area-inset-left, 0px);
+      padding-inline-end: env(safe-area-inset-right, 0px);
+    }
+
+    :where(a, code) { overflow-wrap: anywhere; word-break: break-word; }
+
+    /* Grand Editorial Masthead */
+    header.editorial-masthead {
+      padding-top: max(1.25rem, env(safe-area-inset-top, 0px));
+      padding-inline: 1rem;
+      padding-bottom: 0.85rem;
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      text-align: center;
+      border-block-end: 2px solid var(--border);
+    }
+
+    .masthead-top-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.72rem;
+      font-family: Consolas, monospace;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-sec);
+      padding-bottom: 0.4rem;
+      border-block-end: 1px solid var(--border-subtle);
+      margin-bottom: 0.85rem;
+    }
+
+    .masthead-title {
+      font-size: 2.1rem;
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      margin: 0 0 0.35rem 0;
+      line-height: 1.15;
+    }
+
+    .masthead-tagline {
+      font-size: 0.88rem;
+      color: var(--text-sec);
+      font-style: italic;
+      margin-bottom: 1rem;
+    }
+
+    /* Underline Tabs */
+    .editorial-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-block-start: 0.25rem;
+    }
+    .editorial-tabs::-webkit-scrollbar { display: none; }
+
+    .tab-item {
+      background: none;
+      border: none;
+      border-block-end: 3px solid transparent;
+      padding: 0.4rem 0.2rem 0.6rem 0.2rem;
+      font-size: 0.86rem;
+      font-weight: 700;
+      color: var(--text-sec);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+
+    .tab-item.active {
+      color: var(--text);
+      border-block-end-color: var(--text);
+    }
+
+    /* Main Container */
+    main.editorial-main {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 1.25rem 1rem;
+    }
+
+    /* Design Navigation Banner */
+    .design-banner {
+      background: linear-gradient(135deg, rgba(0, 102, 204, 0.08), rgba(217, 119, 6, 0.06));
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.65rem 0.85rem;
+      margin-block-end: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .design-banner-links { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .design-tag {
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--accent);
+      border: 1px solid var(--border);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.78rem;
+    }
+    .design-tag.current { background: var(--text); color: var(--bg); border-color: var(--text); }
+
+    /* Top Carousel */
+    .carousel-section { margin-block-end: 2rem; }
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--red);
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .section-label::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+    .section-heading { font-size: 1.45rem; font-weight: 900; margin: 0 0 1rem 0; letter-spacing: -0.02em; }
+
+    .carousel-track {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-block: 4px;
+    }
+    .carousel-track::-webkit-scrollbar { display: none; }
+
+    .carousel-slide {
+      flex: 0 0 88%;
+      max-inline-size: 420px;
+      scroll-snap-align: center;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .carousel-img-wrap { inline-size: 100%; aspect-ratio: 16 / 9; background: var(--card-sec); position: relative; }
+    .carousel-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .carousel-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 3px 8px;
+      border-radius: 5px;
+      text-transform: uppercase;
+    }
+    html[dir="rtl"] .carousel-badge { left: auto; right: 10px; }
+
+    .carousel-content { padding: 1rem; flex: 1; display: flex; flex-direction: column; }
+    .carousel-meta { font-size: 0.72rem; font-weight: 700; color: var(--text-sec); text-transform: uppercase; margin-bottom: 0.35rem; }
+    .carousel-title { margin: 0 0 0.45rem 0; font-size: 1.05rem; font-weight: 800; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .carousel-desc { font-size: 0.85rem; color: var(--text-sec); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+    /* Feed Grid / Cards */
+    .feed-grid { display: flex; flex-direction: column; gap: 1.25rem; }
+    .story-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 1.25rem;
+    }
+    .story-card.high-priority { border-inline-start: 5px solid var(--red); }
+
+    .story-top-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-block-end: 0.65rem; }
+    .meta-pills { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+    .mini-badge {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: 5px;
+      background: var(--card-sec);
+      color: var(--text-sec);
+      text-transform: uppercase;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .mini-badge.priority-high { background: rgba(211, 47, 47, 0.12); color: var(--red); }
+    .mini-badge.domain { background: rgba(0, 102, 204, 0.1); color: var(--accent); }
+
+    .story-share-btn {
+      background: var(--card-sec);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 3px 9px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .story-title { margin: 0 0 0.75rem 0; font-size: 1.25rem; font-weight: 800; line-height: 1.35; }
+    .story-media-box { margin-block-end: 0.85rem; border-radius: var(--radius-sm); overflow: hidden; background: var(--card-sec); border: 1px solid var(--border-subtle); }
+    .story-media-box img { inline-size: 100%; aspect-ratio: 16 / 9; max-block-size: 280px; object-fit: cover; display: block; }
+    .media-caption { padding: 0.4rem 0.65rem; font-size: 0.72rem; color: var(--text-ter); display: flex; justify-content: space-between; align-items: center; border-block-start: 1px solid var(--border-subtle); font-family: -apple-system, sans-serif; }
+    .media-caption a { color: var(--accent); text-decoration: none; }
+
+    .story-lead { font-size: 0.96rem; line-height: 1.55; margin: 0 0 0.85rem 0; color: var(--text); }
+
+    .specs-disclosure { margin-block: 0.85rem; border-radius: var(--radius-sm); background: var(--card-sec); border: 1px solid var(--border-subtle); overflow: hidden; font-family: -apple-system, sans-serif; }
+    .specs-summary { padding: 0.65rem 0.85rem; font-size: 0.82rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; color: var(--accent); }
+    .specs-summary::-webkit-details-marker { display: none; }
+    .specs-chevron { transition: transform 0.2s ease; font-size: 0.72rem; }
+    details[open] .specs-chevron { transform: rotate(180deg); }
+    .specs-body { padding: 0.85rem; border-block-start: 1px solid var(--border-subtle); font-size: 0.86rem; }
+    .spec-block { margin-block-end: 0.5rem; }
+    .spec-block:last-child { margin-block-end: 0; }
+    .spec-label { font-weight: 700; color: var(--text); display: block; margin-bottom: 2px; }
+
+    .story-sources { margin-block-start: 0.85rem; padding-block-start: 0.6rem; border-block-start: 1px solid var(--border-subtle); font-size: 0.8rem; color: var(--text-sec); font-family: -apple-system, sans-serif; }
+    .story-sources a { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+    /* Floating Dynamic Island Capsule (Bottom Center) */
+    .floating-capsule {
+      position: fixed;
+      bottom: max(20px, env(safe-area-inset-bottom, 0px) + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 900;
+      background: var(--capsule-bg);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      color: var(--capsule-text);
+      border: 1px solid var(--capsule-border);
+      border-radius: 35px;
+      padding: 6px 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    .capsule-btn {
+      background: transparent;
+      border: none;
+      color: #fff;
+      font-size: 0.82rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 8px;
+      border-radius: 20px;
+      touch-action: manipulation;
+    }
+
+    .capsule-btn:active { background: rgba(255, 255, 255, 0.2); }
+
+    .capsule-divider {
+      width: 1px;
+      height: 16px;
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* Bottom Sheet (BLUF & Dates) */
+    .sheet-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: none;
+      align-items: flex-end;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    .sheet-backdrop.open { display: flex; }
+
+    .bottom-sheet {
+      background: var(--card);
+      border-radius: 20px 20px 0 0;
+      border: 1px solid var(--border);
+      width: 100%;
+      max-inline-size: 650px;
+      max-block-size: 80vh;
+      overflow-y: auto;
+      padding: 1.25rem 1.25rem calc(1.5rem + env(safe-area-inset-bottom, 0px)) 1.25rem;
+      animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    @keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+
+    .sheet-grabber { width: 36px; height: 4px; border-radius: 2px; background: var(--text-ter); margin: 0 auto 1rem auto; }
+    .sheet-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .sheet-title { font-size: 1.2rem; font-weight: 800; margin: 0; }
+    .sheet-close-btn { background: var(--card-sec); border: none; color: var(--text); font-weight: 700; padding: 6px 12px; border-radius: 12px; cursor: pointer; }
+
+    .bluf-sheet-list { margin: 0; padding-inline-start: 1.2rem; }
+    .bluf-sheet-list li { margin-block-end: 0.75rem; font-size: 0.95rem; line-height: 1.5; }
+
+    #capsule-toast {
+      position: fixed;
+      bottom: calc(75px + max(1rem, env(safe-area-inset-bottom, 0px)));
+      left: 50%;
+      transform: translateX(-50%) translateY(50px);
+      background: rgba(30, 30, 32, 0.92);
+      backdrop-filter: blur(12px);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      z-index: 9999;
+      opacity: 0;
+      transition: all 0.25s ease;
+      pointer-events: none;
+    }
+    #capsule-toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+  </style>
+</head>
+<body>
+  <!-- Grand Editorial Masthead -->
+  <header class="editorial-masthead">
+    <div class="masthead-top-line">
+      <span>UNCLASSIFIED / OSINT</span>
+      <span id="ui-meta-date">NOVEMBER 18, 2026</span>
+      <span>INTELLIGENCE BRIEF</span>
+    </div>
+    <h1 class="masthead-title" id="ui-brand-title">THE DEFENSE BRIEF</h1>
+    <div class="masthead-tagline" id="ui-brand-sub">Daily Strategic Weaponry, Procurement & Regional Implication Analysis</div>
+
+    <nav class="editorial-tabs" aria-label="Domain Tabs">
+      <button type="button" class="tab-item active" data-domain="all"><span id="tab-all-lbl">All Reports</span></button>
+      <button type="button" class="tab-item" data-domain="air"><span id="tab-air-lbl">Air Defense</span></button>
+      <button type="button" class="tab-item" data-domain="aerial"><span id="tab-aerial-lbl">Aerial</span></button>
+      <button type="button" class="tab-item" data-domain="strike"><span id="tab-strike-lbl">Strike</span></button>
+      <button type="button" class="tab-item" data-domain="naval"><span id="tab-naval-lbl">Naval</span></button>
+    </nav>
+  </header>
+
+  <main class="editorial-main" id="app-main"></main>
+
+  <!-- Floating Dynamic Island Capsule -->
+  <aside class="floating-capsule" role="navigation" aria-label="Quick Navigation">
+    <button type="button" class="capsule-btn" id="cap-lang" title="Toggle Language">🌐 <span id="cap-lang-text">עב</span></button>
+    <div class="capsule-divider"></div>
+    <button type="button" class="capsule-btn" id="cap-date" title="Select Date">📅 <span id="cap-date-text">Date</span></button>
+    <div class="capsule-divider"></div>
+    <button type="button" class="capsule-btn" id="cap-bluf" title="View BLUF Summary">⚡ BLUF</button>
+    <div class="capsule-divider"></div>
+    <button type="button" class="capsule-btn" id="cap-style" title="Switch Design">🎨 Style</button>
+  </aside>
+
+  <!-- BLUF Bottom Sheet -->
+  <div class="sheet-backdrop" id="bluf-sheet">
+    <div class="bottom-sheet">
+      <div class="sheet-grabber"></div>
+      <div class="sheet-header">
+        <h2 class="sheet-title" id="sheet-bluf-title">Executive Briefing (BLUF)</h2>
+        <button type="button" class="sheet-close-btn" id="close-bluf-sheet">Done</button>
+      </div>
+      <ul class="bluf-sheet-list" id="bluf-sheet-content"></ul>
+    </div>
+  </div>
+
+  <!-- Date Bottom Sheet -->
+  <div class="sheet-backdrop" id="date-sheet">
+    <div class="bottom-sheet">
+      <div class="sheet-grabber"></div>
+      <div class="sheet-header">
+        <h2 class="sheet-title">Select Edition Date</h2>
+        <button type="button" class="sheet-close-btn" id="close-date-sheet">Done</button>
+      </div>
+      <div id="date-list-buttons" style="display:flex;flex-direction:column;gap:8px;padding-block:6px;"></div>
+    </div>
+  </div>
+
+  <!-- Style / Design Bottom Sheet -->
+  <div class="sheet-backdrop" id="style-sheet">
+    <div class="bottom-sheet">
+      <div class="sheet-grabber"></div>
+      <div class="sheet-header">
+        <h2 class="sheet-title">Select Mobile Design</h2>
+        <button type="button" class="sheet-close-btn" id="close-style-sheet">Done</button>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px;padding-block:6px;">
+        <a href="design1.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d1">Design 1: Apple 2-Tier Bar</a>
+        <a href="design2.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d2">Design 2: Bottom Navigation Bar</a>
+        <a href="design3.html" class="tab-item active" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-d3">Design 3: Floating Capsule Masthead (Current)</a>
+        <a href="index.html" class="tab-item" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:12px;font-size:0.95rem;text-decoration:none;" id="link-classic">Classic Ops Terminal</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="capsule-toast" role="status" aria-live="polite"></div>
+
+  <script src="./feed_bundle.js"></script>
+  <script>
+    (function () {
+      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      const urlParams = new URLSearchParams(window.location.search);
+      let initialDate = feed.dates[0] || "";
+      if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
+        initialDate = urlParams.get("date");
+      }
+      let initialLang = "en";
+      if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
+        initialLang = urlParams.get("lang");
+      }
+
+      let state = {
+        date: initialDate,
+        lang: initialLang,
+        filter: "all"
+      };
+
+      const mainEl = document.getElementById("app-main");
+      const capLangText = document.getElementById("cap-lang-text");
+      const capDateText = document.getElementById("cap-date-text");
+
+      function hid(id, he) {
+        if (!he) return id;
+        const map = { A: "א", B: "ב", C: "ג", D: "ד" };
+        return (map[id[0]] || id[0]) + id.slice(1);
+      }
+
+      function esc(str) {
+        const div = document.createElement("div");
+        div.textContent = str || "";
+        return div.innerHTML;
+      }
+
+      function showToast(msg) {
+        const t = document.getElementById("capsule-toast");
+        if (!t) return;
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
+
+      window.shareStory = function(id, title) {
+        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#story-${id}`;
+        if (navigator.share) {
+          navigator.share({ title: title || "Defense Brief", text: title, url: shareUrl }).catch(() => {});
+        } else {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast(state.lang === "he" ? "הקישור הועתק" : "Link copied");
+          });
+        }
+      };
+
+      function updateLinks() {
+        const q = `?date=${encodeURIComponent(state.date)}&lang=${state.lang}`;
+        document.getElementById("link-d1").href = `design1.html${q}`;
+        document.getElementById("link-d2").href = `design2.html${q}`;
+        document.getElementById("link-d3").href = `design3.html${q}`;
+        document.getElementById("link-classic").href = `index.html${q}`;
+      }
+
+      function populateDateSheet() {
+        const dateContainer = document.getElementById("date-list-buttons");
+        dateContainer.innerHTML = feed.dates.map(d => `
+          <button type="button" class="tab-item ${d === state.date ? "active" : ""}" style="border:1px solid var(--border);border-radius:10px;text-align:center;padding:10px;font-size:0.9rem;" onclick="changeDate('${d}')">
+            ${d} ${d === feed.dates[0] ? "✨ (Latest)" : ""}
+          </button>
+        `).join("");
+      }
+
+      window.changeDate = function(newDate) {
+        state.date = newDate;
+        document.getElementById("date-sheet").classList.remove("open");
+        render();
+      };
+
+      function render() {
+        const d = feed.digests[state.date];
+        const he = state.lang === "he";
+        document.documentElement.lang = he ? "he" : "en";
+        document.documentElement.dir = he ? "rtl" : "ltr";
+
+        updateLinks();
+        populateDateSheet();
+
+        if (!d) {
+          mainEl.innerHTML = "<p>No digest loaded for this date.</p>";
+          return;
+        }
+
+        const allItems = d.items || [];
+
+        // Masthead copy
+        document.getElementById("ui-brand-title").textContent = he ? "סקירת טכנולוגיות ביטחוניות" : "THE DEFENSE BRIEF";
+        document.getElementById("ui-brand-sub").textContent = he
+          ? `מהדורת ${d.date} · ניתוח אמצעי לחימה, רכש והשלכות אסטרטגיות`
+          : `Daily Strategic Weaponry, Procurement & Regional Implication Analysis · ${d.date}`;
+        document.getElementById("ui-meta-date").textContent = d.date;
+
+        // Capsule text
+        capLangText.textContent = he ? "EN" : "עב";
+        capDateText.textContent = d.date.slice(5);
+
+        // Tab titles
+        document.getElementById("tab-all-lbl").textContent = he ? `כל הדיווחים (${allItems.length})` : `All Reports (${allItems.length})`;
+        document.getElementById("tab-air-lbl").textContent = he ? "הגנה אווירית" : "Air Defense";
+        document.getElementById("tab-aerial-lbl").textContent = he ? "אווירי" : "Aerial";
+        document.getElementById("tab-strike-lbl").textContent = he ? "תקיפה" : "Strike";
+        document.getElementById("tab-naval-lbl").textContent = he ? "ימי" : "Naval";
+
+        // BLUF sheet
+        const bluf = (d.digest && d.digest.bluf && d.digest.bluf[state.lang]) || [];
+        document.getElementById("sheet-bluf-title").textContent = he ? "תקציר מנהלים (BLUF)" : "Executive Briefing (BLUF)";
+        document.getElementById("bluf-sheet-content").innerHTML = bluf.map(b => `<li>${esc(b)}</li>`).join("");
+
+        const domLabels = he
+          ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה", naval: "ימי" }
+          : { air: "Air Defense", aerial: "Aerial", strike: "Strike", naval: "Naval" };
+
+        let filtered = allItems;
+        if (state.filter !== "all") {
+          filtered = allItems.filter(i => i.domain === state.filter);
+        }
+
+        let html = `
+          <div class="design-banner">
+            <div><strong>Design 3: Editorial Masthead & Floating Capsule</strong> — Compare layouts:</div>
+            <div class="design-banner-links">
+              <a href="design1.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">1: 2-Tier</a>
+              <a href="design2.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">2: Bottom Bar</a>
+              <span class="design-tag current">3: Capsule</span>
+              <a href="index.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">Classic</a>
+            </div>
+          </div>
+        `;
+
+        // Top Stories Carousel (Spotlight)
+        const highItems = allItems.filter(i => i.priority === "high");
+        const photos = d.photos || {};
+
+        if (state.filter === "all" && highItems.length > 0) {
+          const carouselSlides = highItems.slice(0, 6).map((it) => {
+            const pinfo = photos[it.id];
+            const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
+            const remoteUrl = pinfo ? (pinfo.url || "") : "";
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{this.style.display='none';}`
+              : `this.style.display='none';`;
+
+            return `
+              <article class="carousel-slide" onclick="document.getElementById('story-${it.id}').scrollIntoView({behavior:'smooth',block:'center'});">
+                <div class="carousel-img-wrap">
+                  ${primarySrc ? `<img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />` : ""}
+                  <span class="carousel-badge">${he ? "עדיפות" : "High Priority"}</span>
+                </div>
+                <div class="carousel-content">
+                  <div class="carousel-meta">
+                    <span>${esc(domLabels[it.domain])}</span> · <span>${esc(he ? it.countryHe : it.country)}</span>
+                  </div>
+                  <h3 class="carousel-title">${esc(it.h[state.lang])}</h3>
+                  <p class="carousel-desc">${esc(it.what[state.lang])}</p>
+                </div>
+              </article>
+            `;
+          }).join("");
+
+          html += `
+            <section class="carousel-section">
+              <div class="section-label">${he ? "בחירת המערכת" : "Editor's Spotlight"}</div>
+              <h2 class="section-heading">${he ? "התפתחויות מפתח באמל\"ח עולמי" : "Key Strategic Breakthroughs"}</h2>
+              <div class="carousel-track">
+                ${carouselSlides}
+              </div>
+            </section>
+          `;
+        }
+
+        // Feed List
+        html += `<section class="feed-section"><div class="feed-grid">`;
+
+        filtered.forEach((it) => {
+          const pinfo = photos[it.id];
+          const hasPhoto = Boolean(pinfo && (pinfo.url || pinfo.local_src));
+          const isHigh = it.priority === "high";
+
+          let mediaHtml = "";
+          if (hasPhoto) {
+            const primarySrc = pinfo.local_src || pinfo.url;
+            const remoteUrl = pinfo.url || "";
+            const cred = he ? (pinfo.credit_he || pinfo.credit_en) : pinfo.credit_en;
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';}`
+              : `const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';`;
+
+            mediaHtml = `
+              <div class="story-media-box">
+                <img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />
+                <div class="media-caption">
+                  <span>${esc(cred)}</span>
+                  <a href="${esc(remoteUrl || primarySrc)}" target="_blank" rel="noopener">${he ? "מקור תמונה" : "Photo Source"}</a>
+                </div>
+              </div>
+            `;
+          }
+
+          const hasDeepSpecs = Boolean(it.figs || it.why || it.israel);
+          let specsHtml = "";
+          if (hasDeepSpecs) {
+            specsHtml = `
+              <details class="specs-disclosure">
+                <summary class="specs-summary">
+                  <span>${he ? "🔍 ניתוח מעמיק והשלכות לישראל" : "🔍 Deep Dive & Strategic Implications"}</span>
+                  <span class="specs-chevron">▼</span>
+                </summary>
+                <div class="specs-body">
+                  ${it.figs ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "נתונים טכניים מרכזיים:" : "Key Specs & Figures:"}</span>
+                      <span>${esc(it.figs[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.why ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "למה זה משמעותי:" : "Why It Matters:"}</span>
+                      <span>${esc(it.why[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.israel ? `
+                    <div class="spec-block">
+                      <span class="spec-label" style="color:var(--accent);">${he ? "משמעויות לישראל ולמזה\"ת:" : "Israel & Regional Implications:"}</span>
+                      <span>${esc(it.israel[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                </div>
+              </details>
+            `;
+          }
+
+          const srcLinks = (it.src || [])
+            .map(s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
+            .join(" · ");
+
+          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
+          const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
+
+          html += `
+            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}">
+              <div class="story-top-meta">
+                <div class="meta-pills">
+                  <span class="mini-badge">${esc(hid(it.id, he))}</span>
+                  <span class="mini-badge domain">${esc(domLabels[it.domain])}</span>
+                  <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
+                  ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
+                </div>
+                <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
+                  <span>↗</span> ${he ? "שתף" : "Share"}
+                </button>
+              </div>
+
+              <h3 class="story-title">${esc(it.h[state.lang])}</h3>
+
+              ${mediaHtml}
+
+              <p class="story-lead">${esc(it.what[state.lang])}</p>
+
+              ${specsHtml}
+
+              <div class="story-sources">
+                <strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}
+              </div>
+            </article>
+          `;
+        });
+
+        html += `</div></section>`;
+        mainEl.innerHTML = html;
+      }
+
+      // Capsule buttons
+      document.getElementById("cap-lang").addEventListener("click", () => {
+        state.lang = state.lang === "en" ? "he" : "en";
+        render();
+      });
+
+      document.getElementById("cap-date").addEventListener("click", () => {
+        document.getElementById("date-sheet").classList.add("open");
+      });
+      document.getElementById("close-date-sheet").addEventListener("click", () => {
+        document.getElementById("date-sheet").classList.remove("open");
+      });
+
+      document.getElementById("cap-bluf").addEventListener("click", () => {
+        document.getElementById("bluf-sheet").classList.add("open");
+      });
+      document.getElementById("close-bluf-sheet").addEventListener("click", () => {
+        document.getElementById("bluf-sheet").classList.remove("open");
+      });
+
+      document.getElementById("cap-style").addEventListener("click", () => {
+        document.getElementById("style-sheet").classList.add("open");
+      });
+      document.getElementById("close-style-sheet").addEventListener("click", () => {
+        document.getElementById("style-sheet").classList.remove("open");
+      });
+
+      // Tabs
+      document.querySelectorAll(".tab-item").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".editorial-tabs .tab-item").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.filter = btn.getAttribute("data-domain");
+          render();
+        });
+      });
+
+      // Close sheets on backdrop click
+      document.querySelectorAll(".sheet-backdrop").forEach((sheet) => {
+        sheet.addEventListener("click", (e) => {
+          if (e.target === sheet) sheet.classList.remove("open");
+        });
+      });
+
+      render();
+    })();
+  </script>
+</body>
+</html>

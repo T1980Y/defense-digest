@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="referrer" content="no-referrer" />
+  <meta name="color-scheme" content="light dark" />
+  <title>Design 1 — Apple News 2-Tier Bar</title>
+  <style>
+    :root {
+      --bg: #f2f2f7;
+      --card: #ffffff;
+      --card-sec: #f8f9fa;
+      --border: rgba(60, 60, 67, 0.12);
+      --border-subtle: rgba(60, 60, 67, 0.07);
+      --text: #1c1c1e;
+      --text-sec: #636366;
+      --text-ter: #8e8e93;
+      --accent: #0071e3;
+      --red: #ff3b30;
+      --chip-bg: rgba(120, 120, 128, 0.12);
+      --chip-active: #1c1c1e;
+      --chip-active-text: #ffffff;
+      --header-bg: rgba(242, 242, 247, 0.88);
+      --shadow: 0 4px 16px rgba(0, 0, 0, 0.04);
+      --radius: 18px;
+      --radius-sm: 10px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --card: #1c1c1e;
+        --card-sec: #2c2c2e;
+        --border: rgba(255, 255, 255, 0.12);
+        --border-subtle: rgba(255, 255, 255, 0.07);
+        --text: #f5f5f7;
+        --text-sec: #a1a1a6;
+        --text-ter: #6e6e73;
+        --accent: #0a84ff;
+        --red: #ff453a;
+        --chip-bg: rgba(255, 255, 255, 0.12);
+        --chip-active: #ffffff;
+        --chip-active-text: #000000;
+        --header-bg: rgba(20, 20, 22, 0.88);
+        --shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+      }
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body { overflow-x: clip; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+      overflow-wrap: break-word;
+      padding-block-end: max(2rem, env(safe-area-inset-bottom, 0px));
+      padding-inline-start: env(safe-area-inset-left, 0px);
+      padding-inline-end: env(safe-area-inset-right, 0px);
+    }
+
+    :where(a, code) { overflow-wrap: anywhere; word-break: break-word; }
+
+    /* Sticky 2-Tier Header with Safe-Area Clearance */
+    header.tier-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: var(--header-bg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-block-end: 1px solid var(--border-subtle);
+      padding-top: max(0.6rem, env(safe-area-inset-top, 0px));
+    }
+
+    /* Row 1: Brand & Actions */
+    .header-row-1 {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 0.5rem 1rem 0.4rem 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .brand-badge {
+      width: 28px;
+      height: 28px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #ff3b30, #ff9500);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+
+    .brand-title-wrap {
+      min-width: 0;
+    }
+
+    .brand-title {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .brand-sub {
+      font-size: 0.72rem;
+      color: var(--text-sec);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .actions-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    /* iOS Segmented Control */
+    .segmented-control {
+      display: inline-flex;
+      background: var(--chip-bg);
+      padding: 2px;
+      border-radius: 8px;
+    }
+
+    .segment-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-sec);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 4px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+      min-height: 28px;
+    }
+
+    .segment-btn.active {
+      background: var(--card);
+      color: var(--text);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    .select-pill {
+      background: var(--chip-bg);
+      border: none;
+      color: var(--text);
+      font-size: 0.8rem;
+      font-weight: 600;
+      padding: 5px 8px;
+      border-radius: 8px;
+      outline: none;
+      cursor: pointer;
+      min-height: 32px;
+    }
+
+    .design-switch-btn {
+      background: var(--accent);
+      color: #ffffff;
+      border: none;
+      border-radius: 8px;
+      padding: 5px 9px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      min-height: 32px;
+    }
+
+    /* Row 2: Category Filter Pills */
+    .header-row-2 {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 0.35rem 1rem 0.65rem 1rem;
+      display: flex;
+      gap: 0.45rem;
+      overflow-x: auto;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .header-row-2::-webkit-scrollbar { display: none; }
+
+    .pill-btn {
+      flex: 0 0 auto;
+      background: var(--chip-bg);
+      color: var(--text);
+      border: none;
+      border-radius: 16px;
+      padding: 5px 12px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      touch-action: manipulation;
+    }
+
+    .pill-btn.active {
+      background: var(--chip-active);
+      color: var(--chip-active-text);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+    .pill-badge {
+      font-size: 0.7rem;
+      padding: 1px 5px;
+      border-radius: 8px;
+      background: rgba(120, 120, 128, 0.2);
+    }
+
+    .pill-btn.active .pill-badge {
+      background: rgba(255, 255, 255, 0.25);
+    }
+
+    /* Main Container */
+    main.apple-main {
+      max-inline-size: 1120px;
+      margin-inline: auto;
+      padding: 1rem;
+    }
+
+    /* Design Navigation Banner */
+    .design-banner {
+      background: linear-gradient(135deg, rgba(0, 113, 227, 0.08), rgba(255, 59, 48, 0.06));
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.65rem 0.85rem;
+      margin-block-end: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+    }
+
+    .design-banner-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .design-tag {
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: var(--card);
+      color: var(--accent);
+      border: 1px solid var(--border);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.78rem;
+    }
+
+    .design-tag.current {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    /* Section Headings */
+    .section-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--red);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-block-end: 0.25rem;
+    }
+
+    .section-eyebrow::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    .section-headline {
+      margin: 0 0 0.85rem 0;
+      font-size: 1.4rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    /* Top Stories Carousel */
+    .carousel-section { margin-block-end: 1.75rem; }
+    .carousel-track {
+      display: flex;
+      gap: 0.85rem;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      overscroll-behavior-x: contain;
+      touch-action: manipulation;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      padding-block: 4px;
+    }
+    .carousel-track::-webkit-scrollbar { display: none; }
+
+    .carousel-slide {
+      flex: 0 0 86%;
+      max-inline-size: 400px;
+      scroll-snap-align: center;
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-subtle);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.15s ease;
+    }
+    .carousel-slide:active { transform: scale(0.985); }
+
+    .carousel-img-wrap {
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      background-color: var(--card-sec);
+      position: relative;
+    }
+    .carousel-img-wrap img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    .carousel-priority-tag {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: var(--red);
+      color: #fff;
+      font-size: 0.65rem;
+      font-weight: 800;
+      padding: 3px 7px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    html[dir="rtl"] .carousel-priority-tag { left: auto; right: 8px; }
+
+    .carousel-content { padding: 0.85rem; flex: 1; display: flex; flex-direction: column; }
+    .carousel-tags { font-size: 0.7rem; font-weight: 700; color: var(--text-sec); text-transform: uppercase; margin-bottom: 0.35rem; }
+    .carousel-title { margin: 0 0 0.35rem 0; font-size: 1rem; font-weight: 700; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .carousel-desc { font-size: 0.82rem; color: var(--text-sec); margin: 0; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+    /* BLUF Card */
+    .bluf-card {
+      background: linear-gradient(135deg, rgba(0, 113, 227, 0.08), rgba(175, 82, 222, 0.05));
+      border: 1px solid rgba(0, 113, 227, 0.15);
+      border-radius: var(--radius);
+      padding: 1.15rem;
+      margin-block-end: 1.75rem;
+    }
+    .bluf-header { display: flex; align-items: center; gap: 8px; margin-block-end: 0.65rem; }
+    .bluf-icon { width: 22px; height: 22px; border-radius: 6px; background: var(--accent); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; }
+    .bluf-title { font-size: 1.05rem; font-weight: 800; margin: 0; }
+    .bluf-list { margin: 0; padding-inline-start: 1.15rem; }
+    .bluf-list li { margin-block-end: 0.5rem; font-size: 0.9rem; line-height: 1.45; }
+
+    /* Feed Grid / Cards */
+    .feed-grid { display: flex; flex-direction: column; gap: 1rem; }
+    .story-card {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border-subtle);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      padding: 1rem;
+    }
+    .story-card.high-priority { border-inline-start: 4px solid var(--red); }
+
+    .story-top-meta { display: flex; align-items: center; justify-content: space-between; gap: 6px; margin-block-end: 0.5rem; }
+    .meta-pills { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+    .mini-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 5px;
+      background: var(--chip-bg);
+      color: var(--text-sec);
+      text-transform: uppercase;
+    }
+    .mini-badge.priority-high { background: rgba(255, 59, 48, 0.12); color: var(--red); }
+    .mini-badge.domain { background: rgba(0, 113, 227, 0.1); color: var(--accent); }
+
+    .story-share-btn {
+      background: var(--chip-bg);
+      border: none;
+      color: var(--text);
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .story-title { margin: 0 0 0.65rem 0; font-size: 1.15rem; font-weight: 800; line-height: 1.35; }
+    .story-media-box { margin-block-end: 0.85rem; border-radius: var(--radius-sm); overflow: hidden; background: var(--card-sec); border: 1px solid var(--border-subtle); }
+    .story-media-box img { inline-size: 100%; aspect-ratio: 16 / 9; max-block-size: 280px; object-fit: cover; display: block; }
+    .media-caption { padding: 0.4rem 0.65rem; font-size: 0.72rem; color: var(--text-ter); display: flex; justify-content: space-between; align-items: center; border-block-start: 1px solid var(--border-subtle); }
+    .media-caption a { color: var(--accent); text-decoration: none; }
+
+    .story-lead { font-size: 0.94rem; line-height: 1.5; margin: 0 0 0.75rem 0; color: var(--text); }
+
+    .specs-disclosure { margin-block: 0.75rem; border-radius: var(--radius-sm); background: var(--card-sec); border: 1px solid var(--border-subtle); overflow: hidden; }
+    .specs-summary { padding: 0.6rem 0.75rem; font-size: 0.82rem; font-weight: 700; cursor: pointer; list-style: none; display: flex; align-items: center; justify-content: space-between; color: var(--accent); }
+    .specs-summary::-webkit-details-marker { display: none; }
+    .specs-chevron { transition: transform 0.2s ease; font-size: 0.72rem; }
+    details[open] .specs-chevron { transform: rotate(180deg); }
+    .specs-body { padding: 0.75rem; border-block-start: 1px solid var(--border-subtle); font-size: 0.86rem; }
+    .spec-block { margin-block-end: 0.5rem; }
+    .spec-block:last-child { margin-block-end: 0; }
+    .spec-label { font-weight: 700; color: var(--text); display: block; margin-bottom: 2px; }
+
+    .story-sources { margin-block-start: 0.75rem; padding-block-start: 0.5rem; border-block-start: 1px solid var(--border-subtle); font-size: 0.78rem; color: var(--text-sec); }
+    .story-sources a { color: var(--accent); text-decoration: none; font-weight: 600; }
+
+    /* Modal / Popups */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 999;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-box {
+      background: var(--card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      max-inline-size: 380px;
+      inline-size: 100%;
+      padding: 1.25rem;
+    }
+    .modal-title { font-size: 1.15rem; font-weight: 800; margin: 0 0 1rem 0; }
+    .modal-link-btn {
+      display: block;
+      padding: 0.75rem 1rem;
+      margin-block-end: 0.5rem;
+      border-radius: 10px;
+      background: var(--card-sec);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border: 1px solid var(--border-subtle);
+    }
+    .modal-link-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .modal-close-btn { width: 100%; margin-top: 0.5rem; padding: 0.6rem; border-radius: 8px; border: none; background: var(--chip-bg); color: var(--text); font-weight: 700; cursor: pointer; }
+
+    #apple-toast {
+      position: fixed;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: rgba(30, 30, 32, 0.92);
+      backdrop-filter: blur(12px);
+      color: #fff;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      z-index: 9999;
+      opacity: 0;
+      transition: all 0.25s ease;
+      pointer-events: none;
+    }
+    #apple-toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+  </style>
+</head>
+<body>
+  <!-- Sticky 2-Tier Header -->
+  <header class="tier-header">
+    <!-- Row 1: Brand & Actions -->
+    <div class="header-row-1">
+      <div class="brand-group">
+        <div class="brand-badge">🛡️</div>
+        <div class="brand-title-wrap">
+          <h1 class="brand-title" id="ui-brand-title">Defense Brief</h1>
+          <div class="brand-sub" id="ui-brand-sub">Loading...</div>
+        </div>
+      </div>
+      <div class="actions-group">
+        <select id="sel-date" class="select-pill" aria-label="Select digest date"></select>
+        <div class="segmented-control" role="group" aria-label="Language">
+          <button type="button" class="segment-btn active" id="btn-en">EN</button>
+          <button type="button" class="segment-btn" id="btn-he">עב</button>
+        </div>
+        <button type="button" class="design-switch-btn" id="open-design-modal">🎨 Designs</button>
+      </div>
+    </div>
+
+    <!-- Row 2: Category Filter Pills -->
+    <nav class="header-row-2" aria-label="Categories">
+      <button type="button" class="pill-btn active" data-domain="all">
+        <span id="pill-all-label">All</span>
+        <span class="pill-badge" id="count-all">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="high">
+        <span>🔥 <span id="pill-high-label">Top</span></span>
+        <span class="pill-badge" id="count-high">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="air">
+        <span id="pill-air-label">Air Defense</span>
+        <span class="pill-badge" id="count-air">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="aerial">
+        <span id="pill-aerial-label">Aerial</span>
+        <span class="pill-badge" id="count-aerial">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="strike">
+        <span id="pill-strike-label">Strike</span>
+        <span class="pill-badge" id="count-strike">0</span>
+      </button>
+      <button type="button" class="pill-btn" data-domain="naval">
+        <span id="pill-naval-label">Naval</span>
+        <span class="pill-badge" id="count-naval">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="apple-main" id="app-main"></main>
+
+  <!-- Design Switcher Modal -->
+  <div class="modal-backdrop" id="design-modal">
+    <div class="modal-box">
+      <h3 class="modal-title">Select Mobile Design</h3>
+      <a href="design1.html" class="modal-link-btn active" id="modal-link-d1">Design 1: Apple 2-Tier Bar (Current)</a>
+      <a href="design2.html" class="modal-link-btn" id="modal-link-d2">Design 2: Bottom Navigation Bar</a>
+      <a href="design3.html" class="modal-link-btn" id="modal-link-d3">Design 3: Floating Capsule Masthead</a>
+      <a href="index.html" class="modal-link-btn" id="modal-link-classic">Classic Ops Terminal</a>
+      <button type="button" class="modal-close-btn" id="close-design-modal">Close</button>
+    </div>
+  </div>
+
+  <div id="apple-toast" role="status" aria-live="polite"></div>
+
+  <script src="./feed_bundle.js"></script>
+  <script>
+    (function () {
+      const feed = window.DEFENSE_BRIEF_FEED || { dates: [], digests: {} };
+      const urlParams = new URLSearchParams(window.location.search);
+      let initialDate = feed.dates[0] || "";
+      if (urlParams.get("date") && feed.digests[urlParams.get("date")]) {
+        initialDate = urlParams.get("date");
+      }
+      let initialLang = "en";
+      if (urlParams.get("lang") === "he" || urlParams.get("lang") === "en") {
+        initialLang = urlParams.get("lang");
+      }
+
+      let state = {
+        date: initialDate,
+        lang: initialLang,
+        filter: "all"
+      };
+
+      const selDate = document.getElementById("sel-date");
+      const btnEn = document.getElementById("btn-en");
+      const btnHe = document.getElementById("btn-he");
+      const mainEl = document.getElementById("app-main");
+
+      feed.dates.forEach((d) => {
+        const opt = document.createElement("option");
+        opt.value = d;
+        opt.textContent = d;
+        selDate.appendChild(opt);
+      });
+      selDate.value = state.date;
+
+      function hid(id, he) {
+        if (!he) return id;
+        const map = { A: "א", B: "ב", C: "ג", D: "ד" };
+        return (map[id[0]] || id[0]) + id.slice(1);
+      }
+
+      function esc(str) {
+        const div = document.createElement("div");
+        div.textContent = str || "";
+        return div.innerHTML;
+      }
+
+      function showToast(msg) {
+        const t = document.getElementById("apple-toast");
+        if (!t) return;
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2000);
+      }
+
+      window.shareStory = function(id, title) {
+        const cleanOrigin = window.location.origin.includes("github.io") ? window.location.origin + window.location.pathname : window.location.href.split("?")[0].split("#")[0];
+        const shareUrl = `${cleanOrigin}?date=${encodeURIComponent(state.date)}&lang=${state.lang}#story-${id}`;
+        if (navigator.share) {
+          navigator.share({ title: title || "Defense Brief", text: title, url: shareUrl }).catch(() => {});
+        } else {
+          navigator.clipboard.writeText(shareUrl).then(() => {
+            showToast(state.lang === "he" ? "הקישור הועתק" : "Link copied");
+          });
+        }
+      };
+
+      function updateCategoryCounts(items) {
+        const he = state.lang === "he";
+        document.getElementById("count-all").textContent = items.length;
+        document.getElementById("count-high").textContent = items.filter(i => i.priority === "high").length;
+        document.getElementById("count-air").textContent = items.filter(i => i.domain === "air").length;
+        document.getElementById("count-aerial").textContent = items.filter(i => i.domain === "aerial").length;
+        document.getElementById("count-strike").textContent = items.filter(i => i.domain === "strike").length;
+        document.getElementById("count-naval").textContent = items.filter(i => i.domain === "naval").length;
+
+        document.getElementById("pill-all-label").textContent = he ? "הכל" : "All";
+        document.getElementById("pill-high-label").textContent = he ? "עדיפות" : "Top";
+        document.getElementById("pill-air-label").textContent = he ? "הגנה אווירית" : "Air Defense";
+        document.getElementById("pill-aerial-label").textContent = he ? "אווירי" : "Aerial";
+        document.getElementById("pill-strike-label").textContent = he ? "תקיפה" : "Strike";
+        document.getElementById("pill-naval-label").textContent = he ? "ימי" : "Naval";
+      }
+
+      function updateModalLinks() {
+        const q = `?date=${encodeURIComponent(state.date)}&lang=${state.lang}`;
+        document.getElementById("modal-link-d1").href = `design1.html${q}`;
+        document.getElementById("modal-link-d2").href = `design2.html${q}`;
+        document.getElementById("modal-link-d3").href = `design3.html${q}`;
+        document.getElementById("modal-link-classic").href = `index.html${q}`;
+      }
+
+      function render() {
+        const d = feed.digests[state.date];
+        const he = state.lang === "he";
+        document.documentElement.lang = he ? "he" : "en";
+        document.documentElement.dir = he ? "rtl" : "ltr";
+        btnEn.classList.toggle("active", !he);
+        btnHe.classList.toggle("active", he);
+
+        updateModalLinks();
+
+        if (!d) {
+          mainEl.innerHTML = "<p>No digest loaded for this date.</p>";
+          return;
+        }
+
+        const allItems = d.items || [];
+        updateCategoryCounts(allItems);
+
+        document.getElementById("ui-brand-title").textContent = he ? "סקירת ביטחון" : "Defense Brief";
+        document.getElementById("ui-brand-sub").textContent = he
+          ? `מהדורת ${d.date} · ${allItems.length} דיווחים`
+          : `Edition ${d.date} · ${allItems.length} reports`;
+
+        const domLabels = he
+          ? { air: "הגנה אווירית", aerial: "אווירי", strike: "תקיפה", naval: "ימי" }
+          : { air: "Air Defense", aerial: "Aerial", strike: "Strike", naval: "Naval" };
+
+        let filtered = allItems;
+        if (state.filter === "high") {
+          filtered = allItems.filter(i => i.priority === "high");
+        } else if (state.filter !== "all") {
+          filtered = allItems.filter(i => i.domain === state.filter);
+        }
+
+        let html = `
+          <div class="design-banner">
+            <div><strong>Design 1: Apple 2-Tier Bar</strong> — Compare with other designs:</div>
+            <div class="design-banner-links">
+              <span class="design-tag current">1: 2-Tier</span>
+              <a href="design2.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">2: Bottom Bar</a>
+              <a href="design3.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">3: Capsule</a>
+              <a href="index.html?date=${encodeURIComponent(state.date)}&lang=${state.lang}" class="design-tag">Classic</a>
+            </div>
+          </div>
+        `;
+
+        // 1. Top Stories Carousel
+        const highItems = allItems.filter(i => i.priority === "high");
+        const photos = d.photos || {};
+
+        if ((state.filter === "all" || state.filter === "high") && highItems.length > 0) {
+          const carouselSlides = highItems.slice(0, 6).map((it) => {
+            const pinfo = photos[it.id];
+            const primarySrc = pinfo ? (pinfo.local_src || pinfo.url) : "";
+            const remoteUrl = pinfo ? (pinfo.url || "") : "";
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{this.style.display='none';}`
+              : `this.style.display='none';`;
+
+            return `
+              <article class="carousel-slide" onclick="document.getElementById('story-${it.id}').scrollIntoView({behavior:'smooth',block:'center'});">
+                <div class="carousel-img-wrap">
+                  ${primarySrc ? `<img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />` : ""}
+                  <span class="carousel-priority-tag">${he ? "עדיפות" : "High Priority"}</span>
+                </div>
+                <div class="carousel-content">
+                  <div class="carousel-tags">
+                    <span>${esc(domLabels[it.domain])}</span> · <span>${esc(he ? it.countryHe : it.country)}</span>
+                  </div>
+                  <h3 class="carousel-title">${esc(it.h[state.lang])}</h3>
+                  <p class="carousel-desc">${esc(it.what[state.lang])}</p>
+                </div>
+              </article>
+            `;
+          }).join("");
+
+          html += `
+            <section class="carousel-section" aria-roledescription="carousel" aria-label="Top stories">
+              <div class="section-eyebrow">${he ? "כותרות מובילות" : "Top Stories"}</div>
+              <h2 class="section-headline">${he ? "התפתחויות מרכזיות" : "Spotlight"}</h2>
+              <div class="carousel-track">
+                ${carouselSlides}
+              </div>
+            </section>
+          `;
+        }
+
+        // 2. BLUF Card
+        const bluf = (d.digest && d.digest.bluf && d.digest.bluf[state.lang]) || [];
+        if (bluf.length && state.filter === "all") {
+          html += `
+            <section class="bluf-card">
+              <div class="bluf-header">
+                <div class="bluf-icon">⚡</div>
+                <h2 class="bluf-title">${he ? "תקציר מנהלים (BLUF)" : "Executive Briefing (BLUF)"}</h2>
+              </div>
+              <ul class="bluf-list">
+                ${bluf.map(b => `<li>${esc(b)}</li>`).join("")}
+              </ul>
+            </section>
+          `;
+        }
+
+        // 3. Feed Cards
+        html += `<section class="feed-section"><div class="feed-grid">`;
+
+        filtered.forEach((it) => {
+          const pinfo = photos[it.id];
+          const hasPhoto = Boolean(pinfo && (pinfo.url || pinfo.local_src));
+          const isHigh = it.priority === "high";
+
+          let mediaHtml = "";
+          if (hasPhoto) {
+            const primarySrc = pinfo.local_src || pinfo.url;
+            const remoteUrl = pinfo.url || "";
+            const cred = he ? (pinfo.credit_he || pinfo.credit_en) : pinfo.credit_en;
+            const fallbackJs = (remoteUrl && primarySrc !== remoteUrl)
+              ? `if(!this.dataset.fallback){this.dataset.fallback='1';this.src='${esc(remoteUrl)}';}else{const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';}`
+              : `const mb=this.closest('.story-media-box');if(mb)mb.style.display='none';`;
+
+            mediaHtml = `
+              <div class="story-media-box">
+                <img src="${esc(primarySrc)}" alt="${esc(it.h[state.lang])}" loading="lazy" referrerpolicy="no-referrer" onerror="${fallbackJs}" />
+                <div class="media-caption">
+                  <span>${esc(cred)}</span>
+                  <a href="${esc(remoteUrl || primarySrc)}" target="_blank" rel="noopener">${he ? "מקור תמונה" : "Photo Source"}</a>
+                </div>
+              </div>
+            `;
+          }
+
+          const hasDeepSpecs = Boolean(it.figs || it.why || it.israel);
+          let specsHtml = "";
+          if (hasDeepSpecs) {
+            specsHtml = `
+              <details class="specs-disclosure">
+                <summary class="specs-summary">
+                  <span>${he ? "🔍 ניתוח מעמיק והשלכות לישראל" : "🔍 Deep Dive & Strategic Implications"}</span>
+                  <span class="specs-chevron">▼</span>
+                </summary>
+                <div class="specs-body">
+                  ${it.figs ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "נתונים טכניים מרכזיים:" : "Key Specs & Figures:"}</span>
+                      <span>${esc(it.figs[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.why ? `
+                    <div class="spec-block">
+                      <span class="spec-label">${he ? "למה זה משמעותי:" : "Why It Matters:"}</span>
+                      <span>${esc(it.why[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                  ${it.israel ? `
+                    <div class="spec-block">
+                      <span class="spec-label" style="color:var(--accent);">${he ? "משמעויות לישראל ולמזה\"ת:" : "Israel & Regional Implications:"}</span>
+                      <span>${esc(it.israel[state.lang])}</span>
+                    </div>
+                  ` : ""}
+                </div>
+              </details>
+            `;
+          }
+
+          const srcLinks = (it.src || [])
+            .map(s => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.t)}</a>`)
+            .join(" · ");
+
+          const shareTitle = `${hid(it.id, he)}. ${it.h[state.lang]}`;
+          const safeTitle = esc(shareTitle).replace(/'/g, "&#39;");
+
+          html += `
+            <article class="story-card ${isHigh ? "high-priority" : ""}" id="story-${it.id}">
+              <div class="story-top-meta">
+                <div class="meta-pills">
+                  <span class="mini-badge">${esc(hid(it.id, he))}</span>
+                  <span class="mini-badge domain">${esc(domLabels[it.domain])}</span>
+                  <span class="mini-badge">${esc(he ? it.countryHe : it.country)}</span>
+                  ${isHigh ? `<span class="mini-badge priority-high">${he ? "עדיפות" : "HIGH PRIORITY"}</span>` : ""}
+                </div>
+                <button type="button" class="story-share-btn" onclick="shareStory('${it.id}', '${safeTitle}')" title="${he ? 'שתף' : 'Share'}">
+                  <span>↗</span> ${he ? "שתף" : "Share"}
+                </button>
+              </div>
+
+              <h3 class="story-title">${esc(it.h[state.lang])}</h3>
+
+              ${mediaHtml}
+
+              <p class="story-lead">${esc(it.what[state.lang])}</p>
+
+              ${specsHtml}
+
+              <div class="story-sources">
+                <strong>${he ? "מקורות: " : "Sources: "}</strong>${srcLinks}
+              </div>
+            </article>
+          `;
+        });
+
+        html += `</div></section>`;
+        mainEl.innerHTML = html;
+      }
+
+      // Event listeners
+      selDate.addEventListener("change", (e) => { state.date = e.target.value; render(); });
+      btnEn.addEventListener("click", () => { state.lang = "en"; render(); });
+      btnHe.addEventListener("click", () => { state.lang = "he"; render(); });
+
+      document.querySelectorAll(".pill-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll(".pill-btn").forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+          state.filter = btn.getAttribute("data-domain");
+          render();
+        });
+      });
+
+      // Modal open/close
+      const modal = document.getElementById("design-modal");
+      document.getElementById("open-design-modal").addEventListener("click", () => modal.classList.add("open"));
+      document.getElementById("close-design-modal").addEventListener("click", () => modal.classList.remove("open"));
+      modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("open"); });
+
+      render();
+    })();
+  </script>
+</body>
+</html>
