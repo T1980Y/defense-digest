@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    /* Hide scrollbars in phone screen */
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    
+    /* Dynamic Island */
+    .dynamic-island {
+      width: 90px;
+      height: 24px;
+      background: #000;
+      border-radius: 20px;
+      margin: 8px auto 4px auto;
+    }
+  </style>
+</head>
+<body class="bg-transparent text-[var(--foreground)] antialiased p-0 m-0">
+  <div class="py-2 space-y-4">
+    <!-- Controls Bar -->
+    <div class="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-[var(--card-border)]">
+      <div class="flex flex-wrap items-center gap-1.5" id="variant-btns">
+        <button type="button" class="px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--primary)] text-[var(--primary-foreground)] shadow-sm" data-variant="3a">3A: Neo-Editorial</button>
+        <button type="button" class="px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--card)] hover:bg-[var(--card-border)] text-[var(--foreground)] border border-[var(--card-border)]" data-variant="3b">3B: Tactical HUD</button>
+        <button type="button" class="px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--card)] hover:bg-[var(--card-border)] text-[var(--foreground)] border border-[var(--card-border)]" data-variant="3c">3C: Bento Grid</button>
+        <button type="button" class="px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--card)] hover:bg-[var(--card-border)] text-[var(--foreground)] border border-[var(--card-border)]" data-variant="3d">3D: Vision Glass</button>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <!-- Language Toggle -->
+        <button type="button" id="btn-toggle-lang" class="px-2.5 py-1 text-xs font-semibold rounded-md border border-[var(--card-border)] bg-[var(--card)] text-[var(--foreground)]">
+          🌐 <span id="lbl-lang">עברית</span>
+        </button>
+        <!-- Dark/Light Theme -->
+        <button type="button" id="btn-toggle-theme" class="px-2.5 py-1 text-xs font-semibold rounded-md border border-[var(--card-border)] bg-[var(--card)] text-[var(--foreground)]">
+          🌓 <span id="lbl-theme">Dark Phone</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Active Variant Description Banner -->
+    <div class="p-3 rounded-xl border border-[var(--card-border)] bg-[var(--card)] text-xs flex items-center justify-between gap-4">
+      <div>
+        <span class="font-bold text-[var(--foreground)]" id="desc-title">3A: Neo-Editorial (Evolved Design 3)</span>
+        <span class="text-[var(--muted-foreground)] ml-2" id="desc-text">Refined Financial Times/Foreign Affairs typography, warm neutral backdrops, pull-quote specs, and floating glass capsule.</span>
+      </div>
+      <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-[var(--primary)] text-[var(--primary-foreground)] shrink-0" id="desc-tag">High Readability</span>
+    </div>
+
+    <!-- Interactive iPhone Frame -->
+    <div class="flex justify-center py-2">
+      <!-- Phone Bezel -->
+      <div class="w-[360px] h-[640px] rounded-[48px] p-3 bg-neutral-900 border-[4px] border-neutral-700 shadow-2xl relative flex flex-col transition-all duration-300" id="phone-bezel">
+        <!-- Screen Container -->
+        <div class="w-full h-full rounded-[38px] overflow-hidden flex flex-col relative bg-white text-neutral-900 transition-colors duration-200" id="phone-screen" dir="ltr">
+          
+          <!-- iPhone Status Bar & Dynamic Island -->
+          <div class="w-full pt-1 px-5 flex items-center justify-between text-[11px] font-semibold shrink-0 select-none z-30" id="phone-status">
+            <span>9:41</span>
+            <div class="dynamic-island"></div>
+            <div class="flex items-center gap-1.5">
+              <span>5G</span>
+              <div class="w-5 h-2.5 rounded-sm border border-current p-0.5 flex items-center">
+                <div class="h-full w-full bg-current rounded-2xs"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone Inner Scrollable Content -->
+          <div class="flex-1 overflow-y-auto no-scrollbar pb-20 pt-1" id="phone-content">
+            <!-- Dynamic screen content injected by JS -->
+          </div>
+
+          <!-- Floating Glass Capsule in Screen (Fixed above bottom indicator) -->
+          <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-40 px-3.5 py-1.5 rounded-full backdrop-blur-xl border flex items-center gap-2.5 text-xs font-bold shadow-lg transition-all" id="phone-capsule">
+            <span class="cursor-pointer" id="cap-lang-btn">🌐 EN</span>
+            <span class="opacity-40">|</span>
+            <span class="cursor-pointer">📅 18 Nov</span>
+            <span class="opacity-40">|</span>
+            <span class="cursor-pointer text-amber-500">⚡ BLUF</span>
+          </div>
+
+          <!-- iPhone Home Bar Indicator -->
+          <div class="absolute bottom-1 left-1/2 -translate-x-1/2 w-32 h-1 bg-current opacity-30 rounded-full pointer-events-none z-50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      let state = {
+        variant: "3a",
+        isDark: true,
+        isHe: false
+      };
+
+      const phoneScreen = document.getElementById("phone-screen");
+      const phoneContent = document.getElementById("phone-content");
+      const phoneCapsule = document.getElementById("phone-capsule");
+      const lblLang = document.getElementById("lbl-lang");
+      const lblTheme = document.getElementById("lbl-theme");
+      const descTitle = document.getElementById("desc-title");
+      const descText = document.getElementById("desc-text");
+      const descTag = document.getElementById("desc-tag");
+
+      const variantsInfo = {
+        "3a": {
+          title: "3A: Neo-Editorial (Evolved Design 3)",
+          desc: "Grand serif masthead, sophisticated magazine hierarchy, pull-quote key specs cards, and floating glass capsule.",
+          tag: "Editorial Standard"
+        },
+        "3b": {
+          title: "3B: Tactical Intelligence HUD (Palantir / Anduril)",
+          desc: "Matte stealth black, luminous cyan telemetry accents, monospace data widgets, status indicators, and tactical HUD capsule.",
+          tag: "Tactical Ops"
+        },
+        "3c": {
+          title: "3C: Bento Grid Intelligence (Apple / Linear style)",
+          desc: "Modular bento layout, featured hero spotlight card, side-by-side metric tiles, clean pill tags, and compact floating capsule.",
+          tag: "Modern Modular"
+        },
+        "3d": {
+          title: "3D: Spatial Vision Glass (VisionOS / Translucent)",
+          desc: "Layered frosted glass acrylic cards, glowing accent rims, ambient blurred glows, minimalist typography, and floating capsule.",
+          tag: "Spatial UI"
+        }
+      };
+
+      function updateThemeClasses() {
+        if (state.isDark) {
+          phoneScreen.classList.remove("bg-slate-50", "text-neutral-900");
+          phoneScreen.classList.add("bg-[#090b10]", "text-neutral-100");
+          phoneCapsule.className = "absolute bottom-4 left-1/2 -translate-x-1/2 z-40 px-3.5 py-1.5 rounded-full backdrop-blur-xl bg-neutral-900/85 text-white border border-white/20 flex items-center gap-2.5 text-xs font-bold shadow-2xl";
+          lblTheme.textContent = "Light Phone";
+        } else {
+          phoneScreen.classList.remove("bg-[#090b10]", "text-neutral-100");
+          phoneScreen.classList.add("bg-slate-50", "text-neutral-900");
+          phoneCapsule.className = "absolute bottom-4 left-1/2 -translate-x-1/2 z-40 px-3.5 py-1.5 rounded-full backdrop-blur-xl bg-white/85 text-neutral-900 border border-black/10 flex items-center gap-2.5 text-xs font-bold shadow-xl";
+          lblTheme.textContent = "Dark Phone";
+        }
+      }
+
+      function renderMockContent() {
+        updateThemeClasses();
+        const he = state.isHe;
+        phoneScreen.dir = he ? "rtl" : "ltr";
+        lblLang.textContent = he ? "English" : "עברית";
+        document.getElementById("cap-lang-btn").textContent = he ? "🌐 עב" : "🌐 EN";
+
+        const info = variantsInfo[state.variant];
+        descTitle.textContent = info.title;
+        descText.textContent = info.desc;
+        descTag.textContent = info.tag;
+
+        let html = "";
+
+        if (state.variant === "3a") {
+          // --- 3A: NEO-EDITORIAL ---
+          const cardBg = state.isDark ? "bg-[#141721] border-white/10" : "bg-white border-black/5 shadow-sm";
+          const subText = state.isDark ? "text-neutral-400" : "text-neutral-500";
+          const secCard = state.isDark ? "bg-white/5 border-white/10" : "bg-neutral-50 border-neutral-200/80";
+
+          html = `
+            <!-- Editorial Masthead -->
+            <div class="px-4 pt-2 pb-3 text-center border-b ${state.isDark ? "border-white/10" : "border-neutral-200"}">
+              <div class="text-[9px] font-mono tracking-widest uppercase opacity-60 mb-1 flex justify-between">
+                <span>UNCLASSIFIED / OSINT</span>
+                <span>18 NOV 2026</span>
+              </div>
+              <h1 class="text-xl font-black font-serif tracking-tight mb-0.5">THE DEFENSE BRIEF</h1>
+              <p class="text-[10px] italic ${subText}">${he ? "סקירת אמל\"ח אסטרטגי, רכש ומשמעויות אזוריות" : "Strategic Defense Technology, Procurement & Analysis"}</p>
+              
+              <!-- Underline Tabs -->
+              <div class="flex justify-center gap-3 mt-2 text-[11px] font-bold">
+                <span class="pb-1 border-b-2 border-current">${he ? "הכל (45)" : "All (45)"}</span>
+                <span class="pb-1 opacity-50">${he ? "הגנה אווירית" : "Air Defense"}</span>
+                <span class="pb-1 opacity-50">${he ? "אווירי" : "Aerial"}</span>
+                <span class="pb-1 opacity-50">${he ? "תקיפה" : "Strike"}</span>
+              </div>
+            </div>
+
+            <!-- Spotlight Card -->
+            <div class="p-3">
+              <div class="text-[9px] font-black uppercase tracking-wider text-red-500 mb-1 flex items-center gap-1">
+                <span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> ${he ? "כותרת מובילה" : "TOP STORY"}
+              </div>
+              <div class="rounded-2xl overflow-hidden border ${cardBg}">
+                <div class="h-32 bg-cover bg-center relative" style="background-image:url('https://bharatshakti.in/wp-content/uploads/2026/11/Barak.jpg')">
+                  <span class="absolute top-2 left-2 bg-red-600 text-white text-[9px] font-black px-2 py-0.5 rounded uppercase">HIGH PRIORITY</span>
+                </div>
+                <div class="p-3">
+                  <div class="text-[10px] font-bold uppercase opacity-60 mb-1">AIR DEFENSE · ISRAEL / INDIA</div>
+                  <h3 class="text-xs font-bold leading-snug mb-1.5">${he ? "הודו מאשרת עסקת ענק לטילי ברק-1 וברק-8 עם התעשייה האווירית" : "India MoD Clears Massive Barak-1 & Barak-8 SAM Procurement with IAI"}</h3>
+                  <p class="text-[11px] ${subText} line-clamp-2">${he ? "משרד ההגנה ההודי אישר הצטיידות רחבת היקף במערכות יירוט ימיות מתקדמות." : "Indian Navy expands point-defense envelope across frontline destroyers."}</p>
+                  
+                  <!-- Pull-Quote Specs -->
+                  <div class="mt-2.5 p-2 rounded-lg border ${secCard} text-[10px]">
+                    <div class="font-bold text-blue-500 mb-0.5">${he ? "🔍 השלכות לישראל:" : "🔍 Strategic Impact:"}</div>
+                    <div class="${subText}">${he ? "מעמיק את שיתוף הפעולה הביטחוני ומחזק את צבר ההזמנות של התעשייה האווירית." : "Consolidates IAI's long-term naval defense partnership and production backlog."}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+        } else if (state.variant === "3b") {
+          // --- 3B: TACTICAL HUD (Palantir / Anduril) ---
+          html = `
+            <!-- Tactical Telemetry Masthead -->
+            <div class="px-3 pt-2 pb-2.5 bg-neutral-900 border-b border-cyan-500/30 text-cyan-400 font-mono">
+              <div class="flex justify-between items-center text-[9px] tracking-wider mb-1">
+                <span>[DEF-INTEL // SYSTEM ACTIVE]</span>
+                <span class="text-green-400">● LIVE FEED</span>
+              </div>
+              <div class="flex items-baseline justify-between">
+                <h1 class="text-base font-black tracking-tight text-white">DEFENSE.TERMINAL</h1>
+                <span class="text-[10px] text-cyan-400 font-bold">18-NOV-2026</span>
+              </div>
+              <!-- Telemetry Metrics Bar -->
+              <div class="grid grid-cols-4 gap-1 mt-2 text-center text-[9px]">
+                <div class="p-1 rounded bg-black/60 border border-cyan-500/20"><div class="font-bold text-white">45</div><div class="text-[8px] text-neutral-400">ITEMS</div></div>
+                <div class="p-1 rounded bg-black/60 border border-red-500/30"><div class="font-bold text-red-400">15</div><div class="text-[8px] text-neutral-400">HIGH</div></div>
+                <div class="p-1 rounded bg-black/60 border border-amber-500/20"><div class="font-bold text-amber-400">40</div><div class="text-[8px] text-neutral-400">PHOTOS</div></div>
+                <div class="p-1 rounded bg-black/60 border border-cyan-500/20"><div class="font-bold text-cyan-400">CONF</div><div class="text-[8px] text-neutral-400">STATUS</div></div>
+              </div>
+            </div>
+
+            <!-- Tactical Cards Feed -->
+            <div class="p-3 space-y-2.5">
+              <div class="rounded-xl p-3 bg-neutral-900/90 border-l-4 border-l-red-500 border border-neutral-800 font-mono shadow-md">
+                <div class="flex justify-between items-center text-[9px] mb-1.5">
+                  <span class="px-1.5 py-0.5 rounded bg-red-950 text-red-400 font-bold border border-red-800">PRIORITY: HIGH</span>
+                  <span class="text-neutral-400">#A1 // AIR-DEF</span>
+                </div>
+                <h3 class="text-xs font-bold text-white font-sans leading-snug mb-1">${he ? "שיגור מבצעי מוצלח של ברק-1 מסיפון ספינת טילים הודית" : "Barak-1 Vertical Point Defense Interceptor Milestone Fired by Indian Navy"}</h3>
+                <div class="h-28 rounded-lg overflow-hidden my-2 border border-neutral-700 bg-cover bg-center" style="background-image:url('https://bharatshakti.in/wp-content/uploads/2026/11/Barak.jpg')"></div>
+                <div class="text-[10px] text-neutral-300 font-sans leading-relaxed">${he ? "מיירט טילי שיוט מהיר טווח נקודתי פגע במטרה בדיוק מירבי." : "Vertical-launch interceptor intercepted supersonic cruise surrogate target at fleet exercise."}</div>
+                <div class="mt-2 pt-2 border-t border-neutral-800 flex justify-between text-[9px] text-cyan-400">
+                  <span>SPEC: 12KM RANGE // MACH 2.2</span>
+                  <span class="text-neutral-400">VIA: BHARATSHAKTI</span>
+                </div>
+              </div>
+            </div>
+          `;
+        } else if (state.variant === "3c") {
+          // --- 3C: BENTO GRID INTELLIGENCE ---
+          const bentoCard = state.isDark ? "bg-[#161a23] border-white/10" : "bg-white border-neutral-200/80 shadow-sm";
+          html = `
+            <!-- Bento Header -->
+            <div class="p-4 pb-2">
+              <div class="text-[10px] font-bold text-blue-500 uppercase tracking-wider mb-0.5">${he ? "דוח מודיעין יומי" : "DAILY INTELLIGENCE BRIEF"}</div>
+              <h1 class="text-xl font-extrabold tracking-tight">${he ? "סקירת ביטחון" : "Defense Brief"}</h1>
+              <div class="text-[11px] opacity-60">November 18, 2026 · 45 Verified Reports</div>
+            </div>
+
+            <!-- Bento Modular Grid -->
+            <div class="p-3 space-y-2.5">
+              <!-- Bento Spotlight Hero (Wide Card) -->
+              <div class="rounded-3xl p-3.5 border ${bentoCard} space-y-2">
+                <div class="flex justify-between items-center text-[10px]">
+                  <span class="font-bold text-red-500 bg-red-500/10 px-2 py-0.5 rounded-full">🔥 Top Spotlight</span>
+                  <span class="opacity-50 font-mono">#A1</span>
+                </div>
+                <div class="h-32 rounded-2xl overflow-hidden bg-cover bg-center" style="background-image:url('https://bharatshakti.in/wp-content/uploads/2026/11/Barak.jpg')"></div>
+                <h3 class="text-xs font-bold leading-snug">${he ? "עסקת ענק: הודו מזמינה מיירטי ברק נוספים מהתעשייה האווירית" : "IAI & Indian Navy Sign Major Expansion for Barak Defense Missiles"}</h3>
+                <p class="text-[11px] opacity-70 line-clamp-2">${he ? "רכש מקיף לחיזוק מעטפת ההגנה של שייטת המשחתות ההודית." : "Naval air defense modernization deal expands multi-layer naval defense."}</p>
+              </div>
+
+              <!-- Bento Split Metric Tiles -->
+              <div class="grid grid-cols-2 gap-2 text-center text-xs">
+                <div class="p-2.5 rounded-2xl border ${bentoCard}">
+                  <div class="text-lg font-black text-blue-500">15</div>
+                  <div class="text-[9px] font-bold opacity-60 uppercase">${he ? "עדיפות עליונה" : "High Priority"}</div>
+                </div>
+                <div class="p-2.5 rounded-2xl border ${bentoCard}">
+                  <div class="text-lg font-black text-emerald-500">100%</div>
+                  <div class="text-[9px] font-bold opacity-60 uppercase">${he ? "מקורות מאומתים" : "Verified Sources"}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        } else if (state.variant === "3d") {
+          // --- 3D: VISION GLASS (VisionOS Fluid) ---
+          html = `
+            <!-- Glass Ambient Glow Header -->
+            <div class="p-4 pb-3 relative">
+              <div class="absolute -top-10 -left-10 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl pointer-events-none"></div>
+              <div class="absolute -top-10 -right-10 w-40 h-40 bg-purple-500/20 rounded-full blur-3xl pointer-events-none"></div>
+              <div class="relative z-10 text-center">
+                <span class="inline-block px-2.5 py-0.5 rounded-full text-[9px] font-bold uppercase tracking-wider backdrop-blur-md bg-white/10 border border-white/20 mb-1.5 text-blue-400">⚡ Spatial Edition</span>
+                <h1 class="text-xl font-extrabold tracking-tight">${he ? "סקירת ביטחון" : "Defense Brief"}</h1>
+                <div class="text-[11px] opacity-60">18 November 2026</div>
+              </div>
+            </div>
+
+            <!-- Glass Card Feed -->
+            <div class="p-3 space-y-3">
+              <div class="rounded-3xl p-3.5 backdrop-blur-2xl bg-white/10 dark:bg-white/5 border border-white/20 dark:border-white/10 shadow-xl space-y-2">
+                <div class="flex justify-between items-center text-[10px]">
+                  <span class="px-2 py-0.5 rounded-full bg-red-500/20 text-red-400 font-bold border border-red-500/30">HIGH PRIORITY</span>
+                  <span class="opacity-60 text-[9px]">ISRAEL / GERMANY</span>
+                </div>
+                <div class="h-32 rounded-2xl overflow-hidden bg-cover bg-center border border-white/15" style="background-image:url('https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728294')"></div>
+                <h3 class="text-xs font-bold leading-snug">${he ? "מערכת חץ 3: גרמניה מאיצה את הפריסה המבצעית בבסיסי חיל האוויר" : "Arrow 3: Germany Accelerates Deployment Across Luftwaffe Bases"}</h3>
+                <p class="text-[11px] opacity-75">${he ? "הגנה אקסו-אטמוספרית מתקדמת מפני טילים בליסטיים ארוכי טווח." : "Exo-atmospheric defense shield against long-range ballistic missile threats."}</p>
+              </div>
+            </div>
+          `;
+        }
+
+        phoneContent.innerHTML = html;
+      }
+
+      // Variant Buttons
+      document.querySelectorAll("#variant-btns button").forEach(btn => {
+        btn.addEventListener("click", () => {
+          document.querySelectorAll("#variant-btns button").forEach(b => {
+            b.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--card)] hover:bg-[var(--card-border)] text-[var(--foreground)] border border-[var(--card-border)]";
+          });
+          btn.className = "px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[var(--primary)] text-[var(--primary-foreground)] shadow-sm";
+          state.variant = btn.getAttribute("data-variant");
+          renderMockContent();
+        });
+      });
+
+      // Language Toggle
+      document.getElementById("btn-toggle-lang").addEventListener("click", () => {
+        state.isHe = !state.isHe;
+        renderMockContent();
+      });
+
+      // Theme Toggle
+      document.getElementById("btn-toggle-theme").addEventListener("click", () => {
+        state.isDark = !state.isDark;
+        renderMockContent();
+      });
+
+      renderMockContent();
+    })();
+  </script>
+</body>
+</html>
