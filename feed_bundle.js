@@ -2548,12 +2548,12 @@ window.DEFENSE_BRIEF_FEED = {
    ],
    "notes": {
     "en": [
-     "All 48 items (37 full items, 11 briefly noted; 14 HIGH PRIORITY) were researched and verified inside the coverage window 2026-11-19T18:52:00Z – 2026-11-20T15:28:00Z.",
+     "All 48 items (37 full items, 11 briefly noted; 15 HIGH PRIORITY) were researched and verified inside the coverage window 2026-11-19T18:52:00Z – 2026-11-20T15:28:00Z.",
      "Zero-tolerance verification gatekeeper: Every item has at least one live HTTP 200-verified source URL prior to compilation; two-source verification achieved on 28 items, while single-source reports are tagged UNCONFIRMED.",
      "Authentic source photos only: All embedded photos were fetched directly from the cited articles and normalized to RGB JPEG; items without an authentic source photo appear cleanly without placeholder cards."
     ],
     "he": [
-     "כל 48 הפריטים (37 בהרחבה מלאה, 11 בקצרה; 14 בעדיפות גבוהה) נחקרו ואומתו בחלון הסיקור ‪2026-11-19T18:52:00Z – 2026-11-20T15:28:00Z‬.",
+     "כל 48 הפריטים (37 בהרחבה מלאה, 11 בקצרה; 15 בעדיפות גבוהה) נחקרו ואומתו בחלון הסיקור ‪2026-11-19T18:52:00Z – 2026-11-20T15:28:00Z‬.",
      "שער בדיקה קפדני (Gatekeeper): כל כתובות המקורות עברו אימות HTTP 200 GET לפני בניית המסמכים; פריטים מבוססי מקור יחיד סומנו כלא מאומתים.",
      "תמונות מקור אותנטיות בלבד: כל התמונות המוטמעות הורדו מהכתבות המצוטטות והומרו ל-JPEG תקני; פריטים ללא תמונת מקור זמינה מופיעים ללא כרטיסיות חלופיות."
     ]
