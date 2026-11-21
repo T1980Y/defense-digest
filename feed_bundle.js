@@ -1,7 +1,8 @@
 window.DEFENSE_BRIEF_FEED = {
- "updated_at": "2026-11-21",
+ "updated_at": "2026-11-21-evening",
  "dates": [
   "2026-11-21",
+  "2026-11-21-evening",
   "2026-11-20",
   "2026-11-20-evening",
   "2026-11-19",
@@ -2574,6 +2575,492 @@ window.DEFENSE_BRIEF_FEED = {
      "credit_en": "Photo: John Hill, via Janes",
      "credit_he": "צילום: John Hill, דרך Janes",
      "local_src": "img/2026-11-21/D8.jpg"
+    }
+   }
+  },
+  "2026-11-21-evening": {
+   "date": "2026-11-21_evening",
+   "doc_id": "2026-11-21-evening",
+   "title_suffix": "evening",
+   "wstart": "2026-11-21T15:24:00Z",
+   "wend": "2026-11-21T18:52:00Z",
+   "items": [
+    {
+     "id": "A1",
+     "domain": "air",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "Bahrain",
+     "countryHe": "בחריין",
+     "type": "Air Defense / Civil Alert",
+     "typeHe": "התרעת הגנה אווירית",
+     "date": "2026-11-21",
+     "h": {
+      "en": "Briefly noted: Bahrain activates urgent 'potential threat' shelter-in-place alert amid heightened Gulf tensions",
+      "he": "בקצרה: בחריין הפעילה התרעת חירום דחופה מפני 'איום פוטנציאלי' וקראה לתושבים להתפנות למרחבים מוגנים"
+     },
+     "what": {
+      "en": "Anadolu Agency and OSINT monitors reported on Nov 21 (~18:29Z–18:32Z) that Bahrain's Ministry of Interior issued an urgent public safety alert over an unspecified 'potential threat,' urging citizens and residents to remain calm, proceed to the nearest safe location, and avoid main roads unless necessary. No official Bahrain Defense Force intercept tally or impact location had been announced as of 18:52Z.",
+      "he": "סוכנות Anadolu ומקורות ניטור דיווחו ב-21 בנובמבר (~18:29Z–18:32Z) כי משרד הפנים של בחריין הפעיל התרעת חירום ציבורית מפני 'איום פוטנציאלי' שטיבו לא פורט, וקרא לאזרחים ולתושבים לשמור על קור רוח, להיכנס למרחב המוגן הקרוב ולהימנע מנסיעה בצירים ראשיים. נכון ל-18:52Z לא פורסם דיווח רשמי של צבא בחריין על יירוטים או נפילות."
+     },
+     "figs": {
+      "en": "Issuer: Bahrain Ministry of Interior (@moi_bahrain). Alert Time: Nov 21, 2026 (~18:29Z). Threat Type: Unspecified ('potential threat'). Intercept/Impact Confirmation: None as of 18:52Z.",
+      "he": "מפרסם: משרד הפנים של בחריין (@moi_bahrain). מועד התרעה: 21 בנובמבר 2026 (~18:29Z). סוג איום: לא פורט ('איום פוטנציאלי'). אישור יירוט/פגיעה: טרם נמסר."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (threat alert without confirmed weapon disclosure or intercept tally as of cutoff).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (התרעת חירום ללא פירוט אמצעי לחימה או יירוטים נכון לשעת הסגירה)."
+     },
+     "israel": {
+      "en": "Reflects ongoing Iranian and proxy aerial threat posture across Gulf states hosting U.S. naval and air-defense assets.",
+      "he": "משקף את המשך איום הכטב\"מים והטילים במדינות המפרץ המארחות נכסי חיל ים והגנ\"א אמריקאיים."
+     },
+     "src": [
+      {
+       "t": "Anadolu Agency",
+       "u": "https://www.aa.com.tr/en/middle-east/alerts-activated-in-bahrain-over-potential-threat-/4133173"
+      },
+      {
+       "t": "@sentdefender (Bahrain MoI alert)",
+       "u": "https://x.com/sentdefender/status/2124208704643850419"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — Official shelter-in-place alert confirmed via Anadolu Agency and @moi_bahrain graphic, but underlying aerial threat or interception remains unconfirmed.",
+      "he": "לא מאומת — עצם הפעלת התרעת החירום אומתה, אך טיב האיום או קיומם של שיגורים ויירוטים טרם אומתו."
+     },
+     "s": {
+      "en": "Bahrain's Interior Ministry issued an urgent shelter-in-place alert (~18:29Z) over an unspecified potential threat; no intercept details disclosed yet.",
+      "he": "משרד הפנים של בחריין הפעיל התרעת חירום דחופה (~18:29Z) מפני איום פוטנציאלי שטיבו טרם פורט."
+     },
+     "photo": "img/j/A1.jpg"
+    },
+    {
+     "id": "B1",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "Israel",
+     "countryHe": "ישראל",
+     "type": "Multi-Domain Readiness Exercise",
+     "typeHe": "תרגיל מוכנות רב-זרועי",
+     "date": "2026-11-21",
+     "h": {
+      "en": "IDF Southern Command launches multi-domain 'Shield and Storm' surprise-attack and infiltration defense exercise starting Nov 22",
+      "he": "פיקוד הדרום בצה\"ל פותח ב-22 בנובמבר בתרגיל הרב-זרועי 'מגן וסער' לתרחישי מתקפת פתע וחדירות באוויר, בים וביבשה"
+     },
+     "what": {
+      "en": "The IDF Spokesperson's Unit and Israeli Air Force announced on Nov 21 (15:31Z–15:43Z) that the Southern Command will begin a multi-day exercise dubbed 'Shield and Storm' ('Magen VeSa'ar') on Sunday, Nov 22, 2026. Ground forces, the IAF, and the Israeli Navy—alongside Israel Police, Magen David Adom, and Fire and Rescue services—will drill surprise attacks, simultaneous air/sea/land infiltration scenarios, and rapid community-defense coordination, generating heightened military aircraft, vehicle, and naval vessel movement across southern Israel.",
+      "he": "דובר צה\"ל וחיל האוויר הודיעו ב-21 בנובמבר (15:31Z–15:43Z) כי פיקוד הדרום יפתח ביום ראשון, 22 בנובמבר 2026, בתרגיל בן מספר ימים בשם 'מגן וסער'. במסגרת התרגיל ישתתפו כוחות היבשה, חיל האוויר וחיל הים לצד משטרת ישראל, מד\"א וכבאות והצלה לתרגול מתקפות פתע וניסיונות חדירה לשטח ישראל באוויר, בים וביבשה והגנת יישובים, תוך תנועה ערה של כלי טיס, כוחות ביטחון וכלי שיט בדרום הארץ."
+     },
+     "figs": {
+      "en": "Lead Command: IDF Southern Command. Participants: Ground Forces, Israeli Air Force (IAF), Israeli Navy, Israel Police, MDA, Fire & Rescue. Start Date: Nov 22, 2026 (pre-planned under 2026 Operations Directorate schedule). Scenarios: Surprise attack & air/sea/land infiltration.",
+      "he": "מוביל: פיקוד הדרום בצה\"ל. משתתפים: כוחות היבשה, חיל האוויר, חיל הים, משטרה, מד\"א וכב\"ה. תחילה: 22 בנובמבר 2026 (נקבע בגרף התרגילים השנתי של אמ\"ץ 2026). תרחישים: מתקפת פתע וחדירה באוויר, בים וביבשה."
+     },
+     "why": {
+      "en": "Tests integrated air-sea-land response and civil-military emergency coordination in southern Israel while embedding combat lessons from multi-front operations.",
+      "he": "בוחן את המענה המשולב אוויר-ים-יבשה והתיאום מול גופי ההצלה האזרחיים בדרום הארץ תוך הטמעת לקחי הלחימה הרב-זירתית."
+     },
+     "israel": {
+      "en": "Direct IDF Southern Command multi-branch readiness milestone integrating IAF, Navy, ground units, and local defense teams along southern approaches.",
+      "he": "נדבך ישיר במוכנות פיקוד הדרום, חיל האוויר וחיל הים להגנת יישובי הדרום והגבולות מפני מתקפת פתע משולבת."
+     },
+     "src": [
+      {
+       "t": "IDF (@idfonline)",
+       "u": "https://x.com/idfonline/status/2124163822856401159"
+      },
+      {
+       "t": "Israeli Air Force (@IAFsite)",
+       "u": "https://x.com/IAFsite/status/2124166699758809248"
+      },
+      {
+       "t": "Maariv",
+       "u": "https://www.maariv.co.il/breaking-news/article-1390739"
+      },
+      {
+       "t": "Srugim",
+       "u": "https://www.srugim.co.il/101016729-%D7%93%D7%95%D7%91%D7%A8-%D7%A6%D7%94%D7%9C-%D7%A2%D7%93%D7%9B%D7%95%D7%9F-%D7%97%D7%A9%D7%95%D7%91-%D7%9C%D7%A9%D7%91%D7%95%D7%A2-%D7%94%D7%A7%D7%A8%D7%95%D7%91"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Official IDF / IAF announcements corroborated by Israeli press (Maariv, Srugim). Carried no event-specific photograph.",
+      "he": "מאומת — הודעות רשמיות של דובר צה\"ל וחיל האוויר שאומתו בדיווחי מעריב וסרוגים (ללא תצלום ייעודי מהאירוע)."
+     },
+     "s": {
+      "en": "IDF Southern Command begins its multi-day 'Shield and Storm' joint air, sea, and land surprise-attack defense drill on Nov 22.",
+      "he": "פיקוד הדרום בצה\"ל יפתח ב-22 בנובמבר בתרגיל הרב-זרועי 'מגן וסער' לתרחישי מתקפת פתע וחדירות באוויר, בים וביבשה."
+     }
+    },
+    {
+     "id": "B2",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED",
+      "UPDATE"
+     ],
+     "country": "Canada / United States",
+     "countryHe": "קנדה / ארצות הברית",
+     "type": "Defense Cooperation Policy",
+     "typeHe": "מדיניות שיתוף פעולה ביטחוני",
+     "date": "2026-11-21",
+     "h": {
+      "en": "Briefly noted (UPDATE): Canada says U.S. defense ties unchanged after classified Hegseth memo while reaffirming goal to cut U.S. arms reliance",
+      "he": "בקצרה (עדכון): קנדה מבהירה כי שיתוף הפעולה הביטחוני עם ארה\"ב לא נפגע בעקבות מזכר הגסת', לצד שאיפה לצמצום תלות ברכש אמריקאי"
+     },
+     "what": {
+      "en": "Breaking Defense reported on Nov 21 (18:06Z) from the Halifax International Security Forum that Canadian Defence Minister David McGuinty had not seen Defense Secretary Pete Hegseth's classified memo restricting bilateral engagements and observed no operational impact on U.S.–Canada defense ties, while Pentagon spokesman Sean Parnell and Sen. Mike Rounds confirmed NORAD, NATO, Five Eyes, and deployed personnel remain unaffected as Ottawa pursues its domestic Defence Industrial Strategy to procure fewer U.S. weapons.",
+      "he": "אתר Breaking Defense דיווח ב-21 בנובמבר (18:06Z) מפורום הביטחון בהליפקס כי שר ההגנה של קנדה דייוויד מקגינטי הבהיר שאוטווה לא נחשפה לתוכן המזכר המסווג של מזכיר ההגנה פיט הגסת' ולא זיהתה פגיעה תפעולית בקשרים הביטחוניים עם ארה\"ב; דובר הפנטגון שון פרנל והסנאטור מייק ראונדס אישרו כי NORAD, נאט\"ו ובריתה של 'חמש העיניים' אינם נפגעים, בעוד קנדה מקדמת אסטרטגיה תעשייתית לצמצום התלות ברכש אמריקאי."
+     },
+     "figs": {
+      "en": "Officials: Canadian DefMin David McGuinty, Pentagon Spokesman Sean Parnell, Sen. Mike Rounds. Unaffected: NORAD, NATO, Five Eyes, U.S. personnel in Canada. Restricted: Unapproved flag-officer meetings & think-tank/social events.",
+      "he": "בכירים: שר ההגנה הקנדי דייוויד מקגינטי, דובר הפנטגון שון פרנל והסנאטור מייק ראונדס. ללא שינוי: NORAD, נאט\"ו, Five Eyes. מוגבל: מפגשי גנרלים ללא אישור ואירועים לא-אופרטיביים."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (defense-policy UPDATE to main run B12 without new hardware contract).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (עדכון מדיניות לפריט ב12 במהדורה הראשית ללא חוזה חימוש חדש)."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Breaking Defense",
+       "u": "https://breakingdefense.com/2026/11/canada-hasnt-seen-changes-to-defense-relationship-with-us-says-mcguinty/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED, UPDATE — Direct follow-up to 2026-11-21 main run B12 from on-record Halifax press briefings.",
+      "he": "מאומת, עדכון — המשך ישיר לפריט ב12 במהדורה הראשית על בסיס הצהרות פומביות בפורום הליפקס."
+     },
+     "s": {
+      "en": "UPDATE: Canada's DefMin McGuinty said U.S. defense ties remain unchanged despite Hegseth's memo, as Ottawa aims to reduce U.S. arms imports.",
+      "he": "עדכון: שר ההגנה הקנדי מקגינטי מסר כי קשרי ההגנה עם ארה\"ב נותרו ללא שינוי חרף מזכר הגסת', לצד יעד להפחתת רכש נשק אמריקאי."
+     },
+     "photo": "img/j/B2.jpg"
+    },
+    {
+     "id": "B3",
+     "domain": "aerial",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Military Space / ISR",
+     "typeHe": "חלל ביטחוני ומודיעין",
+     "date": "2026-11-21",
+     "h": {
+      "en": "Briefly noted: SpaceX Falcon 9 poised for Nov 22 NROL-136 launch of proliferated intelligence-gathering satellites for U.S. NRO",
+      "he": "בקצרה: טיל Falcon 9 של SpaceX ערוך לשיגור ב-22 בנובמבר של מקבץ לווייני המודיעין NROL-136 עבור משרד הסיור הלאומי האמריקאי"
+     },
+     "what": {
+      "en": "Spaceflight Now reported on Nov 21 (16:50Z) that SpaceX is preparing a Falcon 9 (booster B1097 on its 14th flight) at Vandenberg Space Force Base SLC-4E for the NROL-136 mission carrying an undisclosed batch of National Reconnaissance Office proliferated-architecture intelligence satellites—the NRO's fourth such launch in 2026 and 15th overall—targeted for a window opening Nov 22 at 12:16 UTC with an LZ-4 booster landing.",
+      "he": "אתר Spaceflight Now דיווח ב-21 בנובמבר (16:50Z) כי SpaceX השלימה את ההיערכות בבסיס החלל ונדנברג (SLC-4E) לשיגור משימת NROL-136 על גבי משגר Falcon 9 (שלב ראשון B1097 בטיסתו ה-14), שיישא מקבץ לווייני ביון בארכיטקטורה המבוזרת של ה-NRO (שיגור רביעי ב-2026 ו-15 בסך הכול), בחלון שיגור הנפתח ב-22 בנובמבר ב-‪12:16 UTC‬."
+     },
+     "figs": {
+      "en": "Mission: NROL-136 (15th NRO proliferated-architecture batch, 4th in 2026). Launcher: Falcon 9 B1097 (14th flight, targeting LZ-4). Launch Site: Vandenberg SFB SLC-4E. Window: Nov 22, 2026 at 12:16 UTC.",
+      "he": "משימה: NROL-136 (מקבץ 15 בארכיטקטורה המבוזרת של NRO). משגר: Falcon 9 B1097 (טיסה 14). אתר: בסיס ונדנברג SLC-4E. חלון שיגור: 22 בנובמבר 2026, ‪12:16 UTC‬."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (pre-launch readiness notice ahead of Nov 22 liftoff).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (היערכות מקדימה לקראת שיגור מתוכנן ב-22 בנובמבר)."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Spaceflight Now",
+       "u": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Spaceflight Now Nov 21 (16:50Z) pre-launch report (article carried an April 2026 file photo, omitted cleanly).",
+      "he": "מאומת — דיווח היערכות לשיגור מ-21 בנובמבר (16:50Z) ללא תצלום עדכני מהאירוע."
+     },
+     "s": {
+      "en": "SpaceX Falcon 9 (B1097) is slated to launch the NRO's 15th proliferated intelligence-satellite batch (NROL-136) on Nov 22 at 12:16 UTC.",
+      "he": "טיל Falcon 9 של SpaceX מתוכנן לשגר ב-22 בנובמבר ב-‪12:16 UTC‬ את משימת NROL-136 של לווייני הביון של ה-NRO."
+     }
+    },
+    {
+     "id": "D1",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED"
+     ],
+     "country": "United States",
+     "countryHe": "ארצות הברית",
+     "type": "Surface Combatant / Hypersonic Integration",
+     "typeHe": "אוניות שטח וטילים היפרסוניים",
+     "date": "2026-11-21",
+     "h": {
+      "en": "U.S. Navy sets May 2028–Aug 2030 overhaul for USS Michael Monsoor (DDG-1001) to install 600-ton LMVLS hypersonic missile module",
+      "he": "הצי האמריקאי קובע לו\"ז להסבת המשחתת USS Michael Monsoor (DDG-1001) בשנים 2028–2030 והתקנת מודול LMVLS של 600 טון לטילי CPS היפרסוניים"
+     },
+     "what": {
+      "en": "Naval News (16:14Z) and Army Recognition reported on Nov 21, 2026 that Naval Sea Systems Command (NAVSEA) PMS 500 issued special notices (N00024-27-R-4444 and N00024-27-R-4443) establishing a 27-month Depot Modernization Period from May 2028 to August 2030—with a Dec 9, 2026 Washington, D.C. industry day—to convert USS Michael Monsoor (DDG-1001) as the final Zumwalt-class destroyer armed with Conventional Prompt Strike (CPS) hypersonic missiles. Shipyard work will remove the ship's forward 155mm Advanced Gun Systems and install a prefabricated 600-long-ton (~610 metric ton) Large Missile Vertical Launch System (LMVLS) module (13.6 m x 6.3 m x 12.5 m) housing four large-diameter tubes for up to 12 CPS missiles, alongside Total Ship Computing Environment (TSCE), power-distribution, and chilled-water cooling upgrades ahead of 2030 Pearl Harbor basing.",
+      "he": "אתר Naval News (16:14Z) ו-Army Recognition דיווחו ב-21 בנובמבר 2026 כי מפקדת מערכות הים של הצי האמריקאי (NAVSEA PMS 500) פרסמה הודעות תעשייה (N00024-27-R-4444 ו-N00024-27-R-4443) הקובעות חלון שיפוץ והסבה בן 27 חודשים ממאי 2028 עד אוגוסט 2030 — לצד יום תעשייה ב-9 בדצמבר 2026 בוושינגטון — להטמעת טילי Conventional Prompt Strike (CPS) היפרסוניים במשחתת USS Michael Monsoor (DDG-1001). העבודה כוללת הסרת תותחי ה-155 מ\"מ הקדמיים (AGS) והתקנת מודול שיגור אנכי מוכן מסוג LMVLS במשקל כ-600 טון ארוך (כ-610 טון מטרי, ממדים ‪13.6 x 6.3 x 12.5‬ מ') עם ארבעה צינורות שיגור לעד 12 טילי CPS, לצד שדרוג מערכת המחשוב TSCE, מערכות החשמל והקירור לקראת פריסת שלוש המשחתות בפרל הארבור ב-2030."
+     },
+     "figs": {
+      "en": "Platform: USS Michael Monsoor (DDG-1001, Zumwalt-class). Authority: NAVSEA PMS 500 (N00024-27-R-4443 / -4444). Industry Day: Dec 9, 2026. Overhaul Window: May 2028–Aug 2030 (27 months). Payload Module: LMVLS (~600 long tons / 610 t; 13.6 x 6.3 x 12.5 m; 4 tubes, up to 12 CPS hypersonic missiles). Basing: Pearl Harbor by 2030 (with DDG-1000 & DDG-1002).",
+      "he": "פלטפורמה: המשחתת USS Michael Monsoor (DDG-1001). גורם: NAVSEA PMS 500 (N00024-27-R-4443 / -4444). יום תעשייה: 9 בדצמבר 2026. חלון הסבה: מאי 2028–אוגוסט 2030 (27 חודשים). מודול שיגור: LMVLS (~600 טון ארוך, 4 צינורות לעד 12 טילי CPS היפרסוניים). בסיס קבע מתוכנן: פרל הארבור עד 2030."
+     },
+     "why": {
+      "en": "Locks in the industrial schedule and heavy-lift engineering requirements to complete the U.S. Navy's three-ship stealth hypersonic surface strike squadron by 2030.",
+      "he": "מקבע את לוח הזמנים התעשייתי ודרישות ההנדסה הכבדה להשלמת שייטת שלוש משחתות החמקן החמושות בטילים היפרסוניים של הצי האמריקאי עד 2030."
+     },
+     "israel": {
+      "en": "No direct implication.",
+      "he": "אין השלכה ישירה."
+     },
+     "src": [
+      {
+       "t": "Army Recognition",
+       "u": "https://www.armyrecognition.com/news/navy-news/2026/u-s-navy-prepares-600-ton-hypersonic-launch-module-for-second-zumwalt-destroyer"
+      },
+      {
+       "t": "Naval News (@navalnewscom)",
+       "u": "https://x.com/navalnewscom/status/2124175482035785928"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED — Corroborated across Army Recognition and Naval News (@navalnewscom; navalnews.com primary URL intermittently returned HTTP 503 during automated checks, so @navalnewscom permalink is linked).",
+      "he": "מאומת — אומת ב-Army Recognition וב-Naval News (דרך קישור @navalnewscom בשל שגיאות HTTP 503 זמניות בשרת האתר)."
+     },
+     "s": {
+      "en": "NAVSEA set a May 2028–Aug 2030 schedule and Dec 9 industry day to fit USS Michael Monsoor (DDG-1001) with a 600-ton LMVLS for 12 CPS hypersonic missiles.",
+      "he": "NAVSEA קבעה לו\"ז למאי 2028–אוגוסט 2030 להתקנת מודול LMVLS של 600 טון ועד 12 טילי CPS היפרסוניים במשחתת USS Michael Monsoor."
+     },
+     "photo": "img/j/D1.jpg"
+    },
+    {
+     "id": "D2",
+     "domain": "naval",
+     "priority": "high",
+     "tier": "full",
+     "statuses": [
+      "CONFIRMED",
+      "UPDATE",
+      "CONFLICT"
+     ],
+     "country": "Russia / Finland / Ukraine",
+     "countryHe": "רוסיה / פינלנד / אוקראינה",
+     "type": "Maritime Drone Strike & Airspace Incident",
+     "typeHe": "תקיפת כטב\"ם ימית וחדירה אווירית",
+     "date": "2026-11-21",
+     "h": {
+      "en": "UPDATE / CONFLICT: Burnt-out bridge and life-raft crew rescue on Russian military RoRo Sparta II as Russian helicopter violates Finnish airspace",
+      "he": "עדכון / סתירה: חילוץ צוות מספינת הנשק הרוסית Sparta II הבוערת בים הבלטי לצד חדירת מסוק רוסי לשטח האווירי של פינלנד מול לובייסה"
+     },
+     "what": {
+      "en": "Evening updates from The Maritime Executive (18:26Z), Ukrinform/Yle (17:50Z), and The Moscow Times added major developments to today's drone strike on the sanctioned Russian military-logistics RoRo Sparta II (covered in main run D1): Finnish Border Guard afternoon briefings and imagery showed the vessel's bridge burnt out, fire in at least one deck container, and the crew abandoning ship into life rafts to be rescued by a nearby Russian merchant vessel—directly contradicting Leningrad and Kaliningrad governors' assertions that no evacuation was needed. Separately, Finland's Ministry of Defence disclosed that a Russian helicopter penetrated roughly 4.1 km into Finnish airspace off Loviisa at 12:34 local time during apparent survey/rescue activity linked to Sparta II, prompting a Border Guard violation investigation and airspace restrictions as Finnish PM Petteri Orpo warned 'war is spilling over into our immediate vicinity.'",
+      "he": "עדכוני הערב מ-The Maritime Executive (18:26Z), Ukrinform/Yle (17:50Z) ו-The Moscow Times חשפו פרטים חדשים ומשמעותיים בהמשך לתקיפת הכטב\"מים על ספינת הלוגיסטיקה הצבאית הרוסית המוטלת תחת סנקציות Sparta II (פריט ד1 במהדורה הראשית): תדרוך משמר הגבול הפיני ותצלומים מהשטח אישרו כי גשר הפיקוד של הספינה נשרף כליל, מכולה על הסיפון עלתה באש וצוות האונייה התפנה בסירות הצלה וחולץ בידי ספינת סוחר רוסית סמוכה — בסתירה ישירה לטענות מושלי לנינגרד וקלינינגרד כי לא נדרש פינוי. במקביל דיווח משרד ההגנה של פינלנד כי מסוק רוסי חדר כ-4.1 ק\"מ למרחב האווירי של פינלנד מול לובייסה בשעה 12:34 שעון מקומי במהלך פעילות הקשורה ככל הנראה לתקרית Sparta II, מה שהביא לפתיחת חקירת הפרת ריבונות ולהטלת מגבלות תעבורה אווירית."
+     },
+     "figs": {
+      "en": "Vessel: MV Sparta II (Oboronlogistica RoRo, 121 m, 8,194 dwt, anchor off Loviisa). New Damage/Rescue: Burnt-out bridge, deck container fire, crew rescued from life rafts; Russian tugs & Kapitan Sakharov responding. Airspace Breach: Russian helicopter ~4.1 km inside Finnish airspace off Loviisa (12:34 local).",
+      "he": "אונייה: Sparta II (אורך 121 מ', ‪8,194 dwt‬, עוגנת במים פיניים מול לובייסה). נזק ופינוי חדש: גשר פיקוד שרוף, מכולה בוערת, הצוות חולץ בסירות הצלה. הפרת ריבונות: מסוק רוסי חדר כ-4.1 ק\"מ לשטח פינלנד מול לובייסה (12:34)."
+     },
+     "why": {
+      "en": "Escalates a 1,000+ km Ukrainian maritime deep-strike against a sanctioned Russian military supply vessel into a direct NATO-border airspace incident and salvage crisis inside Finnish waters.",
+      "he": "מרחיב תקיפת כטב\"מים ארוכת-טווח נגד אוניית אספקה צבאית רוסית לתקרית חדירה אווירית ישירה למדינה חברת נאט\"ו ולמשבר חילוץ במים הטריטוריאליים של פינלנד."
+     },
+     "israel": {
+      "en": "Demonstrates operational vulnerability of unescorted naval logistics ships to 1,000+ km one-way attack drones in congested maritime corridors.",
+      "he": "ממחיש את פגיעותן של אוניות לוגיסטיקה צבאיות לא-מלוות בפני כטב\"מי תקיפה לטווח של למעלה מ-1,000 ק\"מ בנתיבי שיט צפופים."
+     },
+     "src": [
+      {
+       "t": "The Maritime Executive",
+       "u": "https://maritime-executive.com/article/russian-military-roro-attacked-by-drones-in-the-baltic-near-finland"
+      },
+      {
+       "t": "Ukrinform (Finnish MoD / Yle)",
+       "u": "https://www.ukrinform.net/rubric-emergencies/4187228-finland-suspects-russian-helicopter-of-violating-its-airspace.html"
+      },
+      {
+       "t": "The Moscow Times",
+       "u": "https://www.themoscowtimes.com/2026/11/21/russia-says-cargo-vessel-struck-by-drones-in-gulf-of-finland-a94342"
+      }
+     ],
+     "note": {
+      "en": "CONFIRMED, UPDATE, CONFLICT — Material update to 2026-11-21 main run D1. Finnish Border Guard confirmed life-raft crew evacuation, contradicting Russian regional governors who claimed evacuation was unnecessary.",
+      "he": "מאומת, עדכון, סתירה — עדכון מהותי לפריט ד1 במהדורה הראשית. משמר הגבול הפיני אישר פינוי צוות בסירות הצלה, בסתירה להודעות מושלים ברוסיה."
+     },
+     "s": {
+      "en": "UPDATE/CONFLICT: Finnish imagery shows Sparta II's bridge burnt out and crew rescued in life rafts as a Russian helicopter breached Finnish airspace off Loviisa.",
+      "he": "עדכון/סתירה: תיעוד פיני מאשר שגשר ספינת הנשק Sparta II נשרף וצוותה חולץ בסירות הצלה, במקביל לחדירת מסוק רוסי למרחב האווירי של פינלנד."
+     },
+     "photo": "img/j/D2.jpg"
+    },
+    {
+     "id": "D3",
+     "domain": "naval",
+     "priority": "standard",
+     "tier": "brief",
+     "statuses": [
+      "UNCONFIRMED"
+     ],
+     "country": "Iran / United States",
+     "countryHe": "איראן / ארצות הברית",
+     "type": "Naval Blockade & Maritime Confrontation",
+     "typeHe": "מצור ימי ועימות במפרץ",
+     "date": "2026-11-21",
+     "h": {
+      "en": "Briefly noted (UNCONFIRMED): Unofficial reports claim Iran assembling 14+ oil tanker convoy at Kharg Island to challenge U.S. naval blockade",
+      "he": "בקצרה (לא מאומת): דיווחים לא רשמיים טוענים כי איראן מרכזת שיירה של יותר מ-14 מכליות באי חארג לקראת ניסיון לפרוץ את המצור הימי האמריקאי"
+     },
+     "what": {
+      "en": "The Jerusalem Post reported on Nov 21 (18:29Z) that unofficial reports cited by Euronews Persian claim Iran has crewed and flagged more than 14 oil tankers near Kharg Island—handling 85–90% of Iran's crude exports—for a potential convoy toward the Gulf of Oman to break the U.S. naval blockade, alongside IRGC-aligned Fars News Agency threats against Gulf energy infrastructure and an earlier ~200,000-barrel ship-to-ship transfer between tankers Olim and Hao Fan. No independent confirmation of a convoy departure has emerged.",
+      "he": "עיתון Jerusalem Post דיווח ב-21 בנובמבר (18:29Z), בהסתמך על פרסומים לא-רשמיים ב-Euronews בפרסית, כי איראן מרכזת ליד האי חארג למעלה מ-14 מכליות מאוישות בדגל איראן לקראת אפשרות של שיגור שיירה לעבר מפרץ עומאן כדי לפרוץ את המצור הימי האמריקאי, לצד איומים בתקשורת המזוהה עם משמרות המהפכה נגד מתקני אנרגיה במפרץ. נכון לעכשיו אין אימות עצמאי ליציאת שיירה כזו."
+     },
+     "figs": {
+      "en": "Reported Convoy Size: >14 Iranian-flagged tankers near Kharg Island (unofficial reports; no departure confirmed). Context: Preceded by ~200,000-bbl Olim–Hao Fan STS transfer.",
+      "he": "היקף מדווח: מעל 14 מכליות בדגל איראן סמוך לאי חארג (דיווחים לא-רשמיים, ללא אישור יציאה). רקע: העברת כ-200 אלף חביות בין המכליות Olim ו-Hao Fan."
+     },
+     "why": {
+      "en": "Briefly noted in the digest per reader profile (unconfirmed maritime blockade-challenge report without confirmed deployment or hardware test).",
+      "he": "מסוכם בקצרה בהתאם לפרופיל הקורא (דיווח לא מאומת על היערכות ימית ללא יציאה מאושרת לים)."
+     },
+     "israel": {
+      "en": "Any armed clash over an Iranian blockade-running convoy in the Persian Gulf would escalate U.S.–Iran maritime conflict risks across regional sea lanes.",
+      "he": "עימות מזוין סביב ניסיון פריצת המצור האמריקאי במפרץ הפרסי עלול להוביל להסלמה ימית אזורית רחבה יותר מול איראן."
+     },
+     "src": [
+      {
+       "t": "The Jerusalem Post",
+       "u": "https://www.jpost.com/middle-east/iran-news/article-915644"
+      }
+     ],
+     "note": {
+      "en": "UNCONFIRMED — single source citing unofficial Euronews Persian reporting; convoy departure is not independently confirmed (article carried an April 2026 illustrative image, omitted cleanly).",
+      "he": "לא מאומת — מקור יחיד המצטט דיווחים לא-רשמיים; לא התקבל אימות עצמאי ליציאת שיירה (תמונת האילוסטרציה מ-2026 הושמטה)."
+     },
+     "s": {
+      "en": "Unofficial reports claim Iran is assembling 14+ tankers at Kharg Island to challenge the U.S. naval blockade amid IRGC threats to Gulf facilities.",
+      "he": "דיווחים לא-רשמיים טוענים כי איראן מרכזת מעל 14 מכליות באי חארג לפריצת המצור הימי האמריקאי לצד איומי משמרות המהפכה על מתקנים במפרץ."
+     }
+    }
+   ],
+   "digest": {
+    "bluf": {
+     "en": [
+      "U.S. Navy Hypersonic Destroyer Overhaul: NAVSEA published a May 2028–August 2030 Depot Modernization Period schedule and Dec 9 industry day for USS Michael Monsoor (DDG-1001) to replace its 155mm gun mounts with a 600-long-ton Large Missile Vertical Launch System holding up to 12 Conventional Prompt Strike hypersonic missiles (D1).",
+      "Baltic Maritime Escalation & Airspace Breach (UPDATE / CONFLICT): Finnish Border Guard afternoon updates and imagery confirmed burnt-out bridge and container damage on the drone-struck Russian military RoRo Sparta II alongside a life-raft crew rescue—contradicting Russian governors' claims—while a Russian helicopter penetrated ~4 km into Finnish airspace off Loviisa during response operations (D2).",
+      "Israeli Multi-Domain Readiness Drill: IDF Southern Command announced the multi-day 'Shield and Storm' ('Magen VeSa'ar') exercise starting Nov 22 across ground, air, naval, and civilian emergency forces to rehearse surprise-attack and multi-domain infiltration defense (B1).",
+      "Gulf Force Posture & Alerts: Bahrain's Ministry of Interior issued an urgent shelter-in-place alert over an unspecified 'potential threat' (A1), while unofficial reports cited by The Jerusalem Post claimed Iran is assembling 14+ oil tankers near Kharg Island to test the U.S. naval blockade (D3).",
+      "Allied Ties & Intelligence Space Launch: Canadian Defence Minister David McGuinty said Ottawa has seen no operational change in U.S. ties after Secretary Hegseth's classified memo while reiterating plans to reduce U.S. arms reliance (B2), and SpaceX readied Falcon 9 for Nov 22's NROL-136 proliferated intelligence satellite launch (B3)."
+     ],
+     "he": [
+      "הסבה היפרסונית למשחתת של הצי האמריקאי: NAVSEA הציגה לוח זמנים למודרניזציה של USS Michael Monsoor (DDG-1001) ממאי 2028 עד אוגוסט 2030 ויום תעשייה ב-9 בדצמבר להתקנת מודול LMVLS במשקל 600 טון ארוך עבור עד 12 טילי Conventional Prompt Strike היפרסוניים (ד1).",
+      "הסלמה בים הבלטי וחדירה אווירית (עדכון / סתירה): תצלומי משמר הגבול הפיני ועדכוני הערב אישרו כי גשר הפיקוד של ספינת הנשק הרוסית Sparta II נשרף והצוות חולץ בסירות הצלה — בסתירה לטענות מושלים רוסיים — בעוד מסוק רוסי חדר כ-4 ק\"מ למרחב האווירי של פינלנד מול לובייסה (ד2).",
+      "תרגיל מוכנות רב-זרועי בצה\"ל: פיקוד הדרום הכריז על התרגיל הנרחב 'מגן וסער' שייפתח ב-22 בנובמבר בהשתתפות כוחות יבשה, אוויר, ים וחירום אזרחיים לתרגול מתקפת פתע וחדירות רב-זרועיות (ב1).",
+      "כוננות ודיווחים ימיים במפרץ: משרד הפנים של בחריין הפעיל התרעת חירום דחופה מפני 'איום פוטנציאלי' לא מפורט (א1), ודיווחים לא מאומתים טענו כי איראן מרכזת יותר מ-14 מכליות נפט באי חארג לקראת ניסיון לפרוץ את המצור הימי האמריקאי (ד3).",
+      "קשרי הגנה ושיגור חלל ביטחוני: שר ההגנה של קנדה הבהיר כי לא נרשם שינוי אופרטיבי ביחסים עם ארה\"ב בעקבות מזכר הגסת' לצד שאיפה להפחתת תלות ברכש אמריקאי (ב2), ו-SpaceX נערכת לשיגור ב-22 בנובמבר של מקבץ לווייני הביון NROL-136 (ב3)."
+     ]
+    }
+   },
+   "notes": {
+    "en": [
+     "This evening digest covers open-source defense disclosures between 2026-11-21T15:24:00Z and 2026-11-21T18:52:00Z on 21 November 2026. Every cited source URL passed live HTTP 200 GET verification (verify_digest_integrity.py --strict); Naval News' primary DDG-1001 article (16:14Z) is cited via @navalnewscom and corroborated by Army Recognition because navalnews.com intermittently returns HTTP 503 to automated verification. Gmail MCP lacked an OAuth token in this session (matching the main run). All currency values use ISO notation (no dollar-sign character). Four authentic, event-specific source images are embedded (A1, B2, D1, D2); B1, B3, and D3 omit illustrative/archive photos cleanly. Analysis lines ('Why it matters' and 'Israel implications') represent analytical assessment."
+    ],
+    "he": [
+     "מהדורת ערב זו מכסה פרסומי ביטחון וטכנולוגיה ממקורות גלויים בין השעות ‪2026-11-21T15:24:00Z‬ ל-‪2026-11-21T18:52:00Z‬ ב-21 בנובמבר 2026. כל כתובות המקור אומתו עצמאית בבדיקת HTTP 200 חיה; דיווח Naval News על DDG-1001 מובא דרך חשבון X המאומת @navalnewscom ובאימות Army Recognition בשל שגיאות HTTP 503 זמניות בשרת האתר בבדיקה אוטומטית. חיבור Gmail MCP לא היה מאומת בסשן זה (בדומה למהדורה הראשית). ארבע תמונות מקור אותנטיות הוטמעו (א1, ב2, ד1, ד2); בפריטים ללא תצלום ייעודי מהאירוע הושמטו תמונות ארכיון/המחשה. כל הסכומים מוצגים בסימון מטבע תקני (ללא סימן דולר)."
+    ]
+   },
+   "runnotes": {
+    "en": [
+     "Defense Digest [AGY] Evening Run. Window covered: 2026-11-21T15:24:00Z – 2026-11-21T18:52:00Z. Reader profile applied: 3 full items, 4 briefly noted.",
+     "Country focus: Germany 0, UAE 0, Azerbaijan 0, Singapore 0, India 0, Morocco 0.",
+     "Watchdog check: Main [AGY] log verified in Drive (1PAp8Gp9zsku_FLWckAYrFhE9m_7Y5nXr) and Telegram delivery confirmed complete (digest/2026-11-21/sent_2026-11-21.json). Minimum search gate satisfied: 33 web queries, RSS/HTML listing sweeps across 54 trade/prime/MoD portals, 46-account X harvest (21 candidate tweets), and Gmail lead check attempted (unauthenticated OAuth). All cited URLs verified HTTP 200; 4 authentic source photos embedded."
+    ],
+    "he": [
+     "מהדורת ערב [AGY]. חלון זמן מכוסה: ‪2026-11-21T15:24:00Z – 2026-11-21T18:52:00Z‬. פרופיל קורא יושם: 3 פריטים מלאים, 4 בקצרה.",
+     "מיקוד מדינות: גרמניה 0, איחוד האמירויות 0, אזרבייג'ן 0, סינגפור 0, הודו 0, מרוקו 0.",
+     "בדיקת Watchdog: יומן [AGY] הראשי אומת בדרייב (1PAp8Gp9zsku_FLWckAYrFhE9m_7Y5nXr) ומסירת הטלגרם הושלמה (sent_2026-11-21.json). שער החיפוש המינימלי הושלם: 33 שאילתות חיפוש, סריקת RSS/רשימות ב-54 אתרי ביטחון/תעשייה/משרדי הגנה, איסוף מ-46 חשבונות X (21 ציוצים) וניסיון בדיקת Gmail. כל הקישורים אומתו HTTP 200; 4 תצלומי מקור אותנטיים הוטמעו."
+    ]
+   },
+   "watch": {
+    "en": [
+     "Track NAVSEA's Dec 9, 2026 industry day in Washington, D.C. for USS Michael Monsoor (DDG-1001) LMVLS heavy-lift and 2028–2030 CPS hypersonic integration contracts.",
+     "Monitor Finnish Border Guard investigation into the Russian helicopter airspace incursion off Loviisa and salvage/pollution outcomes for the burning RoRo Sparta II.",
+     "Watch for Bahrain Ministry of Interior all-clear or Bahrain Defense Force interception disclosures following the 18:29Z shelter-in-place alert.",
+     "Verify whether any Iranian oil tanker convoy actually departs Kharg Island toward the Gulf of Oman to test the U.S. naval blockade.",
+     "Confirm liftoff and booster LZ-4 recovery of SpaceX Falcon 9 carrying NROL-136 scheduled for Nov 22 at 12:16 UTC."
+    ],
+    "he": [
+     "מעקב אחר יום התעשייה של NAVSEA ב-9 בדצמבר 2026 בוושינגטון לקראת מכרזי הסבת USS Michael Monsoor (DDG-1001) להתקנת מודול LMVLS וטילי CPS היפרסוניים.",
+     "מעקב אחר חקירת משמר הגבול הפיני בעניין חדירת המסוק הרוסי מול לובייסה ומצב ספינת הנשק הבוערת Sparta II במים הטריטוריאליים של פינלנד.",
+     "מעקב אחר הודעת סיום כוננות או דיווחי יירוט של צבא בחריין בעקבות התרעת האיום הפוטנציאלי.",
+     "אימות האם שיירת מכליות איראנית אכן מפליגה מהאי חארג לכיוון מפרץ עומאן בניסיון לפרוץ את המצור הימי האמריקאי.",
+     "מעקב אחר שיגור לווייני הביון NROL-136 של משרד הסיור הלאומי האמריקאי על גבי טיל Falcon 9 המתוכנן ל-22 בנובמבר ב-12:16 UTC."
+    ]
+   },
+   "docs": {
+    "en": "https://docs.google.com/document/d/1VrxBRtJblFr_kGoHKyRAuw1lyJJCjEDHex0Cuq_vQM4/edit",
+    "he": "https://docs.google.com/document/d/1Xbfstkxk72-cYonZfrBa7FKoGnqPXAVbZkC6uqya7Ks/edit"
+   },
+   "pdf_ids": {
+    "Defense_Tech_Digest_2026-11-21_evening_AGY_EN.pdf": "1B5nR3EK6dHDl8AXJ4f4E_nNyfmlI1yOH",
+    "Defense_Tech_Digest_2026-11-21_evening_AGY_HE.pdf": "1Ku-TyfnKVbkqjnbjleufWzVuWS3vJ1fS",
+    "Defense_Team_Brief_2026-11-21_evening_AGY_EN.pdf": "1TvtHCC2O__DMVHrggE-LB9jIfoEap0aE",
+    "Defense_Team_Brief_2026-11-21_evening_AGY_HE.pdf": "15ZufXAUICmStVlwDNTerA_8W6Uto_TBK"
+   },
+   "photos": {
+    "A1": {
+     "file": "A1.jpg",
+     "url": "https://pbs.twimg.com/media/HXq0KE9XgAEpN9A.jpg",
+     "outlet": "Bahrain Ministry of Interior (via @sentdefender)",
+     "caption_en": "Official Bahrain Ministry of Interior 'Urgent Alert' notice issued on Nov 21, 2026 warning residents of a potential threat.",
+     "caption_he": "הודעת 'התרעה דחופה' רשמית של משרד הפנים בבחריין מ-21 בנובמבר 2026 הקוראת לתושבים להגיע למרחב מוגן.",
+     "credit_en": "Image: Bahrain Ministry of Interior (@moi_bahrain), via @sentdefender",
+     "credit_he": "דימוי: משרד הפנים של בחריין (@moi_bahrain), דרך @sentdefender",
+     "local_src": "img/2026-11-21-evening/A1.jpg"
+    },
+    "B2": {
+     "file": "B2.jpg",
+     "url": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IMG_3267-scaled-e1795282026322.jpeg",
+     "outlet": "Breaking Defense",
+     "caption_en": "Canadian Minister of National Defence David McGuinty (at podium) addressing reporters at the Halifax International Security Forum on Nov 21, 2026.",
+     "caption_he": "שר ההגנה הקנדי דייוויד מקגינטי בתדרוך עיתונאים בפורום הביטחון הבינלאומי בהליפקס, 21 בנובמבר 2026.",
+     "credit_en": "Photo: Ashley Roque / Breaking Defense",
+     "credit_he": "צילום: Ashley Roque / Breaking Defense",
+     "local_src": "img/2026-11-21-evening/B2.jpg"
+    },
+    "D1": {
+     "file": "D1.jpg",
+     "url": "https://www.armyrecognition.com/images/stories/news/2026/november/U.S.%20Navy%20Prepares%20600-Ton%20Hypersonic%20Launch%20Module%20for%20Second%20Zumwalt%20Destroyer.jpg",
+     "outlet": "Army Recognition",
+     "caption_en": "USS Michael Monsoor (DDG-1001) transiting the Pacific Ocean, showing the two forward 155mm gun mounts slated to be replaced by the 600-ton CPS hypersonic launch module.",
+     "caption_he": "המשחתת USS Michael Monsoor (DDG-1001) באוקיינוס השקט, עם צמד צריחי תותחי ה-155 מ\"מ הקדמיים שיוחלפו במודול השיגור ההיפרסוני LMVLS.",
+     "credit_en": "Photo: U.S. Navy, via Army Recognition",
+     "credit_he": "צילום: הצי האמריקאי, דרך Army Recognition",
+     "local_src": "img/2026-11-21-evening/D1.jpg"
+    },
+    "D2": {
+     "file": "D2.jpg",
+     "url": "https://maritime-executive.com/media/images/article/Photos/Wreckage_Salvage/Sparta-II-fire-Finnish-Border-Guard.jpg",
+     "outlet": "The Maritime Executive",
+     "caption_en": "Sanctioned Russian military-linked RoRo Sparta II smoking in the Gulf of Finland with a burnt-out forward bridge and life raft visible alongside on Nov 21, 2026.",
+     "caption_he": "ספינת התובלה הצבאית הרוסית Sparta II מעלה עשן במפרץ פינלנד עם גשר פיקוד שרוף וסירת הצלה במים, 21 בנובמבר 2026.",
+     "credit_en": "Photo: Finnish Border Guard, via The Maritime Executive",
+     "credit_he": "צילום: משמר הגבול הפיני, דרך The Maritime Executive",
+     "local_src": "img/2026-11-21-evening/D2.jpg"
     }
    }
   },
